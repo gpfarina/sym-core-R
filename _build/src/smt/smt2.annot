@@ -1,0 +1,6692 @@
+"src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  def smt2_of_smtvar "src/smt/smt2.ml" 10 103 103 "src/smt/smt2.ml" 1 0 -1
+)
+"src/smt/smt2.ml" 8 85 91 "src/smt/smt2.ml" 8 85 94
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def var "src/smt/smt2.ml" 8 85 98 "src/smt/smt2.ml" 8 85 101
+)
+"src/smt/smt2.ml" 8 85 98 "src/smt/smt2.ml" 8 85 101
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref var "src/smt/smt2.ml" 8 85 91 "src/smt/smt2.ml" 8 85 94
+)
+"src/smt/smt2.ml" 8 85 87 "src/smt/smt2.ml" 8 85 101
+type(
+  Smtsyntax.smtvar -> smt2
+)
+type(
+  Smtsyntax.smtvar -> smt2
+)
+"src/smt/smt2.ml" 10 103 107 "src/smt/smt2.ml" 10 103 123
+type(
+  Smtsyntax.smtconst -> smt2
+)
+ident(
+  def smt2_of_smtconst "src/smt/smt2.ml" 13 167 167 "src/smt/smt2.ml" 1 0 -1
+)
+"src/smt/smt2.ml" 11 145 151 "src/smt/smt2.ml" 11 145 156
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  def const "src/smt/smt2.ml" 11 145 160 "src/smt/smt2.ml" 11 145 165
+)
+"src/smt/smt2.ml" 11 145 160 "src/smt/smt2.ml" 11 145 165
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  int_ref const "src/smt/smt2.ml" 11 145 151 "src/smt/smt2.ml" 11 145 156
+)
+"src/smt/smt2.ml" 11 145 147 "src/smt/smt2.ml" 11 145 165
+type(
+  Smtsyntax.smtconst -> smt2
+)
+type(
+  Smtsyntax.smtconst -> smt2
+)
+"src/smt/smt2.ml" 13 167 171 "src/smt/smt2.ml" 13 167 187
+type(
+  Smtsyntax.smtlogic -> smt2
+)
+ident(
+  def smt2_of_smtlogic "src/smt/smt2.ml" 25 483 483 "src/smt/smt2.ml" 1 0 -1
+)
+"src/smt/smt2.ml" 14 209 215 "src/smt/smt2.ml" 14 209 220
+type(
+  Smtsyntax.smtlogic
+)
+ident(
+  def logic "src/smt/smt2.ml" 15 224 228 "src/smt/smt2.ml" 23 450 481
+)
+"src/smt/smt2.ml" 15 224 234 "src/smt/smt2.ml" 15 224 239
+type(
+  Smtsyntax.smtlogic
+)
+ident(
+  int_ref logic "src/smt/smt2.ml" 14 209 215 "src/smt/smt2.ml" 14 209 220
+)
+"src/smt/smt2.ml" 16 245 251 "src/smt/smt2.ml" 16 245 260
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smt2.ml" 16 245 264 "src/smt/smt2.ml" 16 245 269
+type(
+  smt2
+)
+"src/smt/smt2.ml" 17 270 276 "src/smt/smt2.ml" 17 270 286
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smt2.ml" 17 270 290 "src/smt/smt2.ml" 17 270 297
+type(
+  smt2
+)
+"src/smt/smt2.ml" 18 298 304 "src/smt/smt2.ml" 18 298 315
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smt2.ml" 18 298 319 "src/smt/smt2.ml" 18 298 327
+type(
+  smt2
+)
+"src/smt/smt2.ml" 19 328 334 "src/smt/smt2.ml" 19 328 345
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smt2.ml" 19 328 349 "src/smt/smt2.ml" 19 328 357
+type(
+  smt2
+)
+"src/smt/smt2.ml" 20 358 364 "src/smt/smt2.ml" 20 358 375
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smt2.ml" 20 358 379 "src/smt/smt2.ml" 20 358 387
+type(
+  smt2
+)
+"src/smt/smt2.ml" 21 388 394 "src/smt/smt2.ml" 21 388 405
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smt2.ml" 21 388 409 "src/smt/smt2.ml" 21 388 417
+type(
+  smt2
+)
+"src/smt/smt2.ml" 22 418 424 "src/smt/smt2.ml" 22 418 436
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smt2.ml" 22 418 440 "src/smt/smt2.ml" 22 418 449
+type(
+  smt2
+)
+"src/smt/smt2.ml" 23 450 456 "src/smt/smt2.ml" 23 450 468
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smt2.ml" 23 450 472 "src/smt/smt2.ml" 23 450 481
+type(
+  smt2
+)
+"src/smt/smt2.ml" 15 224 228 "src/smt/smt2.ml" 23 450 481
+type(
+  smt2
+)
+"src/smt/smt2.ml" 14 209 211 "src/smt/smt2.ml" 23 450 481
+type(
+  Smtsyntax.smtlogic -> smt2
+)
+type(
+  Smtsyntax.smtlogic -> smt2
+)
+"src/smt/smt2.ml" 25 483 491 "src/smt/smt2.ml" 25 483 506
+type(
+  Smtsyntax.smtsort -> smt2
+)
+ident(
+  def smt2_of_smtsort "src/smt/smt2.ml" 25 483 483 "src/smt/smt2.ml" 1 0 -1
+)
+"src/smt/smt2.ml" 26 527 533 "src/smt/smt2.ml" 26 527 537
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def sort "src/smt/smt2.ml" 27 541 545 "src/smt/smt2.ml" 37 920 984
+)
+"src/smt/smt2.ml" 27 541 551 "src/smt/smt2.ml" 27 541 555
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref sort "src/smt/smt2.ml" 26 527 533 "src/smt/smt2.ml" 26 527 537
+)
+"src/smt/smt2.ml" 28 561 567 "src/smt/smt2.ml" 28 561 577
+type(
+  Smtsyntax.smtsort
+)
+"src/smt/smt2.ml" 28 561 581 "src/smt/smt2.ml" 28 561 586
+type(
+  smt2
+)
+"src/smt/smt2.ml" 29 587 593 "src/smt/smt2.ml" 29 587 605
+type(
+  Smtsyntax.smtsort
+)
+"src/smt/smt2.ml" 29 587 609 "src/smt/smt2.ml" 29 587 615
+type(
+  smt2
+)
+"src/smt/smt2.ml" 30 616 636 "src/smt/smt2.ml" 30 616 637
+type(
+  int
+)
+ident(
+  def i "src/smt/smt2.ml" 30 616 641 "src/smt/smt2.ml" 30 616 677
+)
+"src/smt/smt2.ml" 30 616 622 "src/smt/smt2.ml" 30 616 637
+type(
+  Smtsyntax.smtsort
+)
+"src/smt/smt2.ml" 30 616 641 "src/smt/smt2.ml" 30 616 653
+type(
+  string
+)
+"src/smt/smt2.ml" 30 616 654 "src/smt/smt2.ml" 30 616 655
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 30 616 656 "src/smt/smt2.ml" 30 616 669
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/smt/smt2.ml" 30 616 670 "src/smt/smt2.ml" 30 616 671
+type(
+  int
+)
+ident(
+  int_ref i "src/smt/smt2.ml" 30 616 636 "src/smt/smt2.ml" 30 616 637
+)
+"src/smt/smt2.ml" 30 616 656 "src/smt/smt2.ml" 30 616 671
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 30 616 672 "src/smt/smt2.ml" 30 616 673
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 30 616 674 "src/smt/smt2.ml" 30 616 677
+type(
+  string
+)
+"src/smt/smt2.ml" 30 616 656 "src/smt/smt2.ml" 30 616 677
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 30 616 641 "src/smt/smt2.ml" 30 616 677
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 31 678 698 "src/smt/smt2.ml" 31 678 700
+type(
+  Smtsyntax.smtsort list
+)
+ident(
+  def is "src/smt/smt2.ml" 32 708 716 "src/smt/smt2.ml" 33 781 824
+)
+"src/smt/smt2.ml" 31 678 702 "src/smt/smt2.ml" 31 678 703
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def o "src/smt/smt2.ml" 32 708 716 "src/smt/smt2.ml" 33 781 824
+)
+"src/smt/smt2.ml" 31 678 684 "src/smt/smt2.ml" 31 678 704
+type(
+  Smtsyntax.smtsort
+)
+"src/smt/smt2.ml" 32 708 716 "src/smt/smt2.ml" 32 708 725
+type(
+  string
+)
+"src/smt/smt2.ml" 32 708 726 "src/smt/smt2.ml" 32 708 727
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 32 708 729 "src/smt/smt2.ml" 32 708 742
+type(
+  string -> smt2 list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smt2.ml" 32 708 743 "src/smt/smt2.ml" 32 708 746
+type(
+  string
+)
+"src/smt/smt2.ml" 32 708 748 "src/smt/smt2.ml" 32 708 751
+type(
+  (Smtsyntax.smtsort -> smt2) -> Smtsyntax.smtsort list -> smt2 list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smt2.ml" 32 708 752 "src/smt/smt2.ml" 32 708 767
+type(
+  Smtsyntax.smtsort -> smt2
+)
+ident(
+  int_ref smt2_of_smtsort "src/smt/smt2.ml" 25 483 491 "src/smt/smt2.ml" 25 483 506
+)
+"src/smt/smt2.ml" 32 708 768 "src/smt/smt2.ml" 32 708 770
+type(
+  Smtsyntax.smtsort list
+)
+ident(
+  int_ref is "src/smt/smt2.ml" 31 678 698 "src/smt/smt2.ml" 31 678 700
+)
+"src/smt/smt2.ml" 32 708 747 "src/smt/smt2.ml" 32 708 771
+call(
+  stack
+)
+type(
+  smt2 list
+)
+"src/smt/smt2.ml" 32 708 728 "src/smt/smt2.ml" 32 708 772
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 32 708 773 "src/smt/smt2.ml" 32 708 774
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 32 708 775 "src/smt/smt2.ml" 32 708 778
+type(
+  string
+)
+"src/smt/smt2.ml" 32 708 779 "src/smt/smt2.ml" 32 708 780
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 33 781 801 "src/smt/smt2.ml" 33 781 816
+type(
+  Smtsyntax.smtsort -> smt2
+)
+ident(
+  int_ref smt2_of_smtsort "src/smt/smt2.ml" 25 483 491 "src/smt/smt2.ml" 25 483 506
+)
+"src/smt/smt2.ml" 33 781 817 "src/smt/smt2.ml" 33 781 818
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref o "src/smt/smt2.ml" 31 678 702 "src/smt/smt2.ml" 31 678 703
+)
+"src/smt/smt2.ml" 33 781 801 "src/smt/smt2.ml" 33 781 818
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 33 781 819 "src/smt/smt2.ml" 33 781 820
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 33 781 821 "src/smt/smt2.ml" 33 781 824
+type(
+  string
+)
+"src/smt/smt2.ml" 33 781 801 "src/smt/smt2.ml" 33 781 824
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 32 708 775 "src/smt/smt2.ml" 33 781 824
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 32 708 728 "src/smt/smt2.ml" 33 781 824
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 32 708 716 "src/smt/smt2.ml" 33 781 824
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 34 825 831 "src/smt/smt2.ml" 34 825 842
+type(
+  Smtsyntax.smtsort
+)
+"src/smt/smt2.ml" 34 825 846 "src/smt/smt2.ml" 34 825 852
+type(
+  smt2
+)
+"src/smt/smt2.ml" 35 853 871 "src/smt/smt2.ml" 35 853 872
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 36 881 889 "src/smt/smt2.ml" 37 920 984
+)
+"src/smt/smt2.ml" 35 853 874 "src/smt/smt2.ml" 35 853 876
+type(
+  Smtsyntax.smtsort list
+)
+ident(
+  def ss "src/smt/smt2.ml" 36 881 889 "src/smt/smt2.ml" 37 920 984
+)
+"src/smt/smt2.ml" 35 853 859 "src/smt/smt2.ml" 35 853 877
+type(
+  Smtsyntax.smtsort
+)
+"src/smt/smt2.ml" 36 881 889 "src/smt/smt2.ml" 36 881 892
+type(
+  string
+)
+"src/smt/smt2.ml" 36 881 893 "src/smt/smt2.ml" 36 881 894
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 36 881 895 "src/smt/smt2.ml" 36 881 909
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 36 881 910 "src/smt/smt2.ml" 36 881 911
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 35 853 871 "src/smt/smt2.ml" 35 853 872
+)
+"src/smt/smt2.ml" 36 881 895 "src/smt/smt2.ml" 36 881 911
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 36 881 912 "src/smt/smt2.ml" 36 881 913
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 36 881 914 "src/smt/smt2.ml" 36 881 917
+type(
+  string
+)
+"src/smt/smt2.ml" 36 881 918 "src/smt/smt2.ml" 36 881 919
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 37 920 935 "src/smt/smt2.ml" 37 920 948
+type(
+  string -> smt2 list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smt2.ml" 37 920 949 "src/smt/smt2.ml" 37 920 952
+type(
+  string
+)
+"src/smt/smt2.ml" 37 920 954 "src/smt/smt2.ml" 37 920 957
+type(
+  (Smtsyntax.smtsort -> smt2) -> Smtsyntax.smtsort list -> smt2 list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smt2.ml" 37 920 958 "src/smt/smt2.ml" 37 920 973
+type(
+  Smtsyntax.smtsort -> smt2
+)
+ident(
+  int_ref smt2_of_smtsort "src/smt/smt2.ml" 25 483 491 "src/smt/smt2.ml" 25 483 506
+)
+"src/smt/smt2.ml" 37 920 974 "src/smt/smt2.ml" 37 920 976
+type(
+  Smtsyntax.smtsort list
+)
+ident(
+  int_ref ss "src/smt/smt2.ml" 35 853 874 "src/smt/smt2.ml" 35 853 876
+)
+"src/smt/smt2.ml" 37 920 953 "src/smt/smt2.ml" 37 920 977
+call(
+  stack
+)
+type(
+  smt2 list
+)
+"src/smt/smt2.ml" 37 920 934 "src/smt/smt2.ml" 37 920 978
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 37 920 979 "src/smt/smt2.ml" 37 920 980
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 37 920 981 "src/smt/smt2.ml" 37 920 984
+type(
+  string
+)
+"src/smt/smt2.ml" 37 920 934 "src/smt/smt2.ml" 37 920 984
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 36 881 914 "src/smt/smt2.ml" 37 920 984
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 36 881 895 "src/smt/smt2.ml" 37 920 984
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 36 881 889 "src/smt/smt2.ml" 37 920 984
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 27 541 545 "src/smt/smt2.ml" 37 920 984
+type(
+  smt2
+)
+"src/smt/smt2.ml" 26 527 529 "src/smt/smt2.ml" 37 920 984
+type(
+  Smtsyntax.smtsort -> smt2
+)
+type(
+  Smtsyntax.smtsort -> smt2
+)
+"src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  def smt2_of_smtexpr "src/smt/smt2.ml" 39 986 986 "src/smt/smt2.ml" 1 0 -1
+)
+"src/smt/smt2.ml" 40 1030 1036 "src/smt/smt2.ml" 40 1030 1043
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def smtexpr "src/smt/smt2.ml" 41 1047 1051 "src/smt/smt2.ml" 125 4306 4339
+)
+"src/smt/smt2.ml" 41 1047 1057 "src/smt/smt2.ml" 41 1047 1064
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref smtexpr "src/smt/smt2.ml" 40 1030 1036 "src/smt/smt2.ml" 40 1030 1043
+)
+"src/smt/smt2.ml" 42 1070 1083 "src/smt/smt2.ml" 42 1070 1084
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 42 1070 1088 "src/smt/smt2.ml" 42 1070 1104
+)
+"src/smt/smt2.ml" 42 1070 1076 "src/smt/smt2.ml" 42 1070 1084
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 42 1070 1088 "src/smt/smt2.ml" 42 1070 1102
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 42 1070 1103 "src/smt/smt2.ml" 42 1070 1104
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 42 1070 1083 "src/smt/smt2.ml" 42 1070 1084
+)
+"src/smt/smt2.ml" 42 1070 1088 "src/smt/smt2.ml" 42 1070 1104
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 43 1105 1125 "src/smt/smt2.ml" 43 1105 1126
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 44 1135 1143 "src/smt/smt2.ml" 45 1176 1234
+)
+"src/smt/smt2.ml" 43 1105 1128 "src/smt/smt2.ml" 43 1105 1130
+type(
+  int list
+)
+ident(
+  def is "src/smt/smt2.ml" 44 1135 1143 "src/smt/smt2.ml" 45 1176 1234
+)
+"src/smt/smt2.ml" 43 1105 1111 "src/smt/smt2.ml" 43 1105 1131
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 44 1135 1143 "src/smt/smt2.ml" 44 1135 1148
+type(
+  string
+)
+"src/smt/smt2.ml" 44 1135 1149 "src/smt/smt2.ml" 44 1135 1150
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 44 1135 1151 "src/smt/smt2.ml" 44 1135 1165
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 44 1135 1166 "src/smt/smt2.ml" 44 1135 1167
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 43 1105 1125 "src/smt/smt2.ml" 43 1105 1126
+)
+"src/smt/smt2.ml" 44 1135 1151 "src/smt/smt2.ml" 44 1135 1167
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 44 1135 1168 "src/smt/smt2.ml" 44 1135 1169
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 44 1135 1170 "src/smt/smt2.ml" 44 1135 1173
+type(
+  string
+)
+"src/smt/smt2.ml" 44 1135 1174 "src/smt/smt2.ml" 44 1135 1175
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 45 1176 1187 "src/smt/smt2.ml" 45 1176 1200
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smt2.ml" 45 1176 1201 "src/smt/smt2.ml" 45 1176 1204
+type(
+  string
+)
+"src/smt/smt2.ml" 45 1176 1206 "src/smt/smt2.ml" 45 1176 1209
+type(
+  (int -> string) -> int list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smt2.ml" 45 1176 1210 "src/smt/smt2.ml" 45 1176 1223
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/smt/smt2.ml" 45 1176 1224 "src/smt/smt2.ml" 45 1176 1226
+type(
+  int list
+)
+ident(
+  int_ref is "src/smt/smt2.ml" 43 1105 1128 "src/smt/smt2.ml" 43 1105 1130
+)
+"src/smt/smt2.ml" 45 1176 1205 "src/smt/smt2.ml" 45 1176 1227
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smt2.ml" 45 1176 1186 "src/smt/smt2.ml" 45 1176 1228
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 45 1176 1229 "src/smt/smt2.ml" 45 1176 1230
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 45 1176 1231 "src/smt/smt2.ml" 45 1176 1234
+type(
+  string
+)
+"src/smt/smt2.ml" 45 1176 1186 "src/smt/smt2.ml" 45 1176 1234
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 44 1135 1170 "src/smt/smt2.ml" 45 1176 1234
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 44 1135 1151 "src/smt/smt2.ml" 45 1176 1234
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 44 1135 1143 "src/smt/smt2.ml" 45 1176 1234
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 46 1235 1255 "src/smt/smt2.ml" 46 1235 1257
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v1 "src/smt/smt2.ml" 47 1266 1274 "src/smt/smt2.ml" 47 1266 1331
+)
+"src/smt/smt2.ml" 46 1235 1259 "src/smt/smt2.ml" 46 1235 1261
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v2 "src/smt/smt2.ml" 47 1266 1274 "src/smt/smt2.ml" 47 1266 1331
+)
+"src/smt/smt2.ml" 46 1235 1241 "src/smt/smt2.ml" 46 1235 1262
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 47 1266 1274 "src/smt/smt2.ml" 47 1266 1279
+type(
+  string
+)
+"src/smt/smt2.ml" 47 1266 1280 "src/smt/smt2.ml" 47 1266 1281
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 47 1266 1282 "src/smt/smt2.ml" 47 1266 1296
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 47 1266 1297 "src/smt/smt2.ml" 47 1266 1299
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v1 "src/smt/smt2.ml" 46 1235 1255 "src/smt/smt2.ml" 46 1235 1257
+)
+"src/smt/smt2.ml" 47 1266 1282 "src/smt/smt2.ml" 47 1266 1299
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 47 1266 1300 "src/smt/smt2.ml" 47 1266 1301
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 47 1266 1302 "src/smt/smt2.ml" 47 1266 1305
+type(
+  string
+)
+"src/smt/smt2.ml" 47 1266 1306 "src/smt/smt2.ml" 47 1266 1307
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 47 1266 1308 "src/smt/smt2.ml" 47 1266 1322
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 47 1266 1323 "src/smt/smt2.ml" 47 1266 1325
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v2 "src/smt/smt2.ml" 46 1235 1259 "src/smt/smt2.ml" 46 1235 1261
+)
+"src/smt/smt2.ml" 47 1266 1308 "src/smt/smt2.ml" 47 1266 1325
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 47 1266 1326 "src/smt/smt2.ml" 47 1266 1327
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 47 1266 1328 "src/smt/smt2.ml" 47 1266 1331
+type(
+  string
+)
+"src/smt/smt2.ml" 47 1266 1308 "src/smt/smt2.ml" 47 1266 1331
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 47 1266 1302 "src/smt/smt2.ml" 47 1266 1331
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 47 1266 1282 "src/smt/smt2.ml" 47 1266 1331
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 47 1266 1274 "src/smt/smt2.ml" 47 1266 1331
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 48 1332 1354 "src/smt/smt2.ml" 48 1332 1355
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 49 1363 1371 "src/smt/smt2.ml" 49 1363 1428
+)
+"src/smt/smt2.ml" 48 1332 1357 "src/smt/smt2.ml" 48 1332 1358
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def s "src/smt/smt2.ml" 49 1363 1371 "src/smt/smt2.ml" 49 1363 1428
+)
+"src/smt/smt2.ml" 48 1332 1338 "src/smt/smt2.ml" 48 1332 1359
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 49 1363 1371 "src/smt/smt2.ml" 49 1363 1377
+type(
+  string
+)
+"src/smt/smt2.ml" 49 1363 1378 "src/smt/smt2.ml" 49 1363 1379
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 49 1363 1380 "src/smt/smt2.ml" 49 1363 1394
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 49 1363 1395 "src/smt/smt2.ml" 49 1363 1396
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 48 1332 1354 "src/smt/smt2.ml" 48 1332 1355
+)
+"src/smt/smt2.ml" 49 1363 1380 "src/smt/smt2.ml" 49 1363 1396
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 49 1363 1397 "src/smt/smt2.ml" 49 1363 1398
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 49 1363 1399 "src/smt/smt2.ml" 49 1363 1402
+type(
+  string
+)
+"src/smt/smt2.ml" 49 1363 1403 "src/smt/smt2.ml" 49 1363 1404
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 49 1363 1405 "src/smt/smt2.ml" 49 1363 1420
+type(
+  Smtsyntax.smtsort -> smt2
+)
+ident(
+  int_ref smt2_of_smtsort "src/smt/smt2.ml" 25 483 491 "src/smt/smt2.ml" 25 483 506
+)
+"src/smt/smt2.ml" 49 1363 1421 "src/smt/smt2.ml" 49 1363 1422
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref s "src/smt/smt2.ml" 48 1332 1357 "src/smt/smt2.ml" 48 1332 1358
+)
+"src/smt/smt2.ml" 49 1363 1405 "src/smt/smt2.ml" 49 1363 1422
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 49 1363 1423 "src/smt/smt2.ml" 49 1363 1424
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 49 1363 1425 "src/smt/smt2.ml" 49 1363 1428
+type(
+  string
+)
+"src/smt/smt2.ml" 49 1363 1405 "src/smt/smt2.ml" 49 1363 1428
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 49 1363 1399 "src/smt/smt2.ml" 49 1363 1428
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 49 1363 1380 "src/smt/smt2.ml" 49 1363 1428
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 49 1363 1371 "src/smt/smt2.ml" 49 1363 1428
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 50 1429 1450 "src/smt/smt2.ml" 50 1429 1452
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v1 "src/smt/smt2.ml" 51 1461 1469 "src/smt/smt2.ml" 51 1461 1527
+)
+"src/smt/smt2.ml" 50 1429 1454 "src/smt/smt2.ml" 50 1429 1456
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v2 "src/smt/smt2.ml" 51 1461 1469 "src/smt/smt2.ml" 51 1461 1527
+)
+"src/smt/smt2.ml" 50 1429 1435 "src/smt/smt2.ml" 50 1429 1457
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 51 1461 1469 "src/smt/smt2.ml" 51 1461 1475
+type(
+  string
+)
+"src/smt/smt2.ml" 51 1461 1476 "src/smt/smt2.ml" 51 1461 1477
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 51 1461 1478 "src/smt/smt2.ml" 51 1461 1492
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 51 1461 1493 "src/smt/smt2.ml" 51 1461 1495
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v1 "src/smt/smt2.ml" 50 1429 1450 "src/smt/smt2.ml" 50 1429 1452
+)
+"src/smt/smt2.ml" 51 1461 1478 "src/smt/smt2.ml" 51 1461 1495
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 51 1461 1496 "src/smt/smt2.ml" 51 1461 1497
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 51 1461 1498 "src/smt/smt2.ml" 51 1461 1501
+type(
+  string
+)
+"src/smt/smt2.ml" 51 1461 1502 "src/smt/smt2.ml" 51 1461 1503
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 51 1461 1504 "src/smt/smt2.ml" 51 1461 1518
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 51 1461 1519 "src/smt/smt2.ml" 51 1461 1521
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v2 "src/smt/smt2.ml" 50 1429 1454 "src/smt/smt2.ml" 50 1429 1456
+)
+"src/smt/smt2.ml" 51 1461 1504 "src/smt/smt2.ml" 51 1461 1521
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 51 1461 1522 "src/smt/smt2.ml" 51 1461 1523
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 51 1461 1524 "src/smt/smt2.ml" 51 1461 1527
+type(
+  string
+)
+"src/smt/smt2.ml" 51 1461 1504 "src/smt/smt2.ml" 51 1461 1527
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 51 1461 1498 "src/smt/smt2.ml" 51 1461 1527
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 51 1461 1478 "src/smt/smt2.ml" 51 1461 1527
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 51 1461 1469 "src/smt/smt2.ml" 51 1461 1527
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 52 1528 1543 "src/smt/smt2.ml" 52 1528 1544
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  def c "src/smt/smt2.ml" 52 1528 1548 "src/smt/smt2.ml" 52 1528 1566
+)
+"src/smt/smt2.ml" 52 1528 1534 "src/smt/smt2.ml" 52 1528 1544
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 52 1528 1548 "src/smt/smt2.ml" 52 1528 1564
+type(
+  Smtsyntax.smtconst -> smt2
+)
+ident(
+  int_ref smt2_of_smtconst "src/smt/smt2.ml" 10 103 107 "src/smt/smt2.ml" 10 103 123
+)
+"src/smt/smt2.ml" 52 1528 1565 "src/smt/smt2.ml" 52 1528 1566
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  int_ref c "src/smt/smt2.ml" 52 1528 1543 "src/smt/smt2.ml" 52 1528 1544
+)
+"src/smt/smt2.ml" 52 1528 1548 "src/smt/smt2.ml" 52 1528 1566
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 54 1568 1581 "src/smt/smt2.ml" 54 1568 1583
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 55 1592 1600 "src/smt/smt2.ml" 55 1592 1659
+)
+"src/smt/smt2.ml" 54 1568 1585 "src/smt/smt2.ml" 54 1568 1587
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 55 1592 1600 "src/smt/smt2.ml" 55 1592 1659
+)
+"src/smt/smt2.ml" 54 1568 1574 "src/smt/smt2.ml" 54 1568 1588
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 55 1592 1600 "src/smt/smt2.ml" 55 1592 1605
+type(
+  string
+)
+"src/smt/smt2.ml" 55 1592 1606 "src/smt/smt2.ml" 55 1592 1607
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 55 1592 1608 "src/smt/smt2.ml" 55 1592 1623
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 55 1592 1624 "src/smt/smt2.ml" 55 1592 1626
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 54 1568 1581 "src/smt/smt2.ml" 54 1568 1583
+)
+"src/smt/smt2.ml" 55 1592 1608 "src/smt/smt2.ml" 55 1592 1626
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 55 1592 1627 "src/smt/smt2.ml" 55 1592 1628
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 55 1592 1629 "src/smt/smt2.ml" 55 1592 1632
+type(
+  string
+)
+"src/smt/smt2.ml" 55 1592 1633 "src/smt/smt2.ml" 55 1592 1634
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 55 1592 1635 "src/smt/smt2.ml" 55 1592 1650
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 55 1592 1651 "src/smt/smt2.ml" 55 1592 1653
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 54 1568 1585 "src/smt/smt2.ml" 54 1568 1587
+)
+"src/smt/smt2.ml" 55 1592 1635 "src/smt/smt2.ml" 55 1592 1653
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 55 1592 1654 "src/smt/smt2.ml" 55 1592 1655
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 55 1592 1656 "src/smt/smt2.ml" 55 1592 1659
+type(
+  string
+)
+"src/smt/smt2.ml" 55 1592 1635 "src/smt/smt2.ml" 55 1592 1659
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 55 1592 1629 "src/smt/smt2.ml" 55 1592 1659
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 55 1592 1608 "src/smt/smt2.ml" 55 1592 1659
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 55 1592 1600 "src/smt/smt2.ml" 55 1592 1659
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 57 1661 1674 "src/smt/smt2.ml" 57 1661 1676
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 58 1685 1693 "src/smt/smt2.ml" 58 1685 1753
+)
+"src/smt/smt2.ml" 57 1661 1678 "src/smt/smt2.ml" 57 1661 1680
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 58 1685 1693 "src/smt/smt2.ml" 58 1685 1753
+)
+"src/smt/smt2.ml" 57 1661 1667 "src/smt/smt2.ml" 57 1661 1681
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 58 1685 1693 "src/smt/smt2.ml" 58 1685 1699
+type(
+  string
+)
+"src/smt/smt2.ml" 58 1685 1700 "src/smt/smt2.ml" 58 1685 1701
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 58 1685 1702 "src/smt/smt2.ml" 58 1685 1717
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 58 1685 1718 "src/smt/smt2.ml" 58 1685 1720
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 57 1661 1674 "src/smt/smt2.ml" 57 1661 1676
+)
+"src/smt/smt2.ml" 58 1685 1702 "src/smt/smt2.ml" 58 1685 1720
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 58 1685 1721 "src/smt/smt2.ml" 58 1685 1722
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 58 1685 1723 "src/smt/smt2.ml" 58 1685 1726
+type(
+  string
+)
+"src/smt/smt2.ml" 58 1685 1727 "src/smt/smt2.ml" 58 1685 1728
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 58 1685 1729 "src/smt/smt2.ml" 58 1685 1744
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 58 1685 1745 "src/smt/smt2.ml" 58 1685 1747
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 57 1661 1678 "src/smt/smt2.ml" 57 1661 1680
+)
+"src/smt/smt2.ml" 58 1685 1729 "src/smt/smt2.ml" 58 1685 1747
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 58 1685 1748 "src/smt/smt2.ml" 58 1685 1749
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 58 1685 1750 "src/smt/smt2.ml" 58 1685 1753
+type(
+  string
+)
+"src/smt/smt2.ml" 58 1685 1729 "src/smt/smt2.ml" 58 1685 1753
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 58 1685 1723 "src/smt/smt2.ml" 58 1685 1753
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 58 1685 1702 "src/smt/smt2.ml" 58 1685 1753
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 58 1685 1693 "src/smt/smt2.ml" 58 1685 1753
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 59 1754 1767 "src/smt/smt2.ml" 59 1754 1769
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 60 1778 1786 "src/smt/smt2.ml" 60 1778 1845
+)
+"src/smt/smt2.ml" 59 1754 1771 "src/smt/smt2.ml" 59 1754 1773
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 60 1778 1786 "src/smt/smt2.ml" 60 1778 1845
+)
+"src/smt/smt2.ml" 59 1754 1760 "src/smt/smt2.ml" 59 1754 1774
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 60 1778 1786 "src/smt/smt2.ml" 60 1778 1791
+type(
+  string
+)
+"src/smt/smt2.ml" 60 1778 1792 "src/smt/smt2.ml" 60 1778 1793
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 60 1778 1794 "src/smt/smt2.ml" 60 1778 1809
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 60 1778 1810 "src/smt/smt2.ml" 60 1778 1812
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 59 1754 1767 "src/smt/smt2.ml" 59 1754 1769
+)
+"src/smt/smt2.ml" 60 1778 1794 "src/smt/smt2.ml" 60 1778 1812
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 60 1778 1813 "src/smt/smt2.ml" 60 1778 1814
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 60 1778 1815 "src/smt/smt2.ml" 60 1778 1818
+type(
+  string
+)
+"src/smt/smt2.ml" 60 1778 1819 "src/smt/smt2.ml" 60 1778 1820
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 60 1778 1821 "src/smt/smt2.ml" 60 1778 1836
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 60 1778 1837 "src/smt/smt2.ml" 60 1778 1839
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 59 1754 1771 "src/smt/smt2.ml" 59 1754 1773
+)
+"src/smt/smt2.ml" 60 1778 1821 "src/smt/smt2.ml" 60 1778 1839
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 60 1778 1840 "src/smt/smt2.ml" 60 1778 1841
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 60 1778 1842 "src/smt/smt2.ml" 60 1778 1845
+type(
+  string
+)
+"src/smt/smt2.ml" 60 1778 1821 "src/smt/smt2.ml" 60 1778 1845
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 60 1778 1815 "src/smt/smt2.ml" 60 1778 1845
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 60 1778 1794 "src/smt/smt2.ml" 60 1778 1845
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 60 1778 1786 "src/smt/smt2.ml" 60 1778 1845
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 61 1846 1859 "src/smt/smt2.ml" 61 1846 1861
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 62 1870 1878 "src/smt/smt2.ml" 62 1870 1938
+)
+"src/smt/smt2.ml" 61 1846 1863 "src/smt/smt2.ml" 61 1846 1865
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 62 1870 1878 "src/smt/smt2.ml" 62 1870 1938
+)
+"src/smt/smt2.ml" 61 1846 1852 "src/smt/smt2.ml" 61 1846 1866
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 62 1870 1878 "src/smt/smt2.ml" 62 1870 1884
+type(
+  string
+)
+"src/smt/smt2.ml" 62 1870 1885 "src/smt/smt2.ml" 62 1870 1886
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 62 1870 1887 "src/smt/smt2.ml" 62 1870 1902
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 62 1870 1903 "src/smt/smt2.ml" 62 1870 1905
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 61 1846 1859 "src/smt/smt2.ml" 61 1846 1861
+)
+"src/smt/smt2.ml" 62 1870 1887 "src/smt/smt2.ml" 62 1870 1905
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 62 1870 1906 "src/smt/smt2.ml" 62 1870 1907
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 62 1870 1908 "src/smt/smt2.ml" 62 1870 1911
+type(
+  string
+)
+"src/smt/smt2.ml" 62 1870 1912 "src/smt/smt2.ml" 62 1870 1913
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 62 1870 1914 "src/smt/smt2.ml" 62 1870 1929
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 62 1870 1930 "src/smt/smt2.ml" 62 1870 1932
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 61 1846 1863 "src/smt/smt2.ml" 61 1846 1865
+)
+"src/smt/smt2.ml" 62 1870 1914 "src/smt/smt2.ml" 62 1870 1932
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 62 1870 1933 "src/smt/smt2.ml" 62 1870 1934
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 62 1870 1935 "src/smt/smt2.ml" 62 1870 1938
+type(
+  string
+)
+"src/smt/smt2.ml" 62 1870 1914 "src/smt/smt2.ml" 62 1870 1938
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 62 1870 1908 "src/smt/smt2.ml" 62 1870 1938
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 62 1870 1887 "src/smt/smt2.ml" 62 1870 1938
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 62 1870 1878 "src/smt/smt2.ml" 62 1870 1938
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 63 1939 1952 "src/smt/smt2.ml" 63 1939 1954
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 64 1963 1971 "src/smt/smt2.ml" 64 1963 2030
+)
+"src/smt/smt2.ml" 63 1939 1956 "src/smt/smt2.ml" 63 1939 1958
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 64 1963 1971 "src/smt/smt2.ml" 64 1963 2030
+)
+"src/smt/smt2.ml" 63 1939 1945 "src/smt/smt2.ml" 63 1939 1959
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 64 1963 1971 "src/smt/smt2.ml" 64 1963 1976
+type(
+  string
+)
+"src/smt/smt2.ml" 64 1963 1977 "src/smt/smt2.ml" 64 1963 1978
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 64 1963 1979 "src/smt/smt2.ml" 64 1963 1994
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 64 1963 1995 "src/smt/smt2.ml" 64 1963 1997
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 63 1939 1952 "src/smt/smt2.ml" 63 1939 1954
+)
+"src/smt/smt2.ml" 64 1963 1979 "src/smt/smt2.ml" 64 1963 1997
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 64 1963 1998 "src/smt/smt2.ml" 64 1963 1999
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 64 1963 2000 "src/smt/smt2.ml" 64 1963 2003
+type(
+  string
+)
+"src/smt/smt2.ml" 64 1963 2004 "src/smt/smt2.ml" 64 1963 2005
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 64 1963 2006 "src/smt/smt2.ml" 64 1963 2021
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 64 1963 2022 "src/smt/smt2.ml" 64 1963 2024
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 63 1939 1956 "src/smt/smt2.ml" 63 1939 1958
+)
+"src/smt/smt2.ml" 64 1963 2006 "src/smt/smt2.ml" 64 1963 2024
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 64 1963 2025 "src/smt/smt2.ml" 64 1963 2026
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 64 1963 2027 "src/smt/smt2.ml" 64 1963 2030
+type(
+  string
+)
+"src/smt/smt2.ml" 64 1963 2006 "src/smt/smt2.ml" 64 1963 2030
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 64 1963 2000 "src/smt/smt2.ml" 64 1963 2030
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 64 1963 1979 "src/smt/smt2.ml" 64 1963 2030
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 64 1963 1971 "src/smt/smt2.ml" 64 1963 2030
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 65 2031 2045 "src/smt/smt2.ml" 65 2031 2047
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 66 2056 2064 "src/smt/smt2.ml" 66 2056 2129
+)
+"src/smt/smt2.ml" 65 2031 2049 "src/smt/smt2.ml" 65 2031 2051
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 66 2056 2064 "src/smt/smt2.ml" 66 2056 2129
+)
+"src/smt/smt2.ml" 65 2031 2037 "src/smt/smt2.ml" 65 2031 2052
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 66 2056 2064 "src/smt/smt2.ml" 66 2056 2074
+type(
+  string
+)
+"src/smt/smt2.ml" 66 2056 2075 "src/smt/smt2.ml" 66 2056 2076
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 66 2056 2077 "src/smt/smt2.ml" 66 2056 2092
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 66 2056 2093 "src/smt/smt2.ml" 66 2056 2095
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 65 2031 2045 "src/smt/smt2.ml" 65 2031 2047
+)
+"src/smt/smt2.ml" 66 2056 2077 "src/smt/smt2.ml" 66 2056 2095
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 66 2056 2096 "src/smt/smt2.ml" 66 2056 2097
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 66 2056 2098 "src/smt/smt2.ml" 66 2056 2101
+type(
+  string
+)
+"src/smt/smt2.ml" 66 2056 2102 "src/smt/smt2.ml" 66 2056 2103
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 66 2056 2104 "src/smt/smt2.ml" 66 2056 2119
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 66 2056 2120 "src/smt/smt2.ml" 66 2056 2122
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 65 2031 2049 "src/smt/smt2.ml" 65 2031 2051
+)
+"src/smt/smt2.ml" 66 2056 2104 "src/smt/smt2.ml" 66 2056 2122
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 66 2056 2123 "src/smt/smt2.ml" 66 2056 2124
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 66 2056 2125 "src/smt/smt2.ml" 66 2056 2129
+type(
+  string
+)
+"src/smt/smt2.ml" 66 2056 2104 "src/smt/smt2.ml" 66 2056 2129
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 66 2056 2098 "src/smt/smt2.ml" 66 2056 2129
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 66 2056 2077 "src/smt/smt2.ml" 66 2056 2129
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 66 2056 2064 "src/smt/smt2.ml" 66 2056 2129
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 68 2131 2145 "src/smt/smt2.ml" 68 2131 2147
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 69 2156 2164 "src/smt/smt2.ml" 69 2156 2225
+)
+"src/smt/smt2.ml" 68 2131 2149 "src/smt/smt2.ml" 68 2131 2151
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 69 2156 2164 "src/smt/smt2.ml" 69 2156 2225
+)
+"src/smt/smt2.ml" 68 2131 2137 "src/smt/smt2.ml" 68 2131 2152
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 69 2156 2164 "src/smt/smt2.ml" 69 2156 2171
+type(
+  string
+)
+"src/smt/smt2.ml" 69 2156 2172 "src/smt/smt2.ml" 69 2156 2173
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 69 2156 2174 "src/smt/smt2.ml" 69 2156 2189
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 69 2156 2190 "src/smt/smt2.ml" 69 2156 2192
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 68 2131 2145 "src/smt/smt2.ml" 68 2131 2147
+)
+"src/smt/smt2.ml" 69 2156 2174 "src/smt/smt2.ml" 69 2156 2192
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 69 2156 2193 "src/smt/smt2.ml" 69 2156 2194
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 69 2156 2195 "src/smt/smt2.ml" 69 2156 2198
+type(
+  string
+)
+"src/smt/smt2.ml" 69 2156 2199 "src/smt/smt2.ml" 69 2156 2200
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 69 2156 2201 "src/smt/smt2.ml" 69 2156 2216
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 69 2156 2217 "src/smt/smt2.ml" 69 2156 2219
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 68 2131 2149 "src/smt/smt2.ml" 68 2131 2151
+)
+"src/smt/smt2.ml" 69 2156 2201 "src/smt/smt2.ml" 69 2156 2219
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 69 2156 2220 "src/smt/smt2.ml" 69 2156 2221
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 69 2156 2222 "src/smt/smt2.ml" 69 2156 2225
+type(
+  string
+)
+"src/smt/smt2.ml" 69 2156 2201 "src/smt/smt2.ml" 69 2156 2225
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 69 2156 2195 "src/smt/smt2.ml" 69 2156 2225
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 69 2156 2174 "src/smt/smt2.ml" 69 2156 2225
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 69 2156 2164 "src/smt/smt2.ml" 69 2156 2225
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 70 2226 2239 "src/smt/smt2.ml" 70 2226 2241
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 71 2250 2258 "src/smt/smt2.ml" 71 2250 2318
+)
+"src/smt/smt2.ml" 70 2226 2243 "src/smt/smt2.ml" 70 2226 2245
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 71 2250 2258 "src/smt/smt2.ml" 71 2250 2318
+)
+"src/smt/smt2.ml" 70 2226 2232 "src/smt/smt2.ml" 70 2226 2246
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 71 2250 2258 "src/smt/smt2.ml" 71 2250 2264
+type(
+  string
+)
+"src/smt/smt2.ml" 71 2250 2265 "src/smt/smt2.ml" 71 2250 2266
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 71 2250 2267 "src/smt/smt2.ml" 71 2250 2282
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 71 2250 2283 "src/smt/smt2.ml" 71 2250 2285
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 70 2226 2239 "src/smt/smt2.ml" 70 2226 2241
+)
+"src/smt/smt2.ml" 71 2250 2267 "src/smt/smt2.ml" 71 2250 2285
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 71 2250 2286 "src/smt/smt2.ml" 71 2250 2287
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 71 2250 2288 "src/smt/smt2.ml" 71 2250 2291
+type(
+  string
+)
+"src/smt/smt2.ml" 71 2250 2292 "src/smt/smt2.ml" 71 2250 2293
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 71 2250 2294 "src/smt/smt2.ml" 71 2250 2309
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 71 2250 2310 "src/smt/smt2.ml" 71 2250 2312
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 70 2226 2243 "src/smt/smt2.ml" 70 2226 2245
+)
+"src/smt/smt2.ml" 71 2250 2294 "src/smt/smt2.ml" 71 2250 2312
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 71 2250 2313 "src/smt/smt2.ml" 71 2250 2314
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 71 2250 2315 "src/smt/smt2.ml" 71 2250 2318
+type(
+  string
+)
+"src/smt/smt2.ml" 71 2250 2294 "src/smt/smt2.ml" 71 2250 2318
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 71 2250 2288 "src/smt/smt2.ml" 71 2250 2318
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 71 2250 2267 "src/smt/smt2.ml" 71 2250 2318
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 71 2250 2258 "src/smt/smt2.ml" 71 2250 2318
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 72 2319 2333 "src/smt/smt2.ml" 72 2319 2335
+ident(
+  def e1 "src/smt/smt2.ml" 73 2340 2348 "src/smt/smt2.ml" 73 2340 2382
+)
+"src/smt/smt2.ml" 72 2319 2332 "src/smt/smt2.ml" 72 2319 2336
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 72 2319 2325 "src/smt/smt2.ml" 72 2319 2336
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 73 2340 2348 "src/smt/smt2.ml" 73 2340 2355
+type(
+  string
+)
+"src/smt/smt2.ml" 73 2340 2356 "src/smt/smt2.ml" 73 2340 2357
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 73 2340 2358 "src/smt/smt2.ml" 73 2340 2373
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 73 2340 2374 "src/smt/smt2.ml" 73 2340 2376
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 72 2319 2332 "src/smt/smt2.ml" 72 2319 2336
+)
+"src/smt/smt2.ml" 73 2340 2358 "src/smt/smt2.ml" 73 2340 2376
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 73 2340 2377 "src/smt/smt2.ml" 73 2340 2378
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 73 2340 2379 "src/smt/smt2.ml" 73 2340 2382
+type(
+  string
+)
+"src/smt/smt2.ml" 73 2340 2358 "src/smt/smt2.ml" 73 2340 2382
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 73 2340 2348 "src/smt/smt2.ml" 73 2340 2382
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 74 2383 2397 "src/smt/smt2.ml" 74 2383 2399
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 75 2408 2416 "src/smt/smt2.ml" 75 2408 2476
+)
+"src/smt/smt2.ml" 74 2383 2401 "src/smt/smt2.ml" 74 2383 2403
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 75 2408 2416 "src/smt/smt2.ml" 75 2408 2476
+)
+"src/smt/smt2.ml" 74 2383 2389 "src/smt/smt2.ml" 74 2383 2404
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 75 2408 2416 "src/smt/smt2.ml" 75 2408 2422
+type(
+  string
+)
+"src/smt/smt2.ml" 75 2408 2423 "src/smt/smt2.ml" 75 2408 2424
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 75 2408 2425 "src/smt/smt2.ml" 75 2408 2440
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 75 2408 2441 "src/smt/smt2.ml" 75 2408 2443
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 74 2383 2397 "src/smt/smt2.ml" 74 2383 2399
+)
+"src/smt/smt2.ml" 75 2408 2425 "src/smt/smt2.ml" 75 2408 2443
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 75 2408 2444 "src/smt/smt2.ml" 75 2408 2445
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 75 2408 2446 "src/smt/smt2.ml" 75 2408 2449
+type(
+  string
+)
+"src/smt/smt2.ml" 75 2408 2450 "src/smt/smt2.ml" 75 2408 2451
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 75 2408 2452 "src/smt/smt2.ml" 75 2408 2467
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 75 2408 2468 "src/smt/smt2.ml" 75 2408 2470
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 74 2383 2401 "src/smt/smt2.ml" 74 2383 2403
+)
+"src/smt/smt2.ml" 75 2408 2452 "src/smt/smt2.ml" 75 2408 2470
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 75 2408 2471 "src/smt/smt2.ml" 75 2408 2472
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 75 2408 2473 "src/smt/smt2.ml" 75 2408 2476
+type(
+  string
+)
+"src/smt/smt2.ml" 75 2408 2452 "src/smt/smt2.ml" 75 2408 2476
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 75 2408 2446 "src/smt/smt2.ml" 75 2408 2476
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 75 2408 2425 "src/smt/smt2.ml" 75 2408 2476
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 75 2408 2416 "src/smt/smt2.ml" 75 2408 2476
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 76 2477 2491 "src/smt/smt2.ml" 76 2477 2493
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 77 2502 2510 "src/smt/smt2.ml" 77 2502 2569
+)
+"src/smt/smt2.ml" 76 2477 2495 "src/smt/smt2.ml" 76 2477 2497
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 77 2502 2510 "src/smt/smt2.ml" 77 2502 2569
+)
+"src/smt/smt2.ml" 76 2477 2483 "src/smt/smt2.ml" 76 2477 2498
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 77 2502 2510 "src/smt/smt2.ml" 77 2502 2525
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 77 2502 2543 "src/smt/smt2.ml" 77 2502 2545
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 76 2477 2491 "src/smt/smt2.ml" 76 2477 2493
+)
+"src/smt/smt2.ml" 77 2502 2547 "src/smt/smt2.ml" 77 2502 2549
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 76 2477 2495 "src/smt/smt2.ml" 76 2477 2497
+)
+"src/smt/smt2.ml" 77 2502 2535 "src/smt/smt2.ml" 77 2502 2550
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 77 2502 2560 "src/smt/smt2.ml" 77 2502 2562
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 76 2477 2495 "src/smt/smt2.ml" 76 2477 2497
+)
+"src/smt/smt2.ml" 77 2502 2564 "src/smt/smt2.ml" 77 2502 2566
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 76 2477 2491 "src/smt/smt2.ml" 76 2477 2493
+)
+"src/smt/smt2.ml" 77 2502 2552 "src/smt/smt2.ml" 77 2502 2567
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 77 2502 2526 "src/smt/smt2.ml" 77 2502 2569
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 77 2502 2510 "src/smt/smt2.ml" 77 2502 2569
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 79 2571 2586 "src/smt/smt2.ml" 79 2571 2588
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 80 2597 2605 "src/smt/smt2.ml" 80 2597 2664
+)
+"src/smt/smt2.ml" 79 2571 2590 "src/smt/smt2.ml" 79 2571 2592
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 80 2597 2605 "src/smt/smt2.ml" 80 2597 2664
+)
+"src/smt/smt2.ml" 79 2571 2577 "src/smt/smt2.ml" 79 2571 2593
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 80 2597 2605 "src/smt/smt2.ml" 80 2597 2610
+type(
+  string
+)
+"src/smt/smt2.ml" 80 2597 2611 "src/smt/smt2.ml" 80 2597 2612
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 80 2597 2613 "src/smt/smt2.ml" 80 2597 2628
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 80 2597 2629 "src/smt/smt2.ml" 80 2597 2631
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 79 2571 2586 "src/smt/smt2.ml" 79 2571 2588
+)
+"src/smt/smt2.ml" 80 2597 2613 "src/smt/smt2.ml" 80 2597 2631
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 80 2597 2632 "src/smt/smt2.ml" 80 2597 2633
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 80 2597 2634 "src/smt/smt2.ml" 80 2597 2637
+type(
+  string
+)
+"src/smt/smt2.ml" 80 2597 2638 "src/smt/smt2.ml" 80 2597 2639
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 80 2597 2640 "src/smt/smt2.ml" 80 2597 2655
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 80 2597 2656 "src/smt/smt2.ml" 80 2597 2658
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 79 2571 2590 "src/smt/smt2.ml" 79 2571 2592
+)
+"src/smt/smt2.ml" 80 2597 2640 "src/smt/smt2.ml" 80 2597 2658
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 80 2597 2659 "src/smt/smt2.ml" 80 2597 2660
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 80 2597 2661 "src/smt/smt2.ml" 80 2597 2664
+type(
+  string
+)
+"src/smt/smt2.ml" 80 2597 2640 "src/smt/smt2.ml" 80 2597 2664
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 80 2597 2634 "src/smt/smt2.ml" 80 2597 2664
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 80 2597 2613 "src/smt/smt2.ml" 80 2597 2664
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 80 2597 2605 "src/smt/smt2.ml" 80 2597 2664
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 81 2665 2679 "src/smt/smt2.ml" 81 2665 2681
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 82 2690 2698 "src/smt/smt2.ml" 82 2690 2757
+)
+"src/smt/smt2.ml" 81 2665 2683 "src/smt/smt2.ml" 81 2665 2685
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 82 2690 2698 "src/smt/smt2.ml" 82 2690 2757
+)
+"src/smt/smt2.ml" 81 2665 2671 "src/smt/smt2.ml" 81 2665 2686
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 82 2690 2698 "src/smt/smt2.ml" 82 2690 2703
+type(
+  string
+)
+"src/smt/smt2.ml" 82 2690 2704 "src/smt/smt2.ml" 82 2690 2705
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 82 2690 2706 "src/smt/smt2.ml" 82 2690 2721
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 82 2690 2722 "src/smt/smt2.ml" 82 2690 2724
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 81 2665 2679 "src/smt/smt2.ml" 81 2665 2681
+)
+"src/smt/smt2.ml" 82 2690 2706 "src/smt/smt2.ml" 82 2690 2724
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 82 2690 2725 "src/smt/smt2.ml" 82 2690 2726
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 82 2690 2727 "src/smt/smt2.ml" 82 2690 2730
+type(
+  string
+)
+"src/smt/smt2.ml" 82 2690 2731 "src/smt/smt2.ml" 82 2690 2732
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 82 2690 2733 "src/smt/smt2.ml" 82 2690 2748
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 82 2690 2749 "src/smt/smt2.ml" 82 2690 2751
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 81 2665 2683 "src/smt/smt2.ml" 81 2665 2685
+)
+"src/smt/smt2.ml" 82 2690 2733 "src/smt/smt2.ml" 82 2690 2751
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 82 2690 2752 "src/smt/smt2.ml" 82 2690 2753
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 82 2690 2754 "src/smt/smt2.ml" 82 2690 2757
+type(
+  string
+)
+"src/smt/smt2.ml" 82 2690 2733 "src/smt/smt2.ml" 82 2690 2757
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 82 2690 2727 "src/smt/smt2.ml" 82 2690 2757
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 82 2690 2706 "src/smt/smt2.ml" 82 2690 2757
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 82 2690 2698 "src/smt/smt2.ml" 82 2690 2757
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 83 2758 2773 "src/smt/smt2.ml" 83 2758 2775
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 84 2784 2792 "src/smt/smt2.ml" 84 2784 2851
+)
+"src/smt/smt2.ml" 83 2758 2777 "src/smt/smt2.ml" 83 2758 2779
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 84 2784 2792 "src/smt/smt2.ml" 84 2784 2851
+)
+"src/smt/smt2.ml" 83 2758 2764 "src/smt/smt2.ml" 83 2758 2780
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 84 2784 2792 "src/smt/smt2.ml" 84 2784 2797
+type(
+  string
+)
+"src/smt/smt2.ml" 84 2784 2798 "src/smt/smt2.ml" 84 2784 2799
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 84 2784 2800 "src/smt/smt2.ml" 84 2784 2815
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 84 2784 2816 "src/smt/smt2.ml" 84 2784 2818
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 83 2758 2773 "src/smt/smt2.ml" 83 2758 2775
+)
+"src/smt/smt2.ml" 84 2784 2800 "src/smt/smt2.ml" 84 2784 2818
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 84 2784 2819 "src/smt/smt2.ml" 84 2784 2820
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 84 2784 2821 "src/smt/smt2.ml" 84 2784 2824
+type(
+  string
+)
+"src/smt/smt2.ml" 84 2784 2825 "src/smt/smt2.ml" 84 2784 2826
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 84 2784 2827 "src/smt/smt2.ml" 84 2784 2842
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 84 2784 2843 "src/smt/smt2.ml" 84 2784 2845
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 83 2758 2777 "src/smt/smt2.ml" 83 2758 2779
+)
+"src/smt/smt2.ml" 84 2784 2827 "src/smt/smt2.ml" 84 2784 2845
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 84 2784 2846 "src/smt/smt2.ml" 84 2784 2847
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 84 2784 2848 "src/smt/smt2.ml" 84 2784 2851
+type(
+  string
+)
+"src/smt/smt2.ml" 84 2784 2827 "src/smt/smt2.ml" 84 2784 2851
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 84 2784 2821 "src/smt/smt2.ml" 84 2784 2851
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 84 2784 2800 "src/smt/smt2.ml" 84 2784 2851
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 84 2784 2792 "src/smt/smt2.ml" 84 2784 2851
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 85 2852 2866 "src/smt/smt2.ml" 85 2852 2868
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 86 2877 2885 "src/smt/smt2.ml" 86 2877 2944
+)
+"src/smt/smt2.ml" 85 2852 2870 "src/smt/smt2.ml" 85 2852 2872
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 86 2877 2885 "src/smt/smt2.ml" 86 2877 2944
+)
+"src/smt/smt2.ml" 85 2852 2858 "src/smt/smt2.ml" 85 2852 2873
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 86 2877 2885 "src/smt/smt2.ml" 86 2877 2890
+type(
+  string
+)
+"src/smt/smt2.ml" 86 2877 2891 "src/smt/smt2.ml" 86 2877 2892
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 86 2877 2893 "src/smt/smt2.ml" 86 2877 2908
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 86 2877 2909 "src/smt/smt2.ml" 86 2877 2911
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 85 2852 2866 "src/smt/smt2.ml" 85 2852 2868
+)
+"src/smt/smt2.ml" 86 2877 2893 "src/smt/smt2.ml" 86 2877 2911
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 86 2877 2912 "src/smt/smt2.ml" 86 2877 2913
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 86 2877 2914 "src/smt/smt2.ml" 86 2877 2917
+type(
+  string
+)
+"src/smt/smt2.ml" 86 2877 2918 "src/smt/smt2.ml" 86 2877 2919
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 86 2877 2920 "src/smt/smt2.ml" 86 2877 2935
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 86 2877 2936 "src/smt/smt2.ml" 86 2877 2938
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 85 2852 2870 "src/smt/smt2.ml" 85 2852 2872
+)
+"src/smt/smt2.ml" 86 2877 2920 "src/smt/smt2.ml" 86 2877 2938
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 86 2877 2939 "src/smt/smt2.ml" 86 2877 2940
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 86 2877 2941 "src/smt/smt2.ml" 86 2877 2944
+type(
+  string
+)
+"src/smt/smt2.ml" 86 2877 2920 "src/smt/smt2.ml" 86 2877 2944
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 86 2877 2914 "src/smt/smt2.ml" 86 2877 2944
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 86 2877 2893 "src/smt/smt2.ml" 86 2877 2944
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 86 2877 2885 "src/smt/smt2.ml" 86 2877 2944
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 87 2945 2959 "src/smt/smt2.ml" 87 2945 2961
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 87 2945 2970 "src/smt/smt2.ml" 87 2945 3020
+)
+"src/smt/smt2.ml" 87 2945 2963 "src/smt/smt2.ml" 87 2945 2965
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 87 2945 2970 "src/smt/smt2.ml" 87 2945 3020
+)
+"src/smt/smt2.ml" 87 2945 2951 "src/smt/smt2.ml" 87 2945 2966
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 87 2945 2970 "src/smt/smt2.ml" 87 2945 2978
+type(
+  string -> smt2
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/smt/smt2.ml" 87 2945 2979 "src/smt/smt2.ml" 87 2945 3020
+type(
+  string
+)
+"src/smt/smt2.ml" 87 2945 2970 "src/smt/smt2.ml" 87 2945 3020
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 88 3021 3035 "src/smt/smt2.ml" 88 3021 3037
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 89 3046 3054 "src/smt/smt2.ml" 89 3046 3115
+)
+"src/smt/smt2.ml" 88 3021 3039 "src/smt/smt2.ml" 88 3021 3041
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 89 3046 3054 "src/smt/smt2.ml" 89 3046 3115
+)
+"src/smt/smt2.ml" 88 3021 3027 "src/smt/smt2.ml" 88 3021 3042
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 89 3046 3054 "src/smt/smt2.ml" 89 3046 3061
+type(
+  string
+)
+"src/smt/smt2.ml" 89 3046 3062 "src/smt/smt2.ml" 89 3046 3063
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 89 3046 3064 "src/smt/smt2.ml" 89 3046 3079
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 89 3046 3080 "src/smt/smt2.ml" 89 3046 3082
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 88 3021 3035 "src/smt/smt2.ml" 88 3021 3037
+)
+"src/smt/smt2.ml" 89 3046 3064 "src/smt/smt2.ml" 89 3046 3082
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 89 3046 3083 "src/smt/smt2.ml" 89 3046 3084
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 89 3046 3085 "src/smt/smt2.ml" 89 3046 3088
+type(
+  string
+)
+"src/smt/smt2.ml" 89 3046 3089 "src/smt/smt2.ml" 89 3046 3090
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 89 3046 3091 "src/smt/smt2.ml" 89 3046 3106
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 89 3046 3107 "src/smt/smt2.ml" 89 3046 3109
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 88 3021 3039 "src/smt/smt2.ml" 88 3021 3041
+)
+"src/smt/smt2.ml" 89 3046 3091 "src/smt/smt2.ml" 89 3046 3109
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 89 3046 3110 "src/smt/smt2.ml" 89 3046 3111
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 89 3046 3112 "src/smt/smt2.ml" 89 3046 3115
+type(
+  string
+)
+"src/smt/smt2.ml" 89 3046 3091 "src/smt/smt2.ml" 89 3046 3115
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 89 3046 3085 "src/smt/smt2.ml" 89 3046 3115
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 89 3046 3064 "src/smt/smt2.ml" 89 3046 3115
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 89 3046 3054 "src/smt/smt2.ml" 89 3046 3115
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 90 3116 3130 "src/smt/smt2.ml" 90 3116 3132
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 91 3141 3149 "src/smt/smt2.ml" 91 3141 3210
+)
+"src/smt/smt2.ml" 90 3116 3134 "src/smt/smt2.ml" 90 3116 3136
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 91 3141 3149 "src/smt/smt2.ml" 91 3141 3210
+)
+"src/smt/smt2.ml" 90 3116 3122 "src/smt/smt2.ml" 90 3116 3137
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 91 3141 3149 "src/smt/smt2.ml" 91 3141 3156
+type(
+  string
+)
+"src/smt/smt2.ml" 91 3141 3157 "src/smt/smt2.ml" 91 3141 3158
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 91 3141 3159 "src/smt/smt2.ml" 91 3141 3174
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 91 3141 3175 "src/smt/smt2.ml" 91 3141 3177
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 90 3116 3130 "src/smt/smt2.ml" 90 3116 3132
+)
+"src/smt/smt2.ml" 91 3141 3159 "src/smt/smt2.ml" 91 3141 3177
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 91 3141 3178 "src/smt/smt2.ml" 91 3141 3179
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 91 3141 3180 "src/smt/smt2.ml" 91 3141 3183
+type(
+  string
+)
+"src/smt/smt2.ml" 91 3141 3184 "src/smt/smt2.ml" 91 3141 3185
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 91 3141 3186 "src/smt/smt2.ml" 91 3141 3201
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 91 3141 3202 "src/smt/smt2.ml" 91 3141 3204
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 90 3116 3134 "src/smt/smt2.ml" 90 3116 3136
+)
+"src/smt/smt2.ml" 91 3141 3186 "src/smt/smt2.ml" 91 3141 3204
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 91 3141 3205 "src/smt/smt2.ml" 91 3141 3206
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 91 3141 3207 "src/smt/smt2.ml" 91 3141 3210
+type(
+  string
+)
+"src/smt/smt2.ml" 91 3141 3186 "src/smt/smt2.ml" 91 3141 3210
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 91 3141 3180 "src/smt/smt2.ml" 91 3141 3210
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 91 3141 3159 "src/smt/smt2.ml" 91 3141 3210
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 91 3141 3149 "src/smt/smt2.ml" 91 3141 3210
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 93 3212 3229 "src/smt/smt2.ml" 93 3212 3231
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 94 3240 3248 "src/smt/smt2.ml" 94 3240 3312
+)
+"src/smt/smt2.ml" 93 3212 3233 "src/smt/smt2.ml" 93 3212 3235
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 94 3240 3248 "src/smt/smt2.ml" 94 3240 3312
+)
+"src/smt/smt2.ml" 93 3212 3218 "src/smt/smt2.ml" 93 3212 3236
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 94 3240 3248 "src/smt/smt2.ml" 94 3240 3258
+type(
+  string
+)
+"src/smt/smt2.ml" 94 3240 3259 "src/smt/smt2.ml" 94 3240 3260
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 94 3240 3261 "src/smt/smt2.ml" 94 3240 3276
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 94 3240 3277 "src/smt/smt2.ml" 94 3240 3279
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 93 3212 3229 "src/smt/smt2.ml" 93 3212 3231
+)
+"src/smt/smt2.ml" 94 3240 3261 "src/smt/smt2.ml" 94 3240 3279
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 94 3240 3280 "src/smt/smt2.ml" 94 3240 3281
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 94 3240 3282 "src/smt/smt2.ml" 94 3240 3285
+type(
+  string
+)
+"src/smt/smt2.ml" 94 3240 3286 "src/smt/smt2.ml" 94 3240 3287
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 94 3240 3288 "src/smt/smt2.ml" 94 3240 3303
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 94 3240 3304 "src/smt/smt2.ml" 94 3240 3306
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 93 3212 3233 "src/smt/smt2.ml" 93 3212 3235
+)
+"src/smt/smt2.ml" 94 3240 3288 "src/smt/smt2.ml" 94 3240 3306
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 94 3240 3307 "src/smt/smt2.ml" 94 3240 3308
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 94 3240 3309 "src/smt/smt2.ml" 94 3240 3312
+type(
+  string
+)
+"src/smt/smt2.ml" 94 3240 3288 "src/smt/smt2.ml" 94 3240 3312
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 94 3240 3282 "src/smt/smt2.ml" 94 3240 3312
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 94 3240 3261 "src/smt/smt2.ml" 94 3240 3312
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 94 3240 3248 "src/smt/smt2.ml" 94 3240 3312
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 95 3313 3330 "src/smt/smt2.ml" 95 3313 3332
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smt2.ml" 96 3345 3353 "src/smt/smt2.ml" 98 3439 3483
+)
+"src/smt/smt2.ml" 95 3313 3334 "src/smt/smt2.ml" 95 3313 3336
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smt2.ml" 96 3345 3353 "src/smt/smt2.ml" 98 3439 3483
+)
+"src/smt/smt2.ml" 95 3313 3338 "src/smt/smt2.ml" 95 3313 3340
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e3 "src/smt/smt2.ml" 96 3345 3353 "src/smt/smt2.ml" 98 3439 3483
+)
+"src/smt/smt2.ml" 95 3313 3319 "src/smt/smt2.ml" 95 3313 3341
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 96 3345 3353 "src/smt/smt2.ml" 96 3345 3362
+type(
+  string
+)
+"src/smt/smt2.ml" 96 3345 3363 "src/smt/smt2.ml" 96 3345 3364
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 96 3345 3365 "src/smt/smt2.ml" 96 3345 3380
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 96 3345 3381 "src/smt/smt2.ml" 96 3345 3383
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smt2.ml" 95 3313 3330 "src/smt/smt2.ml" 95 3313 3332
+)
+"src/smt/smt2.ml" 96 3345 3365 "src/smt/smt2.ml" 96 3345 3383
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 96 3345 3384 "src/smt/smt2.ml" 96 3345 3385
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 96 3345 3386 "src/smt/smt2.ml" 96 3345 3389
+type(
+  string
+)
+"src/smt/smt2.ml" 96 3345 3390 "src/smt/smt2.ml" 96 3345 3391
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 97 3392 3412 "src/smt/smt2.ml" 97 3392 3427
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 97 3392 3428 "src/smt/smt2.ml" 97 3392 3430
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smt2.ml" 95 3313 3334 "src/smt/smt2.ml" 95 3313 3336
+)
+"src/smt/smt2.ml" 97 3392 3412 "src/smt/smt2.ml" 97 3392 3430
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 97 3392 3431 "src/smt/smt2.ml" 97 3392 3432
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 97 3392 3433 "src/smt/smt2.ml" 97 3392 3436
+type(
+  string
+)
+"src/smt/smt2.ml" 97 3392 3437 "src/smt/smt2.ml" 97 3392 3438
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 98 3439 3459 "src/smt/smt2.ml" 98 3439 3474
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 98 3439 3475 "src/smt/smt2.ml" 98 3439 3477
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e3 "src/smt/smt2.ml" 95 3313 3338 "src/smt/smt2.ml" 95 3313 3340
+)
+"src/smt/smt2.ml" 98 3439 3459 "src/smt/smt2.ml" 98 3439 3477
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 98 3439 3478 "src/smt/smt2.ml" 98 3439 3479
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 98 3439 3480 "src/smt/smt2.ml" 98 3439 3483
+type(
+  string
+)
+"src/smt/smt2.ml" 98 3439 3459 "src/smt/smt2.ml" 98 3439 3483
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 97 3392 3433 "src/smt/smt2.ml" 98 3439 3483
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 97 3392 3412 "src/smt/smt2.ml" 98 3439 3483
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 96 3345 3386 "src/smt/smt2.ml" 98 3439 3483
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 96 3345 3365 "src/smt/smt2.ml" 98 3439 3483
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 96 3345 3353 "src/smt/smt2.ml" 98 3439 3483
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 100 3485 3502 "src/smt/smt2.ml" 100 3485 3503
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def f "src/smt/smt2.ml" 101 3512 3520 "src/smt/smt2.ml" 102 3551 3615
+)
+"src/smt/smt2.ml" 100 3485 3505 "src/smt/smt2.ml" 100 3485 3507
+type(
+  Smtsyntax.smtexpr list
+)
+ident(
+  def es "src/smt/smt2.ml" 101 3512 3520 "src/smt/smt2.ml" 102 3551 3615
+)
+"src/smt/smt2.ml" 100 3485 3491 "src/smt/smt2.ml" 100 3485 3508
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 101 3512 3520 "src/smt/smt2.ml" 101 3512 3523
+type(
+  string
+)
+"src/smt/smt2.ml" 101 3512 3524 "src/smt/smt2.ml" 101 3512 3525
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 101 3512 3526 "src/smt/smt2.ml" 101 3512 3540
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 101 3512 3541 "src/smt/smt2.ml" 101 3512 3542
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref f "src/smt/smt2.ml" 100 3485 3502 "src/smt/smt2.ml" 100 3485 3503
+)
+"src/smt/smt2.ml" 101 3512 3526 "src/smt/smt2.ml" 101 3512 3542
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 101 3512 3543 "src/smt/smt2.ml" 101 3512 3544
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 101 3512 3545 "src/smt/smt2.ml" 101 3512 3548
+type(
+  string
+)
+"src/smt/smt2.ml" 101 3512 3549 "src/smt/smt2.ml" 101 3512 3550
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 102 3551 3566 "src/smt/smt2.ml" 102 3551 3579
+type(
+  string -> smt2 list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smt2.ml" 102 3551 3580 "src/smt/smt2.ml" 102 3551 3583
+type(
+  string
+)
+"src/smt/smt2.ml" 102 3551 3585 "src/smt/smt2.ml" 102 3551 3588
+type(
+  (Smtsyntax.smtexpr -> smt2) -> Smtsyntax.smtexpr list -> smt2 list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smt2.ml" 102 3551 3589 "src/smt/smt2.ml" 102 3551 3604
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 102 3551 3605 "src/smt/smt2.ml" 102 3551 3607
+type(
+  Smtsyntax.smtexpr list
+)
+ident(
+  int_ref es "src/smt/smt2.ml" 100 3485 3505 "src/smt/smt2.ml" 100 3485 3507
+)
+"src/smt/smt2.ml" 102 3551 3584 "src/smt/smt2.ml" 102 3551 3608
+call(
+  stack
+)
+type(
+  smt2 list
+)
+"src/smt/smt2.ml" 102 3551 3565 "src/smt/smt2.ml" 102 3551 3609
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 102 3551 3610 "src/smt/smt2.ml" 102 3551 3611
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 102 3551 3612 "src/smt/smt2.ml" 102 3551 3615
+type(
+  string
+)
+"src/smt/smt2.ml" 102 3551 3565 "src/smt/smt2.ml" 102 3551 3615
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 101 3512 3545 "src/smt/smt2.ml" 102 3551 3615
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 101 3512 3526 "src/smt/smt2.ml" 102 3551 3615
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 101 3512 3520 "src/smt/smt2.ml" 102 3551 3615
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 103 3616 3630 "src/smt/smt2.ml" 103 3616 3632
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtexpr) list
+)
+ident(
+  def bs "src/smt/smt2.ml" 104 3640 3646 "src/smt/smt2.ml" 109 3810 3841
+)
+"src/smt/smt2.ml" 103 3616 3634 "src/smt/smt2.ml" 103 3616 3635
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e "src/smt/smt2.ml" 104 3640 3646 "src/smt/smt2.ml" 109 3810 3841
+)
+"src/smt/smt2.ml" 103 3616 3622 "src/smt/smt2.ml" 103 3616 3636
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 104 3640 3646 "src/smt/smt2.ml" 104 3640 3654
+type(
+  string
+)
+"src/smt/smt2.ml" 104 3640 3655 "src/smt/smt2.ml" 104 3640 3656
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 105 3657 3666 "src/smt/smt2.ml" 105 3657 3679
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smt2.ml" 105 3657 3680 "src/smt/smt2.ml" 105 3657 3683
+type(
+  string
+)
+"src/smt/smt2.ml" 106 3684 3695 "src/smt/smt2.ml" 106 3684 3698
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtexpr -> string) ->
+  (Smtsyntax.smtvar * Smtsyntax.smtexpr) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smt2.ml" 106 3684 3705 "src/smt/smt2.ml" 106 3684 3706
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 107 3714 3724 "src/smt/smt2.ml" 108 3755 3794
+)
+"src/smt/smt2.ml" 106 3684 3708 "src/smt/smt2.ml" 106 3684 3709
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e "src/smt/smt2.ml" 107 3714 3724 "src/smt/smt2.ml" 108 3755 3794
+)
+"src/smt/smt2.ml" 106 3684 3704 "src/smt/smt2.ml" 106 3684 3710
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 107 3714 3724 "src/smt/smt2.ml" 107 3714 3727
+type(
+  string
+)
+"src/smt/smt2.ml" 107 3714 3728 "src/smt/smt2.ml" 107 3714 3729
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 107 3714 3730 "src/smt/smt2.ml" 107 3714 3744
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 107 3714 3745 "src/smt/smt2.ml" 107 3714 3746
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 106 3684 3705 "src/smt/smt2.ml" 106 3684 3706
+)
+"src/smt/smt2.ml" 107 3714 3730 "src/smt/smt2.ml" 107 3714 3746
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 107 3714 3747 "src/smt/smt2.ml" 107 3714 3748
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 107 3714 3749 "src/smt/smt2.ml" 107 3714 3752
+type(
+  string
+)
+"src/smt/smt2.ml" 107 3714 3753 "src/smt/smt2.ml" 107 3714 3754
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 108 3755 3771 "src/smt/smt2.ml" 108 3755 3786
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 108 3755 3787 "src/smt/smt2.ml" 108 3755 3788
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e "src/smt/smt2.ml" 106 3684 3708 "src/smt/smt2.ml" 106 3684 3709
+)
+"src/smt/smt2.ml" 108 3755 3771 "src/smt/smt2.ml" 108 3755 3788
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 108 3755 3789 "src/smt/smt2.ml" 108 3755 3790
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 108 3755 3791 "src/smt/smt2.ml" 108 3755 3794
+type(
+  string
+)
+"src/smt/smt2.ml" 108 3755 3771 "src/smt/smt2.ml" 108 3755 3794
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 107 3714 3749 "src/smt/smt2.ml" 108 3755 3794
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 107 3714 3730 "src/smt/smt2.ml" 108 3755 3794
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 107 3714 3724 "src/smt/smt2.ml" 108 3755 3794
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 106 3684 3699 "src/smt/smt2.ml" 108 3755 3795
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtexpr -> string
+)
+"src/smt/smt2.ml" 108 3755 3796 "src/smt/smt2.ml" 108 3755 3798
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtexpr) list
+)
+ident(
+  int_ref bs "src/smt/smt2.ml" 103 3616 3630 "src/smt/smt2.ml" 103 3616 3632
+)
+"src/smt/smt2.ml" 106 3684 3694 "src/smt/smt2.ml" 108 3755 3799
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smt2.ml" 105 3657 3665 "src/smt/smt2.ml" 108 3755 3800
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 108 3755 3801 "src/smt/smt2.ml" 108 3755 3802
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 108 3755 3803 "src/smt/smt2.ml" 108 3755 3807
+type(
+  string
+)
+"src/smt/smt2.ml" 108 3755 3808 "src/smt/smt2.ml" 108 3755 3809
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 109 3810 3818 "src/smt/smt2.ml" 109 3810 3833
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 109 3810 3834 "src/smt/smt2.ml" 109 3810 3835
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e "src/smt/smt2.ml" 103 3616 3634 "src/smt/smt2.ml" 103 3616 3635
+)
+"src/smt/smt2.ml" 109 3810 3818 "src/smt/smt2.ml" 109 3810 3835
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 109 3810 3836 "src/smt/smt2.ml" 109 3810 3837
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 109 3810 3838 "src/smt/smt2.ml" 109 3810 3841
+type(
+  string
+)
+"src/smt/smt2.ml" 109 3810 3818 "src/smt/smt2.ml" 109 3810 3841
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 108 3755 3803 "src/smt/smt2.ml" 109 3810 3841
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 105 3657 3665 "src/smt/smt2.ml" 109 3810 3841
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 104 3640 3646 "src/smt/smt2.ml" 109 3810 3841
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 111 3843 3860 "src/smt/smt2.ml" 111 3843 3862
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list
+)
+ident(
+  def bs "src/smt/smt2.ml" 112 3870 3878 "src/smt/smt2.ml" 117 4057 4090
+)
+"src/smt/smt2.ml" 111 3843 3864 "src/smt/smt2.ml" 111 3843 3865
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e "src/smt/smt2.ml" 112 3870 3878 "src/smt/smt2.ml" 117 4057 4090
+)
+"src/smt/smt2.ml" 111 3843 3849 "src/smt/smt2.ml" 111 3843 3866
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 112 3870 3878 "src/smt/smt2.ml" 112 3870 3889
+type(
+  string
+)
+"src/smt/smt2.ml" 112 3870 3890 "src/smt/smt2.ml" 112 3870 3891
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 113 3892 3903 "src/smt/smt2.ml" 113 3892 3916
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smt2.ml" 113 3892 3917 "src/smt/smt2.ml" 113 3892 3920
+type(
+  string
+)
+"src/smt/smt2.ml" 114 3921 3934 "src/smt/smt2.ml" 114 3921 3937
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort -> string) ->
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smt2.ml" 114 3921 3944 "src/smt/smt2.ml" 114 3921 3945
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 115 3953 3967 "src/smt/smt2.ml" 116 3998 4041
+)
+"src/smt/smt2.ml" 114 3921 3947 "src/smt/smt2.ml" 114 3921 3948
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def s "src/smt/smt2.ml" 115 3953 3967 "src/smt/smt2.ml" 116 3998 4041
+)
+"src/smt/smt2.ml" 114 3921 3943 "src/smt/smt2.ml" 114 3921 3949
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort
+)
+"src/smt/smt2.ml" 115 3953 3967 "src/smt/smt2.ml" 115 3953 3970
+type(
+  string
+)
+"src/smt/smt2.ml" 115 3953 3971 "src/smt/smt2.ml" 115 3953 3972
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 115 3953 3973 "src/smt/smt2.ml" 115 3953 3987
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 115 3953 3988 "src/smt/smt2.ml" 115 3953 3989
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 114 3921 3944 "src/smt/smt2.ml" 114 3921 3945
+)
+"src/smt/smt2.ml" 115 3953 3973 "src/smt/smt2.ml" 115 3953 3989
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 115 3953 3990 "src/smt/smt2.ml" 115 3953 3991
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 115 3953 3992 "src/smt/smt2.ml" 115 3953 3995
+type(
+  string
+)
+"src/smt/smt2.ml" 115 3953 3996 "src/smt/smt2.ml" 115 3953 3997
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 116 3998 4018 "src/smt/smt2.ml" 116 3998 4033
+type(
+  Smtsyntax.smtsort -> smt2
+)
+ident(
+  int_ref smt2_of_smtsort "src/smt/smt2.ml" 25 483 491 "src/smt/smt2.ml" 25 483 506
+)
+"src/smt/smt2.ml" 116 3998 4034 "src/smt/smt2.ml" 116 3998 4035
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref s "src/smt/smt2.ml" 114 3921 3947 "src/smt/smt2.ml" 114 3921 3948
+)
+"src/smt/smt2.ml" 116 3998 4018 "src/smt/smt2.ml" 116 3998 4035
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 116 3998 4036 "src/smt/smt2.ml" 116 3998 4037
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 116 3998 4038 "src/smt/smt2.ml" 116 3998 4041
+type(
+  string
+)
+"src/smt/smt2.ml" 116 3998 4018 "src/smt/smt2.ml" 116 3998 4041
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 115 3953 3992 "src/smt/smt2.ml" 116 3998 4041
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 115 3953 3973 "src/smt/smt2.ml" 116 3998 4041
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 115 3953 3967 "src/smt/smt2.ml" 116 3998 4041
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 114 3921 3938 "src/smt/smt2.ml" 116 3998 4042
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort -> string
+)
+"src/smt/smt2.ml" 116 3998 4043 "src/smt/smt2.ml" 116 3998 4045
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list
+)
+ident(
+  int_ref bs "src/smt/smt2.ml" 111 3843 3860 "src/smt/smt2.ml" 111 3843 3862
+)
+"src/smt/smt2.ml" 114 3921 3933 "src/smt/smt2.ml" 116 3998 4046
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smt2.ml" 113 3892 3902 "src/smt/smt2.ml" 116 3998 4047
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 116 3998 4048 "src/smt/smt2.ml" 116 3998 4049
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 116 3998 4050 "src/smt/smt2.ml" 116 3998 4054
+type(
+  string
+)
+"src/smt/smt2.ml" 116 3998 4055 "src/smt/smt2.ml" 116 3998 4056
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 117 4057 4067 "src/smt/smt2.ml" 117 4057 4082
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 117 4057 4083 "src/smt/smt2.ml" 117 4057 4084
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e "src/smt/smt2.ml" 111 3843 3864 "src/smt/smt2.ml" 111 3843 3865
+)
+"src/smt/smt2.ml" 117 4057 4067 "src/smt/smt2.ml" 117 4057 4084
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 117 4057 4085 "src/smt/smt2.ml" 117 4057 4086
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 117 4057 4087 "src/smt/smt2.ml" 117 4057 4090
+type(
+  string
+)
+"src/smt/smt2.ml" 117 4057 4067 "src/smt/smt2.ml" 117 4057 4090
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 116 3998 4050 "src/smt/smt2.ml" 117 4057 4090
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 113 3892 3902 "src/smt/smt2.ml" 117 4057 4090
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 112 3870 3878 "src/smt/smt2.ml" 117 4057 4090
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 119 4092 4109 "src/smt/smt2.ml" 119 4092 4111
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list
+)
+ident(
+  def bs "src/smt/smt2.ml" 120 4119 4127 "src/smt/smt2.ml" 125 4306 4339
+)
+"src/smt/smt2.ml" 119 4092 4113 "src/smt/smt2.ml" 119 4092 4114
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e "src/smt/smt2.ml" 120 4119 4127 "src/smt/smt2.ml" 125 4306 4339
+)
+"src/smt/smt2.ml" 119 4092 4098 "src/smt/smt2.ml" 119 4092 4115
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smt2.ml" 120 4119 4127 "src/smt/smt2.ml" 120 4119 4138
+type(
+  string
+)
+"src/smt/smt2.ml" 120 4119 4139 "src/smt/smt2.ml" 120 4119 4140
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 121 4141 4152 "src/smt/smt2.ml" 121 4141 4165
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smt2.ml" 121 4141 4166 "src/smt/smt2.ml" 121 4141 4169
+type(
+  string
+)
+"src/smt/smt2.ml" 122 4170 4183 "src/smt/smt2.ml" 122 4170 4186
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort -> string) ->
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smt2.ml" 122 4170 4193 "src/smt/smt2.ml" 122 4170 4194
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 123 4202 4216 "src/smt/smt2.ml" 124 4247 4290
+)
+"src/smt/smt2.ml" 122 4170 4196 "src/smt/smt2.ml" 122 4170 4197
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def s "src/smt/smt2.ml" 123 4202 4216 "src/smt/smt2.ml" 124 4247 4290
+)
+"src/smt/smt2.ml" 122 4170 4192 "src/smt/smt2.ml" 122 4170 4198
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort
+)
+"src/smt/smt2.ml" 123 4202 4216 "src/smt/smt2.ml" 123 4202 4219
+type(
+  string
+)
+"src/smt/smt2.ml" 123 4202 4220 "src/smt/smt2.ml" 123 4202 4221
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 123 4202 4222 "src/smt/smt2.ml" 123 4202 4236
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 123 4202 4237 "src/smt/smt2.ml" 123 4202 4238
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 122 4170 4193 "src/smt/smt2.ml" 122 4170 4194
+)
+"src/smt/smt2.ml" 123 4202 4222 "src/smt/smt2.ml" 123 4202 4238
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 123 4202 4239 "src/smt/smt2.ml" 123 4202 4240
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 123 4202 4241 "src/smt/smt2.ml" 123 4202 4244
+type(
+  string
+)
+"src/smt/smt2.ml" 123 4202 4245 "src/smt/smt2.ml" 123 4202 4246
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 124 4247 4267 "src/smt/smt2.ml" 124 4247 4282
+type(
+  Smtsyntax.smtsort -> smt2
+)
+ident(
+  int_ref smt2_of_smtsort "src/smt/smt2.ml" 25 483 491 "src/smt/smt2.ml" 25 483 506
+)
+"src/smt/smt2.ml" 124 4247 4283 "src/smt/smt2.ml" 124 4247 4284
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref s "src/smt/smt2.ml" 122 4170 4196 "src/smt/smt2.ml" 122 4170 4197
+)
+"src/smt/smt2.ml" 124 4247 4267 "src/smt/smt2.ml" 124 4247 4284
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 124 4247 4285 "src/smt/smt2.ml" 124 4247 4286
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 124 4247 4287 "src/smt/smt2.ml" 124 4247 4290
+type(
+  string
+)
+"src/smt/smt2.ml" 124 4247 4267 "src/smt/smt2.ml" 124 4247 4290
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 123 4202 4241 "src/smt/smt2.ml" 124 4247 4290
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 123 4202 4222 "src/smt/smt2.ml" 124 4247 4290
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 123 4202 4216 "src/smt/smt2.ml" 124 4247 4290
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 122 4170 4187 "src/smt/smt2.ml" 124 4247 4291
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort -> string
+)
+"src/smt/smt2.ml" 124 4247 4292 "src/smt/smt2.ml" 124 4247 4294
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list
+)
+ident(
+  int_ref bs "src/smt/smt2.ml" 119 4092 4109 "src/smt/smt2.ml" 119 4092 4111
+)
+"src/smt/smt2.ml" 122 4170 4182 "src/smt/smt2.ml" 124 4247 4295
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smt2.ml" 121 4141 4151 "src/smt/smt2.ml" 124 4247 4296
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 124 4247 4297 "src/smt/smt2.ml" 124 4247 4298
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 124 4247 4299 "src/smt/smt2.ml" 124 4247 4303
+type(
+  string
+)
+"src/smt/smt2.ml" 124 4247 4304 "src/smt/smt2.ml" 124 4247 4305
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 125 4306 4316 "src/smt/smt2.ml" 125 4306 4331
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 125 4306 4332 "src/smt/smt2.ml" 125 4306 4333
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e "src/smt/smt2.ml" 119 4092 4113 "src/smt/smt2.ml" 119 4092 4114
+)
+"src/smt/smt2.ml" 125 4306 4316 "src/smt/smt2.ml" 125 4306 4333
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 125 4306 4334 "src/smt/smt2.ml" 125 4306 4335
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 125 4306 4336 "src/smt/smt2.ml" 125 4306 4339
+type(
+  string
+)
+"src/smt/smt2.ml" 125 4306 4316 "src/smt/smt2.ml" 125 4306 4339
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 124 4247 4299 "src/smt/smt2.ml" 125 4306 4339
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 121 4141 4151 "src/smt/smt2.ml" 125 4306 4339
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 120 4119 4127 "src/smt/smt2.ml" 125 4306 4339
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 41 1047 1051 "src/smt/smt2.ml" 125 4306 4339
+type(
+  smt2
+)
+"src/smt/smt2.ml" 40 1030 1032 "src/smt/smt2.ml" 125 4306 4339
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+"src/smt/smt2.ml" 127 4341 4349 "src/smt/smt2.ml" 127 4341 4363
+type(
+  Smtsyntax.smtcmd -> smt2
+)
+ident(
+  def smt2_of_smtcmd "src/smt/smt2.ml" 127 4341 4341 "src/smt/smt2.ml" 1 0 -1
+)
+"src/smt/smt2.ml" 128 4383 4389 "src/smt/smt2.ml" 128 4383 4393
+type(
+  Smtsyntax.smtcmd
+)
+ident(
+  def stmt "src/smt/smt2.ml" 129 4397 4401 "src/smt/smt2.ml" 185 6233 6302
+)
+"src/smt/smt2.ml" 129 4397 4407 "src/smt/smt2.ml" 129 4397 4411
+type(
+  Smtsyntax.smtcmd
+)
+ident(
+  int_ref stmt "src/smt/smt2.ml" 128 4383 4389 "src/smt/smt2.ml" 128 4383 4393
+)
+"src/smt/smt2.ml" 130 4417 4435 "src/smt/smt2.ml" 130 4417 4436
+type(
+  Smtsyntax.smtlogic
+)
+ident(
+  def l "src/smt/smt2.ml" 131 4440 4446 "src/smt/smt2.ml" 131 4440 4486
+)
+"src/smt/smt2.ml" 130 4417 4423 "src/smt/smt2.ml" 130 4417 4436
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 131 4440 4446 "src/smt/smt2.ml" 131 4440 4459
+type(
+  string
+)
+"src/smt/smt2.ml" 131 4440 4460 "src/smt/smt2.ml" 131 4440 4461
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 131 4440 4462 "src/smt/smt2.ml" 131 4440 4478
+type(
+  Smtsyntax.smtlogic -> smt2
+)
+ident(
+  int_ref smt2_of_smtlogic "src/smt/smt2.ml" 13 167 171 "src/smt/smt2.ml" 13 167 187
+)
+"src/smt/smt2.ml" 131 4440 4479 "src/smt/smt2.ml" 131 4440 4480
+type(
+  Smtsyntax.smtlogic
+)
+ident(
+  int_ref l "src/smt/smt2.ml" 130 4417 4435 "src/smt/smt2.ml" 130 4417 4436
+)
+"src/smt/smt2.ml" 131 4440 4462 "src/smt/smt2.ml" 131 4440 4480
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 131 4440 4481 "src/smt/smt2.ml" 131 4440 4482
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 131 4440 4483 "src/smt/smt2.ml" 131 4440 4486
+type(
+  string
+)
+"src/smt/smt2.ml" 131 4440 4462 "src/smt/smt2.ml" 131 4440 4486
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 131 4440 4446 "src/smt/smt2.ml" 131 4440 4486
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 133 4488 4506 "src/smt/smt2.ml" 133 4488 4507
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 134 4519 4525 "src/smt/smt2.ml" 137 4648 4681
+)
+"src/smt/smt2.ml" 133 4488 4509 "src/smt/smt2.ml" 133 4488 4511
+type(
+  Smtsyntax.smtsort list
+)
+ident(
+  def vs "src/smt/smt2.ml" 134 4519 4525 "src/smt/smt2.ml" 137 4648 4681
+)
+"src/smt/smt2.ml" 133 4488 4513 "src/smt/smt2.ml" 133 4488 4514
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def s "src/smt/smt2.ml" 134 4519 4525 "src/smt/smt2.ml" 137 4648 4681
+)
+"src/smt/smt2.ml" 133 4488 4494 "src/smt/smt2.ml" 133 4488 4515
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 134 4519 4525 "src/smt/smt2.ml" 134 4519 4540
+type(
+  string
+)
+"src/smt/smt2.ml" 134 4519 4541 "src/smt/smt2.ml" 134 4519 4542
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 135 4543 4553 "src/smt/smt2.ml" 135 4543 4567
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 135 4543 4568 "src/smt/smt2.ml" 135 4543 4569
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 133 4488 4506 "src/smt/smt2.ml" 133 4488 4507
+)
+"src/smt/smt2.ml" 135 4543 4553 "src/smt/smt2.ml" 135 4543 4569
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 135 4543 4570 "src/smt/smt2.ml" 135 4543 4571
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 135 4543 4572 "src/smt/smt2.ml" 135 4543 4575
+type(
+  string
+)
+"src/smt/smt2.ml" 135 4543 4576 "src/smt/smt2.ml" 135 4543 4577
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 136 4578 4588 "src/smt/smt2.ml" 136 4578 4591
+type(
+  string
+)
+"src/smt/smt2.ml" 136 4578 4592 "src/smt/smt2.ml" 136 4578 4593
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 136 4578 4595 "src/smt/smt2.ml" 136 4578 4608
+type(
+  string -> smt2 list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smt2.ml" 136 4578 4609 "src/smt/smt2.ml" 136 4578 4612
+type(
+  string
+)
+"src/smt/smt2.ml" 136 4578 4614 "src/smt/smt2.ml" 136 4578 4617
+type(
+  (Smtsyntax.smtsort -> smt2) -> Smtsyntax.smtsort list -> smt2 list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smt2.ml" 136 4578 4618 "src/smt/smt2.ml" 136 4578 4633
+type(
+  Smtsyntax.smtsort -> smt2
+)
+ident(
+  int_ref smt2_of_smtsort "src/smt/smt2.ml" 25 483 491 "src/smt/smt2.ml" 25 483 506
+)
+"src/smt/smt2.ml" 136 4578 4634 "src/smt/smt2.ml" 136 4578 4636
+type(
+  Smtsyntax.smtsort list
+)
+ident(
+  int_ref vs "src/smt/smt2.ml" 133 4488 4509 "src/smt/smt2.ml" 133 4488 4511
+)
+"src/smt/smt2.ml" 136 4578 4613 "src/smt/smt2.ml" 136 4578 4637
+call(
+  stack
+)
+type(
+  smt2 list
+)
+"src/smt/smt2.ml" 136 4578 4594 "src/smt/smt2.ml" 136 4578 4638
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 136 4578 4639 "src/smt/smt2.ml" 136 4578 4640
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 136 4578 4641 "src/smt/smt2.ml" 136 4578 4645
+type(
+  string
+)
+"src/smt/smt2.ml" 136 4578 4646 "src/smt/smt2.ml" 136 4578 4647
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 137 4648 4658 "src/smt/smt2.ml" 137 4648 4673
+type(
+  Smtsyntax.smtsort -> smt2
+)
+ident(
+  int_ref smt2_of_smtsort "src/smt/smt2.ml" 25 483 491 "src/smt/smt2.ml" 25 483 506
+)
+"src/smt/smt2.ml" 137 4648 4674 "src/smt/smt2.ml" 137 4648 4675
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref s "src/smt/smt2.ml" 133 4488 4513 "src/smt/smt2.ml" 133 4488 4514
+)
+"src/smt/smt2.ml" 137 4648 4658 "src/smt/smt2.ml" 137 4648 4675
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 137 4648 4676 "src/smt/smt2.ml" 137 4648 4677
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 137 4648 4678 "src/smt/smt2.ml" 137 4648 4681
+type(
+  string
+)
+"src/smt/smt2.ml" 137 4648 4658 "src/smt/smt2.ml" 137 4648 4681
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 136 4578 4641 "src/smt/smt2.ml" 137 4648 4681
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 136 4578 4594 "src/smt/smt2.ml" 137 4648 4681
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 136 4578 4588 "src/smt/smt2.ml" 137 4648 4681
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 135 4543 4572 "src/smt/smt2.ml" 137 4648 4681
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 135 4543 4553 "src/smt/smt2.ml" 137 4648 4681
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 134 4519 4525 "src/smt/smt2.ml" 137 4648 4681
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 138 4682 4699 "src/smt/smt2.ml" 138 4682 4700
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 139 4715 4721 "src/smt/smt2.ml" 146 4974 5012
+)
+"src/smt/smt2.ml" 138 4682 4702 "src/smt/smt2.ml" 138 4682 4704
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list
+)
+ident(
+  def vs "src/smt/smt2.ml" 139 4715 4721 "src/smt/smt2.ml" 146 4974 5012
+)
+"src/smt/smt2.ml" 138 4682 4706 "src/smt/smt2.ml" 138 4682 4707
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def s "src/smt/smt2.ml" 139 4715 4721 "src/smt/smt2.ml" 146 4974 5012
+)
+"src/smt/smt2.ml" 138 4682 4709 "src/smt/smt2.ml" 138 4682 4710
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e "src/smt/smt2.ml" 139 4715 4721 "src/smt/smt2.ml" 146 4974 5012
+)
+"src/smt/smt2.ml" 138 4682 4688 "src/smt/smt2.ml" 138 4682 4711
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 139 4715 4721 "src/smt/smt2.ml" 139 4715 4735
+type(
+  string
+)
+"src/smt/smt2.ml" 139 4715 4736 "src/smt/smt2.ml" 139 4715 4737
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 140 4738 4746 "src/smt/smt2.ml" 140 4738 4760
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 140 4738 4761 "src/smt/smt2.ml" 140 4738 4762
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 138 4682 4699 "src/smt/smt2.ml" 138 4682 4700
+)
+"src/smt/smt2.ml" 140 4738 4746 "src/smt/smt2.ml" 140 4738 4762
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 140 4738 4763 "src/smt/smt2.ml" 140 4738 4764
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 140 4738 4765 "src/smt/smt2.ml" 140 4738 4768
+type(
+  string
+)
+"src/smt/smt2.ml" 140 4738 4769 "src/smt/smt2.ml" 140 4738 4770
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 141 4771 4779 "src/smt/smt2.ml" 141 4771 4782
+type(
+  string
+)
+"src/smt/smt2.ml" 141 4771 4783 "src/smt/smt2.ml" 141 4771 4784
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 141 4771 4786 "src/smt/smt2.ml" 141 4771 4799
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smt2.ml" 141 4771 4800 "src/smt/smt2.ml" 141 4771 4803
+type(
+  string
+)
+"src/smt/smt2.ml" 142 4804 4819 "src/smt/smt2.ml" 142 4804 4822
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort -> string) ->
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smt2.ml" 142 4804 4829 "src/smt/smt2.ml" 142 4804 4830
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def n "src/smt/smt2.ml" 143 4838 4854 "src/smt/smt2.ml" 143 4838 4908
+)
+"src/smt/smt2.ml" 142 4804 4832 "src/smt/smt2.ml" 142 4804 4833
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def s "src/smt/smt2.ml" 143 4838 4854 "src/smt/smt2.ml" 143 4838 4908
+)
+"src/smt/smt2.ml" 142 4804 4828 "src/smt/smt2.ml" 142 4804 4834
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort
+)
+"src/smt/smt2.ml" 143 4838 4854 "src/smt/smt2.ml" 143 4838 4857
+type(
+  string
+)
+"src/smt/smt2.ml" 143 4838 4858 "src/smt/smt2.ml" 143 4838 4859
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 143 4838 4860 "src/smt/smt2.ml" 143 4838 4874
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 143 4838 4875 "src/smt/smt2.ml" 143 4838 4876
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref n "src/smt/smt2.ml" 142 4804 4829 "src/smt/smt2.ml" 142 4804 4830
+)
+"src/smt/smt2.ml" 143 4838 4860 "src/smt/smt2.ml" 143 4838 4876
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 143 4838 4877 "src/smt/smt2.ml" 143 4838 4878
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 143 4838 4879 "src/smt/smt2.ml" 143 4838 4882
+type(
+  string
+)
+"src/smt/smt2.ml" 143 4838 4883 "src/smt/smt2.ml" 143 4838 4884
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 143 4838 4885 "src/smt/smt2.ml" 143 4838 4900
+type(
+  Smtsyntax.smtsort -> smt2
+)
+ident(
+  int_ref smt2_of_smtsort "src/smt/smt2.ml" 25 483 491 "src/smt/smt2.ml" 25 483 506
+)
+"src/smt/smt2.ml" 143 4838 4901 "src/smt/smt2.ml" 143 4838 4902
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref s "src/smt/smt2.ml" 142 4804 4832 "src/smt/smt2.ml" 142 4804 4833
+)
+"src/smt/smt2.ml" 143 4838 4885 "src/smt/smt2.ml" 143 4838 4902
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 143 4838 4903 "src/smt/smt2.ml" 143 4838 4904
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 143 4838 4905 "src/smt/smt2.ml" 143 4838 4908
+type(
+  string
+)
+"src/smt/smt2.ml" 143 4838 4885 "src/smt/smt2.ml" 143 4838 4908
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 143 4838 4879 "src/smt/smt2.ml" 143 4838 4908
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 143 4838 4860 "src/smt/smt2.ml" 143 4838 4908
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 143 4838 4854 "src/smt/smt2.ml" 143 4838 4908
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 142 4804 4823 "src/smt/smt2.ml" 143 4838 4909
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort -> string
+)
+"src/smt/smt2.ml" 144 4910 4926 "src/smt/smt2.ml" 144 4910 4928
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list
+)
+ident(
+  int_ref vs "src/smt/smt2.ml" 138 4682 4702 "src/smt/smt2.ml" 138 4682 4704
+)
+"src/smt/smt2.ml" 142 4804 4818 "src/smt/smt2.ml" 144 4910 4929
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smt2.ml" 141 4771 4785 "src/smt/smt2.ml" 144 4910 4930
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 144 4910 4931 "src/smt/smt2.ml" 144 4910 4932
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 144 4910 4933 "src/smt/smt2.ml" 144 4910 4937
+type(
+  string
+)
+"src/smt/smt2.ml" 144 4910 4938 "src/smt/smt2.ml" 144 4910 4939
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 145 4940 4948 "src/smt/smt2.ml" 145 4940 4963
+type(
+  Smtsyntax.smtsort -> smt2
+)
+ident(
+  int_ref smt2_of_smtsort "src/smt/smt2.ml" 25 483 491 "src/smt/smt2.ml" 25 483 506
+)
+"src/smt/smt2.ml" 145 4940 4964 "src/smt/smt2.ml" 145 4940 4965
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref s "src/smt/smt2.ml" 138 4682 4706 "src/smt/smt2.ml" 138 4682 4707
+)
+"src/smt/smt2.ml" 145 4940 4948 "src/smt/smt2.ml" 145 4940 4965
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 145 4940 4966 "src/smt/smt2.ml" 145 4940 4967
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 145 4940 4968 "src/smt/smt2.ml" 145 4940 4971
+type(
+  string
+)
+"src/smt/smt2.ml" 145 4940 4972 "src/smt/smt2.ml" 145 4940 4973
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 146 4974 4982 "src/smt/smt2.ml" 146 4974 4985
+type(
+  string
+)
+"src/smt/smt2.ml" 146 4974 4986 "src/smt/smt2.ml" 146 4974 4987
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 146 4974 4988 "src/smt/smt2.ml" 146 4974 5003
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 146 4974 5004 "src/smt/smt2.ml" 146 4974 5005
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e "src/smt/smt2.ml" 138 4682 4709 "src/smt/smt2.ml" 138 4682 4710
+)
+"src/smt/smt2.ml" 146 4974 4988 "src/smt/smt2.ml" 146 4974 5005
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 146 4974 5006 "src/smt/smt2.ml" 146 4974 5007
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 146 4974 5008 "src/smt/smt2.ml" 146 4974 5012
+type(
+  string
+)
+"src/smt/smt2.ml" 146 4974 4988 "src/smt/smt2.ml" 146 4974 5012
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 146 4974 4982 "src/smt/smt2.ml" 146 4974 5012
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 145 4940 4968 "src/smt/smt2.ml" 146 4974 5012
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 145 4940 4948 "src/smt/smt2.ml" 146 4974 5012
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 144 4910 4933 "src/smt/smt2.ml" 146 4974 5012
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 141 4771 4785 "src/smt/smt2.ml" 146 4974 5012
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 141 4771 4779 "src/smt/smt2.ml" 146 4974 5012
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 140 4738 4765 "src/smt/smt2.ml" 146 4974 5012
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 140 4738 4746 "src/smt/smt2.ml" 146 4974 5012
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 139 4715 4721 "src/smt/smt2.ml" 146 4974 5012
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 148 5014 5033 "src/smt/smt2.ml" 148 5014 5034
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 149 5042 5048 "src/smt/smt2.ml" 149 5042 5113
+)
+"src/smt/smt2.ml" 148 5014 5036 "src/smt/smt2.ml" 148 5014 5037
+type(
+  int
+)
+ident(
+  def i "src/smt/smt2.ml" 149 5042 5048 "src/smt/smt2.ml" 149 5042 5113
+)
+"src/smt/smt2.ml" 148 5014 5020 "src/smt/smt2.ml" 148 5014 5038
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 149 5042 5048 "src/smt/smt2.ml" 149 5042 5064
+type(
+  string
+)
+"src/smt/smt2.ml" 149 5042 5065 "src/smt/smt2.ml" 149 5042 5066
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 149 5042 5067 "src/smt/smt2.ml" 149 5042 5081
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 149 5042 5082 "src/smt/smt2.ml" 149 5042 5083
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 148 5014 5033 "src/smt/smt2.ml" 148 5014 5034
+)
+"src/smt/smt2.ml" 149 5042 5067 "src/smt/smt2.ml" 149 5042 5083
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 149 5042 5084 "src/smt/smt2.ml" 149 5042 5085
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 149 5042 5086 "src/smt/smt2.ml" 149 5042 5089
+type(
+  string
+)
+"src/smt/smt2.ml" 149 5042 5090 "src/smt/smt2.ml" 149 5042 5091
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 149 5042 5092 "src/smt/smt2.ml" 149 5042 5105
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/smt/smt2.ml" 149 5042 5106 "src/smt/smt2.ml" 149 5042 5107
+type(
+  int
+)
+ident(
+  int_ref i "src/smt/smt2.ml" 148 5014 5036 "src/smt/smt2.ml" 148 5014 5037
+)
+"src/smt/smt2.ml" 149 5042 5092 "src/smt/smt2.ml" 149 5042 5107
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 149 5042 5108 "src/smt/smt2.ml" 149 5042 5109
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 149 5042 5110 "src/smt/smt2.ml" 149 5042 5113
+type(
+  string
+)
+"src/smt/smt2.ml" 149 5042 5092 "src/smt/smt2.ml" 149 5042 5113
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 149 5042 5086 "src/smt/smt2.ml" 149 5042 5113
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 149 5042 5067 "src/smt/smt2.ml" 149 5042 5113
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 149 5042 5048 "src/smt/smt2.ml" 149 5042 5113
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 150 5114 5132 "src/smt/smt2.ml" 150 5114 5133
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 151 5145 5151 "src/smt/smt2.ml" 153 5263 5296
+)
+"src/smt/smt2.ml" 150 5114 5135 "src/smt/smt2.ml" 150 5114 5137
+type(
+  Smtsyntax.smtvar list
+)
+ident(
+  def vs "src/smt/smt2.ml" 151 5145 5151 "src/smt/smt2.ml" 153 5263 5296
+)
+"src/smt/smt2.ml" 150 5114 5139 "src/smt/smt2.ml" 150 5114 5140
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def s "src/smt/smt2.ml" 151 5145 5151 "src/smt/smt2.ml" 153 5263 5296
+)
+"src/smt/smt2.ml" 150 5114 5120 "src/smt/smt2.ml" 150 5114 5141
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 151 5145 5151 "src/smt/smt2.ml" 151 5145 5166
+type(
+  string
+)
+"src/smt/smt2.ml" 151 5145 5167 "src/smt/smt2.ml" 151 5145 5168
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 151 5145 5169 "src/smt/smt2.ml" 151 5145 5183
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 151 5145 5184 "src/smt/smt2.ml" 151 5145 5185
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 150 5114 5132 "src/smt/smt2.ml" 150 5114 5133
+)
+"src/smt/smt2.ml" 151 5145 5169 "src/smt/smt2.ml" 151 5145 5185
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 151 5145 5186 "src/smt/smt2.ml" 151 5145 5187
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 151 5145 5188 "src/smt/smt2.ml" 151 5145 5191
+type(
+  string
+)
+"src/smt/smt2.ml" 151 5145 5192 "src/smt/smt2.ml" 151 5145 5193
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 152 5194 5204 "src/smt/smt2.ml" 152 5194 5207
+type(
+  string
+)
+"src/smt/smt2.ml" 152 5194 5208 "src/smt/smt2.ml" 152 5194 5209
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 152 5194 5211 "src/smt/smt2.ml" 152 5194 5224
+type(
+  string -> smt2 list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smt2.ml" 152 5194 5225 "src/smt/smt2.ml" 152 5194 5228
+type(
+  string
+)
+"src/smt/smt2.ml" 152 5194 5230 "src/smt/smt2.ml" 152 5194 5233
+type(
+  (Smtsyntax.smtvar -> smt2) -> Smtsyntax.smtvar list -> smt2 list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smt2.ml" 152 5194 5234 "src/smt/smt2.ml" 152 5194 5248
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 152 5194 5249 "src/smt/smt2.ml" 152 5194 5251
+type(
+  Smtsyntax.smtvar list
+)
+ident(
+  int_ref vs "src/smt/smt2.ml" 150 5114 5135 "src/smt/smt2.ml" 150 5114 5137
+)
+"src/smt/smt2.ml" 152 5194 5229 "src/smt/smt2.ml" 152 5194 5252
+call(
+  stack
+)
+type(
+  smt2 list
+)
+"src/smt/smt2.ml" 152 5194 5210 "src/smt/smt2.ml" 152 5194 5253
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 152 5194 5254 "src/smt/smt2.ml" 152 5194 5255
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 152 5194 5256 "src/smt/smt2.ml" 152 5194 5260
+type(
+  string
+)
+"src/smt/smt2.ml" 152 5194 5261 "src/smt/smt2.ml" 152 5194 5262
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 153 5263 5273 "src/smt/smt2.ml" 153 5263 5288
+type(
+  Smtsyntax.smtsort -> smt2
+)
+ident(
+  int_ref smt2_of_smtsort "src/smt/smt2.ml" 25 483 491 "src/smt/smt2.ml" 25 483 506
+)
+"src/smt/smt2.ml" 153 5263 5289 "src/smt/smt2.ml" 153 5263 5290
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref s "src/smt/smt2.ml" 150 5114 5139 "src/smt/smt2.ml" 150 5114 5140
+)
+"src/smt/smt2.ml" 153 5263 5273 "src/smt/smt2.ml" 153 5263 5290
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 153 5263 5291 "src/smt/smt2.ml" 153 5263 5292
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 153 5263 5293 "src/smt/smt2.ml" 153 5263 5296
+type(
+  string
+)
+"src/smt/smt2.ml" 153 5263 5273 "src/smt/smt2.ml" 153 5263 5296
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 152 5194 5256 "src/smt/smt2.ml" 153 5263 5296
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 152 5194 5210 "src/smt/smt2.ml" 153 5263 5296
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 152 5194 5204 "src/smt/smt2.ml" 153 5263 5296
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 151 5145 5188 "src/smt/smt2.ml" 153 5263 5296
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 151 5145 5169 "src/smt/smt2.ml" 153 5263 5296
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 151 5145 5151 "src/smt/smt2.ml" 153 5263 5296
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 155 5298 5314 "src/smt/smt2.ml" 155 5298 5315
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e "src/smt/smt2.ml" 155 5298 5319 "src/smt/smt2.ml" 155 5298 5355
+)
+"src/smt/smt2.ml" 155 5298 5304 "src/smt/smt2.ml" 155 5298 5315
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 155 5298 5319 "src/smt/smt2.ml" 155 5298 5329
+type(
+  string
+)
+"src/smt/smt2.ml" 155 5298 5330 "src/smt/smt2.ml" 155 5298 5331
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 155 5298 5332 "src/smt/smt2.ml" 155 5298 5347
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 155 5298 5348 "src/smt/smt2.ml" 155 5298 5349
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e "src/smt/smt2.ml" 155 5298 5314 "src/smt/smt2.ml" 155 5298 5315
+)
+"src/smt/smt2.ml" 155 5298 5332 "src/smt/smt2.ml" 155 5298 5349
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 155 5298 5350 "src/smt/smt2.ml" 155 5298 5351
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 155 5298 5352 "src/smt/smt2.ml" 155 5298 5355
+type(
+  string
+)
+"src/smt/smt2.ml" 155 5298 5332 "src/smt/smt2.ml" 155 5298 5355
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 155 5298 5319 "src/smt/smt2.ml" 155 5298 5355
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 156 5356 5362 "src/smt/smt2.ml" 156 5356 5375
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 156 5356 5379 "src/smt/smt2.ml" 156 5356 5397
+type(
+  smt2
+)
+"src/smt/smt2.ml" 158 5399 5405 "src/smt/smt2.ml" 158 5399 5416
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 158 5399 5420 "src/smt/smt2.ml" 158 5399 5433
+type(
+  smt2
+)
+"src/smt/smt2.ml" 159 5434 5440 "src/smt/smt2.ml" 159 5434 5451
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 159 5434 5455 "src/smt/smt2.ml" 159 5434 5468
+type(
+  smt2
+)
+"src/smt/smt2.ml" 160 5469 5475 "src/smt/smt2.ml" 160 5469 5486
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 160 5469 5490 "src/smt/smt2.ml" 160 5469 5503
+type(
+  smt2
+)
+"src/smt/smt2.ml" 161 5504 5510 "src/smt/smt2.ml" 161 5504 5525
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 161 5504 5529 "src/smt/smt2.ml" 161 5504 5547
+type(
+  smt2
+)
+"src/smt/smt2.ml" 163 5549 5567 "src/smt/smt2.ml" 163 5549 5569
+type(
+  Smtsyntax.smtexpr list
+)
+ident(
+  def es "src/smt/smt2.ml" 164 5573 5579 "src/smt/smt2.ml" 164 5573 5645
+)
+"src/smt/smt2.ml" 163 5549 5555 "src/smt/smt2.ml" 163 5549 5569
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 164 5573 5579 "src/smt/smt2.ml" 164 5573 5592
+type(
+  string
+)
+"src/smt/smt2.ml" 164 5573 5593 "src/smt/smt2.ml" 164 5573 5594
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 164 5573 5596 "src/smt/smt2.ml" 164 5573 5609
+type(
+  string -> smt2 list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smt2.ml" 164 5573 5610 "src/smt/smt2.ml" 164 5573 5613
+type(
+  string
+)
+"src/smt/smt2.ml" 164 5573 5615 "src/smt/smt2.ml" 164 5573 5618
+type(
+  (Smtsyntax.smtexpr -> smt2) -> Smtsyntax.smtexpr list -> smt2 list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smt2.ml" 164 5573 5619 "src/smt/smt2.ml" 164 5573 5634
+type(
+  Smtsyntax.smtexpr -> smt2
+)
+ident(
+  int_ref smt2_of_smtexpr "src/smt/smt2.ml" 39 986 994 "src/smt/smt2.ml" 39 986 1009
+)
+"src/smt/smt2.ml" 164 5573 5635 "src/smt/smt2.ml" 164 5573 5637
+type(
+  Smtsyntax.smtexpr list
+)
+ident(
+  int_ref es "src/smt/smt2.ml" 163 5549 5567 "src/smt/smt2.ml" 163 5549 5569
+)
+"src/smt/smt2.ml" 164 5573 5614 "src/smt/smt2.ml" 164 5573 5638
+call(
+  stack
+)
+type(
+  smt2 list
+)
+"src/smt/smt2.ml" 164 5573 5595 "src/smt/smt2.ml" 164 5573 5639
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 164 5573 5640 "src/smt/smt2.ml" 164 5573 5641
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 164 5573 5642 "src/smt/smt2.ml" 164 5573 5645
+type(
+  string
+)
+"src/smt/smt2.ml" 164 5573 5595 "src/smt/smt2.ml" 164 5573 5645
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 164 5573 5579 "src/smt/smt2.ml" 164 5573 5645
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 165 5646 5652 "src/smt/smt2.ml" 165 5646 5668
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 165 5646 5672 "src/smt/smt2.ml" 165 5646 5690
+type(
+  smt2
+)
+"src/smt/smt2.ml" 167 5692 5706 "src/smt/smt2.ml" 167 5692 5707
+type(
+  int
+)
+ident(
+  def i "src/smt/smt2.ml" 167 5692 5711 "src/smt/smt2.ml" 167 5692 5743
+)
+"src/smt/smt2.ml" 167 5692 5698 "src/smt/smt2.ml" 167 5692 5707
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 167 5692 5711 "src/smt/smt2.ml" 167 5692 5719
+type(
+  string
+)
+"src/smt/smt2.ml" 167 5692 5720 "src/smt/smt2.ml" 167 5692 5721
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 167 5692 5722 "src/smt/smt2.ml" 167 5692 5735
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/smt/smt2.ml" 167 5692 5736 "src/smt/smt2.ml" 167 5692 5737
+type(
+  int
+)
+ident(
+  int_ref i "src/smt/smt2.ml" 167 5692 5706 "src/smt/smt2.ml" 167 5692 5707
+)
+"src/smt/smt2.ml" 167 5692 5722 "src/smt/smt2.ml" 167 5692 5737
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 167 5692 5738 "src/smt/smt2.ml" 167 5692 5739
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 167 5692 5740 "src/smt/smt2.ml" 167 5692 5743
+type(
+  string
+)
+"src/smt/smt2.ml" 167 5692 5722 "src/smt/smt2.ml" 167 5692 5743
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 167 5692 5711 "src/smt/smt2.ml" 167 5692 5743
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 168 5744 5757 "src/smt/smt2.ml" 168 5744 5758
+type(
+  int
+)
+ident(
+  def i "src/smt/smt2.ml" 168 5744 5762 "src/smt/smt2.ml" 168 5744 5793
+)
+"src/smt/smt2.ml" 168 5744 5750 "src/smt/smt2.ml" 168 5744 5758
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 168 5744 5762 "src/smt/smt2.ml" 168 5744 5769
+type(
+  string
+)
+"src/smt/smt2.ml" 168 5744 5770 "src/smt/smt2.ml" 168 5744 5771
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 168 5744 5772 "src/smt/smt2.ml" 168 5744 5785
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/smt/smt2.ml" 168 5744 5786 "src/smt/smt2.ml" 168 5744 5787
+type(
+  int
+)
+ident(
+  int_ref i "src/smt/smt2.ml" 168 5744 5757 "src/smt/smt2.ml" 168 5744 5758
+)
+"src/smt/smt2.ml" 168 5744 5772 "src/smt/smt2.ml" 168 5744 5787
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 168 5744 5788 "src/smt/smt2.ml" 168 5744 5789
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 168 5744 5790 "src/smt/smt2.ml" 168 5744 5793
+type(
+  string
+)
+"src/smt/smt2.ml" 168 5744 5772 "src/smt/smt2.ml" 168 5744 5793
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 168 5744 5762 "src/smt/smt2.ml" 168 5744 5793
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 170 5795 5814 "src/smt/smt2.ml" 170 5795 5815
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 171 5819 5825 "src/smt/smt2.ml" 171 5819 5865
+)
+"src/smt/smt2.ml" 170 5795 5801 "src/smt/smt2.ml" 170 5795 5815
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 171 5819 5825 "src/smt/smt2.ml" 171 5819 5840
+type(
+  string
+)
+"src/smt/smt2.ml" 171 5819 5841 "src/smt/smt2.ml" 171 5819 5842
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 171 5819 5843 "src/smt/smt2.ml" 171 5819 5857
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 171 5819 5858 "src/smt/smt2.ml" 171 5819 5859
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 170 5795 5814 "src/smt/smt2.ml" 170 5795 5815
+)
+"src/smt/smt2.ml" 171 5819 5843 "src/smt/smt2.ml" 171 5819 5859
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 171 5819 5860 "src/smt/smt2.ml" 171 5819 5861
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 171 5819 5862 "src/smt/smt2.ml" 171 5819 5865
+type(
+  string
+)
+"src/smt/smt2.ml" 171 5819 5843 "src/smt/smt2.ml" 171 5819 5865
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 171 5819 5825 "src/smt/smt2.ml" 171 5819 5865
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 172 5866 5886 "src/smt/smt2.ml" 172 5866 5887
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 173 5895 5901 "src/smt/smt2.ml" 173 5895 5968
+)
+"src/smt/smt2.ml" 172 5866 5889 "src/smt/smt2.ml" 172 5866 5890
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  def a "src/smt/smt2.ml" 173 5895 5901 "src/smt/smt2.ml" 173 5895 5968
+)
+"src/smt/smt2.ml" 172 5866 5872 "src/smt/smt2.ml" 172 5866 5891
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 173 5895 5901 "src/smt/smt2.ml" 173 5895 5916
+type(
+  string
+)
+"src/smt/smt2.ml" 173 5895 5917 "src/smt/smt2.ml" 173 5895 5918
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 173 5895 5919 "src/smt/smt2.ml" 173 5895 5933
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 173 5895 5934 "src/smt/smt2.ml" 173 5895 5935
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 172 5866 5886 "src/smt/smt2.ml" 172 5866 5887
+)
+"src/smt/smt2.ml" 173 5895 5919 "src/smt/smt2.ml" 173 5895 5935
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 173 5895 5936 "src/smt/smt2.ml" 173 5895 5937
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 173 5895 5938 "src/smt/smt2.ml" 173 5895 5941
+type(
+  string
+)
+"src/smt/smt2.ml" 173 5895 5942 "src/smt/smt2.ml" 173 5895 5943
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 173 5895 5944 "src/smt/smt2.ml" 173 5895 5960
+type(
+  Smtsyntax.smtconst -> smt2
+)
+ident(
+  int_ref smt2_of_smtconst "src/smt/smt2.ml" 10 103 107 "src/smt/smt2.ml" 10 103 123
+)
+"src/smt/smt2.ml" 173 5895 5961 "src/smt/smt2.ml" 173 5895 5962
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  int_ref a "src/smt/smt2.ml" 172 5866 5889 "src/smt/smt2.ml" 172 5866 5890
+)
+"src/smt/smt2.ml" 173 5895 5944 "src/smt/smt2.ml" 173 5895 5962
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 173 5895 5963 "src/smt/smt2.ml" 173 5895 5964
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 173 5895 5965 "src/smt/smt2.ml" 173 5895 5968
+type(
+  string
+)
+"src/smt/smt2.ml" 173 5895 5944 "src/smt/smt2.ml" 173 5895 5968
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 173 5895 5938 "src/smt/smt2.ml" 173 5895 5968
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 173 5895 5919 "src/smt/smt2.ml" 173 5895 5968
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 173 5895 5901 "src/smt/smt2.ml" 173 5895 5968
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 175 5970 5987 "src/smt/smt2.ml" 175 5970 5988
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 176 5992 5998 "src/smt/smt2.ml" 176 5992 6036
+)
+"src/smt/smt2.ml" 175 5970 5976 "src/smt/smt2.ml" 175 5970 5988
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 176 5992 5998 "src/smt/smt2.ml" 176 5992 6011
+type(
+  string
+)
+"src/smt/smt2.ml" 176 5992 6012 "src/smt/smt2.ml" 176 5992 6013
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 176 5992 6014 "src/smt/smt2.ml" 176 5992 6028
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 176 5992 6029 "src/smt/smt2.ml" 176 5992 6030
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 175 5970 5987 "src/smt/smt2.ml" 175 5970 5988
+)
+"src/smt/smt2.ml" 176 5992 6014 "src/smt/smt2.ml" 176 5992 6030
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 176 5992 6031 "src/smt/smt2.ml" 176 5992 6032
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 176 5992 6033 "src/smt/smt2.ml" 176 5992 6036
+type(
+  string
+)
+"src/smt/smt2.ml" 176 5992 6014 "src/smt/smt2.ml" 176 5992 6036
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 176 5992 5998 "src/smt/smt2.ml" 176 5992 6036
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 177 6037 6055 "src/smt/smt2.ml" 177 6037 6056
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smt2.ml" 178 6064 6070 "src/smt/smt2.ml" 178 6064 6135
+)
+"src/smt/smt2.ml" 177 6037 6058 "src/smt/smt2.ml" 177 6037 6059
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  def a "src/smt/smt2.ml" 178 6064 6070 "src/smt/smt2.ml" 178 6064 6135
+)
+"src/smt/smt2.ml" 177 6037 6043 "src/smt/smt2.ml" 177 6037 6060
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 178 6064 6070 "src/smt/smt2.ml" 178 6064 6083
+type(
+  string
+)
+"src/smt/smt2.ml" 178 6064 6084 "src/smt/smt2.ml" 178 6064 6085
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 178 6064 6086 "src/smt/smt2.ml" 178 6064 6100
+type(
+  Smtsyntax.smtvar -> smt2
+)
+ident(
+  int_ref smt2_of_smtvar "src/smt/smt2.ml" 7 47 51 "src/smt/smt2.ml" 7 47 65
+)
+"src/smt/smt2.ml" 178 6064 6101 "src/smt/smt2.ml" 178 6064 6102
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smt2.ml" 177 6037 6055 "src/smt/smt2.ml" 177 6037 6056
+)
+"src/smt/smt2.ml" 178 6064 6086 "src/smt/smt2.ml" 178 6064 6102
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 178 6064 6103 "src/smt/smt2.ml" 178 6064 6104
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 178 6064 6105 "src/smt/smt2.ml" 178 6064 6108
+type(
+  string
+)
+"src/smt/smt2.ml" 178 6064 6109 "src/smt/smt2.ml" 178 6064 6110
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 178 6064 6111 "src/smt/smt2.ml" 178 6064 6127
+type(
+  Smtsyntax.smtconst -> smt2
+)
+ident(
+  int_ref smt2_of_smtconst "src/smt/smt2.ml" 10 103 107 "src/smt/smt2.ml" 10 103 123
+)
+"src/smt/smt2.ml" 178 6064 6128 "src/smt/smt2.ml" 178 6064 6129
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  int_ref a "src/smt/smt2.ml" 177 6037 6058 "src/smt/smt2.ml" 177 6037 6059
+)
+"src/smt/smt2.ml" 178 6064 6111 "src/smt/smt2.ml" 178 6064 6129
+call(
+  stack
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 178 6064 6130 "src/smt/smt2.ml" 178 6064 6131
+type(
+  smt2 -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 178 6064 6132 "src/smt/smt2.ml" 178 6064 6135
+type(
+  string
+)
+"src/smt/smt2.ml" 178 6064 6111 "src/smt/smt2.ml" 178 6064 6135
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 178 6064 6105 "src/smt/smt2.ml" 178 6064 6135
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 178 6064 6086 "src/smt/smt2.ml" 178 6064 6135
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 178 6064 6070 "src/smt/smt2.ml" 178 6064 6135
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 180 6137 6143 "src/smt/smt2.ml" 180 6137 6150
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 180 6137 6154 "src/smt/smt2.ml" 180 6137 6162
+type(
+  smt2
+)
+"src/smt/smt2.ml" 182 6164 6170 "src/smt/smt2.ml" 182 6164 6176
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 182 6164 6180 "src/smt/smt2.ml" 182 6164 6185
+type(
+  smt2
+)
+"src/smt/smt2.ml" 183 6186 6192 "src/smt/smt2.ml" 183 6186 6200
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 183 6186 6204 "src/smt/smt2.ml" 183 6186 6211
+type(
+  smt2
+)
+"src/smt/smt2.ml" 184 6212 6227 "src/smt/smt2.ml" 184 6212 6229
+type(
+  Smtsyntax.smtcmd list
+)
+ident(
+  def cs "src/smt/smt2.ml" 185 6233 6241 "src/smt/smt2.ml" 185 6233 6302
+)
+"src/smt/smt2.ml" 184 6212 6218 "src/smt/smt2.ml" 184 6212 6229
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smt2.ml" 185 6233 6241 "src/smt/smt2.ml" 185 6233 6250
+type(
+  string
+)
+"src/smt/smt2.ml" 185 6233 6251 "src/smt/smt2.ml" 185 6233 6252
+type(
+  string -> string -> smt2
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 185 6233 6254 "src/smt/smt2.ml" 185 6233 6267
+type(
+  string -> smt2 list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smt2.ml" 185 6233 6268 "src/smt/smt2.ml" 185 6233 6271
+type(
+  string
+)
+"src/smt/smt2.ml" 185 6233 6273 "src/smt/smt2.ml" 185 6233 6276
+type(
+  (Smtsyntax.smtcmd -> smt2) -> Smtsyntax.smtcmd list -> smt2 list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smt2.ml" 185 6233 6277 "src/smt/smt2.ml" 185 6233 6291
+type(
+  Smtsyntax.smtcmd -> smt2
+)
+ident(
+  int_ref smt2_of_smtcmd "src/smt/smt2.ml" 127 4341 4349 "src/smt/smt2.ml" 127 4341 4363
+)
+"src/smt/smt2.ml" 185 6233 6292 "src/smt/smt2.ml" 185 6233 6294
+type(
+  Smtsyntax.smtcmd list
+)
+ident(
+  int_ref cs "src/smt/smt2.ml" 184 6212 6227 "src/smt/smt2.ml" 184 6212 6229
+)
+"src/smt/smt2.ml" 185 6233 6272 "src/smt/smt2.ml" 185 6233 6295
+call(
+  stack
+)
+type(
+  smt2 list
+)
+"src/smt/smt2.ml" 185 6233 6253 "src/smt/smt2.ml" 185 6233 6296
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 185 6233 6297 "src/smt/smt2.ml" 185 6233 6298
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smt2.ml" 185 6233 6299 "src/smt/smt2.ml" 185 6233 6302
+type(
+  string
+)
+"src/smt/smt2.ml" 185 6233 6253 "src/smt/smt2.ml" 185 6233 6302
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smt2.ml" 185 6233 6241 "src/smt/smt2.ml" 185 6233 6302
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 129 4397 4401 "src/smt/smt2.ml" 185 6233 6302
+type(
+  smt2
+)
+"src/smt/smt2.ml" 128 4383 4385 "src/smt/smt2.ml" 185 6233 6302
+type(
+  Smtsyntax.smtcmd -> smt2
+)
+type(
+  Smtsyntax.smtcmd -> smt2
+)
+"src/smt/smt2.ml" 187 6304 6308 "src/smt/smt2.ml" 187 6304 6327
+type(
+  Smtsyntax.smtcmd list -> smt2
+)
+ident(
+  def smt2_of_smtcmd_list "src/smt/smt2.ml" 191 6418 6418 "src/smt/smt2.ml" 1 0 -1
+)
+"src/smt/smt2.ml" 188 6352 6358 "src/smt/smt2.ml" 188 6352 6363
+type(
+  Smtsyntax.smtcmd list
+)
+ident(
+  def stmts "src/smt/smt2.ml" 189 6367 6371 "src/smt/smt2.ml" 189 6367 6416
+)
+"src/smt/smt2.ml" 189 6367 6371 "src/smt/smt2.ml" 189 6367 6384
+type(
+  string -> smt2 list -> smt2
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smt2.ml" 189 6367 6385 "src/smt/smt2.ml" 189 6367 6389
+type(
+  string
+)
+"src/smt/smt2.ml" 189 6367 6391 "src/smt/smt2.ml" 189 6367 6394
+type(
+  (Smtsyntax.smtcmd -> smt2) -> Smtsyntax.smtcmd list -> smt2 list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smt2.ml" 189 6367 6395 "src/smt/smt2.ml" 189 6367 6409
+type(
+  Smtsyntax.smtcmd -> smt2
+)
+ident(
+  int_ref smt2_of_smtcmd "src/smt/smt2.ml" 127 4341 4349 "src/smt/smt2.ml" 127 4341 4363
+)
+"src/smt/smt2.ml" 189 6367 6410 "src/smt/smt2.ml" 189 6367 6415
+type(
+  Smtsyntax.smtcmd list
+)
+ident(
+  int_ref stmts "src/smt/smt2.ml" 188 6352 6358 "src/smt/smt2.ml" 188 6352 6363
+)
+"src/smt/smt2.ml" 189 6367 6390 "src/smt/smt2.ml" 189 6367 6416
+call(
+  stack
+)
+type(
+  smt2 list
+)
+"src/smt/smt2.ml" 189 6367 6371 "src/smt/smt2.ml" 189 6367 6416
+call(
+  tail
+)
+type(
+  smt2
+)
+"src/smt/smt2.ml" 188 6352 6354 "src/smt/smt2.ml" 189 6367 6416
+type(
+  Smtsyntax.smtcmd list -> smt2
+)
+type(
+  Smtsyntax.smtcmd list -> smt2
+)
+"src/smt/smt2.ml" 191 6418 6422 "src/smt/smt2.ml" 191 6418 6436
+type(
+  smt2 -> string
+)
+ident(
+  def string_of_smt2 "src/smt/smt2.ml" 192 6456 6474 "src/smt/smt2.ml" 1 0 -1
+)
+"src/smt/smt2.ml" 192 6456 6462 "src/smt/smt2.ml" 192 6456 6466
+type(
+  smt2
+)
+ident(
+  def smt2 "src/smt/smt2.ml" 192 6456 6470 "src/smt/smt2.ml" 192 6456 6474
+)
+"src/smt/smt2.ml" 192 6456 6470 "src/smt/smt2.ml" 192 6456 6474
+type(
+  smt2
+)
+ident(
+  int_ref smt2 "src/smt/smt2.ml" 192 6456 6462 "src/smt/smt2.ml" 192 6456 6466
+)
+"src/smt/smt2.ml" 192 6456 6458 "src/smt/smt2.ml" 192 6456 6474
+type(
+  smt2 -> string
+)
+type(
+  smt2 -> smt2
+)

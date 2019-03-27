@@ -1,0 +1,3856 @@
+"src/interpreter/natives/native_calls.ml" 26 766 770 "src/interpreter/natives/native_calls.ml" 26 766 781
+type(
+  string list
+)
+ident(
+  def binop_names "src/interpreter/natives/native_calls.ml" 34 987 987 "src/interpreter/natives/native_calls.ml" 1 0 -1
+)
+"src/interpreter/natives/native_calls.ml" 27 798 801 "src/interpreter/natives/native_calls.ml" 27 798 804
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 27 798 806 "src/interpreter/natives/native_calls.ml" 27 798 809
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 27 798 811 "src/interpreter/natives/native_calls.ml" 27 798 814
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 27 798 816 "src/interpreter/natives/native_calls.ml" 27 798 819
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 27 798 821 "src/interpreter/natives/native_calls.ml" 27 798 824
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 28 826 829 "src/interpreter/natives/native_calls.ml" 28 826 833
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 28 826 835 "src/interpreter/natives/native_calls.ml" 28 826 840
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 28 826 842 "src/interpreter/natives/native_calls.ml" 28 826 847
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 28 826 849 "src/interpreter/natives/native_calls.ml" 28 826 854
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 28 826 856 "src/interpreter/natives/native_calls.ml" 28 826 860
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 28 826 862 "src/interpreter/natives/native_calls.ml" 28 826 868
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 29 870 873 "src/interpreter/natives/native_calls.ml" 29 870 876
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 29 870 878 "src/interpreter/natives/native_calls.ml" 29 870 882
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 29 870 884 "src/interpreter/natives/native_calls.ml" 29 870 887
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 29 870 889 "src/interpreter/natives/native_calls.ml" 29 870 893
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 29 870 895 "src/interpreter/natives/native_calls.ml" 29 870 899
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 29 870 901 "src/interpreter/natives/native_calls.ml" 29 870 905
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 30 907 910 "src/interpreter/natives/native_calls.ml" 30 907 914
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 30 907 916 "src/interpreter/natives/native_calls.ml" 30 907 919
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 30 907 921 "src/interpreter/natives/native_calls.ml" 30 907 925
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 30 907 927 "src/interpreter/natives/native_calls.ml" 30 907 930
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 30 907 932 "src/interpreter/natives/native_calls.ml" 30 907 935
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 31 937 940 "src/interpreter/natives/native_calls.ml" 31 937 944
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 31 937 946 "src/interpreter/natives/native_calls.ml" 31 937 951
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 31 937 953 "src/interpreter/natives/native_calls.ml" 31 937 956
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 31 937 958 "src/interpreter/natives/native_calls.ml" 31 937 961
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 31 937 963 "src/interpreter/natives/native_calls.ml" 31 937 966
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 31 937 968 "src/interpreter/natives/native_calls.ml" 31 937 972
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 31 937 974 "src/interpreter/natives/native_calls.ml" 31 937 979
+type(
+  string
+)
+"src/interpreter/natives/native_calls.ml" 27 798 800 "src/interpreter/natives/native_calls.ml" 32 981 985
+type(
+  string list
+)
+type(
+  string list
+)
+"src/interpreter/natives/native_calls.ml" 34 987 991 "src/interpreter/natives/native_calls.ml" 34 987 1010
+type(
+  ident -> string option
+)
+ident(
+  def extract_native_name "src/interpreter/natives/native_calls.ml" 48 1447 1447 "src/interpreter/natives/native_calls.ml" 1 0 -1
+)
+"src/interpreter/natives/native_calls.ml" 35 1038 1044 "src/interpreter/natives/native_calls.ml" 35 1038 1046
+type(
+  ident
+)
+ident(
+  def id "src/interpreter/natives/native_calls.ml" 36 1051 1055 "src/interpreter/natives/native_calls.ml" 42 1190 1202
+)
+"src/interpreter/natives/native_calls.ml" 36 1051 1061 "src/interpreter/natives/native_calls.ml" 36 1051 1063
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 35 1038 1044 "src/interpreter/natives/native_calls.ml" 35 1038 1046
+)
+"src/interpreter/natives/native_calls.ml" 36 1051 1061 "src/interpreter/natives/native_calls.ml" 36 1051 1067
+type(
+  Syntax.rstring option
+)
+"src/interpreter/natives/native_calls.ml" 37 1073 1079 "src/interpreter/natives/native_calls.ml" 37 1073 1083
+type(
+  Syntax.rstring option
+)
+"src/interpreter/natives/native_calls.ml" 37 1073 1087 "src/interpreter/natives/native_calls.ml" 37 1073 1091
+type(
+  string option
+)
+"src/interpreter/natives/native_calls.ml" 38 1092 1103 "src/interpreter/natives/native_calls.ml" 38 1092 1106
+type(
+  Syntax.rstring
+)
+ident(
+  def pkg "src/interpreter/natives/native_calls.ml" 39 1110 1116 "src/interpreter/natives/native_calls.ml" 42 1190 1202
+)
+"src/interpreter/natives/native_calls.ml" 38 1092 1098 "src/interpreter/natives/native_calls.ml" 38 1092 1106
+type(
+  Syntax.rstring option
+)
+"src/interpreter/natives/native_calls.ml" 39 1110 1119 "src/interpreter/natives/native_calls.ml" 39 1110 1122
+type(
+  Syntax.rstring
+)
+ident(
+  int_ref pkg "src/interpreter/natives/native_calls.ml" 38 1092 1103 "src/interpreter/natives/native_calls.ml" 38 1092 1106
+)
+"src/interpreter/natives/native_calls.ml" 39 1110 1123 "src/interpreter/natives/native_calls.ml" 39 1110 1124
+type(
+  Syntax.rstring -> Syntax.rstring -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 39 1110 1125 "src/interpreter/natives/native_calls.ml" 39 1110 1139
+type(
+  Support.rstring
+)
+ident(
+  ext_ref Natives.native_rstring
+)
+"src/interpreter/natives/native_calls.ml" 39 1110 1119 "src/interpreter/natives/native_calls.ml" 39 1110 1139
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 40 1145 1153 "src/interpreter/natives/native_calls.ml" 40 1145 1170
+type(
+  Support.rstring -> string option
+)
+ident(
+  ext_ref Support.string_of_rstring
+)
+"src/interpreter/natives/native_calls.ml" 40 1145 1171 "src/interpreter/natives/native_calls.ml" 40 1145 1173
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 35 1038 1044 "src/interpreter/natives/native_calls.ml" 35 1038 1046
+)
+"src/interpreter/natives/native_calls.ml" 40 1145 1171 "src/interpreter/natives/native_calls.ml" 40 1145 1178
+type(
+  Syntax.rstring
+)
+"src/interpreter/natives/native_calls.ml" 40 1145 1153 "src/interpreter/natives/native_calls.ml" 40 1145 1178
+call(
+  tail
+)
+type(
+  string option
+)
+"src/interpreter/natives/native_calls.ml" 42 1190 1198 "src/interpreter/natives/native_calls.ml" 42 1190 1202
+type(
+  string option
+)
+"src/interpreter/natives/native_calls.ml" 39 1110 1116 "src/interpreter/natives/native_calls.ml" 42 1190 1202
+type(
+  string option
+)
+"src/interpreter/natives/native_calls.ml" 36 1051 1055 "src/interpreter/natives/native_calls.ml" 42 1190 1202
+type(
+  string option
+)
+"src/interpreter/natives/native_calls.ml" 35 1038 1040 "src/interpreter/natives/native_calls.ml" 42 1190 1202
+type(
+  ident -> string option
+)
+type(
+  ident -> string option
+)
+"src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+type(
+  (Support.rvector ->
+   Support.rvector -> Support.state -> Support.rvector * Support.state) ->
+  Support.memref list ->
+  Support.memref -> Support.state -> Support.state option
+)
+ident(
+  def do_rvector_bop "src/interpreter/natives/native_calls.ml" 64 2172 2172 "src/interpreter/natives/native_calls.ml" 1 0 -1
+)
+"src/interpreter/natives/native_calls.ml" 50 1577 1585 "src/interpreter/natives/native_calls.ml" 50 1577 1587
+type(
+  Vector.S.rvector ->
+  Vector.S.rvector -> Vector.S.state -> Vector.S.rvector * Vector.S.state
+)
+ident(
+  def op "src/interpreter/natives/native_calls.ml" 50 1577 1588 "src/interpreter/natives/native_calls.ml" 58 1945 1960
+)
+"src/interpreter/natives/native_calls.ml" 50 1577 1588 "src/interpreter/natives/native_calls.ml" 50 1577 1596
+type(
+  Support.memref list
+)
+ident(
+  def arg_mems "src/interpreter/natives/native_calls.ml" 50 1577 1597 "src/interpreter/natives/native_calls.ml" 58 1945 1960
+)
+"src/interpreter/natives/native_calls.ml" 50 1577 1597 "src/interpreter/natives/native_calls.ml" 50 1577 1606
+type(
+  Support.memref
+)
+ident(
+  def c_env_mem "src/interpreter/natives/native_calls.ml" 50 1577 1607 "src/interpreter/natives/native_calls.ml" 58 1945 1960
+)
+"src/interpreter/natives/native_calls.ml" 50 1577 1607 "src/interpreter/natives/native_calls.ml" 50 1577 1612
+type(
+  Vector.S.state
+)
+ident(
+  def state "src/interpreter/natives/native_calls.ml" 51 1616 1620 "src/interpreter/natives/native_calls.ml" 58 1945 1960
+)
+"src/interpreter/natives/native_calls.ml" 51 1616 1626 "src/interpreter/natives/native_calls.ml" 51 1616 1634
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 50 1577 1588 "src/interpreter/natives/native_calls.ml" 50 1577 1596
+)
+"src/interpreter/natives/native_calls.ml" 52 1640 1647 "src/interpreter/natives/native_calls.ml" 52 1640 1649
+type(
+  Support.memref
+)
+ident(
+  def v1 "src/interpreter/natives/native_calls.ml" 53 1666 1674 "src/interpreter/natives/native_calls.ml" 57 1877 1944
+)
+"src/interpreter/natives/native_calls.ml" 52 1640 1653 "src/interpreter/natives/native_calls.ml" 52 1640 1655
+type(
+  Support.memref
+)
+ident(
+  def v2 "src/interpreter/natives/native_calls.ml" 53 1666 1674 "src/interpreter/natives/native_calls.ml" 57 1877 1944
+)
+"src/interpreter/natives/native_calls.ml" 52 1640 1659 "src/interpreter/natives/native_calls.ml" 52 1640 1661
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 52 1640 1653 "src/interpreter/natives/native_calls.ml" 52 1640 1661
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 52 1640 1646 "src/interpreter/natives/native_calls.ml" 52 1640 1662
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 53 1666 1679 "src/interpreter/natives/native_calls.ml" 53 1666 1683
+type(
+  Vector.S.memref
+)
+ident(
+  def mem2 "src/interpreter/natives/native_calls.ml" 54 1729 1737 "src/interpreter/natives/native_calls.ml" 57 1877 1944
+)
+"src/interpreter/natives/native_calls.ml" 53 1666 1685 "src/interpreter/natives/native_calls.ml" 53 1666 1691
+type(
+  Vector.S.state
+)
+ident(
+  def state2 "src/interpreter/natives/native_calls.ml" 54 1729 1737 "src/interpreter/natives/native_calls.ml" 57 1877 1944
+)
+"src/interpreter/natives/native_calls.ml" 53 1666 1678 "src/interpreter/natives/native_calls.ml" 53 1666 1692
+type(
+  Vector.S.memref * Vector.S.state
+)
+"src/interpreter/natives/native_calls.ml" 53 1666 1695 "src/interpreter/natives/native_calls.ml" 53 1666 1710
+type(
+  (Vector.S.rvector ->
+   Vector.S.rvector -> Vector.S.state -> Vector.S.rvector * Vector.S.state) ->
+  Vector.S.memref ->
+  Vector.S.memref -> Vector.S.state -> Vector.S.memref * Vector.S.state
+)
+ident(
+  ext_ref Vector.vector_bop_mems
+)
+"src/interpreter/natives/native_calls.ml" 53 1666 1711 "src/interpreter/natives/native_calls.ml" 53 1666 1713
+type(
+  Vector.S.rvector ->
+  Vector.S.rvector -> Vector.S.state -> Vector.S.rvector * Vector.S.state
+)
+ident(
+  int_ref op "src/interpreter/natives/native_calls.ml" 50 1577 1585 "src/interpreter/natives/native_calls.ml" 50 1577 1587
+)
+"src/interpreter/natives/native_calls.ml" 53 1666 1714 "src/interpreter/natives/native_calls.ml" 53 1666 1716
+type(
+  Support.memref
+)
+ident(
+  int_ref v1 "src/interpreter/natives/native_calls.ml" 52 1640 1647 "src/interpreter/natives/native_calls.ml" 52 1640 1649
+)
+"src/interpreter/natives/native_calls.ml" 53 1666 1717 "src/interpreter/natives/native_calls.ml" 53 1666 1719
+type(
+  Support.memref
+)
+ident(
+  int_ref v2 "src/interpreter/natives/native_calls.ml" 52 1640 1653 "src/interpreter/natives/native_calls.ml" 52 1640 1655
+)
+"src/interpreter/natives/native_calls.ml" 53 1666 1720 "src/interpreter/natives/native_calls.ml" 53 1666 1725
+type(
+  Vector.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 50 1577 1607 "src/interpreter/natives/native_calls.ml" 50 1577 1612
+)
+"src/interpreter/natives/native_calls.ml" 53 1666 1695 "src/interpreter/natives/native_calls.ml" 53 1666 1725
+call(
+  stack
+)
+type(
+  Vector.S.memref * Vector.S.state
+)
+"src/interpreter/natives/native_calls.ml" 54 1729 1741 "src/interpreter/natives/native_calls.ml" 54 1729 1748
+type(
+  Support.frame
+)
+ident(
+  def c_frame "src/interpreter/natives/native_calls.ml" 57 1877 1885 "src/interpreter/natives/native_calls.ml" 57 1877 1944
+)
+"src/interpreter/natives/native_calls.ml" 54 1729 1753 "src/interpreter/natives/native_calls.ml" 54 1729 1766
+type(
+  unit -> Support.frame
+)
+ident(
+  ext_ref Support.frame_default
+)
+"src/interpreter/natives/native_calls.ml" 55 1772 1810 "src/interpreter/natives/native_calls.ml" 55 1772 1819
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 50 1577 1597 "src/interpreter/natives/native_calls.ml" 50 1577 1606
+)
+"src/interpreter/natives/native_calls.ml" 56 1821 1867 "src/interpreter/natives/native_calls.ml" 56 1821 1871
+type(
+  Vector.S.memref
+)
+ident(
+  int_ref mem2 "src/interpreter/natives/native_calls.ml" 53 1666 1679 "src/interpreter/natives/native_calls.ml" 53 1666 1683
+)
+"src/interpreter/natives/native_calls.ml" 56 1821 1856 "src/interpreter/natives/native_calls.ml" 56 1821 1871
+type(
+  Support.slot
+)
+"src/interpreter/natives/native_calls.ml" 54 1729 1751 "src/interpreter/natives/native_calls.ml" 56 1821 1873
+type(
+  Support.frame
+)
+"src/interpreter/natives/native_calls.ml" 57 1877 1892 "src/interpreter/natives/native_calls.ml" 57 1877 1898
+type(
+  Vector.S.state
+)
+ident(
+  int_ref state2 "src/interpreter/natives/native_calls.ml" 53 1666 1685 "src/interpreter/natives/native_calls.ml" 53 1666 1691
+)
+"src/interpreter/natives/native_calls.ml" 57 1877 1912 "src/interpreter/natives/native_calls.ml" 57 1877 1922
+type(
+  Support.frame -> Support.stack -> Support.stack
+)
+ident(
+  ext_ref Support.stack_push
+)
+"src/interpreter/natives/native_calls.ml" 57 1877 1923 "src/interpreter/natives/native_calls.ml" 57 1877 1930
+type(
+  Support.frame
+)
+ident(
+  int_ref c_frame "src/interpreter/natives/native_calls.ml" 54 1729 1741 "src/interpreter/natives/native_calls.ml" 54 1729 1748
+)
+"src/interpreter/natives/native_calls.ml" 57 1877 1931 "src/interpreter/natives/native_calls.ml" 57 1877 1936
+type(
+  Vector.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 50 1577 1607 "src/interpreter/natives/native_calls.ml" 50 1577 1612
+)
+"src/interpreter/natives/native_calls.ml" 57 1877 1931 "src/interpreter/natives/native_calls.ml" 57 1877 1942
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 57 1877 1912 "src/interpreter/natives/native_calls.ml" 57 1877 1942
+call(
+  stack
+)
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 57 1877 1890 "src/interpreter/natives/native_calls.ml" 57 1877 1944
+type(
+  Support.state
+)
+"src/interpreter/natives/native_calls.ml" 57 1877 1885 "src/interpreter/natives/native_calls.ml" 57 1877 1944
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 54 1729 1737 "src/interpreter/natives/native_calls.ml" 57 1877 1944
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 53 1666 1674 "src/interpreter/natives/native_calls.ml" 57 1877 1944
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 58 1945 1951 "src/interpreter/natives/native_calls.ml" 58 1945 1952
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 58 1945 1956 "src/interpreter/natives/native_calls.ml" 58 1945 1960
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 51 1616 1620 "src/interpreter/natives/native_calls.ml" 58 1945 1960
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 50 1577 1581 "src/interpreter/natives/native_calls.ml" 58 1945 1960
+type(
+  (Support.rvector ->
+   Support.rvector -> Support.state -> Support.rvector * Support.state) ->
+  Support.memref list ->
+  Support.memref -> Support.state -> Support.state option
+)
+type(
+  (Vector.S.rvector ->
+   Vector.S.rvector -> Vector.S.state -> Vector.S.rvector * Vector.S.state) ->
+  Support.memref list ->
+  Support.memref -> Vector.S.state -> Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 64 2172 2176 "src/interpreter/natives/native_calls.ml" 64 2172 2191
+type(
+  (Support.rvector -> Support.rvector) ->
+  Support.memref list ->
+  Support.memref -> Support.state -> Support.state option
+)
+ident(
+  def do_rvector_conv "src/interpreter/natives/native_calls.ml" 85 3405 3405 "src/interpreter/natives/native_calls.ml" 1 0 -1
+)
+"src/interpreter/natives/native_calls.ml" 66 2274 2282 "src/interpreter/natives/native_calls.ml" 66 2274 2284
+type(
+  Vector.S.rvector -> Vector.S.rvector
+)
+ident(
+  def op "src/interpreter/natives/native_calls.ml" 66 2274 2285 "src/interpreter/natives/native_calls.ml" 74 2631 2646
+)
+"src/interpreter/natives/native_calls.ml" 66 2274 2285 "src/interpreter/natives/native_calls.ml" 66 2274 2293
+type(
+  Support.memref list
+)
+ident(
+  def arg_mems "src/interpreter/natives/native_calls.ml" 66 2274 2294 "src/interpreter/natives/native_calls.ml" 74 2631 2646
+)
+"src/interpreter/natives/native_calls.ml" 66 2274 2294 "src/interpreter/natives/native_calls.ml" 66 2274 2303
+type(
+  Support.memref
+)
+ident(
+  def c_env_mem "src/interpreter/natives/native_calls.ml" 66 2274 2304 "src/interpreter/natives/native_calls.ml" 74 2631 2646
+)
+"src/interpreter/natives/native_calls.ml" 66 2274 2304 "src/interpreter/natives/native_calls.ml" 66 2274 2309
+type(
+  Vector.S.state
+)
+ident(
+  def state "src/interpreter/natives/native_calls.ml" 67 2313 2317 "src/interpreter/natives/native_calls.ml" 74 2631 2646
+)
+"src/interpreter/natives/native_calls.ml" 67 2313 2323 "src/interpreter/natives/native_calls.ml" 67 2313 2331
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 66 2274 2285 "src/interpreter/natives/native_calls.ml" 66 2274 2293
+)
+"src/interpreter/natives/native_calls.ml" 68 2337 2344 "src/interpreter/natives/native_calls.ml" 68 2337 2346
+type(
+  Support.memref
+)
+ident(
+  def v1 "src/interpreter/natives/native_calls.ml" 69 2351 2359 "src/interpreter/natives/native_calls.ml" 73 2563 2630
+)
+"src/interpreter/natives/native_calls.ml" 68 2337 2343 "src/interpreter/natives/native_calls.ml" 68 2337 2347
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 69 2351 2364 "src/interpreter/natives/native_calls.ml" 69 2351 2368
+type(
+  Vector.S.memref
+)
+ident(
+  def mem2 "src/interpreter/natives/native_calls.ml" 70 2415 2423 "src/interpreter/natives/native_calls.ml" 73 2563 2630
+)
+"src/interpreter/natives/native_calls.ml" 69 2351 2370 "src/interpreter/natives/native_calls.ml" 69 2351 2376
+type(
+  Vector.S.state
+)
+ident(
+  def state2 "src/interpreter/natives/native_calls.ml" 70 2415 2423 "src/interpreter/natives/native_calls.ml" 73 2563 2630
+)
+"src/interpreter/natives/native_calls.ml" 69 2351 2363 "src/interpreter/natives/native_calls.ml" 69 2351 2377
+type(
+  Vector.S.memref * Vector.S.state
+)
+"src/interpreter/natives/native_calls.ml" 69 2351 2380 "src/interpreter/natives/native_calls.ml" 69 2351 2399
+type(
+  (Vector.S.rvector -> Vector.S.rvector) ->
+  Vector.S.memref -> Vector.S.state -> Vector.S.memref * Vector.S.state
+)
+ident(
+  ext_ref Vector.convert_vector_mems
+)
+"src/interpreter/natives/native_calls.ml" 69 2351 2400 "src/interpreter/natives/native_calls.ml" 69 2351 2402
+type(
+  Vector.S.rvector -> Vector.S.rvector
+)
+ident(
+  int_ref op "src/interpreter/natives/native_calls.ml" 66 2274 2282 "src/interpreter/natives/native_calls.ml" 66 2274 2284
+)
+"src/interpreter/natives/native_calls.ml" 69 2351 2403 "src/interpreter/natives/native_calls.ml" 69 2351 2405
+type(
+  Support.memref
+)
+ident(
+  int_ref v1 "src/interpreter/natives/native_calls.ml" 68 2337 2344 "src/interpreter/natives/native_calls.ml" 68 2337 2346
+)
+"src/interpreter/natives/native_calls.ml" 69 2351 2406 "src/interpreter/natives/native_calls.ml" 69 2351 2411
+type(
+  Vector.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 66 2274 2304 "src/interpreter/natives/native_calls.ml" 66 2274 2309
+)
+"src/interpreter/natives/native_calls.ml" 69 2351 2380 "src/interpreter/natives/native_calls.ml" 69 2351 2411
+call(
+  stack
+)
+type(
+  Vector.S.memref * Vector.S.state
+)
+"src/interpreter/natives/native_calls.ml" 70 2415 2427 "src/interpreter/natives/native_calls.ml" 70 2415 2434
+type(
+  Support.frame
+)
+ident(
+  def c_frame "src/interpreter/natives/native_calls.ml" 73 2563 2571 "src/interpreter/natives/native_calls.ml" 73 2563 2630
+)
+"src/interpreter/natives/native_calls.ml" 70 2415 2439 "src/interpreter/natives/native_calls.ml" 70 2415 2452
+type(
+  unit -> Support.frame
+)
+ident(
+  ext_ref Support.frame_default
+)
+"src/interpreter/natives/native_calls.ml" 71 2458 2496 "src/interpreter/natives/native_calls.ml" 71 2458 2505
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 66 2274 2294 "src/interpreter/natives/native_calls.ml" 66 2274 2303
+)
+"src/interpreter/natives/native_calls.ml" 72 2507 2553 "src/interpreter/natives/native_calls.ml" 72 2507 2557
+type(
+  Vector.S.memref
+)
+ident(
+  int_ref mem2 "src/interpreter/natives/native_calls.ml" 69 2351 2364 "src/interpreter/natives/native_calls.ml" 69 2351 2368
+)
+"src/interpreter/natives/native_calls.ml" 72 2507 2542 "src/interpreter/natives/native_calls.ml" 72 2507 2557
+type(
+  Support.slot
+)
+"src/interpreter/natives/native_calls.ml" 70 2415 2437 "src/interpreter/natives/native_calls.ml" 72 2507 2559
+type(
+  Support.frame
+)
+"src/interpreter/natives/native_calls.ml" 73 2563 2578 "src/interpreter/natives/native_calls.ml" 73 2563 2584
+type(
+  Vector.S.state
+)
+ident(
+  int_ref state2 "src/interpreter/natives/native_calls.ml" 69 2351 2370 "src/interpreter/natives/native_calls.ml" 69 2351 2376
+)
+"src/interpreter/natives/native_calls.ml" 73 2563 2598 "src/interpreter/natives/native_calls.ml" 73 2563 2608
+type(
+  Support.frame -> Support.stack -> Support.stack
+)
+ident(
+  ext_ref Support.stack_push
+)
+"src/interpreter/natives/native_calls.ml" 73 2563 2609 "src/interpreter/natives/native_calls.ml" 73 2563 2616
+type(
+  Support.frame
+)
+ident(
+  int_ref c_frame "src/interpreter/natives/native_calls.ml" 70 2415 2427 "src/interpreter/natives/native_calls.ml" 70 2415 2434
+)
+"src/interpreter/natives/native_calls.ml" 73 2563 2617 "src/interpreter/natives/native_calls.ml" 73 2563 2622
+type(
+  Vector.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 66 2274 2304 "src/interpreter/natives/native_calls.ml" 66 2274 2309
+)
+"src/interpreter/natives/native_calls.ml" 73 2563 2617 "src/interpreter/natives/native_calls.ml" 73 2563 2628
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 73 2563 2598 "src/interpreter/natives/native_calls.ml" 73 2563 2628
+call(
+  stack
+)
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 73 2563 2576 "src/interpreter/natives/native_calls.ml" 73 2563 2630
+type(
+  Support.state
+)
+"src/interpreter/natives/native_calls.ml" 73 2563 2571 "src/interpreter/natives/native_calls.ml" 73 2563 2630
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 70 2415 2423 "src/interpreter/natives/native_calls.ml" 73 2563 2630
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 69 2351 2359 "src/interpreter/natives/native_calls.ml" 73 2563 2630
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 74 2631 2637 "src/interpreter/natives/native_calls.ml" 74 2631 2638
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 74 2631 2642 "src/interpreter/natives/native_calls.ml" 74 2631 2646
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 67 2313 2317 "src/interpreter/natives/native_calls.ml" 74 2631 2646
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 66 2274 2278 "src/interpreter/natives/native_calls.ml" 74 2631 2646
+type(
+  (Support.rvector -> Support.rvector) ->
+  Support.memref list ->
+  Support.memref -> Support.state -> Support.state option
+)
+type(
+  (Vector.S.rvector -> Vector.S.rvector) ->
+  Support.memref list ->
+  Support.memref -> Vector.S.state -> Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 85 3405 3409 "src/interpreter/natives/native_calls.ml" 85 3405 3420
+type(
+  ident ->
+  Support.memref list ->
+  Support.memref -> Support.state -> Support.state option
+)
+ident(
+  def native_call "src/interpreter/natives/native_calls.ml" 207 8802 8812 "src/interpreter/natives/native_calls.ml" 1 0 -1
+)
+"src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+type(
+  ident
+)
+ident(
+  def id "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+)
+"src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+type(
+  Support.memref list
+)
+ident(
+  def arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+)
+"src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+type(
+  Support.memref
+)
+ident(
+  def c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+)
+"src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+type(
+  Subscript.S.state
+)
+ident(
+  def state "src/interpreter/natives/native_calls.ml" 88 3548 3552 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+)
+"src/interpreter/natives/native_calls.ml" 88 3548 3555 "src/interpreter/natives/native_calls.ml" 88 3548 3557
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 88 3548 3558 "src/interpreter/natives/native_calls.ml" 88 3548 3559
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 88 3548 3560 "src/interpreter/natives/native_calls.ml" 88 3548 3586
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_subscript_id
+)
+"src/interpreter/natives/native_calls.ml" 88 3548 3555 "src/interpreter/natives/native_calls.ml" 88 3548 3586
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 89 3592 3605 "src/interpreter/natives/native_calls.ml" 89 3592 3613
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 90 3619 3628 "src/interpreter/natives/native_calls.ml" 90 3619 3635
+type(
+  Support.memref
+)
+ident(
+  def vec_mem "src/interpreter/natives/native_calls.ml" 91 3657 3665 "src/interpreter/natives/native_calls.ml" 95 3870 3939
+)
+"src/interpreter/natives/native_calls.ml" 90 3619 3639 "src/interpreter/natives/native_calls.ml" 90 3619 3646
+type(
+  Support.memref
+)
+ident(
+  def sub_mem "src/interpreter/natives/native_calls.ml" 91 3657 3665 "src/interpreter/natives/native_calls.ml" 95 3870 3939
+)
+"src/interpreter/natives/native_calls.ml" 90 3619 3650 "src/interpreter/natives/native_calls.ml" 90 3619 3652
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 90 3619 3639 "src/interpreter/natives/native_calls.ml" 90 3619 3652
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 90 3619 3627 "src/interpreter/natives/native_calls.ml" 90 3619 3653
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 91 3657 3670 "src/interpreter/natives/native_calls.ml" 91 3657 3674
+type(
+  Subscript.S.memref
+)
+ident(
+  def mem2 "src/interpreter/natives/native_calls.ml" 92 3726 3734 "src/interpreter/natives/native_calls.ml" 95 3870 3939
+)
+"src/interpreter/natives/native_calls.ml" 91 3657 3676 "src/interpreter/natives/native_calls.ml" 91 3657 3682
+type(
+  Subscript.S.state
+)
+ident(
+  def state2 "src/interpreter/natives/native_calls.ml" 92 3726 3734 "src/interpreter/natives/native_calls.ml" 95 3870 3939
+)
+"src/interpreter/natives/native_calls.ml" 91 3657 3669 "src/interpreter/natives/native_calls.ml" 91 3657 3683
+type(
+  Subscript.S.memref * Subscript.S.state
+)
+"src/interpreter/natives/native_calls.ml" 91 3657 3686 "src/interpreter/natives/native_calls.ml" 91 3657 3700
+type(
+  Subscript.S.memref ->
+  Subscript.S.memref ->
+  Subscript.S.state -> Subscript.S.memref * Subscript.S.state
+)
+ident(
+  ext_ref Subscript.subscript_mems
+)
+"src/interpreter/natives/native_calls.ml" 91 3657 3701 "src/interpreter/natives/native_calls.ml" 91 3657 3708
+type(
+  Support.memref
+)
+ident(
+  int_ref vec_mem "src/interpreter/natives/native_calls.ml" 90 3619 3628 "src/interpreter/natives/native_calls.ml" 90 3619 3635
+)
+"src/interpreter/natives/native_calls.ml" 91 3657 3709 "src/interpreter/natives/native_calls.ml" 91 3657 3716
+type(
+  Support.memref
+)
+ident(
+  int_ref sub_mem "src/interpreter/natives/native_calls.ml" 90 3619 3639 "src/interpreter/natives/native_calls.ml" 90 3619 3646
+)
+"src/interpreter/natives/native_calls.ml" 91 3657 3717 "src/interpreter/natives/native_calls.ml" 91 3657 3722
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 91 3657 3686 "src/interpreter/natives/native_calls.ml" 91 3657 3722
+call(
+  stack
+)
+type(
+  Subscript.S.memref * Subscript.S.state
+)
+"src/interpreter/natives/native_calls.ml" 92 3726 3738 "src/interpreter/natives/native_calls.ml" 92 3726 3745
+type(
+  Support.frame
+)
+ident(
+  def c_frame "src/interpreter/natives/native_calls.ml" 95 3870 3880 "src/interpreter/natives/native_calls.ml" 95 3870 3939
+)
+"src/interpreter/natives/native_calls.ml" 92 3726 3750 "src/interpreter/natives/native_calls.ml" 92 3726 3763
+type(
+  unit -> Support.frame
+)
+ident(
+  ext_ref Support.frame_default
+)
+"src/interpreter/natives/native_calls.ml" 93 3769 3805 "src/interpreter/natives/native_calls.ml" 93 3769 3814
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 94 3816 3860 "src/interpreter/natives/native_calls.ml" 94 3816 3864
+type(
+  Subscript.S.memref
+)
+ident(
+  int_ref mem2 "src/interpreter/natives/native_calls.ml" 91 3657 3670 "src/interpreter/natives/native_calls.ml" 91 3657 3674
+)
+"src/interpreter/natives/native_calls.ml" 94 3816 3849 "src/interpreter/natives/native_calls.ml" 94 3816 3864
+type(
+  Support.slot
+)
+"src/interpreter/natives/native_calls.ml" 92 3726 3748 "src/interpreter/natives/native_calls.ml" 94 3816 3866
+type(
+  Support.frame
+)
+"src/interpreter/natives/native_calls.ml" 95 3870 3887 "src/interpreter/natives/native_calls.ml" 95 3870 3893
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state2 "src/interpreter/natives/native_calls.ml" 91 3657 3676 "src/interpreter/natives/native_calls.ml" 91 3657 3682
+)
+"src/interpreter/natives/native_calls.ml" 95 3870 3907 "src/interpreter/natives/native_calls.ml" 95 3870 3917
+type(
+  Support.frame -> Support.stack -> Support.stack
+)
+ident(
+  ext_ref Support.stack_push
+)
+"src/interpreter/natives/native_calls.ml" 95 3870 3918 "src/interpreter/natives/native_calls.ml" 95 3870 3925
+type(
+  Support.frame
+)
+ident(
+  int_ref c_frame "src/interpreter/natives/native_calls.ml" 92 3726 3738 "src/interpreter/natives/native_calls.ml" 92 3726 3745
+)
+"src/interpreter/natives/native_calls.ml" 95 3870 3926 "src/interpreter/natives/native_calls.ml" 95 3870 3931
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 95 3870 3926 "src/interpreter/natives/native_calls.ml" 95 3870 3937
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 95 3870 3907 "src/interpreter/natives/native_calls.ml" 95 3870 3937
+call(
+  stack
+)
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 95 3870 3885 "src/interpreter/natives/native_calls.ml" 95 3870 3939
+type(
+  Support.state
+)
+"src/interpreter/natives/native_calls.ml" 95 3870 3880 "src/interpreter/natives/native_calls.ml" 95 3870 3939
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 92 3726 3734 "src/interpreter/natives/native_calls.ml" 95 3870 3939
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 91 3657 3665 "src/interpreter/natives/native_calls.ml" 95 3870 3939
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 96 3940 3948 "src/interpreter/natives/native_calls.ml" 96 3940 3949
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 96 3940 3953 "src/interpreter/natives/native_calls.ml" 96 3940 3957
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 89 3592 3598 "src/interpreter/natives/native_calls.ml" 96 3940 3958
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 99 3988 4000 "src/interpreter/natives/native_calls.ml" 99 3988 4002
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 99 3988 4003 "src/interpreter/natives/native_calls.ml" 99 3988 4004
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 99 3988 4005 "src/interpreter/natives/native_calls.ml" 99 3988 4028
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_subset_id
+)
+"src/interpreter/natives/native_calls.ml" 99 3988 4000 "src/interpreter/natives/native_calls.ml" 99 3988 4028
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 100 4034 4047 "src/interpreter/natives/native_calls.ml" 100 4034 4055
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 101 4061 4070 "src/interpreter/natives/native_calls.ml" 101 4061 4077
+type(
+  Support.memref
+)
+ident(
+  def vec_mem "src/interpreter/natives/native_calls.ml" 102 4099 4107 "src/interpreter/natives/native_calls.ml" 109 4482 4502
+)
+"src/interpreter/natives/native_calls.ml" 101 4061 4081 "src/interpreter/natives/native_calls.ml" 101 4061 4088
+type(
+  Support.memref
+)
+ident(
+  def var_mem "src/interpreter/natives/native_calls.ml" 102 4099 4107 "src/interpreter/natives/native_calls.ml" 109 4482 4502
+)
+"src/interpreter/natives/native_calls.ml" 101 4061 4092 "src/interpreter/natives/native_calls.ml" 101 4061 4094
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 101 4061 4081 "src/interpreter/natives/native_calls.ml" 101 4061 4094
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 101 4061 4069 "src/interpreter/natives/native_calls.ml" 101 4061 4095
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 102 4099 4114 "src/interpreter/natives/native_calls.ml" 102 4099 4123
+type(
+  Support.memref -> Support.heap -> Support.heapobj option
+)
+ident(
+  ext_ref Support.heap_find
+)
+"src/interpreter/natives/native_calls.ml" 102 4099 4124 "src/interpreter/natives/native_calls.ml" 102 4099 4131
+type(
+  Support.memref
+)
+ident(
+  int_ref var_mem "src/interpreter/natives/native_calls.ml" 101 4061 4081 "src/interpreter/natives/native_calls.ml" 101 4061 4088
+)
+"src/interpreter/natives/native_calls.ml" 102 4099 4132 "src/interpreter/natives/native_calls.ml" 102 4099 4137
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 102 4099 4132 "src/interpreter/natives/native_calls.ml" 102 4099 4142
+type(
+  Support.heap
+)
+"src/interpreter/natives/native_calls.ml" 102 4099 4114 "src/interpreter/natives/native_calls.ml" 102 4099 4142
+call(
+  stack
+)
+type(
+  Support.heapobj option
+)
+"src/interpreter/natives/native_calls.ml" 103 4148 4182 "src/interpreter/natives/native_calls.ml" 103 4148 4186
+type(
+  Support.memref list
+)
+ident(
+  def refs "src/interpreter/natives/native_calls.ml" 104 4195 4205 "src/interpreter/natives/native_calls.ml" 108 4410 4481
+)
+"src/interpreter/natives/native_calls.ml" 103 4148 4173 "src/interpreter/natives/native_calls.ml" 103 4148 4186
+type(
+  Support.value
+)
+"src/interpreter/natives/native_calls.ml" 103 4148 4188 "src/interpreter/natives/native_calls.ml" 103 4148 4189
+type(
+  Support.attributes
+)
+"src/interpreter/natives/native_calls.ml" 103 4148 4163 "src/interpreter/natives/native_calls.ml" 103 4148 4191
+type(
+  Support.heapobj
+)
+"src/interpreter/natives/native_calls.ml" 103 4148 4158 "src/interpreter/natives/native_calls.ml" 103 4148 4191
+type(
+  Support.heapobj option
+)
+"src/interpreter/natives/native_calls.ml" 104 4195 4210 "src/interpreter/natives/native_calls.ml" 104 4195 4214
+type(
+  Subscript.S.memref
+)
+ident(
+  def mem2 "src/interpreter/natives/native_calls.ml" 105 4260 4270 "src/interpreter/natives/native_calls.ml" 108 4410 4481
+)
+"src/interpreter/natives/native_calls.ml" 104 4195 4216 "src/interpreter/natives/native_calls.ml" 104 4195 4222
+type(
+  Subscript.S.state
+)
+ident(
+  def state2 "src/interpreter/natives/native_calls.ml" 105 4260 4270 "src/interpreter/natives/native_calls.ml" 108 4410 4481
+)
+"src/interpreter/natives/native_calls.ml" 104 4195 4209 "src/interpreter/natives/native_calls.ml" 104 4195 4223
+type(
+  Subscript.S.memref * Subscript.S.state
+)
+"src/interpreter/natives/native_calls.ml" 104 4195 4226 "src/interpreter/natives/native_calls.ml" 104 4195 4237
+type(
+  Subscript.S.memref ->
+  Subscript.S.memref list ->
+  Subscript.S.state -> Subscript.S.memref * Subscript.S.state
+)
+ident(
+  ext_ref Subscript.subset_mems
+)
+"src/interpreter/natives/native_calls.ml" 104 4195 4238 "src/interpreter/natives/native_calls.ml" 104 4195 4245
+type(
+  Support.memref
+)
+ident(
+  int_ref vec_mem "src/interpreter/natives/native_calls.ml" 101 4061 4070 "src/interpreter/natives/native_calls.ml" 101 4061 4077
+)
+"src/interpreter/natives/native_calls.ml" 104 4195 4246 "src/interpreter/natives/native_calls.ml" 104 4195 4250
+type(
+  Subscript.S.memref list
+)
+ident(
+  int_ref refs "src/interpreter/natives/native_calls.ml" 103 4148 4182 "src/interpreter/natives/native_calls.ml" 103 4148 4186
+)
+"src/interpreter/natives/native_calls.ml" 104 4195 4251 "src/interpreter/natives/native_calls.ml" 104 4195 4256
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 104 4195 4226 "src/interpreter/natives/native_calls.ml" 104 4195 4256
+call(
+  stack
+)
+type(
+  Subscript.S.memref * Subscript.S.state
+)
+"src/interpreter/natives/native_calls.ml" 105 4260 4274 "src/interpreter/natives/native_calls.ml" 105 4260 4281
+type(
+  Support.frame
+)
+ident(
+  def c_frame "src/interpreter/natives/native_calls.ml" 108 4410 4422 "src/interpreter/natives/native_calls.ml" 108 4410 4481
+)
+"src/interpreter/natives/native_calls.ml" 105 4260 4286 "src/interpreter/natives/native_calls.ml" 105 4260 4299
+type(
+  unit -> Support.frame
+)
+ident(
+  ext_ref Support.frame_default
+)
+"src/interpreter/natives/native_calls.ml" 106 4305 4343 "src/interpreter/natives/native_calls.ml" 106 4305 4352
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 107 4354 4400 "src/interpreter/natives/native_calls.ml" 107 4354 4404
+type(
+  Subscript.S.memref
+)
+ident(
+  int_ref mem2 "src/interpreter/natives/native_calls.ml" 104 4195 4210 "src/interpreter/natives/native_calls.ml" 104 4195 4214
+)
+"src/interpreter/natives/native_calls.ml" 107 4354 4389 "src/interpreter/natives/native_calls.ml" 107 4354 4404
+type(
+  Support.slot
+)
+"src/interpreter/natives/native_calls.ml" 105 4260 4284 "src/interpreter/natives/native_calls.ml" 107 4354 4406
+type(
+  Support.frame
+)
+"src/interpreter/natives/native_calls.ml" 108 4410 4429 "src/interpreter/natives/native_calls.ml" 108 4410 4435
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state2 "src/interpreter/natives/native_calls.ml" 104 4195 4216 "src/interpreter/natives/native_calls.ml" 104 4195 4222
+)
+"src/interpreter/natives/native_calls.ml" 108 4410 4449 "src/interpreter/natives/native_calls.ml" 108 4410 4459
+type(
+  Support.frame -> Support.stack -> Support.stack
+)
+ident(
+  ext_ref Support.stack_push
+)
+"src/interpreter/natives/native_calls.ml" 108 4410 4460 "src/interpreter/natives/native_calls.ml" 108 4410 4467
+type(
+  Support.frame
+)
+ident(
+  int_ref c_frame "src/interpreter/natives/native_calls.ml" 105 4260 4274 "src/interpreter/natives/native_calls.ml" 105 4260 4281
+)
+"src/interpreter/natives/native_calls.ml" 108 4410 4468 "src/interpreter/natives/native_calls.ml" 108 4410 4473
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 108 4410 4468 "src/interpreter/natives/native_calls.ml" 108 4410 4479
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 108 4410 4449 "src/interpreter/natives/native_calls.ml" 108 4410 4479
+call(
+  stack
+)
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 108 4410 4427 "src/interpreter/natives/native_calls.ml" 108 4410 4481
+type(
+  Support.state
+)
+"src/interpreter/natives/native_calls.ml" 108 4410 4422 "src/interpreter/natives/native_calls.ml" 108 4410 4481
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 105 4260 4270 "src/interpreter/natives/native_calls.ml" 108 4410 4481
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 104 4195 4205 "src/interpreter/natives/native_calls.ml" 108 4410 4481
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 109 4482 4492 "src/interpreter/natives/native_calls.ml" 109 4482 4493
+type(
+  Support.heapobj option
+)
+"src/interpreter/natives/native_calls.ml" 109 4482 4497 "src/interpreter/natives/native_calls.ml" 109 4482 4501
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 102 4099 4107 "src/interpreter/natives/native_calls.ml" 109 4482 4502
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 110 4503 4511 "src/interpreter/natives/native_calls.ml" 110 4503 4512
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 110 4503 4516 "src/interpreter/natives/native_calls.ml" 110 4503 4520
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 100 4034 4040 "src/interpreter/natives/native_calls.ml" 110 4503 4521
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 113 4549 4561 "src/interpreter/natives/native_calls.ml" 113 4549 4563
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 113 4549 4564 "src/interpreter/natives/native_calls.ml" 113 4549 4565
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 113 4549 4566 "src/interpreter/natives/native_calls.ml" 113 4549 4587
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_make_id
+)
+"src/interpreter/natives/native_calls.ml" 113 4549 4561 "src/interpreter/natives/native_calls.ml" 113 4549 4587
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 114 4593 4606 "src/interpreter/natives/native_calls.ml" 114 4593 4614
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 115 4620 4629 "src/interpreter/natives/native_calls.ml" 115 4620 4636
+type(
+  Support.memref
+)
+ident(
+  def var_mem "src/interpreter/natives/native_calls.ml" 116 4647 4657 "src/interpreter/natives/native_calls.ml" 123 5044 5066
+)
+"src/interpreter/natives/native_calls.ml" 115 4620 4640 "src/interpreter/natives/native_calls.ml" 115 4620 4642
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 115 4620 4628 "src/interpreter/natives/native_calls.ml" 115 4620 4643
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 116 4647 4664 "src/interpreter/natives/native_calls.ml" 116 4647 4673
+type(
+  Support.memref -> Support.heap -> Support.heapobj option
+)
+ident(
+  ext_ref Support.heap_find
+)
+"src/interpreter/natives/native_calls.ml" 116 4647 4674 "src/interpreter/natives/native_calls.ml" 116 4647 4681
+type(
+  Support.memref
+)
+ident(
+  int_ref var_mem "src/interpreter/natives/native_calls.ml" 115 4620 4629 "src/interpreter/natives/native_calls.ml" 115 4620 4636
+)
+"src/interpreter/natives/native_calls.ml" 116 4647 4682 "src/interpreter/natives/native_calls.ml" 116 4647 4687
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 116 4647 4682 "src/interpreter/natives/native_calls.ml" 116 4647 4692
+type(
+  Support.heap
+)
+"src/interpreter/natives/native_calls.ml" 116 4647 4664 "src/interpreter/natives/native_calls.ml" 116 4647 4692
+call(
+  stack
+)
+type(
+  Support.heapobj option
+)
+"src/interpreter/natives/native_calls.ml" 117 4698 4734 "src/interpreter/natives/native_calls.ml" 117 4698 4738
+type(
+  Support.memref list
+)
+ident(
+  def refs "src/interpreter/natives/native_calls.ml" 118 4747 4759 "src/interpreter/natives/native_calls.ml" 122 4970 5043
+)
+"src/interpreter/natives/native_calls.ml" 117 4698 4725 "src/interpreter/natives/native_calls.ml" 117 4698 4738
+type(
+  Support.value
+)
+"src/interpreter/natives/native_calls.ml" 117 4698 4740 "src/interpreter/natives/native_calls.ml" 117 4698 4741
+type(
+  Support.attributes
+)
+"src/interpreter/natives/native_calls.ml" 117 4698 4715 "src/interpreter/natives/native_calls.ml" 117 4698 4743
+type(
+  Support.heapobj
+)
+"src/interpreter/natives/native_calls.ml" 117 4698 4710 "src/interpreter/natives/native_calls.ml" 117 4698 4743
+type(
+  Support.heapobj option
+)
+"src/interpreter/natives/native_calls.ml" 118 4747 4764 "src/interpreter/natives/native_calls.ml" 118 4747 4768
+type(
+  Vector.S.memref
+)
+ident(
+  def mem2 "src/interpreter/natives/native_calls.ml" 119 4814 4826 "src/interpreter/natives/native_calls.ml" 122 4970 5043
+)
+"src/interpreter/natives/native_calls.ml" 118 4747 4770 "src/interpreter/natives/native_calls.ml" 118 4747 4776
+type(
+  Vector.S.state
+)
+ident(
+  def state2 "src/interpreter/natives/native_calls.ml" 119 4814 4826 "src/interpreter/natives/native_calls.ml" 122 4970 5043
+)
+"src/interpreter/natives/native_calls.ml" 118 4747 4763 "src/interpreter/natives/native_calls.ml" 118 4747 4777
+type(
+  Vector.S.memref * Vector.S.state
+)
+"src/interpreter/natives/native_calls.ml" 118 4747 4780 "src/interpreter/natives/native_calls.ml" 118 4747 4796
+type(
+  Vector.S.memref -> Vector.S.state -> Vector.S.memref * Vector.S.state
+)
+ident(
+  ext_ref Vector.make_vector_mems
+)
+"src/interpreter/natives/native_calls.ml" 118 4747 4797 "src/interpreter/natives/native_calls.ml" 118 4747 4804
+type(
+  Support.memref
+)
+ident(
+  int_ref var_mem "src/interpreter/natives/native_calls.ml" 115 4620 4629 "src/interpreter/natives/native_calls.ml" 115 4620 4636
+)
+"src/interpreter/natives/native_calls.ml" 118 4747 4805 "src/interpreter/natives/native_calls.ml" 118 4747 4810
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 118 4747 4780 "src/interpreter/natives/native_calls.ml" 118 4747 4810
+call(
+  stack
+)
+type(
+  Vector.S.memref * Vector.S.state
+)
+"src/interpreter/natives/native_calls.ml" 119 4814 4830 "src/interpreter/natives/native_calls.ml" 119 4814 4837
+type(
+  Support.frame
+)
+ident(
+  def c_frame "src/interpreter/natives/native_calls.ml" 122 4970 4984 "src/interpreter/natives/native_calls.ml" 122 4970 5043
+)
+"src/interpreter/natives/native_calls.ml" 119 4814 4842 "src/interpreter/natives/native_calls.ml" 119 4814 4855
+type(
+  unit -> Support.frame
+)
+ident(
+  ext_ref Support.frame_default
+)
+"src/interpreter/natives/native_calls.ml" 120 4861 4901 "src/interpreter/natives/native_calls.ml" 120 4861 4910
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 121 4912 4960 "src/interpreter/natives/native_calls.ml" 121 4912 4964
+type(
+  Vector.S.memref
+)
+ident(
+  int_ref mem2 "src/interpreter/natives/native_calls.ml" 118 4747 4764 "src/interpreter/natives/native_calls.ml" 118 4747 4768
+)
+"src/interpreter/natives/native_calls.ml" 121 4912 4949 "src/interpreter/natives/native_calls.ml" 121 4912 4964
+type(
+  Support.slot
+)
+"src/interpreter/natives/native_calls.ml" 119 4814 4840 "src/interpreter/natives/native_calls.ml" 121 4912 4966
+type(
+  Support.frame
+)
+"src/interpreter/natives/native_calls.ml" 122 4970 4991 "src/interpreter/natives/native_calls.ml" 122 4970 4997
+type(
+  Vector.S.state
+)
+ident(
+  int_ref state2 "src/interpreter/natives/native_calls.ml" 118 4747 4770 "src/interpreter/natives/native_calls.ml" 118 4747 4776
+)
+"src/interpreter/natives/native_calls.ml" 122 4970 5011 "src/interpreter/natives/native_calls.ml" 122 4970 5021
+type(
+  Support.frame -> Support.stack -> Support.stack
+)
+ident(
+  ext_ref Support.stack_push
+)
+"src/interpreter/natives/native_calls.ml" 122 4970 5022 "src/interpreter/natives/native_calls.ml" 122 4970 5029
+type(
+  Support.frame
+)
+ident(
+  int_ref c_frame "src/interpreter/natives/native_calls.ml" 119 4814 4830 "src/interpreter/natives/native_calls.ml" 119 4814 4837
+)
+"src/interpreter/natives/native_calls.ml" 122 4970 5030 "src/interpreter/natives/native_calls.ml" 122 4970 5035
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 122 4970 5030 "src/interpreter/natives/native_calls.ml" 122 4970 5041
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 122 4970 5011 "src/interpreter/natives/native_calls.ml" 122 4970 5041
+call(
+  stack
+)
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 122 4970 4989 "src/interpreter/natives/native_calls.ml" 122 4970 5043
+type(
+  Support.state
+)
+"src/interpreter/natives/native_calls.ml" 122 4970 4984 "src/interpreter/natives/native_calls.ml" 122 4970 5043
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 119 4814 4826 "src/interpreter/natives/native_calls.ml" 122 4970 5043
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 118 4747 4759 "src/interpreter/natives/native_calls.ml" 122 4970 5043
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 123 5044 5056 "src/interpreter/natives/native_calls.ml" 123 5044 5057
+type(
+  Support.heapobj option
+)
+"src/interpreter/natives/native_calls.ml" 123 5044 5061 "src/interpreter/natives/native_calls.ml" 123 5044 5065
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 116 4647 4657 "src/interpreter/natives/native_calls.ml" 123 5044 5066
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 124 5067 5075 "src/interpreter/natives/native_calls.ml" 124 5067 5076
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 124 5067 5080 "src/interpreter/natives/native_calls.ml" 124 5067 5084
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 114 4593 4599 "src/interpreter/natives/native_calls.ml" 124 5067 5085
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 127 5111 5123 "src/interpreter/natives/native_calls.ml" 127 5111 5125
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 127 5111 5126 "src/interpreter/natives/native_calls.ml" 127 5111 5127
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 127 5111 5128 "src/interpreter/natives/native_calls.ml" 127 5111 5151
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_length_id
+)
+"src/interpreter/natives/native_calls.ml" 127 5111 5123 "src/interpreter/natives/native_calls.ml" 127 5111 5151
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 128 5157 5170 "src/interpreter/natives/native_calls.ml" 128 5157 5178
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 129 5184 5193 "src/interpreter/natives/native_calls.ml" 129 5184 5201
+type(
+  Support.memref
+)
+ident(
+  def data_mem "src/interpreter/natives/native_calls.ml" 130 5212 5220 "src/interpreter/natives/native_calls.ml" 134 5422 5491
+)
+"src/interpreter/natives/native_calls.ml" 129 5184 5205 "src/interpreter/natives/native_calls.ml" 129 5184 5207
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 129 5184 5192 "src/interpreter/natives/native_calls.ml" 129 5184 5208
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 130 5212 5225 "src/interpreter/natives/native_calls.ml" 130 5212 5229
+type(
+  Vector.S.memref
+)
+ident(
+  def mem2 "src/interpreter/natives/native_calls.ml" 131 5278 5286 "src/interpreter/natives/native_calls.ml" 134 5422 5491
+)
+"src/interpreter/natives/native_calls.ml" 130 5212 5231 "src/interpreter/natives/native_calls.ml" 130 5212 5237
+type(
+  Vector.S.state
+)
+ident(
+  def state2 "src/interpreter/natives/native_calls.ml" 131 5278 5286 "src/interpreter/natives/native_calls.ml" 134 5422 5491
+)
+"src/interpreter/natives/native_calls.ml" 130 5212 5224 "src/interpreter/natives/native_calls.ml" 130 5212 5238
+type(
+  Vector.S.memref * Vector.S.state
+)
+"src/interpreter/natives/native_calls.ml" 130 5212 5241 "src/interpreter/natives/native_calls.ml" 130 5212 5259
+type(
+  Vector.S.memref -> Vector.S.state -> Vector.S.memref * Vector.S.state
+)
+ident(
+  ext_ref Vector.rvector_length_mem
+)
+"src/interpreter/natives/native_calls.ml" 130 5212 5260 "src/interpreter/natives/native_calls.ml" 130 5212 5268
+type(
+  Support.memref
+)
+ident(
+  int_ref data_mem "src/interpreter/natives/native_calls.ml" 129 5184 5193 "src/interpreter/natives/native_calls.ml" 129 5184 5201
+)
+"src/interpreter/natives/native_calls.ml" 130 5212 5269 "src/interpreter/natives/native_calls.ml" 130 5212 5274
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 130 5212 5241 "src/interpreter/natives/native_calls.ml" 130 5212 5274
+call(
+  stack
+)
+type(
+  Vector.S.memref * Vector.S.state
+)
+"src/interpreter/natives/native_calls.ml" 131 5278 5290 "src/interpreter/natives/native_calls.ml" 131 5278 5297
+type(
+  Support.frame
+)
+ident(
+  def c_frame "src/interpreter/natives/native_calls.ml" 134 5422 5432 "src/interpreter/natives/native_calls.ml" 134 5422 5491
+)
+"src/interpreter/natives/native_calls.ml" 131 5278 5302 "src/interpreter/natives/native_calls.ml" 131 5278 5315
+type(
+  unit -> Support.frame
+)
+ident(
+  ext_ref Support.frame_default
+)
+"src/interpreter/natives/native_calls.ml" 132 5321 5357 "src/interpreter/natives/native_calls.ml" 132 5321 5366
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 133 5368 5412 "src/interpreter/natives/native_calls.ml" 133 5368 5416
+type(
+  Vector.S.memref
+)
+ident(
+  int_ref mem2 "src/interpreter/natives/native_calls.ml" 130 5212 5225 "src/interpreter/natives/native_calls.ml" 130 5212 5229
+)
+"src/interpreter/natives/native_calls.ml" 133 5368 5401 "src/interpreter/natives/native_calls.ml" 133 5368 5416
+type(
+  Support.slot
+)
+"src/interpreter/natives/native_calls.ml" 131 5278 5300 "src/interpreter/natives/native_calls.ml" 133 5368 5418
+type(
+  Support.frame
+)
+"src/interpreter/natives/native_calls.ml" 134 5422 5439 "src/interpreter/natives/native_calls.ml" 134 5422 5445
+type(
+  Vector.S.state
+)
+ident(
+  int_ref state2 "src/interpreter/natives/native_calls.ml" 130 5212 5231 "src/interpreter/natives/native_calls.ml" 130 5212 5237
+)
+"src/interpreter/natives/native_calls.ml" 134 5422 5459 "src/interpreter/natives/native_calls.ml" 134 5422 5469
+type(
+  Support.frame -> Support.stack -> Support.stack
+)
+ident(
+  ext_ref Support.stack_push
+)
+"src/interpreter/natives/native_calls.ml" 134 5422 5470 "src/interpreter/natives/native_calls.ml" 134 5422 5477
+type(
+  Support.frame
+)
+ident(
+  int_ref c_frame "src/interpreter/natives/native_calls.ml" 131 5278 5290 "src/interpreter/natives/native_calls.ml" 131 5278 5297
+)
+"src/interpreter/natives/native_calls.ml" 134 5422 5478 "src/interpreter/natives/native_calls.ml" 134 5422 5483
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 134 5422 5478 "src/interpreter/natives/native_calls.ml" 134 5422 5489
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 134 5422 5459 "src/interpreter/natives/native_calls.ml" 134 5422 5489
+call(
+  stack
+)
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 134 5422 5437 "src/interpreter/natives/native_calls.ml" 134 5422 5491
+type(
+  Support.state
+)
+"src/interpreter/natives/native_calls.ml" 134 5422 5432 "src/interpreter/natives/native_calls.ml" 134 5422 5491
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 131 5278 5286 "src/interpreter/natives/native_calls.ml" 134 5422 5491
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 130 5212 5220 "src/interpreter/natives/native_calls.ml" 134 5422 5491
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 135 5492 5500 "src/interpreter/natives/native_calls.ml" 135 5492 5501
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 135 5492 5505 "src/interpreter/natives/native_calls.ml" 135 5492 5509
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 128 5157 5163 "src/interpreter/natives/native_calls.ml" 135 5492 5510
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 137 5512 5524 "src/interpreter/natives/native_calls.ml" 137 5512 5526
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 137 5512 5527 "src/interpreter/natives/native_calls.ml" 137 5512 5528
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 137 5512 5529 "src/interpreter/natives/native_calls.ml" 137 5512 5551
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_colon_id
+)
+"src/interpreter/natives/native_calls.ml" 137 5512 5524 "src/interpreter/natives/native_calls.ml" 137 5512 5551
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 138 5557 5570 "src/interpreter/natives/native_calls.ml" 138 5557 5578
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 139 5584 5593 "src/interpreter/natives/native_calls.ml" 139 5584 5600
+type(
+  Support.memref
+)
+ident(
+  def low_mem "src/interpreter/natives/native_calls.ml" 140 5623 5631 "src/interpreter/natives/native_calls.ml" 144 5833 5902
+)
+"src/interpreter/natives/native_calls.ml" 139 5584 5604 "src/interpreter/natives/native_calls.ml" 139 5584 5612
+type(
+  Support.memref
+)
+ident(
+  def high_mem "src/interpreter/natives/native_calls.ml" 140 5623 5631 "src/interpreter/natives/native_calls.ml" 144 5833 5902
+)
+"src/interpreter/natives/native_calls.ml" 139 5584 5616 "src/interpreter/natives/native_calls.ml" 139 5584 5618
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 139 5584 5604 "src/interpreter/natives/native_calls.ml" 139 5584 5618
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 139 5584 5592 "src/interpreter/natives/native_calls.ml" 139 5584 5619
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 140 5623 5636 "src/interpreter/natives/native_calls.ml" 140 5623 5640
+type(
+  Vector.S.memref
+)
+ident(
+  def mem2 "src/interpreter/natives/native_calls.ml" 141 5689 5697 "src/interpreter/natives/native_calls.ml" 144 5833 5902
+)
+"src/interpreter/natives/native_calls.ml" 140 5623 5642 "src/interpreter/natives/native_calls.ml" 140 5623 5648
+type(
+  Vector.S.state
+)
+ident(
+  def state2 "src/interpreter/natives/native_calls.ml" 141 5689 5697 "src/interpreter/natives/native_calls.ml" 144 5833 5902
+)
+"src/interpreter/natives/native_calls.ml" 140 5623 5635 "src/interpreter/natives/native_calls.ml" 140 5623 5649
+type(
+  Vector.S.memref * Vector.S.state
+)
+"src/interpreter/natives/native_calls.ml" 140 5623 5652 "src/interpreter/natives/native_calls.ml" 140 5623 5662
+type(
+  Vector.S.memref ->
+  Vector.S.memref -> Vector.S.state -> Vector.S.memref * Vector.S.state
+)
+ident(
+  ext_ref Vector.range_mems
+)
+"src/interpreter/natives/native_calls.ml" 140 5623 5663 "src/interpreter/natives/native_calls.ml" 140 5623 5670
+type(
+  Support.memref
+)
+ident(
+  int_ref low_mem "src/interpreter/natives/native_calls.ml" 139 5584 5593 "src/interpreter/natives/native_calls.ml" 139 5584 5600
+)
+"src/interpreter/natives/native_calls.ml" 140 5623 5671 "src/interpreter/natives/native_calls.ml" 140 5623 5679
+type(
+  Support.memref
+)
+ident(
+  int_ref high_mem "src/interpreter/natives/native_calls.ml" 139 5584 5604 "src/interpreter/natives/native_calls.ml" 139 5584 5612
+)
+"src/interpreter/natives/native_calls.ml" 140 5623 5680 "src/interpreter/natives/native_calls.ml" 140 5623 5685
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 140 5623 5652 "src/interpreter/natives/native_calls.ml" 140 5623 5685
+call(
+  stack
+)
+type(
+  Vector.S.memref * Vector.S.state
+)
+"src/interpreter/natives/native_calls.ml" 141 5689 5701 "src/interpreter/natives/native_calls.ml" 141 5689 5708
+type(
+  Support.frame
+)
+ident(
+  def c_frame "src/interpreter/natives/native_calls.ml" 144 5833 5843 "src/interpreter/natives/native_calls.ml" 144 5833 5902
+)
+"src/interpreter/natives/native_calls.ml" 141 5689 5713 "src/interpreter/natives/native_calls.ml" 141 5689 5726
+type(
+  unit -> Support.frame
+)
+ident(
+  ext_ref Support.frame_default
+)
+"src/interpreter/natives/native_calls.ml" 142 5732 5768 "src/interpreter/natives/native_calls.ml" 142 5732 5777
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 143 5779 5823 "src/interpreter/natives/native_calls.ml" 143 5779 5827
+type(
+  Vector.S.memref
+)
+ident(
+  int_ref mem2 "src/interpreter/natives/native_calls.ml" 140 5623 5636 "src/interpreter/natives/native_calls.ml" 140 5623 5640
+)
+"src/interpreter/natives/native_calls.ml" 143 5779 5812 "src/interpreter/natives/native_calls.ml" 143 5779 5827
+type(
+  Support.slot
+)
+"src/interpreter/natives/native_calls.ml" 141 5689 5711 "src/interpreter/natives/native_calls.ml" 143 5779 5829
+type(
+  Support.frame
+)
+"src/interpreter/natives/native_calls.ml" 144 5833 5850 "src/interpreter/natives/native_calls.ml" 144 5833 5856
+type(
+  Vector.S.state
+)
+ident(
+  int_ref state2 "src/interpreter/natives/native_calls.ml" 140 5623 5642 "src/interpreter/natives/native_calls.ml" 140 5623 5648
+)
+"src/interpreter/natives/native_calls.ml" 144 5833 5870 "src/interpreter/natives/native_calls.ml" 144 5833 5880
+type(
+  Support.frame -> Support.stack -> Support.stack
+)
+ident(
+  ext_ref Support.stack_push
+)
+"src/interpreter/natives/native_calls.ml" 144 5833 5881 "src/interpreter/natives/native_calls.ml" 144 5833 5888
+type(
+  Support.frame
+)
+ident(
+  int_ref c_frame "src/interpreter/natives/native_calls.ml" 141 5689 5701 "src/interpreter/natives/native_calls.ml" 141 5689 5708
+)
+"src/interpreter/natives/native_calls.ml" 144 5833 5889 "src/interpreter/natives/native_calls.ml" 144 5833 5894
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 144 5833 5889 "src/interpreter/natives/native_calls.ml" 144 5833 5900
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 144 5833 5870 "src/interpreter/natives/native_calls.ml" 144 5833 5900
+call(
+  stack
+)
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 144 5833 5848 "src/interpreter/natives/native_calls.ml" 144 5833 5902
+type(
+  Support.state
+)
+"src/interpreter/natives/native_calls.ml" 144 5833 5843 "src/interpreter/natives/native_calls.ml" 144 5833 5902
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 141 5689 5697 "src/interpreter/natives/native_calls.ml" 144 5833 5902
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 140 5623 5631 "src/interpreter/natives/native_calls.ml" 144 5833 5902
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 145 5903 5911 "src/interpreter/natives/native_calls.ml" 145 5903 5912
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 145 5903 5916 "src/interpreter/natives/native_calls.ml" 145 5903 5920
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 138 5557 5563 "src/interpreter/natives/native_calls.ml" 145 5903 5921
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 148 5958 5970 "src/interpreter/natives/native_calls.ml" 148 5958 5972
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 148 5958 5973 "src/interpreter/natives/native_calls.ml" 148 5958 5974
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 148 5958 5975 "src/interpreter/natives/native_calls.ml" 148 5958 5995
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_add_id
+)
+"src/interpreter/natives/native_calls.ml" 148 5958 5970 "src/interpreter/natives/native_calls.ml" 148 5958 5995
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 149 6001 6008 "src/interpreter/natives/native_calls.ml" 149 6001 6022
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 149 6001 6023 "src/interpreter/natives/native_calls.ml" 149 6001 6034
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_add
+)
+"src/interpreter/natives/native_calls.ml" 149 6001 6035 "src/interpreter/natives/native_calls.ml" 149 6001 6043
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 149 6001 6044 "src/interpreter/natives/native_calls.ml" 149 6001 6053
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 149 6001 6054 "src/interpreter/natives/native_calls.ml" 149 6001 6059
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 149 6001 6008 "src/interpreter/natives/native_calls.ml" 149 6001 6059
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 150 6060 6072 "src/interpreter/natives/native_calls.ml" 150 6060 6074
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 150 6060 6075 "src/interpreter/natives/native_calls.ml" 150 6060 6076
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 150 6060 6077 "src/interpreter/natives/native_calls.ml" 150 6060 6097
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_mul_id
+)
+"src/interpreter/natives/native_calls.ml" 150 6060 6072 "src/interpreter/natives/native_calls.ml" 150 6060 6097
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 151 6103 6111 "src/interpreter/natives/native_calls.ml" 151 6103 6125
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 151 6103 6126 "src/interpreter/natives/native_calls.ml" 151 6103 6137
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_mul
+)
+"src/interpreter/natives/native_calls.ml" 151 6103 6138 "src/interpreter/natives/native_calls.ml" 151 6103 6146
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 151 6103 6147 "src/interpreter/natives/native_calls.ml" 151 6103 6156
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 151 6103 6157 "src/interpreter/natives/native_calls.ml" 151 6103 6162
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 151 6103 6111 "src/interpreter/natives/native_calls.ml" 151 6103 6162
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 152 6163 6175 "src/interpreter/natives/native_calls.ml" 152 6163 6177
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 152 6163 6178 "src/interpreter/natives/native_calls.ml" 152 6163 6179
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 152 6163 6180 "src/interpreter/natives/native_calls.ml" 152 6163 6200
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_div_id
+)
+"src/interpreter/natives/native_calls.ml" 152 6163 6175 "src/interpreter/natives/native_calls.ml" 152 6163 6200
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 153 6206 6214 "src/interpreter/natives/native_calls.ml" 153 6206 6228
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 153 6206 6229 "src/interpreter/natives/native_calls.ml" 153 6206 6240
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_div
+)
+"src/interpreter/natives/native_calls.ml" 153 6206 6241 "src/interpreter/natives/native_calls.ml" 153 6206 6249
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 153 6206 6250 "src/interpreter/natives/native_calls.ml" 153 6206 6259
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 153 6206 6260 "src/interpreter/natives/native_calls.ml" 153 6206 6265
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 153 6206 6214 "src/interpreter/natives/native_calls.ml" 153 6206 6265
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 154 6266 6278 "src/interpreter/natives/native_calls.ml" 154 6266 6280
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 154 6266 6281 "src/interpreter/natives/native_calls.ml" 154 6266 6282
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 154 6266 6283 "src/interpreter/natives/native_calls.ml" 154 6266 6303
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_sub_id
+)
+"src/interpreter/natives/native_calls.ml" 154 6266 6278 "src/interpreter/natives/native_calls.ml" 154 6266 6303
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 155 6309 6317 "src/interpreter/natives/native_calls.ml" 155 6309 6331
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 155 6309 6332 "src/interpreter/natives/native_calls.ml" 155 6309 6343
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_sub
+)
+"src/interpreter/natives/native_calls.ml" 155 6309 6344 "src/interpreter/natives/native_calls.ml" 155 6309 6352
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 155 6309 6353 "src/interpreter/natives/native_calls.ml" 155 6309 6362
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 155 6309 6363 "src/interpreter/natives/native_calls.ml" 155 6309 6368
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 155 6309 6317 "src/interpreter/natives/native_calls.ml" 155 6309 6368
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 156 6369 6381 "src/interpreter/natives/native_calls.ml" 156 6369 6383
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 156 6369 6384 "src/interpreter/natives/native_calls.ml" 156 6369 6385
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 156 6369 6386 "src/interpreter/natives/native_calls.ml" 156 6369 6406
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_mod_id
+)
+"src/interpreter/natives/native_calls.ml" 156 6369 6381 "src/interpreter/natives/native_calls.ml" 156 6369 6406
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 157 6412 6420 "src/interpreter/natives/native_calls.ml" 157 6412 6434
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 157 6412 6435 "src/interpreter/natives/native_calls.ml" 157 6412 6446
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_mod
+)
+"src/interpreter/natives/native_calls.ml" 157 6412 6447 "src/interpreter/natives/native_calls.ml" 157 6412 6455
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 157 6412 6456 "src/interpreter/natives/native_calls.ml" 157 6412 6465
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 157 6412 6466 "src/interpreter/natives/native_calls.ml" 157 6412 6471
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 157 6412 6420 "src/interpreter/natives/native_calls.ml" 157 6412 6471
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 158 6472 6484 "src/interpreter/natives/native_calls.ml" 158 6472 6486
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 158 6472 6487 "src/interpreter/natives/native_calls.ml" 158 6472 6488
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 158 6472 6489 "src/interpreter/natives/native_calls.ml" 158 6472 6509
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_exp_id
+)
+"src/interpreter/natives/native_calls.ml" 158 6472 6484 "src/interpreter/natives/native_calls.ml" 158 6472 6509
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 159 6515 6523 "src/interpreter/natives/native_calls.ml" 159 6515 6537
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 159 6515 6538 "src/interpreter/natives/native_calls.ml" 159 6515 6549
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_exp
+)
+"src/interpreter/natives/native_calls.ml" 159 6515 6550 "src/interpreter/natives/native_calls.ml" 159 6515 6558
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 159 6515 6559 "src/interpreter/natives/native_calls.ml" 159 6515 6568
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 159 6515 6569 "src/interpreter/natives/native_calls.ml" 159 6515 6574
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 159 6515 6523 "src/interpreter/natives/native_calls.ml" 159 6515 6574
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 160 6575 6587 "src/interpreter/natives/native_calls.ml" 160 6575 6589
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 160 6575 6590 "src/interpreter/natives/native_calls.ml" 160 6575 6591
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 160 6575 6592 "src/interpreter/natives/native_calls.ml" 160 6575 6611
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_lt_id
+)
+"src/interpreter/natives/native_calls.ml" 160 6575 6587 "src/interpreter/natives/native_calls.ml" 160 6575 6611
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 161 6617 6625 "src/interpreter/natives/native_calls.ml" 161 6617 6639
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 161 6617 6640 "src/interpreter/natives/native_calls.ml" 161 6617 6650
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_lt
+)
+"src/interpreter/natives/native_calls.ml" 161 6617 6651 "src/interpreter/natives/native_calls.ml" 161 6617 6659
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 161 6617 6660 "src/interpreter/natives/native_calls.ml" 161 6617 6669
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 161 6617 6670 "src/interpreter/natives/native_calls.ml" 161 6617 6675
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 161 6617 6625 "src/interpreter/natives/native_calls.ml" 161 6617 6675
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 162 6676 6688 "src/interpreter/natives/native_calls.ml" 162 6676 6690
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 162 6676 6691 "src/interpreter/natives/native_calls.ml" 162 6676 6692
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 162 6676 6693 "src/interpreter/natives/native_calls.ml" 162 6676 6712
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_gt_id
+)
+"src/interpreter/natives/native_calls.ml" 162 6676 6688 "src/interpreter/natives/native_calls.ml" 162 6676 6712
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 163 6718 6726 "src/interpreter/natives/native_calls.ml" 163 6718 6740
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 163 6718 6741 "src/interpreter/natives/native_calls.ml" 163 6718 6751
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_gt
+)
+"src/interpreter/natives/native_calls.ml" 163 6718 6752 "src/interpreter/natives/native_calls.ml" 163 6718 6760
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 163 6718 6761 "src/interpreter/natives/native_calls.ml" 163 6718 6770
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 163 6718 6771 "src/interpreter/natives/native_calls.ml" 163 6718 6776
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 163 6718 6726 "src/interpreter/natives/native_calls.ml" 163 6718 6776
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 164 6777 6789 "src/interpreter/natives/native_calls.ml" 164 6777 6791
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 164 6777 6792 "src/interpreter/natives/native_calls.ml" 164 6777 6793
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 164 6777 6794 "src/interpreter/natives/native_calls.ml" 164 6777 6813
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_eq_id
+)
+"src/interpreter/natives/native_calls.ml" 164 6777 6789 "src/interpreter/natives/native_calls.ml" 164 6777 6813
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 165 6819 6827 "src/interpreter/natives/native_calls.ml" 165 6819 6841
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 165 6819 6842 "src/interpreter/natives/native_calls.ml" 165 6819 6852
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_eq
+)
+"src/interpreter/natives/native_calls.ml" 165 6819 6853 "src/interpreter/natives/native_calls.ml" 165 6819 6861
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 165 6819 6862 "src/interpreter/natives/native_calls.ml" 165 6819 6871
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 165 6819 6872 "src/interpreter/natives/native_calls.ml" 165 6819 6877
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 165 6819 6827 "src/interpreter/natives/native_calls.ml" 165 6819 6877
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 166 6878 6890 "src/interpreter/natives/native_calls.ml" 166 6878 6892
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 166 6878 6893 "src/interpreter/natives/native_calls.ml" 166 6878 6894
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 166 6878 6895 "src/interpreter/natives/native_calls.ml" 166 6878 6915
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_neq_id
+)
+"src/interpreter/natives/native_calls.ml" 166 6878 6890 "src/interpreter/natives/native_calls.ml" 166 6878 6915
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 167 6921 6929 "src/interpreter/natives/native_calls.ml" 167 6921 6943
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 167 6921 6944 "src/interpreter/natives/native_calls.ml" 167 6921 6955
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_neq
+)
+"src/interpreter/natives/native_calls.ml" 167 6921 6956 "src/interpreter/natives/native_calls.ml" 167 6921 6964
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 167 6921 6965 "src/interpreter/natives/native_calls.ml" 167 6921 6974
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 167 6921 6975 "src/interpreter/natives/native_calls.ml" 167 6921 6980
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 167 6921 6929 "src/interpreter/natives/native_calls.ml" 167 6921 6980
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 168 6981 6993 "src/interpreter/natives/native_calls.ml" 168 6981 6995
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 168 6981 6996 "src/interpreter/natives/native_calls.ml" 168 6981 6997
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 168 6981 6998 "src/interpreter/natives/native_calls.ml" 168 6981 7018
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_geq_id
+)
+"src/interpreter/natives/native_calls.ml" 168 6981 6993 "src/interpreter/natives/native_calls.ml" 168 6981 7018
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 169 7024 7032 "src/interpreter/natives/native_calls.ml" 169 7024 7046
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 169 7024 7047 "src/interpreter/natives/native_calls.ml" 169 7024 7058
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_geq
+)
+"src/interpreter/natives/native_calls.ml" 169 7024 7059 "src/interpreter/natives/native_calls.ml" 169 7024 7067
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 169 7024 7068 "src/interpreter/natives/native_calls.ml" 169 7024 7077
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 169 7024 7078 "src/interpreter/natives/native_calls.ml" 169 7024 7083
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 169 7024 7032 "src/interpreter/natives/native_calls.ml" 169 7024 7083
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 170 7084 7096 "src/interpreter/natives/native_calls.ml" 170 7084 7098
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 170 7084 7099 "src/interpreter/natives/native_calls.ml" 170 7084 7100
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 170 7084 7101 "src/interpreter/natives/native_calls.ml" 170 7084 7121
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_leq_id
+)
+"src/interpreter/natives/native_calls.ml" 170 7084 7096 "src/interpreter/natives/native_calls.ml" 170 7084 7121
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 171 7127 7135 "src/interpreter/natives/native_calls.ml" 171 7127 7149
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 171 7127 7150 "src/interpreter/natives/native_calls.ml" 171 7127 7161
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_leq
+)
+"src/interpreter/natives/native_calls.ml" 171 7127 7162 "src/interpreter/natives/native_calls.ml" 171 7127 7170
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 171 7127 7171 "src/interpreter/natives/native_calls.ml" 171 7127 7180
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 171 7127 7181 "src/interpreter/natives/native_calls.ml" 171 7127 7186
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 171 7127 7135 "src/interpreter/natives/native_calls.ml" 171 7127 7186
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 172 7187 7199 "src/interpreter/natives/native_calls.ml" 172 7187 7201
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 172 7187 7202 "src/interpreter/natives/native_calls.ml" 172 7187 7203
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 172 7187 7204 "src/interpreter/natives/native_calls.ml" 172 7187 7227
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_andvec_id
+)
+"src/interpreter/natives/native_calls.ml" 172 7187 7199 "src/interpreter/natives/native_calls.ml" 172 7187 7227
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 173 7233 7241 "src/interpreter/natives/native_calls.ml" 173 7233 7255
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 173 7233 7256 "src/interpreter/natives/native_calls.ml" 173 7233 7270
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_andvec
+)
+"src/interpreter/natives/native_calls.ml" 173 7233 7271 "src/interpreter/natives/native_calls.ml" 173 7233 7279
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 173 7233 7280 "src/interpreter/natives/native_calls.ml" 173 7233 7289
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 173 7233 7290 "src/interpreter/natives/native_calls.ml" 173 7233 7295
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 173 7233 7241 "src/interpreter/natives/native_calls.ml" 173 7233 7295
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 174 7296 7308 "src/interpreter/natives/native_calls.ml" 174 7296 7310
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 174 7296 7311 "src/interpreter/natives/native_calls.ml" 174 7296 7312
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 174 7296 7313 "src/interpreter/natives/native_calls.ml" 174 7296 7333
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_and_id
+)
+"src/interpreter/natives/native_calls.ml" 174 7296 7308 "src/interpreter/natives/native_calls.ml" 174 7296 7333
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 175 7339 7347 "src/interpreter/natives/native_calls.ml" 175 7339 7361
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 175 7339 7362 "src/interpreter/natives/native_calls.ml" 175 7339 7373
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_and
+)
+"src/interpreter/natives/native_calls.ml" 175 7339 7374 "src/interpreter/natives/native_calls.ml" 175 7339 7382
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 175 7339 7383 "src/interpreter/natives/native_calls.ml" 175 7339 7392
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 175 7339 7393 "src/interpreter/natives/native_calls.ml" 175 7339 7398
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 175 7339 7347 "src/interpreter/natives/native_calls.ml" 175 7339 7398
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 176 7399 7411 "src/interpreter/natives/native_calls.ml" 176 7399 7413
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 176 7399 7414 "src/interpreter/natives/native_calls.ml" 176 7399 7415
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 176 7399 7416 "src/interpreter/natives/native_calls.ml" 176 7399 7438
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_orvec_id
+)
+"src/interpreter/natives/native_calls.ml" 176 7399 7411 "src/interpreter/natives/native_calls.ml" 176 7399 7438
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 177 7444 7452 "src/interpreter/natives/native_calls.ml" 177 7444 7466
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 177 7444 7467 "src/interpreter/natives/native_calls.ml" 177 7444 7480
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_orvec
+)
+"src/interpreter/natives/native_calls.ml" 177 7444 7481 "src/interpreter/natives/native_calls.ml" 177 7444 7489
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 177 7444 7490 "src/interpreter/natives/native_calls.ml" 177 7444 7499
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 177 7444 7500 "src/interpreter/natives/native_calls.ml" 177 7444 7505
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 177 7444 7452 "src/interpreter/natives/native_calls.ml" 177 7444 7505
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 178 7506 7518 "src/interpreter/natives/native_calls.ml" 178 7506 7520
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 178 7506 7521 "src/interpreter/natives/native_calls.ml" 178 7506 7522
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 178 7506 7523 "src/interpreter/natives/native_calls.ml" 178 7506 7542
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_or_id
+)
+"src/interpreter/natives/native_calls.ml" 178 7506 7518 "src/interpreter/natives/native_calls.ml" 178 7506 7542
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 179 7548 7556 "src/interpreter/natives/native_calls.ml" 179 7548 7570
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 179 7548 7571 "src/interpreter/natives/native_calls.ml" 179 7548 7581
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_or
+)
+"src/interpreter/natives/native_calls.ml" 179 7548 7582 "src/interpreter/natives/native_calls.ml" 179 7548 7590
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 179 7548 7591 "src/interpreter/natives/native_calls.ml" 179 7548 7600
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 179 7548 7601 "src/interpreter/natives/native_calls.ml" 179 7548 7606
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 179 7548 7556 "src/interpreter/natives/native_calls.ml" 179 7548 7606
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 180 7607 7619 "src/interpreter/natives/native_calls.ml" 180 7607 7621
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 180 7607 7622 "src/interpreter/natives/native_calls.ml" 180 7607 7623
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 180 7607 7624 "src/interpreter/natives/native_calls.ml" 180 7607 7644
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_xor_id
+)
+"src/interpreter/natives/native_calls.ml" 180 7607 7619 "src/interpreter/natives/native_calls.ml" 180 7607 7644
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 181 7650 7658 "src/interpreter/natives/native_calls.ml" 181 7650 7672
+type(
+  (Arithmetic.S.rvector ->
+   Arithmetic.S.rvector ->
+   Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_bop "src/interpreter/natives/native_calls.ml" 48 1447 1451 "src/interpreter/natives/native_calls.ml" 48 1447 1465
+)
+"src/interpreter/natives/native_calls.ml" 181 7650 7673 "src/interpreter/natives/native_calls.ml" 181 7650 7684
+type(
+  Arithmetic.S.rvector ->
+  Arithmetic.S.rvector ->
+  Arithmetic.S.state -> Arithmetic.S.rvector * Arithmetic.S.state
+)
+ident(
+  ext_ref Arithmetic.rvector_xor
+)
+"src/interpreter/natives/native_calls.ml" 181 7650 7685 "src/interpreter/natives/native_calls.ml" 181 7650 7693
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 181 7650 7694 "src/interpreter/natives/native_calls.ml" 181 7650 7703
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 181 7650 7704 "src/interpreter/natives/native_calls.ml" 181 7650 7709
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 181 7650 7658 "src/interpreter/natives/native_calls.ml" 181 7650 7709
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 184 7768 7780 "src/interpreter/natives/native_calls.ml" 184 7768 7782
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 184 7768 7783 "src/interpreter/natives/native_calls.ml" 184 7768 7784
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 184 7768 7785 "src/interpreter/natives/native_calls.ml" 184 7768 7810
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_symbolic_id
+)
+"src/interpreter/natives/native_calls.ml" 184 7768 7780 "src/interpreter/natives/native_calls.ml" 184 7768 7810
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 185 7816 7829 "src/interpreter/natives/native_calls.ml" 185 7816 7837
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 186 7843 7852 "src/interpreter/natives/native_calls.ml" 186 7843 7859
+type(
+  Support.memref
+)
+ident(
+  def len_mem "src/interpreter/natives/native_calls.ml" 187 7882 7890 "src/interpreter/natives/native_calls.ml" 191 8101 8170
+)
+"src/interpreter/natives/native_calls.ml" 186 7843 7863 "src/interpreter/natives/native_calls.ml" 186 7843 7871
+type(
+  Support.memref
+)
+ident(
+  def type_mem "src/interpreter/natives/native_calls.ml" 187 7882 7890 "src/interpreter/natives/native_calls.ml" 191 8101 8170
+)
+"src/interpreter/natives/native_calls.ml" 186 7843 7875 "src/interpreter/natives/native_calls.ml" 186 7843 7877
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 186 7843 7863 "src/interpreter/natives/native_calls.ml" 186 7843 7877
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 186 7843 7851 "src/interpreter/natives/native_calls.ml" 186 7843 7878
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 187 7882 7895 "src/interpreter/natives/native_calls.ml" 187 7882 7899
+type(
+  Vector.S.memref
+)
+ident(
+  def mem2 "src/interpreter/natives/native_calls.ml" 188 7957 7965 "src/interpreter/natives/native_calls.ml" 191 8101 8170
+)
+"src/interpreter/natives/native_calls.ml" 187 7882 7901 "src/interpreter/natives/native_calls.ml" 187 7882 7907
+type(
+  Vector.S.state
+)
+ident(
+  def state2 "src/interpreter/natives/native_calls.ml" 188 7957 7965 "src/interpreter/natives/native_calls.ml" 191 8101 8170
+)
+"src/interpreter/natives/native_calls.ml" 187 7882 7894 "src/interpreter/natives/native_calls.ml" 187 7882 7908
+type(
+  Vector.S.memref * Vector.S.state
+)
+"src/interpreter/natives/native_calls.ml" 187 7882 7912 "src/interpreter/natives/native_calls.ml" 187 7882 7930
+type(
+  Vector.S.memref ->
+  Vector.S.memref -> Vector.S.state -> Vector.S.memref * Vector.S.state
+)
+ident(
+  ext_ref Vector.make_symbolic_mems
+)
+"src/interpreter/natives/native_calls.ml" 187 7882 7931 "src/interpreter/natives/native_calls.ml" 187 7882 7938
+type(
+  Support.memref
+)
+ident(
+  int_ref len_mem "src/interpreter/natives/native_calls.ml" 186 7843 7852 "src/interpreter/natives/native_calls.ml" 186 7843 7859
+)
+"src/interpreter/natives/native_calls.ml" 187 7882 7939 "src/interpreter/natives/native_calls.ml" 187 7882 7947
+type(
+  Support.memref
+)
+ident(
+  int_ref type_mem "src/interpreter/natives/native_calls.ml" 186 7843 7863 "src/interpreter/natives/native_calls.ml" 186 7843 7871
+)
+"src/interpreter/natives/native_calls.ml" 187 7882 7948 "src/interpreter/natives/native_calls.ml" 187 7882 7953
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 187 7882 7912 "src/interpreter/natives/native_calls.ml" 187 7882 7953
+call(
+  stack
+)
+type(
+  Vector.S.memref * Vector.S.state
+)
+"src/interpreter/natives/native_calls.ml" 188 7957 7969 "src/interpreter/natives/native_calls.ml" 188 7957 7976
+type(
+  Support.frame
+)
+ident(
+  def c_frame "src/interpreter/natives/native_calls.ml" 191 8101 8111 "src/interpreter/natives/native_calls.ml" 191 8101 8170
+)
+"src/interpreter/natives/native_calls.ml" 188 7957 7981 "src/interpreter/natives/native_calls.ml" 188 7957 7994
+type(
+  unit -> Support.frame
+)
+ident(
+  ext_ref Support.frame_default
+)
+"src/interpreter/natives/native_calls.ml" 189 8000 8036 "src/interpreter/natives/native_calls.ml" 189 8000 8045
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 190 8047 8091 "src/interpreter/natives/native_calls.ml" 190 8047 8095
+type(
+  Vector.S.memref
+)
+ident(
+  int_ref mem2 "src/interpreter/natives/native_calls.ml" 187 7882 7895 "src/interpreter/natives/native_calls.ml" 187 7882 7899
+)
+"src/interpreter/natives/native_calls.ml" 190 8047 8080 "src/interpreter/natives/native_calls.ml" 190 8047 8095
+type(
+  Support.slot
+)
+"src/interpreter/natives/native_calls.ml" 188 7957 7979 "src/interpreter/natives/native_calls.ml" 190 8047 8097
+type(
+  Support.frame
+)
+"src/interpreter/natives/native_calls.ml" 191 8101 8118 "src/interpreter/natives/native_calls.ml" 191 8101 8124
+type(
+  Vector.S.state
+)
+ident(
+  int_ref state2 "src/interpreter/natives/native_calls.ml" 187 7882 7901 "src/interpreter/natives/native_calls.ml" 187 7882 7907
+)
+"src/interpreter/natives/native_calls.ml" 191 8101 8138 "src/interpreter/natives/native_calls.ml" 191 8101 8148
+type(
+  Support.frame -> Support.stack -> Support.stack
+)
+ident(
+  ext_ref Support.stack_push
+)
+"src/interpreter/natives/native_calls.ml" 191 8101 8149 "src/interpreter/natives/native_calls.ml" 191 8101 8156
+type(
+  Support.frame
+)
+ident(
+  int_ref c_frame "src/interpreter/natives/native_calls.ml" 188 7957 7969 "src/interpreter/natives/native_calls.ml" 188 7957 7976
+)
+"src/interpreter/natives/native_calls.ml" 191 8101 8157 "src/interpreter/natives/native_calls.ml" 191 8101 8162
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 191 8101 8157 "src/interpreter/natives/native_calls.ml" 191 8101 8168
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 191 8101 8138 "src/interpreter/natives/native_calls.ml" 191 8101 8168
+call(
+  stack
+)
+type(
+  Support.stack
+)
+"src/interpreter/natives/native_calls.ml" 191 8101 8116 "src/interpreter/natives/native_calls.ml" 191 8101 8170
+type(
+  Support.state
+)
+"src/interpreter/natives/native_calls.ml" 191 8101 8111 "src/interpreter/natives/native_calls.ml" 191 8101 8170
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 188 7957 7965 "src/interpreter/natives/native_calls.ml" 191 8101 8170
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 187 7882 7890 "src/interpreter/natives/native_calls.ml" 191 8101 8170
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 192 8171 8179 "src/interpreter/natives/native_calls.ml" 192 8171 8180
+type(
+  Support.memref list
+)
+"src/interpreter/natives/native_calls.ml" 192 8171 8184 "src/interpreter/natives/native_calls.ml" 192 8171 8188
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 185 7816 7822 "src/interpreter/natives/native_calls.ml" 192 8171 8189
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 194 8191 8203 "src/interpreter/natives/native_calls.ml" 194 8191 8205
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 194 8191 8206 "src/interpreter/natives/native_calls.ml" 194 8191 8207
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 194 8191 8208 "src/interpreter/natives/native_calls.ml" 194 8191 8232
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_intconv_id
+)
+"src/interpreter/natives/native_calls.ml" 194 8191 8203 "src/interpreter/natives/native_calls.ml" 194 8191 8232
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 195 8238 8246 "src/interpreter/natives/native_calls.ml" 195 8238 8261
+type(
+  (Convert.S.rvector -> Convert.S.rvector) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_conv "src/interpreter/natives/native_calls.ml" 64 2172 2176 "src/interpreter/natives/native_calls.ml" 64 2172 2191
+)
+"src/interpreter/natives/native_calls.ml" 195 8238 8262 "src/interpreter/natives/native_calls.ml" 195 8238 8280
+type(
+  Convert.S.rvector -> Convert.S.rvector
+)
+ident(
+  ext_ref Convert.rvector_as_integer
+)
+"src/interpreter/natives/native_calls.ml" 195 8238 8281 "src/interpreter/natives/native_calls.ml" 195 8238 8289
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 195 8238 8290 "src/interpreter/natives/native_calls.ml" 195 8238 8299
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 195 8238 8300 "src/interpreter/natives/native_calls.ml" 195 8238 8305
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 195 8238 8246 "src/interpreter/natives/native_calls.ml" 195 8238 8305
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 196 8306 8318 "src/interpreter/natives/native_calls.ml" 196 8306 8320
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 196 8306 8321 "src/interpreter/natives/native_calls.ml" 196 8306 8322
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 196 8306 8323 "src/interpreter/natives/native_calls.ml" 196 8306 8349
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_floatconv_id
+)
+"src/interpreter/natives/native_calls.ml" 196 8306 8318 "src/interpreter/natives/native_calls.ml" 196 8306 8349
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 197 8355 8363 "src/interpreter/natives/native_calls.ml" 197 8355 8378
+type(
+  (Convert.S.rvector -> Convert.S.rvector) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_conv "src/interpreter/natives/native_calls.ml" 64 2172 2176 "src/interpreter/natives/native_calls.ml" 64 2172 2191
+)
+"src/interpreter/natives/native_calls.ml" 197 8355 8379 "src/interpreter/natives/native_calls.ml" 197 8355 8395
+type(
+  Convert.S.rvector -> Convert.S.rvector
+)
+ident(
+  ext_ref Convert.rvector_as_float
+)
+"src/interpreter/natives/native_calls.ml" 197 8355 8396 "src/interpreter/natives/native_calls.ml" 197 8355 8404
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 197 8355 8405 "src/interpreter/natives/native_calls.ml" 197 8355 8414
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 197 8355 8415 "src/interpreter/natives/native_calls.ml" 197 8355 8420
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 197 8355 8363 "src/interpreter/natives/native_calls.ml" 197 8355 8420
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 198 8421 8433 "src/interpreter/natives/native_calls.ml" 198 8421 8435
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 198 8421 8436 "src/interpreter/natives/native_calls.ml" 198 8421 8437
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 198 8421 8438 "src/interpreter/natives/native_calls.ml" 198 8421 8466
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_complexconv_id
+)
+"src/interpreter/natives/native_calls.ml" 198 8421 8433 "src/interpreter/natives/native_calls.ml" 198 8421 8466
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 199 8472 8480 "src/interpreter/natives/native_calls.ml" 199 8472 8495
+type(
+  (Convert.S.rvector -> Convert.S.rvector) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_conv "src/interpreter/natives/native_calls.ml" 64 2172 2176 "src/interpreter/natives/native_calls.ml" 64 2172 2191
+)
+"src/interpreter/natives/native_calls.ml" 199 8472 8496 "src/interpreter/natives/native_calls.ml" 199 8472 8514
+type(
+  Convert.S.rvector -> Convert.S.rvector
+)
+ident(
+  ext_ref Convert.rvector_as_complex
+)
+"src/interpreter/natives/native_calls.ml" 199 8472 8515 "src/interpreter/natives/native_calls.ml" 199 8472 8523
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 199 8472 8524 "src/interpreter/natives/native_calls.ml" 199 8472 8533
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 199 8472 8534 "src/interpreter/natives/native_calls.ml" 199 8472 8539
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 199 8472 8480 "src/interpreter/natives/native_calls.ml" 199 8472 8539
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 200 8540 8552 "src/interpreter/natives/native_calls.ml" 200 8540 8554
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 200 8540 8555 "src/interpreter/natives/native_calls.ml" 200 8540 8556
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 200 8540 8557 "src/interpreter/natives/native_calls.ml" 200 8540 8581
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_strconv_id
+)
+"src/interpreter/natives/native_calls.ml" 200 8540 8552 "src/interpreter/natives/native_calls.ml" 200 8540 8581
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 201 8587 8595 "src/interpreter/natives/native_calls.ml" 201 8587 8610
+type(
+  (Convert.S.rvector -> Convert.S.rvector) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_conv "src/interpreter/natives/native_calls.ml" 64 2172 2176 "src/interpreter/natives/native_calls.ml" 64 2172 2191
+)
+"src/interpreter/natives/native_calls.ml" 201 8587 8611 "src/interpreter/natives/native_calls.ml" 201 8587 8628
+type(
+  Convert.S.rvector -> Convert.S.rvector
+)
+ident(
+  ext_ref Convert.rvector_as_string
+)
+"src/interpreter/natives/native_calls.ml" 201 8587 8629 "src/interpreter/natives/native_calls.ml" 201 8587 8637
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 201 8587 8638 "src/interpreter/natives/native_calls.ml" 201 8587 8647
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 201 8587 8648 "src/interpreter/natives/native_calls.ml" 201 8587 8653
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 201 8587 8595 "src/interpreter/natives/native_calls.ml" 201 8587 8653
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 202 8654 8666 "src/interpreter/natives/native_calls.ml" 202 8654 8668
+type(
+  ident
+)
+ident(
+  int_ref id "src/interpreter/natives/native_calls.ml" 86 3481 3487 "src/interpreter/natives/native_calls.ml" 86 3481 3489
+)
+"src/interpreter/natives/native_calls.ml" 202 8654 8669 "src/interpreter/natives/native_calls.ml" 202 8654 8670
+type(
+  ident -> ident -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/natives/native_calls.ml" 202 8654 8671 "src/interpreter/natives/native_calls.ml" 202 8654 8696
+type(
+  Support.ident
+)
+ident(
+  ext_ref Natives.native_vector_boolconv_id
+)
+"src/interpreter/natives/native_calls.ml" 202 8654 8666 "src/interpreter/natives/native_calls.ml" 202 8654 8696
+type(
+  bool
+)
+"src/interpreter/natives/native_calls.ml" 203 8702 8710 "src/interpreter/natives/native_calls.ml" 203 8702 8725
+type(
+  (Convert.S.rvector -> Convert.S.rvector) ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)
+ident(
+  int_ref do_rvector_conv "src/interpreter/natives/native_calls.ml" 64 2172 2176 "src/interpreter/natives/native_calls.ml" 64 2172 2191
+)
+"src/interpreter/natives/native_calls.ml" 203 8702 8726 "src/interpreter/natives/native_calls.ml" 203 8702 8741
+type(
+  Convert.S.rvector -> Convert.S.rvector
+)
+ident(
+  ext_ref Convert.rvector_as_bool
+)
+"src/interpreter/natives/native_calls.ml" 203 8702 8742 "src/interpreter/natives/native_calls.ml" 203 8702 8750
+type(
+  Support.memref list
+)
+ident(
+  int_ref arg_mems "src/interpreter/natives/native_calls.ml" 86 3481 3490 "src/interpreter/natives/native_calls.ml" 86 3481 3498
+)
+"src/interpreter/natives/native_calls.ml" 203 8702 8751 "src/interpreter/natives/native_calls.ml" 203 8702 8760
+type(
+  Support.memref
+)
+ident(
+  int_ref c_env_mem "src/interpreter/natives/native_calls.ml" 86 3481 3499 "src/interpreter/natives/native_calls.ml" 86 3481 3508
+)
+"src/interpreter/natives/native_calls.ml" 203 8702 8761 "src/interpreter/natives/native_calls.ml" 203 8702 8766
+type(
+  Subscript.S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/native_calls.ml" 86 3481 3509 "src/interpreter/natives/native_calls.ml" 86 3481 3514
+)
+"src/interpreter/natives/native_calls.ml" 203 8702 8710 "src/interpreter/natives/native_calls.ml" 203 8702 8766
+call(
+  tail
+)
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 207 8802 8808 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 202 8654 8663 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 200 8540 8549 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 198 8421 8430 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 196 8306 8315 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 194 8191 8200 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 184 7768 7777 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 180 7607 7616 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 178 7506 7515 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 176 7399 7408 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 174 7296 7305 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 172 7187 7196 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 170 7084 7093 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 168 6981 6990 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 166 6878 6887 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 164 6777 6786 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 162 6676 6685 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 160 6575 6584 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 158 6472 6481 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 156 6369 6378 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 154 6266 6275 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 152 6163 6172 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 150 6060 6069 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 148 5958 5967 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 137 5512 5521 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 127 5111 5120 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 113 4549 4558 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 99 3988 3997 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 88 3548 3552 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  Support.state option
+)
+"src/interpreter/natives/native_calls.ml" 86 3481 3483 "src/interpreter/natives/native_calls.ml" 207 8802 8812
+type(
+  ident ->
+  Support.memref list ->
+  Support.memref -> Support.state -> Support.state option
+)
+type(
+  ident ->
+  Support.memref list ->
+  Support.memref -> Subscript.S.state -> Support.state option
+)

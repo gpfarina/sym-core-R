@@ -1,0 +1,1254 @@
+"src/smt/parser/smtlexer.mll" 8 55 61 "src/smt/parser/smtlexer.mll" 8 55 76
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  def incr_line_count "src/smt/parser/smtlexer.mll" 19 352 354 "src/smt/parser/smtlexer.ml" 1 0 -1
+)
+"src/smt/parser/smtlexer.mll" 9 103 111 "src/smt/parser/smtlexer.mll" 9 103 117
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/smt/parser/smtlexer.mll" 10 121 127 "src/smt/parser/smtlexer.mll" 17 341 350
+)
+"src/smt/parser/smtlexer.mll" 11 131 139 "src/smt/parser/smtlexer.mll" 11 131 142
+type(
+  Lexing.position
+)
+ident(
+  def pos "src/smt/parser/smtlexer.mll" 13 179 187 "src/smt/parser/smtlexer.mll" 17 341 350
+)
+"src/smt/parser/smtlexer.mll" 11 131 145 "src/smt/parser/smtlexer.mll" 11 131 151
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.mll" 9 103 111 "src/smt/parser/smtlexer.mll" 9 103 117
+)
+"src/smt/parser/smtlexer.mll" 11 131 145 "src/smt/parser/smtlexer.mll" 11 131 169
+type(
+  Lexing.position
+)
+"src/smt/parser/smtlexer.mll" 13 179 187 "src/smt/parser/smtlexer.mll" 13 179 193
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.mll" 9 103 111 "src/smt/parser/smtlexer.mll" 9 103 117
+)
+"src/smt/parser/smtlexer.mll" 14 217 227 "src/smt/parser/smtlexer.mll" 14 217 230
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "src/smt/parser/smtlexer.mll" 11 131 139 "src/smt/parser/smtlexer.mll" 11 131 142
+)
+"src/smt/parser/smtlexer.mll" 15 236 266 "src/smt/parser/smtlexer.mll" 15 236 269
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "src/smt/parser/smtlexer.mll" 11 131 139 "src/smt/parser/smtlexer.mll" 11 131 142
+)
+"src/smt/parser/smtlexer.mll" 15 236 266 "src/smt/parser/smtlexer.mll" 15 236 285
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 15 236 286 "src/smt/parser/smtlexer.mll" 15 236 287
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/smt/parser/smtlexer.mll" 15 236 288 "src/smt/parser/smtlexer.mll" 15 236 289
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 15 236 266 "src/smt/parser/smtlexer.mll" 15 236 289
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 16 291 320 "src/smt/parser/smtlexer.mll" 16 291 323
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "src/smt/parser/smtlexer.mll" 11 131 139 "src/smt/parser/smtlexer.mll" 11 131 142
+)
+"src/smt/parser/smtlexer.mll" 16 291 320 "src/smt/parser/smtlexer.mll" 16 291 339
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 13 179 215 "src/smt/parser/smtlexer.mll" 17 341 350
+type(
+  Lexing.position
+)
+"src/smt/parser/smtlexer.mll" 13 179 187 "src/smt/parser/smtlexer.mll" 17 341 350
+type(
+  unit
+)
+"src/smt/parser/smtlexer.mll" 10 121 127 "src/smt/parser/smtlexer.mll" 17 341 350
+type(
+  unit
+)
+"src/smt/parser/smtlexer.mll" 9 103 107 "src/smt/parser/smtlexer.mll" 17 341 350
+type(
+  Lexing.lexbuf -> unit
+)
+type(
+  Lexing.lexbuf -> unit
+)
+"src/smt/parser/smtlexer.mll" 19 352 358 "src/smt/parser/smtlexer.mll" 19 352 377
+type(
+  string -> string
+)
+ident(
+  def strip_string_quotes "src/smt/parser/smtlexer.mll" 22 456 458 "src/smt/parser/smtlexer.ml" 1 0 -1
+)
+"src/smt/parser/smtlexer.mll" 20 399 407 "src/smt/parser/smtlexer.mll" 20 399 410
+type(
+  string
+)
+ident(
+  def str "src/smt/parser/smtlexer.mll" 20 399 414 "src/smt/parser/smtlexer.mll" 20 399 454
+)
+"src/smt/parser/smtlexer.mll" 20 399 414 "src/smt/parser/smtlexer.mll" 20 399 424
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/smt/parser/smtlexer.mll" 20 399 425 "src/smt/parser/smtlexer.mll" 20 399 428
+type(
+  string
+)
+ident(
+  int_ref str "src/smt/parser/smtlexer.mll" 20 399 407 "src/smt/parser/smtlexer.mll" 20 399 410
+)
+"src/smt/parser/smtlexer.mll" 20 399 429 "src/smt/parser/smtlexer.mll" 20 399 430
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 20 399 432 "src/smt/parser/smtlexer.mll" 20 399 445
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/smt/parser/smtlexer.mll" 20 399 446 "src/smt/parser/smtlexer.mll" 20 399 449
+type(
+  string
+)
+ident(
+  int_ref str "src/smt/parser/smtlexer.mll" 20 399 407 "src/smt/parser/smtlexer.mll" 20 399 410
+)
+"src/smt/parser/smtlexer.mll" 20 399 432 "src/smt/parser/smtlexer.mll" 20 399 449
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 20 399 450 "src/smt/parser/smtlexer.mll" 20 399 451
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/smt/parser/smtlexer.mll" 20 399 452 "src/smt/parser/smtlexer.mll" 20 399 453
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 20 399 431 "src/smt/parser/smtlexer.mll" 20 399 454
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 20 399 414 "src/smt/parser/smtlexer.mll" 20 399 454
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/parser/smtlexer.mll" 20 399 403 "src/smt/parser/smtlexer.mll" 20 399 454
+type(
+  string -> string
+)
+type(
+  string -> string
+)
+"src/smt/parser/smtlexer.mll" 22 456 462 "src/smt/parser/smtlexer.mll" 22 456 480
+type(
+  string -> string
+)
+ident(
+  def strip_string_colon "src/smt/parser/smtlexer.ml" 24 593 593 "src/smt/parser/smtlexer.ml" 1 0 -1
+)
+"src/smt/parser/smtlexer.mll" 23 502 510 "src/smt/parser/smtlexer.mll" 23 502 513
+type(
+  string
+)
+ident(
+  def str "src/smt/parser/smtlexer.mll" 23 502 517 "src/smt/parser/smtlexer.mll" 23 502 557
+)
+"src/smt/parser/smtlexer.mll" 23 502 517 "src/smt/parser/smtlexer.mll" 23 502 527
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/smt/parser/smtlexer.mll" 23 502 528 "src/smt/parser/smtlexer.mll" 23 502 531
+type(
+  string
+)
+ident(
+  int_ref str "src/smt/parser/smtlexer.mll" 23 502 510 "src/smt/parser/smtlexer.mll" 23 502 513
+)
+"src/smt/parser/smtlexer.mll" 23 502 532 "src/smt/parser/smtlexer.mll" 23 502 533
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 23 502 535 "src/smt/parser/smtlexer.mll" 23 502 548
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/smt/parser/smtlexer.mll" 23 502 549 "src/smt/parser/smtlexer.mll" 23 502 552
+type(
+  string
+)
+ident(
+  int_ref str "src/smt/parser/smtlexer.mll" 23 502 510 "src/smt/parser/smtlexer.mll" 23 502 513
+)
+"src/smt/parser/smtlexer.mll" 23 502 535 "src/smt/parser/smtlexer.mll" 23 502 552
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 23 502 553 "src/smt/parser/smtlexer.mll" 23 502 554
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/smt/parser/smtlexer.mll" 23 502 555 "src/smt/parser/smtlexer.mll" 23 502 556
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 23 502 534 "src/smt/parser/smtlexer.mll" 23 502 557
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 23 502 517 "src/smt/parser/smtlexer.mll" 23 502 557
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/parser/smtlexer.mll" 23 502 506 "src/smt/parser/smtlexer.mll" 23 502 557
+type(
+  string -> string
+)
+type(
+  string -> string
+)
+"src/smt/parser/smtlexer.ml" 24 593 597 "src/smt/parser/smtlexer.ml" 24 593 615
+type(
+  Lexing.lex_tables
+)
+ident(
+  def __ocaml_lex_tables "src/smt/parser/smtlexer.ml" 4740 329510 329510 "src/smt/parser/smtlexer.ml" 1 0 -1
+)
+"src/smt/parser/smtlexer.ml" 26 641 644 "src/smt/parser/smtlexer.ml" 53 2531 2576
+type(
+  string
+)
+"src/smt/parser/smtlexer.ml" 55 2602 2605 "src/smt/parser/smtlexer.ml" 82 4492 4537
+type(
+  string
+)
+"src/smt/parser/smtlexer.ml" 84 4563 4566 "src/smt/parser/smtlexer.ml" 111 6453 6498
+type(
+  string
+)
+"src/smt/parser/smtlexer.ml" 113 6522 6525 "src/smt/parser/smtlexer.ml" 2418 167872 167901
+type(
+  string
+)
+"src/smt/parser/smtlexer.ml" 2420 167925 167928 "src/smt/parser/smtlexer.ml" 4725 329275 329304
+type(
+  string
+)
+"src/smt/parser/smtlexer.ml" 4727 329332 329335 "src/smt/parser/smtlexer.ml" 4727 329332 329337
+type(
+  string
+)
+"src/smt/parser/smtlexer.ml" 4729 329368 329371 "src/smt/parser/smtlexer.ml" 4729 329368 329373
+type(
+  string
+)
+"src/smt/parser/smtlexer.ml" 4731 329404 329407 "src/smt/parser/smtlexer.ml" 4731 329404 329409
+type(
+  string
+)
+"src/smt/parser/smtlexer.ml" 4733 329438 329441 "src/smt/parser/smtlexer.ml" 4733 329438 329443
+type(
+  string
+)
+"src/smt/parser/smtlexer.ml" 4735 329472 329475 "src/smt/parser/smtlexer.ml" 4735 329472 329477
+type(
+  string
+)
+"src/smt/parser/smtlexer.ml" 4737 329500 329503 "src/smt/parser/smtlexer.ml" 4737 329500 329505
+type(
+  string
+)
+"src/smt/parser/smtlexer.ml" 24 593 618 "src/smt/parser/smtlexer.ml" 4738 329507 329508
+type(
+  Lexing.lex_tables
+)
+"src/smt/parser/smtlexer.ml" 4740 329510 329518 "src/smt/parser/smtlexer.ml" 4740 329510 329526
+type(
+  'a -> Lexing.lexbuf -> Smtparser.token
+)
+ident(
+  def tokenize "src/smt/parser/smtlexer.ml" 4740 329510 329510 "src/smt/parser/smtlexer.ml" 1 0 -1
+)
+"src/smt/parser/smtlexer.ml" 4740 329510 329527 "src/smt/parser/smtlexer.ml" 4740 329510 329534
+type(
+  'a
+)
+ident(
+  def context "src/smt/parser/smtlexer.ml" 4740 329510 329535 "src/smt/parser/smtlexer.ml" 4741 329544 329589
+)
+"src/smt/parser/smtlexer.ml" 4740 329510 329535 "src/smt/parser/smtlexer.ml" 4740 329510 329541
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/smt/parser/smtlexer.ml" 4741 329544 329548 "src/smt/parser/smtlexer.ml" 4741 329544 329589
+)
+"src/smt/parser/smtlexer.ml" 4741 329544 329548 "src/smt/parser/smtlexer.ml" 4741 329544 329572
+type(
+  'a -> Lexing.lexbuf -> int -> Smtparser.token
+)
+ident(
+  int_ref __ocaml_lex_tokenize_rec "src/smt/parser/smtlexer.ml" 4742 329590 329594 "src/smt/parser/smtlexer.ml" 4742 329590 329618
+)
+"src/smt/parser/smtlexer.ml" 4741 329544 329573 "src/smt/parser/smtlexer.ml" 4741 329544 329580
+type(
+  'a
+)
+ident(
+  int_ref context "src/smt/parser/smtlexer.ml" 4740 329510 329527 "src/smt/parser/smtlexer.ml" 4740 329510 329534
+)
+"src/smt/parser/smtlexer.ml" 4741 329544 329581 "src/smt/parser/smtlexer.ml" 4741 329544 329587
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4740 329510 329535 "src/smt/parser/smtlexer.ml" 4740 329510 329541
+)
+"src/smt/parser/smtlexer.ml" 4741 329544 329588 "src/smt/parser/smtlexer.ml" 4741 329544 329589
+type(
+  int
+)
+"src/smt/parser/smtlexer.ml" 4741 329544 329548 "src/smt/parser/smtlexer.ml" 4741 329544 329589
+call(
+  tail
+)
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4742 329590 329594 "src/smt/parser/smtlexer.ml" 4742 329590 329618
+type(
+  'a -> Lexing.lexbuf -> int -> Smtparser.token
+)
+ident(
+  def __ocaml_lex_tokenize_rec "src/smt/parser/smtlexer.ml" 4740 329510 329510 "src/smt/parser/smtlexer.ml" 1 0 -1
+)
+"src/smt/parser/smtlexer.ml" 4742 329590 329619 "src/smt/parser/smtlexer.ml" 4742 329590 329626
+type(
+  'a
+)
+ident(
+  def context "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 5014 336071 336187
+)
+"src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329634 "src/smt/parser/smtlexer.ml" 5014 336071 336187
+)
+"src/smt/parser/smtlexer.ml" 4742 329590 329634 "src/smt/parser/smtlexer.ml" 4742 329590 329651
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/smt/parser/smtlexer.ml" 4743 329654 329656 "src/smt/parser/smtlexer.ml" 5014 336071 336187
+)
+"src/smt/parser/smtlexer.ml" 4743 329654 329662 "src/smt/parser/smtlexer.ml" 4743 329654 329675
+type(
+  Lexing.lex_tables -> int -> Lexing.lexbuf -> int
+)
+ident(
+  ext_ref Lexing.engine
+)
+"src/smt/parser/smtlexer.ml" 4743 329654 329676 "src/smt/parser/smtlexer.ml" 4743 329654 329694
+type(
+  Lexing.lex_tables
+)
+ident(
+  int_ref __ocaml_lex_tables "src/smt/parser/smtlexer.ml" 24 593 597 "src/smt/parser/smtlexer.ml" 24 593 615
+)
+"src/smt/parser/smtlexer.ml" 4743 329654 329695 "src/smt/parser/smtlexer.ml" 4743 329654 329712
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/smt/parser/smtlexer.ml" 4742 329590 329634 "src/smt/parser/smtlexer.ml" 4742 329590 329651
+)
+"src/smt/parser/smtlexer.ml" 4743 329654 329713 "src/smt/parser/smtlexer.ml" 4743 329654 329719
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.ml" 4743 329654 329662 "src/smt/parser/smtlexer.ml" 4743 329654 329719
+call(
+  stack
+)
+type(
+  int
+)
+"src/smt/parser/smtlexer.ml" 4744 329725 329733 "src/smt/parser/smtlexer.ml" 4744 329725 329734
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 80 329773 329781 "src/smt/parser/smtlexer.mll" 80 329773 329791
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4749 329829 329833 "src/smt/parser/smtlexer.ml" 4749 329829 329834
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 81 329873 329881 "src/smt/parser/smtlexer.mll" 81 329873 329891
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4754 329929 329933 "src/smt/parser/smtlexer.ml" 4754 329929 329934
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 88 329973 329981 "src/smt/parser/smtlexer.mll" 88 329973 329995
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4759 330033 330037 "src/smt/parser/smtlexer.ml" 4759 330033 330038
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 90 330077 330091 "src/smt/parser/smtlexer.mll" 90 330077 330104
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4764 330142 330146 "src/smt/parser/smtlexer.ml" 4764 330142 330147
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 91 330186 330200 "src/smt/parser/smtlexer.mll" 91 330186 330214
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4769 330252 330256 "src/smt/parser/smtlexer.ml" 4769 330252 330257
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 92 330296 330310 "src/smt/parser/smtlexer.mll" 92 330296 330325
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4774 330363 330367 "src/smt/parser/smtlexer.ml" 4774 330363 330368
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 93 330407 330421 "src/smt/parser/smtlexer.mll" 93 330407 330436
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4779 330474 330478 "src/smt/parser/smtlexer.ml" 4779 330474 330479
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 94 330518 330532 "src/smt/parser/smtlexer.mll" 94 330518 330547
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4784 330585 330589 "src/smt/parser/smtlexer.ml" 4784 330585 330590
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 95 330629 330643 "src/smt/parser/smtlexer.mll" 95 330629 330658
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4789 330696 330700 "src/smt/parser/smtlexer.ml" 4789 330696 330701
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 96 330740 330754 "src/smt/parser/smtlexer.mll" 96 330740 330770
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4794 330808 330812 "src/smt/parser/smtlexer.ml" 4794 330808 330814
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 97 330853 330867 "src/smt/parser/smtlexer.mll" 97 330853 330883
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4799 330921 330925 "src/smt/parser/smtlexer.ml" 4799 330921 330927
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 99 330966 330979 "src/smt/parser/smtlexer.mll" 99 330966 330989
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4804 331027 331031 "src/smt/parser/smtlexer.ml" 4804 331027 331033
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 100 331073 331086 "src/smt/parser/smtlexer.mll" 100 331073 331096
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4809 331134 331138 "src/smt/parser/smtlexer.ml" 4809 331134 331140
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 101 331180 331193 "src/smt/parser/smtlexer.mll" 101 331180 331200
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4814 331238 331242 "src/smt/parser/smtlexer.ml" 4814 331238 331244
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 102 331284 331297 "src/smt/parser/smtlexer.mll" 102 331284 331303
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4819 331341 331345 "src/smt/parser/smtlexer.ml" 4819 331341 331347
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 104 331387 331400 "src/smt/parser/smtlexer.mll" 104 331387 331415
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4824 331453 331457 "src/smt/parser/smtlexer.ml" 4824 331453 331459
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 105 331499 331512 "src/smt/parser/smtlexer.mll" 105 331499 331526
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4829 331564 331568 "src/smt/parser/smtlexer.ml" 4829 331564 331570
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 106 331610 331623 "src/smt/parser/smtlexer.mll" 106 331610 331637
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4834 331675 331679 "src/smt/parser/smtlexer.ml" 4834 331675 331681
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 107 331721 331734 "src/smt/parser/smtlexer.mll" 107 331721 331746
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4839 331784 331788 "src/smt/parser/smtlexer.ml" 4839 331784 331790
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 108 331830 331843 "src/smt/parser/smtlexer.mll" 108 331830 331856
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4844 331894 331898 "src/smt/parser/smtlexer.ml" 4844 331894 331900
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 110 331940 331959 "src/smt/parser/smtlexer.mll" 110 331940 331972
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4849 332010 332014 "src/smt/parser/smtlexer.ml" 4849 332010 332016
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 111 332056 332075 "src/smt/parser/smtlexer.mll" 111 332056 332090
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4854 332128 332132 "src/smt/parser/smtlexer.ml" 4854 332128 332134
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 112 332174 332193 "src/smt/parser/smtlexer.mll" 112 332174 332207
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4859 332245 332249 "src/smt/parser/smtlexer.ml" 4859 332245 332251
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 113 332291 332310 "src/smt/parser/smtlexer.mll" 113 332291 332326
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4864 332364 332368 "src/smt/parser/smtlexer.ml" 4864 332364 332370
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 114 332410 332429 "src/smt/parser/smtlexer.mll" 114 332410 332444
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4869 332482 332486 "src/smt/parser/smtlexer.ml" 4869 332482 332488
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 116 332528 332549 "src/smt/parser/smtlexer.mll" 116 332528 332559
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4874 332597 332601 "src/smt/parser/smtlexer.ml" 4874 332597 332603
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 117 332643 332664 "src/smt/parser/smtlexer.mll" 117 332643 332679
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4879 332717 332721 "src/smt/parser/smtlexer.ml" 4879 332717 332723
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 118 332763 332784 "src/smt/parser/smtlexer.mll" 118 332763 332797
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4884 332835 332839 "src/smt/parser/smtlexer.ml" 4884 332835 332841
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 119 332881 332902 "src/smt/parser/smtlexer.mll" 119 332881 332915
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4889 332953 332957 "src/smt/parser/smtlexer.ml" 4889 332953 332959
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 120 332999 333020 "src/smt/parser/smtlexer.mll" 120 332999 333033
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4894 333071 333075 "src/smt/parser/smtlexer.ml" 4894 333071 333077
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 121 333117 333138 "src/smt/parser/smtlexer.mll" 121 333117 333156
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4899 333194 333198 "src/smt/parser/smtlexer.ml" 4899 333194 333200
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 122 333240 333261 "src/smt/parser/smtlexer.mll" 122 333240 333279
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4904 333317 333321 "src/smt/parser/smtlexer.ml" 4904 333317 333323
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 123 333363 333384 "src/smt/parser/smtlexer.mll" 123 333363 333397
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4909 333435 333439 "src/smt/parser/smtlexer.ml" 4909 333435 333441
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 125 333481 333498 "src/smt/parser/smtlexer.mll" 125 333481 333512
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4914 333550 333554 "src/smt/parser/smtlexer.ml" 4914 333550 333556
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 126 333596 333613 "src/smt/parser/smtlexer.mll" 126 333596 333627
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4919 333665 333669 "src/smt/parser/smtlexer.ml" 4919 333665 333671
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 127 333711 333728 "src/smt/parser/smtlexer.mll" 127 333711 333740
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4924 333778 333782 "src/smt/parser/smtlexer.ml" 4924 333778 333784
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 128 333824 333841 "src/smt/parser/smtlexer.mll" 128 333824 333853
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4929 333891 333895 "src/smt/parser/smtlexer.ml" 4929 333891 333897
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 130 333937 333949 "src/smt/parser/smtlexer.mll" 130 333937 333957
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4934 333995 333999 "src/smt/parser/smtlexer.ml" 4934 333995 334001
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 131 334041 334053 "src/smt/parser/smtlexer.mll" 131 334041 334060
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4939 334098 334102 "src/smt/parser/smtlexer.ml" 4939 334098 334104
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 132 334144 334156 "src/smt/parser/smtlexer.mll" 132 334144 334164
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4944 334202 334206 "src/smt/parser/smtlexer.ml" 4944 334202 334208
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 133 334248 334260 "src/smt/parser/smtlexer.mll" 133 334248 334269
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4949 334307 334311 "src/smt/parser/smtlexer.ml" 4949 334307 334313
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 134 334353 334365 "src/smt/parser/smtlexer.mll" 134 334353 334372
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4954 334410 334414 "src/smt/parser/smtlexer.ml" 4954 334410 334416
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 135 334456 334468 "src/smt/parser/smtlexer.mll" 135 334456 334477
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4959 334515 334519 "src/smt/parser/smtlexer.ml" 4959 334515 334521
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 137 334561 334587 "src/smt/parser/smtlexer.mll" 137 334561 334600
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/smt/parser/smtlexer.mll" 137 334561 334602 "src/smt/parser/smtlexer.mll" 137 334561 334615
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/smt/parser/smtlexer.mll" 137 334561 334616 "src/smt/parser/smtlexer.mll" 137 334561 334622
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.mll" 137 334561 334601 "src/smt/parser/smtlexer.mll" 137 334561 334623
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/parser/smtlexer.mll" 137 334561 334586 "src/smt/parser/smtlexer.mll" 137 334561 334624
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 137 334561 334574 "src/smt/parser/smtlexer.mll" 137 334561 334626
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4964 334664 334668 "src/smt/parser/smtlexer.ml" 4964 334664 334670
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 138 334710 334736 "src/smt/parser/smtlexer.mll" 138 334710 334749
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/smt/parser/smtlexer.mll" 138 334710 334751 "src/smt/parser/smtlexer.mll" 138 334710 334764
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/smt/parser/smtlexer.mll" 138 334710 334765 "src/smt/parser/smtlexer.mll" 138 334710 334771
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.mll" 138 334710 334750 "src/smt/parser/smtlexer.mll" 138 334710 334772
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/parser/smtlexer.mll" 138 334710 334735 "src/smt/parser/smtlexer.mll" 138 334710 334773
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 138 334710 334723 "src/smt/parser/smtlexer.mll" 138 334710 334775
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4969 334813 334817 "src/smt/parser/smtlexer.ml" 4969 334813 334819
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 139 334859 334885 "src/smt/parser/smtlexer.mll" 139 334859 334898
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/smt/parser/smtlexer.mll" 139 334859 334900 "src/smt/parser/smtlexer.mll" 139 334859 334913
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/smt/parser/smtlexer.mll" 139 334859 334914 "src/smt/parser/smtlexer.mll" 139 334859 334920
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.mll" 139 334859 334899 "src/smt/parser/smtlexer.mll" 139 334859 334921
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/parser/smtlexer.mll" 139 334859 334884 "src/smt/parser/smtlexer.mll" 139 334859 334922
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 139 334859 334872 "src/smt/parser/smtlexer.mll" 139 334859 334924
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4974 334962 334966 "src/smt/parser/smtlexer.ml" 4974 334962 334968
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 140 335008 335036 "src/smt/parser/smtlexer.mll" 140 335008 335051
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"src/smt/parser/smtlexer.mll" 140 335008 335053 "src/smt/parser/smtlexer.mll" 140 335008 335066
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/smt/parser/smtlexer.mll" 140 335008 335067 "src/smt/parser/smtlexer.mll" 140 335008 335073
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.mll" 140 335008 335052 "src/smt/parser/smtlexer.mll" 140 335008 335074
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/parser/smtlexer.mll" 140 335008 335035 "src/smt/parser/smtlexer.mll" 140 335008 335075
+type(
+  float
+)
+"src/smt/parser/smtlexer.mll" 140 335008 335021 "src/smt/parser/smtlexer.mll" 140 335008 335077
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4979 335115 335119 "src/smt/parser/smtlexer.ml" 4979 335115 335121
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 141 335161 335190 "src/smt/parser/smtlexer.mll" 141 335161 335209
+type(
+  string -> string
+)
+ident(
+  int_ref strip_string_quotes "src/smt/parser/smtlexer.mll" 19 352 358 "src/smt/parser/smtlexer.mll" 19 352 377
+)
+"src/smt/parser/smtlexer.mll" 141 335161 335211 "src/smt/parser/smtlexer.mll" 141 335161 335224
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/smt/parser/smtlexer.mll" 141 335161 335225 "src/smt/parser/smtlexer.mll" 141 335161 335231
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.mll" 141 335161 335210 "src/smt/parser/smtlexer.mll" 141 335161 335232
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/parser/smtlexer.mll" 141 335161 335189 "src/smt/parser/smtlexer.mll" 141 335161 335233
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/parser/smtlexer.mll" 141 335161 335174 "src/smt/parser/smtlexer.mll" 141 335161 335235
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4984 335273 335277 "src/smt/parser/smtlexer.ml" 4984 335273 335279
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 143 335319 335341 "src/smt/parser/smtlexer.mll" 143 335319 335354
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/smt/parser/smtlexer.mll" 143 335319 335355 "src/smt/parser/smtlexer.mll" 143 335319 335361
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.mll" 143 335319 335340 "src/smt/parser/smtlexer.mll" 143 335319 335362
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/parser/smtlexer.mll" 143 335319 335331 "src/smt/parser/smtlexer.mll" 143 335319 335364
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4989 335402 335406 "src/smt/parser/smtlexer.ml" 4989 335402 335408
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 144 335448 335471 "src/smt/parser/smtlexer.mll" 144 335448 335489
+type(
+  string -> string
+)
+ident(
+  int_ref strip_string_colon "src/smt/parser/smtlexer.mll" 22 456 462 "src/smt/parser/smtlexer.mll" 22 456 480
+)
+"src/smt/parser/smtlexer.mll" 144 335448 335491 "src/smt/parser/smtlexer.mll" 144 335448 335504
+type(
+  Lexing.lexbuf -> string
+)
+ident(
+  ext_ref Lexing.lexeme
+)
+"src/smt/parser/smtlexer.mll" 144 335448 335505 "src/smt/parser/smtlexer.mll" 144 335448 335511
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.mll" 144 335448 335490 "src/smt/parser/smtlexer.mll" 144 335448 335512
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/parser/smtlexer.mll" 144 335448 335470 "src/smt/parser/smtlexer.mll" 144 335448 335514
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/parser/smtlexer.mll" 144 335448 335460 "src/smt/parser/smtlexer.mll" 144 335448 335516
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4994 335554 335558 "src/smt/parser/smtlexer.ml" 4994 335554 335560
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 146 335600 335617 "src/smt/parser/smtlexer.mll" 146 335600 335625
+type(
+  'a -> Lexing.lexbuf -> Smtparser.token
+)
+ident(
+  int_ref tokenize "src/smt/parser/smtlexer.ml" 4740 329510 329518 "src/smt/parser/smtlexer.ml" 4740 329510 329526
+)
+"src/smt/parser/smtlexer.mll" 146 335600 335626 "src/smt/parser/smtlexer.mll" 146 335600 335633
+type(
+  'a
+)
+ident(
+  int_ref context "src/smt/parser/smtlexer.ml" 4742 329590 329619 "src/smt/parser/smtlexer.ml" 4742 329590 329626
+)
+"src/smt/parser/smtlexer.mll" 146 335600 335634 "src/smt/parser/smtlexer.mll" 146 335600 335640
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.mll" 146 335600 335615 "src/smt/parser/smtlexer.mll" 146 335600 335642
+call(
+  tail
+)
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4999 335680 335684 "src/smt/parser/smtlexer.ml" 4999 335680 335686
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 147 335726 335743 "src/smt/parser/smtlexer.mll" 147 335726 335751
+type(
+  'a -> Lexing.lexbuf -> Smtparser.token
+)
+ident(
+  int_ref tokenize "src/smt/parser/smtlexer.ml" 4740 329510 329518 "src/smt/parser/smtlexer.ml" 4740 329510 329526
+)
+"src/smt/parser/smtlexer.mll" 147 335726 335752 "src/smt/parser/smtlexer.mll" 147 335726 335759
+type(
+  'a
+)
+ident(
+  int_ref context "src/smt/parser/smtlexer.ml" 4742 329590 329619 "src/smt/parser/smtlexer.ml" 4742 329590 329626
+)
+"src/smt/parser/smtlexer.mll" 147 335726 335760 "src/smt/parser/smtlexer.mll" 147 335726 335766
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.mll" 147 335726 335741 "src/smt/parser/smtlexer.mll" 147 335726 335768
+call(
+  tail
+)
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 5004 335806 335810 "src/smt/parser/smtlexer.ml" 5004 335806 335812
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 148 335852 335869 "src/smt/parser/smtlexer.mll" 148 335852 335884
+type(
+  Lexing.lexbuf -> unit
+)
+ident(
+  int_ref incr_line_count "src/smt/parser/smtlexer.mll" 8 55 61 "src/smt/parser/smtlexer.mll" 8 55 76
+)
+"src/smt/parser/smtlexer.mll" 148 335852 335885 "src/smt/parser/smtlexer.mll" 148 335852 335891
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.mll" 148 335852 335869 "src/smt/parser/smtlexer.mll" 148 335852 335891
+call(
+  stack
+)
+type(
+  unit
+)
+"src/smt/parser/smtlexer.mll" 148 335852 335893 "src/smt/parser/smtlexer.mll" 148 335852 335901
+type(
+  'a -> Lexing.lexbuf -> Smtparser.token
+)
+ident(
+  int_ref tokenize "src/smt/parser/smtlexer.ml" 4740 329510 329518 "src/smt/parser/smtlexer.ml" 4740 329510 329526
+)
+"src/smt/parser/smtlexer.mll" 148 335852 335902 "src/smt/parser/smtlexer.mll" 148 335852 335909
+type(
+  'a
+)
+ident(
+  int_ref context "src/smt/parser/smtlexer.ml" 4742 329590 329619 "src/smt/parser/smtlexer.ml" 4742 329590 329626
+)
+"src/smt/parser/smtlexer.mll" 148 335852 335910 "src/smt/parser/smtlexer.mll" 148 335852 335916
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.mll" 148 335852 335893 "src/smt/parser/smtlexer.mll" 148 335852 335916
+call(
+  tail
+)
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.mll" 148 335852 335867 "src/smt/parser/smtlexer.mll" 148 335852 335918
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 5009 335956 335960 "src/smt/parser/smtlexer.ml" 5009 335956 335962
+type(
+  int
+)
+"src/smt/parser/smtlexer.mll" 149 336002 336017 "src/smt/parser/smtlexer.mll" 149 336002 336033
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 5014 336071 336075 "src/smt/parser/smtlexer.ml" 5014 336071 336092
+type(
+  int
+)
+ident(
+  def __ocaml_lex_state "src/smt/parser/smtlexer.ml" 5014 336071 336096 "src/smt/parser/smtlexer.ml" 5014 336071 336187
+)
+"src/smt/parser/smtlexer.ml" 5014 336071 336096 "src/smt/parser/smtlexer.ml" 5014 336071 336102
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.ml" 5014 336071 336096 "src/smt/parser/smtlexer.ml" 5014 336071 336121
+type(
+  Lexing.lexbuf -> unit
+)
+"src/smt/parser/smtlexer.ml" 5014 336071 336122 "src/smt/parser/smtlexer.ml" 5014 336071 336128
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.ml" 5014 336071 336096 "src/smt/parser/smtlexer.ml" 5014 336071 336128
+call(
+  stack
+)
+type(
+  unit
+)
+"src/smt/parser/smtlexer.ml" 5014 336071 336130 "src/smt/parser/smtlexer.ml" 5014 336071 336154
+type(
+  'a -> Lexing.lexbuf -> int -> Smtparser.token
+)
+ident(
+  int_ref __ocaml_lex_tokenize_rec "src/smt/parser/smtlexer.ml" 4742 329590 329594 "src/smt/parser/smtlexer.ml" 4742 329590 329618
+)
+"src/smt/parser/smtlexer.ml" 5014 336071 336155 "src/smt/parser/smtlexer.ml" 5014 336071 336162
+type(
+  'a
+)
+ident(
+  int_ref context "src/smt/parser/smtlexer.ml" 4742 329590 329619 "src/smt/parser/smtlexer.ml" 4742 329590 329626
+)
+"src/smt/parser/smtlexer.ml" 5014 336071 336163 "src/smt/parser/smtlexer.ml" 5014 336071 336169
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/parser/smtlexer.ml" 4742 329590 329627 "src/smt/parser/smtlexer.ml" 4742 329590 329633
+)
+"src/smt/parser/smtlexer.ml" 5014 336071 336170 "src/smt/parser/smtlexer.ml" 5014 336071 336187
+type(
+  int
+)
+ident(
+  int_ref __ocaml_lex_state "src/smt/parser/smtlexer.ml" 5014 336071 336075 "src/smt/parser/smtlexer.ml" 5014 336071 336092
+)
+"src/smt/parser/smtlexer.ml" 5014 336071 336130 "src/smt/parser/smtlexer.ml" 5014 336071 336187
+call(
+  tail
+)
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 5014 336071 336096 "src/smt/parser/smtlexer.ml" 5014 336071 336187
+type(
+  Smtparser.token
+)
+"src/smt/parser/smtlexer.ml" 4743 329654 329656 "src/smt/parser/smtlexer.ml" 5014 336071 336187
+type(
+  Smtparser.token
+)

@@ -1,0 +1,4466 @@
+"src/language/langutils.ml" 13 116 124 "src/language/langutils.ml" 13 116 130
+type(
+  string -> int -> string
+)
+ident(
+  def repeat "src/language/langutils.ml" 13 116 116 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 14 159 165 "src/language/langutils.ml" 14 159 168
+type(
+  string
+)
+ident(
+  def str "src/language/langutils.ml" 14 159 169 "src/language/langutils.ml" 20 244 274
+)
+"src/language/langutils.ml" 14 159 169 "src/language/langutils.ml" 14 159 170
+type(
+  int
+)
+ident(
+  def n "src/language/langutils.ml" 15 174 178 "src/language/langutils.ml" 20 244 274
+)
+"src/language/langutils.ml" 15 174 181 "src/language/langutils.ml" 15 174 182
+type(
+  int
+)
+ident(
+  int_ref n "src/language/langutils.ml" 14 159 169 "src/language/langutils.ml" 14 159 170
+)
+"src/language/langutils.ml" 15 174 183 "src/language/langutils.ml" 15 174 185
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"src/language/langutils.ml" 15 174 186 "src/language/langutils.ml" 15 174 187
+type(
+  int
+)
+"src/language/langutils.ml" 15 174 181 "src/language/langutils.ml" 15 174 187
+type(
+  bool
+)
+"src/language/langutils.ml" 16 193 199 "src/language/langutils.ml" 16 193 201
+type(
+  string
+)
+"src/language/langutils.ml" 17 202 214 "src/language/langutils.ml" 17 202 215
+type(
+  int
+)
+ident(
+  int_ref n "src/language/langutils.ml" 14 159 169 "src/language/langutils.ml" 14 159 170
+)
+"src/language/langutils.ml" 17 202 216 "src/language/langutils.ml" 17 202 217
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/language/langutils.ml" 17 202 218 "src/language/langutils.ml" 17 202 219
+type(
+  int
+)
+"src/language/langutils.ml" 17 202 214 "src/language/langutils.ml" 17 202 219
+type(
+  bool
+)
+"src/language/langutils.ml" 18 225 231 "src/language/langutils.ml" 18 225 234
+type(
+  string
+)
+ident(
+  int_ref str "src/language/langutils.ml" 14 159 165 "src/language/langutils.ml" 14 159 168
+)
+"src/language/langutils.ml" 20 244 250 "src/language/langutils.ml" 20 244 253
+type(
+  string
+)
+ident(
+  int_ref str "src/language/langutils.ml" 14 159 165 "src/language/langutils.ml" 14 159 168
+)
+"src/language/langutils.ml" 20 244 254 "src/language/langutils.ml" 20 244 255
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 20 244 256 "src/language/langutils.ml" 20 244 262
+type(
+  string -> int -> string
+)
+ident(
+  int_ref repeat "src/language/langutils.ml" 13 116 124 "src/language/langutils.ml" 13 116 130
+)
+"src/language/langutils.ml" 20 244 263 "src/language/langutils.ml" 20 244 266
+type(
+  string
+)
+ident(
+  int_ref str "src/language/langutils.ml" 14 159 165 "src/language/langutils.ml" 14 159 168
+)
+"src/language/langutils.ml" 20 244 268 "src/language/langutils.ml" 20 244 269
+type(
+  int
+)
+ident(
+  int_ref n "src/language/langutils.ml" 14 159 169 "src/language/langutils.ml" 14 159 170
+)
+"src/language/langutils.ml" 20 244 270 "src/language/langutils.ml" 20 244 271
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/language/langutils.ml" 20 244 272 "src/language/langutils.ml" 20 244 273
+type(
+  int
+)
+"src/language/langutils.ml" 20 244 267 "src/language/langutils.ml" 20 244 274
+type(
+  int
+)
+"src/language/langutils.ml" 20 244 256 "src/language/langutils.ml" 20 244 274
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 20 244 250 "src/language/langutils.ml" 20 244 274
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 17 202 211 "src/language/langutils.ml" 20 244 274
+type(
+  string
+)
+"src/language/langutils.ml" 15 174 178 "src/language/langutils.ml" 20 244 274
+type(
+  string
+)
+"src/language/langutils.ml" 14 159 161 "src/language/langutils.ml" 20 244 274
+type(
+  string -> int -> string
+)
+type(
+  string -> int -> string
+)
+"src/language/langutils.ml" 22 276 280 "src/language/langutils.ml" 22 276 284
+type(
+  string
+)
+ident(
+  def tab2 "src/language/langutils.ml" 23 300 300 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 22 276 287 "src/language/langutils.ml" 22 276 293
+type(
+  string -> int -> string
+)
+ident(
+  int_ref repeat "src/language/langutils.ml" 13 116 124 "src/language/langutils.ml" 13 116 130
+)
+"src/language/langutils.ml" 22 276 294 "src/language/langutils.ml" 22 276 297
+type(
+  string
+)
+"src/language/langutils.ml" 22 276 298 "src/language/langutils.ml" 22 276 299
+type(
+  int
+)
+"src/language/langutils.ml" 22 276 287 "src/language/langutils.ml" 22 276 299
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 23 300 304 "src/language/langutils.ml" 23 300 308
+type(
+  string
+)
+ident(
+  def tab4 "src/language/langutils.ml" 24 323 323 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 23 300 311 "src/language/langutils.ml" 23 300 315
+type(
+  string
+)
+ident(
+  int_ref tab2 "src/language/langutils.ml" 22 276 280 "src/language/langutils.ml" 22 276 284
+)
+"src/language/langutils.ml" 23 300 316 "src/language/langutils.ml" 23 300 317
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 23 300 318 "src/language/langutils.ml" 23 300 322
+type(
+  string
+)
+ident(
+  int_ref tab2 "src/language/langutils.ml" 22 276 280 "src/language/langutils.ml" 22 276 284
+)
+"src/language/langutils.ml" 23 300 311 "src/language/langutils.ml" 23 300 322
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 24 323 327 "src/language/langutils.ml" 24 323 331
+type(
+  string
+)
+ident(
+  def tab8 "src/language/langutils.ml" 25 346 346 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 24 323 334 "src/language/langutils.ml" 24 323 338
+type(
+  string
+)
+ident(
+  int_ref tab4 "src/language/langutils.ml" 23 300 304 "src/language/langutils.ml" 23 300 308
+)
+"src/language/langutils.ml" 24 323 339 "src/language/langutils.ml" 24 323 340
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 24 323 341 "src/language/langutils.ml" 24 323 345
+type(
+  string
+)
+ident(
+  int_ref tab4 "src/language/langutils.ml" 23 300 304 "src/language/langutils.ml" 23 300 308
+)
+"src/language/langutils.ml" 24 323 334 "src/language/langutils.ml" 24 323 345
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 25 346 350 "src/language/langutils.ml" 25 346 355
+type(
+  string
+)
+ident(
+  def bar20 "src/language/langutils.ml" 26 374 374 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 25 346 358 "src/language/langutils.ml" 25 346 364
+type(
+  string -> int -> string
+)
+ident(
+  int_ref repeat "src/language/langutils.ml" 13 116 124 "src/language/langutils.ml" 13 116 130
+)
+"src/language/langutils.ml" 25 346 365 "src/language/langutils.ml" 25 346 371
+type(
+  string
+)
+"src/language/langutils.ml" 25 346 372 "src/language/langutils.ml" 25 346 373
+type(
+  int
+)
+"src/language/langutils.ml" 25 346 358 "src/language/langutils.ml" 25 346 373
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 26 374 378 "src/language/langutils.ml" 26 374 383
+type(
+  string
+)
+ident(
+  def bar40 "src/language/langutils.ml" 27 409 409 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 26 374 390 "src/language/langutils.ml" 26 374 391
+type(
+  string
+)
+ident(
+  def b "src/language/langutils.ml" 26 374 403 "src/language/langutils.ml" 26 374 408
+)
+"src/language/langutils.ml" 26 374 394 "src/language/langutils.ml" 26 374 399
+type(
+  string
+)
+ident(
+  int_ref bar20 "src/language/langutils.ml" 25 346 350 "src/language/langutils.ml" 25 346 355
+)
+"src/language/langutils.ml" 26 374 403 "src/language/langutils.ml" 26 374 404
+type(
+  string
+)
+ident(
+  int_ref b "src/language/langutils.ml" 26 374 390 "src/language/langutils.ml" 26 374 391
+)
+"src/language/langutils.ml" 26 374 405 "src/language/langutils.ml" 26 374 406
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 26 374 407 "src/language/langutils.ml" 26 374 408
+type(
+  string
+)
+ident(
+  int_ref b "src/language/langutils.ml" 26 374 390 "src/language/langutils.ml" 26 374 391
+)
+"src/language/langutils.ml" 26 374 403 "src/language/langutils.ml" 26 374 408
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 26 374 386 "src/language/langutils.ml" 26 374 408
+type(
+  string
+)
+"src/language/langutils.ml" 27 409 413 "src/language/langutils.ml" 27 409 418
+type(
+  string
+)
+ident(
+  def bar60 "src/language/langutils.ml" 28 435 435 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 27 409 421 "src/language/langutils.ml" 27 409 426
+type(
+  string
+)
+ident(
+  int_ref bar20 "src/language/langutils.ml" 25 346 350 "src/language/langutils.ml" 25 346 355
+)
+"src/language/langutils.ml" 27 409 427 "src/language/langutils.ml" 27 409 428
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 27 409 429 "src/language/langutils.ml" 27 409 434
+type(
+  string
+)
+ident(
+  int_ref bar40 "src/language/langutils.ml" 26 374 378 "src/language/langutils.ml" 26 374 383
+)
+"src/language/langutils.ml" 27 409 421 "src/language/langutils.ml" 27 409 434
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 28 435 439 "src/language/langutils.ml" 28 435 444
+type(
+  string
+)
+ident(
+  def bar80 "src/language/langutils.ml" 30 471 471 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 28 435 451 "src/language/langutils.ml" 28 435 452
+type(
+  string
+)
+ident(
+  def b "src/language/langutils.ml" 28 435 464 "src/language/langutils.ml" 28 435 469
+)
+"src/language/langutils.ml" 28 435 455 "src/language/langutils.ml" 28 435 460
+type(
+  string
+)
+ident(
+  int_ref bar40 "src/language/langutils.ml" 26 374 378 "src/language/langutils.ml" 26 374 383
+)
+"src/language/langutils.ml" 28 435 464 "src/language/langutils.ml" 28 435 465
+type(
+  string
+)
+ident(
+  int_ref b "src/language/langutils.ml" 28 435 451 "src/language/langutils.ml" 28 435 452
+)
+"src/language/langutils.ml" 28 435 466 "src/language/langutils.ml" 28 435 467
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 28 435 468 "src/language/langutils.ml" 28 435 469
+type(
+  string
+)
+ident(
+  int_ref b "src/language/langutils.ml" 28 435 451 "src/language/langutils.ml" 28 435 452
+)
+"src/language/langutils.ml" 28 435 464 "src/language/langutils.ml" 28 435 469
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 28 435 447 "src/language/langutils.ml" 28 435 469
+type(
+  string
+)
+"src/language/langutils.ml" 30 471 475 "src/language/langutils.ml" 30 471 489
+type(
+  'a * 'b -> ('a -> string) * ('b -> string) -> string
+)
+ident(
+  def string_of_pair "src/language/langutils.ml" 34 611 611 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 31 551 558 "src/language/langutils.ml" 31 551 559
+type(
+  'a
+)
+ident(
+  def a "src/language/langutils.ml" 31 551 564 "src/language/langutils.ml" 32 576 609
+)
+"src/language/langutils.ml" 31 551 561 "src/language/langutils.ml" 31 551 562
+type(
+  'b
+)
+ident(
+  def b "src/language/langutils.ml" 31 551 564 "src/language/langutils.ml" 32 576 609
+)
+"src/language/langutils.ml" 31 551 557 "src/language/langutils.ml" 31 551 563
+type(
+  'a * 'b
+)
+"src/language/langutils.ml" 31 551 565 "src/language/langutils.ml" 31 551 567
+type(
+  'a -> string
+)
+ident(
+  def fa "src/language/langutils.ml" 32 576 580 "src/language/langutils.ml" 32 576 609
+)
+"src/language/langutils.ml" 31 551 569 "src/language/langutils.ml" 31 551 571
+type(
+  'b -> string
+)
+ident(
+  def fb "src/language/langutils.ml" 32 576 580 "src/language/langutils.ml" 32 576 609
+)
+"src/language/langutils.ml" 31 551 564 "src/language/langutils.ml" 31 551 572
+type(
+  ('a -> string) * ('b -> string)
+)
+"src/language/langutils.ml" 32 576 580 "src/language/langutils.ml" 32 576 583
+type(
+  string
+)
+"src/language/langutils.ml" 32 576 584 "src/language/langutils.ml" 32 576 585
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 32 576 586 "src/language/langutils.ml" 32 576 588
+type(
+  'a -> string
+)
+ident(
+  int_ref fa "src/language/langutils.ml" 31 551 565 "src/language/langutils.ml" 31 551 567
+)
+"src/language/langutils.ml" 32 576 589 "src/language/langutils.ml" 32 576 590
+type(
+  'a
+)
+ident(
+  int_ref a "src/language/langutils.ml" 31 551 558 "src/language/langutils.ml" 31 551 559
+)
+"src/language/langutils.ml" 32 576 586 "src/language/langutils.ml" 32 576 590
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 32 576 591 "src/language/langutils.ml" 32 576 592
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 32 576 593 "src/language/langutils.ml" 32 576 596
+type(
+  string
+)
+"src/language/langutils.ml" 32 576 597 "src/language/langutils.ml" 32 576 598
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 32 576 599 "src/language/langutils.ml" 32 576 601
+type(
+  'b -> string
+)
+ident(
+  int_ref fb "src/language/langutils.ml" 31 551 569 "src/language/langutils.ml" 31 551 571
+)
+"src/language/langutils.ml" 32 576 602 "src/language/langutils.ml" 32 576 603
+type(
+  'b
+)
+ident(
+  int_ref b "src/language/langutils.ml" 31 551 561 "src/language/langutils.ml" 31 551 562
+)
+"src/language/langutils.ml" 32 576 599 "src/language/langutils.ml" 32 576 603
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 32 576 604 "src/language/langutils.ml" 32 576 605
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 32 576 606 "src/language/langutils.ml" 32 576 609
+type(
+  string
+)
+"src/language/langutils.ml" 32 576 599 "src/language/langutils.ml" 32 576 609
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 32 576 593 "src/language/langutils.ml" 32 576 609
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 32 576 586 "src/language/langutils.ml" 32 576 609
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 32 576 580 "src/language/langutils.ml" 32 576 609
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 31 551 553 "src/language/langutils.ml" 32 576 609
+type(
+  'a * 'b -> ('a -> string) * ('b -> string) -> string
+)
+type(
+  'a * 'b -> ('a -> string) * ('b -> string) -> string
+)
+"src/language/langutils.ml" 34 611 615 "src/language/langutils.ml" 34 611 639
+type(
+  string list -> string
+)
+ident(
+  def string_of_list_semicolon "src/language/langutils.ml" 37 704 704 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 35 666 672 "src/language/langutils.ml" 35 666 676
+type(
+  string list
+)
+ident(
+  def strs "src/language/langutils.ml" 35 666 680 "src/language/langutils.ml" 35 666 702
+)
+"src/language/langutils.ml" 35 666 680 "src/language/langutils.ml" 35 666 693
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/language/langutils.ml" 35 666 694 "src/language/langutils.ml" 35 666 697
+type(
+  string
+)
+"src/language/langutils.ml" 35 666 698 "src/language/langutils.ml" 35 666 702
+type(
+  string list
+)
+ident(
+  int_ref strs "src/language/langutils.ml" 35 666 672 "src/language/langutils.ml" 35 666 676
+)
+"src/language/langutils.ml" 35 666 680 "src/language/langutils.ml" 35 666 702
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 35 666 668 "src/language/langutils.ml" 35 666 702
+type(
+  string list -> string
+)
+type(
+  string list -> string
+)
+"src/language/langutils.ml" 37 704 708 "src/language/langutils.ml" 37 704 728
+type(
+  string list -> string
+)
+ident(
+  def string_of_list_comma "src/language/langutils.ml" 40 793 793 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 38 755 761 "src/language/langutils.ml" 38 755 765
+type(
+  string list
+)
+ident(
+  def strs "src/language/langutils.ml" 38 755 769 "src/language/langutils.ml" 38 755 791
+)
+"src/language/langutils.ml" 38 755 769 "src/language/langutils.ml" 38 755 782
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/language/langutils.ml" 38 755 783 "src/language/langutils.ml" 38 755 786
+type(
+  string
+)
+"src/language/langutils.ml" 38 755 787 "src/language/langutils.ml" 38 755 791
+type(
+  string list
+)
+ident(
+  int_ref strs "src/language/langutils.ml" 38 755 761 "src/language/langutils.ml" 38 755 765
+)
+"src/language/langutils.ml" 38 755 769 "src/language/langutils.ml" 38 755 791
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 38 755 757 "src/language/langutils.ml" 38 755 791
+type(
+  string list -> string
+)
+type(
+  string list -> string
+)
+"src/language/langutils.ml" 40 793 797 "src/language/langutils.ml" 40 793 819
+type(
+  string list -> string
+)
+ident(
+  def string_of_list_newline "src/language/langutils.ml" 44 886 886 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 41 846 852 "src/language/langutils.ml" 41 846 856
+type(
+  string list
+)
+ident(
+  def strs "src/language/langutils.ml" 41 846 860 "src/language/langutils.ml" 41 846 883
+)
+"src/language/langutils.ml" 41 846 860 "src/language/langutils.ml" 41 846 873
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/language/langutils.ml" 41 846 874 "src/language/langutils.ml" 41 846 878
+type(
+  string
+)
+"src/language/langutils.ml" 41 846 879 "src/language/langutils.ml" 41 846 883
+type(
+  string list
+)
+ident(
+  int_ref strs "src/language/langutils.ml" 41 846 852 "src/language/langutils.ml" 41 846 856
+)
+"src/language/langutils.ml" 41 846 860 "src/language/langutils.ml" 41 846 883
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 41 846 848 "src/language/langutils.ml" 41 846 883
+type(
+  string list -> string
+)
+type(
+  string list -> string
+)
+"src/language/langutils.ml" 44 886 890 "src/language/langutils.ml" 44 886 904
+type(
+  ('a -> string) -> 'a list -> string
+)
+ident(
+  def string_of_list "src/language/langutils.ml" 48 1010 1010 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 45 945 951 "src/language/langutils.ml" 45 945 952
+type(
+  'a -> string
+)
+ident(
+  def f "src/language/langutils.ml" 45 945 953 "src/language/langutils.ml" 46 959 1008
+)
+"src/language/langutils.ml" 45 945 953 "src/language/langutils.ml" 45 945 955
+type(
+  'a list
+)
+ident(
+  def xs "src/language/langutils.ml" 46 959 963 "src/language/langutils.ml" 46 959 1008
+)
+"src/language/langutils.ml" 46 959 963 "src/language/langutils.ml" 46 959 966
+type(
+  string
+)
+"src/language/langutils.ml" 46 959 967 "src/language/langutils.ml" 46 959 968
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 46 959 969 "src/language/langutils.ml" 46 959 982
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/language/langutils.ml" 46 959 983 "src/language/langutils.ml" 46 959 986
+type(
+  string
+)
+"src/language/langutils.ml" 46 959 988 "src/language/langutils.ml" 46 959 996
+type(
+  ('a -> string) -> 'a list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/language/langutils.ml" 46 959 997 "src/language/langutils.ml" 46 959 998
+type(
+  'a -> string
+)
+ident(
+  int_ref f "src/language/langutils.ml" 45 945 951 "src/language/langutils.ml" 45 945 952
+)
+"src/language/langutils.ml" 46 959 999 "src/language/langutils.ml" 46 959 1001
+type(
+  'a list
+)
+ident(
+  int_ref xs "src/language/langutils.ml" 45 945 953 "src/language/langutils.ml" 45 945 955
+)
+"src/language/langutils.ml" 46 959 987 "src/language/langutils.ml" 46 959 1002
+call(
+  stack
+)
+type(
+  string list
+)
+"src/language/langutils.ml" 46 959 969 "src/language/langutils.ml" 46 959 1002
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 46 959 1003 "src/language/langutils.ml" 46 959 1004
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 46 959 1005 "src/language/langutils.ml" 46 959 1008
+type(
+  string
+)
+"src/language/langutils.ml" 46 959 969 "src/language/langutils.ml" 46 959 1008
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 46 959 963 "src/language/langutils.ml" 46 959 1008
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 45 945 947 "src/language/langutils.ml" 46 959 1008
+type(
+  ('a -> string) -> 'a list -> string
+)
+type(
+  ('a -> string) -> 'a list -> string
+)
+"src/language/langutils.ml" 48 1010 1014 "src/language/langutils.ml" 48 1010 1030
+type(
+  Annotations.source -> string
+)
+ident(
+  def string_of_source "src/language/langutils.ml" 54 1207 1207 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 49 1052 1058 "src/language/langutils.ml" 49 1052 1061
+type(
+  Annotations.source
+)
+ident(
+  def src "src/language/langutils.ml" 50 1065 1069 "src/language/langutils.ml" 52 1157 1205
+)
+"src/language/langutils.ml" 50 1065 1069 "src/language/langutils.ml" 50 1065 1084
+type(
+  string
+)
+"src/language/langutils.ml" 50 1065 1085 "src/language/langutils.ml" 50 1065 1086
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 50 1065 1087 "src/language/langutils.ml" 50 1065 1090
+type(
+  Annotations.source
+)
+ident(
+  int_ref src "src/language/langutils.ml" 49 1052 1058 "src/language/langutils.ml" 49 1052 1061
+)
+"src/language/langutils.ml" 50 1065 1087 "src/language/langutils.ml" 50 1065 1095
+type(
+  string
+)
+"src/language/langutils.ml" 50 1065 1096 "src/language/langutils.ml" 50 1065 1097
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 50 1065 1098 "src/language/langutils.ml" 50 1065 1101
+type(
+  string
+)
+"src/language/langutils.ml" 50 1065 1102 "src/language/langutils.ml" 50 1065 1103
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 51 1104 1116 "src/language/langutils.ml" 51 1104 1123
+type(
+  string
+)
+"src/language/langutils.ml" 51 1104 1124 "src/language/langutils.ml" 51 1104 1125
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 51 1104 1126 "src/language/langutils.ml" 51 1104 1139
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/language/langutils.ml" 51 1104 1140 "src/language/langutils.ml" 51 1104 1143
+type(
+  Annotations.source
+)
+ident(
+  int_ref src "src/language/langutils.ml" 49 1052 1058 "src/language/langutils.ml" 49 1052 1061
+)
+"src/language/langutils.ml" 51 1104 1140 "src/language/langutils.ml" 51 1104 1148
+type(
+  int
+)
+"src/language/langutils.ml" 51 1104 1126 "src/language/langutils.ml" 51 1104 1148
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 51 1104 1149 "src/language/langutils.ml" 51 1104 1150
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 51 1104 1151 "src/language/langutils.ml" 51 1104 1154
+type(
+  string
+)
+"src/language/langutils.ml" 51 1104 1155 "src/language/langutils.ml" 51 1104 1156
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 52 1157 1169 "src/language/langutils.ml" 52 1157 1175
+type(
+  string
+)
+"src/language/langutils.ml" 52 1157 1176 "src/language/langutils.ml" 52 1157 1177
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 52 1157 1178 "src/language/langutils.ml" 52 1157 1191
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/language/langutils.ml" 52 1157 1192 "src/language/langutils.ml" 52 1157 1195
+type(
+  Annotations.source
+)
+ident(
+  int_ref src "src/language/langutils.ml" 49 1052 1058 "src/language/langutils.ml" 49 1052 1061
+)
+"src/language/langutils.ml" 52 1157 1192 "src/language/langutils.ml" 52 1157 1199
+type(
+  int
+)
+"src/language/langutils.ml" 52 1157 1178 "src/language/langutils.ml" 52 1157 1199
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 52 1157 1200 "src/language/langutils.ml" 52 1157 1201
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 52 1157 1202 "src/language/langutils.ml" 52 1157 1205
+type(
+  string
+)
+"src/language/langutils.ml" 52 1157 1178 "src/language/langutils.ml" 52 1157 1205
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 52 1157 1169 "src/language/langutils.ml" 52 1157 1205
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 51 1104 1151 "src/language/langutils.ml" 52 1157 1205
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 51 1104 1126 "src/language/langutils.ml" 52 1157 1205
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 51 1104 1116 "src/language/langutils.ml" 52 1157 1205
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 50 1065 1098 "src/language/langutils.ml" 52 1157 1205
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 50 1065 1087 "src/language/langutils.ml" 52 1157 1205
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 50 1065 1069 "src/language/langutils.ml" 52 1157 1205
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 49 1052 1054 "src/language/langutils.ml" 52 1157 1205
+type(
+  Annotations.source -> string
+)
+type(
+  Annotations.source -> string
+)
+"src/language/langutils.ml" 54 1207 1211 "src/language/langutils.ml" 54 1207 1228
+type(
+  Syntax.rstring -> string
+)
+ident(
+  def string_of_rstring "src/language/langutils.ml" 60 1351 1351 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 55 1251 1257 "src/language/langutils.ml" 55 1251 1261
+type(
+  Syntax.rstring
+)
+ident(
+  def rstr "src/language/langutils.ml" 55 1251 1265 "src/language/langutils.ml" 57 1312 1334
+)
+"src/language/langutils.ml" 55 1251 1271 "src/language/langutils.ml" 55 1251 1275
+type(
+  Syntax.rstring
+)
+ident(
+  int_ref rstr "src/language/langutils.ml" 55 1251 1257 "src/language/langutils.ml" 55 1251 1261
+)
+"src/language/langutils.ml" 56 1281 1288 "src/language/langutils.ml" 56 1281 1292
+type(
+  Syntax.rstring
+)
+"src/language/langutils.ml" 56 1281 1296 "src/language/langutils.ml" 56 1281 1311
+type(
+  string
+)
+"src/language/langutils.ml" 57 1312 1324 "src/language/langutils.ml" 57 1312 1327
+type(
+  string
+)
+ident(
+  def str "src/language/langutils.ml" 57 1312 1331 "src/language/langutils.ml" 57 1312 1334
+)
+"src/language/langutils.ml" 57 1312 1319 "src/language/langutils.ml" 57 1312 1327
+type(
+  Syntax.rstring
+)
+"src/language/langutils.ml" 57 1312 1331 "src/language/langutils.ml" 57 1312 1334
+type(
+  string
+)
+ident(
+  int_ref str "src/language/langutils.ml" 57 1312 1324 "src/language/langutils.ml" 57 1312 1327
+)
+"src/language/langutils.ml" 55 1251 1265 "src/language/langutils.ml" 57 1312 1334
+type(
+  string
+)
+"src/language/langutils.ml" 55 1251 1253 "src/language/langutils.ml" 57 1312 1334
+type(
+  Syntax.rstring -> string
+)
+type(
+  Syntax.rstring -> string
+)
+"src/language/langutils.ml" 60 1351 1355 "src/language/langutils.ml" 60 1351 1367
+type(
+  'a Syntax.ident -> string
+)
+ident(
+  def string_of_id "src/language/langutils.ml" 66 1614 1614 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 61 1391 1397 "src/language/langutils.ml" 61 1391 1399
+type(
+  'a Syntax.ident
+)
+ident(
+  def id "src/language/langutils.ml" 61 1391 1403 "src/language/langutils.ml" 64 1554 1612
+)
+"src/language/langutils.ml" 61 1391 1409 "src/language/langutils.ml" 61 1391 1411
+type(
+  'a Syntax.ident
+)
+ident(
+  int_ref id "src/language/langutils.ml" 61 1391 1397 "src/language/langutils.ml" 61 1391 1399
+)
+"src/language/langutils.ml" 61 1391 1409 "src/language/langutils.ml" 61 1391 1415
+type(
+  Syntax.rstring option
+)
+"src/language/langutils.ml" 62 1421 1427 "src/language/langutils.ml" 62 1421 1431
+type(
+  Syntax.rstring option
+)
+"src/language/langutils.ml" 62 1421 1435 "src/language/langutils.ml" 62 1421 1448
+type(
+  string
+)
+"src/language/langutils.ml" 62 1421 1449 "src/language/langutils.ml" 62 1421 1450
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 62 1421 1451 "src/language/langutils.ml" 62 1421 1454
+type(
+  string
+)
+"src/language/langutils.ml" 62 1421 1455 "src/language/langutils.ml" 62 1421 1456
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 62 1421 1457 "src/language/langutils.ml" 62 1421 1465
+type(
+  string
+)
+"src/language/langutils.ml" 62 1421 1466 "src/language/langutils.ml" 62 1421 1467
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 62 1421 1468 "src/language/langutils.ml" 62 1421 1485
+type(
+  Syntax.rstring -> string
+)
+ident(
+  int_ref string_of_rstring "src/language/langutils.ml" 54 1207 1211 "src/language/langutils.ml" 54 1207 1228
+)
+"src/language/langutils.ml" 62 1421 1486 "src/language/langutils.ml" 62 1421 1488
+type(
+  'a Syntax.ident
+)
+ident(
+  int_ref id "src/language/langutils.ml" 61 1391 1397 "src/language/langutils.ml" 61 1391 1399
+)
+"src/language/langutils.ml" 62 1421 1486 "src/language/langutils.ml" 62 1421 1493
+type(
+  Syntax.rstring
+)
+"src/language/langutils.ml" 62 1421 1468 "src/language/langutils.ml" 62 1421 1493
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 62 1421 1494 "src/language/langutils.ml" 62 1421 1495
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 62 1421 1496 "src/language/langutils.ml" 62 1421 1499
+type(
+  string
+)
+"src/language/langutils.ml" 62 1421 1468 "src/language/langutils.ml" 62 1421 1499
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 62 1421 1457 "src/language/langutils.ml" 62 1421 1499
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 62 1421 1451 "src/language/langutils.ml" 62 1421 1499
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 62 1421 1435 "src/language/langutils.ml" 62 1421 1499
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 63 1500 1511 "src/language/langutils.ml" 63 1500 1512
+type(
+  Syntax.rstring
+)
+ident(
+  def p "src/language/langutils.ml" 63 1500 1516 "src/language/langutils.ml" 64 1554 1612
+)
+"src/language/langutils.ml" 63 1500 1506 "src/language/langutils.ml" 63 1500 1512
+type(
+  Syntax.rstring option
+)
+"src/language/langutils.ml" 63 1500 1516 "src/language/langutils.ml" 63 1500 1529
+type(
+  string
+)
+"src/language/langutils.ml" 63 1500 1530 "src/language/langutils.ml" 63 1500 1531
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 63 1500 1532 "src/language/langutils.ml" 63 1500 1549
+type(
+  Syntax.rstring -> string
+)
+ident(
+  int_ref string_of_rstring "src/language/langutils.ml" 54 1207 1211 "src/language/langutils.ml" 54 1207 1228
+)
+"src/language/langutils.ml" 63 1500 1550 "src/language/langutils.ml" 63 1500 1551
+type(
+  Syntax.rstring
+)
+ident(
+  int_ref p "src/language/langutils.ml" 63 1500 1511 "src/language/langutils.ml" 63 1500 1512
+)
+"src/language/langutils.ml" 63 1500 1532 "src/language/langutils.ml" 63 1500 1551
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 63 1500 1552 "src/language/langutils.ml" 63 1500 1553
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 64 1554 1570 "src/language/langutils.ml" 64 1554 1578
+type(
+  string
+)
+"src/language/langutils.ml" 64 1554 1579 "src/language/langutils.ml" 64 1554 1580
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 64 1554 1581 "src/language/langutils.ml" 64 1554 1598
+type(
+  Syntax.rstring -> string
+)
+ident(
+  int_ref string_of_rstring "src/language/langutils.ml" 54 1207 1211 "src/language/langutils.ml" 54 1207 1228
+)
+"src/language/langutils.ml" 64 1554 1599 "src/language/langutils.ml" 64 1554 1601
+type(
+  'a Syntax.ident
+)
+ident(
+  int_ref id "src/language/langutils.ml" 61 1391 1397 "src/language/langutils.ml" 61 1391 1399
+)
+"src/language/langutils.ml" 64 1554 1599 "src/language/langutils.ml" 64 1554 1606
+type(
+  Syntax.rstring
+)
+"src/language/langutils.ml" 64 1554 1581 "src/language/langutils.ml" 64 1554 1606
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 64 1554 1607 "src/language/langutils.ml" 64 1554 1608
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 64 1554 1609 "src/language/langutils.ml" 64 1554 1612
+type(
+  string
+)
+"src/language/langutils.ml" 64 1554 1581 "src/language/langutils.ml" 64 1554 1612
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 64 1554 1570 "src/language/langutils.ml" 64 1554 1612
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 63 1500 1532 "src/language/langutils.ml" 64 1554 1612
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 63 1500 1516 "src/language/langutils.ml" 64 1554 1612
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 61 1391 1403 "src/language/langutils.ml" 64 1554 1612
+type(
+  string
+)
+"src/language/langutils.ml" 61 1391 1393 "src/language/langutils.ml" 64 1554 1612
+type(
+  'a Syntax.ident -> string
+)
+type(
+  'a Syntax.ident -> string
+)
+"src/language/langutils.ml" 66 1614 1618 "src/language/langutils.ml" 66 1614 1631
+type(
+  Syntax.memref -> string
+)
+ident(
+  def string_of_mem "src/language/langutils.ml" 70 1705 1705 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 67 1653 1659 "src/language/langutils.ml" 67 1653 1662
+type(
+  Syntax.memref
+)
+ident(
+  def mem "src/language/langutils.ml" 68 1666 1670 "src/language/langutils.ml" 68 1666 1703
+)
+"src/language/langutils.ml" 68 1666 1670 "src/language/langutils.ml" 68 1666 1678
+type(
+  string
+)
+"src/language/langutils.ml" 68 1666 1679 "src/language/langutils.ml" 68 1666 1680
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 68 1666 1681 "src/language/langutils.ml" 68 1666 1694
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/language/langutils.ml" 68 1666 1695 "src/language/langutils.ml" 68 1666 1698
+type(
+  Syntax.memref
+)
+ident(
+  int_ref mem "src/language/langutils.ml" 67 1653 1659 "src/language/langutils.ml" 67 1653 1662
+)
+"src/language/langutils.ml" 68 1666 1695 "src/language/langutils.ml" 68 1666 1703
+type(
+  int
+)
+"src/language/langutils.ml" 68 1666 1681 "src/language/langutils.ml" 68 1666 1703
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 68 1666 1670 "src/language/langutils.ml" 68 1666 1703
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 67 1653 1655 "src/language/langutils.ml" 68 1666 1703
+type(
+  Syntax.memref -> string
+)
+type(
+  Syntax.memref -> string
+)
+"src/language/langutils.ml" 70 1705 1709 "src/language/langutils.ml" 70 1705 1726
+type(
+  Syntax.numeric -> string
+)
+ident(
+  def string_of_numeric "src/language/langutils.ml" 80 2174 2174 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 71 1749 1755 "src/language/langutils.ml" 71 1749 1758
+type(
+  Syntax.numeric
+)
+ident(
+  def num "src/language/langutils.ml" 71 1749 1762 "src/language/langutils.ml" 78 2127 2168
+)
+"src/language/langutils.ml" 71 1749 1768 "src/language/langutils.ml" 71 1749 1771
+type(
+  Syntax.numeric
+)
+ident(
+  int_ref num "src/language/langutils.ml" 71 1749 1755 "src/language/langutils.ml" 71 1749 1758
+)
+"src/language/langutils.ml" 72 1777 1793 "src/language/langutils.ml" 72 1777 1794
+type(
+  int
+)
+ident(
+  def i "src/language/langutils.ml" 72 1777 1804 "src/language/langutils.ml" 72 1777 1835
+)
+"src/language/langutils.ml" 72 1777 1787 "src/language/langutils.ml" 72 1777 1795
+type(
+  Syntax.rint
+)
+"src/language/langutils.ml" 72 1777 1783 "src/language/langutils.ml" 72 1777 1795
+type(
+  Syntax.numeric
+)
+"src/language/langutils.ml" 72 1777 1804 "src/language/langutils.ml" 72 1777 1811
+type(
+  string
+)
+"src/language/langutils.ml" 72 1777 1812 "src/language/langutils.ml" 72 1777 1813
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 72 1777 1814 "src/language/langutils.ml" 72 1777 1827
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/language/langutils.ml" 72 1777 1828 "src/language/langutils.ml" 72 1777 1829
+type(
+  int
+)
+ident(
+  int_ref i "src/language/langutils.ml" 72 1777 1793 "src/language/langutils.ml" 72 1777 1794
+)
+"src/language/langutils.ml" 72 1777 1814 "src/language/langutils.ml" 72 1777 1829
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 72 1777 1830 "src/language/langutils.ml" 72 1777 1831
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 72 1777 1832 "src/language/langutils.ml" 72 1777 1835
+type(
+  string
+)
+"src/language/langutils.ml" 72 1777 1814 "src/language/langutils.ml" 72 1777 1835
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 72 1777 1804 "src/language/langutils.ml" 72 1777 1835
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 73 1836 1846 "src/language/langutils.ml" 73 1836 1850
+type(
+  Syntax.rint
+)
+"src/language/langutils.ml" 73 1836 1842 "src/language/langutils.ml" 73 1836 1850
+type(
+  Syntax.numeric
+)
+"src/language/langutils.ml" 73 1836 1863 "src/language/langutils.ml" 73 1836 1873
+type(
+  string
+)
+"src/language/langutils.ml" 74 1874 1892 "src/language/langutils.ml" 74 1874 1893
+type(
+  float
+)
+ident(
+  def f "src/language/langutils.ml" 74 1874 1901 "src/language/langutils.ml" 74 1874 1936
+)
+"src/language/langutils.ml" 74 1874 1886 "src/language/langutils.ml" 74 1874 1894
+type(
+  Syntax.rfloat
+)
+"src/language/langutils.ml" 74 1874 1880 "src/language/langutils.ml" 74 1874 1894
+type(
+  Syntax.numeric
+)
+"src/language/langutils.ml" 74 1874 1901 "src/language/langutils.ml" 74 1874 1910
+type(
+  string
+)
+"src/language/langutils.ml" 74 1874 1911 "src/language/langutils.ml" 74 1874 1912
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 74 1874 1913 "src/language/langutils.ml" 74 1874 1928
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"src/language/langutils.ml" 74 1874 1929 "src/language/langutils.ml" 74 1874 1930
+type(
+  float
+)
+ident(
+  int_ref f "src/language/langutils.ml" 74 1874 1892 "src/language/langutils.ml" 74 1874 1893
+)
+"src/language/langutils.ml" 74 1874 1913 "src/language/langutils.ml" 74 1874 1930
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 74 1874 1931 "src/language/langutils.ml" 74 1874 1932
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 74 1874 1933 "src/language/langutils.ml" 74 1874 1936
+type(
+  string
+)
+"src/language/langutils.ml" 74 1874 1913 "src/language/langutils.ml" 74 1874 1936
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 74 1874 1901 "src/language/langutils.ml" 74 1874 1936
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 75 1937 1949 "src/language/langutils.ml" 75 1937 1953
+type(
+  Syntax.rfloat
+)
+"src/language/langutils.ml" 75 1937 1943 "src/language/langutils.ml" 75 1937 1953
+type(
+  Syntax.numeric
+)
+"src/language/langutils.ml" 75 1937 1964 "src/language/langutils.ml" 75 1937 1976
+type(
+  string
+)
+"src/language/langutils.ml" 76 1977 1997 "src/language/langutils.ml" 76 1977 1998
+type(
+  Complex.t
+)
+ident(
+  def c "src/language/langutils.ml" 76 1977 2004 "src/language/langutils.ml" 77 2057 2126
+)
+"src/language/langutils.ml" 76 1977 1991 "src/language/langutils.ml" 76 1977 1999
+type(
+  Syntax.rcomplex
+)
+"src/language/langutils.ml" 76 1977 1983 "src/language/langutils.ml" 76 1977 1999
+type(
+  Syntax.numeric
+)
+"src/language/langutils.ml" 76 1977 2004 "src/language/langutils.ml" 76 1977 2015
+type(
+  string
+)
+"src/language/langutils.ml" 76 1977 2016 "src/language/langutils.ml" 76 1977 2017
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 76 1977 2018 "src/language/langutils.ml" 76 1977 2033
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"src/language/langutils.ml" 76 1977 2035 "src/language/langutils.ml" 76 1977 2036
+type(
+  Complex.t
+)
+ident(
+  int_ref c "src/language/langutils.ml" 76 1977 1997 "src/language/langutils.ml" 76 1977 1998
+)
+"src/language/langutils.ml" 76 1977 2034 "src/language/langutils.ml" 76 1977 2048
+type(
+  float
+)
+"src/language/langutils.ml" 76 1977 2018 "src/language/langutils.ml" 76 1977 2048
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 76 1977 2049 "src/language/langutils.ml" 76 1977 2050
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 76 1977 2051 "src/language/langutils.ml" 76 1977 2054
+type(
+  string
+)
+"src/language/langutils.ml" 76 1977 2055 "src/language/langutils.ml" 76 1977 2056
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 77 2057 2090 "src/language/langutils.ml" 77 2057 2105
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"src/language/langutils.ml" 77 2057 2107 "src/language/langutils.ml" 77 2057 2108
+type(
+  Complex.t
+)
+ident(
+  int_ref c "src/language/langutils.ml" 76 1977 1997 "src/language/langutils.ml" 76 1977 1998
+)
+"src/language/langutils.ml" 77 2057 2106 "src/language/langutils.ml" 77 2057 2120
+type(
+  float
+)
+"src/language/langutils.ml" 77 2057 2090 "src/language/langutils.ml" 77 2057 2120
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 77 2057 2121 "src/language/langutils.ml" 77 2057 2122
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 77 2057 2123 "src/language/langutils.ml" 77 2057 2126
+type(
+  string
+)
+"src/language/langutils.ml" 77 2057 2090 "src/language/langutils.ml" 77 2057 2126
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 76 1977 2051 "src/language/langutils.ml" 77 2057 2126
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 76 1977 2018 "src/language/langutils.ml" 77 2057 2126
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 76 1977 2004 "src/language/langutils.ml" 77 2057 2126
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 78 2127 2141 "src/language/langutils.ml" 78 2127 2145
+type(
+  Syntax.rcomplex
+)
+"src/language/langutils.ml" 78 2127 2133 "src/language/langutils.ml" 78 2127 2145
+type(
+  Syntax.numeric
+)
+"src/language/langutils.ml" 78 2127 2154 "src/language/langutils.ml" 78 2127 2168
+type(
+  string
+)
+"src/language/langutils.ml" 71 1749 1762 "src/language/langutils.ml" 78 2127 2168
+type(
+  string
+)
+"src/language/langutils.ml" 71 1749 1751 "src/language/langutils.ml" 78 2127 2168
+type(
+  Syntax.numeric -> string
+)
+type(
+  Syntax.numeric -> string
+)
+"src/language/langutils.ml" 80 2174 2178 "src/language/langutils.ml" 80 2174 2193
+type(
+  Syntax.const -> string
+)
+ident(
+  def string_of_const "src/language/langutils.ml" 89 2501 2501 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 81 2214 2220 "src/language/langutils.ml" 81 2214 2225
+type(
+  Syntax.const
+)
+ident(
+  def const "src/language/langutils.ml" 81 2214 2229 "src/language/langutils.ml" 87 2471 2499
+)
+"src/language/langutils.ml" 81 2214 2235 "src/language/langutils.ml" 81 2214 2240
+type(
+  Syntax.const
+)
+ident(
+  int_ref const "src/language/langutils.ml" 81 2214 2220 "src/language/langutils.ml" 81 2214 2225
+)
+"src/language/langutils.ml" 82 2246 2256 "src/language/langutils.ml" 82 2246 2257
+type(
+  Syntax.numeric
+)
+ident(
+  def n "src/language/langutils.ml" 82 2246 2269 "src/language/langutils.ml" 82 2246 2304
+)
+"src/language/langutils.ml" 82 2246 2252 "src/language/langutils.ml" 82 2246 2257
+type(
+  Syntax.const
+)
+"src/language/langutils.ml" 82 2246 2269 "src/language/langutils.ml" 82 2246 2276
+type(
+  string
+)
+"src/language/langutils.ml" 82 2246 2277 "src/language/langutils.ml" 82 2246 2278
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 82 2246 2279 "src/language/langutils.ml" 82 2246 2296
+type(
+  Syntax.numeric -> string
+)
+ident(
+  int_ref string_of_numeric "src/language/langutils.ml" 70 1705 1709 "src/language/langutils.ml" 70 1705 1726
+)
+"src/language/langutils.ml" 82 2246 2297 "src/language/langutils.ml" 82 2246 2298
+type(
+  Syntax.numeric
+)
+ident(
+  int_ref n "src/language/langutils.ml" 82 2246 2256 "src/language/langutils.ml" 82 2246 2257
+)
+"src/language/langutils.ml" 82 2246 2279 "src/language/langutils.ml" 82 2246 2298
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 82 2246 2299 "src/language/langutils.ml" 82 2246 2300
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 82 2246 2301 "src/language/langutils.ml" 82 2246 2304
+type(
+  string
+)
+"src/language/langutils.ml" 82 2246 2279 "src/language/langutils.ml" 82 2246 2304
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 82 2246 2269 "src/language/langutils.ml" 82 2246 2304
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 83 2305 2321 "src/language/langutils.ml" 83 2305 2322
+type(
+  string
+)
+ident(
+  def s "src/language/langutils.ml" 83 2305 2328 "src/language/langutils.ml" 83 2305 2345
+)
+"src/language/langutils.ml" 83 2305 2315 "src/language/langutils.ml" 83 2305 2323
+type(
+  Syntax.rstring
+)
+"src/language/langutils.ml" 83 2305 2311 "src/language/langutils.ml" 83 2305 2323
+type(
+  Syntax.const
+)
+"src/language/langutils.ml" 83 2305 2328 "src/language/langutils.ml" 83 2305 2335
+type(
+  string
+)
+"src/language/langutils.ml" 83 2305 2336 "src/language/langutils.ml" 83 2305 2337
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 83 2305 2338 "src/language/langutils.ml" 83 2305 2339
+type(
+  string
+)
+ident(
+  int_ref s "src/language/langutils.ml" 83 2305 2321 "src/language/langutils.ml" 83 2305 2322
+)
+"src/language/langutils.ml" 83 2305 2340 "src/language/langutils.ml" 83 2305 2341
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 83 2305 2342 "src/language/langutils.ml" 83 2305 2345
+type(
+  string
+)
+"src/language/langutils.ml" 83 2305 2338 "src/language/langutils.ml" 83 2305 2345
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 83 2305 2328 "src/language/langutils.ml" 83 2305 2345
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 84 2346 2356 "src/language/langutils.ml" 84 2346 2360
+type(
+  Syntax.rstring
+)
+"src/language/langutils.ml" 84 2346 2352 "src/language/langutils.ml" 84 2346 2360
+type(
+  Syntax.const
+)
+"src/language/langutils.ml" 84 2346 2369 "src/language/langutils.ml" 84 2346 2379
+type(
+  string
+)
+"src/language/langutils.ml" 85 2380 2397 "src/language/langutils.ml" 85 2380 2398
+type(
+  int
+)
+ident(
+  def b "src/language/langutils.ml" 85 2380 2403 "src/language/langutils.ml" 85 2380 2435
+)
+"src/language/langutils.ml" 85 2380 2391 "src/language/langutils.ml" 85 2380 2399
+type(
+  Syntax.rbool
+)
+"src/language/langutils.ml" 85 2380 2386 "src/language/langutils.ml" 85 2380 2399
+type(
+  Syntax.const
+)
+"src/language/langutils.ml" 85 2380 2403 "src/language/langutils.ml" 85 2380 2411
+type(
+  string
+)
+"src/language/langutils.ml" 85 2380 2412 "src/language/langutils.ml" 85 2380 2413
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 85 2380 2414 "src/language/langutils.ml" 85 2380 2427
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/language/langutils.ml" 85 2380 2428 "src/language/langutils.ml" 85 2380 2429
+type(
+  int
+)
+ident(
+  int_ref b "src/language/langutils.ml" 85 2380 2397 "src/language/langutils.ml" 85 2380 2398
+)
+"src/language/langutils.ml" 85 2380 2414 "src/language/langutils.ml" 85 2380 2429
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 85 2380 2430 "src/language/langutils.ml" 85 2380 2431
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 85 2380 2432 "src/language/langutils.ml" 85 2380 2435
+type(
+  string
+)
+"src/language/langutils.ml" 85 2380 2414 "src/language/langutils.ml" 85 2380 2435
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 85 2380 2403 "src/language/langutils.ml" 85 2380 2435
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 86 2436 2447 "src/language/langutils.ml" 86 2436 2451
+type(
+  Syntax.rbool
+)
+"src/language/langutils.ml" 86 2436 2442 "src/language/langutils.ml" 86 2436 2451
+type(
+  Syntax.const
+)
+"src/language/langutils.ml" 86 2436 2459 "src/language/langutils.ml" 86 2436 2470
+type(
+  string
+)
+"src/language/langutils.ml" 87 2471 2477 "src/language/langutils.ml" 87 2471 2480
+type(
+  Syntax.const
+)
+"src/language/langutils.ml" 87 2471 2494 "src/language/langutils.ml" 87 2471 2499
+type(
+  string
+)
+"src/language/langutils.ml" 81 2214 2229 "src/language/langutils.ml" 87 2471 2499
+type(
+  string
+)
+"src/language/langutils.ml" 81 2214 2216 "src/language/langutils.ml" 87 2471 2499
+type(
+  Syntax.const -> string
+)
+type(
+  Syntax.const -> string
+)
+"src/language/langutils.ml" 89 2501 2509 "src/language/langutils.ml" 89 2501 2524
+type(
+  ('a, 'b) Syntax.param -> string
+)
+ident(
+  def string_of_param "src/language/langutils.ml" 89 2501 2501 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 90 2554 2560 "src/language/langutils.ml" 90 2554 2565
+type(
+  ('a, 'b) Syntax.param
+)
+ident(
+  def param "src/language/langutils.ml" 90 2554 2569 "src/language/langutils.ml" 94 2721 2781
+)
+"src/language/langutils.ml" 90 2554 2575 "src/language/langutils.ml" 90 2554 2580
+type(
+  ('a, 'b) Syntax.param
+)
+ident(
+  int_ref param "src/language/langutils.ml" 90 2554 2560 "src/language/langutils.ml" 90 2554 2565
+)
+"src/language/langutils.ml" 91 2586 2592 "src/language/langutils.ml" 91 2586 2600
+type(
+  ('a, 'b) Syntax.param
+)
+"src/language/langutils.ml" 91 2586 2604 "src/language/langutils.ml" 91 2586 2609
+type(
+  string
+)
+"src/language/langutils.ml" 92 2610 2622 "src/language/langutils.ml" 92 2610 2623
+type(
+  'a Syntax.ident
+)
+ident(
+  def i "src/language/langutils.ml" 92 2610 2627 "src/language/langutils.ml" 92 2610 2659
+)
+"src/language/langutils.ml" 92 2610 2616 "src/language/langutils.ml" 92 2610 2623
+type(
+  ('a, 'b) Syntax.param
+)
+"src/language/langutils.ml" 92 2610 2627 "src/language/langutils.ml" 92 2610 2636
+type(
+  string
+)
+"src/language/langutils.ml" 92 2610 2637 "src/language/langutils.ml" 92 2610 2638
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 92 2610 2639 "src/language/langutils.ml" 92 2610 2651
+type(
+  'a Syntax.ident -> string
+)
+ident(
+  int_ref string_of_id "src/language/langutils.ml" 60 1351 1355 "src/language/langutils.ml" 60 1351 1367
+)
+"src/language/langutils.ml" 92 2610 2652 "src/language/langutils.ml" 92 2610 2653
+type(
+  'a Syntax.ident
+)
+ident(
+  int_ref i "src/language/langutils.ml" 92 2610 2622 "src/language/langutils.ml" 92 2610 2623
+)
+"src/language/langutils.ml" 92 2610 2639 "src/language/langutils.ml" 92 2610 2653
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 92 2610 2654 "src/language/langutils.ml" 92 2610 2655
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 92 2610 2656 "src/language/langutils.ml" 92 2610 2659
+type(
+  string
+)
+"src/language/langutils.ml" 92 2610 2639 "src/language/langutils.ml" 92 2610 2659
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 92 2610 2627 "src/language/langutils.ml" 92 2610 2659
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 93 2660 2675 "src/language/langutils.ml" 93 2660 2676
+type(
+  'a Syntax.ident
+)
+ident(
+  def i "src/language/langutils.ml" 93 2660 2684 "src/language/langutils.ml" 94 2721 2781
+)
+"src/language/langutils.ml" 93 2660 2678 "src/language/langutils.ml" 93 2660 2679
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e "src/language/langutils.ml" 93 2660 2684 "src/language/langutils.ml" 94 2721 2781
+)
+"src/language/langutils.ml" 93 2660 2666 "src/language/langutils.ml" 93 2660 2680
+type(
+  ('a, 'b) Syntax.param
+)
+"src/language/langutils.ml" 93 2660 2684 "src/language/langutils.ml" 93 2660 2695
+type(
+  string
+)
+"src/language/langutils.ml" 93 2660 2696 "src/language/langutils.ml" 93 2660 2697
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 93 2660 2698 "src/language/langutils.ml" 93 2660 2710
+type(
+  'a Syntax.ident -> string
+)
+ident(
+  int_ref string_of_id "src/language/langutils.ml" 60 1351 1355 "src/language/langutils.ml" 60 1351 1367
+)
+"src/language/langutils.ml" 93 2660 2711 "src/language/langutils.ml" 93 2660 2712
+type(
+  'a Syntax.ident
+)
+ident(
+  int_ref i "src/language/langutils.ml" 93 2660 2675 "src/language/langutils.ml" 93 2660 2676
+)
+"src/language/langutils.ml" 93 2660 2698 "src/language/langutils.ml" 93 2660 2712
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 93 2660 2713 "src/language/langutils.ml" 93 2660 2714
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 93 2660 2715 "src/language/langutils.ml" 93 2660 2718
+type(
+  string
+)
+"src/language/langutils.ml" 93 2660 2719 "src/language/langutils.ml" 93 2660 2720
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 94 2721 2759 "src/language/langutils.ml" 94 2721 2773
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 94 2721 2774 "src/language/langutils.ml" 94 2721 2775
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e "src/language/langutils.ml" 93 2660 2678 "src/language/langutils.ml" 93 2660 2679
+)
+"src/language/langutils.ml" 94 2721 2759 "src/language/langutils.ml" 94 2721 2775
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 94 2721 2776 "src/language/langutils.ml" 94 2721 2777
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 94 2721 2778 "src/language/langutils.ml" 94 2721 2781
+type(
+  string
+)
+"src/language/langutils.ml" 94 2721 2759 "src/language/langutils.ml" 94 2721 2781
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 93 2660 2715 "src/language/langutils.ml" 94 2721 2781
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 93 2660 2698 "src/language/langutils.ml" 94 2721 2781
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 93 2660 2684 "src/language/langutils.ml" 94 2721 2781
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 90 2554 2569 "src/language/langutils.ml" 94 2721 2781
+type(
+  string
+)
+"src/language/langutils.ml" 90 2554 2556 "src/language/langutils.ml" 94 2721 2781
+type(
+  ('a, 'b) Syntax.param -> string
+)
+type(
+  ('a, 'b) Syntax.param -> string
+)
+"src/language/langutils.ml" 96 2783 2787 "src/language/langutils.ml" 96 2783 2800
+type(
+  ('a, 'b) Syntax.arg -> string
+)
+ident(
+  def string_of_arg "src/language/langutils.ml" 89 2501 2501 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 97 2828 2834 "src/language/langutils.ml" 97 2828 2837
+type(
+  ('a, 'b) Syntax.arg
+)
+ident(
+  def arg "src/language/langutils.ml" 97 2828 2841 "src/language/langutils.ml" 101 2983 3039
+)
+"src/language/langutils.ml" 97 2828 2847 "src/language/langutils.ml" 97 2828 2850
+type(
+  ('a, 'b) Syntax.arg
+)
+ident(
+  int_ref arg "src/language/langutils.ml" 97 2828 2834 "src/language/langutils.ml" 97 2828 2837
+)
+"src/language/langutils.ml" 98 2856 2862 "src/language/langutils.ml" 98 2856 2868
+type(
+  ('a, 'b) Syntax.arg
+)
+"src/language/langutils.ml" 98 2856 2872 "src/language/langutils.ml" 98 2856 2877
+type(
+  string
+)
+"src/language/langutils.ml" 99 2878 2888 "src/language/langutils.ml" 99 2878 2889
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e "src/language/langutils.ml" 99 2878 2893 "src/language/langutils.ml" 99 2878 2925
+)
+"src/language/langutils.ml" 99 2878 2884 "src/language/langutils.ml" 99 2878 2889
+type(
+  ('a, 'b) Syntax.arg
+)
+"src/language/langutils.ml" 99 2878 2893 "src/language/langutils.ml" 99 2878 2900
+type(
+  string
+)
+"src/language/langutils.ml" 99 2878 2901 "src/language/langutils.ml" 99 2878 2902
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 99 2878 2903 "src/language/langutils.ml" 99 2878 2917
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 99 2878 2918 "src/language/langutils.ml" 99 2878 2919
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e "src/language/langutils.ml" 99 2878 2888 "src/language/langutils.ml" 99 2878 2889
+)
+"src/language/langutils.ml" 99 2878 2903 "src/language/langutils.ml" 99 2878 2919
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 99 2878 2920 "src/language/langutils.ml" 99 2878 2921
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 99 2878 2922 "src/language/langutils.ml" 99 2878 2925
+type(
+  string
+)
+"src/language/langutils.ml" 99 2878 2903 "src/language/langutils.ml" 99 2878 2925
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 99 2878 2893 "src/language/langutils.ml" 99 2878 2925
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 100 2926 2939 "src/language/langutils.ml" 100 2926 2940
+type(
+  'a Syntax.ident
+)
+ident(
+  def i "src/language/langutils.ml" 100 2926 2948 "src/language/langutils.ml" 101 2983 3039
+)
+"src/language/langutils.ml" 100 2926 2942 "src/language/langutils.ml" 100 2926 2943
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e "src/language/langutils.ml" 100 2926 2948 "src/language/langutils.ml" 101 2983 3039
+)
+"src/language/langutils.ml" 100 2926 2932 "src/language/langutils.ml" 100 2926 2944
+type(
+  ('a, 'b) Syntax.arg
+)
+"src/language/langutils.ml" 100 2926 2948 "src/language/langutils.ml" 100 2926 2957
+type(
+  string
+)
+"src/language/langutils.ml" 100 2926 2958 "src/language/langutils.ml" 100 2926 2959
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 100 2926 2960 "src/language/langutils.ml" 100 2926 2972
+type(
+  'a Syntax.ident -> string
+)
+ident(
+  int_ref string_of_id "src/language/langutils.ml" 60 1351 1355 "src/language/langutils.ml" 60 1351 1367
+)
+"src/language/langutils.ml" 100 2926 2973 "src/language/langutils.ml" 100 2926 2974
+type(
+  'a Syntax.ident
+)
+ident(
+  int_ref i "src/language/langutils.ml" 100 2926 2939 "src/language/langutils.ml" 100 2926 2940
+)
+"src/language/langutils.ml" 100 2926 2960 "src/language/langutils.ml" 100 2926 2974
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 100 2926 2975 "src/language/langutils.ml" 100 2926 2976
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 100 2926 2977 "src/language/langutils.ml" 100 2926 2980
+type(
+  string
+)
+"src/language/langutils.ml" 100 2926 2981 "src/language/langutils.ml" 100 2926 2982
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 101 2983 3017 "src/language/langutils.ml" 101 2983 3031
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 101 2983 3032 "src/language/langutils.ml" 101 2983 3033
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e "src/language/langutils.ml" 100 2926 2942 "src/language/langutils.ml" 100 2926 2943
+)
+"src/language/langutils.ml" 101 2983 3017 "src/language/langutils.ml" 101 2983 3033
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 101 2983 3034 "src/language/langutils.ml" 101 2983 3035
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 101 2983 3036 "src/language/langutils.ml" 101 2983 3039
+type(
+  string
+)
+"src/language/langutils.ml" 101 2983 3017 "src/language/langutils.ml" 101 2983 3039
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 100 2926 2977 "src/language/langutils.ml" 101 2983 3039
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 100 2926 2960 "src/language/langutils.ml" 101 2983 3039
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 100 2926 2948 "src/language/langutils.ml" 101 2983 3039
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 97 2828 2841 "src/language/langutils.ml" 101 2983 3039
+type(
+  string
+)
+"src/language/langutils.ml" 97 2828 2830 "src/language/langutils.ml" 101 2983 3039
+type(
+  ('a, 'b) Syntax.arg -> string
+)
+type(
+  ('a, 'b) Syntax.arg -> string
+)
+"src/language/langutils.ml" 103 3041 3045 "src/language/langutils.ml" 103 3041 3059
+type(
+  'b Syntax.tick -> string
+)
+ident(
+  def string_of_tick "src/language/langutils.ml" 89 2501 2501 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 104 3082 3088 "src/language/langutils.ml" 104 3082 3092
+type(
+  'b Syntax.tick
+)
+ident(
+  def tick "src/language/langutils.ml" 105 3096 3100 "src/language/langutils.ml" 105 3096 3125
+)
+"src/language/langutils.ml" 105 3096 3100 "src/language/langutils.ml" 105 3096 3113
+type(
+  string
+)
+"src/language/langutils.ml" 105 3096 3114 "src/language/langutils.ml" 105 3096 3115
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 105 3096 3116 "src/language/langutils.ml" 105 3096 3119
+type(
+  string
+)
+"src/language/langutils.ml" 105 3096 3120 "src/language/langutils.ml" 105 3096 3121
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 105 3096 3122 "src/language/langutils.ml" 105 3096 3125
+type(
+  string
+)
+"src/language/langutils.ml" 105 3096 3116 "src/language/langutils.ml" 105 3096 3125
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 105 3096 3100 "src/language/langutils.ml" 105 3096 3125
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 104 3082 3084 "src/language/langutils.ml" 105 3096 3125
+type(
+  'b Syntax.tick -> string
+)
+type(
+  'b Syntax.tick -> string
+)
+"src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  def string_of_expr "src/language/langutils.ml" 89 2501 2501 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 108 3174 3180 "src/language/langutils.ml" 108 3174 3184
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def expr "src/language/langutils.ml" 108 3174 3188 "src/language/langutils.ml" 137 4709 4763
+)
+"src/language/langutils.ml" 108 3174 3194 "src/language/langutils.ml" 108 3174 3198
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref expr "src/language/langutils.ml" 108 3174 3180 "src/language/langutils.ml" 108 3174 3184
+)
+"src/language/langutils.ml" 109 3204 3216 "src/language/langutils.ml" 109 3204 3217
+type(
+  'a Syntax.ident
+)
+ident(
+  def i "src/language/langutils.ml" 109 3204 3221 "src/language/langutils.ml" 109 3204 3253
+)
+"src/language/langutils.ml" 109 3204 3210 "src/language/langutils.ml" 109 3204 3217
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 109 3204 3221 "src/language/langutils.ml" 109 3204 3230
+type(
+  string
+)
+"src/language/langutils.ml" 109 3204 3231 "src/language/langutils.ml" 109 3204 3232
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 109 3204 3233 "src/language/langutils.ml" 109 3204 3245
+type(
+  'a Syntax.ident -> string
+)
+ident(
+  int_ref string_of_id "src/language/langutils.ml" 60 1351 1355 "src/language/langutils.ml" 60 1351 1367
+)
+"src/language/langutils.ml" 109 3204 3246 "src/language/langutils.ml" 109 3204 3247
+type(
+  'a Syntax.ident
+)
+ident(
+  int_ref i "src/language/langutils.ml" 109 3204 3216 "src/language/langutils.ml" 109 3204 3217
+)
+"src/language/langutils.ml" 109 3204 3233 "src/language/langutils.ml" 109 3204 3247
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 109 3204 3248 "src/language/langutils.ml" 109 3204 3249
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 109 3204 3250 "src/language/langutils.ml" 109 3204 3253
+type(
+  string
+)
+"src/language/langutils.ml" 109 3204 3233 "src/language/langutils.ml" 109 3204 3253
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 109 3204 3221 "src/language/langutils.ml" 109 3204 3253
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 110 3254 3267 "src/language/langutils.ml" 110 3254 3268
+type(
+  Syntax.memref
+)
+ident(
+  def m "src/language/langutils.ml" 110 3254 3272 "src/language/langutils.ml" 110 3254 3306
+)
+"src/language/langutils.ml" 110 3254 3260 "src/language/langutils.ml" 110 3254 3268
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 110 3254 3272 "src/language/langutils.ml" 110 3254 3282
+type(
+  string
+)
+"src/language/langutils.ml" 110 3254 3283 "src/language/langutils.ml" 110 3254 3284
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 110 3254 3285 "src/language/langutils.ml" 110 3254 3298
+type(
+  Syntax.memref -> string
+)
+ident(
+  int_ref string_of_mem "src/language/langutils.ml" 66 1614 1618 "src/language/langutils.ml" 66 1614 1631
+)
+"src/language/langutils.ml" 110 3254 3299 "src/language/langutils.ml" 110 3254 3300
+type(
+  Syntax.memref
+)
+ident(
+  int_ref m "src/language/langutils.ml" 110 3254 3267 "src/language/langutils.ml" 110 3254 3268
+)
+"src/language/langutils.ml" 110 3254 3285 "src/language/langutils.ml" 110 3254 3300
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 110 3254 3301 "src/language/langutils.ml" 110 3254 3302
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 110 3254 3303 "src/language/langutils.ml" 110 3254 3306
+type(
+  string
+)
+"src/language/langutils.ml" 110 3254 3285 "src/language/langutils.ml" 110 3254 3306
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 110 3254 3272 "src/language/langutils.ml" 110 3254 3306
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 111 3307 3319 "src/language/langutils.ml" 111 3307 3320
+type(
+  Syntax.const
+)
+ident(
+  def c "src/language/langutils.ml" 111 3307 3324 "src/language/langutils.ml" 111 3307 3359
+)
+"src/language/langutils.ml" 111 3307 3313 "src/language/langutils.ml" 111 3307 3320
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 111 3307 3324 "src/language/langutils.ml" 111 3307 3333
+type(
+  string
+)
+"src/language/langutils.ml" 111 3307 3334 "src/language/langutils.ml" 111 3307 3335
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 111 3307 3336 "src/language/langutils.ml" 111 3307 3351
+type(
+  Syntax.const -> string
+)
+ident(
+  int_ref string_of_const "src/language/langutils.ml" 80 2174 2178 "src/language/langutils.ml" 80 2174 2193
+)
+"src/language/langutils.ml" 111 3307 3352 "src/language/langutils.ml" 111 3307 3353
+type(
+  Syntax.const
+)
+ident(
+  int_ref c "src/language/langutils.ml" 111 3307 3319 "src/language/langutils.ml" 111 3307 3320
+)
+"src/language/langutils.ml" 111 3307 3336 "src/language/langutils.ml" 111 3307 3353
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 111 3307 3354 "src/language/langutils.ml" 111 3307 3355
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 111 3307 3356 "src/language/langutils.ml" 111 3307 3359
+type(
+  string
+)
+"src/language/langutils.ml" 111 3307 3336 "src/language/langutils.ml" 111 3307 3359
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 111 3307 3324 "src/language/langutils.ml" 111 3307 3359
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 112 3360 3370 "src/language/langutils.ml" 112 3360 3372
+type(
+  ('a, 'b) Syntax.expr list
+)
+ident(
+  def es "src/language/langutils.ml" 112 3360 3376 "src/language/langutils.ml" 112 3360 3426
+)
+"src/language/langutils.ml" 112 3360 3366 "src/language/langutils.ml" 112 3360 3372
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 112 3360 3376 "src/language/langutils.ml" 112 3360 3383
+type(
+  string
+)
+"src/language/langutils.ml" 112 3360 3384 "src/language/langutils.ml" 112 3360 3385
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 112 3360 3386 "src/language/langutils.ml" 112 3360 3400
+type(
+  (('a, 'b) Syntax.expr -> string) -> ('a, 'b) Syntax.expr list -> string
+)
+ident(
+  int_ref string_of_list "src/language/langutils.ml" 44 886 890 "src/language/langutils.ml" 44 886 904
+)
+"src/language/langutils.ml" 112 3360 3401 "src/language/langutils.ml" 112 3360 3417
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 112 3360 3418 "src/language/langutils.ml" 112 3360 3420
+type(
+  ('a, 'b) Syntax.expr list
+)
+ident(
+  int_ref es "src/language/langutils.ml" 112 3360 3370 "src/language/langutils.ml" 112 3360 3372
+)
+"src/language/langutils.ml" 112 3360 3386 "src/language/langutils.ml" 112 3360 3420
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 112 3360 3421 "src/language/langutils.ml" 112 3360 3422
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 112 3360 3423 "src/language/langutils.ml" 112 3360 3426
+type(
+  string
+)
+"src/language/langutils.ml" 112 3360 3386 "src/language/langutils.ml" 112 3360 3426
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 112 3360 3376 "src/language/langutils.ml" 112 3360 3426
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 113 3427 3444 "src/language/langutils.ml" 113 3427 3446
+type(
+  ('a, 'b) Syntax.param list
+)
+ident(
+  def ps "src/language/langutils.ml" 113 3427 3454 "src/language/langutils.ml" 115 3545 3598
+)
+"src/language/langutils.ml" 113 3427 3448 "src/language/langutils.ml" 113 3427 3449
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e "src/language/langutils.ml" 113 3427 3454 "src/language/langutils.ml" 115 3545 3598
+)
+"src/language/langutils.ml" 113 3427 3433 "src/language/langutils.ml" 113 3427 3450
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 113 3427 3454 "src/language/langutils.ml" 113 3427 3467
+type(
+  string
+)
+"src/language/langutils.ml" 113 3427 3468 "src/language/langutils.ml" 113 3427 3469
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 114 3470 3501 "src/language/langutils.ml" 114 3470 3515
+type(
+  (('a, 'b) Syntax.param -> string) -> ('a, 'b) Syntax.param list -> string
+)
+ident(
+  int_ref string_of_list "src/language/langutils.ml" 44 886 890 "src/language/langutils.ml" 44 886 904
+)
+"src/language/langutils.ml" 114 3470 3516 "src/language/langutils.ml" 114 3470 3533
+type(
+  ('a, 'b) Syntax.param -> string
+)
+ident(
+  int_ref string_of_param "src/language/langutils.ml" 89 2501 2509 "src/language/langutils.ml" 89 2501 2524
+)
+"src/language/langutils.ml" 114 3470 3534 "src/language/langutils.ml" 114 3470 3536
+type(
+  ('a, 'b) Syntax.param list
+)
+ident(
+  int_ref ps "src/language/langutils.ml" 113 3427 3444 "src/language/langutils.ml" 113 3427 3446
+)
+"src/language/langutils.ml" 114 3470 3501 "src/language/langutils.ml" 114 3470 3536
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 114 3470 3537 "src/language/langutils.ml" 114 3470 3538
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 114 3470 3539 "src/language/langutils.ml" 114 3470 3542
+type(
+  string
+)
+"src/language/langutils.ml" 114 3470 3543 "src/language/langutils.ml" 114 3470 3544
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 115 3545 3576 "src/language/langutils.ml" 115 3545 3590
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 115 3545 3591 "src/language/langutils.ml" 115 3545 3592
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e "src/language/langutils.ml" 113 3427 3448 "src/language/langutils.ml" 113 3427 3449
+)
+"src/language/langutils.ml" 115 3545 3576 "src/language/langutils.ml" 115 3545 3592
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 115 3545 3593 "src/language/langutils.ml" 115 3545 3594
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 115 3545 3595 "src/language/langutils.ml" 115 3545 3598
+type(
+  string
+)
+"src/language/langutils.ml" 115 3545 3576 "src/language/langutils.ml" 115 3545 3598
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 114 3470 3539 "src/language/langutils.ml" 115 3545 3598
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 114 3470 3501 "src/language/langutils.ml" 115 3545 3598
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 113 3427 3454 "src/language/langutils.ml" 115 3545 3598
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 116 3599 3616 "src/language/langutils.ml" 116 3599 3618
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e1 "src/language/langutils.ml" 116 3599 3628 "src/language/langutils.ml" 118 3702 3774
+)
+"src/language/langutils.ml" 116 3599 3620 "src/language/langutils.ml" 116 3599 3623
+type(
+  ('a, 'b) Syntax.arg list
+)
+ident(
+  def e2s "src/language/langutils.ml" 116 3599 3628 "src/language/langutils.ml" 118 3702 3774
+)
+"src/language/langutils.ml" 116 3599 3605 "src/language/langutils.ml" 116 3599 3624
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 116 3599 3628 "src/language/langutils.ml" 116 3599 3641
+type(
+  string
+)
+"src/language/langutils.ml" 116 3599 3642 "src/language/langutils.ml" 116 3599 3643
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 117 3644 3676 "src/language/langutils.ml" 117 3644 3690
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 117 3644 3691 "src/language/langutils.ml" 117 3644 3693
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e1 "src/language/langutils.ml" 116 3599 3616 "src/language/langutils.ml" 116 3599 3618
+)
+"src/language/langutils.ml" 117 3644 3676 "src/language/langutils.ml" 117 3644 3693
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 117 3644 3694 "src/language/langutils.ml" 117 3644 3695
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 117 3644 3696 "src/language/langutils.ml" 117 3644 3699
+type(
+  string
+)
+"src/language/langutils.ml" 117 3644 3700 "src/language/langutils.ml" 117 3644 3701
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 118 3702 3734 "src/language/langutils.ml" 118 3702 3748
+type(
+  (('a, 'b) Syntax.arg -> string) -> ('a, 'b) Syntax.arg list -> string
+)
+ident(
+  int_ref string_of_list "src/language/langutils.ml" 44 886 890 "src/language/langutils.ml" 44 886 904
+)
+"src/language/langutils.ml" 118 3702 3749 "src/language/langutils.ml" 118 3702 3764
+type(
+  ('a, 'b) Syntax.arg -> string
+)
+ident(
+  int_ref string_of_arg "src/language/langutils.ml" 96 2783 2787 "src/language/langutils.ml" 96 2783 2800
+)
+"src/language/langutils.ml" 118 3702 3765 "src/language/langutils.ml" 118 3702 3768
+type(
+  ('a, 'b) Syntax.arg list
+)
+ident(
+  int_ref e2s "src/language/langutils.ml" 116 3599 3620 "src/language/langutils.ml" 116 3599 3623
+)
+"src/language/langutils.ml" 118 3702 3734 "src/language/langutils.ml" 118 3702 3768
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 118 3702 3769 "src/language/langutils.ml" 118 3702 3770
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 118 3702 3771 "src/language/langutils.ml" 118 3702 3774
+type(
+  string
+)
+"src/language/langutils.ml" 118 3702 3734 "src/language/langutils.ml" 118 3702 3774
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 117 3644 3696 "src/language/langutils.ml" 118 3702 3774
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 117 3644 3676 "src/language/langutils.ml" 118 3702 3774
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 116 3599 3628 "src/language/langutils.ml" 118 3702 3774
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 119 3775 3798 "src/language/langutils.ml" 119 3775 3799
+type(
+  'a Syntax.ident
+)
+ident(
+  def f "src/language/langutils.ml" 119 3775 3808 "src/language/langutils.ml" 121 3889 3963
+)
+"src/language/langutils.ml" 119 3775 3801 "src/language/langutils.ml" 119 3775 3803
+type(
+  'a Syntax.ident list
+)
+ident(
+  def is "src/language/langutils.ml" 119 3775 3808 "src/language/langutils.ml" 121 3889 3963
+)
+"src/language/langutils.ml" 119 3775 3781 "src/language/langutils.ml" 119 3775 3804
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 119 3775 3808 "src/language/langutils.ml" 119 3775 3827
+type(
+  string
+)
+"src/language/langutils.ml" 119 3775 3828 "src/language/langutils.ml" 119 3775 3829
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 120 3830 3866 "src/language/langutils.ml" 120 3830 3878
+type(
+  'a Syntax.ident -> string
+)
+ident(
+  int_ref string_of_id "src/language/langutils.ml" 60 1351 1355 "src/language/langutils.ml" 60 1351 1367
+)
+"src/language/langutils.ml" 120 3830 3879 "src/language/langutils.ml" 120 3830 3880
+type(
+  'a Syntax.ident
+)
+ident(
+  int_ref f "src/language/langutils.ml" 119 3775 3798 "src/language/langutils.ml" 119 3775 3799
+)
+"src/language/langutils.ml" 120 3830 3866 "src/language/langutils.ml" 120 3830 3880
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 120 3830 3881 "src/language/langutils.ml" 120 3830 3882
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 120 3830 3883 "src/language/langutils.ml" 120 3830 3886
+type(
+  string
+)
+"src/language/langutils.ml" 120 3830 3887 "src/language/langutils.ml" 120 3830 3888
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 121 3889 3925 "src/language/langutils.ml" 121 3889 3939
+type(
+  ('a Syntax.ident -> string) -> 'a Syntax.ident list -> string
+)
+ident(
+  int_ref string_of_list "src/language/langutils.ml" 44 886 890 "src/language/langutils.ml" 44 886 904
+)
+"src/language/langutils.ml" 121 3889 3940 "src/language/langutils.ml" 121 3889 3954
+type(
+  'a Syntax.ident -> string
+)
+ident(
+  int_ref string_of_id "src/language/langutils.ml" 60 1351 1355 "src/language/langutils.ml" 60 1351 1367
+)
+"src/language/langutils.ml" 121 3889 3955 "src/language/langutils.ml" 121 3889 3957
+type(
+  'a Syntax.ident list
+)
+ident(
+  int_ref is "src/language/langutils.ml" 119 3775 3801 "src/language/langutils.ml" 119 3775 3803
+)
+"src/language/langutils.ml" 121 3889 3925 "src/language/langutils.ml" 121 3889 3957
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 121 3889 3958 "src/language/langutils.ml" 121 3889 3959
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 121 3889 3960 "src/language/langutils.ml" 121 3889 3963
+type(
+  string
+)
+"src/language/langutils.ml" 121 3889 3925 "src/language/langutils.ml" 121 3889 3963
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 120 3830 3883 "src/language/langutils.ml" 121 3889 3963
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 120 3830 3866 "src/language/langutils.ml" 121 3889 3963
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 119 3775 3808 "src/language/langutils.ml" 121 3889 3963
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 122 3964 3978 "src/language/langutils.ml" 122 3964 3980
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e1 "src/language/langutils.ml" 122 3964 3989 "src/language/langutils.ml" 123 4028 4089
+)
+"src/language/langutils.ml" 122 3964 3982 "src/language/langutils.ml" 122 3964 3984
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e2 "src/language/langutils.ml" 122 3964 3989 "src/language/langutils.ml" 123 4028 4089
+)
+"src/language/langutils.ml" 122 3964 3970 "src/language/langutils.ml" 122 3964 3985
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 122 3964 3989 "src/language/langutils.ml" 122 3964 3999
+type(
+  string
+)
+"src/language/langutils.ml" 122 3964 4000 "src/language/langutils.ml" 122 3964 4001
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 122 3964 4002 "src/language/langutils.ml" 122 3964 4016
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 122 3964 4017 "src/language/langutils.ml" 122 3964 4019
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e1 "src/language/langutils.ml" 122 3964 3978 "src/language/langutils.ml" 122 3964 3980
+)
+"src/language/langutils.ml" 122 3964 4002 "src/language/langutils.ml" 122 3964 4019
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 122 3964 4020 "src/language/langutils.ml" 122 3964 4021
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 122 3964 4022 "src/language/langutils.ml" 122 3964 4025
+type(
+  string
+)
+"src/language/langutils.ml" 122 3964 4026 "src/language/langutils.ml" 122 3964 4027
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 123 4028 4066 "src/language/langutils.ml" 123 4028 4080
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 123 4028 4081 "src/language/langutils.ml" 123 4028 4083
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e2 "src/language/langutils.ml" 122 3964 3982 "src/language/langutils.ml" 122 3964 3984
+)
+"src/language/langutils.ml" 123 4028 4066 "src/language/langutils.ml" 123 4028 4083
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 123 4028 4084 "src/language/langutils.ml" 123 4028 4085
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 123 4028 4086 "src/language/langutils.ml" 123 4028 4089
+type(
+  string
+)
+"src/language/langutils.ml" 123 4028 4066 "src/language/langutils.ml" 123 4028 4089
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 122 3964 4022 "src/language/langutils.ml" 123 4028 4089
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 122 3964 4002 "src/language/langutils.ml" 123 4028 4089
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 122 3964 3989 "src/language/langutils.ml" 123 4028 4089
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 124 4090 4109 "src/language/langutils.ml" 124 4090 4111
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e1 "src/language/langutils.ml" 124 4090 4120 "src/language/langutils.ml" 125 4164 4235
+)
+"src/language/langutils.ml" 124 4090 4113 "src/language/langutils.ml" 124 4090 4115
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e2 "src/language/langutils.ml" 124 4090 4120 "src/language/langutils.ml" 125 4164 4235
+)
+"src/language/langutils.ml" 124 4090 4096 "src/language/langutils.ml" 124 4090 4116
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 124 4090 4120 "src/language/langutils.ml" 124 4090 4135
+type(
+  string
+)
+"src/language/langutils.ml" 124 4090 4136 "src/language/langutils.ml" 124 4090 4137
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 124 4090 4138 "src/language/langutils.ml" 124 4090 4152
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 124 4090 4153 "src/language/langutils.ml" 124 4090 4155
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e1 "src/language/langutils.ml" 124 4090 4109 "src/language/langutils.ml" 124 4090 4111
+)
+"src/language/langutils.ml" 124 4090 4138 "src/language/langutils.ml" 124 4090 4155
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 124 4090 4156 "src/language/langutils.ml" 124 4090 4157
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 124 4090 4158 "src/language/langutils.ml" 124 4090 4161
+type(
+  string
+)
+"src/language/langutils.ml" 124 4090 4162 "src/language/langutils.ml" 124 4090 4163
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 125 4164 4212 "src/language/langutils.ml" 125 4164 4226
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 125 4164 4227 "src/language/langutils.ml" 125 4164 4229
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e2 "src/language/langutils.ml" 124 4090 4113 "src/language/langutils.ml" 124 4090 4115
+)
+"src/language/langutils.ml" 125 4164 4212 "src/language/langutils.ml" 125 4164 4229
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 125 4164 4230 "src/language/langutils.ml" 125 4164 4231
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 125 4164 4232 "src/language/langutils.ml" 125 4164 4235
+type(
+  string
+)
+"src/language/langutils.ml" 125 4164 4212 "src/language/langutils.ml" 125 4164 4235
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 124 4090 4158 "src/language/langutils.ml" 125 4164 4235
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 124 4090 4138 "src/language/langutils.ml" 125 4164 4235
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 124 4090 4120 "src/language/langutils.ml" 125 4164 4235
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 126 4236 4246 "src/language/langutils.ml" 126 4236 4248
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e1 "src/language/langutils.ml" 126 4236 4261 "src/language/langutils.ml" 128 4356 4413
+)
+"src/language/langutils.ml" 126 4236 4250 "src/language/langutils.ml" 126 4236 4252
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e2 "src/language/langutils.ml" 126 4236 4261 "src/language/langutils.ml" 128 4356 4413
+)
+"src/language/langutils.ml" 126 4236 4254 "src/language/langutils.ml" 126 4236 4256
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e3 "src/language/langutils.ml" 126 4236 4261 "src/language/langutils.ml" 128 4356 4413
+)
+"src/language/langutils.ml" 126 4236 4242 "src/language/langutils.ml" 126 4236 4257
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 126 4236 4261 "src/language/langutils.ml" 126 4236 4267
+type(
+  string
+)
+"src/language/langutils.ml" 126 4236 4268 "src/language/langutils.ml" 126 4236 4269
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 126 4236 4270 "src/language/langutils.ml" 126 4236 4284
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 126 4236 4285 "src/language/langutils.ml" 126 4236 4287
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e1 "src/language/langutils.ml" 126 4236 4246 "src/language/langutils.ml" 126 4236 4248
+)
+"src/language/langutils.ml" 126 4236 4270 "src/language/langutils.ml" 126 4236 4287
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 126 4236 4288 "src/language/langutils.ml" 126 4236 4289
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 126 4236 4290 "src/language/langutils.ml" 126 4236 4293
+type(
+  string
+)
+"src/language/langutils.ml" 126 4236 4294 "src/language/langutils.ml" 126 4236 4295
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 127 4296 4330 "src/language/langutils.ml" 127 4296 4344
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 127 4296 4345 "src/language/langutils.ml" 127 4296 4347
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e2 "src/language/langutils.ml" 126 4236 4250 "src/language/langutils.ml" 126 4236 4252
+)
+"src/language/langutils.ml" 127 4296 4330 "src/language/langutils.ml" 127 4296 4347
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 127 4296 4348 "src/language/langutils.ml" 127 4296 4349
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 127 4296 4350 "src/language/langutils.ml" 127 4296 4353
+type(
+  string
+)
+"src/language/langutils.ml" 127 4296 4354 "src/language/langutils.ml" 127 4296 4355
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 128 4356 4390 "src/language/langutils.ml" 128 4356 4404
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 128 4356 4405 "src/language/langutils.ml" 128 4356 4407
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e3 "src/language/langutils.ml" 126 4236 4254 "src/language/langutils.ml" 126 4236 4256
+)
+"src/language/langutils.ml" 128 4356 4390 "src/language/langutils.ml" 128 4356 4407
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 128 4356 4408 "src/language/langutils.ml" 128 4356 4409
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 128 4356 4410 "src/language/langutils.ml" 128 4356 4413
+type(
+  string
+)
+"src/language/langutils.ml" 128 4356 4390 "src/language/langutils.ml" 128 4356 4413
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 127 4296 4350 "src/language/langutils.ml" 128 4356 4413
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 127 4296 4330 "src/language/langutils.ml" 128 4356 4413
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 126 4236 4290 "src/language/langutils.ml" 128 4356 4413
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 126 4236 4270 "src/language/langutils.ml" 128 4356 4413
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 126 4236 4261 "src/language/langutils.ml" 128 4356 4413
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 129 4414 4427 "src/language/langutils.ml" 129 4414 4429
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e1 "src/language/langutils.ml" 129 4414 4438 "src/language/langutils.ml" 130 4476 4535
+)
+"src/language/langutils.ml" 129 4414 4431 "src/language/langutils.ml" 129 4414 4433
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e2 "src/language/langutils.ml" 129 4414 4438 "src/language/langutils.ml" 130 4476 4535
+)
+"src/language/langutils.ml" 129 4414 4420 "src/language/langutils.ml" 129 4414 4434
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 129 4414 4438 "src/language/langutils.ml" 129 4414 4447
+type(
+  string
+)
+"src/language/langutils.ml" 129 4414 4448 "src/language/langutils.ml" 129 4414 4449
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 129 4414 4450 "src/language/langutils.ml" 129 4414 4464
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 129 4414 4465 "src/language/langutils.ml" 129 4414 4467
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e1 "src/language/langutils.ml" 129 4414 4427 "src/language/langutils.ml" 129 4414 4429
+)
+"src/language/langutils.ml" 129 4414 4450 "src/language/langutils.ml" 129 4414 4467
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 129 4414 4468 "src/language/langutils.ml" 129 4414 4469
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 129 4414 4470 "src/language/langutils.ml" 129 4414 4473
+type(
+  string
+)
+"src/language/langutils.ml" 129 4414 4474 "src/language/langutils.ml" 129 4414 4475
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 130 4476 4512 "src/language/langutils.ml" 130 4476 4526
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 130 4476 4527 "src/language/langutils.ml" 130 4476 4529
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e2 "src/language/langutils.ml" 129 4414 4431 "src/language/langutils.ml" 129 4414 4433
+)
+"src/language/langutils.ml" 130 4476 4512 "src/language/langutils.ml" 130 4476 4529
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 130 4476 4530 "src/language/langutils.ml" 130 4476 4531
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 130 4476 4532 "src/language/langutils.ml" 130 4476 4535
+type(
+  string
+)
+"src/language/langutils.ml" 130 4476 4512 "src/language/langutils.ml" 130 4476 4535
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 129 4414 4470 "src/language/langutils.ml" 130 4476 4535
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 129 4414 4450 "src/language/langutils.ml" 130 4476 4535
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 129 4414 4438 "src/language/langutils.ml" 130 4476 4535
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 131 4536 4542 "src/language/langutils.ml" 131 4536 4547
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 131 4536 4551 "src/language/langutils.ml" 131 4536 4558
+type(
+  string
+)
+"src/language/langutils.ml" 132 4559 4565 "src/language/langutils.ml" 132 4559 4569
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 132 4559 4573 "src/language/langutils.ml" 132 4559 4579
+type(
+  string
+)
+"src/language/langutils.ml" 133 4580 4593 "src/language/langutils.ml" 133 4580 4594
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e "src/language/langutils.ml" 133 4580 4598 "src/language/langutils.ml" 133 4580 4633
+)
+"src/language/langutils.ml" 133 4580 4586 "src/language/langutils.ml" 133 4580 4594
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 133 4580 4598 "src/language/langutils.ml" 133 4580 4608
+type(
+  string
+)
+"src/language/langutils.ml" 133 4580 4609 "src/language/langutils.ml" 133 4580 4610
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 133 4580 4611 "src/language/langutils.ml" 133 4580 4625
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 133 4580 4626 "src/language/langutils.ml" 133 4580 4627
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e "src/language/langutils.ml" 133 4580 4593 "src/language/langutils.ml" 133 4580 4594
+)
+"src/language/langutils.ml" 133 4580 4611 "src/language/langutils.ml" 133 4580 4627
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 133 4580 4628 "src/language/langutils.ml" 133 4580 4629
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 133 4580 4630 "src/language/langutils.ml" 133 4580 4633
+type(
+  string
+)
+"src/language/langutils.ml" 133 4580 4611 "src/language/langutils.ml" 133 4580 4633
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 133 4580 4598 "src/language/langutils.ml" 133 4580 4633
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 134 4634 4640 "src/language/langutils.ml" 134 4634 4645
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 134 4634 4649 "src/language/langutils.ml" 134 4634 4656
+type(
+  string
+)
+"src/language/langutils.ml" 136 4658 4670 "src/language/langutils.ml" 136 4658 4671
+type(
+  'b Syntax.tick
+)
+ident(
+  def t "src/language/langutils.ml" 136 4658 4679 "src/language/langutils.ml" 137 4709 4763
+)
+"src/language/langutils.ml" 136 4658 4673 "src/language/langutils.ml" 136 4658 4674
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  def e "src/language/langutils.ml" 136 4658 4679 "src/language/langutils.ml" 137 4709 4763
+)
+"src/language/langutils.ml" 136 4658 4664 "src/language/langutils.ml" 136 4658 4675
+type(
+  ('a, 'b) Syntax.expr
+)
+"src/language/langutils.ml" 136 4658 4679 "src/language/langutils.ml" 136 4658 4687
+type(
+  string
+)
+"src/language/langutils.ml" 136 4658 4688 "src/language/langutils.ml" 136 4658 4689
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 136 4658 4690 "src/language/langutils.ml" 136 4658 4704
+type(
+  'b Syntax.tick -> string
+)
+ident(
+  int_ref string_of_tick "src/language/langutils.ml" 103 3041 3045 "src/language/langutils.ml" 103 3041 3059
+)
+"src/language/langutils.ml" 136 4658 4705 "src/language/langutils.ml" 136 4658 4706
+type(
+  'b Syntax.tick
+)
+ident(
+  int_ref t "src/language/langutils.ml" 136 4658 4670 "src/language/langutils.ml" 136 4658 4671
+)
+"src/language/langutils.ml" 136 4658 4690 "src/language/langutils.ml" 136 4658 4706
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 136 4658 4707 "src/language/langutils.ml" 136 4658 4708
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 137 4709 4741 "src/language/langutils.ml" 137 4709 4755
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+ident(
+  int_ref string_of_expr "src/language/langutils.ml" 107 3127 3131 "src/language/langutils.ml" 107 3127 3145
+)
+"src/language/langutils.ml" 137 4709 4756 "src/language/langutils.ml" 137 4709 4757
+type(
+  ('a, 'b) Syntax.expr
+)
+ident(
+  int_ref e "src/language/langutils.ml" 136 4658 4673 "src/language/langutils.ml" 136 4658 4674
+)
+"src/language/langutils.ml" 137 4709 4741 "src/language/langutils.ml" 137 4709 4757
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 137 4709 4758 "src/language/langutils.ml" 137 4709 4759
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 137 4709 4760 "src/language/langutils.ml" 137 4709 4763
+type(
+  string
+)
+"src/language/langutils.ml" 137 4709 4741 "src/language/langutils.ml" 137 4709 4763
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 136 4658 4690 "src/language/langutils.ml" 137 4709 4763
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 136 4658 4679 "src/language/langutils.ml" 137 4709 4763
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 108 3174 3188 "src/language/langutils.ml" 137 4709 4763
+type(
+  string
+)
+"src/language/langutils.ml" 108 3174 3176 "src/language/langutils.ml" 137 4709 4763
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+type(
+  ('a, 'b) Syntax.expr -> string
+)
+"src/language/langutils.ml" 141 4767 4771 "src/language/langutils.ml" 141 4767 4788
+type(
+  Syntax.rstring -> string
+)
+ident(
+  def string_of_rstring "src/language/langutils.ml" 146 4881 4881 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 143 4823 4834 "src/language/langutils.ml" 143 4823 4835
+type(
+  string
+)
+ident(
+  def s "src/language/langutils.ml" 143 4823 4839 "src/language/langutils.ml" 143 4823 4854
+)
+"src/language/langutils.ml" 143 4823 4829 "src/language/langutils.ml" 143 4823 4835
+type(
+  Syntax.rstring
+)
+"src/language/langutils.ml" 143 4823 4839 "src/language/langutils.ml" 143 4823 4843
+type(
+  string
+)
+"src/language/langutils.ml" 143 4823 4844 "src/language/langutils.ml" 143 4823 4845
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 143 4823 4846 "src/language/langutils.ml" 143 4823 4847
+type(
+  string
+)
+ident(
+  int_ref s "src/language/langutils.ml" 143 4823 4834 "src/language/langutils.ml" 143 4823 4835
+)
+"src/language/langutils.ml" 143 4823 4848 "src/language/langutils.ml" 143 4823 4849
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 143 4823 4850 "src/language/langutils.ml" 143 4823 4854
+type(
+  string
+)
+"src/language/langutils.ml" 143 4823 4846 "src/language/langutils.ml" 143 4823 4854
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 143 4823 4839 "src/language/langutils.ml" 143 4823 4854
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 144 4855 4861 "src/language/langutils.ml" 144 4855 4865
+type(
+  Syntax.rstring
+)
+"src/language/langutils.ml" 144 4855 4869 "src/language/langutils.ml" 144 4855 4879
+type(
+  string
+)
+"src/language/langutils.ml" 142 4810 4814 "src/language/langutils.ml" 144 4855 4879
+type(
+  Syntax.rstring -> string
+)
+type(
+  Syntax.rstring -> string
+)
+"src/language/langutils.ml" 146 4881 4885 "src/language/langutils.ml" 146 4881 4899
+type(
+  Syntax.rint -> string
+)
+ident(
+  def string_of_rint "src/language/langutils.ml" 151 4988 4988 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 148 4931 4942 "src/language/langutils.ml" 148 4931 4943
+type(
+  int
+)
+ident(
+  def i "src/language/langutils.ml" 148 4931 4947 "src/language/langutils.ml" 148 4931 4964
+)
+"src/language/langutils.ml" 148 4931 4937 "src/language/langutils.ml" 148 4931 4943
+type(
+  Syntax.rint
+)
+"src/language/langutils.ml" 148 4931 4948 "src/language/langutils.ml" 148 4931 4961
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/language/langutils.ml" 148 4931 4962 "src/language/langutils.ml" 148 4931 4963
+type(
+  int
+)
+ident(
+  int_ref i "src/language/langutils.ml" 148 4931 4942 "src/language/langutils.ml" 148 4931 4943
+)
+"src/language/langutils.ml" 148 4931 4947 "src/language/langutils.ml" 148 4931 4964
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 149 4965 4971 "src/language/langutils.ml" 149 4965 4975
+type(
+  Syntax.rint
+)
+"src/language/langutils.ml" 149 4965 4979 "src/language/langutils.ml" 149 4965 4986
+type(
+  string
+)
+"src/language/langutils.ml" 147 4918 4922 "src/language/langutils.ml" 149 4965 4986
+type(
+  Syntax.rint -> string
+)
+type(
+  Syntax.rint -> string
+)
+"src/language/langutils.ml" 151 4988 4992 "src/language/langutils.ml" 151 4988 5008
+type(
+  Syntax.rfloat -> string
+)
+ident(
+  def string_of_rfloat "src/language/langutils.ml" 156 5103 5103 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 153 5042 5053 "src/language/langutils.ml" 153 5042 5054
+type(
+  float
+)
+ident(
+  def f "src/language/langutils.ml" 153 5042 5058 "src/language/langutils.ml" 153 5042 5077
+)
+"src/language/langutils.ml" 153 5042 5048 "src/language/langutils.ml" 153 5042 5054
+type(
+  Syntax.rfloat
+)
+"src/language/langutils.ml" 153 5042 5059 "src/language/langutils.ml" 153 5042 5074
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"src/language/langutils.ml" 153 5042 5075 "src/language/langutils.ml" 153 5042 5076
+type(
+  float
+)
+ident(
+  int_ref f "src/language/langutils.ml" 153 5042 5053 "src/language/langutils.ml" 153 5042 5054
+)
+"src/language/langutils.ml" 153 5042 5058 "src/language/langutils.ml" 153 5042 5077
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 154 5078 5084 "src/language/langutils.ml" 154 5078 5088
+type(
+  Syntax.rfloat
+)
+"src/language/langutils.ml" 154 5078 5092 "src/language/langutils.ml" 154 5078 5101
+type(
+  string
+)
+"src/language/langutils.ml" 152 5029 5033 "src/language/langutils.ml" 154 5078 5101
+type(
+  Syntax.rfloat -> string
+)
+type(
+  Syntax.rfloat -> string
+)
+"src/language/langutils.ml" 156 5103 5107 "src/language/langutils.ml" 156 5103 5125
+type(
+  Syntax.rcomplex -> string
+)
+ident(
+  def string_of_rcomplex "src/language/langutils.ml" 162 5302 5302 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 158 5161 5172 "src/language/langutils.ml" 158 5161 5173
+type(
+  Complex.t
+)
+ident(
+  def c "src/language/langutils.ml" 158 5161 5177 "src/language/langutils.ml" 159 5230 5274
+)
+"src/language/langutils.ml" 158 5161 5167 "src/language/langutils.ml" 158 5161 5173
+type(
+  Syntax.rcomplex
+)
+"src/language/langutils.ml" 158 5161 5177 "src/language/langutils.ml" 158 5161 5188
+type(
+  string
+)
+"src/language/langutils.ml" 158 5161 5189 "src/language/langutils.ml" 158 5161 5190
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 158 5161 5192 "src/language/langutils.ml" 158 5161 5207
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"src/language/langutils.ml" 158 5161 5208 "src/language/langutils.ml" 158 5161 5209
+type(
+  Complex.t
+)
+ident(
+  int_ref c "src/language/langutils.ml" 158 5161 5172 "src/language/langutils.ml" 158 5161 5173
+)
+"src/language/langutils.ml" 158 5161 5208 "src/language/langutils.ml" 158 5161 5220
+type(
+  float
+)
+"src/language/langutils.ml" 158 5161 5191 "src/language/langutils.ml" 158 5161 5221
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 158 5161 5222 "src/language/langutils.ml" 158 5161 5223
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 158 5161 5224 "src/language/langutils.ml" 158 5161 5227
+type(
+  string
+)
+"src/language/langutils.ml" 158 5161 5228 "src/language/langutils.ml" 158 5161 5229
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 159 5230 5239 "src/language/langutils.ml" 159 5230 5254
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"src/language/langutils.ml" 159 5230 5255 "src/language/langutils.ml" 159 5230 5256
+type(
+  Complex.t
+)
+ident(
+  int_ref c "src/language/langutils.ml" 158 5161 5172 "src/language/langutils.ml" 158 5161 5173
+)
+"src/language/langutils.ml" 159 5230 5255 "src/language/langutils.ml" 159 5230 5267
+type(
+  float
+)
+"src/language/langutils.ml" 159 5230 5238 "src/language/langutils.ml" 159 5230 5268
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 159 5230 5269 "src/language/langutils.ml" 159 5230 5270
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/language/langutils.ml" 159 5230 5271 "src/language/langutils.ml" 159 5230 5274
+type(
+  string
+)
+"src/language/langutils.ml" 159 5230 5238 "src/language/langutils.ml" 159 5230 5274
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 158 5161 5224 "src/language/langutils.ml" 159 5230 5274
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 158 5161 5191 "src/language/langutils.ml" 159 5230 5274
+call(
+  stack
+)
+type(
+  string
+)
+"src/language/langutils.ml" 158 5161 5177 "src/language/langutils.ml" 159 5230 5274
+call(
+  tail
+)
+type(
+  string
+)
+"src/language/langutils.ml" 160 5275 5281 "src/language/langutils.ml" 160 5275 5285
+type(
+  Syntax.rcomplex
+)
+"src/language/langutils.ml" 160 5275 5289 "src/language/langutils.ml" 160 5275 5300
+type(
+  string
+)
+"src/language/langutils.ml" 157 5148 5152 "src/language/langutils.ml" 160 5275 5300
+type(
+  Syntax.rcomplex -> string
+)
+type(
+  Syntax.rcomplex -> string
+)
+"src/language/langutils.ml" 162 5302 5306 "src/language/langutils.ml" 162 5302 5321
+type(
+  Syntax.rbool -> string
+)
+ident(
+  def string_of_rbool "src/language/langutils.ml" 165 5404 5426 "src/language/langutils.ml" 1 0 -1
+)
+"src/language/langutils.ml" 164 5354 5365 "src/language/langutils.ml" 164 5354 5366
+type(
+  int
+)
+ident(
+  def b "src/language/langutils.ml" 164 5354 5370 "src/language/langutils.ml" 164 5354 5403
+)
+"src/language/langutils.ml" 164 5354 5360 "src/language/langutils.ml" 164 5354 5366
+type(
+  Syntax.rbool
+)
+"src/language/langutils.ml" 164 5354 5373 "src/language/langutils.ml" 164 5354 5374
+type(
+  int
+)
+ident(
+  int_ref b "src/language/langutils.ml" 164 5354 5365 "src/language/langutils.ml" 164 5354 5366
+)
+"src/language/langutils.ml" 164 5354 5375 "src/language/langutils.ml" 164 5354 5376
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/language/langutils.ml" 164 5354 5377 "src/language/langutils.ml" 164 5354 5378
+type(
+  int
+)
+"src/language/langutils.ml" 164 5354 5373 "src/language/langutils.ml" 164 5354 5378
+type(
+  bool
+)
+"src/language/langutils.ml" 164 5354 5384 "src/language/langutils.ml" 164 5354 5391
+type(
+  string
+)
+"src/language/langutils.ml" 164 5354 5397 "src/language/langutils.ml" 164 5354 5403
+type(
+  string
+)
+"src/language/langutils.ml" 164 5354 5370 "src/language/langutils.ml" 164 5354 5403
+type(
+  string
+)
+"src/language/langutils.ml" 165 5404 5410 "src/language/langutils.ml" 165 5404 5414
+type(
+  Syntax.rbool
+)
+"src/language/langutils.ml" 165 5404 5418 "src/language/langutils.ml" 165 5404 5426
+type(
+  string
+)
+"src/language/langutils.ml" 163 5341 5345 "src/language/langutils.ml" 165 5404 5426
+type(
+  Syntax.rbool -> string
+)
+type(
+  Syntax.rbool -> string
+)

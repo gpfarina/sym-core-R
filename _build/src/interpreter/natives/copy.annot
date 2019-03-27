@@ -1,0 +1,2079 @@
+"src/interpreter/natives/copy.ml" 29 1022 1026 "src/interpreter/natives/copy.ml" 29 1022 1036
+type(
+  ('a * 'b) list -> 'a list * 'b list
+)
+ident(
+  def unzip_list "src/interpreter/natives/copy.ml" 33 1179 1179 "src/interpreter/natives/copy.ml" 1 0 -1
+)
+"src/interpreter/natives/copy.ml" 30 1076 1084 "src/interpreter/natives/copy.ml" 30 1076 1095
+type(
+  ('a * 'b) list
+)
+ident(
+  def zipped_list "src/interpreter/natives/copy.ml" 30 1076 1099 "src/interpreter/natives/copy.ml" 31 1153 1177
+)
+"src/interpreter/natives/copy.ml" 30 1076 1099 "src/interpreter/natives/copy.ml" 30 1076 1114
+type(
+  ('a * 'b -> 'a list * 'b list -> 'a list * 'b list) ->
+  ('a * 'b) list -> 'a list * 'b list -> 'a list * 'b list
+)
+ident(
+  ext_ref List.fold_right
+)
+"src/interpreter/natives/copy.ml" 30 1076 1121 "src/interpreter/natives/copy.ml" 30 1076 1122
+type(
+  'a
+)
+ident(
+  def x "src/interpreter/natives/copy.ml" 30 1076 1127 "src/interpreter/natives/copy.ml" 30 1076 1151
+)
+"src/interpreter/natives/copy.ml" 30 1076 1124 "src/interpreter/natives/copy.ml" 30 1076 1125
+type(
+  'b
+)
+ident(
+  def y "src/interpreter/natives/copy.ml" 30 1076 1127 "src/interpreter/natives/copy.ml" 30 1076 1151
+)
+"src/interpreter/natives/copy.ml" 30 1076 1120 "src/interpreter/natives/copy.ml" 30 1076 1126
+type(
+  'a * 'b
+)
+"src/interpreter/natives/copy.ml" 30 1076 1128 "src/interpreter/natives/copy.ml" 30 1076 1130
+type(
+  'a list
+)
+ident(
+  def al "src/interpreter/natives/copy.ml" 30 1076 1139 "src/interpreter/natives/copy.ml" 30 1076 1151
+)
+"src/interpreter/natives/copy.ml" 30 1076 1132 "src/interpreter/natives/copy.ml" 30 1076 1134
+type(
+  'b list
+)
+ident(
+  def bl "src/interpreter/natives/copy.ml" 30 1076 1139 "src/interpreter/natives/copy.ml" 30 1076 1151
+)
+"src/interpreter/natives/copy.ml" 30 1076 1127 "src/interpreter/natives/copy.ml" 30 1076 1135
+type(
+  'a list * 'b list
+)
+"src/interpreter/natives/copy.ml" 30 1076 1139 "src/interpreter/natives/copy.ml" 30 1076 1140
+type(
+  'a
+)
+ident(
+  int_ref x "src/interpreter/natives/copy.ml" 30 1076 1121 "src/interpreter/natives/copy.ml" 30 1076 1122
+)
+"src/interpreter/natives/copy.ml" 30 1076 1142 "src/interpreter/natives/copy.ml" 30 1076 1144
+type(
+  'a list
+)
+ident(
+  int_ref al "src/interpreter/natives/copy.ml" 30 1076 1128 "src/interpreter/natives/copy.ml" 30 1076 1130
+)
+"src/interpreter/natives/copy.ml" 30 1076 1139 "src/interpreter/natives/copy.ml" 30 1076 1144
+type(
+  'a list
+)
+"src/interpreter/natives/copy.ml" 30 1076 1146 "src/interpreter/natives/copy.ml" 30 1076 1147
+type(
+  'b
+)
+ident(
+  int_ref y "src/interpreter/natives/copy.ml" 30 1076 1124 "src/interpreter/natives/copy.ml" 30 1076 1125
+)
+"src/interpreter/natives/copy.ml" 30 1076 1149 "src/interpreter/natives/copy.ml" 30 1076 1151
+type(
+  'b list
+)
+ident(
+  int_ref bl "src/interpreter/natives/copy.ml" 30 1076 1132 "src/interpreter/natives/copy.ml" 30 1076 1134
+)
+"src/interpreter/natives/copy.ml" 30 1076 1146 "src/interpreter/natives/copy.ml" 30 1076 1151
+type(
+  'b list
+)
+"src/interpreter/natives/copy.ml" 30 1076 1139 "src/interpreter/natives/copy.ml" 30 1076 1151
+type(
+  'a list * 'b list
+)
+"src/interpreter/natives/copy.ml" 30 1076 1115 "src/interpreter/natives/copy.ml" 30 1076 1152
+type(
+  'a * 'b -> 'a list * 'b list -> 'a list * 'b list
+)
+"src/interpreter/natives/copy.ml" 31 1153 1157 "src/interpreter/natives/copy.ml" 31 1153 1168
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref zipped_list "src/interpreter/natives/copy.ml" 30 1076 1084 "src/interpreter/natives/copy.ml" 30 1076 1095
+)
+"src/interpreter/natives/copy.ml" 31 1153 1170 "src/interpreter/natives/copy.ml" 31 1153 1172
+type(
+  'a list
+)
+"src/interpreter/natives/copy.ml" 31 1153 1174 "src/interpreter/natives/copy.ml" 31 1153 1176
+type(
+  'b list
+)
+"src/interpreter/natives/copy.ml" 31 1153 1169 "src/interpreter/natives/copy.ml" 31 1153 1177
+type(
+  'a list * 'b list
+)
+"src/interpreter/natives/copy.ml" 30 1076 1099 "src/interpreter/natives/copy.ml" 31 1153 1177
+call(
+  tail
+)
+type(
+  'a list * 'b list
+)
+"src/interpreter/natives/copy.ml" 30 1076 1080 "src/interpreter/natives/copy.ml" 31 1153 1177
+type(
+  ('a * 'b) list -> 'a list * 'b list
+)
+type(
+  ('a * 'b) list -> 'a list * 'b list
+)
+"src/interpreter/natives/copy.ml" 33 1179 1183 "src/interpreter/natives/copy.ml" 33 1179 1191
+type(
+  'a list -> 'b list -> ('a * 'b) list
+)
+ident(
+  def zip_list "src/interpreter/natives/copy.ml" 36 1285 1285 "src/interpreter/natives/copy.ml" 1 0 -1
+)
+"src/interpreter/natives/copy.ml" 34 1232 1240 "src/interpreter/natives/copy.ml" 34 1232 1242
+type(
+  'a list
+)
+ident(
+  def l1 "src/interpreter/natives/copy.ml" 34 1232 1243 "src/interpreter/natives/copy.ml" 34 1232 1283
+)
+"src/interpreter/natives/copy.ml" 34 1232 1243 "src/interpreter/natives/copy.ml" 34 1232 1245
+type(
+  'b list
+)
+ident(
+  def l2 "src/interpreter/natives/copy.ml" 34 1232 1249 "src/interpreter/natives/copy.ml" 34 1232 1283
+)
+"src/interpreter/natives/copy.ml" 34 1232 1249 "src/interpreter/natives/copy.ml" 34 1232 1258
+type(
+  ('a -> 'b -> 'a * 'b) -> 'a list -> 'b list -> ('a * 'b) list
+)
+ident(
+  ext_ref List.map2
+)
+"src/interpreter/natives/copy.ml" 34 1232 1264 "src/interpreter/natives/copy.ml" 34 1232 1265
+type(
+  'a
+)
+ident(
+  def x "src/interpreter/natives/copy.ml" 34 1232 1266 "src/interpreter/natives/copy.ml" 34 1232 1276
+)
+"src/interpreter/natives/copy.ml" 34 1232 1266 "src/interpreter/natives/copy.ml" 34 1232 1267
+type(
+  'b
+)
+ident(
+  def y "src/interpreter/natives/copy.ml" 34 1232 1271 "src/interpreter/natives/copy.ml" 34 1232 1276
+)
+"src/interpreter/natives/copy.ml" 34 1232 1272 "src/interpreter/natives/copy.ml" 34 1232 1273
+type(
+  'a
+)
+ident(
+  int_ref x "src/interpreter/natives/copy.ml" 34 1232 1264 "src/interpreter/natives/copy.ml" 34 1232 1265
+)
+"src/interpreter/natives/copy.ml" 34 1232 1274 "src/interpreter/natives/copy.ml" 34 1232 1275
+type(
+  'b
+)
+ident(
+  int_ref y "src/interpreter/natives/copy.ml" 34 1232 1266 "src/interpreter/natives/copy.ml" 34 1232 1267
+)
+"src/interpreter/natives/copy.ml" 34 1232 1271 "src/interpreter/natives/copy.ml" 34 1232 1276
+type(
+  'a * 'b
+)
+"src/interpreter/natives/copy.ml" 34 1232 1259 "src/interpreter/natives/copy.ml" 34 1232 1277
+type(
+  'a -> 'b -> 'a * 'b
+)
+"src/interpreter/natives/copy.ml" 34 1232 1278 "src/interpreter/natives/copy.ml" 34 1232 1280
+type(
+  'a list
+)
+ident(
+  int_ref l1 "src/interpreter/natives/copy.ml" 34 1232 1240 "src/interpreter/natives/copy.ml" 34 1232 1242
+)
+"src/interpreter/natives/copy.ml" 34 1232 1281 "src/interpreter/natives/copy.ml" 34 1232 1283
+type(
+  'b list
+)
+ident(
+  int_ref l2 "src/interpreter/natives/copy.ml" 34 1232 1243 "src/interpreter/natives/copy.ml" 34 1232 1245
+)
+"src/interpreter/natives/copy.ml" 34 1232 1249 "src/interpreter/natives/copy.ml" 34 1232 1283
+call(
+  tail
+)
+type(
+  ('a * 'b) list
+)
+"src/interpreter/natives/copy.ml" 34 1232 1236 "src/interpreter/natives/copy.ml" 34 1232 1283
+type(
+  'a list -> 'b list -> ('a * 'b) list
+)
+type(
+  'a list -> 'b list -> ('a * 'b) list
+)
+"src/interpreter/natives/copy.ml" 36 1285 1289 "src/interpreter/natives/copy.ml" 36 1285 1307
+type(
+  ('a, 'b) Hashtbl.t -> ('a * 'b) list
+)
+ident(
+  def hashtable_to_alist "src/interpreter/natives/copy.ml" 40 1424 1424 "src/interpreter/natives/copy.ml" 1 0 -1
+)
+"src/interpreter/natives/copy.ml" 37 1348 1356 "src/interpreter/natives/copy.ml" 37 1348 1365
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  def hashtable "src/interpreter/natives/copy.ml" 38 1369 1373 "src/interpreter/natives/copy.ml" 38 1369 1422
+)
+"src/interpreter/natives/copy.ml" 38 1369 1373 "src/interpreter/natives/copy.ml" 38 1369 1385
+type(
+  ('a -> 'b -> ('a * 'b) list -> ('a * 'b) list) ->
+  ('a, 'b) Hashtbl.t -> ('a * 'b) list -> ('a * 'b) list
+)
+ident(
+  ext_ref Hashtbl.fold
+)
+"src/interpreter/natives/copy.ml" 38 1369 1391 "src/interpreter/natives/copy.ml" 38 1369 1392
+type(
+  'a
+)
+ident(
+  def k "src/interpreter/natives/copy.ml" 38 1369 1393 "src/interpreter/natives/copy.ml" 38 1369 1408
+)
+"src/interpreter/natives/copy.ml" 38 1369 1393 "src/interpreter/natives/copy.ml" 38 1369 1394
+type(
+  'b
+)
+ident(
+  def v "src/interpreter/natives/copy.ml" 38 1369 1395 "src/interpreter/natives/copy.ml" 38 1369 1408
+)
+"src/interpreter/natives/copy.ml" 38 1369 1395 "src/interpreter/natives/copy.ml" 38 1369 1396
+type(
+  ('a * 'b) list
+)
+ident(
+  def l "src/interpreter/natives/copy.ml" 38 1369 1400 "src/interpreter/natives/copy.ml" 38 1369 1408
+)
+"src/interpreter/natives/copy.ml" 38 1369 1401 "src/interpreter/natives/copy.ml" 38 1369 1402
+type(
+  'a
+)
+ident(
+  int_ref k "src/interpreter/natives/copy.ml" 38 1369 1391 "src/interpreter/natives/copy.ml" 38 1369 1392
+)
+"src/interpreter/natives/copy.ml" 38 1369 1403 "src/interpreter/natives/copy.ml" 38 1369 1404
+type(
+  'b
+)
+ident(
+  int_ref v "src/interpreter/natives/copy.ml" 38 1369 1393 "src/interpreter/natives/copy.ml" 38 1369 1394
+)
+"src/interpreter/natives/copy.ml" 38 1369 1400 "src/interpreter/natives/copy.ml" 38 1369 1405
+type(
+  'a * 'b
+)
+"src/interpreter/natives/copy.ml" 38 1369 1407 "src/interpreter/natives/copy.ml" 38 1369 1408
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref l "src/interpreter/natives/copy.ml" 38 1369 1395 "src/interpreter/natives/copy.ml" 38 1369 1396
+)
+"src/interpreter/natives/copy.ml" 38 1369 1400 "src/interpreter/natives/copy.ml" 38 1369 1408
+type(
+  ('a * 'b) list
+)
+"src/interpreter/natives/copy.ml" 38 1369 1386 "src/interpreter/natives/copy.ml" 38 1369 1409
+type(
+  'a -> 'b -> ('a * 'b) list -> ('a * 'b) list
+)
+"src/interpreter/natives/copy.ml" 38 1369 1410 "src/interpreter/natives/copy.ml" 38 1369 1419
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref hashtable "src/interpreter/natives/copy.ml" 37 1348 1356 "src/interpreter/natives/copy.ml" 37 1348 1365
+)
+"src/interpreter/natives/copy.ml" 38 1369 1420 "src/interpreter/natives/copy.ml" 38 1369 1422
+type(
+  ('a * 'b) list
+)
+"src/interpreter/natives/copy.ml" 38 1369 1373 "src/interpreter/natives/copy.ml" 38 1369 1422
+call(
+  tail
+)
+type(
+  ('a * 'b) list
+)
+"src/interpreter/natives/copy.ml" 37 1348 1352 "src/interpreter/natives/copy.ml" 38 1369 1422
+type(
+  ('a, 'b) Hashtbl.t -> ('a * 'b) list
+)
+type(
+  ('a, 'b) Hashtbl.t -> ('a * 'b) list
+)
+"src/interpreter/natives/copy.ml" 40 1424 1428 "src/interpreter/natives/copy.ml" 40 1424 1446
+type(
+  ('a * 'b) list -> ('a, 'b) Hashtbl.t
+)
+ident(
+  def alist_to_hashtable "src/interpreter/natives/copy.ml" 47 1706 1706 "src/interpreter/natives/copy.ml" 1 0 -1
+)
+"src/interpreter/natives/copy.ml" 41 1487 1495 "src/interpreter/natives/copy.ml" 41 1487 1500
+type(
+  ('a * 'b) list
+)
+ident(
+  def alist "src/interpreter/natives/copy.ml" 42 1504 1512 "src/interpreter/natives/copy.ml" 44 1654 1663
+)
+"src/interpreter/natives/copy.ml" 42 1504 1516 "src/interpreter/natives/copy.ml" 42 1504 1517
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  def h "src/interpreter/natives/copy.ml" 43 1585 1593 "src/interpreter/natives/copy.ml" 44 1654 1663
+)
+"src/interpreter/natives/copy.ml" 42 1504 1520 "src/interpreter/natives/copy.ml" 42 1504 1534
+type(
+  ?random:bool -> int -> ('a, 'b) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"src/interpreter/natives/copy.ml" 42 1504 1536 "src/interpreter/natives/copy.ml" 42 1504 1547
+type(
+  ('a * 'b) list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/interpreter/natives/copy.ml" 42 1504 1548 "src/interpreter/natives/copy.ml" 42 1504 1553
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref alist "src/interpreter/natives/copy.ml" 41 1487 1495 "src/interpreter/natives/copy.ml" 41 1487 1500
+)
+"src/interpreter/natives/copy.ml" 42 1504 1535 "src/interpreter/natives/copy.ml" 42 1504 1554
+call(
+  stack
+)
+type(
+  int
+)
+"src/interpreter/natives/copy.ml" 42 1504 1520 "src/interpreter/natives/copy.ml" 42 1504 1554
+call(
+  stack
+)
+type(
+  ('a, 'b) Hashtbl.t
+)
+"src/interpreter/natives/copy.ml" 43 1585 1597 "src/interpreter/natives/copy.ml" 43 1585 1598
+type(
+  unit
+)
+"src/interpreter/natives/copy.ml" 43 1585 1601 "src/interpreter/natives/copy.ml" 43 1585 1610
+type(
+  ('a * 'b -> unit) -> ('a * 'b) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/interpreter/natives/copy.ml" 43 1585 1617 "src/interpreter/natives/copy.ml" 43 1585 1618
+type(
+  'a
+)
+ident(
+  def k "src/interpreter/natives/copy.ml" 43 1585 1626 "src/interpreter/natives/copy.ml" 43 1585 1643
+)
+"src/interpreter/natives/copy.ml" 43 1585 1620 "src/interpreter/natives/copy.ml" 43 1585 1621
+type(
+  'b
+)
+ident(
+  def v "src/interpreter/natives/copy.ml" 43 1585 1626 "src/interpreter/natives/copy.ml" 43 1585 1643
+)
+"src/interpreter/natives/copy.ml" 43 1585 1616 "src/interpreter/natives/copy.ml" 43 1585 1622
+type(
+  'a * 'b
+)
+"src/interpreter/natives/copy.ml" 43 1585 1626 "src/interpreter/natives/copy.ml" 43 1585 1637
+type(
+  ('a, 'b) Hashtbl.t -> 'a -> 'b -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"src/interpreter/natives/copy.ml" 43 1585 1638 "src/interpreter/natives/copy.ml" 43 1585 1639
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref h "src/interpreter/natives/copy.ml" 42 1504 1516 "src/interpreter/natives/copy.ml" 42 1504 1517
+)
+"src/interpreter/natives/copy.ml" 43 1585 1640 "src/interpreter/natives/copy.ml" 43 1585 1641
+type(
+  'a
+)
+ident(
+  int_ref k "src/interpreter/natives/copy.ml" 43 1585 1617 "src/interpreter/natives/copy.ml" 43 1585 1618
+)
+"src/interpreter/natives/copy.ml" 43 1585 1642 "src/interpreter/natives/copy.ml" 43 1585 1643
+type(
+  'b
+)
+ident(
+  int_ref v "src/interpreter/natives/copy.ml" 43 1585 1620 "src/interpreter/natives/copy.ml" 43 1585 1621
+)
+"src/interpreter/natives/copy.ml" 43 1585 1626 "src/interpreter/natives/copy.ml" 43 1585 1643
+call(
+  tail
+)
+type(
+  unit
+)
+"src/interpreter/natives/copy.ml" 43 1585 1611 "src/interpreter/natives/copy.ml" 43 1585 1644
+type(
+  'a * 'b -> unit
+)
+"src/interpreter/natives/copy.ml" 43 1585 1645 "src/interpreter/natives/copy.ml" 43 1585 1650
+type(
+  ('a * 'b) list
+)
+ident(
+  int_ref alist "src/interpreter/natives/copy.ml" 41 1487 1495 "src/interpreter/natives/copy.ml" 41 1487 1500
+)
+"src/interpreter/natives/copy.ml" 43 1585 1601 "src/interpreter/natives/copy.ml" 43 1585 1650
+call(
+  stack
+)
+type(
+  unit
+)
+"src/interpreter/natives/copy.ml" 44 1654 1662 "src/interpreter/natives/copy.ml" 44 1654 1663
+type(
+  ('a, 'b) Hashtbl.t
+)
+ident(
+  int_ref h "src/interpreter/natives/copy.ml" 42 1504 1516 "src/interpreter/natives/copy.ml" 42 1504 1517
+)
+"src/interpreter/natives/copy.ml" 43 1585 1593 "src/interpreter/natives/copy.ml" 44 1654 1663
+type(
+  ('a, 'b) Hashtbl.t
+)
+"src/interpreter/natives/copy.ml" 42 1504 1512 "src/interpreter/natives/copy.ml" 44 1654 1663
+type(
+  ('a, 'b) Hashtbl.t
+)
+"src/interpreter/natives/copy.ml" 41 1487 1491 "src/interpreter/natives/copy.ml" 44 1654 1663
+type(
+  ('a * 'b) list -> ('a, 'b) Hashtbl.t
+)
+type(
+  ('a * 'b) list -> ('a, 'b) Hashtbl.t
+)
+"src/interpreter/natives/copy.ml" 47 1706 1710 "src/interpreter/natives/copy.ml" 47 1706 1722
+type(
+  S.state -> S.rvector -> S.rvector * S.state
+)
+ident(
+  def copy_rvector "src/interpreter/natives/copy.ml" 68 2548 2548 "src/interpreter/natives/copy.ml" 1 0 -1
+)
+"src/interpreter/natives/copy.ml" 48 1772 1780 "src/interpreter/natives/copy.ml" 48 1772 1785
+type(
+  S.state
+)
+ident(
+  def state "src/interpreter/natives/copy.ml" 48 1772 1786 "src/interpreter/natives/copy.ml" 56 2152 2205
+)
+"src/interpreter/natives/copy.ml" 48 1772 1786 "src/interpreter/natives/copy.ml" 48 1772 1789
+type(
+  S.rvector
+)
+ident(
+  def vec "src/interpreter/natives/copy.ml" 49 1793 1797 "src/interpreter/natives/copy.ml" 56 2152 2205
+)
+"src/interpreter/natives/copy.ml" 49 1793 1803 "src/interpreter/natives/copy.ml" 49 1793 1806
+type(
+  S.rvector
+)
+ident(
+  int_ref vec "src/interpreter/natives/copy.ml" 48 1772 1786 "src/interpreter/natives/copy.ml" 48 1772 1789
+)
+"src/interpreter/natives/copy.ml" 50 1812 1827 "src/interpreter/natives/copy.ml" 50 1812 1828
+type(
+  S.rint array
+)
+ident(
+  def v "src/interpreter/natives/copy.ml" 50 1812 1832 "src/interpreter/natives/copy.ml" 50 1812 1864
+)
+"src/interpreter/natives/copy.ml" 50 1812 1818 "src/interpreter/natives/copy.ml" 50 1812 1828
+type(
+  S.rvector
+)
+"src/interpreter/natives/copy.ml" 50 1812 1843 "src/interpreter/natives/copy.ml" 50 1812 1853
+type(
+  S.rint array -> S.rint array
+)
+ident(
+  ext_ref Array.copy
+)
+"src/interpreter/natives/copy.ml" 50 1812 1854 "src/interpreter/natives/copy.ml" 50 1812 1855
+type(
+  S.rint array
+)
+ident(
+  int_ref v "src/interpreter/natives/copy.ml" 50 1812 1827 "src/interpreter/natives/copy.ml" 50 1812 1828
+)
+"src/interpreter/natives/copy.ml" 50 1812 1842 "src/interpreter/natives/copy.ml" 50 1812 1856
+call(
+  stack
+)
+type(
+  S.rint array
+)
+"src/interpreter/natives/copy.ml" 50 1812 1833 "src/interpreter/natives/copy.ml" 50 1812 1856
+type(
+  S.rvector
+)
+"src/interpreter/natives/copy.ml" 50 1812 1858 "src/interpreter/natives/copy.ml" 50 1812 1863
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 48 1772 1780 "src/interpreter/natives/copy.ml" 48 1772 1785
+)
+"src/interpreter/natives/copy.ml" 50 1812 1832 "src/interpreter/natives/copy.ml" 50 1812 1864
+type(
+  S.rvector * S.state
+)
+"src/interpreter/natives/copy.ml" 51 1865 1882 "src/interpreter/natives/copy.ml" 51 1865 1883
+type(
+  S.rfloat array
+)
+ident(
+  def v "src/interpreter/natives/copy.ml" 51 1865 1887 "src/interpreter/natives/copy.ml" 51 1865 1921
+)
+"src/interpreter/natives/copy.ml" 51 1865 1871 "src/interpreter/natives/copy.ml" 51 1865 1883
+type(
+  S.rvector
+)
+"src/interpreter/natives/copy.ml" 51 1865 1900 "src/interpreter/natives/copy.ml" 51 1865 1910
+type(
+  S.rfloat array -> S.rfloat array
+)
+ident(
+  ext_ref Array.copy
+)
+"src/interpreter/natives/copy.ml" 51 1865 1911 "src/interpreter/natives/copy.ml" 51 1865 1912
+type(
+  S.rfloat array
+)
+ident(
+  int_ref v "src/interpreter/natives/copy.ml" 51 1865 1882 "src/interpreter/natives/copy.ml" 51 1865 1883
+)
+"src/interpreter/natives/copy.ml" 51 1865 1899 "src/interpreter/natives/copy.ml" 51 1865 1913
+call(
+  stack
+)
+type(
+  S.rfloat array
+)
+"src/interpreter/natives/copy.ml" 51 1865 1888 "src/interpreter/natives/copy.ml" 51 1865 1913
+type(
+  S.rvector
+)
+"src/interpreter/natives/copy.ml" 51 1865 1915 "src/interpreter/natives/copy.ml" 51 1865 1920
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 48 1772 1780 "src/interpreter/natives/copy.ml" 48 1772 1785
+)
+"src/interpreter/natives/copy.ml" 51 1865 1887 "src/interpreter/natives/copy.ml" 51 1865 1921
+type(
+  S.rvector * S.state
+)
+"src/interpreter/natives/copy.ml" 52 1922 1941 "src/interpreter/natives/copy.ml" 52 1922 1942
+type(
+  S.rcomplex array
+)
+ident(
+  def v "src/interpreter/natives/copy.ml" 52 1922 1946 "src/interpreter/natives/copy.ml" 52 1922 1982
+)
+"src/interpreter/natives/copy.ml" 52 1922 1928 "src/interpreter/natives/copy.ml" 52 1922 1942
+type(
+  S.rvector
+)
+"src/interpreter/natives/copy.ml" 52 1922 1961 "src/interpreter/natives/copy.ml" 52 1922 1971
+type(
+  S.rcomplex array -> S.rcomplex array
+)
+ident(
+  ext_ref Array.copy
+)
+"src/interpreter/natives/copy.ml" 52 1922 1972 "src/interpreter/natives/copy.ml" 52 1922 1973
+type(
+  S.rcomplex array
+)
+ident(
+  int_ref v "src/interpreter/natives/copy.ml" 52 1922 1941 "src/interpreter/natives/copy.ml" 52 1922 1942
+)
+"src/interpreter/natives/copy.ml" 52 1922 1960 "src/interpreter/natives/copy.ml" 52 1922 1974
+call(
+  stack
+)
+type(
+  S.rcomplex array
+)
+"src/interpreter/natives/copy.ml" 52 1922 1947 "src/interpreter/natives/copy.ml" 52 1922 1974
+type(
+  S.rvector
+)
+"src/interpreter/natives/copy.ml" 52 1922 1976 "src/interpreter/natives/copy.ml" 52 1922 1981
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 48 1772 1780 "src/interpreter/natives/copy.ml" 48 1772 1785
+)
+"src/interpreter/natives/copy.ml" 52 1922 1946 "src/interpreter/natives/copy.ml" 52 1922 1982
+type(
+  S.rvector * S.state
+)
+"src/interpreter/natives/copy.ml" 53 1983 1998 "src/interpreter/natives/copy.ml" 53 1983 1999
+type(
+  S.rstring array
+)
+ident(
+  def v "src/interpreter/natives/copy.ml" 53 1983 2003 "src/interpreter/natives/copy.ml" 53 1983 2035
+)
+"src/interpreter/natives/copy.ml" 53 1983 1989 "src/interpreter/natives/copy.ml" 53 1983 1999
+type(
+  S.rvector
+)
+"src/interpreter/natives/copy.ml" 53 1983 2014 "src/interpreter/natives/copy.ml" 53 1983 2024
+type(
+  S.rstring array -> S.rstring array
+)
+ident(
+  ext_ref Array.copy
+)
+"src/interpreter/natives/copy.ml" 53 1983 2025 "src/interpreter/natives/copy.ml" 53 1983 2026
+type(
+  S.rstring array
+)
+ident(
+  int_ref v "src/interpreter/natives/copy.ml" 53 1983 1998 "src/interpreter/natives/copy.ml" 53 1983 1999
+)
+"src/interpreter/natives/copy.ml" 53 1983 2013 "src/interpreter/natives/copy.ml" 53 1983 2027
+call(
+  stack
+)
+type(
+  S.rstring array
+)
+"src/interpreter/natives/copy.ml" 53 1983 2004 "src/interpreter/natives/copy.ml" 53 1983 2027
+type(
+  S.rvector
+)
+"src/interpreter/natives/copy.ml" 53 1983 2029 "src/interpreter/natives/copy.ml" 53 1983 2034
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 48 1772 1780 "src/interpreter/natives/copy.ml" 48 1772 1785
+)
+"src/interpreter/natives/copy.ml" 53 1983 2003 "src/interpreter/natives/copy.ml" 53 1983 2035
+type(
+  S.rvector * S.state
+)
+"src/interpreter/natives/copy.ml" 54 2036 2052 "src/interpreter/natives/copy.ml" 54 2036 2053
+type(
+  S.rbool array
+)
+ident(
+  def v "src/interpreter/natives/copy.ml" 54 2036 2057 "src/interpreter/natives/copy.ml" 54 2036 2090
+)
+"src/interpreter/natives/copy.ml" 54 2036 2042 "src/interpreter/natives/copy.ml" 54 2036 2053
+type(
+  S.rvector
+)
+"src/interpreter/natives/copy.ml" 54 2036 2069 "src/interpreter/natives/copy.ml" 54 2036 2079
+type(
+  S.rbool array -> S.rbool array
+)
+ident(
+  ext_ref Array.copy
+)
+"src/interpreter/natives/copy.ml" 54 2036 2080 "src/interpreter/natives/copy.ml" 54 2036 2081
+type(
+  S.rbool array
+)
+ident(
+  int_ref v "src/interpreter/natives/copy.ml" 54 2036 2052 "src/interpreter/natives/copy.ml" 54 2036 2053
+)
+"src/interpreter/natives/copy.ml" 54 2036 2068 "src/interpreter/natives/copy.ml" 54 2036 2082
+call(
+  stack
+)
+type(
+  S.rbool array
+)
+"src/interpreter/natives/copy.ml" 54 2036 2058 "src/interpreter/natives/copy.ml" 54 2036 2082
+type(
+  S.rvector
+)
+"src/interpreter/natives/copy.ml" 54 2036 2084 "src/interpreter/natives/copy.ml" 54 2036 2089
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 48 1772 1780 "src/interpreter/natives/copy.ml" 48 1772 1785
+)
+"src/interpreter/natives/copy.ml" 54 2036 2057 "src/interpreter/natives/copy.ml" 54 2036 2090
+type(
+  S.rvector * S.state
+)
+"src/interpreter/natives/copy.ml" 55 2091 2106 "src/interpreter/natives/copy.ml" 55 2091 2107
+type(
+  S.symvec
+)
+ident(
+  def s "src/interpreter/natives/copy.ml" 55 2091 2111 "src/interpreter/natives/copy.ml" 56 2152 2205
+)
+"src/interpreter/natives/copy.ml" 55 2091 2097 "src/interpreter/natives/copy.ml" 55 2091 2107
+type(
+  S.rvector
+)
+"src/interpreter/natives/copy.ml" 55 2091 2115 "src/interpreter/natives/copy.ml" 55 2091 2119
+type(
+  string
+)
+ident(
+  def name "src/interpreter/natives/copy.ml" 56 2152 2160 "src/interpreter/natives/copy.ml" 56 2152 2205
+)
+"src/interpreter/natives/copy.ml" 55 2091 2121 "src/interpreter/natives/copy.ml" 55 2091 2127
+type(
+  S.state
+)
+ident(
+  def state' "src/interpreter/natives/copy.ml" 56 2152 2160 "src/interpreter/natives/copy.ml" 56 2152 2205
+)
+"src/interpreter/natives/copy.ml" 55 2091 2115 "src/interpreter/natives/copy.ml" 55 2091 2127
+type(
+  string * S.state
+)
+"src/interpreter/natives/copy.ml" 55 2091 2130 "src/interpreter/natives/copy.ml" 55 2091 2142
+type(
+  S.state -> string * S.state
+)
+ident(
+  ext_ref S.name_fresh
+)
+"src/interpreter/natives/copy.ml" 55 2091 2143 "src/interpreter/natives/copy.ml" 55 2091 2148
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 48 1772 1780 "src/interpreter/natives/copy.ml" 48 1772 1785
+)
+"src/interpreter/natives/copy.ml" 55 2091 2130 "src/interpreter/natives/copy.ml" 55 2091 2148
+call(
+  stack
+)
+type(
+  string * S.state
+)
+"src/interpreter/natives/copy.ml" 56 2152 2171 "src/interpreter/natives/copy.ml" 56 2152 2188
+type(
+  Smtsyntax.smtvar -> Sym.S.symvec -> Sym.S.symvec
+)
+ident(
+  ext_ref Sym.copy_symbolic
+)
+"src/interpreter/natives/copy.ml" 56 2152 2189 "src/interpreter/natives/copy.ml" 56 2152 2193
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref name "src/interpreter/natives/copy.ml" 55 2091 2115 "src/interpreter/natives/copy.ml" 55 2091 2119
+)
+"src/interpreter/natives/copy.ml" 56 2152 2194 "src/interpreter/natives/copy.ml" 56 2152 2195
+type(
+  S.symvec
+)
+ident(
+  int_ref s "src/interpreter/natives/copy.ml" 55 2091 2106 "src/interpreter/natives/copy.ml" 55 2091 2107
+)
+"src/interpreter/natives/copy.ml" 56 2152 2170 "src/interpreter/natives/copy.ml" 56 2152 2196
+call(
+  stack
+)
+type(
+  Sym.S.symvec
+)
+"src/interpreter/natives/copy.ml" 56 2152 2161 "src/interpreter/natives/copy.ml" 56 2152 2196
+type(
+  S.rvector
+)
+"src/interpreter/natives/copy.ml" 56 2152 2198 "src/interpreter/natives/copy.ml" 56 2152 2204
+type(
+  S.state
+)
+ident(
+  int_ref state' "src/interpreter/natives/copy.ml" 55 2091 2121 "src/interpreter/natives/copy.ml" 55 2091 2127
+)
+"src/interpreter/natives/copy.ml" 56 2152 2160 "src/interpreter/natives/copy.ml" 56 2152 2205
+type(
+  S.rvector * S.state
+)
+"src/interpreter/natives/copy.ml" 55 2091 2111 "src/interpreter/natives/copy.ml" 56 2152 2205
+type(
+  S.rvector * S.state
+)
+"src/interpreter/natives/copy.ml" 49 1793 1797 "src/interpreter/natives/copy.ml" 56 2152 2205
+type(
+  S.rvector * S.state
+)
+"src/interpreter/natives/copy.ml" 48 1772 1776 "src/interpreter/natives/copy.ml" 56 2152 2205
+type(
+  S.state -> S.rvector -> S.rvector * S.state
+)
+type(
+  S.state -> S.rvector -> S.rvector * S.state
+)
+"src/interpreter/natives/copy.ml" 68 2548 2556 "src/interpreter/natives/copy.ml" 68 2548 2570
+type(
+  S.memref list -> S.state -> S.memref list * S.state
+)
+ident(
+  def copy_ref_array "src/interpreter/natives/copy.ml" 68 2548 2548 "src/interpreter/natives/copy.ml" 1 0 -1
+)
+"src/interpreter/natives/copy.ml" 69 2628 2636 "src/interpreter/natives/copy.ml" 69 2628 2640
+type(
+  S.memref list
+)
+ident(
+  def mems "src/interpreter/natives/copy.ml" 69 2628 2641 "src/interpreter/natives/copy.ml" 70 2650 2686
+)
+"src/interpreter/natives/copy.ml" 69 2628 2641 "src/interpreter/natives/copy.ml" 69 2628 2646
+type(
+  S.state
+)
+ident(
+  def state "src/interpreter/natives/copy.ml" 70 2650 2654 "src/interpreter/natives/copy.ml" 70 2650 2686
+)
+"src/interpreter/natives/copy.ml" 70 2650 2654 "src/interpreter/natives/copy.ml" 70 2650 2665
+type(
+  (S.memref -> S.state -> S.memref * S.state) ->
+  S.memref list -> S.state -> S.memref list * S.state
+)
+ident(
+  ext_ref S.state_map
+)
+"src/interpreter/natives/copy.ml" 70 2650 2666 "src/interpreter/natives/copy.ml" 70 2650 2675
+type(
+  S.memref -> S.state -> S.memref * S.state
+)
+ident(
+  int_ref deep_copy "src/interpreter/natives/copy.ml" 95 3745 3749 "src/interpreter/natives/copy.ml" 95 3745 3758
+)
+"src/interpreter/natives/copy.ml" 70 2650 2676 "src/interpreter/natives/copy.ml" 70 2650 2680
+type(
+  S.memref list
+)
+ident(
+  int_ref mems "src/interpreter/natives/copy.ml" 69 2628 2636 "src/interpreter/natives/copy.ml" 69 2628 2640
+)
+"src/interpreter/natives/copy.ml" 70 2650 2681 "src/interpreter/natives/copy.ml" 70 2650 2686
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 69 2628 2641 "src/interpreter/natives/copy.ml" 69 2628 2646
+)
+"src/interpreter/natives/copy.ml" 70 2650 2654 "src/interpreter/natives/copy.ml" 70 2650 2686
+call(
+  tail
+)
+type(
+  S.memref list * S.state
+)
+"src/interpreter/natives/copy.ml" 69 2628 2632 "src/interpreter/natives/copy.ml" 70 2650 2686
+type(
+  S.memref list -> S.state -> S.memref list * S.state
+)
+type(
+  S.memref list -> S.state -> S.memref list * S.state
+)
+"src/interpreter/natives/copy.ml" 73 2748 2752 "src/interpreter/natives/copy.ml" 73 2748 2762
+type(
+  'a. ('a * S.memref) list -> S.state -> ('a * S.memref) list * S.state
+)
+ident(
+  def copy_alist "src/interpreter/natives/copy.ml" 68 2548 2548 "src/interpreter/natives/copy.ml" 1 0 -1
+)
+"src/interpreter/natives/copy.ml" 74 2835 2843 "src/interpreter/natives/copy.ml" 74 2835 2848
+type(
+  ('a * S.memref) list
+)
+ident(
+  def alist "src/interpreter/natives/copy.ml" 74 2835 2849 "src/interpreter/natives/copy.ml" 77 2952 2987
+)
+"src/interpreter/natives/copy.ml" 74 2835 2849 "src/interpreter/natives/copy.ml" 74 2835 2854
+type(
+  S.state
+)
+ident(
+  def state "src/interpreter/natives/copy.ml" 75 2858 2862 "src/interpreter/natives/copy.ml" 77 2952 2987
+)
+"src/interpreter/natives/copy.ml" 75 2858 2866 "src/interpreter/natives/copy.ml" 75 2858 2870
+type(
+  'a list
+)
+ident(
+  def keys "src/interpreter/natives/copy.ml" 76 2899 2903 "src/interpreter/natives/copy.ml" 77 2952 2987
+)
+"src/interpreter/natives/copy.ml" 75 2858 2872 "src/interpreter/natives/copy.ml" 75 2858 2876
+type(
+  S.memref list
+)
+ident(
+  def mems "src/interpreter/natives/copy.ml" 76 2899 2903 "src/interpreter/natives/copy.ml" 77 2952 2987
+)
+"src/interpreter/natives/copy.ml" 75 2858 2866 "src/interpreter/natives/copy.ml" 75 2858 2876
+type(
+  'a list * S.memref list
+)
+"src/interpreter/natives/copy.ml" 75 2858 2879 "src/interpreter/natives/copy.ml" 75 2858 2889
+type(
+  ('a * S.memref) list -> 'a list * S.memref list
+)
+ident(
+  int_ref unzip_list "src/interpreter/natives/copy.ml" 29 1022 1026 "src/interpreter/natives/copy.ml" 29 1022 1036
+)
+"src/interpreter/natives/copy.ml" 75 2858 2890 "src/interpreter/natives/copy.ml" 75 2858 2895
+type(
+  ('a * S.memref) list
+)
+ident(
+  int_ref alist "src/interpreter/natives/copy.ml" 74 2835 2843 "src/interpreter/natives/copy.ml" 74 2835 2848
+)
+"src/interpreter/natives/copy.ml" 75 2858 2879 "src/interpreter/natives/copy.ml" 75 2858 2895
+call(
+  stack
+)
+type(
+  'a list * S.memref list
+)
+"src/interpreter/natives/copy.ml" 76 2899 2907 "src/interpreter/natives/copy.ml" 76 2899 2912
+type(
+  S.memref list
+)
+ident(
+  def mems' "src/interpreter/natives/copy.ml" 77 2952 2956 "src/interpreter/natives/copy.ml" 77 2952 2987
+)
+"src/interpreter/natives/copy.ml" 76 2899 2914 "src/interpreter/natives/copy.ml" 76 2899 2920
+type(
+  S.state
+)
+ident(
+  def state' "src/interpreter/natives/copy.ml" 77 2952 2956 "src/interpreter/natives/copy.ml" 77 2952 2987
+)
+"src/interpreter/natives/copy.ml" 76 2899 2907 "src/interpreter/natives/copy.ml" 76 2899 2920
+type(
+  S.memref list * S.state
+)
+"src/interpreter/natives/copy.ml" 76 2899 2923 "src/interpreter/natives/copy.ml" 76 2899 2937
+type(
+  S.memref list -> S.state -> S.memref list * S.state
+)
+ident(
+  int_ref copy_ref_array "src/interpreter/natives/copy.ml" 68 2548 2556 "src/interpreter/natives/copy.ml" 68 2548 2570
+)
+"src/interpreter/natives/copy.ml" 76 2899 2938 "src/interpreter/natives/copy.ml" 76 2899 2942
+type(
+  S.memref list
+)
+ident(
+  int_ref mems "src/interpreter/natives/copy.ml" 75 2858 2872 "src/interpreter/natives/copy.ml" 75 2858 2876
+)
+"src/interpreter/natives/copy.ml" 76 2899 2943 "src/interpreter/natives/copy.ml" 76 2899 2948
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 74 2835 2849 "src/interpreter/natives/copy.ml" 74 2835 2854
+)
+"src/interpreter/natives/copy.ml" 76 2899 2923 "src/interpreter/natives/copy.ml" 76 2899 2948
+call(
+  stack
+)
+type(
+  S.memref list * S.state
+)
+"src/interpreter/natives/copy.ml" 77 2952 2958 "src/interpreter/natives/copy.ml" 77 2952 2966
+type(
+  'a list -> S.memref list -> ('a * S.memref) list
+)
+ident(
+  int_ref zip_list "src/interpreter/natives/copy.ml" 33 1179 1183 "src/interpreter/natives/copy.ml" 33 1179 1191
+)
+"src/interpreter/natives/copy.ml" 77 2952 2967 "src/interpreter/natives/copy.ml" 77 2952 2971
+type(
+  'a list
+)
+ident(
+  int_ref keys "src/interpreter/natives/copy.ml" 75 2858 2866 "src/interpreter/natives/copy.ml" 75 2858 2870
+)
+"src/interpreter/natives/copy.ml" 77 2952 2972 "src/interpreter/natives/copy.ml" 77 2952 2977
+type(
+  S.memref list
+)
+ident(
+  int_ref mems' "src/interpreter/natives/copy.ml" 76 2899 2907 "src/interpreter/natives/copy.ml" 76 2899 2912
+)
+"src/interpreter/natives/copy.ml" 77 2952 2957 "src/interpreter/natives/copy.ml" 77 2952 2978
+call(
+  stack
+)
+type(
+  ('a * S.memref) list
+)
+"src/interpreter/natives/copy.ml" 77 2952 2980 "src/interpreter/natives/copy.ml" 77 2952 2986
+type(
+  S.state
+)
+ident(
+  int_ref state' "src/interpreter/natives/copy.ml" 76 2899 2914 "src/interpreter/natives/copy.ml" 76 2899 2920
+)
+"src/interpreter/natives/copy.ml" 77 2952 2956 "src/interpreter/natives/copy.ml" 77 2952 2987
+type(
+  ('a * S.memref) list * S.state
+)
+"src/interpreter/natives/copy.ml" 76 2899 2903 "src/interpreter/natives/copy.ml" 77 2952 2987
+type(
+  ('a * S.memref) list * S.state
+)
+"src/interpreter/natives/copy.ml" 75 2858 2862 "src/interpreter/natives/copy.ml" 77 2952 2987
+type(
+  ('a * S.memref) list * S.state
+)
+"src/interpreter/natives/copy.ml" 74 2835 2839 "src/interpreter/natives/copy.ml" 77 2952 2987
+type(
+  ('a * S.memref) list -> S.state -> ('a * S.memref) list * S.state
+)
+"src/interpreter/natives/copy.ml" 79 3016 3020 "src/interpreter/natives/copy.ml" 79 3016 3028
+type(
+  S.env -> S.state -> S.env * S.state
+)
+ident(
+  def copy_env "src/interpreter/natives/copy.ml" 68 2548 2548 "src/interpreter/natives/copy.ml" 1 0 -1
+)
+"src/interpreter/natives/copy.ml" 80 3070 3078 "src/interpreter/natives/copy.ml" 80 3070 3081
+type(
+  S.env
+)
+ident(
+  def env "src/interpreter/natives/copy.ml" 80 3070 3082 "src/interpreter/natives/copy.ml" 85 3339 3358
+)
+"src/interpreter/natives/copy.ml" 80 3070 3082 "src/interpreter/natives/copy.ml" 80 3070 3087
+type(
+  S.state
+)
+ident(
+  def state "src/interpreter/natives/copy.ml" 81 3091 3095 "src/interpreter/natives/copy.ml" 85 3339 3358
+)
+"src/interpreter/natives/copy.ml" 81 3091 3099 "src/interpreter/natives/copy.ml" 81 3091 3107
+type(
+  (S.IdentMap.key * S.memref) list
+)
+ident(
+  def bindings "src/interpreter/natives/copy.ml" 82 3146 3150 "src/interpreter/natives/copy.ml" 85 3339 3358
+)
+"src/interpreter/natives/copy.ml" 81 3091 3110 "src/interpreter/natives/copy.ml" 81 3091 3129
+type(
+  S.memref S.IdentMap.t -> (S.IdentMap.key * S.memref) list
+)
+ident(
+  ext_ref S.IdentMap.bindings
+)
+"src/interpreter/natives/copy.ml" 81 3091 3130 "src/interpreter/natives/copy.ml" 81 3091 3133
+type(
+  S.env
+)
+ident(
+  int_ref env "src/interpreter/natives/copy.ml" 80 3070 3078 "src/interpreter/natives/copy.ml" 80 3070 3081
+)
+"src/interpreter/natives/copy.ml" 81 3091 3130 "src/interpreter/natives/copy.ml" 81 3091 3142
+type(
+  S.memref S.IdentMap.t
+)
+"src/interpreter/natives/copy.ml" 81 3091 3110 "src/interpreter/natives/copy.ml" 81 3091 3142
+call(
+  stack
+)
+type(
+  (S.IdentMap.key * S.memref) list
+)
+"src/interpreter/natives/copy.ml" 82 3146 3154 "src/interpreter/natives/copy.ml" 82 3146 3160
+type(
+  (S.IdentMap.key * S.memref) list
+)
+ident(
+  def idmems "src/interpreter/natives/copy.ml" 83 3200 3204 "src/interpreter/natives/copy.ml" 85 3339 3358
+)
+"src/interpreter/natives/copy.ml" 82 3146 3162 "src/interpreter/natives/copy.ml" 82 3146 3168
+type(
+  S.state
+)
+ident(
+  def state' "src/interpreter/natives/copy.ml" 83 3200 3204 "src/interpreter/natives/copy.ml" 85 3339 3358
+)
+"src/interpreter/natives/copy.ml" 82 3146 3154 "src/interpreter/natives/copy.ml" 82 3146 3168
+type(
+  (S.IdentMap.key * S.memref) list * S.state
+)
+"src/interpreter/natives/copy.ml" 82 3146 3171 "src/interpreter/natives/copy.ml" 82 3146 3181
+type(
+  (S.IdentMap.key * S.memref) list ->
+  S.state -> (S.IdentMap.key * S.memref) list * S.state
+)
+ident(
+  int_ref copy_alist "src/interpreter/natives/copy.ml" 73 2748 2752 "src/interpreter/natives/copy.ml" 73 2748 2762
+)
+"src/interpreter/natives/copy.ml" 82 3146 3182 "src/interpreter/natives/copy.ml" 82 3146 3190
+type(
+  (S.IdentMap.key * S.memref) list
+)
+ident(
+  int_ref bindings "src/interpreter/natives/copy.ml" 81 3091 3099 "src/interpreter/natives/copy.ml" 81 3091 3107
+)
+"src/interpreter/natives/copy.ml" 82 3146 3191 "src/interpreter/natives/copy.ml" 82 3146 3196
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 80 3070 3082 "src/interpreter/natives/copy.ml" 80 3070 3087
+)
+"src/interpreter/natives/copy.ml" 82 3146 3171 "src/interpreter/natives/copy.ml" 82 3146 3196
+call(
+  stack
+)
+type(
+  (S.IdentMap.key * S.memref) list * S.state
+)
+"src/interpreter/natives/copy.ml" 83 3200 3208 "src/interpreter/natives/copy.ml" 83 3200 3212
+type(
+  S.env
+)
+ident(
+  def env' "src/interpreter/natives/copy.ml" 84 3257 3261 "src/interpreter/natives/copy.ml" 85 3339 3358
+)
+"src/interpreter/natives/copy.ml" 83 3200 3215 "src/interpreter/natives/copy.ml" 83 3200 3229
+type(
+  (S.ident * S.memref) list -> S.env -> S.env
+)
+ident(
+  ext_ref S.env_add_list
+)
+"src/interpreter/natives/copy.ml" 83 3200 3230 "src/interpreter/natives/copy.ml" 83 3200 3236
+type(
+  (S.ident * S.memref) list
+)
+ident(
+  int_ref idmems "src/interpreter/natives/copy.ml" 82 3146 3154 "src/interpreter/natives/copy.ml" 82 3146 3160
+)
+"src/interpreter/natives/copy.ml" 83 3200 3238 "src/interpreter/natives/copy.ml" 83 3200 3249
+type(
+  unit -> S.env
+)
+ident(
+  ext_ref S.env_empty
+)
+"src/interpreter/natives/copy.ml" 83 3200 3250 "src/interpreter/natives/copy.ml" 83 3200 3252
+type(
+  unit
+)
+"src/interpreter/natives/copy.ml" 83 3200 3237 "src/interpreter/natives/copy.ml" 83 3200 3253
+call(
+  stack
+)
+type(
+  S.env
+)
+"src/interpreter/natives/copy.ml" 83 3200 3215 "src/interpreter/natives/copy.ml" 83 3200 3253
+call(
+  stack
+)
+type(
+  S.env
+)
+"src/interpreter/natives/copy.ml" 84 3257 3265 "src/interpreter/natives/copy.ml" 84 3257 3270
+type(
+  S.env
+)
+ident(
+  def env'' "src/interpreter/natives/copy.ml" 85 3339 3343 "src/interpreter/natives/copy.ml" 85 3339 3358
+)
+"src/interpreter/natives/copy.ml" 84 3257 3274 "src/interpreter/natives/copy.ml" 84 3257 3278
+type(
+  S.env
+)
+ident(
+  int_ref env' "src/interpreter/natives/copy.ml" 83 3200 3208 "src/interpreter/natives/copy.ml" 83 3200 3212
+)
+"src/interpreter/natives/copy.ml" 84 3257 3297 "src/interpreter/natives/copy.ml" 84 3257 3300
+type(
+  S.env
+)
+ident(
+  int_ref env "src/interpreter/natives/copy.ml" 80 3070 3078 "src/interpreter/natives/copy.ml" 80 3070 3081
+)
+"src/interpreter/natives/copy.ml" 84 3257 3297 "src/interpreter/natives/copy.ml" 84 3257 3311
+type(
+  S.memref
+)
+"src/interpreter/natives/copy.ml" 84 3257 3273 "src/interpreter/natives/copy.ml" 84 3257 3312
+type(
+  S.env
+)
+"src/interpreter/natives/copy.ml" 85 3339 3344 "src/interpreter/natives/copy.ml" 85 3339 3349
+type(
+  S.env
+)
+ident(
+  int_ref env'' "src/interpreter/natives/copy.ml" 84 3257 3265 "src/interpreter/natives/copy.ml" 84 3257 3270
+)
+"src/interpreter/natives/copy.ml" 85 3339 3351 "src/interpreter/natives/copy.ml" 85 3339 3357
+type(
+  S.state
+)
+ident(
+  int_ref state' "src/interpreter/natives/copy.ml" 82 3146 3162 "src/interpreter/natives/copy.ml" 82 3146 3168
+)
+"src/interpreter/natives/copy.ml" 85 3339 3343 "src/interpreter/natives/copy.ml" 85 3339 3358
+type(
+  S.env * S.state
+)
+"src/interpreter/natives/copy.ml" 84 3257 3261 "src/interpreter/natives/copy.ml" 85 3339 3358
+type(
+  S.env * S.state
+)
+"src/interpreter/natives/copy.ml" 83 3200 3204 "src/interpreter/natives/copy.ml" 85 3339 3358
+type(
+  S.env * S.state
+)
+"src/interpreter/natives/copy.ml" 82 3146 3150 "src/interpreter/natives/copy.ml" 85 3339 3358
+type(
+  S.env * S.state
+)
+"src/interpreter/natives/copy.ml" 81 3091 3095 "src/interpreter/natives/copy.ml" 85 3339 3358
+type(
+  S.env * S.state
+)
+"src/interpreter/natives/copy.ml" 80 3070 3074 "src/interpreter/natives/copy.ml" 85 3339 3358
+type(
+  S.env -> S.state -> S.env * S.state
+)
+type(
+  S.env -> S.state -> S.env * S.state
+)
+"src/interpreter/natives/copy.ml" 87 3360 3364 "src/interpreter/natives/copy.ml" 87 3360 3379
+type(
+  S.attributes -> S.state -> S.attributes * S.state
+)
+ident(
+  def copy_attributes "src/interpreter/natives/copy.ml" 68 2548 2548 "src/interpreter/natives/copy.ml" 1 0 -1
+)
+"src/interpreter/natives/copy.ml" 88 3435 3443 "src/interpreter/natives/copy.ml" 88 3435 3449
+type(
+  S.attributes
+)
+ident(
+  def attrib "src/interpreter/natives/copy.ml" 88 3435 3450 "src/interpreter/natives/copy.ml" 92 3670 3708
+)
+"src/interpreter/natives/copy.ml" 88 3435 3450 "src/interpreter/natives/copy.ml" 88 3435 3455
+type(
+  S.state
+)
+ident(
+  def state "src/interpreter/natives/copy.ml" 89 3459 3463 "src/interpreter/natives/copy.ml" 92 3670 3708
+)
+"src/interpreter/natives/copy.ml" 89 3459 3467 "src/interpreter/natives/copy.ml" 89 3459 3477
+type(
+  (S.rstring * S.memref) list
+)
+ident(
+  def attr_alist "src/interpreter/natives/copy.ml" 90 3520 3524 "src/interpreter/natives/copy.ml" 92 3670 3708
+)
+"src/interpreter/natives/copy.ml" 89 3459 3480 "src/interpreter/natives/copy.ml" 89 3459 3498
+type(
+  (S.rstring, S.memref) Hashtbl.t -> (S.rstring * S.memref) list
+)
+ident(
+  int_ref hashtable_to_alist "src/interpreter/natives/copy.ml" 36 1285 1289 "src/interpreter/natives/copy.ml" 36 1285 1307
+)
+"src/interpreter/natives/copy.ml" 89 3459 3499 "src/interpreter/natives/copy.ml" 89 3459 3505
+type(
+  S.attributes
+)
+ident(
+  int_ref attrib "src/interpreter/natives/copy.ml" 88 3435 3443 "src/interpreter/natives/copy.ml" 88 3435 3449
+)
+"src/interpreter/natives/copy.ml" 89 3459 3499 "src/interpreter/natives/copy.ml" 89 3459 3516
+type(
+  (S.rstring, S.memref) Hashtbl.t
+)
+"src/interpreter/natives/copy.ml" 89 3459 3480 "src/interpreter/natives/copy.ml" 89 3459 3516
+call(
+  stack
+)
+type(
+  (S.rstring * S.memref) list
+)
+"src/interpreter/natives/copy.ml" 90 3520 3528 "src/interpreter/natives/copy.ml" 90 3520 3539
+type(
+  (S.rstring * S.memref) list
+)
+ident(
+  def attr_alist' "src/interpreter/natives/copy.ml" 91 3581 3585 "src/interpreter/natives/copy.ml" 92 3670 3708
+)
+"src/interpreter/natives/copy.ml" 90 3520 3541 "src/interpreter/natives/copy.ml" 90 3520 3547
+type(
+  S.state
+)
+ident(
+  def state' "src/interpreter/natives/copy.ml" 91 3581 3585 "src/interpreter/natives/copy.ml" 92 3670 3708
+)
+"src/interpreter/natives/copy.ml" 90 3520 3528 "src/interpreter/natives/copy.ml" 90 3520 3547
+type(
+  (S.rstring * S.memref) list * S.state
+)
+"src/interpreter/natives/copy.ml" 90 3520 3550 "src/interpreter/natives/copy.ml" 90 3520 3560
+type(
+  (S.rstring * S.memref) list ->
+  S.state -> (S.rstring * S.memref) list * S.state
+)
+ident(
+  int_ref copy_alist "src/interpreter/natives/copy.ml" 73 2748 2752 "src/interpreter/natives/copy.ml" 73 2748 2762
+)
+"src/interpreter/natives/copy.ml" 90 3520 3561 "src/interpreter/natives/copy.ml" 90 3520 3571
+type(
+  (S.rstring * S.memref) list
+)
+ident(
+  int_ref attr_alist "src/interpreter/natives/copy.ml" 89 3459 3467 "src/interpreter/natives/copy.ml" 89 3459 3477
+)
+"src/interpreter/natives/copy.ml" 90 3520 3572 "src/interpreter/natives/copy.ml" 90 3520 3577
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 88 3435 3450 "src/interpreter/natives/copy.ml" 88 3435 3455
+)
+"src/interpreter/natives/copy.ml" 90 3520 3550 "src/interpreter/natives/copy.ml" 90 3520 3577
+call(
+  stack
+)
+type(
+  (S.rstring * S.memref) list * S.state
+)
+"src/interpreter/natives/copy.ml" 91 3581 3589 "src/interpreter/natives/copy.ml" 91 3581 3598
+type(
+  (S.rstring, S.memref) Hashtbl.t
+)
+ident(
+  def new_table "src/interpreter/natives/copy.ml" 92 3670 3674 "src/interpreter/natives/copy.ml" 92 3670 3708
+)
+"src/interpreter/natives/copy.ml" 91 3581 3601 "src/interpreter/natives/copy.ml" 91 3581 3619
+type(
+  (S.rstring * S.memref) list -> (S.rstring, S.memref) Hashtbl.t
+)
+ident(
+  int_ref alist_to_hashtable "src/interpreter/natives/copy.ml" 40 1424 1428 "src/interpreter/natives/copy.ml" 40 1424 1446
+)
+"src/interpreter/natives/copy.ml" 91 3581 3620 "src/interpreter/natives/copy.ml" 91 3581 3631
+type(
+  (S.rstring * S.memref) list
+)
+ident(
+  int_ref attr_alist' "src/interpreter/natives/copy.ml" 90 3520 3528 "src/interpreter/natives/copy.ml" 90 3520 3539
+)
+"src/interpreter/natives/copy.ml" 91 3581 3601 "src/interpreter/natives/copy.ml" 91 3581 3631
+call(
+  stack
+)
+type(
+  (S.rstring, S.memref) Hashtbl.t
+)
+"src/interpreter/natives/copy.ml" 92 3670 3689 "src/interpreter/natives/copy.ml" 92 3670 3698
+type(
+  (S.rstring, S.memref) Hashtbl.t
+)
+ident(
+  int_ref new_table "src/interpreter/natives/copy.ml" 91 3581 3589 "src/interpreter/natives/copy.ml" 91 3581 3598
+)
+"src/interpreter/natives/copy.ml" 92 3670 3675 "src/interpreter/natives/copy.ml" 92 3670 3699
+type(
+  S.attributes
+)
+"src/interpreter/natives/copy.ml" 92 3670 3701 "src/interpreter/natives/copy.ml" 92 3670 3707
+type(
+  S.state
+)
+ident(
+  int_ref state' "src/interpreter/natives/copy.ml" 90 3520 3541 "src/interpreter/natives/copy.ml" 90 3520 3547
+)
+"src/interpreter/natives/copy.ml" 92 3670 3674 "src/interpreter/natives/copy.ml" 92 3670 3708
+type(
+  S.attributes * S.state
+)
+"src/interpreter/natives/copy.ml" 91 3581 3585 "src/interpreter/natives/copy.ml" 92 3670 3708
+type(
+  S.attributes * S.state
+)
+"src/interpreter/natives/copy.ml" 90 3520 3524 "src/interpreter/natives/copy.ml" 92 3670 3708
+type(
+  S.attributes * S.state
+)
+"src/interpreter/natives/copy.ml" 89 3459 3463 "src/interpreter/natives/copy.ml" 92 3670 3708
+type(
+  S.attributes * S.state
+)
+"src/interpreter/natives/copy.ml" 88 3435 3439 "src/interpreter/natives/copy.ml" 92 3670 3708
+type(
+  S.attributes -> S.state -> S.attributes * S.state
+)
+type(
+  S.attributes -> S.state -> S.attributes * S.state
+)
+"src/interpreter/natives/copy.ml" 95 3745 3749 "src/interpreter/natives/copy.ml" 95 3745 3758
+type(
+  S.memref -> S.state -> S.memref * S.state
+)
+ident(
+  def deep_copy "src/interpreter/natives/copy.ml" 68 2548 2548 "src/interpreter/natives/copy.ml" 1 0 -1
+)
+"src/interpreter/natives/copy.ml" 96 3806 3814 "src/interpreter/natives/copy.ml" 96 3806 3817
+type(
+  S.memref
+)
+ident(
+  def mem "src/interpreter/natives/copy.ml" 96 3806 3818 "src/interpreter/natives/copy.ml" 116 4683 4724
+)
+"src/interpreter/natives/copy.ml" 96 3806 3818 "src/interpreter/natives/copy.ml" 96 3806 3823
+type(
+  S.state
+)
+ident(
+  def state "src/interpreter/natives/copy.ml" 97 3827 3831 "src/interpreter/natives/copy.ml" 116 4683 4724
+)
+"src/interpreter/natives/copy.ml" 97 3827 3835 "src/interpreter/natives/copy.ml" 97 3827 3838
+type(
+  S.heapobj option
+)
+ident(
+  def obj "src/interpreter/natives/copy.ml" 98 3867 3871 "src/interpreter/natives/copy.ml" 116 4683 4724
+)
+"src/interpreter/natives/copy.ml" 97 3827 3841 "src/interpreter/natives/copy.ml" 97 3827 3853
+type(
+  S.memref -> S.state -> S.heapobj option
+)
+ident(
+  ext_ref S.state_find
+)
+"src/interpreter/natives/copy.ml" 97 3827 3854 "src/interpreter/natives/copy.ml" 97 3827 3857
+type(
+  S.memref
+)
+ident(
+  int_ref mem "src/interpreter/natives/copy.ml" 96 3806 3814 "src/interpreter/natives/copy.ml" 96 3806 3817
+)
+"src/interpreter/natives/copy.ml" 97 3827 3858 "src/interpreter/natives/copy.ml" 97 3827 3863
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 96 3806 3818 "src/interpreter/natives/copy.ml" 96 3806 3823
+)
+"src/interpreter/natives/copy.ml" 97 3827 3841 "src/interpreter/natives/copy.ml" 97 3827 3863
+call(
+  stack
+)
+type(
+  S.heapobj option
+)
+"src/interpreter/natives/copy.ml" 98 3867 3877 "src/interpreter/natives/copy.ml" 98 3867 3880
+type(
+  S.heapobj option
+)
+ident(
+  int_ref obj "src/interpreter/natives/copy.ml" 97 3827 3835 "src/interpreter/natives/copy.ml" 97 3827 3838
+)
+"src/interpreter/natives/copy.ml" 99 3886 3911 "src/interpreter/natives/copy.ml" 99 3886 3912
+type(
+  S.memref
+)
+type(
+  S.expr
+)
+"src/interpreter/natives/copy.ml" 99 3886 3897 "src/interpreter/natives/copy.ml" 99 3886 3913
+type(
+  S.heapobj
+)
+"src/interpreter/natives/copy.ml" 99 3886 3892 "src/interpreter/natives/copy.ml" 99 3886 3913
+type(
+  S.heapobj option
+)
+"src/interpreter/natives/copy.ml" 99 3886 3919 "src/interpreter/natives/copy.ml" 99 3886 3927
+type(
+  string -> S.memref * S.state
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/interpreter/natives/copy.ml" 99 3886 3928 "src/interpreter/natives/copy.ml" 99 3886 3949
+type(
+  string
+)
+"src/interpreter/natives/copy.ml" 99 3886 3919 "src/interpreter/natives/copy.ml" 99 3886 3949
+call(
+  tail
+)
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 100 3988 4011 "src/interpreter/natives/copy.ml" 100 3988 4012
+type(
+  S.value
+)
+ident(
+  def v "src/interpreter/natives/copy.ml" 100 3988 4023 "src/interpreter/natives/copy.ml" 115 4671 4682
+)
+"src/interpreter/natives/copy.ml" 100 3988 4013 "src/interpreter/natives/copy.ml" 100 3988 4014
+type(
+  S.attributes
+)
+ident(
+  def a "src/interpreter/natives/copy.ml" 100 3988 4023 "src/interpreter/natives/copy.ml" 115 4671 4682
+)
+"src/interpreter/natives/copy.ml" 100 3988 3999 "src/interpreter/natives/copy.ml" 100 3988 4016
+type(
+  S.heapobj
+)
+"src/interpreter/natives/copy.ml" 100 3988 3994 "src/interpreter/natives/copy.ml" 100 3988 4016
+type(
+  S.heapobj option
+)
+"src/interpreter/natives/copy.ml" 100 3988 4028 "src/interpreter/natives/copy.ml" 100 3988 4030
+type(
+  S.attributes
+)
+ident(
+  def a' "src/interpreter/natives/copy.ml" 101 4065 4073 "src/interpreter/natives/copy.ml" 115 4671 4682
+)
+"src/interpreter/natives/copy.ml" 100 3988 4032 "src/interpreter/natives/copy.ml" 100 3988 4034
+type(
+  S.state
+)
+ident(
+  def s' "src/interpreter/natives/copy.ml" 101 4065 4073 "src/interpreter/natives/copy.ml" 115 4671 4682
+)
+"src/interpreter/natives/copy.ml" 100 3988 4027 "src/interpreter/natives/copy.ml" 100 3988 4035
+type(
+  S.attributes * S.state
+)
+"src/interpreter/natives/copy.ml" 100 3988 4038 "src/interpreter/natives/copy.ml" 100 3988 4053
+type(
+  S.attributes -> S.state -> S.attributes * S.state
+)
+ident(
+  int_ref copy_attributes "src/interpreter/natives/copy.ml" 87 3360 3364 "src/interpreter/natives/copy.ml" 87 3360 3379
+)
+"src/interpreter/natives/copy.ml" 100 3988 4054 "src/interpreter/natives/copy.ml" 100 3988 4055
+type(
+  S.attributes
+)
+ident(
+  int_ref a "src/interpreter/natives/copy.ml" 100 3988 4013 "src/interpreter/natives/copy.ml" 100 3988 4014
+)
+"src/interpreter/natives/copy.ml" 100 3988 4056 "src/interpreter/natives/copy.ml" 100 3988 4061
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 96 3806 3818 "src/interpreter/natives/copy.ml" 96 3806 3823
+)
+"src/interpreter/natives/copy.ml" 100 3988 4038 "src/interpreter/natives/copy.ml" 100 3988 4061
+call(
+  stack
+)
+type(
+  S.attributes * S.state
+)
+"src/interpreter/natives/copy.ml" 101 4065 4085 "src/interpreter/natives/copy.ml" 101 4065 4086
+type(
+  S.value
+)
+ident(
+  int_ref v "src/interpreter/natives/copy.ml" 100 3988 4011 "src/interpreter/natives/copy.ml" 100 3988 4012
+)
+"src/interpreter/natives/copy.ml" 102 4092 4108 "src/interpreter/natives/copy.ml" 102 4092 4109
+type(
+  S.rvector
+)
+ident(
+  def v "src/interpreter/natives/copy.ml" 102 4092 4121 "src/interpreter/natives/copy.ml" 104 4216 4255
+)
+"src/interpreter/natives/copy.ml" 102 4092 4102 "src/interpreter/natives/copy.ml" 102 4092 4109
+type(
+  S.value
+)
+"src/interpreter/natives/copy.ml" 102 4092 4125 "src/interpreter/natives/copy.ml" 102 4092 4129
+type(
+  S.rvector
+)
+ident(
+  def vnew "src/interpreter/natives/copy.ml" 103 4158 4170 "src/interpreter/natives/copy.ml" 104 4216 4255
+)
+"src/interpreter/natives/copy.ml" 102 4092 4131 "src/interpreter/natives/copy.ml" 102 4092 4134
+type(
+  S.state
+)
+ident(
+  def s'' "src/interpreter/natives/copy.ml" 103 4158 4170 "src/interpreter/natives/copy.ml" 104 4216 4255
+)
+"src/interpreter/natives/copy.ml" 102 4092 4125 "src/interpreter/natives/copy.ml" 102 4092 4134
+type(
+  S.rvector * S.state
+)
+"src/interpreter/natives/copy.ml" 102 4092 4137 "src/interpreter/natives/copy.ml" 102 4092 4149
+type(
+  S.state -> S.rvector -> S.rvector * S.state
+)
+ident(
+  int_ref copy_rvector "src/interpreter/natives/copy.ml" 47 1706 1710 "src/interpreter/natives/copy.ml" 47 1706 1722
+)
+"src/interpreter/natives/copy.ml" 102 4092 4150 "src/interpreter/natives/copy.ml" 102 4092 4152
+type(
+  S.state
+)
+ident(
+  int_ref s' "src/interpreter/natives/copy.ml" 100 3988 4032 "src/interpreter/natives/copy.ml" 100 3988 4034
+)
+"src/interpreter/natives/copy.ml" 102 4092 4153 "src/interpreter/natives/copy.ml" 102 4092 4154
+type(
+  S.rvector
+)
+ident(
+  int_ref v "src/interpreter/natives/copy.ml" 102 4092 4108 "src/interpreter/natives/copy.ml" 102 4092 4109
+)
+"src/interpreter/natives/copy.ml" 102 4092 4137 "src/interpreter/natives/copy.ml" 102 4092 4154
+call(
+  stack
+)
+type(
+  S.rvector * S.state
+)
+"src/interpreter/natives/copy.ml" 103 4158 4174 "src/interpreter/natives/copy.ml" 103 4158 4183
+type(
+  S.heapobj
+)
+ident(
+  def alloc_obj "src/interpreter/natives/copy.ml" 104 4216 4228 "src/interpreter/natives/copy.ml" 104 4216 4255
+)
+"src/interpreter/natives/copy.ml" 103 4158 4203 "src/interpreter/natives/copy.ml" 103 4158 4207
+type(
+  S.rvector
+)
+ident(
+  int_ref vnew "src/interpreter/natives/copy.ml" 102 4092 4125 "src/interpreter/natives/copy.ml" 102 4092 4129
+)
+"src/interpreter/natives/copy.ml" 103 4158 4197 "src/interpreter/natives/copy.ml" 103 4158 4207
+type(
+  S.value
+)
+"src/interpreter/natives/copy.ml" 103 4158 4209 "src/interpreter/natives/copy.ml" 103 4158 4211
+type(
+  S.attributes
+)
+ident(
+  int_ref a' "src/interpreter/natives/copy.ml" 100 3988 4028 "src/interpreter/natives/copy.ml" 100 3988 4030
+)
+"src/interpreter/natives/copy.ml" 103 4158 4186 "src/interpreter/natives/copy.ml" 103 4158 4212
+type(
+  S.heapobj
+)
+"src/interpreter/natives/copy.ml" 104 4216 4228 "src/interpreter/natives/copy.ml" 104 4216 4241
+type(
+  S.heapobj -> S.state -> S.memref * S.state
+)
+ident(
+  ext_ref S.state_alloc
+)
+"src/interpreter/natives/copy.ml" 104 4216 4242 "src/interpreter/natives/copy.ml" 104 4216 4251
+type(
+  S.heapobj
+)
+ident(
+  int_ref alloc_obj "src/interpreter/natives/copy.ml" 103 4158 4174 "src/interpreter/natives/copy.ml" 103 4158 4183
+)
+"src/interpreter/natives/copy.ml" 104 4216 4252 "src/interpreter/natives/copy.ml" 104 4216 4255
+type(
+  S.state
+)
+ident(
+  int_ref s'' "src/interpreter/natives/copy.ml" 102 4092 4131 "src/interpreter/natives/copy.ml" 102 4092 4134
+)
+"src/interpreter/natives/copy.ml" 104 4216 4228 "src/interpreter/natives/copy.ml" 104 4216 4255
+call(
+  tail
+)
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 103 4158 4170 "src/interpreter/natives/copy.ml" 104 4216 4255
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 102 4092 4121 "src/interpreter/natives/copy.ml" 104 4216 4255
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 106 4257 4278 "src/interpreter/natives/copy.ml" 106 4257 4279
+type(
+  S.memref list
+)
+ident(
+  def v "src/interpreter/natives/copy.ml" 106 4257 4286 "src/interpreter/natives/copy.ml" 108 4387 4426
+)
+"src/interpreter/natives/copy.ml" 106 4257 4267 "src/interpreter/natives/copy.ml" 106 4257 4279
+type(
+  S.value
+)
+"src/interpreter/natives/copy.ml" 106 4257 4290 "src/interpreter/natives/copy.ml" 106 4257 4292
+type(
+  S.memref list
+)
+ident(
+  def ms "src/interpreter/natives/copy.ml" 107 4324 4336 "src/interpreter/natives/copy.ml" 108 4387 4426
+)
+"src/interpreter/natives/copy.ml" 106 4257 4294 "src/interpreter/natives/copy.ml" 106 4257 4297
+type(
+  S.state
+)
+ident(
+  def s'' "src/interpreter/natives/copy.ml" 107 4324 4336 "src/interpreter/natives/copy.ml" 108 4387 4426
+)
+"src/interpreter/natives/copy.ml" 106 4257 4290 "src/interpreter/natives/copy.ml" 106 4257 4297
+type(
+  S.memref list * S.state
+)
+"src/interpreter/natives/copy.ml" 106 4257 4300 "src/interpreter/natives/copy.ml" 106 4257 4314
+type(
+  S.memref list -> S.state -> S.memref list * S.state
+)
+ident(
+  int_ref copy_ref_array "src/interpreter/natives/copy.ml" 68 2548 2556 "src/interpreter/natives/copy.ml" 68 2548 2570
+)
+"src/interpreter/natives/copy.ml" 106 4257 4315 "src/interpreter/natives/copy.ml" 106 4257 4316
+type(
+  S.memref list
+)
+ident(
+  int_ref v "src/interpreter/natives/copy.ml" 106 4257 4278 "src/interpreter/natives/copy.ml" 106 4257 4279
+)
+"src/interpreter/natives/copy.ml" 106 4257 4317 "src/interpreter/natives/copy.ml" 106 4257 4319
+type(
+  S.state
+)
+ident(
+  int_ref s' "src/interpreter/natives/copy.ml" 100 3988 4032 "src/interpreter/natives/copy.ml" 100 3988 4034
+)
+"src/interpreter/natives/copy.ml" 106 4257 4300 "src/interpreter/natives/copy.ml" 106 4257 4319
+call(
+  stack
+)
+type(
+  S.memref list * S.state
+)
+"src/interpreter/natives/copy.ml" 107 4324 4340 "src/interpreter/natives/copy.ml" 107 4324 4349
+type(
+  S.heapobj
+)
+ident(
+  def alloc_obj "src/interpreter/natives/copy.ml" 108 4387 4399 "src/interpreter/natives/copy.ml" 108 4387 4426
+)
+"src/interpreter/natives/copy.ml" 107 4324 4375 "src/interpreter/natives/copy.ml" 107 4324 4377
+type(
+  S.memref list
+)
+ident(
+  int_ref ms "src/interpreter/natives/copy.ml" 106 4257 4290 "src/interpreter/natives/copy.ml" 106 4257 4292
+)
+"src/interpreter/natives/copy.ml" 107 4324 4363 "src/interpreter/natives/copy.ml" 107 4324 4378
+type(
+  S.value
+)
+"src/interpreter/natives/copy.ml" 107 4324 4380 "src/interpreter/natives/copy.ml" 107 4324 4382
+type(
+  S.attributes
+)
+ident(
+  int_ref a' "src/interpreter/natives/copy.ml" 100 3988 4028 "src/interpreter/natives/copy.ml" 100 3988 4030
+)
+"src/interpreter/natives/copy.ml" 107 4324 4352 "src/interpreter/natives/copy.ml" 107 4324 4383
+type(
+  S.heapobj
+)
+"src/interpreter/natives/copy.ml" 108 4387 4399 "src/interpreter/natives/copy.ml" 108 4387 4412
+type(
+  S.heapobj -> S.state -> S.memref * S.state
+)
+ident(
+  ext_ref S.state_alloc
+)
+"src/interpreter/natives/copy.ml" 108 4387 4413 "src/interpreter/natives/copy.ml" 108 4387 4422
+type(
+  S.heapobj
+)
+ident(
+  int_ref alloc_obj "src/interpreter/natives/copy.ml" 107 4324 4340 "src/interpreter/natives/copy.ml" 107 4324 4349
+)
+"src/interpreter/natives/copy.ml" 108 4387 4423 "src/interpreter/natives/copy.ml" 108 4387 4426
+type(
+  S.state
+)
+ident(
+  int_ref s'' "src/interpreter/natives/copy.ml" 106 4257 4294 "src/interpreter/natives/copy.ml" 106 4257 4297
+)
+"src/interpreter/natives/copy.ml" 108 4387 4399 "src/interpreter/natives/copy.ml" 108 4387 4426
+call(
+  tail
+)
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 107 4324 4336 "src/interpreter/natives/copy.ml" 108 4387 4426
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 106 4257 4286 "src/interpreter/natives/copy.ml" 108 4387 4426
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 110 4428 4448 "src/interpreter/natives/copy.ml" 110 4428 4449
+type(
+  S.memref
+)
+type(
+  S.expr
+)
+type(
+  S.param list
+)
+"src/interpreter/natives/copy.ml" 110 4428 4438 "src/interpreter/natives/copy.ml" 110 4428 4449
+type(
+  S.value
+)
+"src/interpreter/natives/copy.ml" 110 4428 4457 "src/interpreter/natives/copy.ml" 110 4428 4460
+type(
+  S.memref
+)
+ident(
+  int_ref mem "src/interpreter/natives/copy.ml" 96 3806 3814 "src/interpreter/natives/copy.ml" 96 3806 3817
+)
+"src/interpreter/natives/copy.ml" 110 4428 4462 "src/interpreter/natives/copy.ml" 110 4428 4467
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 96 3806 3818 "src/interpreter/natives/copy.ml" 96 3806 3823
+)
+"src/interpreter/natives/copy.ml" 110 4428 4457 "src/interpreter/natives/copy.ml" 110 4428 4467
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 112 4508 4527 "src/interpreter/natives/copy.ml" 112 4508 4528
+type(
+  S.env
+)
+ident(
+  def v "src/interpreter/natives/copy.ml" 112 4508 4537 "src/interpreter/natives/copy.ml" 114 4631 4670
+)
+"src/interpreter/natives/copy.ml" 112 4508 4518 "src/interpreter/natives/copy.ml" 112 4508 4528
+type(
+  S.value
+)
+"src/interpreter/natives/copy.ml" 112 4508 4541 "src/interpreter/natives/copy.ml" 112 4508 4544
+type(
+  S.env
+)
+ident(
+  def env "src/interpreter/natives/copy.ml" 113 4569 4581 "src/interpreter/natives/copy.ml" 114 4631 4670
+)
+"src/interpreter/natives/copy.ml" 112 4508 4546 "src/interpreter/natives/copy.ml" 112 4508 4549
+type(
+  S.state
+)
+ident(
+  def s'' "src/interpreter/natives/copy.ml" 113 4569 4581 "src/interpreter/natives/copy.ml" 114 4631 4670
+)
+"src/interpreter/natives/copy.ml" 112 4508 4541 "src/interpreter/natives/copy.ml" 112 4508 4549
+type(
+  S.env * S.state
+)
+"src/interpreter/natives/copy.ml" 112 4508 4552 "src/interpreter/natives/copy.ml" 112 4508 4560
+type(
+  S.env -> S.state -> S.env * S.state
+)
+ident(
+  int_ref copy_env "src/interpreter/natives/copy.ml" 79 3016 3020 "src/interpreter/natives/copy.ml" 79 3016 3028
+)
+"src/interpreter/natives/copy.ml" 112 4508 4561 "src/interpreter/natives/copy.ml" 112 4508 4562
+type(
+  S.env
+)
+ident(
+  int_ref v "src/interpreter/natives/copy.ml" 112 4508 4527 "src/interpreter/natives/copy.ml" 112 4508 4528
+)
+"src/interpreter/natives/copy.ml" 112 4508 4563 "src/interpreter/natives/copy.ml" 112 4508 4565
+type(
+  S.state
+)
+ident(
+  int_ref s' "src/interpreter/natives/copy.ml" 100 3988 4032 "src/interpreter/natives/copy.ml" 100 3988 4034
+)
+"src/interpreter/natives/copy.ml" 112 4508 4552 "src/interpreter/natives/copy.ml" 112 4508 4565
+call(
+  stack
+)
+type(
+  S.env * S.state
+)
+"src/interpreter/natives/copy.ml" 113 4569 4585 "src/interpreter/natives/copy.ml" 113 4569 4594
+type(
+  S.heapobj
+)
+ident(
+  def alloc_obj "src/interpreter/natives/copy.ml" 114 4631 4643 "src/interpreter/natives/copy.ml" 114 4631 4670
+)
+"src/interpreter/natives/copy.ml" 113 4569 4618 "src/interpreter/natives/copy.ml" 113 4569 4621
+type(
+  S.env
+)
+ident(
+  int_ref env "src/interpreter/natives/copy.ml" 112 4508 4541 "src/interpreter/natives/copy.ml" 112 4508 4544
+)
+"src/interpreter/natives/copy.ml" 113 4569 4608 "src/interpreter/natives/copy.ml" 113 4569 4622
+type(
+  S.value
+)
+"src/interpreter/natives/copy.ml" 113 4569 4624 "src/interpreter/natives/copy.ml" 113 4569 4626
+type(
+  S.attributes
+)
+ident(
+  int_ref a' "src/interpreter/natives/copy.ml" 100 3988 4028 "src/interpreter/natives/copy.ml" 100 3988 4030
+)
+"src/interpreter/natives/copy.ml" 113 4569 4597 "src/interpreter/natives/copy.ml" 113 4569 4627
+type(
+  S.heapobj
+)
+"src/interpreter/natives/copy.ml" 114 4631 4643 "src/interpreter/natives/copy.ml" 114 4631 4656
+type(
+  S.heapobj -> S.state -> S.memref * S.state
+)
+ident(
+  ext_ref S.state_alloc
+)
+"src/interpreter/natives/copy.ml" 114 4631 4657 "src/interpreter/natives/copy.ml" 114 4631 4666
+type(
+  S.heapobj
+)
+ident(
+  int_ref alloc_obj "src/interpreter/natives/copy.ml" 113 4569 4585 "src/interpreter/natives/copy.ml" 113 4569 4594
+)
+"src/interpreter/natives/copy.ml" 114 4631 4667 "src/interpreter/natives/copy.ml" 114 4631 4670
+type(
+  S.state
+)
+ident(
+  int_ref s'' "src/interpreter/natives/copy.ml" 112 4508 4546 "src/interpreter/natives/copy.ml" 112 4508 4549
+)
+"src/interpreter/natives/copy.ml" 114 4631 4643 "src/interpreter/natives/copy.ml" 114 4631 4670
+call(
+  tail
+)
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 113 4569 4581 "src/interpreter/natives/copy.ml" 114 4631 4670
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 112 4508 4537 "src/interpreter/natives/copy.ml" 114 4631 4670
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 101 4065 4073 "src/interpreter/natives/copy.ml" 115 4671 4682
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 100 3988 4023 "src/interpreter/natives/copy.ml" 115 4671 4682
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 116 4683 4689 "src/interpreter/natives/copy.ml" 116 4683 4693
+type(
+  S.heapobj option
+)
+"src/interpreter/natives/copy.ml" 116 4683 4714 "src/interpreter/natives/copy.ml" 116 4683 4717
+type(
+  S.memref
+)
+ident(
+  int_ref mem "src/interpreter/natives/copy.ml" 96 3806 3814 "src/interpreter/natives/copy.ml" 96 3806 3817
+)
+"src/interpreter/natives/copy.ml" 116 4683 4719 "src/interpreter/natives/copy.ml" 116 4683 4724
+type(
+  S.state
+)
+ident(
+  int_ref state "src/interpreter/natives/copy.ml" 96 3806 3818 "src/interpreter/natives/copy.ml" 96 3806 3823
+)
+"src/interpreter/natives/copy.ml" 116 4683 4714 "src/interpreter/natives/copy.ml" 116 4683 4724
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 98 3867 3871 "src/interpreter/natives/copy.ml" 116 4683 4724
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 97 3827 3831 "src/interpreter/natives/copy.ml" 116 4683 4724
+type(
+  S.memref * S.state
+)
+"src/interpreter/natives/copy.ml" 96 3806 3810 "src/interpreter/natives/copy.ml" 116 4683 4724
+type(
+  S.memref -> S.state -> S.memref * S.state
+)
+type(
+  S.memref -> S.state -> S.memref * S.state
+)

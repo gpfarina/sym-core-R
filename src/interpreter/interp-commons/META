@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: faa228923fd6167804c12bca8604e456)
+version = "0.1"
+description = "A library for analyzing the R programming language."
+requires = "language smt"
+archive(byte) = "interp-commons.cma"
+archive(byte, plugin) = "interp-commons.cma"
+archive(native) = "interp-commons.cmxa"
+archive(native, plugin) = "interp-commons.cmxs"
+exists_if = "interp-commons.cma"
+# OASIS_STOP
+

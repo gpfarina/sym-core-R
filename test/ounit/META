@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: ad14e73256c94af09d8fce25dde080d7)
+version = "0.1"
+description = "A library for analyzing the R programming language."
+requires = "unix"
+archive(byte) = "ounit.cma"
+archive(byte, plugin) = "ounit.cma"
+archive(native) = "ounit.cmxa"
+archive(native, plugin) = "ounit.cmxs"
+exists_if = "ounit.cma"
+# OASIS_STOP
+

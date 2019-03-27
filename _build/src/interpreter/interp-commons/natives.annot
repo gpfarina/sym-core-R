@@ -1,0 +1,2705 @@
+"src/interpreter/interp-commons/natives.ml" 37 2067 2071 "src/interpreter/interp-commons/natives.ml" 37 2067 2085
+type(
+  Support.rstring
+)
+ident(
+  def native_rstring "src/interpreter/interp-commons/natives.ml" 40 2129 2129 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 38 2098 2100 "src/interpreter/interp-commons/natives.ml" 38 2098 2117
+type(
+  string -> Support.rstring
+)
+ident(
+  ext_ref Support.rstring_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 38 2098 2118 "src/interpreter/interp-commons/natives.ml" 38 2098 2127
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 38 2098 2100 "src/interpreter/interp-commons/natives.ml" 38 2098 2127
+call(
+  stack
+)
+type(
+  Support.rstring
+)
+type(
+  Support.rstring
+)
+"src/interpreter/interp-commons/natives.ml" 40 2129 2133 "src/interpreter/interp-commons/natives.ml" 40 2129 2153
+type(
+  Support.rstring -> Support.ident
+)
+ident(
+  def native_id_of_rstring "src/interpreter/interp-commons/natives.ml" 43 2246 2246 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 41 2175 2181 "src/interpreter/interp-commons/natives.ml" 41 2175 2185
+type(
+  Support.rstring
+)
+ident(
+  def name "src/interpreter/interp-commons/natives.ml" 41 2175 2189 "src/interpreter/interp-commons/natives.ml" 41 2175 2244
+)
+"src/interpreter/interp-commons/natives.ml" 41 2175 2192 "src/interpreter/interp-commons/natives.ml" 41 2175 2205
+type(
+  Support.rstring -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_rstring
+)
+"src/interpreter/interp-commons/natives.ml" 41 2175 2206 "src/interpreter/interp-commons/natives.ml" 41 2175 2210
+type(
+  Support.rstring
+)
+ident(
+  int_ref name "src/interpreter/interp-commons/natives.ml" 41 2175 2181 "src/interpreter/interp-commons/natives.ml" 41 2175 2185
+)
+"src/interpreter/interp-commons/natives.ml" 41 2175 2191 "src/interpreter/interp-commons/natives.ml" 41 2175 2211
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 41 2175 2228 "src/interpreter/interp-commons/natives.ml" 41 2175 2242
+type(
+  Support.rstring
+)
+ident(
+  int_ref native_rstring "src/interpreter/interp-commons/natives.ml" 37 2067 2071 "src/interpreter/interp-commons/natives.ml" 37 2067 2085
+)
+"src/interpreter/interp-commons/natives.ml" 41 2175 2223 "src/interpreter/interp-commons/natives.ml" 41 2175 2242
+type(
+  Syntax.rstring option
+)
+"src/interpreter/interp-commons/natives.ml" 41 2175 2189 "src/interpreter/interp-commons/natives.ml" 41 2175 2244
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 41 2175 2177 "src/interpreter/interp-commons/natives.ml" 41 2175 2244
+type(
+  Support.rstring -> Support.ident
+)
+type(
+  Support.rstring -> Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+type(
+  string -> Support.ident
+)
+ident(
+  def native_id_of_string "src/interpreter/interp-commons/natives.ml" 49 2380 2380 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 44 2290 2296 "src/interpreter/interp-commons/natives.ml" 44 2290 2300
+type(
+  string
+)
+ident(
+  def name "src/interpreter/interp-commons/natives.ml" 45 2304 2308 "src/interpreter/interp-commons/natives.ml" 45 2304 2353
+)
+"src/interpreter/interp-commons/natives.ml" 45 2304 2308 "src/interpreter/interp-commons/natives.ml" 45 2304 2328
+type(
+  Support.rstring -> Support.ident
+)
+ident(
+  int_ref native_id_of_rstring "src/interpreter/interp-commons/natives.ml" 40 2129 2133 "src/interpreter/interp-commons/natives.ml" 40 2129 2153
+)
+"src/interpreter/interp-commons/natives.ml" 45 2304 2330 "src/interpreter/interp-commons/natives.ml" 45 2304 2347
+type(
+  string -> Support.rstring
+)
+ident(
+  ext_ref Support.rstring_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 45 2304 2348 "src/interpreter/interp-commons/natives.ml" 45 2304 2352
+type(
+  string
+)
+ident(
+  int_ref name "src/interpreter/interp-commons/natives.ml" 44 2290 2296 "src/interpreter/interp-commons/natives.ml" 44 2290 2300
+)
+"src/interpreter/interp-commons/natives.ml" 45 2304 2329 "src/interpreter/interp-commons/natives.ml" 45 2304 2353
+call(
+  stack
+)
+type(
+  Support.rstring
+)
+"src/interpreter/interp-commons/natives.ml" 45 2304 2308 "src/interpreter/interp-commons/natives.ml" 45 2304 2353
+call(
+  tail
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 44 2290 2292 "src/interpreter/interp-commons/natives.ml" 45 2304 2353
+type(
+  string -> Support.ident
+)
+type(
+  string -> Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 49 2380 2384 "src/interpreter/interp-commons/natives.ml" 49 2380 2410
+type(
+  Support.ident
+)
+ident(
+  def native_vector_subscript_id "src/interpreter/interp-commons/natives.ml" 50 2459 2459 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 49 2380 2420 "src/interpreter/interp-commons/natives.ml" 49 2380 2439
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 49 2380 2440 "src/interpreter/interp-commons/natives.ml" 49 2380 2458
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 49 2380 2420 "src/interpreter/interp-commons/natives.ml" 49 2380 2458
+call(
+  stack
+)
+type(
+  Support.ident
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 50 2459 2463 "src/interpreter/interp-commons/natives.ml" 50 2459 2483
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_subscript "src/interpreter/interp-commons/natives.ml" 56 2678 2678 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 51 2508 2519 "src/interpreter/interp-commons/natives.ml" 51 2508 2531
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 51 2508 2532 "src/interpreter/interp-commons/natives.ml" 51 2508 2540
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 51 2508 2518 "src/interpreter/interp-commons/natives.ml" 51 2508 2541
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 51 2508 2512 "src/interpreter/interp-commons/natives.ml" 51 2508 2541
+type(
+  Support.param
+)
+"src/interpreter/interp-commons/natives.ml" 51 2508 2550 "src/interpreter/interp-commons/natives.ml" 51 2508 2562
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 51 2508 2563 "src/interpreter/interp-commons/natives.ml" 51 2508 2568
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 51 2508 2549 "src/interpreter/interp-commons/natives.ml" 51 2508 2569
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 51 2508 2543 "src/interpreter/interp-commons/natives.ml" 51 2508 2569
+type(
+  Support.param
+)
+"src/interpreter/interp-commons/natives.ml" 51 2508 2511 "src/interpreter/interp-commons/natives.ml" 51 2508 2570
+type(
+  Support.param list
+)
+"src/interpreter/interp-commons/natives.ml" 53 2591 2597 "src/interpreter/interp-commons/natives.ml" 53 2591 2623
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_subscript_id "src/interpreter/interp-commons/natives.ml" 49 2380 2384 "src/interpreter/interp-commons/natives.ml" 49 2380 2410
+)
+"src/interpreter/interp-commons/natives.ml" 54 2625 2632 "src/interpreter/interp-commons/natives.ml" 54 2625 2644
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 54 2625 2645 "src/interpreter/interp-commons/natives.ml" 54 2625 2653
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 54 2625 2632 "src/interpreter/interp-commons/natives.ml" 54 2625 2653
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 54 2625 2655 "src/interpreter/interp-commons/natives.ml" 54 2625 2667
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 54 2625 2668 "src/interpreter/interp-commons/natives.ml" 54 2625 2673
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 54 2625 2655 "src/interpreter/interp-commons/natives.ml" 54 2625 2673
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 54 2625 2631 "src/interpreter/interp-commons/natives.ml" 54 2625 2674
+type(
+  Support.ident list
+)
+"src/interpreter/interp-commons/natives.ml" 52 2572 2575 "src/interpreter/interp-commons/natives.ml" 54 2625 2675
+type(
+  Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 51 2508 2510 "src/interpreter/interp-commons/natives.ml" 54 2625 2676
+type(
+  Support.param list * Support.expr
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 56 2678 2682 "src/interpreter/interp-commons/natives.ml" 56 2678 2705
+type(
+  Support.ident
+)
+ident(
+  def native_vector_subset_id "src/interpreter/interp-commons/natives.ml" 57 2752 2752 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 56 2678 2716 "src/interpreter/interp-commons/natives.ml" 56 2678 2735
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 56 2678 2736 "src/interpreter/interp-commons/natives.ml" 56 2678 2751
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 56 2678 2716 "src/interpreter/interp-commons/natives.ml" 56 2678 2751
+call(
+  stack
+)
+type(
+  Support.ident
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 57 2752 2756 "src/interpreter/interp-commons/natives.ml" 57 2752 2773
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_subset "src/interpreter/interp-commons/natives.ml" 64 2963 2963 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 58 2798 2809 "src/interpreter/interp-commons/natives.ml" 58 2798 2821
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 58 2798 2822 "src/interpreter/interp-commons/natives.ml" 58 2798 2830
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 58 2798 2808 "src/interpreter/interp-commons/natives.ml" 58 2798 2831
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 58 2798 2802 "src/interpreter/interp-commons/natives.ml" 58 2798 2831
+type(
+  Support.param
+)
+"src/interpreter/interp-commons/natives.ml" 58 2798 2833 "src/interpreter/interp-commons/natives.ml" 58 2798 2841
+type(
+  Support.param
+)
+"src/interpreter/interp-commons/natives.ml" 58 2798 2801 "src/interpreter/interp-commons/natives.ml" 58 2798 2842
+type(
+  Support.param list
+)
+"src/interpreter/interp-commons/natives.ml" 60 2863 2869 "src/interpreter/interp-commons/natives.ml" 60 2863 2892
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_subset_id "src/interpreter/interp-commons/natives.ml" 56 2678 2682 "src/interpreter/interp-commons/natives.ml" 56 2678 2705
+)
+"src/interpreter/interp-commons/natives.ml" 61 2894 2901 "src/interpreter/interp-commons/natives.ml" 61 2894 2913
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 61 2894 2914 "src/interpreter/interp-commons/natives.ml" 61 2894 2922
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 61 2894 2901 "src/interpreter/interp-commons/natives.ml" 61 2894 2922
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 61 2894 2924 "src/interpreter/interp-commons/natives.ml" 61 2894 2935
+type(
+  unit -> Support.ident
+)
+ident(
+  ext_ref Support.id_variadic
+)
+"src/interpreter/interp-commons/natives.ml" 61 2894 2936 "src/interpreter/interp-commons/natives.ml" 61 2894 2938
+type(
+  unit
+)
+"src/interpreter/interp-commons/natives.ml" 61 2894 2924 "src/interpreter/interp-commons/natives.ml" 61 2894 2938
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 61 2894 2900 "src/interpreter/interp-commons/natives.ml" 61 2894 2939
+type(
+  Support.ident list
+)
+"src/interpreter/interp-commons/natives.ml" 59 2844 2847 "src/interpreter/interp-commons/natives.ml" 61 2894 2940
+type(
+  Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 58 2798 2800 "src/interpreter/interp-commons/natives.ml" 61 2894 2941
+type(
+  Support.param list * Support.expr
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 64 2963 2967 "src/interpreter/interp-commons/natives.ml" 64 2963 2988
+type(
+  Support.ident
+)
+ident(
+  def native_vector_make_id "src/interpreter/interp-commons/natives.ml" 65 3033 3033 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 64 2963 2999 "src/interpreter/interp-commons/natives.ml" 64 2963 3018
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 64 2963 3019 "src/interpreter/interp-commons/natives.ml" 64 2963 3032
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 64 2963 2999 "src/interpreter/interp-commons/natives.ml" 64 2963 3032
+call(
+  stack
+)
+type(
+  Support.ident
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 65 3033 3037 "src/interpreter/interp-commons/natives.ml" 65 3033 3052
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_make "src/interpreter/interp-commons/natives.ml" 72 3184 3184 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 66 3077 3081 "src/interpreter/interp-commons/natives.ml" 66 3077 3089
+type(
+  Support.param
+)
+"src/interpreter/interp-commons/natives.ml" 66 3077 3080 "src/interpreter/interp-commons/natives.ml" 66 3077 3090
+type(
+  Support.param list
+)
+"src/interpreter/interp-commons/natives.ml" 68 3111 3116 "src/interpreter/interp-commons/natives.ml" 68 3111 3137
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_make_id "src/interpreter/interp-commons/natives.ml" 64 2963 2967 "src/interpreter/interp-commons/natives.ml" 64 2963 2988
+)
+"src/interpreter/interp-commons/natives.ml" 69 3139 3145 "src/interpreter/interp-commons/natives.ml" 69 3139 3156
+type(
+  unit -> Support.ident
+)
+ident(
+  ext_ref Support.id_variadic
+)
+"src/interpreter/interp-commons/natives.ml" 69 3139 3157 "src/interpreter/interp-commons/natives.ml" 69 3139 3159
+type(
+  unit
+)
+"src/interpreter/interp-commons/natives.ml" 69 3139 3145 "src/interpreter/interp-commons/natives.ml" 69 3139 3159
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 69 3139 3144 "src/interpreter/interp-commons/natives.ml" 69 3139 3160
+type(
+  Support.ident list
+)
+"src/interpreter/interp-commons/natives.ml" 67 3092 3095 "src/interpreter/interp-commons/natives.ml" 69 3139 3161
+type(
+  Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 66 3077 3079 "src/interpreter/interp-commons/natives.ml" 69 3139 3162
+type(
+  Support.param list * Support.expr
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 72 3184 3188 "src/interpreter/interp-commons/natives.ml" 72 3184 3211
+type(
+  Support.ident
+)
+ident(
+  def native_vector_length_id "src/interpreter/interp-commons/natives.ml" 73 3257 3257 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 72 3184 3221 "src/interpreter/interp-commons/natives.ml" 72 3184 3240
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 72 3184 3241 "src/interpreter/interp-commons/natives.ml" 72 3184 3256
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 72 3184 3221 "src/interpreter/interp-commons/natives.ml" 72 3184 3256
+call(
+  stack
+)
+type(
+  Support.ident
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 73 3257 3261 "src/interpreter/interp-commons/natives.ml" 73 3257 3278
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_length "src/interpreter/interp-commons/natives.ml" 84 3671 3671 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 74 3303 3316 "src/interpreter/interp-commons/natives.ml" 74 3303 3328
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 74 3303 3329 "src/interpreter/interp-commons/natives.ml" 74 3303 3335
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 74 3303 3315 "src/interpreter/interp-commons/natives.ml" 74 3303 3336
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 74 3303 3309 "src/interpreter/interp-commons/natives.ml" 74 3303 3336
+type(
+  Support.param
+)
+"src/interpreter/interp-commons/natives.ml" 74 3303 3308 "src/interpreter/interp-commons/natives.ml" 74 3303 3337
+type(
+  Support.param list
+)
+"src/interpreter/interp-commons/natives.ml" 76 3359 3368 "src/interpreter/interp-commons/natives.ml" 76 3359 3391
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_length_id "src/interpreter/interp-commons/natives.ml" 72 3184 3188 "src/interpreter/interp-commons/natives.ml" 72 3184 3211
+)
+"src/interpreter/interp-commons/natives.ml" 77 3393 3402 "src/interpreter/interp-commons/natives.ml" 77 3393 3414
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 77 3393 3415 "src/interpreter/interp-commons/natives.ml" 77 3393 3421
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 77 3393 3402 "src/interpreter/interp-commons/natives.ml" 77 3393 3421
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 77 3393 3401 "src/interpreter/interp-commons/natives.ml" 77 3393 3422
+type(
+  Support.ident list
+)
+"src/interpreter/interp-commons/natives.ml" 75 3339 3343 "src/interpreter/interp-commons/natives.ml" 77 3393 3423
+type(
+  Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 74 3303 3307 "src/interpreter/interp-commons/natives.ml" 77 3393 3424
+type(
+  Support.param list * Support.expr
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  def vec_binop "src/interpreter/interp-commons/natives.ml" 91 3893 3893 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 85 3715 3723 "src/interpreter/interp-commons/natives.ml" 85 3715 3725
+type(
+  Support.ident
+)
+ident(
+  def id "src/interpreter/interp-commons/natives.ml" 86 3729 3733 "src/interpreter/interp-commons/natives.ml" 89 3833 3891
+)
+"src/interpreter/interp-commons/natives.ml" 86 3729 3742 "src/interpreter/interp-commons/natives.ml" 86 3729 3754
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 86 3729 3755 "src/interpreter/interp-commons/natives.ml" 86 3729 3764
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 86 3729 3741 "src/interpreter/interp-commons/natives.ml" 86 3729 3765
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 86 3729 3735 "src/interpreter/interp-commons/natives.ml" 86 3729 3765
+type(
+  Support.param
+)
+"src/interpreter/interp-commons/natives.ml" 86 3729 3774 "src/interpreter/interp-commons/natives.ml" 86 3729 3786
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 86 3729 3787 "src/interpreter/interp-commons/natives.ml" 86 3729 3796
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 86 3729 3773 "src/interpreter/interp-commons/natives.ml" 86 3729 3797
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 86 3729 3767 "src/interpreter/interp-commons/natives.ml" 86 3729 3797
+type(
+  Support.param
+)
+"src/interpreter/interp-commons/natives.ml" 86 3729 3734 "src/interpreter/interp-commons/natives.ml" 86 3729 3798
+type(
+  Support.param list
+)
+"src/interpreter/interp-commons/natives.ml" 88 3820 3829 "src/interpreter/interp-commons/natives.ml" 88 3820 3831
+type(
+  Support.ident
+)
+ident(
+  int_ref id "src/interpreter/interp-commons/natives.ml" 85 3715 3723 "src/interpreter/interp-commons/natives.ml" 85 3715 3725
+)
+"src/interpreter/interp-commons/natives.ml" 89 3833 3842 "src/interpreter/interp-commons/natives.ml" 89 3833 3854
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 89 3833 3855 "src/interpreter/interp-commons/natives.ml" 89 3833 3864
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 89 3833 3842 "src/interpreter/interp-commons/natives.ml" 89 3833 3864
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 89 3833 3866 "src/interpreter/interp-commons/natives.ml" 89 3833 3878
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 89 3833 3879 "src/interpreter/interp-commons/natives.ml" 89 3833 3888
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 89 3833 3866 "src/interpreter/interp-commons/natives.ml" 89 3833 3888
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 89 3833 3841 "src/interpreter/interp-commons/natives.ml" 89 3833 3889
+type(
+  Support.ident list
+)
+"src/interpreter/interp-commons/natives.ml" 87 3800 3804 "src/interpreter/interp-commons/natives.ml" 89 3833 3890
+type(
+  Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 86 3729 3733 "src/interpreter/interp-commons/natives.ml" 89 3833 3891
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 85 3715 3719 "src/interpreter/interp-commons/natives.ml" 89 3833 3891
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 91 3893 3897 "src/interpreter/interp-commons/natives.ml" 91 3893 3904
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  def vec_uop "src/interpreter/interp-commons/natives.ml" 99 4069 4069 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 92 3935 3943 "src/interpreter/interp-commons/natives.ml" 92 3935 3945
+type(
+  Support.ident
+)
+ident(
+  def id "src/interpreter/interp-commons/natives.ml" 93 3949 3953 "src/interpreter/interp-commons/natives.ml" 96 4021 4055
+)
+"src/interpreter/interp-commons/natives.ml" 93 3949 3962 "src/interpreter/interp-commons/natives.ml" 93 3949 3974
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 93 3949 3975 "src/interpreter/interp-commons/natives.ml" 93 3949 3984
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 93 3949 3961 "src/interpreter/interp-commons/natives.ml" 93 3949 3985
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 93 3949 3955 "src/interpreter/interp-commons/natives.ml" 93 3949 3985
+type(
+  Support.param
+)
+"src/interpreter/interp-commons/natives.ml" 93 3949 3954 "src/interpreter/interp-commons/natives.ml" 93 3949 3986
+type(
+  Support.param list
+)
+"src/interpreter/interp-commons/natives.ml" 95 4008 4017 "src/interpreter/interp-commons/natives.ml" 95 4008 4019
+type(
+  Support.ident
+)
+ident(
+  int_ref id "src/interpreter/interp-commons/natives.ml" 92 3935 3943 "src/interpreter/interp-commons/natives.ml" 92 3935 3945
+)
+"src/interpreter/interp-commons/natives.ml" 96 4021 4030 "src/interpreter/interp-commons/natives.ml" 96 4021 4042
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 96 4021 4043 "src/interpreter/interp-commons/natives.ml" 96 4021 4052
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 96 4021 4030 "src/interpreter/interp-commons/natives.ml" 96 4021 4052
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 96 4021 4029 "src/interpreter/interp-commons/natives.ml" 96 4021 4053
+type(
+  Support.ident list
+)
+"src/interpreter/interp-commons/natives.ml" 94 3988 3992 "src/interpreter/interp-commons/natives.ml" 96 4021 4054
+type(
+  Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 93 3949 3953 "src/interpreter/interp-commons/natives.ml" 96 4021 4055
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 92 3935 3939 "src/interpreter/interp-commons/natives.ml" 96 4021 4055
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 99 4069 4073 "src/interpreter/interp-commons/natives.ml" 99 4069 4095
+type(
+  Support.ident
+)
+ident(
+  def native_vector_colon_id "src/interpreter/interp-commons/natives.ml" 100 4133 4133 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 99 4069 4098 "src/interpreter/interp-commons/natives.ml" 99 4069 4117
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 99 4069 4118 "src/interpreter/interp-commons/natives.ml" 99 4069 4132
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 99 4069 4098 "src/interpreter/interp-commons/natives.ml" 99 4069 4132
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 100 4133 4137 "src/interpreter/interp-commons/natives.ml" 100 4133 4153
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_colon "src/interpreter/interp-commons/natives.ml" 102 4192 4192 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 100 4133 4156 "src/interpreter/interp-commons/natives.ml" 100 4133 4165
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 100 4133 4166 "src/interpreter/interp-commons/natives.ml" 100 4133 4190
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_colon_id "src/interpreter/interp-commons/natives.ml" 99 4069 4073 "src/interpreter/interp-commons/natives.ml" 99 4069 4095
+)
+"src/interpreter/interp-commons/natives.ml" 100 4133 4156 "src/interpreter/interp-commons/natives.ml" 100 4133 4190
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 102 4192 4196 "src/interpreter/interp-commons/natives.ml" 102 4192 4216
+type(
+  Support.ident
+)
+ident(
+  def native_vector_add_id "src/interpreter/interp-commons/natives.ml" 103 4260 4260 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 102 4192 4227 "src/interpreter/interp-commons/natives.ml" 102 4192 4246
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 102 4192 4247 "src/interpreter/interp-commons/natives.ml" 102 4192 4259
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 102 4192 4227 "src/interpreter/interp-commons/natives.ml" 102 4192 4259
+call(
+  stack
+)
+type(
+  Support.ident
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 103 4260 4264 "src/interpreter/interp-commons/natives.ml" 103 4260 4278
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_add "src/interpreter/interp-commons/natives.ml" 106 4338 4338 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 104 4300 4304 "src/interpreter/interp-commons/natives.ml" 104 4300 4313
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 104 4300 4314 "src/interpreter/interp-commons/natives.ml" 104 4300 4336
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_add_id "src/interpreter/interp-commons/natives.ml" 102 4192 4196 "src/interpreter/interp-commons/natives.ml" 102 4192 4216
+)
+"src/interpreter/interp-commons/natives.ml" 104 4300 4304 "src/interpreter/interp-commons/natives.ml" 104 4300 4336
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 106 4338 4342 "src/interpreter/interp-commons/natives.ml" 106 4338 4362
+type(
+  Support.ident
+)
+ident(
+  def native_vector_mul_id "src/interpreter/interp-commons/natives.ml" 107 4398 4398 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 106 4338 4365 "src/interpreter/interp-commons/natives.ml" 106 4338 4384
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 106 4338 4385 "src/interpreter/interp-commons/natives.ml" 106 4338 4397
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 106 4338 4365 "src/interpreter/interp-commons/natives.ml" 106 4338 4397
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 107 4398 4402 "src/interpreter/interp-commons/natives.ml" 107 4398 4416
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_mul "src/interpreter/interp-commons/natives.ml" 109 4453 4453 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 107 4398 4419 "src/interpreter/interp-commons/natives.ml" 107 4398 4428
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 107 4398 4429 "src/interpreter/interp-commons/natives.ml" 107 4398 4451
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_mul_id "src/interpreter/interp-commons/natives.ml" 106 4338 4342 "src/interpreter/interp-commons/natives.ml" 106 4338 4362
+)
+"src/interpreter/interp-commons/natives.ml" 107 4398 4419 "src/interpreter/interp-commons/natives.ml" 107 4398 4451
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 109 4453 4457 "src/interpreter/interp-commons/natives.ml" 109 4453 4477
+type(
+  Support.ident
+)
+ident(
+  def native_vector_div_id "src/interpreter/interp-commons/natives.ml" 110 4513 4513 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 109 4453 4480 "src/interpreter/interp-commons/natives.ml" 109 4453 4499
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 109 4453 4500 "src/interpreter/interp-commons/natives.ml" 109 4453 4512
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 109 4453 4480 "src/interpreter/interp-commons/natives.ml" 109 4453 4512
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 110 4513 4517 "src/interpreter/interp-commons/natives.ml" 110 4513 4531
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_div "src/interpreter/interp-commons/natives.ml" 112 4587 4587 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 110 4513 4553 "src/interpreter/interp-commons/natives.ml" 110 4513 4562
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 110 4513 4563 "src/interpreter/interp-commons/natives.ml" 110 4513 4585
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_div_id "src/interpreter/interp-commons/natives.ml" 109 4453 4457 "src/interpreter/interp-commons/natives.ml" 109 4453 4477
+)
+"src/interpreter/interp-commons/natives.ml" 110 4513 4553 "src/interpreter/interp-commons/natives.ml" 110 4513 4585
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 112 4587 4591 "src/interpreter/interp-commons/natives.ml" 112 4587 4611
+type(
+  Support.ident
+)
+ident(
+  def native_vector_sub_id "src/interpreter/interp-commons/natives.ml" 113 4647 4647 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 112 4587 4614 "src/interpreter/interp-commons/natives.ml" 112 4587 4633
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 112 4587 4634 "src/interpreter/interp-commons/natives.ml" 112 4587 4646
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 112 4587 4614 "src/interpreter/interp-commons/natives.ml" 112 4587 4646
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 113 4647 4651 "src/interpreter/interp-commons/natives.ml" 113 4647 4665
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_sub "src/interpreter/interp-commons/natives.ml" 115 4702 4702 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 113 4647 4668 "src/interpreter/interp-commons/natives.ml" 113 4647 4677
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 113 4647 4678 "src/interpreter/interp-commons/natives.ml" 113 4647 4700
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_sub_id "src/interpreter/interp-commons/natives.ml" 112 4587 4591 "src/interpreter/interp-commons/natives.ml" 112 4587 4611
+)
+"src/interpreter/interp-commons/natives.ml" 113 4647 4668 "src/interpreter/interp-commons/natives.ml" 113 4647 4700
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 115 4702 4706 "src/interpreter/interp-commons/natives.ml" 115 4702 4726
+type(
+  Support.ident
+)
+ident(
+  def native_vector_mod_id "src/interpreter/interp-commons/natives.ml" 116 4762 4762 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 115 4702 4729 "src/interpreter/interp-commons/natives.ml" 115 4702 4748
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 115 4702 4749 "src/interpreter/interp-commons/natives.ml" 115 4702 4761
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 115 4702 4729 "src/interpreter/interp-commons/natives.ml" 115 4702 4761
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 116 4762 4766 "src/interpreter/interp-commons/natives.ml" 116 4762 4780
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_mod "src/interpreter/interp-commons/natives.ml" 118 4817 4817 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 116 4762 4783 "src/interpreter/interp-commons/natives.ml" 116 4762 4792
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 116 4762 4793 "src/interpreter/interp-commons/natives.ml" 116 4762 4815
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_mod_id "src/interpreter/interp-commons/natives.ml" 115 4702 4706 "src/interpreter/interp-commons/natives.ml" 115 4702 4726
+)
+"src/interpreter/interp-commons/natives.ml" 116 4762 4783 "src/interpreter/interp-commons/natives.ml" 116 4762 4815
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 118 4817 4821 "src/interpreter/interp-commons/natives.ml" 118 4817 4841
+type(
+  Support.ident
+)
+ident(
+  def native_vector_exp_id "src/interpreter/interp-commons/natives.ml" 119 4877 4877 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 118 4817 4844 "src/interpreter/interp-commons/natives.ml" 118 4817 4863
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 118 4817 4864 "src/interpreter/interp-commons/natives.ml" 118 4817 4876
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 118 4817 4844 "src/interpreter/interp-commons/natives.ml" 118 4817 4876
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 119 4877 4881 "src/interpreter/interp-commons/natives.ml" 119 4877 4895
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_exp "src/interpreter/interp-commons/natives.ml" 122 4949 4949 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 119 4877 4898 "src/interpreter/interp-commons/natives.ml" 119 4877 4907
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 119 4877 4908 "src/interpreter/interp-commons/natives.ml" 119 4877 4930
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_exp_id "src/interpreter/interp-commons/natives.ml" 118 4817 4821 "src/interpreter/interp-commons/natives.ml" 118 4817 4841
+)
+"src/interpreter/interp-commons/natives.ml" 119 4877 4898 "src/interpreter/interp-commons/natives.ml" 119 4877 4930
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 122 4949 4953 "src/interpreter/interp-commons/natives.ml" 122 4949 4972
+type(
+  Support.ident
+)
+ident(
+  def native_vector_lt_id "src/interpreter/interp-commons/natives.ml" 123 5007 5007 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 122 4949 4975 "src/interpreter/interp-commons/natives.ml" 122 4949 4994
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 122 4949 4995 "src/interpreter/interp-commons/natives.ml" 122 4949 5006
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 122 4949 4975 "src/interpreter/interp-commons/natives.ml" 122 4949 5006
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 123 5007 5011 "src/interpreter/interp-commons/natives.ml" 123 5007 5024
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_lt "src/interpreter/interp-commons/natives.ml" 125 5060 5060 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 123 5007 5027 "src/interpreter/interp-commons/natives.ml" 123 5007 5036
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 123 5007 5037 "src/interpreter/interp-commons/natives.ml" 123 5007 5058
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_lt_id "src/interpreter/interp-commons/natives.ml" 122 4949 4953 "src/interpreter/interp-commons/natives.ml" 122 4949 4972
+)
+"src/interpreter/interp-commons/natives.ml" 123 5007 5027 "src/interpreter/interp-commons/natives.ml" 123 5007 5058
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 125 5060 5064 "src/interpreter/interp-commons/natives.ml" 125 5060 5083
+type(
+  Support.ident
+)
+ident(
+  def native_vector_gt_id "src/interpreter/interp-commons/natives.ml" 126 5118 5118 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 125 5060 5086 "src/interpreter/interp-commons/natives.ml" 125 5060 5105
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 125 5060 5106 "src/interpreter/interp-commons/natives.ml" 125 5060 5117
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 125 5060 5086 "src/interpreter/interp-commons/natives.ml" 125 5060 5117
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 126 5118 5122 "src/interpreter/interp-commons/natives.ml" 126 5118 5135
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_gt "src/interpreter/interp-commons/natives.ml" 128 5171 5171 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 126 5118 5138 "src/interpreter/interp-commons/natives.ml" 126 5118 5147
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 126 5118 5148 "src/interpreter/interp-commons/natives.ml" 126 5118 5169
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_gt_id "src/interpreter/interp-commons/natives.ml" 125 5060 5064 "src/interpreter/interp-commons/natives.ml" 125 5060 5083
+)
+"src/interpreter/interp-commons/natives.ml" 126 5118 5138 "src/interpreter/interp-commons/natives.ml" 126 5118 5169
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 128 5171 5175 "src/interpreter/interp-commons/natives.ml" 128 5171 5194
+type(
+  Support.ident
+)
+ident(
+  def native_vector_eq_id "src/interpreter/interp-commons/natives.ml" 129 5229 5229 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 128 5171 5197 "src/interpreter/interp-commons/natives.ml" 128 5171 5216
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 128 5171 5217 "src/interpreter/interp-commons/natives.ml" 128 5171 5228
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 128 5171 5197 "src/interpreter/interp-commons/natives.ml" 128 5171 5228
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 129 5229 5233 "src/interpreter/interp-commons/natives.ml" 129 5229 5246
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_eq "src/interpreter/interp-commons/natives.ml" 131 5282 5282 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 129 5229 5249 "src/interpreter/interp-commons/natives.ml" 129 5229 5258
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 129 5229 5259 "src/interpreter/interp-commons/natives.ml" 129 5229 5280
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_eq_id "src/interpreter/interp-commons/natives.ml" 128 5171 5175 "src/interpreter/interp-commons/natives.ml" 128 5171 5194
+)
+"src/interpreter/interp-commons/natives.ml" 129 5229 5249 "src/interpreter/interp-commons/natives.ml" 129 5229 5280
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 131 5282 5286 "src/interpreter/interp-commons/natives.ml" 131 5282 5306
+type(
+  Support.ident
+)
+ident(
+  def native_vector_neq_id "src/interpreter/interp-commons/natives.ml" 132 5342 5342 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 131 5282 5309 "src/interpreter/interp-commons/natives.ml" 131 5282 5328
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 131 5282 5329 "src/interpreter/interp-commons/natives.ml" 131 5282 5341
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 131 5282 5309 "src/interpreter/interp-commons/natives.ml" 131 5282 5341
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 132 5342 5346 "src/interpreter/interp-commons/natives.ml" 132 5342 5360
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_neq "src/interpreter/interp-commons/natives.ml" 134 5397 5397 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 132 5342 5363 "src/interpreter/interp-commons/natives.ml" 132 5342 5372
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 132 5342 5373 "src/interpreter/interp-commons/natives.ml" 132 5342 5395
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_neq_id "src/interpreter/interp-commons/natives.ml" 131 5282 5286 "src/interpreter/interp-commons/natives.ml" 131 5282 5306
+)
+"src/interpreter/interp-commons/natives.ml" 132 5342 5363 "src/interpreter/interp-commons/natives.ml" 132 5342 5395
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 134 5397 5401 "src/interpreter/interp-commons/natives.ml" 134 5397 5421
+type(
+  Support.ident
+)
+ident(
+  def native_vector_geq_id "src/interpreter/interp-commons/natives.ml" 135 5457 5457 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 134 5397 5424 "src/interpreter/interp-commons/natives.ml" 134 5397 5443
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 134 5397 5444 "src/interpreter/interp-commons/natives.ml" 134 5397 5456
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 134 5397 5424 "src/interpreter/interp-commons/natives.ml" 134 5397 5456
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 135 5457 5461 "src/interpreter/interp-commons/natives.ml" 135 5457 5475
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_geq "src/interpreter/interp-commons/natives.ml" 137 5512 5512 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 135 5457 5478 "src/interpreter/interp-commons/natives.ml" 135 5457 5487
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 135 5457 5488 "src/interpreter/interp-commons/natives.ml" 135 5457 5510
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_geq_id "src/interpreter/interp-commons/natives.ml" 134 5397 5401 "src/interpreter/interp-commons/natives.ml" 134 5397 5421
+)
+"src/interpreter/interp-commons/natives.ml" 135 5457 5478 "src/interpreter/interp-commons/natives.ml" 135 5457 5510
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 137 5512 5516 "src/interpreter/interp-commons/natives.ml" 137 5512 5536
+type(
+  Support.ident
+)
+ident(
+  def native_vector_leq_id "src/interpreter/interp-commons/natives.ml" 138 5572 5572 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 137 5512 5539 "src/interpreter/interp-commons/natives.ml" 137 5512 5558
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 137 5512 5559 "src/interpreter/interp-commons/natives.ml" 137 5512 5571
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 137 5512 5539 "src/interpreter/interp-commons/natives.ml" 137 5512 5571
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 138 5572 5576 "src/interpreter/interp-commons/natives.ml" 138 5572 5590
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_leq "src/interpreter/interp-commons/natives.ml" 141 5639 5639 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 138 5572 5593 "src/interpreter/interp-commons/natives.ml" 138 5572 5602
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 138 5572 5603 "src/interpreter/interp-commons/natives.ml" 138 5572 5625
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_leq_id "src/interpreter/interp-commons/natives.ml" 137 5512 5516 "src/interpreter/interp-commons/natives.ml" 137 5512 5536
+)
+"src/interpreter/interp-commons/natives.ml" 138 5572 5593 "src/interpreter/interp-commons/natives.ml" 138 5572 5625
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 141 5639 5643 "src/interpreter/interp-commons/natives.ml" 141 5639 5666
+type(
+  Support.ident
+)
+ident(
+  def native_vector_andvec_id "src/interpreter/interp-commons/natives.ml" 142 5705 5705 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 141 5639 5669 "src/interpreter/interp-commons/natives.ml" 141 5639 5688
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 141 5639 5689 "src/interpreter/interp-commons/natives.ml" 141 5639 5704
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 141 5639 5669 "src/interpreter/interp-commons/natives.ml" 141 5639 5704
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 142 5705 5709 "src/interpreter/interp-commons/natives.ml" 142 5705 5726
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_andvec "src/interpreter/interp-commons/natives.ml" 144 5766 5766 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 142 5705 5729 "src/interpreter/interp-commons/natives.ml" 142 5705 5738
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 142 5705 5739 "src/interpreter/interp-commons/natives.ml" 142 5705 5764
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_andvec_id "src/interpreter/interp-commons/natives.ml" 141 5639 5643 "src/interpreter/interp-commons/natives.ml" 141 5639 5666
+)
+"src/interpreter/interp-commons/natives.ml" 142 5705 5729 "src/interpreter/interp-commons/natives.ml" 142 5705 5764
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 144 5766 5770 "src/interpreter/interp-commons/natives.ml" 144 5766 5790
+type(
+  Support.ident
+)
+ident(
+  def native_vector_and_id "src/interpreter/interp-commons/natives.ml" 145 5826 5826 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 144 5766 5793 "src/interpreter/interp-commons/natives.ml" 144 5766 5812
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 144 5766 5813 "src/interpreter/interp-commons/natives.ml" 144 5766 5825
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 144 5766 5793 "src/interpreter/interp-commons/natives.ml" 144 5766 5825
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 145 5826 5830 "src/interpreter/interp-commons/natives.ml" 145 5826 5844
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_and "src/interpreter/interp-commons/natives.ml" 147 5881 5881 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 145 5826 5847 "src/interpreter/interp-commons/natives.ml" 145 5826 5856
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 145 5826 5857 "src/interpreter/interp-commons/natives.ml" 145 5826 5879
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_and_id "src/interpreter/interp-commons/natives.ml" 144 5766 5770 "src/interpreter/interp-commons/natives.ml" 144 5766 5790
+)
+"src/interpreter/interp-commons/natives.ml" 145 5826 5847 "src/interpreter/interp-commons/natives.ml" 145 5826 5879
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 147 5881 5885 "src/interpreter/interp-commons/natives.ml" 147 5881 5907
+type(
+  Support.ident
+)
+ident(
+  def native_vector_orvec_id "src/interpreter/interp-commons/natives.ml" 148 5945 5945 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 147 5881 5910 "src/interpreter/interp-commons/natives.ml" 147 5881 5929
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 147 5881 5930 "src/interpreter/interp-commons/natives.ml" 147 5881 5944
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 147 5881 5910 "src/interpreter/interp-commons/natives.ml" 147 5881 5944
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 148 5945 5949 "src/interpreter/interp-commons/natives.ml" 148 5945 5965
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_orvec "src/interpreter/interp-commons/natives.ml" 150 6004 6004 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 148 5945 5968 "src/interpreter/interp-commons/natives.ml" 148 5945 5977
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 148 5945 5978 "src/interpreter/interp-commons/natives.ml" 148 5945 6002
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_orvec_id "src/interpreter/interp-commons/natives.ml" 147 5881 5885 "src/interpreter/interp-commons/natives.ml" 147 5881 5907
+)
+"src/interpreter/interp-commons/natives.ml" 148 5945 5968 "src/interpreter/interp-commons/natives.ml" 148 5945 6002
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 150 6004 6008 "src/interpreter/interp-commons/natives.ml" 150 6004 6027
+type(
+  Support.ident
+)
+ident(
+  def native_vector_or_id "src/interpreter/interp-commons/natives.ml" 151 6062 6062 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 150 6004 6030 "src/interpreter/interp-commons/natives.ml" 150 6004 6049
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 150 6004 6050 "src/interpreter/interp-commons/natives.ml" 150 6004 6061
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 150 6004 6030 "src/interpreter/interp-commons/natives.ml" 150 6004 6061
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 151 6062 6066 "src/interpreter/interp-commons/natives.ml" 151 6062 6079
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_or "src/interpreter/interp-commons/natives.ml" 153 6115 6115 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 151 6062 6082 "src/interpreter/interp-commons/natives.ml" 151 6062 6091
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 151 6062 6092 "src/interpreter/interp-commons/natives.ml" 151 6062 6113
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_or_id "src/interpreter/interp-commons/natives.ml" 150 6004 6008 "src/interpreter/interp-commons/natives.ml" 150 6004 6027
+)
+"src/interpreter/interp-commons/natives.ml" 151 6062 6082 "src/interpreter/interp-commons/natives.ml" 151 6062 6113
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 153 6115 6119 "src/interpreter/interp-commons/natives.ml" 153 6115 6139
+type(
+  Support.ident
+)
+ident(
+  def native_vector_xor_id "src/interpreter/interp-commons/natives.ml" 154 6175 6175 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 153 6115 6142 "src/interpreter/interp-commons/natives.ml" 153 6115 6161
+type(
+  string -> Support.ident
+)
+ident(
+  int_ref native_id_of_string "src/interpreter/interp-commons/natives.ml" 43 2246 2250 "src/interpreter/interp-commons/natives.ml" 43 2246 2269
+)
+"src/interpreter/interp-commons/natives.ml" 153 6115 6162 "src/interpreter/interp-commons/natives.ml" 153 6115 6174
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 153 6115 6142 "src/interpreter/interp-commons/natives.ml" 153 6115 6174
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 154 6175 6179 "src/interpreter/interp-commons/natives.ml" 154 6175 6193
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_xor "src/interpreter/interp-commons/natives.ml" 157 6300 6300 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 154 6175 6196 "src/interpreter/interp-commons/natives.ml" 154 6175 6205
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_binop "src/interpreter/interp-commons/natives.ml" 84 3671 3675 "src/interpreter/interp-commons/natives.ml" 84 3671 3684
+)
+"src/interpreter/interp-commons/natives.ml" 154 6175 6206 "src/interpreter/interp-commons/natives.ml" 154 6175 6228
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_xor_id "src/interpreter/interp-commons/natives.ml" 153 6115 6119 "src/interpreter/interp-commons/natives.ml" 153 6115 6139
+)
+"src/interpreter/interp-commons/natives.ml" 154 6175 6196 "src/interpreter/interp-commons/natives.ml" 154 6175 6228
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 157 6300 6304 "src/interpreter/interp-commons/natives.ml" 157 6300 6329
+type(
+  Support.ident
+)
+ident(
+  def native_vector_symbolic_id "src/interpreter/interp-commons/natives.ml" 158 6369 6369 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 157 6300 6332 "src/interpreter/interp-commons/natives.ml" 157 6300 6345
+type(
+  Support.rstring -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_rstring
+)
+"src/interpreter/interp-commons/natives.ml" 157 6300 6352 "src/interpreter/interp-commons/natives.ml" 157 6300 6367
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 157 6300 6346 "src/interpreter/interp-commons/natives.ml" 157 6300 6368
+type(
+  Support.rstring
+)
+"src/interpreter/interp-commons/natives.ml" 157 6300 6332 "src/interpreter/interp-commons/natives.ml" 157 6300 6368
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 158 6369 6373 "src/interpreter/interp-commons/natives.ml" 158 6369 6387
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_sym "src/interpreter/interp-commons/natives.ml" 165 6607 6607 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 159 6411 6424 "src/interpreter/interp-commons/natives.ml" 159 6411 6436
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 159 6411 6437 "src/interpreter/interp-commons/natives.ml" 159 6411 6445
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 159 6411 6423 "src/interpreter/interp-commons/natives.ml" 159 6411 6446
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 159 6411 6417 "src/interpreter/interp-commons/natives.ml" 159 6411 6446
+type(
+  Support.param
+)
+"src/interpreter/interp-commons/natives.ml" 159 6411 6455 "src/interpreter/interp-commons/natives.ml" 159 6411 6467
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 159 6411 6468 "src/interpreter/interp-commons/natives.ml" 159 6411 6474
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 159 6411 6454 "src/interpreter/interp-commons/natives.ml" 159 6411 6475
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 159 6411 6448 "src/interpreter/interp-commons/natives.ml" 159 6411 6475
+type(
+  Support.param
+)
+"src/interpreter/interp-commons/natives.ml" 159 6411 6416 "src/interpreter/interp-commons/natives.ml" 159 6411 6476
+type(
+  Support.param list
+)
+"src/interpreter/interp-commons/natives.ml" 161 6498 6507 "src/interpreter/interp-commons/natives.ml" 161 6498 6532
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_symbolic_id "src/interpreter/interp-commons/natives.ml" 157 6300 6304 "src/interpreter/interp-commons/natives.ml" 157 6300 6329
+)
+"src/interpreter/interp-commons/natives.ml" 162 6534 6543 "src/interpreter/interp-commons/natives.ml" 162 6534 6555
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 162 6534 6556 "src/interpreter/interp-commons/natives.ml" 162 6534 6564
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 162 6534 6543 "src/interpreter/interp-commons/natives.ml" 162 6534 6564
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 162 6534 6566 "src/interpreter/interp-commons/natives.ml" 162 6534 6578
+type(
+  string -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_string
+)
+"src/interpreter/interp-commons/natives.ml" 162 6534 6579 "src/interpreter/interp-commons/natives.ml" 162 6534 6585
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 162 6534 6566 "src/interpreter/interp-commons/natives.ml" 162 6534 6585
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 162 6534 6542 "src/interpreter/interp-commons/natives.ml" 162 6534 6586
+type(
+  Support.ident list
+)
+"src/interpreter/interp-commons/natives.ml" 160 6478 6482 "src/interpreter/interp-commons/natives.ml" 162 6534 6587
+type(
+  Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 159 6411 6415 "src/interpreter/interp-commons/natives.ml" 162 6534 6588
+type(
+  Support.param list * Support.expr
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 165 6607 6611 "src/interpreter/interp-commons/natives.ml" 165 6607 6635
+type(
+  Support.ident
+)
+ident(
+  def native_vector_intconv_id "src/interpreter/interp-commons/natives.ml" 166 6672 6672 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 165 6607 6638 "src/interpreter/interp-commons/natives.ml" 165 6607 6651
+type(
+  Support.rstring -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_rstring
+)
+"src/interpreter/interp-commons/natives.ml" 165 6607 6658 "src/interpreter/interp-commons/natives.ml" 165 6607 6670
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 165 6607 6652 "src/interpreter/interp-commons/natives.ml" 165 6607 6671
+type(
+  Support.rstring
+)
+"src/interpreter/interp-commons/natives.ml" 165 6607 6638 "src/interpreter/interp-commons/natives.ml" 165 6607 6671
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 166 6672 6676 "src/interpreter/interp-commons/natives.ml" 166 6672 6694
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_intconv "src/interpreter/interp-commons/natives.ml" 167 6730 6730 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 166 6672 6697 "src/interpreter/interp-commons/natives.ml" 166 6672 6704
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_uop "src/interpreter/interp-commons/natives.ml" 91 3893 3897 "src/interpreter/interp-commons/natives.ml" 91 3893 3904
+)
+"src/interpreter/interp-commons/natives.ml" 166 6672 6705 "src/interpreter/interp-commons/natives.ml" 166 6672 6729
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_intconv_id "src/interpreter/interp-commons/natives.ml" 165 6607 6611 "src/interpreter/interp-commons/natives.ml" 165 6607 6635
+)
+"src/interpreter/interp-commons/natives.ml" 166 6672 6697 "src/interpreter/interp-commons/natives.ml" 166 6672 6729
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 167 6730 6734 "src/interpreter/interp-commons/natives.ml" 167 6730 6760
+type(
+  Support.ident
+)
+ident(
+  def native_vector_floatconv_id "src/interpreter/interp-commons/natives.ml" 168 6795 6795 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 167 6730 6763 "src/interpreter/interp-commons/natives.ml" 167 6730 6776
+type(
+  Support.rstring -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_rstring
+)
+"src/interpreter/interp-commons/natives.ml" 167 6730 6783 "src/interpreter/interp-commons/natives.ml" 167 6730 6793
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 167 6730 6777 "src/interpreter/interp-commons/natives.ml" 167 6730 6794
+type(
+  Support.rstring
+)
+"src/interpreter/interp-commons/natives.ml" 167 6730 6763 "src/interpreter/interp-commons/natives.ml" 167 6730 6794
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 168 6795 6799 "src/interpreter/interp-commons/natives.ml" 168 6795 6819
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_floatconv "src/interpreter/interp-commons/natives.ml" 169 6857 6857 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 168 6795 6822 "src/interpreter/interp-commons/natives.ml" 168 6795 6829
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_uop "src/interpreter/interp-commons/natives.ml" 91 3893 3897 "src/interpreter/interp-commons/natives.ml" 91 3893 3904
+)
+"src/interpreter/interp-commons/natives.ml" 168 6795 6830 "src/interpreter/interp-commons/natives.ml" 168 6795 6856
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_floatconv_id "src/interpreter/interp-commons/natives.ml" 167 6730 6734 "src/interpreter/interp-commons/natives.ml" 167 6730 6760
+)
+"src/interpreter/interp-commons/natives.ml" 168 6795 6822 "src/interpreter/interp-commons/natives.ml" 168 6795 6856
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 169 6857 6861 "src/interpreter/interp-commons/natives.ml" 169 6857 6889
+type(
+  Support.ident
+)
+ident(
+  def native_vector_complexconv_id "src/interpreter/interp-commons/natives.ml" 170 6926 6926 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 169 6857 6892 "src/interpreter/interp-commons/natives.ml" 169 6857 6905
+type(
+  Support.rstring -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_rstring
+)
+"src/interpreter/interp-commons/natives.ml" 169 6857 6912 "src/interpreter/interp-commons/natives.ml" 169 6857 6924
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 169 6857 6906 "src/interpreter/interp-commons/natives.ml" 169 6857 6925
+type(
+  Support.rstring
+)
+"src/interpreter/interp-commons/natives.ml" 169 6857 6892 "src/interpreter/interp-commons/natives.ml" 169 6857 6925
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 170 6926 6930 "src/interpreter/interp-commons/natives.ml" 170 6926 6952
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_complexconv "src/interpreter/interp-commons/natives.ml" 171 6992 6992 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 170 6926 6955 "src/interpreter/interp-commons/natives.ml" 170 6926 6962
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_uop "src/interpreter/interp-commons/natives.ml" 91 3893 3897 "src/interpreter/interp-commons/natives.ml" 91 3893 3904
+)
+"src/interpreter/interp-commons/natives.ml" 170 6926 6963 "src/interpreter/interp-commons/natives.ml" 170 6926 6991
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_complexconv_id "src/interpreter/interp-commons/natives.ml" 169 6857 6861 "src/interpreter/interp-commons/natives.ml" 169 6857 6889
+)
+"src/interpreter/interp-commons/natives.ml" 170 6926 6955 "src/interpreter/interp-commons/natives.ml" 170 6926 6991
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 171 6992 6996 "src/interpreter/interp-commons/natives.ml" 171 6992 7020
+type(
+  Support.ident
+)
+ident(
+  def native_vector_strconv_id "src/interpreter/interp-commons/natives.ml" 172 7056 7056 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 171 6992 7023 "src/interpreter/interp-commons/natives.ml" 171 6992 7036
+type(
+  Support.rstring -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_rstring
+)
+"src/interpreter/interp-commons/natives.ml" 171 6992 7043 "src/interpreter/interp-commons/natives.ml" 171 6992 7054
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 171 6992 7037 "src/interpreter/interp-commons/natives.ml" 171 6992 7055
+type(
+  Support.rstring
+)
+"src/interpreter/interp-commons/natives.ml" 171 6992 7023 "src/interpreter/interp-commons/natives.ml" 171 6992 7055
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 172 7056 7060 "src/interpreter/interp-commons/natives.ml" 172 7056 7078
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_strconv "src/interpreter/interp-commons/natives.ml" 173 7114 7114 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 172 7056 7081 "src/interpreter/interp-commons/natives.ml" 172 7056 7088
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_uop "src/interpreter/interp-commons/natives.ml" 91 3893 3897 "src/interpreter/interp-commons/natives.ml" 91 3893 3904
+)
+"src/interpreter/interp-commons/natives.ml" 172 7056 7089 "src/interpreter/interp-commons/natives.ml" 172 7056 7113
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_strconv_id "src/interpreter/interp-commons/natives.ml" 171 6992 6996 "src/interpreter/interp-commons/natives.ml" 171 6992 7020
+)
+"src/interpreter/interp-commons/natives.ml" 172 7056 7081 "src/interpreter/interp-commons/natives.ml" 172 7056 7113
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 173 7114 7118 "src/interpreter/interp-commons/natives.ml" 173 7114 7143
+type(
+  Support.ident
+)
+ident(
+  def native_vector_boolconv_id "src/interpreter/interp-commons/natives.ml" 174 7177 7177 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 173 7114 7146 "src/interpreter/interp-commons/natives.ml" 173 7114 7159
+type(
+  Support.rstring -> Support.ident
+)
+ident(
+  ext_ref Support.id_of_rstring
+)
+"src/interpreter/interp-commons/natives.ml" 173 7114 7166 "src/interpreter/interp-commons/natives.ml" 173 7114 7175
+type(
+  string
+)
+"src/interpreter/interp-commons/natives.ml" 173 7114 7160 "src/interpreter/interp-commons/natives.ml" 173 7114 7176
+type(
+  Support.rstring
+)
+"src/interpreter/interp-commons/natives.ml" 173 7114 7146 "src/interpreter/interp-commons/natives.ml" 173 7114 7176
+call(
+  stack
+)
+type(
+  Support.ident
+)
+"src/interpreter/interp-commons/natives.ml" 174 7177 7181 "src/interpreter/interp-commons/natives.ml" 174 7177 7200
+type(
+  Support.param list * Support.expr
+)
+ident(
+  def nw_fun_vec_boolconv "src/interpreter/interp-commons/natives.ml" 177 7265 7265 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 174 7177 7203 "src/interpreter/interp-commons/natives.ml" 174 7177 7210
+type(
+  Support.ident -> Support.param list * Support.expr
+)
+ident(
+  int_ref vec_uop "src/interpreter/interp-commons/natives.ml" 91 3893 3897 "src/interpreter/interp-commons/natives.ml" 91 3893 3904
+)
+"src/interpreter/interp-commons/natives.ml" 174 7177 7211 "src/interpreter/interp-commons/natives.ml" 174 7177 7236
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_boolconv_id "src/interpreter/interp-commons/natives.ml" 173 7114 7118 "src/interpreter/interp-commons/natives.ml" 173 7114 7143
+)
+"src/interpreter/interp-commons/natives.ml" 174 7177 7203 "src/interpreter/interp-commons/natives.ml" 174 7177 7236
+call(
+  stack
+)
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/interp-commons/natives.ml" 177 7265 7269 "src/interpreter/interp-commons/natives.ml" 177 7265 7291
+type(
+  (Support.ident * (Support.param list * Support.expr)) list
+)
+ident(
+  def native_injection_pairs "src/interpreter/interp-commons/natives.ml" 212 8663 8666 "src/interpreter/interp-commons/natives.ml" 1 0 -1
+)
+"src/interpreter/interp-commons/natives.ml" 179 7335 7340 "src/interpreter/interp-commons/natives.ml" 179 7335 7366
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_subscript_id "src/interpreter/interp-commons/natives.ml" 49 2380 2384 "src/interpreter/interp-commons/natives.ml" 49 2380 2410
+)
+"src/interpreter/interp-commons/natives.ml" 179 7335 7368 "src/interpreter/interp-commons/natives.ml" 179 7335 7388
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_subscript "src/interpreter/interp-commons/natives.ml" 50 2459 2463 "src/interpreter/interp-commons/natives.ml" 50 2459 2483
+)
+"src/interpreter/interp-commons/natives.ml" 179 7335 7339 "src/interpreter/interp-commons/natives.ml" 179 7335 7389
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 180 7391 7396 "src/interpreter/interp-commons/natives.ml" 180 7391 7419
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_subset_id "src/interpreter/interp-commons/natives.ml" 56 2678 2682 "src/interpreter/interp-commons/natives.ml" 56 2678 2705
+)
+"src/interpreter/interp-commons/natives.ml" 180 7391 7421 "src/interpreter/interp-commons/natives.ml" 180 7391 7438
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_subset "src/interpreter/interp-commons/natives.ml" 57 2752 2756 "src/interpreter/interp-commons/natives.ml" 57 2752 2773
+)
+"src/interpreter/interp-commons/natives.ml" 180 7391 7395 "src/interpreter/interp-commons/natives.ml" 180 7391 7439
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 181 7441 7446 "src/interpreter/interp-commons/natives.ml" 181 7441 7467
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_make_id "src/interpreter/interp-commons/natives.ml" 64 2963 2967 "src/interpreter/interp-commons/natives.ml" 64 2963 2988
+)
+"src/interpreter/interp-commons/natives.ml" 181 7441 7469 "src/interpreter/interp-commons/natives.ml" 181 7441 7484
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_make "src/interpreter/interp-commons/natives.ml" 65 3033 3037 "src/interpreter/interp-commons/natives.ml" 65 3033 3052
+)
+"src/interpreter/interp-commons/natives.ml" 181 7441 7445 "src/interpreter/interp-commons/natives.ml" 181 7441 7485
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 182 7487 7492 "src/interpreter/interp-commons/natives.ml" 182 7487 7515
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_length_id "src/interpreter/interp-commons/natives.ml" 72 3184 3188 "src/interpreter/interp-commons/natives.ml" 72 3184 3211
+)
+"src/interpreter/interp-commons/natives.ml" 182 7487 7517 "src/interpreter/interp-commons/natives.ml" 182 7487 7534
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_length "src/interpreter/interp-commons/natives.ml" 73 3257 3261 "src/interpreter/interp-commons/natives.ml" 73 3257 3278
+)
+"src/interpreter/interp-commons/natives.ml" 182 7487 7491 "src/interpreter/interp-commons/natives.ml" 182 7487 7535
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 183 7537 7542 "src/interpreter/interp-commons/natives.ml" 183 7537 7564
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_colon_id "src/interpreter/interp-commons/natives.ml" 99 4069 4073 "src/interpreter/interp-commons/natives.ml" 99 4069 4095
+)
+"src/interpreter/interp-commons/natives.ml" 183 7537 7566 "src/interpreter/interp-commons/natives.ml" 183 7537 7582
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_colon "src/interpreter/interp-commons/natives.ml" 100 4133 4137 "src/interpreter/interp-commons/natives.ml" 100 4133 4153
+)
+"src/interpreter/interp-commons/natives.ml" 183 7537 7541 "src/interpreter/interp-commons/natives.ml" 183 7537 7583
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 185 7586 7591 "src/interpreter/interp-commons/natives.ml" 185 7586 7611
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_add_id "src/interpreter/interp-commons/natives.ml" 102 4192 4196 "src/interpreter/interp-commons/natives.ml" 102 4192 4216
+)
+"src/interpreter/interp-commons/natives.ml" 185 7586 7613 "src/interpreter/interp-commons/natives.ml" 185 7586 7627
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_add "src/interpreter/interp-commons/natives.ml" 103 4260 4264 "src/interpreter/interp-commons/natives.ml" 103 4260 4278
+)
+"src/interpreter/interp-commons/natives.ml" 185 7586 7590 "src/interpreter/interp-commons/natives.ml" 185 7586 7628
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 186 7630 7635 "src/interpreter/interp-commons/natives.ml" 186 7630 7655
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_mul_id "src/interpreter/interp-commons/natives.ml" 106 4338 4342 "src/interpreter/interp-commons/natives.ml" 106 4338 4362
+)
+"src/interpreter/interp-commons/natives.ml" 186 7630 7657 "src/interpreter/interp-commons/natives.ml" 186 7630 7671
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_mul "src/interpreter/interp-commons/natives.ml" 107 4398 4402 "src/interpreter/interp-commons/natives.ml" 107 4398 4416
+)
+"src/interpreter/interp-commons/natives.ml" 186 7630 7634 "src/interpreter/interp-commons/natives.ml" 186 7630 7672
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 187 7674 7679 "src/interpreter/interp-commons/natives.ml" 187 7674 7699
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_div_id "src/interpreter/interp-commons/natives.ml" 109 4453 4457 "src/interpreter/interp-commons/natives.ml" 109 4453 4477
+)
+"src/interpreter/interp-commons/natives.ml" 187 7674 7701 "src/interpreter/interp-commons/natives.ml" 187 7674 7715
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_div "src/interpreter/interp-commons/natives.ml" 110 4513 4517 "src/interpreter/interp-commons/natives.ml" 110 4513 4531
+)
+"src/interpreter/interp-commons/natives.ml" 187 7674 7678 "src/interpreter/interp-commons/natives.ml" 187 7674 7716
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 188 7718 7723 "src/interpreter/interp-commons/natives.ml" 188 7718 7743
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_sub_id "src/interpreter/interp-commons/natives.ml" 112 4587 4591 "src/interpreter/interp-commons/natives.ml" 112 4587 4611
+)
+"src/interpreter/interp-commons/natives.ml" 188 7718 7745 "src/interpreter/interp-commons/natives.ml" 188 7718 7759
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_sub "src/interpreter/interp-commons/natives.ml" 113 4647 4651 "src/interpreter/interp-commons/natives.ml" 113 4647 4665
+)
+"src/interpreter/interp-commons/natives.ml" 188 7718 7722 "src/interpreter/interp-commons/natives.ml" 188 7718 7760
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 189 7762 7767 "src/interpreter/interp-commons/natives.ml" 189 7762 7787
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_mod_id "src/interpreter/interp-commons/natives.ml" 115 4702 4706 "src/interpreter/interp-commons/natives.ml" 115 4702 4726
+)
+"src/interpreter/interp-commons/natives.ml" 189 7762 7789 "src/interpreter/interp-commons/natives.ml" 189 7762 7803
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_mod "src/interpreter/interp-commons/natives.ml" 116 4762 4766 "src/interpreter/interp-commons/natives.ml" 116 4762 4780
+)
+"src/interpreter/interp-commons/natives.ml" 189 7762 7766 "src/interpreter/interp-commons/natives.ml" 189 7762 7804
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 190 7806 7811 "src/interpreter/interp-commons/natives.ml" 190 7806 7831
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_exp_id "src/interpreter/interp-commons/natives.ml" 118 4817 4821 "src/interpreter/interp-commons/natives.ml" 118 4817 4841
+)
+"src/interpreter/interp-commons/natives.ml" 190 7806 7833 "src/interpreter/interp-commons/natives.ml" 190 7806 7847
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_exp "src/interpreter/interp-commons/natives.ml" 119 4877 4881 "src/interpreter/interp-commons/natives.ml" 119 4877 4895
+)
+"src/interpreter/interp-commons/natives.ml" 190 7806 7810 "src/interpreter/interp-commons/natives.ml" 190 7806 7848
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 192 7851 7856 "src/interpreter/interp-commons/natives.ml" 192 7851 7875
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_lt_id "src/interpreter/interp-commons/natives.ml" 122 4949 4953 "src/interpreter/interp-commons/natives.ml" 122 4949 4972
+)
+"src/interpreter/interp-commons/natives.ml" 192 7851 7877 "src/interpreter/interp-commons/natives.ml" 192 7851 7890
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_lt "src/interpreter/interp-commons/natives.ml" 123 5007 5011 "src/interpreter/interp-commons/natives.ml" 123 5007 5024
+)
+"src/interpreter/interp-commons/natives.ml" 192 7851 7855 "src/interpreter/interp-commons/natives.ml" 192 7851 7891
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 193 7893 7898 "src/interpreter/interp-commons/natives.ml" 193 7893 7917
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_gt_id "src/interpreter/interp-commons/natives.ml" 125 5060 5064 "src/interpreter/interp-commons/natives.ml" 125 5060 5083
+)
+"src/interpreter/interp-commons/natives.ml" 193 7893 7919 "src/interpreter/interp-commons/natives.ml" 193 7893 7932
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_gt "src/interpreter/interp-commons/natives.ml" 126 5118 5122 "src/interpreter/interp-commons/natives.ml" 126 5118 5135
+)
+"src/interpreter/interp-commons/natives.ml" 193 7893 7897 "src/interpreter/interp-commons/natives.ml" 193 7893 7933
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 194 7935 7940 "src/interpreter/interp-commons/natives.ml" 194 7935 7959
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_eq_id "src/interpreter/interp-commons/natives.ml" 128 5171 5175 "src/interpreter/interp-commons/natives.ml" 128 5171 5194
+)
+"src/interpreter/interp-commons/natives.ml" 194 7935 7961 "src/interpreter/interp-commons/natives.ml" 194 7935 7974
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_eq "src/interpreter/interp-commons/natives.ml" 129 5229 5233 "src/interpreter/interp-commons/natives.ml" 129 5229 5246
+)
+"src/interpreter/interp-commons/natives.ml" 194 7935 7939 "src/interpreter/interp-commons/natives.ml" 194 7935 7975
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 195 7977 7982 "src/interpreter/interp-commons/natives.ml" 195 7977 8002
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_neq_id "src/interpreter/interp-commons/natives.ml" 131 5282 5286 "src/interpreter/interp-commons/natives.ml" 131 5282 5306
+)
+"src/interpreter/interp-commons/natives.ml" 195 7977 8004 "src/interpreter/interp-commons/natives.ml" 195 7977 8018
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_neq "src/interpreter/interp-commons/natives.ml" 132 5342 5346 "src/interpreter/interp-commons/natives.ml" 132 5342 5360
+)
+"src/interpreter/interp-commons/natives.ml" 195 7977 7981 "src/interpreter/interp-commons/natives.ml" 195 7977 8019
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 196 8021 8026 "src/interpreter/interp-commons/natives.ml" 196 8021 8046
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_geq_id "src/interpreter/interp-commons/natives.ml" 134 5397 5401 "src/interpreter/interp-commons/natives.ml" 134 5397 5421
+)
+"src/interpreter/interp-commons/natives.ml" 196 8021 8048 "src/interpreter/interp-commons/natives.ml" 196 8021 8062
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_geq "src/interpreter/interp-commons/natives.ml" 135 5457 5461 "src/interpreter/interp-commons/natives.ml" 135 5457 5475
+)
+"src/interpreter/interp-commons/natives.ml" 196 8021 8025 "src/interpreter/interp-commons/natives.ml" 196 8021 8063
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 197 8065 8070 "src/interpreter/interp-commons/natives.ml" 197 8065 8090
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_leq_id "src/interpreter/interp-commons/natives.ml" 137 5512 5516 "src/interpreter/interp-commons/natives.ml" 137 5512 5536
+)
+"src/interpreter/interp-commons/natives.ml" 197 8065 8092 "src/interpreter/interp-commons/natives.ml" 197 8065 8106
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_leq "src/interpreter/interp-commons/natives.ml" 138 5572 5576 "src/interpreter/interp-commons/natives.ml" 138 5572 5590
+)
+"src/interpreter/interp-commons/natives.ml" 197 8065 8069 "src/interpreter/interp-commons/natives.ml" 197 8065 8107
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 199 8110 8115 "src/interpreter/interp-commons/natives.ml" 199 8110 8138
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_andvec_id "src/interpreter/interp-commons/natives.ml" 141 5639 5643 "src/interpreter/interp-commons/natives.ml" 141 5639 5666
+)
+"src/interpreter/interp-commons/natives.ml" 199 8110 8140 "src/interpreter/interp-commons/natives.ml" 199 8110 8157
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_andvec "src/interpreter/interp-commons/natives.ml" 142 5705 5709 "src/interpreter/interp-commons/natives.ml" 142 5705 5726
+)
+"src/interpreter/interp-commons/natives.ml" 199 8110 8114 "src/interpreter/interp-commons/natives.ml" 199 8110 8158
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 200 8160 8165 "src/interpreter/interp-commons/natives.ml" 200 8160 8185
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_and_id "src/interpreter/interp-commons/natives.ml" 144 5766 5770 "src/interpreter/interp-commons/natives.ml" 144 5766 5790
+)
+"src/interpreter/interp-commons/natives.ml" 200 8160 8187 "src/interpreter/interp-commons/natives.ml" 200 8160 8201
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_and "src/interpreter/interp-commons/natives.ml" 145 5826 5830 "src/interpreter/interp-commons/natives.ml" 145 5826 5844
+)
+"src/interpreter/interp-commons/natives.ml" 200 8160 8164 "src/interpreter/interp-commons/natives.ml" 200 8160 8202
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 201 8204 8209 "src/interpreter/interp-commons/natives.ml" 201 8204 8231
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_orvec_id "src/interpreter/interp-commons/natives.ml" 147 5881 5885 "src/interpreter/interp-commons/natives.ml" 147 5881 5907
+)
+"src/interpreter/interp-commons/natives.ml" 201 8204 8233 "src/interpreter/interp-commons/natives.ml" 201 8204 8249
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_orvec "src/interpreter/interp-commons/natives.ml" 148 5945 5949 "src/interpreter/interp-commons/natives.ml" 148 5945 5965
+)
+"src/interpreter/interp-commons/natives.ml" 201 8204 8208 "src/interpreter/interp-commons/natives.ml" 201 8204 8250
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 202 8252 8257 "src/interpreter/interp-commons/natives.ml" 202 8252 8276
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_or_id "src/interpreter/interp-commons/natives.ml" 150 6004 6008 "src/interpreter/interp-commons/natives.ml" 150 6004 6027
+)
+"src/interpreter/interp-commons/natives.ml" 202 8252 8278 "src/interpreter/interp-commons/natives.ml" 202 8252 8291
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_or "src/interpreter/interp-commons/natives.ml" 151 6062 6066 "src/interpreter/interp-commons/natives.ml" 151 6062 6079
+)
+"src/interpreter/interp-commons/natives.ml" 202 8252 8256 "src/interpreter/interp-commons/natives.ml" 202 8252 8292
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 203 8294 8299 "src/interpreter/interp-commons/natives.ml" 203 8294 8319
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_xor_id "src/interpreter/interp-commons/natives.ml" 153 6115 6119 "src/interpreter/interp-commons/natives.ml" 153 6115 6139
+)
+"src/interpreter/interp-commons/natives.ml" 203 8294 8321 "src/interpreter/interp-commons/natives.ml" 203 8294 8335
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_xor "src/interpreter/interp-commons/natives.ml" 154 6175 6179 "src/interpreter/interp-commons/natives.ml" 154 6175 6193
+)
+"src/interpreter/interp-commons/natives.ml" 203 8294 8298 "src/interpreter/interp-commons/natives.ml" 203 8294 8336
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 205 8339 8344 "src/interpreter/interp-commons/natives.ml" 205 8339 8369
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_symbolic_id "src/interpreter/interp-commons/natives.ml" 157 6300 6304 "src/interpreter/interp-commons/natives.ml" 157 6300 6329
+)
+"src/interpreter/interp-commons/natives.ml" 205 8339 8371 "src/interpreter/interp-commons/natives.ml" 205 8339 8385
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_sym "src/interpreter/interp-commons/natives.ml" 158 6369 6373 "src/interpreter/interp-commons/natives.ml" 158 6369 6387
+)
+"src/interpreter/interp-commons/natives.ml" 205 8339 8343 "src/interpreter/interp-commons/natives.ml" 205 8339 8386
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 207 8389 8394 "src/interpreter/interp-commons/natives.ml" 207 8389 8418
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_intconv_id "src/interpreter/interp-commons/natives.ml" 165 6607 6611 "src/interpreter/interp-commons/natives.ml" 165 6607 6635
+)
+"src/interpreter/interp-commons/natives.ml" 207 8389 8420 "src/interpreter/interp-commons/natives.ml" 207 8389 8438
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_intconv "src/interpreter/interp-commons/natives.ml" 166 6672 6676 "src/interpreter/interp-commons/natives.ml" 166 6672 6694
+)
+"src/interpreter/interp-commons/natives.ml" 207 8389 8393 "src/interpreter/interp-commons/natives.ml" 207 8389 8439
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 208 8441 8446 "src/interpreter/interp-commons/natives.ml" 208 8441 8472
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_floatconv_id "src/interpreter/interp-commons/natives.ml" 167 6730 6734 "src/interpreter/interp-commons/natives.ml" 167 6730 6760
+)
+"src/interpreter/interp-commons/natives.ml" 208 8441 8474 "src/interpreter/interp-commons/natives.ml" 208 8441 8494
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_floatconv "src/interpreter/interp-commons/natives.ml" 168 6795 6799 "src/interpreter/interp-commons/natives.ml" 168 6795 6819
+)
+"src/interpreter/interp-commons/natives.ml" 208 8441 8445 "src/interpreter/interp-commons/natives.ml" 208 8441 8495
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 209 8497 8502 "src/interpreter/interp-commons/natives.ml" 209 8497 8530
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_complexconv_id "src/interpreter/interp-commons/natives.ml" 169 6857 6861 "src/interpreter/interp-commons/natives.ml" 169 6857 6889
+)
+"src/interpreter/interp-commons/natives.ml" 209 8497 8532 "src/interpreter/interp-commons/natives.ml" 209 8497 8554
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_complexconv "src/interpreter/interp-commons/natives.ml" 170 6926 6930 "src/interpreter/interp-commons/natives.ml" 170 6926 6952
+)
+"src/interpreter/interp-commons/natives.ml" 209 8497 8501 "src/interpreter/interp-commons/natives.ml" 209 8497 8555
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 210 8557 8562 "src/interpreter/interp-commons/natives.ml" 210 8557 8586
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_strconv_id "src/interpreter/interp-commons/natives.ml" 171 6992 6996 "src/interpreter/interp-commons/natives.ml" 171 6992 7020
+)
+"src/interpreter/interp-commons/natives.ml" 210 8557 8588 "src/interpreter/interp-commons/natives.ml" 210 8557 8606
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_strconv "src/interpreter/interp-commons/natives.ml" 172 7056 7060 "src/interpreter/interp-commons/natives.ml" 172 7056 7078
+)
+"src/interpreter/interp-commons/natives.ml" 210 8557 8561 "src/interpreter/interp-commons/natives.ml" 210 8557 8607
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 211 8609 8614 "src/interpreter/interp-commons/natives.ml" 211 8609 8639
+type(
+  Support.ident
+)
+ident(
+  int_ref native_vector_boolconv_id "src/interpreter/interp-commons/natives.ml" 173 7114 7118 "src/interpreter/interp-commons/natives.ml" 173 7114 7143
+)
+"src/interpreter/interp-commons/natives.ml" 211 8609 8641 "src/interpreter/interp-commons/natives.ml" 211 8609 8660
+type(
+  Support.param list * Support.expr
+)
+ident(
+  int_ref nw_fun_vec_boolconv "src/interpreter/interp-commons/natives.ml" 174 7177 7181 "src/interpreter/interp-commons/natives.ml" 174 7177 7200
+)
+"src/interpreter/interp-commons/natives.ml" 211 8609 8613 "src/interpreter/interp-commons/natives.ml" 211 8609 8661
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/interp-commons/natives.ml" 178 7331 7333 "src/interpreter/interp-commons/natives.ml" 212 8663 8666
+type(
+  (Support.ident * (Support.param list * Support.expr)) list
+)
+type(
+  (Support.ident * (Support.param list * Support.expr)) list
+)

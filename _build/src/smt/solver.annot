@@ -1,0 +1,1096 @@
+"src/smt/solver.ml" 9 65 69 "src/smt/solver.ml" 9 65 75
+type(
+  unit -> string
+)
+ident(
+  def z3_eof "src/smt/solver.ml" 12 125 125 "src/smt/solver.ml" 1 0 -1
+)
+"src/smt/solver.ml" 10 95 101 "src/smt/solver.ml" 10 95 102
+type(
+  unit
+)
+"src/smt/solver.ml" 10 95 106 "src/smt/solver.ml" 10 95 123
+type(
+  string
+)
+"src/smt/solver.ml" 10 95 97 "src/smt/solver.ml" 10 95 123
+type(
+  unit -> string
+)
+type(
+  unit -> string
+)
+"src/smt/solver.ml" 12 125 129 "src/smt/solver.ml" 12 125 137
+type(
+  unit -> string
+)
+ident(
+  def tmp_file "src/smt/solver.ml" 15 196 196 "src/smt/solver.ml" 1 0 -1
+)
+"src/smt/solver.ml" 13 157 163 "src/smt/solver.ml" 13 157 164
+type(
+  unit
+)
+"src/smt/solver.ml" 13 157 168 "src/smt/solver.ml" 13 157 174
+type(
+  unit -> string
+)
+ident(
+  ext_ref Sys.getcwd
+)
+"src/smt/solver.ml" 13 157 175 "src/smt/solver.ml" 13 157 177
+type(
+  unit
+)
+"src/smt/solver.ml" 13 157 168 "src/smt/solver.ml" 13 157 177
+type(
+  string
+)
+"src/smt/solver.ml" 13 157 178 "src/smt/solver.ml" 13 157 179
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/solver.ml" 13 157 180 "src/smt/solver.ml" 13 157 194
+type(
+  string
+)
+"src/smt/solver.ml" 13 157 168 "src/smt/solver.ml" 13 157 194
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/solver.ml" 13 157 159 "src/smt/solver.ml" 13 157 194
+type(
+  unit -> string
+)
+type(
+  unit -> string
+)
+"src/smt/solver.ml" 15 196 200 "src/smt/solver.ml" 15 196 214
+type(
+  Smt2.smt2 -> string
+)
+ident(
+  def z3_cmd_of_smt2 "src/smt/solver.ml" 22 370 370 "src/smt/solver.ml" 1 0 -1
+)
+"src/smt/solver.ml" 16 234 240 "src/smt/solver.ml" 16 234 244
+type(
+  Smt2.smt2
+)
+ident(
+  def smt2 "src/smt/solver.ml" 17 248 252 "src/smt/solver.ml" 20 349 368
+)
+"src/smt/solver.ml" 17 248 252 "src/smt/solver.ml" 17 248 268
+type(
+  string
+)
+"src/smt/solver.ml" 17 248 269 "src/smt/solver.ml" 17 248 270
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/solver.ml" 17 248 271 "src/smt/solver.ml" 17 248 279
+type(
+  unit -> string
+)
+ident(
+  int_ref tmp_file "src/smt/solver.ml" 12 125 129 "src/smt/solver.ml" 12 125 137
+)
+"src/smt/solver.ml" 17 248 280 "src/smt/solver.ml" 17 248 282
+type(
+  unit
+)
+"src/smt/solver.ml" 17 248 271 "src/smt/solver.ml" 17 248 282
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 17 248 283 "src/smt/solver.ml" 17 248 284
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/solver.ml" 17 248 285 "src/smt/solver.ml" 17 248 290
+type(
+  string
+)
+"src/smt/solver.ml" 17 248 291 "src/smt/solver.ml" 17 248 292
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/solver.ml" 18 293 297 "src/smt/solver.ml" 18 293 303
+type(
+  unit -> string
+)
+ident(
+  int_ref z3_eof "src/smt/solver.ml" 9 65 69 "src/smt/solver.ml" 9 65 75
+)
+"src/smt/solver.ml" 18 293 304 "src/smt/solver.ml" 18 293 306
+type(
+  unit
+)
+"src/smt/solver.ml" 18 293 297 "src/smt/solver.ml" 18 293 306
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 18 293 307 "src/smt/solver.ml" 18 293 308
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/solver.ml" 18 293 309 "src/smt/solver.ml" 18 293 313
+type(
+  string
+)
+"src/smt/solver.ml" 18 293 314 "src/smt/solver.ml" 18 293 315
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/solver.ml" 19 316 320 "src/smt/solver.ml" 19 316 334
+type(
+  Smt2.smt2 -> string
+)
+ident(
+  ext_ref Smt2.string_of_smt2
+)
+"src/smt/solver.ml" 19 316 335 "src/smt/solver.ml" 19 316 339
+type(
+  Smt2.smt2
+)
+ident(
+  int_ref smt2 "src/smt/solver.ml" 16 234 240 "src/smt/solver.ml" 16 234 244
+)
+"src/smt/solver.ml" 19 316 320 "src/smt/solver.ml" 19 316 339
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 19 316 340 "src/smt/solver.ml" 19 316 341
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/solver.ml" 19 316 342 "src/smt/solver.ml" 19 316 346
+type(
+  string
+)
+"src/smt/solver.ml" 19 316 347 "src/smt/solver.ml" 19 316 348
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/solver.ml" 20 349 353 "src/smt/solver.ml" 20 349 359
+type(
+  unit -> string
+)
+ident(
+  int_ref z3_eof "src/smt/solver.ml" 9 65 69 "src/smt/solver.ml" 9 65 75
+)
+"src/smt/solver.ml" 20 349 360 "src/smt/solver.ml" 20 349 362
+type(
+  unit
+)
+"src/smt/solver.ml" 20 349 353 "src/smt/solver.ml" 20 349 362
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 20 349 363 "src/smt/solver.ml" 20 349 364
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/solver.ml" 20 349 365 "src/smt/solver.ml" 20 349 368
+type(
+  string
+)
+"src/smt/solver.ml" 20 349 353 "src/smt/solver.ml" 20 349 368
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 19 316 342 "src/smt/solver.ml" 20 349 368
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 19 316 320 "src/smt/solver.ml" 20 349 368
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 18 293 309 "src/smt/solver.ml" 20 349 368
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 18 293 297 "src/smt/solver.ml" 20 349 368
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 17 248 285 "src/smt/solver.ml" 20 349 368
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 17 248 271 "src/smt/solver.ml" 20 349 368
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 17 248 252 "src/smt/solver.ml" 20 349 368
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/solver.ml" 16 234 236 "src/smt/solver.ml" 20 349 368
+type(
+  Smt2.smt2 -> string
+)
+type(
+  Smt2.smt2 -> string
+)
+"src/smt/solver.ml" 22 370 374 "src/smt/solver.ml" 22 370 380
+type(
+  Smt2.smt2 -> Smtsyntax.smtprog
+)
+ident(
+  def run_z3 "src/smt/solver.ml" 56 1468 1468 "src/smt/solver.ml" 1 0 -1
+)
+"src/smt/solver.ml" 23 401 407 "src/smt/solver.ml" 23 401 411
+type(
+  Smt2.smt2
+)
+ident(
+  def smt2 "src/smt/solver.ml" 24 415 419 "src/smt/solver.ml" 54 1454 1466
+)
+"src/smt/solver.ml" 24 415 423 "src/smt/solver.ml" 24 415 426
+type(
+  string
+)
+ident(
+  def cmd "src/smt/solver.ml" 30 611 615 "src/smt/solver.ml" 54 1454 1466
+)
+"src/smt/solver.ml" 24 415 429 "src/smt/solver.ml" 24 415 443
+type(
+  Smt2.smt2 -> string
+)
+ident(
+  int_ref z3_cmd_of_smt2 "src/smt/solver.ml" 15 196 200 "src/smt/solver.ml" 15 196 214
+)
+"src/smt/solver.ml" 24 415 444 "src/smt/solver.ml" 24 415 448
+type(
+  Smt2.smt2
+)
+ident(
+  int_ref smt2 "src/smt/solver.ml" 23 401 407 "src/smt/solver.ml" 23 401 411
+)
+"src/smt/solver.ml" 24 415 429 "src/smt/solver.ml" 24 415 448
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 30 611 619 "src/smt/solver.ml" 30 611 620
+type(
+  int
+)
+"src/smt/solver.ml" 30 611 623 "src/smt/solver.ml" 30 611 630
+type(
+  string -> int
+)
+ident(
+  ext_ref Sys.command
+)
+"src/smt/solver.ml" 30 611 631 "src/smt/solver.ml" 30 611 634
+type(
+  string
+)
+ident(
+  int_ref cmd "src/smt/solver.ml" 24 415 423 "src/smt/solver.ml" 24 415 426
+)
+"src/smt/solver.ml" 30 611 623 "src/smt/solver.ml" 30 611 634
+type(
+  int
+)
+"src/smt/solver.ml" 31 638 646 "src/smt/solver.ml" 31 638 652
+type(
+  in_channel
+)
+ident(
+  def tmp_in "src/smt/solver.ml" 32 680 684 "src/smt/solver.ml" 54 1454 1466
+)
+"src/smt/solver.ml" 31 638 655 "src/smt/solver.ml" 31 638 662
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/smt/solver.ml" 31 638 664 "src/smt/solver.ml" 31 638 672
+type(
+  unit -> string
+)
+ident(
+  int_ref tmp_file "src/smt/solver.ml" 12 125 129 "src/smt/solver.ml" 12 125 137
+)
+"src/smt/solver.ml" 31 638 673 "src/smt/solver.ml" 31 638 675
+type(
+  unit
+)
+"src/smt/solver.ml" 31 638 663 "src/smt/solver.ml" 31 638 676
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 31 638 655 "src/smt/solver.ml" 31 638 676
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/smt/solver.ml" 32 680 688 "src/smt/solver.ml" 32 680 694
+type(
+  Lexing.lexbuf
+)
+ident(
+  def lexbuf "src/smt/solver.ml" 33 727 731 "src/smt/solver.ml" 54 1454 1466
+)
+"src/smt/solver.ml" 32 680 697 "src/smt/solver.ml" 32 680 716
+type(
+  in_channel -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_channel
+)
+"src/smt/solver.ml" 32 680 717 "src/smt/solver.ml" 32 680 723
+type(
+  in_channel
+)
+ident(
+  int_ref tmp_in "src/smt/solver.ml" 31 638 646 "src/smt/solver.ml" 31 638 652
+)
+"src/smt/solver.ml" 32 680 697 "src/smt/solver.ml" 32 680 723
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"src/smt/solver.ml" 33 727 735 "src/smt/solver.ml" 33 727 739
+type(
+  Smtsyntax.smtprog
+)
+ident(
+  def prog "src/smt/solver.ml" 48 1247 1253 "src/smt/solver.ml" 54 1454 1466
+)
+"src/smt/solver.ml" 35 752 760 "src/smt/solver.ml" 35 752 774
+type(
+  (Lexing.lexbuf -> Smtparser.token) -> Lexing.lexbuf -> Smtsyntax.smtprog
+)
+ident(
+  ext_ref Smtparser.prog
+)
+"src/smt/solver.ml" 35 752 776 "src/smt/solver.ml" 35 752 793
+type(
+  '_a list ref -> Lexing.lexbuf -> Smtparser.token
+)
+ident(
+  ext_ref Smtlexer.tokenize
+)
+"src/smt/solver.ml" 35 752 795 "src/smt/solver.ml" 35 752 798
+type(
+  '_a list -> '_a list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/smt/solver.ml" 35 752 799 "src/smt/solver.ml" 35 752 801
+type(
+  '_a list
+)
+"src/smt/solver.ml" 35 752 794 "src/smt/solver.ml" 35 752 802
+type(
+  '_a list ref
+)
+"src/smt/solver.ml" 35 752 775 "src/smt/solver.ml" 35 752 803
+call(
+  stack
+)
+type(
+  Lexing.lexbuf -> Smtparser.token
+)
+"src/smt/solver.ml" 35 752 804 "src/smt/solver.ml" 35 752 810
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/solver.ml" 32 680 688 "src/smt/solver.ml" 32 680 694
+)
+"src/smt/solver.ml" 35 752 760 "src/smt/solver.ml" 35 752 810
+call(
+  stack
+)
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 36 811 822 "src/smt/solver.ml" 36 811 823
+type(
+  exn
+)
+"src/smt/solver.ml" 37 827 839 "src/smt/solver.ml" 37 827 842
+type(
+  Lexing.position
+)
+ident(
+  def pos "src/smt/solver.ml" 38 873 881 "src/smt/solver.ml" 46 1224 1235
+)
+"src/smt/solver.ml" 37 827 845 "src/smt/solver.ml" 37 827 851
+type(
+  Lexing.lexbuf
+)
+ident(
+  int_ref lexbuf "src/smt/solver.ml" 32 680 688 "src/smt/solver.ml" 32 680 694
+)
+"src/smt/solver.ml" 37 827 845 "src/smt/solver.ml" 37 827 869
+type(
+  Lexing.position
+)
+"src/smt/solver.ml" 39 887 897 "src/smt/solver.ml" 39 887 909
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"src/smt/solver.ml" 39 887 910 "src/smt/solver.ml" 39 887 942
+type(
+  string
+)
+"src/smt/solver.ml" 39 887 897 "src/smt/solver.ml" 39 887 942
+call(
+  stack
+)
+type(
+  unit
+)
+"src/smt/solver.ml" 40 944 954 "src/smt/solver.ml" 40 944 966
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"src/smt/solver.ml" 40 944 968 "src/smt/solver.ml" 40 944 981
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/smt/solver.ml" 40 944 982 "src/smt/solver.ml" 40 944 985
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "src/smt/solver.ml" 37 827 839 "src/smt/solver.ml" 37 827 842
+)
+"src/smt/solver.ml" 40 944 982 "src/smt/solver.ml" 40 944 1001
+type(
+  int
+)
+"src/smt/solver.ml" 40 944 967 "src/smt/solver.ml" 40 944 1002
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 40 944 954 "src/smt/solver.ml" 40 944 1002
+call(
+  stack
+)
+type(
+  unit
+)
+"src/smt/solver.ml" 41 1004 1014 "src/smt/solver.ml" 41 1004 1026
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"src/smt/solver.ml" 41 1004 1027 "src/smt/solver.ml" 41 1004 1037
+type(
+  string
+)
+"src/smt/solver.ml" 41 1004 1014 "src/smt/solver.ml" 41 1004 1037
+call(
+  stack
+)
+type(
+  unit
+)
+"src/smt/solver.ml" 42 1039 1049 "src/smt/solver.ml" 42 1039 1061
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"src/smt/solver.ml" 42 1039 1063 "src/smt/solver.ml" 42 1039 1076
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/smt/solver.ml" 42 1039 1078 "src/smt/solver.ml" 42 1039 1081
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "src/smt/solver.ml" 37 827 839 "src/smt/solver.ml" 37 827 842
+)
+"src/smt/solver.ml" 42 1039 1078 "src/smt/solver.ml" 42 1039 1097
+type(
+  int
+)
+"src/smt/solver.ml" 42 1039 1098 "src/smt/solver.ml" 42 1039 1099
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/smt/solver.ml" 43 1100 1139 "src/smt/solver.ml" 43 1100 1142
+type(
+  Lexing.position
+)
+ident(
+  int_ref pos "src/smt/solver.ml" 37 827 839 "src/smt/solver.ml" 37 827 842
+)
+"src/smt/solver.ml" 43 1100 1139 "src/smt/solver.ml" 43 1100 1157
+type(
+  int
+)
+"src/smt/solver.ml" 42 1039 1077 "src/smt/solver.ml" 43 1100 1158
+type(
+  int
+)
+"src/smt/solver.ml" 42 1039 1062 "src/smt/solver.ml" 43 1100 1159
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 42 1039 1049 "src/smt/solver.ml" 43 1100 1159
+call(
+  stack
+)
+type(
+  unit
+)
+"src/smt/solver.ml" 44 1161 1171 "src/smt/solver.ml" 44 1161 1184
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/smt/solver.ml" 44 1161 1185 "src/smt/solver.ml" 44 1161 1188
+type(
+  string
+)
+"src/smt/solver.ml" 44 1161 1171 "src/smt/solver.ml" 44 1161 1188
+call(
+  stack
+)
+type(
+  unit
+)
+"src/smt/solver.ml" 45 1190 1200 "src/smt/solver.ml" 45 1190 1208
+type(
+  string -> Smtsyntax.smtprog
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/smt/solver.ml" 45 1190 1209 "src/smt/solver.ml" 45 1190 1223
+type(
+  string
+)
+"src/smt/solver.ml" 45 1190 1200 "src/smt/solver.ml" 45 1190 1223
+call(
+  stack
+)
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 44 1161 1171 "src/smt/solver.ml" 45 1190 1223
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 42 1039 1049 "src/smt/solver.ml" 45 1190 1223
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 41 1004 1014 "src/smt/solver.ml" 45 1190 1223
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 40 944 954 "src/smt/solver.ml" 45 1190 1223
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 38 873 881 "src/smt/solver.ml" 46 1224 1235
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 37 827 835 "src/smt/solver.ml" 46 1224 1235
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 34 742 748 "src/smt/solver.ml" 46 1224 1235
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 48 1247 1257 "src/smt/solver.ml" 48 1247 1258
+type(
+  unit
+)
+"src/smt/solver.ml" 48 1247 1261 "src/smt/solver.ml" 48 1247 1269
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"src/smt/solver.ml" 48 1247 1270 "src/smt/solver.ml" 48 1247 1276
+type(
+  in_channel
+)
+ident(
+  int_ref tmp_in "src/smt/solver.ml" 31 638 646 "src/smt/solver.ml" 31 638 652
+)
+"src/smt/solver.ml" 48 1247 1261 "src/smt/solver.ml" 48 1247 1276
+call(
+  stack
+)
+type(
+  unit
+)
+"src/smt/solver.ml" 54 1454 1462 "src/smt/solver.ml" 54 1454 1466
+type(
+  Smtsyntax.smtprog
+)
+ident(
+  int_ref prog "src/smt/solver.ml" 33 727 735 "src/smt/solver.ml" 33 727 739
+)
+"src/smt/solver.ml" 48 1247 1253 "src/smt/solver.ml" 54 1454 1466
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 33 727 731 "src/smt/solver.ml" 54 1454 1466
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 32 680 684 "src/smt/solver.ml" 54 1454 1466
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 31 638 642 "src/smt/solver.ml" 54 1454 1466
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 30 611 615 "src/smt/solver.ml" 54 1454 1466
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 24 415 419 "src/smt/solver.ml" 54 1454 1466
+type(
+  Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 23 401 403 "src/smt/solver.ml" 54 1454 1466
+type(
+  Smt2.smt2 -> Smtsyntax.smtprog
+)
+type(
+  Smt2.smt2 -> Smtsyntax.smtprog
+)
+"src/smt/solver.ml" 56 1468 1472 "src/smt/solver.ml" 56 1468 1485
+type(
+  Smt2.smt2 -> string
+)
+ident(
+  def run_stupid_z3 "src/smt/solver.ml" 70 1831 1862 "src/smt/solver.ml" 1 0 -1
+)
+"src/smt/solver.ml" 57 1505 1511 "src/smt/solver.ml" 57 1505 1515
+type(
+  Smt2.smt2
+)
+ident(
+  def smt2 "src/smt/solver.ml" 58 1519 1523 "src/smt/solver.ml" 70 1831 1862
+)
+"src/smt/solver.ml" 58 1519 1527 "src/smt/solver.ml" 58 1519 1530
+type(
+  string
+)
+ident(
+  def cmd "src/smt/solver.ml" 59 1556 1560 "src/smt/solver.ml" 70 1831 1862
+)
+"src/smt/solver.ml" 58 1519 1533 "src/smt/solver.ml" 58 1519 1547
+type(
+  Smt2.smt2 -> string
+)
+ident(
+  int_ref z3_cmd_of_smt2 "src/smt/solver.ml" 15 196 200 "src/smt/solver.ml" 15 196 214
+)
+"src/smt/solver.ml" 58 1519 1548 "src/smt/solver.ml" 58 1519 1552
+type(
+  Smt2.smt2
+)
+ident(
+  int_ref smt2 "src/smt/solver.ml" 57 1505 1511 "src/smt/solver.ml" 57 1505 1515
+)
+"src/smt/solver.ml" 58 1519 1533 "src/smt/solver.ml" 58 1519 1552
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 59 1556 1564 "src/smt/solver.ml" 59 1556 1565
+type(
+  int
+)
+"src/smt/solver.ml" 59 1556 1568 "src/smt/solver.ml" 59 1556 1575
+type(
+  string -> int
+)
+ident(
+  ext_ref Sys.command
+)
+"src/smt/solver.ml" 59 1556 1576 "src/smt/solver.ml" 59 1556 1579
+type(
+  string
+)
+ident(
+  int_ref cmd "src/smt/solver.ml" 58 1519 1527 "src/smt/solver.ml" 58 1519 1530
+)
+"src/smt/solver.ml" 59 1556 1568 "src/smt/solver.ml" 59 1556 1579
+type(
+  int
+)
+"src/smt/solver.ml" 60 1583 1591 "src/smt/solver.ml" 60 1583 1597
+type(
+  in_channel
+)
+ident(
+  def tmp_in "src/smt/solver.ml" 61 1625 1629 "src/smt/solver.ml" 70 1831 1862
+)
+"src/smt/solver.ml" 60 1583 1600 "src/smt/solver.ml" 60 1583 1607
+type(
+  string -> in_channel
+)
+ident(
+  ext_ref Pervasives.open_in
+)
+"src/smt/solver.ml" 60 1583 1609 "src/smt/solver.ml" 60 1583 1617
+type(
+  unit -> string
+)
+ident(
+  int_ref tmp_file "src/smt/solver.ml" 12 125 129 "src/smt/solver.ml" 12 125 137
+)
+"src/smt/solver.ml" 60 1583 1618 "src/smt/solver.ml" 60 1583 1620
+type(
+  unit
+)
+"src/smt/solver.ml" 60 1583 1608 "src/smt/solver.ml" 60 1583 1621
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 60 1583 1600 "src/smt/solver.ml" 60 1583 1621
+call(
+  stack
+)
+type(
+  in_channel
+)
+"src/smt/solver.ml" 61 1625 1633 "src/smt/solver.ml" 61 1625 1638
+type(
+  string list ref
+)
+ident(
+  def lines "src/smt/solver.ml" 62 1651 1655 "src/smt/solver.ml" 70 1831 1862
+)
+"src/smt/solver.ml" 61 1625 1641 "src/smt/solver.ml" 61 1625 1644
+type(
+  string list -> string list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/smt/solver.ml" 61 1625 1645 "src/smt/solver.ml" 61 1625 1647
+type(
+  string list
+)
+"src/smt/solver.ml" 61 1625 1641 "src/smt/solver.ml" 61 1625 1647
+type(
+  string list ref
+)
+"src/smt/solver.ml" 62 1651 1659 "src/smt/solver.ml" 62 1651 1660
+type(
+  unit
+)
+"src/smt/solver.ml" 64 1673 1687 "src/smt/solver.ml" 64 1673 1691
+type(
+  bool
+)
+"src/smt/solver.ml" 65 1695 1709 "src/smt/solver.ml" 65 1695 1713
+type(
+  string
+)
+ident(
+  def line "src/smt/solver.ml" 66 1737 1747 "src/smt/solver.ml" 66 1737 1771
+)
+"src/smt/solver.ml" 65 1695 1716 "src/smt/solver.ml" 65 1695 1726
+type(
+  in_channel -> string
+)
+ident(
+  ext_ref Pervasives.input_line
+)
+"src/smt/solver.ml" 65 1695 1727 "src/smt/solver.ml" 65 1695 1733
+type(
+  in_channel
+)
+ident(
+  int_ref tmp_in "src/smt/solver.ml" 60 1583 1591 "src/smt/solver.ml" 60 1583 1597
+)
+"src/smt/solver.ml" 65 1695 1716 "src/smt/solver.ml" 65 1695 1733
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/solver.ml" 66 1737 1747 "src/smt/solver.ml" 66 1737 1752
+type(
+  string list ref
+)
+ident(
+  int_ref lines "src/smt/solver.ml" 61 1625 1633 "src/smt/solver.ml" 61 1625 1638
+)
+"src/smt/solver.ml" 66 1737 1753 "src/smt/solver.ml" 66 1737 1755
+type(
+  string list ref -> string list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/smt/solver.ml" 66 1737 1756 "src/smt/solver.ml" 66 1737 1757
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/smt/solver.ml" 66 1737 1757 "src/smt/solver.ml" 66 1737 1762
+type(
+  string list ref
+)
+ident(
+  int_ref lines "src/smt/solver.ml" 61 1625 1633 "src/smt/solver.ml" 61 1625 1638
+)
+"src/smt/solver.ml" 66 1737 1756 "src/smt/solver.ml" 66 1737 1762
+type(
+  string list
+)
+"src/smt/solver.ml" 66 1737 1763 "src/smt/solver.ml" 66 1737 1764
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/smt/solver.ml" 66 1737 1766 "src/smt/solver.ml" 66 1737 1770
+type(
+  string
+)
+ident(
+  int_ref line "src/smt/solver.ml" 65 1695 1709 "src/smt/solver.ml" 65 1695 1713
+)
+"src/smt/solver.ml" 66 1737 1765 "src/smt/solver.ml" 66 1737 1771
+type(
+  string list
+)
+"src/smt/solver.ml" 66 1737 1756 "src/smt/solver.ml" 66 1737 1771
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/solver.ml" 66 1737 1747 "src/smt/solver.ml" 66 1737 1771
+type(
+  unit
+)
+"src/smt/solver.ml" 65 1695 1705 "src/smt/solver.ml" 66 1737 1771
+type(
+  unit
+)
+"src/smt/solver.ml" 64 1673 1681 "src/smt/solver.ml" 67 1772 1784
+type(
+  unit
+)
+"src/smt/solver.ml" 68 1785 1796 "src/smt/solver.ml" 68 1785 1797
+type(
+  exn
+)
+"src/smt/solver.ml" 69 1801 1811 "src/smt/solver.ml" 69 1801 1819
+type(
+  in_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_in
+)
+"src/smt/solver.ml" 69 1801 1820 "src/smt/solver.ml" 69 1801 1826
+type(
+  in_channel
+)
+ident(
+  int_ref tmp_in "src/smt/solver.ml" 60 1583 1591 "src/smt/solver.ml" 60 1583 1597
+)
+"src/smt/solver.ml" 69 1801 1811 "src/smt/solver.ml" 69 1801 1827
+call(
+  stack
+)
+type(
+  unit
+)
+"src/smt/solver.ml" 63 1663 1669 "src/smt/solver.ml" 69 1801 1827
+type(
+  unit
+)
+"src/smt/solver.ml" 70 1831 1837 "src/smt/solver.ml" 70 1831 1850
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/solver.ml" 70 1831 1851 "src/smt/solver.ml" 70 1831 1855
+type(
+  string
+)
+"src/smt/solver.ml" 70 1831 1856 "src/smt/solver.ml" 70 1831 1857
+type(
+  string list ref -> string list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/smt/solver.ml" 70 1831 1857 "src/smt/solver.ml" 70 1831 1862
+type(
+  string list ref
+)
+ident(
+  int_ref lines "src/smt/solver.ml" 61 1625 1633 "src/smt/solver.ml" 61 1625 1638
+)
+"src/smt/solver.ml" 70 1831 1856 "src/smt/solver.ml" 70 1831 1862
+type(
+  string list
+)
+"src/smt/solver.ml" 70 1831 1837 "src/smt/solver.ml" 70 1831 1862
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/solver.ml" 62 1651 1655 "src/smt/solver.ml" 70 1831 1862
+type(
+  string
+)
+"src/smt/solver.ml" 61 1625 1629 "src/smt/solver.ml" 70 1831 1862
+type(
+  string
+)
+"src/smt/solver.ml" 60 1583 1587 "src/smt/solver.ml" 70 1831 1862
+type(
+  string
+)
+"src/smt/solver.ml" 59 1556 1560 "src/smt/solver.ml" 70 1831 1862
+type(
+  string
+)
+"src/smt/solver.ml" 58 1519 1523 "src/smt/solver.ml" 70 1831 1862
+type(
+  string
+)
+"src/smt/solver.ml" 57 1505 1507 "src/smt/solver.ml" 70 1831 1862
+type(
+  Smt2.smt2 -> string
+)
+type(
+  Smt2.smt2 -> string
+)

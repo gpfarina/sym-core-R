@@ -1,0 +1,78 @@
+Name: Core-R
+Version: 0.1
+Synopsis: A library for analyzing the R programming language.
+Authors: Ross Mawhorter and Anton Xue
+License: LGPL with OCaml linking exception
+Description: R programming language analysis framework.
+OASISFormat: 0.3
+BuildTools: ocamlbuild, ocamlfind
+Plugins: META (0.4), DevFiles (0.4)
+
+Executable "main"
+  Path: src
+  MainIs: main.ml
+  BuildDepends: smt, language, interpreter, loader, natives
+
+Library "smt-parser"
+  Path: src/smt/parser
+  Modules: Smtparser, Smtsyntax
+
+Library "smt"
+  Path: src/smt
+  Modules: Smt2, Solver, Smtutils, Ismt
+  BuildDepends: smt-parser
+
+Library "parser"
+  Path: src/parser
+  Modules: Parser, Rast
+
+Executable "absyn_generator"
+  Path: src/parser
+  MainIs: absyn_generator.ml
+  BuildDepends: parser
+
+Library "language"
+  Path: src/language
+  Modules: Syntax, Annotations, Langutils
+
+Library "interp-commons"
+  Path: src/interpreter/interp-commons
+  Modules: Rules, Support, Natives, Smttrans, Interputils
+  BuildDepends: language, smt
+
+Library "natives"
+  Path: src/interpreter/natives
+  Modules: Constants, Copy, Vector, Native_support, Subscript,
+           Native_calls, Arithmetic, Symbolic_ops, Convert
+  BuildDepends: interp-commons
+
+Library "loader"
+  Path: src/interpreter/preprocess
+  Modules: Loader, Rast_to_language
+  BuildDepends: parser, interp-commons, natives
+
+Library "stepper"
+  Path: src/interpreter/stepper
+  Modules: Stepper
+  BuildDepends: interp-commons, natives
+
+Library "interpreter"
+  Path: src/interpreter
+  Modules: Engine
+  BuildDepends: interp-commons, natives, loader, stepper
+
+Library "ounit"
+  Path: test/ounit
+  Modules: OUnit, OUnitTypes, OUnitUtils, OUnitLogger, OUnitChooser
+  BuildDepends: unix
+
+Executable "testytesty"
+  Path: test
+  MainIs: test.ml
+  BuildDepends: interpreter, ounit
+
+Test "testytesty"
+  TestTools: testytesty
+  Command: $testytesty
+  WorkingDirectory: test
+

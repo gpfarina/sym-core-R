@@ -1,0 +1,5094 @@
+"src/interpreter/preprocess/loader.ml" 17 174 178 "src/interpreter/preprocess/loader.ml" 17 174 186
+type(
+  unit -> string
+)
+ident(
+  def base_dir "src/interpreter/preprocess/loader.ml" 20 240 240 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 18 206 212 "src/interpreter/preprocess/loader.ml" 18 206 213
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 18 206 217 "src/interpreter/preprocess/loader.ml" 18 206 223
+type(
+  unit -> string
+)
+ident(
+  ext_ref Sys.getcwd
+)
+"src/interpreter/preprocess/loader.ml" 18 206 224 "src/interpreter/preprocess/loader.ml" 18 206 226
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 18 206 217 "src/interpreter/preprocess/loader.ml" 18 206 226
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 18 206 227 "src/interpreter/preprocess/loader.ml" 18 206 228
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/interpreter/preprocess/loader.ml" 18 206 229 "src/interpreter/preprocess/loader.ml" 18 206 238
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 18 206 217 "src/interpreter/preprocess/loader.ml" 18 206 238
+call(
+  tail
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 18 206 208 "src/interpreter/preprocess/loader.ml" 18 206 238
+type(
+  unit -> string
+)
+type(
+  unit -> string
+)
+"src/interpreter/preprocess/loader.ml" 20 240 244 "src/interpreter/preprocess/loader.ml" 20 240 253
+type(
+  unit -> string
+)
+ident(
+  def base_file "src/interpreter/preprocess/loader.ml" 23 296 296 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 21 273 279 "src/interpreter/preprocess/loader.ml" 21 273 280
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 21 273 284 "src/interpreter/preprocess/loader.ml" 21 273 294
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 21 273 275 "src/interpreter/preprocess/loader.ml" 21 273 294
+type(
+  unit -> string
+)
+type(
+  unit -> string
+)
+"src/interpreter/preprocess/loader.ml" 25 325 344 "src/interpreter/preprocess/loader.ml" 25 325 360
+call(
+  stack
+)
+"src/interpreter/preprocess/loader.ml" 26 361 380 "src/interpreter/preprocess/loader.ml" 26 361 396
+call(
+  stack
+)
+"src/interpreter/preprocess/loader.ml" 36 538 542 "src/interpreter/preprocess/loader.ml" 36 538 565
+type(
+  string -> string
+)
+ident(
+  def unwrap_raw_string_const "src/interpreter/preprocess/loader.ml" 44 748 748 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 37 587 593 "src/interpreter/preprocess/loader.ml" 37 587 596
+type(
+  string
+)
+ident(
+  def raw "src/interpreter/preprocess/loader.ml" 38 600 604 "src/interpreter/preprocess/loader.ml" 42 737 746
+)
+"src/interpreter/preprocess/loader.ml" 38 600 608 "src/interpreter/preprocess/loader.ml" 38 600 611
+type(
+  int
+)
+ident(
+  def len "src/interpreter/preprocess/loader.ml" 39 635 639 "src/interpreter/preprocess/loader.ml" 42 737 746
+)
+"src/interpreter/preprocess/loader.ml" 38 600 614 "src/interpreter/preprocess/loader.ml" 38 600 627
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/interpreter/preprocess/loader.ml" 38 600 628 "src/interpreter/preprocess/loader.ml" 38 600 631
+type(
+  string
+)
+ident(
+  int_ref raw "src/interpreter/preprocess/loader.ml" 37 587 593 "src/interpreter/preprocess/loader.ml" 37 587 596
+)
+"src/interpreter/preprocess/loader.ml" 38 600 614 "src/interpreter/preprocess/loader.ml" 38 600 631
+type(
+  int
+)
+"src/interpreter/preprocess/loader.ml" 39 635 642 "src/interpreter/preprocess/loader.ml" 39 635 645
+type(
+  int
+)
+ident(
+  int_ref len "src/interpreter/preprocess/loader.ml" 38 600 608 "src/interpreter/preprocess/loader.ml" 38 600 611
+)
+"src/interpreter/preprocess/loader.ml" 39 635 646 "src/interpreter/preprocess/loader.ml" 39 635 647
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/interpreter/preprocess/loader.ml" 39 635 648 "src/interpreter/preprocess/loader.ml" 39 635 649
+type(
+  int
+)
+"src/interpreter/preprocess/loader.ml" 39 635 642 "src/interpreter/preprocess/loader.ml" 39 635 649
+type(
+  bool
+)
+"src/interpreter/preprocess/loader.ml" 39 635 650 "src/interpreter/preprocess/loader.ml" 39 635 652
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/interpreter/preprocess/loader.ml" 39 635 653 "src/interpreter/preprocess/loader.ml" 39 635 656
+type(
+  string
+)
+ident(
+  int_ref raw "src/interpreter/preprocess/loader.ml" 37 587 593 "src/interpreter/preprocess/loader.ml" 37 587 596
+)
+"src/interpreter/preprocess/loader.ml" 39 635 658 "src/interpreter/preprocess/loader.ml" 39 635 659
+type(
+  int
+)
+"src/interpreter/preprocess/loader.ml" 39 635 653 "src/interpreter/preprocess/loader.ml" 39 635 660
+type(
+  char
+)
+"src/interpreter/preprocess/loader.ml" 39 635 661 "src/interpreter/preprocess/loader.ml" 39 635 662
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/preprocess/loader.ml" 39 635 663 "src/interpreter/preprocess/loader.ml" 39 635 666
+type(
+  char
+)
+"src/interpreter/preprocess/loader.ml" 39 635 653 "src/interpreter/preprocess/loader.ml" 39 635 666
+type(
+  bool
+)
+"src/interpreter/preprocess/loader.ml" 39 635 667 "src/interpreter/preprocess/loader.ml" 39 635 669
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/interpreter/preprocess/loader.ml" 39 635 670 "src/interpreter/preprocess/loader.ml" 39 635 673
+type(
+  string
+)
+ident(
+  int_ref raw "src/interpreter/preprocess/loader.ml" 37 587 593 "src/interpreter/preprocess/loader.ml" 37 587 596
+)
+"src/interpreter/preprocess/loader.ml" 39 635 675 "src/interpreter/preprocess/loader.ml" 39 635 678
+type(
+  int
+)
+ident(
+  int_ref len "src/interpreter/preprocess/loader.ml" 38 600 608 "src/interpreter/preprocess/loader.ml" 38 600 611
+)
+"src/interpreter/preprocess/loader.ml" 39 635 679 "src/interpreter/preprocess/loader.ml" 39 635 680
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/interpreter/preprocess/loader.ml" 39 635 681 "src/interpreter/preprocess/loader.ml" 39 635 682
+type(
+  int
+)
+"src/interpreter/preprocess/loader.ml" 39 635 675 "src/interpreter/preprocess/loader.ml" 39 635 682
+type(
+  int
+)
+"src/interpreter/preprocess/loader.ml" 39 635 670 "src/interpreter/preprocess/loader.ml" 39 635 683
+type(
+  char
+)
+"src/interpreter/preprocess/loader.ml" 39 635 684 "src/interpreter/preprocess/loader.ml" 39 635 685
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/preprocess/loader.ml" 39 635 686 "src/interpreter/preprocess/loader.ml" 39 635 689
+type(
+  char
+)
+"src/interpreter/preprocess/loader.ml" 39 635 670 "src/interpreter/preprocess/loader.ml" 39 635 689
+type(
+  bool
+)
+"src/interpreter/preprocess/loader.ml" 39 635 653 "src/interpreter/preprocess/loader.ml" 39 635 689
+type(
+  bool
+)
+"src/interpreter/preprocess/loader.ml" 39 635 642 "src/interpreter/preprocess/loader.ml" 39 635 689
+type(
+  bool
+)
+"src/interpreter/preprocess/loader.ml" 40 695 701 "src/interpreter/preprocess/loader.ml" 40 695 711
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/interpreter/preprocess/loader.ml" 40 695 712 "src/interpreter/preprocess/loader.ml" 40 695 715
+type(
+  string
+)
+ident(
+  int_ref raw "src/interpreter/preprocess/loader.ml" 37 587 593 "src/interpreter/preprocess/loader.ml" 37 587 596
+)
+"src/interpreter/preprocess/loader.ml" 40 695 716 "src/interpreter/preprocess/loader.ml" 40 695 717
+type(
+  int
+)
+"src/interpreter/preprocess/loader.ml" 40 695 719 "src/interpreter/preprocess/loader.ml" 40 695 722
+type(
+  int
+)
+ident(
+  int_ref len "src/interpreter/preprocess/loader.ml" 38 600 608 "src/interpreter/preprocess/loader.ml" 38 600 611
+)
+"src/interpreter/preprocess/loader.ml" 40 695 723 "src/interpreter/preprocess/loader.ml" 40 695 724
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/interpreter/preprocess/loader.ml" 40 695 725 "src/interpreter/preprocess/loader.ml" 40 695 726
+type(
+  int
+)
+"src/interpreter/preprocess/loader.ml" 40 695 718 "src/interpreter/preprocess/loader.ml" 40 695 727
+type(
+  int
+)
+"src/interpreter/preprocess/loader.ml" 40 695 701 "src/interpreter/preprocess/loader.ml" 40 695 727
+call(
+  tail
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 42 737 743 "src/interpreter/preprocess/loader.ml" 42 737 746
+type(
+  string
+)
+ident(
+  int_ref raw "src/interpreter/preprocess/loader.ml" 37 587 593 "src/interpreter/preprocess/loader.ml" 37 587 596
+)
+"src/interpreter/preprocess/loader.ml" 39 635 639 "src/interpreter/preprocess/loader.ml" 42 737 746
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 38 600 604 "src/interpreter/preprocess/loader.ml" 42 737 746
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 37 587 589 "src/interpreter/preprocess/loader.ml" 42 737 746
+type(
+  string -> string
+)
+type(
+  string -> string
+)
+"src/interpreter/preprocess/loader.ml" 44 748 752 "src/interpreter/preprocess/loader.ml" 44 748 767
+type(
+  string -> string -> string
+)
+ident(
+  def canon_of_R_file "src/interpreter/preprocess/loader.ml" 51 892 892 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 45 799 805 "src/interpreter/preprocess/loader.ml" 45 799 808
+type(
+  string
+)
+ident(
+  def dir "src/interpreter/preprocess/loader.ml" 45 799 809 "src/interpreter/preprocess/loader.ml" 49 880 890
+)
+"src/interpreter/preprocess/loader.ml" 45 799 809 "src/interpreter/preprocess/loader.ml" 45 799 813
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 46 817 821 "src/interpreter/preprocess/loader.ml" 49 880 890
+)
+"src/interpreter/preprocess/loader.ml" 46 817 824 "src/interpreter/preprocess/loader.ml" 46 817 837
+type(
+  string -> bool
+)
+ident(
+  ext_ref F.is_relative
+)
+"src/interpreter/preprocess/loader.ml" 46 817 838 "src/interpreter/preprocess/loader.ml" 46 817 842
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 45 799 809 "src/interpreter/preprocess/loader.ml" 45 799 813
+)
+"src/interpreter/preprocess/loader.ml" 46 817 824 "src/interpreter/preprocess/loader.ml" 46 817 842
+call(
+  stack
+)
+type(
+  bool
+)
+"src/interpreter/preprocess/loader.ml" 47 848 854 "src/interpreter/preprocess/loader.ml" 47 848 857
+type(
+  string
+)
+ident(
+  int_ref dir "src/interpreter/preprocess/loader.ml" 45 799 805 "src/interpreter/preprocess/loader.ml" 45 799 808
+)
+"src/interpreter/preprocess/loader.ml" 47 848 858 "src/interpreter/preprocess/loader.ml" 47 848 859
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/interpreter/preprocess/loader.ml" 47 848 860 "src/interpreter/preprocess/loader.ml" 47 848 863
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 47 848 864 "src/interpreter/preprocess/loader.ml" 47 848 865
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/interpreter/preprocess/loader.ml" 47 848 866 "src/interpreter/preprocess/loader.ml" 47 848 870
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 45 799 809 "src/interpreter/preprocess/loader.ml" 45 799 813
+)
+"src/interpreter/preprocess/loader.ml" 47 848 860 "src/interpreter/preprocess/loader.ml" 47 848 870
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 47 848 854 "src/interpreter/preprocess/loader.ml" 47 848 870
+call(
+  tail
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 49 880 886 "src/interpreter/preprocess/loader.ml" 49 880 890
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 45 799 809 "src/interpreter/preprocess/loader.ml" 45 799 813
+)
+"src/interpreter/preprocess/loader.ml" 46 817 821 "src/interpreter/preprocess/loader.ml" 49 880 890
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 45 799 801 "src/interpreter/preprocess/loader.ml" 49 880 890
+type(
+  string -> string -> string
+)
+type(
+  string -> string -> string
+)
+"src/interpreter/preprocess/loader.ml" 51 892 896 "src/interpreter/preprocess/loader.ml" 51 892 909
+type(
+  string -> Support.expr list
+)
+ident(
+  def exprs_of_file "src/interpreter/preprocess/loader.ml" 55 987 987 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 52 934 940 "src/interpreter/preprocess/loader.ml" 52 934 944
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 53 948 952 "src/interpreter/preprocess/loader.ml" 53 948 985
+)
+"src/interpreter/preprocess/loader.ml" 53 948 952 "src/interpreter/preprocess/loader.ml" 53 948 955
+type(
+  (Support.tag Rast_to_language.R.expr ->
+   (Support.tag, Support.annot) Rast_to_language.L.expr) ->
+  Support.tag Rast.program -> Support.expr list
+)
+ident(
+  ext_ref List.map
+)
+"src/interpreter/preprocess/loader.ml" 53 948 956 "src/interpreter/preprocess/loader.ml" 53 948 968
+type(
+  Support.tag Rast_to_language.R.expr ->
+  (Support.tag, Support.annot) Rast_to_language.L.expr
+)
+ident(
+  ext_ref Rast_to_language.convert_expr
+)
+"src/interpreter/preprocess/loader.ml" 53 948 970 "src/interpreter/preprocess/loader.ml" 53 948 979
+type(
+  string -> Support.tag Rast.program
+)
+ident(
+  ext_ref Absyn_generator.parseFile
+)
+"src/interpreter/preprocess/loader.ml" 53 948 980 "src/interpreter/preprocess/loader.ml" 53 948 984
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 52 934 940 "src/interpreter/preprocess/loader.ml" 52 934 944
+)
+"src/interpreter/preprocess/loader.ml" 53 948 969 "src/interpreter/preprocess/loader.ml" 53 948 985
+call(
+  stack
+)
+type(
+  Support.tag Rast.program
+)
+"src/interpreter/preprocess/loader.ml" 53 948 952 "src/interpreter/preprocess/loader.ml" 53 948 985
+call(
+  tail
+)
+type(
+  Support.expr list
+)
+"src/interpreter/preprocess/loader.ml" 52 934 936 "src/interpreter/preprocess/loader.ml" 53 948 985
+type(
+  string -> Support.expr list
+)
+type(
+  string -> Support.expr list
+)
+"src/interpreter/preprocess/loader.ml" 55 987 991 "src/interpreter/preprocess/loader.ml" 55 987 1002
+type(
+  Support.expr -> (string, Support.expr) either
+)
+ident(
+  def cat_of_expr "src/interpreter/preprocess/loader.ml" 63 1252 1252 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 56 1037 1043 "src/interpreter/preprocess/loader.ml" 56 1037 1047
+type(
+  Support.expr
+)
+ident(
+  def expr "src/interpreter/preprocess/loader.ml" 57 1051 1055 "src/interpreter/preprocess/loader.ml" 61 1230 1250
+)
+"src/interpreter/preprocess/loader.ml" 57 1051 1061 "src/interpreter/preprocess/loader.ml" 57 1051 1065
+type(
+  Support.expr
+)
+ident(
+  int_ref expr "src/interpreter/preprocess/loader.ml" 56 1037 1043 "src/interpreter/preprocess/loader.ml" 56 1037 1047
+)
+"src/interpreter/preprocess/loader.ml" 58 1071 1109 "src/interpreter/preprocess/loader.ml" 58 1071 1117
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 58 1071 1104 "src/interpreter/preprocess/loader.ml" 58 1071 1117
+type(
+  Syntax.rstring
+)
+"src/interpreter/preprocess/loader.ml" 58 1071 1094 "src/interpreter/preprocess/loader.ml" 58 1071 1120
+type(
+  Support.tag Syntax.ident
+)
+"src/interpreter/preprocess/loader.ml" 58 1071 1088 "src/interpreter/preprocess/loader.ml" 58 1071 1120
+type(
+  (Support.tag, Support.annot) Syntax.expr
+)
+"src/interpreter/preprocess/loader.ml" 59 1122 1163 "src/interpreter/preprocess/loader.ml" 59 1122 1166
+type(
+  string
+)
+ident(
+  def src "src/interpreter/preprocess/loader.ml" 60 1175 1195 "src/interpreter/preprocess/loader.ml" 60 1175 1229
+)
+"src/interpreter/preprocess/loader.ml" 59 1122 1157 "src/interpreter/preprocess/loader.ml" 59 1122 1167
+type(
+  Syntax.rstring
+)
+"src/interpreter/preprocess/loader.ml" 59 1122 1152 "src/interpreter/preprocess/loader.ml" 59 1122 1168
+type(
+  Syntax.const
+)
+"src/interpreter/preprocess/loader.ml" 59 1122 1145 "src/interpreter/preprocess/loader.ml" 59 1122 1169
+type(
+  (Support.tag, Support.annot) Syntax.expr
+)
+"src/interpreter/preprocess/loader.ml" 59 1122 1141 "src/interpreter/preprocess/loader.ml" 59 1122 1169
+type(
+  (Support.tag, Support.annot) Syntax.arg
+)
+"src/interpreter/preprocess/loader.ml" 59 1122 1140 "src/interpreter/preprocess/loader.ml" 59 1122 1170
+type(
+  (Support.tag, Support.annot) Syntax.arg list
+)
+"src/interpreter/preprocess/loader.ml" 58 1071 1077 "src/interpreter/preprocess/loader.ml" 59 1122 1171
+type(
+  Support.expr
+)
+"src/interpreter/preprocess/loader.ml" 60 1175 1201 "src/interpreter/preprocess/loader.ml" 60 1175 1224
+type(
+  string -> string
+)
+ident(
+  int_ref unwrap_raw_string_const "src/interpreter/preprocess/loader.ml" 36 538 542 "src/interpreter/preprocess/loader.ml" 36 538 565
+)
+"src/interpreter/preprocess/loader.ml" 60 1175 1225 "src/interpreter/preprocess/loader.ml" 60 1175 1228
+type(
+  string
+)
+ident(
+  int_ref src "src/interpreter/preprocess/loader.ml" 59 1122 1163 "src/interpreter/preprocess/loader.ml" 59 1122 1166
+)
+"src/interpreter/preprocess/loader.ml" 60 1175 1200 "src/interpreter/preprocess/loader.ml" 60 1175 1229
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 60 1175 1195 "src/interpreter/preprocess/loader.ml" 60 1175 1229
+type(
+  (string, Support.expr) either
+)
+"src/interpreter/preprocess/loader.ml" 61 1230 1236 "src/interpreter/preprocess/loader.ml" 61 1230 1237
+type(
+  Support.expr
+)
+"src/interpreter/preprocess/loader.ml" 61 1230 1246 "src/interpreter/preprocess/loader.ml" 61 1230 1250
+type(
+  Support.expr
+)
+ident(
+  int_ref expr "src/interpreter/preprocess/loader.ml" 56 1037 1043 "src/interpreter/preprocess/loader.ml" 56 1037 1047
+)
+"src/interpreter/preprocess/loader.ml" 61 1230 1241 "src/interpreter/preprocess/loader.ml" 61 1230 1250
+type(
+  (string, Support.expr) either
+)
+"src/interpreter/preprocess/loader.ml" 57 1051 1055 "src/interpreter/preprocess/loader.ml" 61 1230 1250
+type(
+  (string, Support.expr) either
+)
+"src/interpreter/preprocess/loader.ml" 56 1037 1039 "src/interpreter/preprocess/loader.ml" 61 1230 1250
+type(
+  Support.expr -> (string, Support.expr) either
+)
+type(
+  Support.expr -> (string, Support.expr) either
+)
+"src/interpreter/preprocess/loader.ml" 63 1252 1256 "src/interpreter/preprocess/loader.ml" 63 1252 1268
+type(
+  string -> string * (string, Support.expr) either list
+)
+ident(
+  def cats_of_file "src/interpreter/preprocess/loader.ml" 67 1385 1385 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 64 1321 1327 "src/interpreter/preprocess/loader.ml" 64 1321 1331
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 65 1335 1339 "src/interpreter/preprocess/loader.ml" 65 1335 1383
+)
+"src/interpreter/preprocess/loader.ml" 65 1335 1340 "src/interpreter/preprocess/loader.ml" 65 1335 1344
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 64 1321 1327 "src/interpreter/preprocess/loader.ml" 64 1321 1331
+)
+"src/interpreter/preprocess/loader.ml" 65 1335 1346 "src/interpreter/preprocess/loader.ml" 65 1335 1349
+type(
+  (Support.expr -> (string, Support.expr) either) ->
+  Support.expr list -> (string, Support.expr) either list
+)
+ident(
+  ext_ref List.map
+)
+"src/interpreter/preprocess/loader.ml" 65 1335 1350 "src/interpreter/preprocess/loader.ml" 65 1335 1361
+type(
+  Support.expr -> (string, Support.expr) either
+)
+ident(
+  int_ref cat_of_expr "src/interpreter/preprocess/loader.ml" 55 987 991 "src/interpreter/preprocess/loader.ml" 55 987 1002
+)
+"src/interpreter/preprocess/loader.ml" 65 1335 1363 "src/interpreter/preprocess/loader.ml" 65 1335 1376
+type(
+  string -> Support.expr list
+)
+ident(
+  int_ref exprs_of_file "src/interpreter/preprocess/loader.ml" 51 892 896 "src/interpreter/preprocess/loader.ml" 51 892 909
+)
+"src/interpreter/preprocess/loader.ml" 65 1335 1377 "src/interpreter/preprocess/loader.ml" 65 1335 1381
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 64 1321 1327 "src/interpreter/preprocess/loader.ml" 64 1321 1331
+)
+"src/interpreter/preprocess/loader.ml" 65 1335 1362 "src/interpreter/preprocess/loader.ml" 65 1335 1382
+call(
+  stack
+)
+type(
+  Support.expr list
+)
+"src/interpreter/preprocess/loader.ml" 65 1335 1346 "src/interpreter/preprocess/loader.ml" 65 1335 1382
+call(
+  stack
+)
+type(
+  (string, Support.expr) either list
+)
+"src/interpreter/preprocess/loader.ml" 65 1335 1339 "src/interpreter/preprocess/loader.ml" 65 1335 1383
+type(
+  string * (string, Support.expr) either list
+)
+"src/interpreter/preprocess/loader.ml" 64 1321 1323 "src/interpreter/preprocess/loader.ml" 65 1335 1383
+type(
+  string -> string * (string, Support.expr) either list
+)
+type(
+  string -> string * (string, Support.expr) either list
+)
+"src/interpreter/preprocess/loader.ml" 67 1385 1393 "src/interpreter/preprocess/loader.ml" 67 1385 1409
+type(
+  string -> string -> exectree
+)
+ident(
+  def exectree_of_file "src/interpreter/preprocess/loader.ml" 67 1385 1385 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 68 1443 1449 "src/interpreter/preprocess/loader.ml" 68 1443 1452
+type(
+  string
+)
+ident(
+  def dir "src/interpreter/preprocess/loader.ml" 68 1443 1453 "src/interpreter/preprocess/loader.ml" 75 1750 1778
+)
+"src/interpreter/preprocess/loader.ml" 68 1443 1453 "src/interpreter/preprocess/loader.ml" 68 1443 1457
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 69 1461 1465 "src/interpreter/preprocess/loader.ml" 75 1750 1778
+)
+"src/interpreter/preprocess/loader.ml" 69 1461 1469 "src/interpreter/preprocess/loader.ml" 69 1461 1479
+type(
+  string
+)
+ident(
+  def canon_file "src/interpreter/preprocess/loader.ml" 70 1510 1514 "src/interpreter/preprocess/loader.ml" 75 1750 1778
+)
+"src/interpreter/preprocess/loader.ml" 69 1461 1482 "src/interpreter/preprocess/loader.ml" 69 1461 1497
+type(
+  string -> string -> string
+)
+ident(
+  int_ref canon_of_R_file "src/interpreter/preprocess/loader.ml" 44 748 752 "src/interpreter/preprocess/loader.ml" 44 748 767
+)
+"src/interpreter/preprocess/loader.ml" 69 1461 1498 "src/interpreter/preprocess/loader.ml" 69 1461 1501
+type(
+  string
+)
+ident(
+  int_ref dir "src/interpreter/preprocess/loader.ml" 68 1443 1449 "src/interpreter/preprocess/loader.ml" 68 1443 1452
+)
+"src/interpreter/preprocess/loader.ml" 69 1461 1502 "src/interpreter/preprocess/loader.ml" 69 1461 1506
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 68 1443 1453 "src/interpreter/preprocess/loader.ml" 68 1443 1457
+)
+"src/interpreter/preprocess/loader.ml" 69 1461 1482 "src/interpreter/preprocess/loader.ml" 69 1461 1506
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 70 1510 1519 "src/interpreter/preprocess/loader.ml" 70 1510 1520
+type(
+  string
+)
+ident(
+  def f "src/interpreter/preprocess/loader.ml" 71 1557 1561 "src/interpreter/preprocess/loader.ml" 75 1750 1778
+)
+"src/interpreter/preprocess/loader.ml" 70 1510 1522 "src/interpreter/preprocess/loader.ml" 70 1510 1526
+type(
+  (string, Support.expr) either list
+)
+ident(
+  def opts "src/interpreter/preprocess/loader.ml" 71 1557 1561 "src/interpreter/preprocess/loader.ml" 75 1750 1778
+)
+"src/interpreter/preprocess/loader.ml" 70 1510 1518 "src/interpreter/preprocess/loader.ml" 70 1510 1527
+type(
+  string * (string, Support.expr) either list
+)
+"src/interpreter/preprocess/loader.ml" 70 1510 1530 "src/interpreter/preprocess/loader.ml" 70 1510 1542
+type(
+  string -> string * (string, Support.expr) either list
+)
+ident(
+  int_ref cats_of_file "src/interpreter/preprocess/loader.ml" 63 1252 1256 "src/interpreter/preprocess/loader.ml" 63 1252 1268
+)
+"src/interpreter/preprocess/loader.ml" 70 1510 1543 "src/interpreter/preprocess/loader.ml" 70 1510 1553
+type(
+  string
+)
+ident(
+  int_ref canon_file "src/interpreter/preprocess/loader.ml" 69 1461 1469 "src/interpreter/preprocess/loader.ml" 69 1461 1479
+)
+"src/interpreter/preprocess/loader.ml" 70 1510 1530 "src/interpreter/preprocess/loader.ml" 70 1510 1553
+call(
+  stack
+)
+type(
+  string * (string, Support.expr) either list
+)
+"src/interpreter/preprocess/loader.ml" 71 1557 1565 "src/interpreter/preprocess/loader.ml" 71 1557 1573
+type(
+  exectree list
+)
+ident(
+  def nodelist "src/interpreter/preprocess/loader.ml" 75 1750 1756 "src/interpreter/preprocess/loader.ml" 75 1750 1778
+)
+"src/interpreter/preprocess/loader.ml" 72 1576 1584 "src/interpreter/preprocess/loader.ml" 72 1576 1592
+type(
+  ((string, Support.expr) either -> exectree) ->
+  (string, Support.expr) either list -> exectree list
+)
+ident(
+  ext_ref List.map
+)
+"src/interpreter/preprocess/loader.ml" 72 1576 1598 "src/interpreter/preprocess/loader.ml" 72 1576 1599
+type(
+  (string, Support.expr) either
+)
+ident(
+  def c "src/interpreter/preprocess/loader.ml" 72 1576 1603 "src/interpreter/preprocess/loader.ml" 74 1688 1740
+)
+"src/interpreter/preprocess/loader.ml" 72 1576 1609 "src/interpreter/preprocess/loader.ml" 72 1576 1610
+type(
+  (string, Support.expr) either
+)
+ident(
+  int_ref c "src/interpreter/preprocess/loader.ml" 72 1576 1598 "src/interpreter/preprocess/loader.ml" 72 1576 1599
+)
+"src/interpreter/preprocess/loader.ml" 73 1616 1642 "src/interpreter/preprocess/loader.ml" 73 1616 1652
+type(
+  string
+)
+ident(
+  def child_file "src/interpreter/preprocess/loader.ml" 73 1616 1656 "src/interpreter/preprocess/loader.ml" 73 1616 1687
+)
+"src/interpreter/preprocess/loader.ml" 73 1616 1637 "src/interpreter/preprocess/loader.ml" 73 1616 1652
+type(
+  (string, Support.expr) either
+)
+"src/interpreter/preprocess/loader.ml" 73 1616 1656 "src/interpreter/preprocess/loader.ml" 73 1616 1672
+type(
+  string -> string -> exectree
+)
+ident(
+  int_ref exectree_of_file "src/interpreter/preprocess/loader.ml" 67 1385 1393 "src/interpreter/preprocess/loader.ml" 67 1385 1409
+)
+"src/interpreter/preprocess/loader.ml" 73 1616 1673 "src/interpreter/preprocess/loader.ml" 73 1616 1676
+type(
+  string
+)
+ident(
+  int_ref dir "src/interpreter/preprocess/loader.ml" 68 1443 1449 "src/interpreter/preprocess/loader.ml" 68 1443 1452
+)
+"src/interpreter/preprocess/loader.ml" 73 1616 1677 "src/interpreter/preprocess/loader.ml" 73 1616 1687
+type(
+  string
+)
+ident(
+  int_ref child_file "src/interpreter/preprocess/loader.ml" 73 1616 1642 "src/interpreter/preprocess/loader.ml" 73 1616 1652
+)
+"src/interpreter/preprocess/loader.ml" 73 1616 1656 "src/interpreter/preprocess/loader.ml" 73 1616 1687
+call(
+  tail
+)
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 74 1688 1714 "src/interpreter/preprocess/loader.ml" 74 1688 1718
+type(
+  Support.expr
+)
+ident(
+  def expr "src/interpreter/preprocess/loader.ml" 74 1688 1722 "src/interpreter/preprocess/loader.ml" 74 1688 1740
+)
+"src/interpreter/preprocess/loader.ml" 74 1688 1709 "src/interpreter/preprocess/loader.ml" 74 1688 1718
+type(
+  (string, Support.expr) either
+)
+"src/interpreter/preprocess/loader.ml" 74 1688 1732 "src/interpreter/preprocess/loader.ml" 74 1688 1733
+type(
+  string
+)
+ident(
+  int_ref f "src/interpreter/preprocess/loader.ml" 70 1510 1519 "src/interpreter/preprocess/loader.ml" 70 1510 1520
+)
+"src/interpreter/preprocess/loader.ml" 74 1688 1735 "src/interpreter/preprocess/loader.ml" 74 1688 1739
+type(
+  Support.expr
+)
+ident(
+  int_ref expr "src/interpreter/preprocess/loader.ml" 74 1688 1714 "src/interpreter/preprocess/loader.ml" 74 1688 1718
+)
+"src/interpreter/preprocess/loader.ml" 74 1688 1722 "src/interpreter/preprocess/loader.ml" 74 1688 1740
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 72 1576 1603 "src/interpreter/preprocess/loader.ml" 74 1688 1740
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 72 1576 1593 "src/interpreter/preprocess/loader.ml" 74 1688 1741
+type(
+  (string, Support.expr) either -> exectree
+)
+"src/interpreter/preprocess/loader.ml" 74 1688 1742 "src/interpreter/preprocess/loader.ml" 74 1688 1746
+type(
+  (string, Support.expr) either list
+)
+ident(
+  int_ref opts "src/interpreter/preprocess/loader.ml" 70 1510 1522 "src/interpreter/preprocess/loader.ml" 70 1510 1526
+)
+"src/interpreter/preprocess/loader.ml" 72 1576 1584 "src/interpreter/preprocess/loader.ml" 74 1688 1746
+call(
+  stack
+)
+type(
+  exectree list
+)
+"src/interpreter/preprocess/loader.ml" 75 1750 1766 "src/interpreter/preprocess/loader.ml" 75 1750 1767
+type(
+  string
+)
+ident(
+  int_ref f "src/interpreter/preprocess/loader.ml" 70 1510 1519 "src/interpreter/preprocess/loader.ml" 70 1510 1520
+)
+"src/interpreter/preprocess/loader.ml" 75 1750 1769 "src/interpreter/preprocess/loader.ml" 75 1750 1777
+type(
+  exectree list
+)
+ident(
+  int_ref nodelist "src/interpreter/preprocess/loader.ml" 71 1557 1565 "src/interpreter/preprocess/loader.ml" 71 1557 1573
+)
+"src/interpreter/preprocess/loader.ml" 75 1750 1756 "src/interpreter/preprocess/loader.ml" 75 1750 1778
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 71 1557 1561 "src/interpreter/preprocess/loader.ml" 75 1750 1778
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 70 1510 1514 "src/interpreter/preprocess/loader.ml" 75 1750 1778
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 69 1461 1465 "src/interpreter/preprocess/loader.ml" 75 1750 1778
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 68 1443 1445 "src/interpreter/preprocess/loader.ml" 75 1750 1778
+type(
+  string -> string -> exectree
+)
+type(
+  string -> string -> exectree
+)
+"src/interpreter/preprocess/loader.ml" 77 1780 1788 "src/interpreter/preprocess/loader.ml" 77 1780 1813
+type(
+  exectree -> string list * (string * Support.expr) list
+)
+ident(
+  def linearization_of_exectree "src/interpreter/preprocess/loader.ml" 77 1780 1780 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 79 1867 1873 "src/interpreter/preprocess/loader.ml" 79 1867 1877
+type(
+  exectree
+)
+ident(
+  def tree "src/interpreter/preprocess/loader.ml" 80 1881 1885 "src/interpreter/preprocess/loader.ml" 88 2214 2249
+)
+"src/interpreter/preprocess/loader.ml" 80 1881 1891 "src/interpreter/preprocess/loader.ml" 80 1881 1895
+type(
+  exectree
+)
+ident(
+  int_ref tree "src/interpreter/preprocess/loader.ml" 79 1867 1873 "src/interpreter/preprocess/loader.ml" 79 1867 1877
+)
+"src/interpreter/preprocess/loader.ml" 81 1901 1919 "src/interpreter/preprocess/loader.ml" 81 1901 1923
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 81 1901 1934 "src/interpreter/preprocess/loader.ml" 81 1901 1954
+)
+"src/interpreter/preprocess/loader.ml" 81 1901 1925 "src/interpreter/preprocess/loader.ml" 81 1901 1929
+type(
+  Support.expr
+)
+ident(
+  def expr "src/interpreter/preprocess/loader.ml" 81 1901 1934 "src/interpreter/preprocess/loader.ml" 81 1901 1954
+)
+"src/interpreter/preprocess/loader.ml" 81 1901 1909 "src/interpreter/preprocess/loader.ml" 81 1901 1930
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 81 1901 1935 "src/interpreter/preprocess/loader.ml" 81 1901 1937
+type(
+  string list
+)
+"src/interpreter/preprocess/loader.ml" 81 1901 1941 "src/interpreter/preprocess/loader.ml" 81 1901 1945
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 81 1901 1919 "src/interpreter/preprocess/loader.ml" 81 1901 1923
+)
+"src/interpreter/preprocess/loader.ml" 81 1901 1947 "src/interpreter/preprocess/loader.ml" 81 1901 1951
+type(
+  Support.expr
+)
+ident(
+  int_ref expr "src/interpreter/preprocess/loader.ml" 81 1901 1925 "src/interpreter/preprocess/loader.ml" 81 1901 1929
+)
+"src/interpreter/preprocess/loader.ml" 81 1901 1940 "src/interpreter/preprocess/loader.ml" 81 1901 1952
+type(
+  string * Support.expr
+)
+"src/interpreter/preprocess/loader.ml" 81 1901 1939 "src/interpreter/preprocess/loader.ml" 81 1901 1953
+type(
+  (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 81 1901 1934 "src/interpreter/preprocess/loader.ml" 81 1901 1954
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 82 1955 1973 "src/interpreter/preprocess/loader.ml" 82 1955 1977
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 83 1989 1999 "src/interpreter/preprocess/loader.ml" 88 2214 2249
+)
+"src/interpreter/preprocess/loader.ml" 82 1955 1979 "src/interpreter/preprocess/loader.ml" 82 1955 1984
+type(
+  exectree list
+)
+ident(
+  def currs "src/interpreter/preprocess/loader.ml" 83 1989 1999 "src/interpreter/preprocess/loader.ml" 88 2214 2249
+)
+"src/interpreter/preprocess/loader.ml" 82 1955 1963 "src/interpreter/preprocess/loader.ml" 82 1955 1985
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 83 1989 2003 "src/interpreter/preprocess/loader.ml" 83 1989 2008
+type(
+  (string list * (string * Support.expr) list) list
+)
+ident(
+  def level "src/interpreter/preprocess/loader.ml" 84 2050 2060 "src/interpreter/preprocess/loader.ml" 88 2214 2249
+)
+"src/interpreter/preprocess/loader.ml" 83 1989 2011 "src/interpreter/preprocess/loader.ml" 83 1989 2014
+type(
+  (exectree -> string list * (string * Support.expr) list) ->
+  exectree list -> (string list * (string * Support.expr) list) list
+)
+ident(
+  ext_ref List.map
+)
+"src/interpreter/preprocess/loader.ml" 83 1989 2015 "src/interpreter/preprocess/loader.ml" 83 1989 2040
+type(
+  exectree -> string list * (string * Support.expr) list
+)
+ident(
+  int_ref linearization_of_exectree "src/interpreter/preprocess/loader.ml" 77 1780 1788 "src/interpreter/preprocess/loader.ml" 77 1780 1813
+)
+"src/interpreter/preprocess/loader.ml" 83 1989 2041 "src/interpreter/preprocess/loader.ml" 83 1989 2046
+type(
+  exectree list
+)
+ident(
+  int_ref currs "src/interpreter/preprocess/loader.ml" 82 1955 1979 "src/interpreter/preprocess/loader.ml" 82 1955 1984
+)
+"src/interpreter/preprocess/loader.ml" 83 1989 2011 "src/interpreter/preprocess/loader.ml" 83 1989 2046
+call(
+  stack
+)
+type(
+  (string list * (string * Support.expr) list) list
+)
+"src/interpreter/preprocess/loader.ml" 84 2050 2065 "src/interpreter/preprocess/loader.ml" 84 2050 2070
+type(
+  string list
+)
+ident(
+  def files "src/interpreter/preprocess/loader.ml" 88 2214 2226 "src/interpreter/preprocess/loader.ml" 88 2214 2249
+)
+"src/interpreter/preprocess/loader.ml" 84 2050 2072 "src/interpreter/preprocess/loader.ml" 84 2050 2077
+type(
+  (string * Support.expr) list
+)
+ident(
+  def exprs "src/interpreter/preprocess/loader.ml" 88 2214 2226 "src/interpreter/preprocess/loader.ml" 88 2214 2249
+)
+"src/interpreter/preprocess/loader.ml" 84 2050 2064 "src/interpreter/preprocess/loader.ml" 84 2050 2078
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 85 2081 2095 "src/interpreter/preprocess/loader.ml" 85 2081 2109
+type(
+  (string list * (string * Support.expr) list ->
+   string list * (string * Support.expr) list ->
+   string list * (string * Support.expr) list) ->
+  string list * (string * Support.expr) list ->
+  (string list * (string * Support.expr) list) list ->
+  string list * (string * Support.expr) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2132 "src/interpreter/preprocess/loader.ml" 86 2110 2137
+type(
+  string list
+)
+ident(
+  def acc_f "src/interpreter/preprocess/loader.ml" 86 2110 2146 "src/interpreter/preprocess/loader.ml" 86 2110 2178
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2139 "src/interpreter/preprocess/loader.ml" 86 2110 2144
+type(
+  (string * Support.expr) list
+)
+ident(
+  def acc_e "src/interpreter/preprocess/loader.ml" 86 2110 2146 "src/interpreter/preprocess/loader.ml" 86 2110 2178
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2131 "src/interpreter/preprocess/loader.ml" 86 2110 2145
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2147 "src/interpreter/preprocess/loader.ml" 86 2110 2148
+type(
+  string list
+)
+ident(
+  def f "src/interpreter/preprocess/loader.ml" 86 2110 2156 "src/interpreter/preprocess/loader.ml" 86 2110 2178
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2150 "src/interpreter/preprocess/loader.ml" 86 2110 2151
+type(
+  (string * Support.expr) list
+)
+ident(
+  def e "src/interpreter/preprocess/loader.ml" 86 2110 2156 "src/interpreter/preprocess/loader.ml" 86 2110 2178
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2146 "src/interpreter/preprocess/loader.ml" 86 2110 2152
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2157 "src/interpreter/preprocess/loader.ml" 86 2110 2162
+type(
+  string list
+)
+ident(
+  int_ref acc_f "src/interpreter/preprocess/loader.ml" 86 2110 2132 "src/interpreter/preprocess/loader.ml" 86 2110 2137
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2163 "src/interpreter/preprocess/loader.ml" 86 2110 2164
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2165 "src/interpreter/preprocess/loader.ml" 86 2110 2166
+type(
+  string list
+)
+ident(
+  int_ref f "src/interpreter/preprocess/loader.ml" 86 2110 2147 "src/interpreter/preprocess/loader.ml" 86 2110 2148
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2157 "src/interpreter/preprocess/loader.ml" 86 2110 2166
+call(
+  stack
+)
+type(
+  string list
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2168 "src/interpreter/preprocess/loader.ml" 86 2110 2173
+type(
+  (string * Support.expr) list
+)
+ident(
+  int_ref acc_e "src/interpreter/preprocess/loader.ml" 86 2110 2139 "src/interpreter/preprocess/loader.ml" 86 2110 2144
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2174 "src/interpreter/preprocess/loader.ml" 86 2110 2175
+type(
+  (string * Support.expr) list ->
+  (string * Support.expr) list -> (string * Support.expr) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2176 "src/interpreter/preprocess/loader.ml" 86 2110 2177
+type(
+  (string * Support.expr) list
+)
+ident(
+  int_ref e "src/interpreter/preprocess/loader.ml" 86 2110 2150 "src/interpreter/preprocess/loader.ml" 86 2110 2151
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2168 "src/interpreter/preprocess/loader.ml" 86 2110 2177
+call(
+  stack
+)
+type(
+  (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2156 "src/interpreter/preprocess/loader.ml" 86 2110 2178
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 86 2110 2126 "src/interpreter/preprocess/loader.ml" 86 2110 2179
+type(
+  string list * (string * Support.expr) list ->
+  string list * (string * Support.expr) list ->
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 87 2180 2197 "src/interpreter/preprocess/loader.ml" 87 2180 2199
+type(
+  string list
+)
+"src/interpreter/preprocess/loader.ml" 87 2180 2201 "src/interpreter/preprocess/loader.ml" 87 2180 2203
+type(
+  (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 87 2180 2196 "src/interpreter/preprocess/loader.ml" 87 2180 2204
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 87 2180 2205 "src/interpreter/preprocess/loader.ml" 87 2180 2210
+type(
+  (string list * (string * Support.expr) list) list
+)
+ident(
+  int_ref level "src/interpreter/preprocess/loader.ml" 83 1989 2003 "src/interpreter/preprocess/loader.ml" 83 1989 2008
+)
+"src/interpreter/preprocess/loader.ml" 85 2081 2095 "src/interpreter/preprocess/loader.ml" 87 2180 2210
+call(
+  stack
+)
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 88 2214 2227 "src/interpreter/preprocess/loader.ml" 88 2214 2232
+type(
+  string list
+)
+ident(
+  int_ref files "src/interpreter/preprocess/loader.ml" 84 2050 2065 "src/interpreter/preprocess/loader.ml" 84 2050 2070
+)
+"src/interpreter/preprocess/loader.ml" 88 2214 2233 "src/interpreter/preprocess/loader.ml" 88 2214 2234
+type(
+  string list -> string list -> string list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/interpreter/preprocess/loader.ml" 88 2214 2236 "src/interpreter/preprocess/loader.ml" 88 2214 2240
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 82 1955 1973 "src/interpreter/preprocess/loader.ml" 82 1955 1977
+)
+"src/interpreter/preprocess/loader.ml" 88 2214 2235 "src/interpreter/preprocess/loader.ml" 88 2214 2241
+type(
+  string list
+)
+"src/interpreter/preprocess/loader.ml" 88 2214 2227 "src/interpreter/preprocess/loader.ml" 88 2214 2241
+call(
+  stack
+)
+type(
+  string list
+)
+"src/interpreter/preprocess/loader.ml" 88 2214 2243 "src/interpreter/preprocess/loader.ml" 88 2214 2248
+type(
+  (string * Support.expr) list
+)
+ident(
+  int_ref exprs "src/interpreter/preprocess/loader.ml" 84 2050 2072 "src/interpreter/preprocess/loader.ml" 84 2050 2077
+)
+"src/interpreter/preprocess/loader.ml" 88 2214 2226 "src/interpreter/preprocess/loader.ml" 88 2214 2249
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 84 2050 2060 "src/interpreter/preprocess/loader.ml" 88 2214 2249
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 83 1989 1999 "src/interpreter/preprocess/loader.ml" 88 2214 2249
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 80 1881 1885 "src/interpreter/preprocess/loader.ml" 88 2214 2249
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 79 1867 1869 "src/interpreter/preprocess/loader.ml" 88 2214 2249
+type(
+  exectree -> string list * (string * Support.expr) list
+)
+type(
+  exectree -> string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 90 2251 2255 "src/interpreter/preprocess/loader.ml" 90 2251 2271
+type(
+  string -> string -> string list * (string * Support.expr) list
+)
+ident(
+  def linearize_source "src/interpreter/preprocess/loader.ml" 95 2410 2410 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 92 2333 2339 "src/interpreter/preprocess/loader.ml" 92 2333 2342
+type(
+  string
+)
+ident(
+  def dir "src/interpreter/preprocess/loader.ml" 92 2333 2343 "src/interpreter/preprocess/loader.ml" 93 2351 2408
+)
+"src/interpreter/preprocess/loader.ml" 92 2333 2343 "src/interpreter/preprocess/loader.ml" 92 2333 2347
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 93 2351 2355 "src/interpreter/preprocess/loader.ml" 93 2351 2408
+)
+"src/interpreter/preprocess/loader.ml" 93 2351 2355 "src/interpreter/preprocess/loader.ml" 93 2351 2380
+type(
+  exectree -> string list * (string * Support.expr) list
+)
+ident(
+  int_ref linearization_of_exectree "src/interpreter/preprocess/loader.ml" 77 1780 1788 "src/interpreter/preprocess/loader.ml" 77 1780 1813
+)
+"src/interpreter/preprocess/loader.ml" 93 2351 2382 "src/interpreter/preprocess/loader.ml" 93 2351 2398
+type(
+  string -> string -> exectree
+)
+ident(
+  int_ref exectree_of_file "src/interpreter/preprocess/loader.ml" 67 1385 1393 "src/interpreter/preprocess/loader.ml" 67 1385 1409
+)
+"src/interpreter/preprocess/loader.ml" 93 2351 2399 "src/interpreter/preprocess/loader.ml" 93 2351 2402
+type(
+  string
+)
+ident(
+  int_ref dir "src/interpreter/preprocess/loader.ml" 92 2333 2339 "src/interpreter/preprocess/loader.ml" 92 2333 2342
+)
+"src/interpreter/preprocess/loader.ml" 93 2351 2403 "src/interpreter/preprocess/loader.ml" 93 2351 2407
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 92 2333 2343 "src/interpreter/preprocess/loader.ml" 92 2333 2347
+)
+"src/interpreter/preprocess/loader.ml" 93 2351 2381 "src/interpreter/preprocess/loader.ml" 93 2351 2408
+call(
+  stack
+)
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 93 2351 2355 "src/interpreter/preprocess/loader.ml" 93 2351 2408
+call(
+  tail
+)
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 92 2333 2335 "src/interpreter/preprocess/loader.ml" 93 2351 2408
+type(
+  string -> string -> string list * (string * Support.expr) list
+)
+type(
+  string -> string -> string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 95 2410 2414 "src/interpreter/preprocess/loader.ml" 95 2410 2440
+type(
+  string -> string -> string list * (string * Support.expr) list
+)
+ident(
+  def linearize_source_with_base "src/interpreter/preprocess/loader.ml" 108 2990 2990 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 97 2502 2508 "src/interpreter/preprocess/loader.ml" 97 2502 2511
+type(
+  string
+)
+ident(
+  def dir "src/interpreter/preprocess/loader.ml" 97 2502 2512 "src/interpreter/preprocess/loader.ml" 106 2946 2988
+)
+"src/interpreter/preprocess/loader.ml" 97 2502 2512 "src/interpreter/preprocess/loader.ml" 97 2502 2516
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 98 2520 2524 "src/interpreter/preprocess/loader.ml" 106 2946 2988
+)
+"src/interpreter/preprocess/loader.ml" 98 2520 2528 "src/interpreter/preprocess/loader.ml" 98 2520 2538
+type(
+  string
+)
+ident(
+  def canon_file "src/interpreter/preprocess/loader.ml" 99 2569 2573 "src/interpreter/preprocess/loader.ml" 106 2946 2988
+)
+"src/interpreter/preprocess/loader.ml" 98 2520 2541 "src/interpreter/preprocess/loader.ml" 98 2520 2556
+type(
+  string -> string -> string
+)
+ident(
+  int_ref canon_of_R_file "src/interpreter/preprocess/loader.ml" 44 748 752 "src/interpreter/preprocess/loader.ml" 44 748 767
+)
+"src/interpreter/preprocess/loader.ml" 98 2520 2557 "src/interpreter/preprocess/loader.ml" 98 2520 2560
+type(
+  string
+)
+ident(
+  int_ref dir "src/interpreter/preprocess/loader.ml" 97 2502 2508 "src/interpreter/preprocess/loader.ml" 97 2502 2511
+)
+"src/interpreter/preprocess/loader.ml" 98 2520 2561 "src/interpreter/preprocess/loader.ml" 98 2520 2565
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 97 2502 2512 "src/interpreter/preprocess/loader.ml" 97 2502 2516
+)
+"src/interpreter/preprocess/loader.ml" 98 2520 2541 "src/interpreter/preprocess/loader.ml" 98 2520 2565
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 99 2569 2577 "src/interpreter/preprocess/loader.ml" 99 2569 2586
+type(
+  exectree
+)
+ident(
+  def base_tree "src/interpreter/preprocess/loader.ml" 100 2638 2642 "src/interpreter/preprocess/loader.ml" 106 2946 2988
+)
+"src/interpreter/preprocess/loader.ml" 99 2569 2589 "src/interpreter/preprocess/loader.ml" 99 2569 2605
+type(
+  string -> string -> exectree
+)
+ident(
+  int_ref exectree_of_file "src/interpreter/preprocess/loader.ml" 67 1385 1393 "src/interpreter/preprocess/loader.ml" 67 1385 1409
+)
+"src/interpreter/preprocess/loader.ml" 99 2569 2607 "src/interpreter/preprocess/loader.ml" 99 2569 2615
+type(
+  unit -> string
+)
+ident(
+  int_ref base_dir "src/interpreter/preprocess/loader.ml" 17 174 178 "src/interpreter/preprocess/loader.ml" 17 174 186
+)
+"src/interpreter/preprocess/loader.ml" 99 2569 2616 "src/interpreter/preprocess/loader.ml" 99 2569 2618
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 99 2569 2606 "src/interpreter/preprocess/loader.ml" 99 2569 2619
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 99 2569 2621 "src/interpreter/preprocess/loader.ml" 99 2569 2630
+type(
+  unit -> string
+)
+ident(
+  int_ref base_file "src/interpreter/preprocess/loader.ml" 20 240 244 "src/interpreter/preprocess/loader.ml" 20 240 253
+)
+"src/interpreter/preprocess/loader.ml" 99 2569 2631 "src/interpreter/preprocess/loader.ml" 99 2569 2633
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 99 2569 2620 "src/interpreter/preprocess/loader.ml" 99 2569 2634
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 99 2569 2589 "src/interpreter/preprocess/loader.ml" 99 2569 2634
+call(
+  stack
+)
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 100 2638 2646 "src/interpreter/preprocess/loader.ml" 100 2638 2654
+type(
+  exectree
+)
+ident(
+  def src_tree "src/interpreter/preprocess/loader.ml" 101 2686 2690 "src/interpreter/preprocess/loader.ml" 106 2946 2988
+)
+"src/interpreter/preprocess/loader.ml" 100 2638 2657 "src/interpreter/preprocess/loader.ml" 100 2638 2673
+type(
+  string -> string -> exectree
+)
+ident(
+  int_ref exectree_of_file "src/interpreter/preprocess/loader.ml" 67 1385 1393 "src/interpreter/preprocess/loader.ml" 67 1385 1409
+)
+"src/interpreter/preprocess/loader.ml" 100 2638 2674 "src/interpreter/preprocess/loader.ml" 100 2638 2677
+type(
+  string
+)
+ident(
+  int_ref dir "src/interpreter/preprocess/loader.ml" 97 2502 2508 "src/interpreter/preprocess/loader.ml" 97 2502 2511
+)
+"src/interpreter/preprocess/loader.ml" 100 2638 2678 "src/interpreter/preprocess/loader.ml" 100 2638 2682
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 97 2502 2512 "src/interpreter/preprocess/loader.ml" 97 2502 2516
+)
+"src/interpreter/preprocess/loader.ml" 100 2638 2657 "src/interpreter/preprocess/loader.ml" 100 2638 2682
+call(
+  stack
+)
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 101 2686 2694 "src/interpreter/preprocess/loader.ml" 101 2686 2704
+type(
+  exectree
+)
+ident(
+  def joint_tree "src/interpreter/preprocess/loader.ml" 106 2946 2952 "src/interpreter/preprocess/loader.ml" 106 2946 2988
+)
+"src/interpreter/preprocess/loader.ml" 101 2686 2714 "src/interpreter/preprocess/loader.ml" 101 2686 2722
+type(
+  exectree
+)
+ident(
+  int_ref src_tree "src/interpreter/preprocess/loader.ml" 100 2638 2646 "src/interpreter/preprocess/loader.ml" 100 2638 2654
+)
+"src/interpreter/preprocess/loader.ml" 102 2728 2762 "src/interpreter/preprocess/loader.ml" 102 2728 2763
+type(
+  string
+)
+ident(
+  def f "src/interpreter/preprocess/loader.ml" 103 2771 2797 "src/interpreter/preprocess/loader.ml" 103 2771 2839
+)
+"src/interpreter/preprocess/loader.ml" 102 2728 2765 "src/interpreter/preprocess/loader.ml" 102 2728 2766
+type(
+  Support.expr
+)
+ident(
+  def e "src/interpreter/preprocess/loader.ml" 103 2771 2797 "src/interpreter/preprocess/loader.ml" 103 2771 2839
+)
+"src/interpreter/preprocess/loader.ml" 102 2728 2752 "src/interpreter/preprocess/loader.ml" 102 2728 2767
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 103 2771 2807 "src/interpreter/preprocess/loader.ml" 103 2771 2808
+type(
+  string
+)
+ident(
+  int_ref f "src/interpreter/preprocess/loader.ml" 102 2728 2762 "src/interpreter/preprocess/loader.ml" 102 2728 2763
+)
+"src/interpreter/preprocess/loader.ml" 103 2771 2811 "src/interpreter/preprocess/loader.ml" 103 2771 2820
+type(
+  exectree
+)
+ident(
+  int_ref base_tree "src/interpreter/preprocess/loader.ml" 99 2569 2577 "src/interpreter/preprocess/loader.ml" 99 2569 2586
+)
+"src/interpreter/preprocess/loader.ml" 103 2771 2832 "src/interpreter/preprocess/loader.ml" 103 2771 2833
+type(
+  string
+)
+ident(
+  int_ref f "src/interpreter/preprocess/loader.ml" 102 2728 2762 "src/interpreter/preprocess/loader.ml" 102 2728 2763
+)
+"src/interpreter/preprocess/loader.ml" 103 2771 2835 "src/interpreter/preprocess/loader.ml" 103 2771 2836
+type(
+  Support.expr
+)
+ident(
+  int_ref e "src/interpreter/preprocess/loader.ml" 102 2728 2765 "src/interpreter/preprocess/loader.ml" 102 2728 2766
+)
+"src/interpreter/preprocess/loader.ml" 103 2771 2822 "src/interpreter/preprocess/loader.ml" 103 2771 2837
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 103 2771 2810 "src/interpreter/preprocess/loader.ml" 103 2771 2838
+type(
+  exectree list
+)
+"src/interpreter/preprocess/loader.ml" 103 2771 2797 "src/interpreter/preprocess/loader.ml" 103 2771 2839
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 104 2840 2874 "src/interpreter/preprocess/loader.ml" 104 2840 2875
+type(
+  string
+)
+ident(
+  def f "src/interpreter/preprocess/loader.ml" 105 2885 2911 "src/interpreter/preprocess/loader.ml" 105 2885 2941
+)
+"src/interpreter/preprocess/loader.ml" 104 2840 2877 "src/interpreter/preprocess/loader.ml" 104 2840 2880
+type(
+  exectree list
+)
+ident(
+  def ets "src/interpreter/preprocess/loader.ml" 105 2885 2911 "src/interpreter/preprocess/loader.ml" 105 2885 2941
+)
+"src/interpreter/preprocess/loader.ml" 104 2840 2864 "src/interpreter/preprocess/loader.ml" 104 2840 2881
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 105 2885 2921 "src/interpreter/preprocess/loader.ml" 105 2885 2922
+type(
+  string
+)
+ident(
+  int_ref f "src/interpreter/preprocess/loader.ml" 104 2840 2874 "src/interpreter/preprocess/loader.ml" 104 2840 2875
+)
+"src/interpreter/preprocess/loader.ml" 105 2885 2924 "src/interpreter/preprocess/loader.ml" 105 2885 2933
+type(
+  exectree
+)
+ident(
+  int_ref base_tree "src/interpreter/preprocess/loader.ml" 99 2569 2577 "src/interpreter/preprocess/loader.ml" 99 2569 2586
+)
+"src/interpreter/preprocess/loader.ml" 105 2885 2937 "src/interpreter/preprocess/loader.ml" 105 2885 2940
+type(
+  exectree list
+)
+ident(
+  int_ref ets "src/interpreter/preprocess/loader.ml" 104 2840 2877 "src/interpreter/preprocess/loader.ml" 104 2840 2880
+)
+"src/interpreter/preprocess/loader.ml" 105 2885 2924 "src/interpreter/preprocess/loader.ml" 105 2885 2940
+type(
+  exectree list
+)
+"src/interpreter/preprocess/loader.ml" 105 2885 2911 "src/interpreter/preprocess/loader.ml" 105 2885 2941
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 101 2686 2707 "src/interpreter/preprocess/loader.ml" 105 2885 2942
+type(
+  exectree
+)
+"src/interpreter/preprocess/loader.ml" 106 2946 2952 "src/interpreter/preprocess/loader.ml" 106 2946 2977
+type(
+  exectree -> string list * (string * Support.expr) list
+)
+ident(
+  int_ref linearization_of_exectree "src/interpreter/preprocess/loader.ml" 77 1780 1788 "src/interpreter/preprocess/loader.ml" 77 1780 1813
+)
+"src/interpreter/preprocess/loader.ml" 106 2946 2978 "src/interpreter/preprocess/loader.ml" 106 2946 2988
+type(
+  exectree
+)
+ident(
+  int_ref joint_tree "src/interpreter/preprocess/loader.ml" 101 2686 2694 "src/interpreter/preprocess/loader.ml" 101 2686 2704
+)
+"src/interpreter/preprocess/loader.ml" 106 2946 2952 "src/interpreter/preprocess/loader.ml" 106 2946 2988
+call(
+  tail
+)
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 101 2686 2690 "src/interpreter/preprocess/loader.ml" 106 2946 2988
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 100 2638 2642 "src/interpreter/preprocess/loader.ml" 106 2946 2988
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 99 2569 2573 "src/interpreter/preprocess/loader.ml" 106 2946 2988
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 98 2520 2524 "src/interpreter/preprocess/loader.ml" 106 2946 2988
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 97 2502 2504 "src/interpreter/preprocess/loader.ml" 106 2946 2988
+type(
+  string -> string -> string list * (string * Support.expr) list
+)
+type(
+  string -> string -> string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 108 2990 2994 "src/interpreter/preprocess/loader.ml" 108 2990 3007
+type(
+  string -> unit
+)
+ident(
+  def dump_file_ast "src/interpreter/preprocess/loader.ml" 113 3125 3125 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 109 3027 3033 "src/interpreter/preprocess/loader.ml" 109 3027 3037
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 110 3041 3045 "src/interpreter/preprocess/loader.ml" 111 3075 3123
+)
+"src/interpreter/preprocess/loader.ml" 110 3041 3049 "src/interpreter/preprocess/loader.ml" 110 3041 3054
+type(
+  unit Rast.program
+)
+ident(
+  def absyn "src/interpreter/preprocess/loader.ml" 111 3075 3079 "src/interpreter/preprocess/loader.ml" 111 3075 3123
+)
+"src/interpreter/preprocess/loader.ml" 110 3041 3057 "src/interpreter/preprocess/loader.ml" 110 3041 3066
+type(
+  string -> unit Rast.program
+)
+ident(
+  ext_ref Absyn_generator.parseFile
+)
+"src/interpreter/preprocess/loader.ml" 110 3041 3067 "src/interpreter/preprocess/loader.ml" 110 3041 3071
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 109 3027 3033 "src/interpreter/preprocess/loader.ml" 109 3027 3037
+)
+"src/interpreter/preprocess/loader.ml" 110 3041 3057 "src/interpreter/preprocess/loader.ml" 110 3041 3071
+call(
+  stack
+)
+type(
+  unit Rast.program
+)
+"src/interpreter/preprocess/loader.ml" 111 3075 3079 "src/interpreter/preprocess/loader.ml" 111 3075 3092
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/interpreter/preprocess/loader.ml" 111 3075 3094 "src/interpreter/preprocess/loader.ml" 111 3075 3116
+type(
+  unit Rast.program -> string
+)
+ident(
+  ext_ref Rast.string_of_program
+)
+"src/interpreter/preprocess/loader.ml" 111 3075 3117 "src/interpreter/preprocess/loader.ml" 111 3075 3122
+type(
+  unit Rast.program
+)
+ident(
+  int_ref absyn "src/interpreter/preprocess/loader.ml" 110 3041 3049 "src/interpreter/preprocess/loader.ml" 110 3041 3054
+)
+"src/interpreter/preprocess/loader.ml" 111 3075 3093 "src/interpreter/preprocess/loader.ml" 111 3075 3123
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 111 3075 3079 "src/interpreter/preprocess/loader.ml" 111 3075 3123
+call(
+  tail
+)
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 110 3041 3045 "src/interpreter/preprocess/loader.ml" 111 3075 3123
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 109 3027 3029 "src/interpreter/preprocess/loader.ml" 111 3075 3123
+type(
+  string -> unit
+)
+type(
+  string -> unit
+)
+"src/interpreter/preprocess/loader.ml" 113 3125 3129 "src/interpreter/preprocess/loader.ml" 113 3125 3152
+type(
+  string -> string -> unit
+)
+ident(
+  def dump_file_linearization "src/interpreter/preprocess/loader.ml" 125 3659 3659 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 114 3182 3188 "src/interpreter/preprocess/loader.ml" 114 3182 3191
+type(
+  string
+)
+ident(
+  def dir "src/interpreter/preprocess/loader.ml" 114 3182 3192 "src/interpreter/preprocess/loader.ml" 123 3621 3655
+)
+"src/interpreter/preprocess/loader.ml" 114 3182 3192 "src/interpreter/preprocess/loader.ml" 114 3182 3196
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 116 3260 3264 "src/interpreter/preprocess/loader.ml" 123 3621 3655
+)
+"src/interpreter/preprocess/loader.ml" 116 3260 3269 "src/interpreter/preprocess/loader.ml" 116 3260 3274
+type(
+  string list
+)
+ident(
+  def files "src/interpreter/preprocess/loader.ml" 117 3324 3330 "src/interpreter/preprocess/loader.ml" 123 3621 3655
+)
+"src/interpreter/preprocess/loader.ml" 116 3260 3276 "src/interpreter/preprocess/loader.ml" 116 3260 3281
+type(
+  (string * Support.expr) list
+)
+ident(
+  def exprs "src/interpreter/preprocess/loader.ml" 117 3324 3330 "src/interpreter/preprocess/loader.ml" 123 3621 3655
+)
+"src/interpreter/preprocess/loader.ml" 116 3260 3268 "src/interpreter/preprocess/loader.ml" 116 3260 3282
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 116 3260 3285 "src/interpreter/preprocess/loader.ml" 116 3260 3311
+type(
+  string -> string -> string list * (string * Support.expr) list
+)
+ident(
+  int_ref linearize_source_with_base "src/interpreter/preprocess/loader.ml" 95 2410 2414 "src/interpreter/preprocess/loader.ml" 95 2410 2440
+)
+"src/interpreter/preprocess/loader.ml" 116 3260 3312 "src/interpreter/preprocess/loader.ml" 116 3260 3315
+type(
+  string
+)
+ident(
+  int_ref dir "src/interpreter/preprocess/loader.ml" 114 3182 3188 "src/interpreter/preprocess/loader.ml" 114 3182 3191
+)
+"src/interpreter/preprocess/loader.ml" 116 3260 3316 "src/interpreter/preprocess/loader.ml" 116 3260 3320
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 114 3182 3192 "src/interpreter/preprocess/loader.ml" 114 3182 3196
+)
+"src/interpreter/preprocess/loader.ml" 116 3260 3285 "src/interpreter/preprocess/loader.ml" 116 3260 3320
+call(
+  stack
+)
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 117 3324 3330 "src/interpreter/preprocess/loader.ml" 117 3324 3343
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/interpreter/preprocess/loader.ml" 117 3324 3344 "src/interpreter/preprocess/loader.ml" 117 3324 3356
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 117 3324 3330 "src/interpreter/preprocess/loader.ml" 117 3324 3356
+call(
+  stack
+)
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 118 3358 3364 "src/interpreter/preprocess/loader.ml" 118 3358 3368
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/interpreter/preprocess/loader.ml" 118 3358 3374 "src/interpreter/preprocess/loader.ml" 118 3358 3375
+type(
+  string
+)
+ident(
+  def f "src/interpreter/preprocess/loader.ml" 118 3358 3379 "src/interpreter/preprocess/loader.ml" 118 3358 3411
+)
+"src/interpreter/preprocess/loader.ml" 118 3358 3379 "src/interpreter/preprocess/loader.ml" 118 3358 3391
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"src/interpreter/preprocess/loader.ml" 118 3358 3392 "src/interpreter/preprocess/loader.ml" 118 3358 3393
+type(
+  string
+)
+ident(
+  int_ref f "src/interpreter/preprocess/loader.ml" 118 3358 3374 "src/interpreter/preprocess/loader.ml" 118 3358 3375
+)
+"src/interpreter/preprocess/loader.ml" 118 3358 3379 "src/interpreter/preprocess/loader.ml" 118 3358 3393
+call(
+  stack
+)
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 118 3358 3395 "src/interpreter/preprocess/loader.ml" 118 3358 3408
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"src/interpreter/preprocess/loader.ml" 118 3358 3409 "src/interpreter/preprocess/loader.ml" 118 3358 3411
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 118 3358 3395 "src/interpreter/preprocess/loader.ml" 118 3358 3411
+call(
+  tail
+)
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 118 3358 3379 "src/interpreter/preprocess/loader.ml" 118 3358 3411
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 118 3358 3369 "src/interpreter/preprocess/loader.ml" 118 3358 3412
+type(
+  string -> unit
+)
+"src/interpreter/preprocess/loader.ml" 118 3358 3413 "src/interpreter/preprocess/loader.ml" 118 3358 3418
+type(
+  string list
+)
+ident(
+  int_ref files "src/interpreter/preprocess/loader.ml" 116 3260 3269 "src/interpreter/preprocess/loader.ml" 116 3260 3274
+)
+"src/interpreter/preprocess/loader.ml" 118 3358 3364 "src/interpreter/preprocess/loader.ml" 118 3358 3418
+call(
+  stack
+)
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 119 3420 3426 "src/interpreter/preprocess/loader.ml" 119 3420 3439
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/interpreter/preprocess/loader.ml" 119 3420 3440 "src/interpreter/preprocess/loader.ml" 119 3420 3452
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 119 3420 3426 "src/interpreter/preprocess/loader.ml" 119 3420 3452
+call(
+  stack
+)
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3460 "src/interpreter/preprocess/loader.ml" 120 3454 3464
+type(
+  (string * Support.expr -> unit) -> (string * Support.expr) list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3471 "src/interpreter/preprocess/loader.ml" 120 3454 3472
+type(
+  string
+)
+ident(
+  def f "src/interpreter/preprocess/loader.ml" 120 3454 3480 "src/interpreter/preprocess/loader.ml" 122 3571 3612
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3474 "src/interpreter/preprocess/loader.ml" 120 3454 3475
+type(
+  Support.expr
+)
+ident(
+  def e "src/interpreter/preprocess/loader.ml" 120 3454 3480 "src/interpreter/preprocess/loader.ml" 122 3571 3612
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3470 "src/interpreter/preprocess/loader.ml" 120 3454 3476
+type(
+  string * Support.expr
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3480 "src/interpreter/preprocess/loader.ml" 120 3454 3492
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3494 "src/interpreter/preprocess/loader.ml" 120 3454 3497
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3498 "src/interpreter/preprocess/loader.ml" 120 3454 3499
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3500 "src/interpreter/preprocess/loader.ml" 120 3454 3501
+type(
+  string
+)
+ident(
+  int_ref f "src/interpreter/preprocess/loader.ml" 120 3454 3471 "src/interpreter/preprocess/loader.ml" 120 3454 3472
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3502 "src/interpreter/preprocess/loader.ml" 120 3454 3503
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3504 "src/interpreter/preprocess/loader.ml" 120 3454 3509
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3500 "src/interpreter/preprocess/loader.ml" 120 3454 3509
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3493 "src/interpreter/preprocess/loader.ml" 120 3454 3510
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3480 "src/interpreter/preprocess/loader.ml" 120 3454 3510
+call(
+  stack
+)
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 121 3512 3537 "src/interpreter/preprocess/loader.ml" 121 3512 3550
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/interpreter/preprocess/loader.ml" 121 3512 3552 "src/interpreter/preprocess/loader.ml" 121 3512 3566
+type(
+  Support.expr -> string
+)
+ident(
+  ext_ref Langutils.string_of_expr
+)
+"src/interpreter/preprocess/loader.ml" 121 3512 3567 "src/interpreter/preprocess/loader.ml" 121 3512 3568
+type(
+  Support.expr
+)
+ident(
+  int_ref e "src/interpreter/preprocess/loader.ml" 120 3454 3474 "src/interpreter/preprocess/loader.ml" 120 3454 3475
+)
+"src/interpreter/preprocess/loader.ml" 121 3512 3551 "src/interpreter/preprocess/loader.ml" 121 3512 3569
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 121 3512 3537 "src/interpreter/preprocess/loader.ml" 121 3512 3569
+call(
+  stack
+)
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 122 3571 3596 "src/interpreter/preprocess/loader.ml" 122 3571 3609
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"src/interpreter/preprocess/loader.ml" 122 3571 3610 "src/interpreter/preprocess/loader.ml" 122 3571 3612
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 122 3571 3596 "src/interpreter/preprocess/loader.ml" 122 3571 3612
+call(
+  tail
+)
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 121 3512 3537 "src/interpreter/preprocess/loader.ml" 122 3571 3612
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3480 "src/interpreter/preprocess/loader.ml" 122 3571 3612
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3465 "src/interpreter/preprocess/loader.ml" 122 3571 3613
+type(
+  string * Support.expr -> unit
+)
+"src/interpreter/preprocess/loader.ml" 122 3571 3614 "src/interpreter/preprocess/loader.ml" 122 3571 3619
+type(
+  (string * Support.expr) list
+)
+ident(
+  int_ref exprs "src/interpreter/preprocess/loader.ml" 116 3260 3276 "src/interpreter/preprocess/loader.ml" 116 3260 3281
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3460 "src/interpreter/preprocess/loader.ml" 122 3571 3619
+call(
+  stack
+)
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 123 3621 3627 "src/interpreter/preprocess/loader.ml" 123 3621 3640
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/interpreter/preprocess/loader.ml" 123 3621 3641 "src/interpreter/preprocess/loader.ml" 123 3621 3655
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 123 3621 3627 "src/interpreter/preprocess/loader.ml" 123 3621 3655
+call(
+  tail
+)
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 120 3454 3460 "src/interpreter/preprocess/loader.ml" 123 3621 3655
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 119 3420 3426 "src/interpreter/preprocess/loader.ml" 123 3621 3655
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 118 3358 3364 "src/interpreter/preprocess/loader.ml" 123 3621 3655
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 117 3324 3330 "src/interpreter/preprocess/loader.ml" 123 3621 3655
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 116 3260 3264 "src/interpreter/preprocess/loader.ml" 123 3621 3655
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 114 3182 3184 "src/interpreter/preprocess/loader.ml" 123 3621 3655
+type(
+  string -> string -> unit
+)
+type(
+  string -> string -> unit
+)
+"src/interpreter/preprocess/loader.ml" 125 3659 3663 "src/interpreter/preprocess/loader.ml" 125 3659 3684
+type(
+  (Support.ident * Support.expr) list ->
+  Support.memref -> Support.heap -> Support.heap
+)
+ident(
+  def inj_binds_to_env_heap "src/interpreter/preprocess/loader.ml" 138 4299 4299 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 126 3735 3741 "src/interpreter/preprocess/loader.ml" 126 3735 3746
+type(
+  (Support.ident * Support.expr) list
+)
+ident(
+  def binds "src/interpreter/preprocess/loader.ml" 126 3735 3747 "src/interpreter/preprocess/loader.ml" 136 4254 4297
+)
+"src/interpreter/preprocess/loader.ml" 126 3735 3747 "src/interpreter/preprocess/loader.ml" 126 3735 3754
+type(
+  Support.memref
+)
+ident(
+  def env_mem "src/interpreter/preprocess/loader.ml" 126 3735 3755 "src/interpreter/preprocess/loader.ml" 136 4254 4297
+)
+"src/interpreter/preprocess/loader.ml" 126 3735 3755 "src/interpreter/preprocess/loader.ml" 126 3735 3759
+type(
+  Support.heap
+)
+ident(
+  def heap "src/interpreter/preprocess/loader.ml" 127 3763 3767 "src/interpreter/preprocess/loader.ml" 136 4254 4297
+)
+"src/interpreter/preprocess/loader.ml" 127 3763 3773 "src/interpreter/preprocess/loader.ml" 127 3763 3782
+type(
+  Support.memref -> Support.heap -> Support.heapobj option
+)
+ident(
+  ext_ref Support.heap_find
+)
+"src/interpreter/preprocess/loader.ml" 127 3763 3783 "src/interpreter/preprocess/loader.ml" 127 3763 3790
+type(
+  Support.memref
+)
+ident(
+  int_ref env_mem "src/interpreter/preprocess/loader.ml" 126 3735 3747 "src/interpreter/preprocess/loader.ml" 126 3735 3754
+)
+"src/interpreter/preprocess/loader.ml" 127 3763 3791 "src/interpreter/preprocess/loader.ml" 127 3763 3795
+type(
+  Support.heap
+)
+ident(
+  int_ref heap "src/interpreter/preprocess/loader.ml" 126 3735 3755 "src/interpreter/preprocess/loader.ml" 126 3735 3759
+)
+"src/interpreter/preprocess/loader.ml" 127 3763 3773 "src/interpreter/preprocess/loader.ml" 127 3763 3795
+call(
+  stack
+)
+type(
+  Support.heapobj option
+)
+"src/interpreter/preprocess/loader.ml" 128 3801 3829 "src/interpreter/preprocess/loader.ml" 128 3801 3832
+type(
+  Support.env
+)
+ident(
+  def env "src/interpreter/preprocess/loader.ml" 129 3845 3853 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+)
+"src/interpreter/preprocess/loader.ml" 128 3801 3822 "src/interpreter/preprocess/loader.ml" 128 3801 3832
+type(
+  Support.value
+)
+"src/interpreter/preprocess/loader.ml" 128 3801 3834 "src/interpreter/preprocess/loader.ml" 128 3801 3839
+type(
+  Support.attributes
+)
+ident(
+  def attrs "src/interpreter/preprocess/loader.ml" 129 3845 3853 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+)
+"src/interpreter/preprocess/loader.ml" 128 3801 3812 "src/interpreter/preprocess/loader.ml" 128 3801 3841
+type(
+  Support.heapobj
+)
+"src/interpreter/preprocess/loader.ml" 128 3801 3807 "src/interpreter/preprocess/loader.ml" 128 3801 3841
+type(
+  Support.heapobj option
+)
+"src/interpreter/preprocess/loader.ml" 129 3845 3857 "src/interpreter/preprocess/loader.ml" 129 3845 3860
+type(
+  Support.ident list
+)
+ident(
+  def ids "src/interpreter/preprocess/loader.ml" 130 3894 3902 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+)
+"src/interpreter/preprocess/loader.ml" 129 3845 3863 "src/interpreter/preprocess/loader.ml" 129 3845 3866
+type(
+  (Support.ident * Support.expr -> Support.ident) ->
+  (Support.ident * Support.expr) list -> Support.ident list
+)
+ident(
+  ext_ref List.map
+)
+"src/interpreter/preprocess/loader.ml" 129 3845 3873 "src/interpreter/preprocess/loader.ml" 129 3845 3874
+type(
+  Support.ident
+)
+ident(
+  def i "src/interpreter/preprocess/loader.ml" 129 3845 3882 "src/interpreter/preprocess/loader.ml" 129 3845 3883
+)
+"src/interpreter/preprocess/loader.ml" 129 3845 3876 "src/interpreter/preprocess/loader.ml" 129 3845 3877
+type(
+  Support.expr
+)
+"src/interpreter/preprocess/loader.ml" 129 3845 3872 "src/interpreter/preprocess/loader.ml" 129 3845 3878
+type(
+  Support.ident * Support.expr
+)
+"src/interpreter/preprocess/loader.ml" 129 3845 3882 "src/interpreter/preprocess/loader.ml" 129 3845 3883
+type(
+  Support.ident
+)
+ident(
+  int_ref i "src/interpreter/preprocess/loader.ml" 129 3845 3873 "src/interpreter/preprocess/loader.ml" 129 3845 3874
+)
+"src/interpreter/preprocess/loader.ml" 129 3845 3867 "src/interpreter/preprocess/loader.ml" 129 3845 3884
+type(
+  Support.ident * Support.expr -> Support.ident
+)
+"src/interpreter/preprocess/loader.ml" 129 3845 3885 "src/interpreter/preprocess/loader.ml" 129 3845 3890
+type(
+  (Support.ident * Support.expr) list
+)
+ident(
+  int_ref binds "src/interpreter/preprocess/loader.ml" 126 3735 3741 "src/interpreter/preprocess/loader.ml" 126 3735 3746
+)
+"src/interpreter/preprocess/loader.ml" 129 3845 3863 "src/interpreter/preprocess/loader.ml" 129 3845 3890
+call(
+  stack
+)
+type(
+  Support.ident list
+)
+"src/interpreter/preprocess/loader.ml" 130 3894 3906 "src/interpreter/preprocess/loader.ml" 130 3894 3911
+type(
+  Support.heapobj list
+)
+ident(
+  def proms "src/interpreter/preprocess/loader.ml" 131 3967 3975 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+)
+"src/interpreter/preprocess/loader.ml" 130 3894 3914 "src/interpreter/preprocess/loader.ml" 130 3894 3917
+type(
+  (Support.ident * Support.expr -> Support.heapobj) ->
+  (Support.ident * Support.expr) list -> Support.heapobj list
+)
+ident(
+  ext_ref List.map
+)
+"src/interpreter/preprocess/loader.ml" 130 3894 3924 "src/interpreter/preprocess/loader.ml" 130 3894 3925
+type(
+  Support.ident
+)
+"src/interpreter/preprocess/loader.ml" 130 3894 3927 "src/interpreter/preprocess/loader.ml" 130 3894 3928
+type(
+  Support.expr
+)
+ident(
+  def e "src/interpreter/preprocess/loader.ml" 130 3894 3933 "src/interpreter/preprocess/loader.ml" 130 3894 3956
+)
+"src/interpreter/preprocess/loader.ml" 130 3894 3923 "src/interpreter/preprocess/loader.ml" 130 3894 3929
+type(
+  Support.ident * Support.expr
+)
+"src/interpreter/preprocess/loader.ml" 130 3894 3945 "src/interpreter/preprocess/loader.ml" 130 3894 3946
+type(
+  Support.expr
+)
+ident(
+  int_ref e "src/interpreter/preprocess/loader.ml" 130 3894 3927 "src/interpreter/preprocess/loader.ml" 130 3894 3928
+)
+"src/interpreter/preprocess/loader.ml" 130 3894 3948 "src/interpreter/preprocess/loader.ml" 130 3894 3955
+type(
+  Support.memref
+)
+ident(
+  int_ref env_mem "src/interpreter/preprocess/loader.ml" 126 3735 3747 "src/interpreter/preprocess/loader.ml" 126 3735 3754
+)
+"src/interpreter/preprocess/loader.ml" 130 3894 3933 "src/interpreter/preprocess/loader.ml" 130 3894 3956
+type(
+  Support.heapobj
+)
+"src/interpreter/preprocess/loader.ml" 130 3894 3918 "src/interpreter/preprocess/loader.ml" 130 3894 3957
+type(
+  Support.ident * Support.expr -> Support.heapobj
+)
+"src/interpreter/preprocess/loader.ml" 130 3894 3958 "src/interpreter/preprocess/loader.ml" 130 3894 3963
+type(
+  (Support.ident * Support.expr) list
+)
+ident(
+  int_ref binds "src/interpreter/preprocess/loader.ml" 126 3735 3741 "src/interpreter/preprocess/loader.ml" 126 3735 3746
+)
+"src/interpreter/preprocess/loader.ml" 130 3894 3914 "src/interpreter/preprocess/loader.ml" 130 3894 3963
+call(
+  stack
+)
+type(
+  Support.heapobj list
+)
+"src/interpreter/preprocess/loader.ml" 131 3967 3980 "src/interpreter/preprocess/loader.ml" 131 3967 3984
+type(
+  Support.memref list
+)
+ident(
+  def mems "src/interpreter/preprocess/loader.ml" 132 4025 4033 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+)
+"src/interpreter/preprocess/loader.ml" 131 3967 3986 "src/interpreter/preprocess/loader.ml" 131 3967 3991
+type(
+  Support.heap
+)
+ident(
+  def heap2 "src/interpreter/preprocess/loader.ml" 132 4025 4033 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+)
+"src/interpreter/preprocess/loader.ml" 131 3967 3979 "src/interpreter/preprocess/loader.ml" 131 3967 3992
+type(
+  Support.memref list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 131 3967 3995 "src/interpreter/preprocess/loader.ml" 131 3967 4010
+type(
+  Support.heapobj list -> Support.heap -> Support.memref list * Support.heap
+)
+ident(
+  ext_ref Support.heap_alloc_list
+)
+"src/interpreter/preprocess/loader.ml" 131 3967 4011 "src/interpreter/preprocess/loader.ml" 131 3967 4016
+type(
+  Support.heapobj list
+)
+ident(
+  int_ref proms "src/interpreter/preprocess/loader.ml" 130 3894 3906 "src/interpreter/preprocess/loader.ml" 130 3894 3911
+)
+"src/interpreter/preprocess/loader.ml" 131 3967 4017 "src/interpreter/preprocess/loader.ml" 131 3967 4021
+type(
+  Support.heap
+)
+ident(
+  int_ref heap "src/interpreter/preprocess/loader.ml" 126 3735 3755 "src/interpreter/preprocess/loader.ml" 126 3735 3759
+)
+"src/interpreter/preprocess/loader.ml" 131 3967 3995 "src/interpreter/preprocess/loader.ml" 131 3967 4021
+call(
+  stack
+)
+type(
+  Support.memref list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 132 4025 4037 "src/interpreter/preprocess/loader.ml" 132 4025 4046
+type(
+  (Support.ident * Support.memref) list
+)
+ident(
+  def env_binds "src/interpreter/preprocess/loader.ml" 133 4069 4077 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+)
+"src/interpreter/preprocess/loader.ml" 132 4025 4049 "src/interpreter/preprocess/loader.ml" 132 4025 4056
+type(
+  Support.ident list ->
+  Support.memref list -> (Support.ident * Support.memref) list
+)
+ident(
+  ext_ref List.combine
+)
+"src/interpreter/preprocess/loader.ml" 132 4025 4057 "src/interpreter/preprocess/loader.ml" 132 4025 4060
+type(
+  Support.ident list
+)
+ident(
+  int_ref ids "src/interpreter/preprocess/loader.ml" 129 3845 3857 "src/interpreter/preprocess/loader.ml" 129 3845 3860
+)
+"src/interpreter/preprocess/loader.ml" 132 4025 4061 "src/interpreter/preprocess/loader.ml" 132 4025 4065
+type(
+  Support.memref list
+)
+ident(
+  int_ref mems "src/interpreter/preprocess/loader.ml" 131 3967 3980 "src/interpreter/preprocess/loader.ml" 131 3967 3984
+)
+"src/interpreter/preprocess/loader.ml" 132 4025 4049 "src/interpreter/preprocess/loader.ml" 132 4025 4065
+call(
+  stack
+)
+type(
+  (Support.ident * Support.memref) list
+)
+"src/interpreter/preprocess/loader.ml" 133 4069 4081 "src/interpreter/preprocess/loader.ml" 133 4069 4085
+type(
+  Support.env
+)
+ident(
+  def env2 "src/interpreter/preprocess/loader.ml" 134 4118 4128 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+)
+"src/interpreter/preprocess/loader.ml" 133 4069 4088 "src/interpreter/preprocess/loader.ml" 133 4069 4100
+type(
+  (Support.ident * Support.memref) list -> Support.env -> Support.env
+)
+ident(
+  ext_ref Support.env_add_list
+)
+"src/interpreter/preprocess/loader.ml" 133 4069 4101 "src/interpreter/preprocess/loader.ml" 133 4069 4110
+type(
+  (Support.ident * Support.memref) list
+)
+ident(
+  int_ref env_binds "src/interpreter/preprocess/loader.ml" 132 4025 4037 "src/interpreter/preprocess/loader.ml" 132 4025 4046
+)
+"src/interpreter/preprocess/loader.ml" 133 4069 4111 "src/interpreter/preprocess/loader.ml" 133 4069 4114
+type(
+  Support.env
+)
+ident(
+  int_ref env "src/interpreter/preprocess/loader.ml" 128 3801 3829 "src/interpreter/preprocess/loader.ml" 128 3801 3832
+)
+"src/interpreter/preprocess/loader.ml" 133 4069 4088 "src/interpreter/preprocess/loader.ml" 133 4069 4114
+call(
+  stack
+)
+type(
+  Support.env
+)
+"src/interpreter/preprocess/loader.ml" 134 4118 4128 "src/interpreter/preprocess/loader.ml" 134 4118 4136
+type(
+  Support.memref -> Support.heapobj -> Support.heap -> Support.heap
+)
+ident(
+  ext_ref Support.heap_add
+)
+"src/interpreter/preprocess/loader.ml" 134 4118 4137 "src/interpreter/preprocess/loader.ml" 134 4118 4144
+type(
+  Support.memref
+)
+ident(
+  int_ref env_mem "src/interpreter/preprocess/loader.ml" 126 3735 3747 "src/interpreter/preprocess/loader.ml" 126 3735 3754
+)
+"src/interpreter/preprocess/loader.ml" 134 4118 4162 "src/interpreter/preprocess/loader.ml" 134 4118 4166
+type(
+  Support.env
+)
+ident(
+  int_ref env2 "src/interpreter/preprocess/loader.ml" 133 4069 4081 "src/interpreter/preprocess/loader.ml" 133 4069 4085
+)
+"src/interpreter/preprocess/loader.ml" 134 4118 4155 "src/interpreter/preprocess/loader.ml" 134 4118 4166
+type(
+  Support.value
+)
+"src/interpreter/preprocess/loader.ml" 134 4118 4168 "src/interpreter/preprocess/loader.ml" 134 4118 4173
+type(
+  Support.attributes
+)
+ident(
+  int_ref attrs "src/interpreter/preprocess/loader.ml" 128 3801 3834 "src/interpreter/preprocess/loader.ml" 128 3801 3839
+)
+"src/interpreter/preprocess/loader.ml" 134 4118 4145 "src/interpreter/preprocess/loader.ml" 134 4118 4175
+type(
+  Support.heapobj
+)
+"src/interpreter/preprocess/loader.ml" 134 4118 4176 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+type(
+  Support.heap
+)
+ident(
+  int_ref heap2 "src/interpreter/preprocess/loader.ml" 131 3967 3986 "src/interpreter/preprocess/loader.ml" 131 3967 3991
+)
+"src/interpreter/preprocess/loader.ml" 134 4118 4128 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+call(
+  tail
+)
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 133 4069 4077 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 132 4025 4033 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 131 3967 3975 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 130 3894 3902 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 129 3845 3853 "src/interpreter/preprocess/loader.ml" 134 4118 4181
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 135 4182 4188 "src/interpreter/preprocess/loader.ml" 135 4182 4189
+type(
+  Support.heapobj option
+)
+"src/interpreter/preprocess/loader.ml" 135 4182 4193 "src/interpreter/preprocess/loader.ml" 135 4182 4201
+type(
+  string -> Support.heap
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/interpreter/preprocess/loader.ml" 135 4182 4203 "src/interpreter/preprocess/loader.ml" 135 4182 4251
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 135 4182 4252 "src/interpreter/preprocess/loader.ml" 135 4182 4253
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/interpreter/preprocess/loader.ml" 136 4254 4275 "src/interpreter/preprocess/loader.ml" 136 4254 4288
+type(
+  Support.memref -> string
+)
+ident(
+  ext_ref Langutils.string_of_mem
+)
+"src/interpreter/preprocess/loader.ml" 136 4254 4289 "src/interpreter/preprocess/loader.ml" 136 4254 4296
+type(
+  Support.memref
+)
+ident(
+  int_ref env_mem "src/interpreter/preprocess/loader.ml" 126 3735 3747 "src/interpreter/preprocess/loader.ml" 126 3735 3754
+)
+"src/interpreter/preprocess/loader.ml" 136 4254 4275 "src/interpreter/preprocess/loader.ml" 136 4254 4296
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 135 4182 4202 "src/interpreter/preprocess/loader.ml" 136 4254 4297
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 135 4182 4193 "src/interpreter/preprocess/loader.ml" 136 4254 4297
+call(
+  tail
+)
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 127 3763 3767 "src/interpreter/preprocess/loader.ml" 136 4254 4297
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 126 3735 3737 "src/interpreter/preprocess/loader.ml" 136 4254 4297
+type(
+  (Support.ident * Support.expr) list ->
+  Support.memref -> Support.heap -> Support.heap
+)
+type(
+  (Support.ident * Support.expr) list ->
+  Support.memref -> Support.heap -> Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 138 4299 4307 "src/interpreter/preprocess/loader.ml" 138 4299 4320
+type(
+  (Support.memref * Support.heapobj) list -> Support.heap -> Support.heap
+)
+ident(
+  def inj_heap_list "src/interpreter/preprocess/loader.ml" 138 4299 4299 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 139 4365 4371 "src/interpreter/preprocess/loader.ml" 139 4365 4376
+type(
+  (Support.memref * Support.heapobj) list
+)
+ident(
+  def binds "src/interpreter/preprocess/loader.ml" 139 4365 4377 "src/interpreter/preprocess/loader.ml" 146 4631 4680
+)
+"src/interpreter/preprocess/loader.ml" 139 4365 4377 "src/interpreter/preprocess/loader.ml" 139 4365 4381
+type(
+  Support.heap
+)
+ident(
+  def heap "src/interpreter/preprocess/loader.ml" 140 4385 4389 "src/interpreter/preprocess/loader.ml" 146 4631 4680
+)
+"src/interpreter/preprocess/loader.ml" 140 4385 4395 "src/interpreter/preprocess/loader.ml" 140 4385 4400
+type(
+  (Support.memref * Support.heapobj) list
+)
+ident(
+  int_ref binds "src/interpreter/preprocess/loader.ml" 139 4365 4371 "src/interpreter/preprocess/loader.ml" 139 4365 4376
+)
+"src/interpreter/preprocess/loader.ml" 141 4406 4412 "src/interpreter/preprocess/loader.ml" 141 4406 4414
+type(
+  (Support.memref * Support.heapobj) list
+)
+"src/interpreter/preprocess/loader.ml" 141 4406 4418 "src/interpreter/preprocess/loader.ml" 141 4406 4422
+type(
+  Support.heap
+)
+ident(
+  int_ref heap "src/interpreter/preprocess/loader.ml" 139 4365 4377 "src/interpreter/preprocess/loader.ml" 139 4365 4381
+)
+"src/interpreter/preprocess/loader.ml" 142 4423 4431 "src/interpreter/preprocess/loader.ml" 142 4423 4434
+type(
+  Support.memref
+)
+ident(
+  def mem "src/interpreter/preprocess/loader.ml" 143 4458 4466 "src/interpreter/preprocess/loader.ml" 146 4631 4680
+)
+"src/interpreter/preprocess/loader.ml" 142 4423 4436 "src/interpreter/preprocess/loader.ml" 142 4423 4440
+type(
+  Support.heapobj
+)
+ident(
+  def hobj "src/interpreter/preprocess/loader.ml" 143 4458 4466 "src/interpreter/preprocess/loader.ml" 146 4631 4680
+)
+"src/interpreter/preprocess/loader.ml" 142 4423 4430 "src/interpreter/preprocess/loader.ml" 142 4423 4441
+type(
+  Support.memref * Support.heapobj
+)
+"src/interpreter/preprocess/loader.ml" 142 4423 4445 "src/interpreter/preprocess/loader.ml" 142 4423 4453
+type(
+  (Support.memref * Support.heapobj) list
+)
+ident(
+  def binds_tl "src/interpreter/preprocess/loader.ml" 143 4458 4466 "src/interpreter/preprocess/loader.ml" 146 4631 4680
+)
+"src/interpreter/preprocess/loader.ml" 142 4423 4429 "src/interpreter/preprocess/loader.ml" 142 4423 4454
+type(
+  (Support.memref * Support.heapobj) list
+)
+"src/interpreter/preprocess/loader.ml" 143 4458 4472 "src/interpreter/preprocess/loader.ml" 143 4458 4481
+type(
+  Support.memref -> Support.heap -> Support.heapobj option
+)
+ident(
+  ext_ref Support.heap_find
+)
+"src/interpreter/preprocess/loader.ml" 143 4458 4482 "src/interpreter/preprocess/loader.ml" 143 4458 4485
+type(
+  Support.memref
+)
+ident(
+  int_ref mem "src/interpreter/preprocess/loader.ml" 142 4423 4431 "src/interpreter/preprocess/loader.ml" 142 4423 4434
+)
+"src/interpreter/preprocess/loader.ml" 143 4458 4486 "src/interpreter/preprocess/loader.ml" 143 4458 4490
+type(
+  Support.heap
+)
+ident(
+  int_ref heap "src/interpreter/preprocess/loader.ml" 139 4365 4377 "src/interpreter/preprocess/loader.ml" 139 4365 4381
+)
+"src/interpreter/preprocess/loader.ml" 143 4458 4472 "src/interpreter/preprocess/loader.ml" 143 4458 4490
+call(
+  stack
+)
+type(
+  Support.heapobj option
+)
+"src/interpreter/preprocess/loader.ml" 144 4496 4506 "src/interpreter/preprocess/loader.ml" 144 4496 4510
+type(
+  Support.heapobj option
+)
+"src/interpreter/preprocess/loader.ml" 144 4496 4514 "src/interpreter/preprocess/loader.ml" 144 4496 4527
+type(
+  (Support.memref * Support.heapobj) list -> Support.heap -> Support.heap
+)
+ident(
+  int_ref inj_heap_list "src/interpreter/preprocess/loader.ml" 138 4299 4307 "src/interpreter/preprocess/loader.ml" 138 4299 4320
+)
+"src/interpreter/preprocess/loader.ml" 144 4496 4528 "src/interpreter/preprocess/loader.ml" 144 4496 4536
+type(
+  (Support.memref * Support.heapobj) list
+)
+ident(
+  int_ref binds_tl "src/interpreter/preprocess/loader.ml" 142 4423 4445 "src/interpreter/preprocess/loader.ml" 142 4423 4453
+)
+"src/interpreter/preprocess/loader.ml" 144 4496 4538 "src/interpreter/preprocess/loader.ml" 144 4496 4546
+type(
+  Support.memref -> Support.heapobj -> Support.heap -> Support.heap
+)
+ident(
+  ext_ref Support.heap_add
+)
+"src/interpreter/preprocess/loader.ml" 144 4496 4547 "src/interpreter/preprocess/loader.ml" 144 4496 4550
+type(
+  Support.memref
+)
+ident(
+  int_ref mem "src/interpreter/preprocess/loader.ml" 142 4423 4431 "src/interpreter/preprocess/loader.ml" 142 4423 4434
+)
+"src/interpreter/preprocess/loader.ml" 144 4496 4551 "src/interpreter/preprocess/loader.ml" 144 4496 4555
+type(
+  Support.heapobj
+)
+ident(
+  int_ref hobj "src/interpreter/preprocess/loader.ml" 142 4423 4436 "src/interpreter/preprocess/loader.ml" 142 4423 4440
+)
+"src/interpreter/preprocess/loader.ml" 144 4496 4556 "src/interpreter/preprocess/loader.ml" 144 4496 4560
+type(
+  Support.heap
+)
+ident(
+  int_ref heap "src/interpreter/preprocess/loader.ml" 139 4365 4377 "src/interpreter/preprocess/loader.ml" 139 4365 4381
+)
+"src/interpreter/preprocess/loader.ml" 144 4496 4537 "src/interpreter/preprocess/loader.ml" 144 4496 4561
+call(
+  stack
+)
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 144 4496 4514 "src/interpreter/preprocess/loader.ml" 144 4496 4561
+call(
+  tail
+)
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 145 4562 4577 "src/interpreter/preprocess/loader.ml" 145 4562 4578
+type(
+  Support.heapobj
+)
+"src/interpreter/preprocess/loader.ml" 145 4562 4572 "src/interpreter/preprocess/loader.ml" 145 4562 4578
+type(
+  Support.heapobj option
+)
+"src/interpreter/preprocess/loader.ml" 145 4562 4582 "src/interpreter/preprocess/loader.ml" 145 4562 4590
+type(
+  string -> Support.heap
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/interpreter/preprocess/loader.ml" 145 4562 4592 "src/interpreter/preprocess/loader.ml" 145 4562 4628
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 145 4562 4629 "src/interpreter/preprocess/loader.ml" 145 4562 4630
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/interpreter/preprocess/loader.ml" 146 4631 4662 "src/interpreter/preprocess/loader.ml" 146 4631 4675
+type(
+  Support.memref -> string
+)
+ident(
+  ext_ref Langutils.string_of_mem
+)
+"src/interpreter/preprocess/loader.ml" 146 4631 4676 "src/interpreter/preprocess/loader.ml" 146 4631 4679
+type(
+  Support.memref
+)
+ident(
+  int_ref mem "src/interpreter/preprocess/loader.ml" 142 4423 4431 "src/interpreter/preprocess/loader.ml" 142 4423 4434
+)
+"src/interpreter/preprocess/loader.ml" 146 4631 4662 "src/interpreter/preprocess/loader.ml" 146 4631 4679
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 145 4562 4591 "src/interpreter/preprocess/loader.ml" 146 4631 4680
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 145 4562 4582 "src/interpreter/preprocess/loader.ml" 146 4631 4680
+call(
+  tail
+)
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 143 4458 4466 "src/interpreter/preprocess/loader.ml" 146 4631 4680
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 140 4385 4389 "src/interpreter/preprocess/loader.ml" 146 4631 4680
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 139 4365 4367 "src/interpreter/preprocess/loader.ml" 146 4631 4680
+type(
+  (Support.memref * Support.heapobj) list -> Support.heap -> Support.heap
+)
+type(
+  (Support.memref * Support.heapobj) list -> Support.heap -> Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 149 4750 4754 "src/interpreter/preprocess/loader.ml" 149 4750 4769
+type(
+  string list ->
+  Support.memref ->
+  Support.heap -> (string * Support.memref) list * Support.heap
+)
+ident(
+  def alloc_file_envs "src/interpreter/preprocess/loader.ml" 170 5766 5766 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 151 4839 4845 "src/interpreter/preprocess/loader.ml" 151 4839 4850
+type(
+  string list
+)
+ident(
+  def files "src/interpreter/preprocess/loader.ml" 151 4839 4851 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+)
+"src/interpreter/preprocess/loader.ml" 151 4839 4851 "src/interpreter/preprocess/loader.ml" 151 4839 4862
+type(
+  Support.memref
+)
+ident(
+  def sup_env_mem "src/interpreter/preprocess/loader.ml" 151 4839 4863 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+)
+"src/interpreter/preprocess/loader.ml" 151 4839 4863 "src/interpreter/preprocess/loader.ml" 151 4839 4867
+type(
+  Support.heap
+)
+ident(
+  def heap "src/interpreter/preprocess/loader.ml" 152 4871 4875 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+)
+"src/interpreter/preprocess/loader.ml" 152 4871 4878 "src/interpreter/preprocess/loader.ml" 152 4871 4884
+type(
+  string list -> int
+)
+ident(
+  ext_ref List.length
+)
+"src/interpreter/preprocess/loader.ml" 152 4871 4885 "src/interpreter/preprocess/loader.ml" 152 4871 4890
+type(
+  string list
+)
+ident(
+  int_ref files "src/interpreter/preprocess/loader.ml" 151 4839 4845 "src/interpreter/preprocess/loader.ml" 151 4839 4850
+)
+"src/interpreter/preprocess/loader.ml" 152 4871 4878 "src/interpreter/preprocess/loader.ml" 152 4871 4890
+call(
+  stack
+)
+type(
+  int
+)
+"src/interpreter/preprocess/loader.ml" 152 4871 4891 "src/interpreter/preprocess/loader.ml" 152 4871 4892
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/interpreter/preprocess/loader.ml" 152 4871 4893 "src/interpreter/preprocess/loader.ml" 152 4871 4894
+type(
+  int
+)
+"src/interpreter/preprocess/loader.ml" 152 4871 4878 "src/interpreter/preprocess/loader.ml" 152 4871 4894
+type(
+  bool
+)
+"src/interpreter/preprocess/loader.ml" 153 4900 4907 "src/interpreter/preprocess/loader.ml" 153 4900 4909
+type(
+  (string * Support.memref) list
+)
+"src/interpreter/preprocess/loader.ml" 153 4900 4911 "src/interpreter/preprocess/loader.ml" 153 4900 4915
+type(
+  Support.heap
+)
+ident(
+  int_ref heap "src/interpreter/preprocess/loader.ml" 151 4839 4863 "src/interpreter/preprocess/loader.ml" 151 4839 4867
+)
+"src/interpreter/preprocess/loader.ml" 153 4900 4906 "src/interpreter/preprocess/loader.ml" 153 4900 4916
+type(
+  (string * Support.memref) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 155 4926 4936 "src/interpreter/preprocess/loader.ml" 155 4926 4940
+type(
+  Support.heapobj list
+)
+ident(
+  def envs "src/interpreter/preprocess/loader.ml" 157 5057 5063 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+)
+"src/interpreter/preprocess/loader.ml" 155 4926 4943 "src/interpreter/preprocess/loader.ml" 155 4926 4946
+type(
+  (string -> Support.heapobj) -> string list -> Support.heapobj list
+)
+ident(
+  ext_ref List.map
+)
+"src/interpreter/preprocess/loader.ml" 155 4926 4952 "src/interpreter/preprocess/loader.ml" 155 4926 4953
+type(
+  string
+)
+ident(
+  def f "src/interpreter/preprocess/loader.ml" 155 4926 4957 "src/interpreter/preprocess/loader.ml" 156 4989 5046
+)
+"src/interpreter/preprocess/loader.ml" 155 4926 4974 "src/interpreter/preprocess/loader.ml" 155 4926 4983
+type(
+  unit -> Support.env
+)
+ident(
+  ext_ref Support.env_empty
+)
+"src/interpreter/preprocess/loader.ml" 155 4926 4984 "src/interpreter/preprocess/loader.ml" 155 4926 4986
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 155 4926 4973 "src/interpreter/preprocess/loader.ml" 155 4926 4987
+call(
+  stack
+)
+type(
+  Support.env
+)
+"src/interpreter/preprocess/loader.ml" 155 4926 4966 "src/interpreter/preprocess/loader.ml" 155 4926 4987
+type(
+  Support.value
+)
+"src/interpreter/preprocess/loader.ml" 156 4989 5031 "src/interpreter/preprocess/loader.ml" 156 4989 5042
+type(
+  unit -> Support.attributes
+)
+ident(
+  ext_ref Support.attrs_empty
+)
+"src/interpreter/preprocess/loader.ml" 156 4989 5043 "src/interpreter/preprocess/loader.ml" 156 4989 5045
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 156 4989 5031 "src/interpreter/preprocess/loader.ml" 156 4989 5045
+call(
+  stack
+)
+type(
+  Support.attributes
+)
+"src/interpreter/preprocess/loader.ml" 155 4926 4957 "src/interpreter/preprocess/loader.ml" 156 4989 5046
+type(
+  Support.heapobj
+)
+"src/interpreter/preprocess/loader.ml" 155 4926 4947 "src/interpreter/preprocess/loader.ml" 156 4989 5047
+type(
+  string -> Support.heapobj
+)
+"src/interpreter/preprocess/loader.ml" 156 4989 5048 "src/interpreter/preprocess/loader.ml" 156 4989 5053
+type(
+  string list
+)
+ident(
+  int_ref files "src/interpreter/preprocess/loader.ml" 151 4839 4845 "src/interpreter/preprocess/loader.ml" 151 4839 4850
+)
+"src/interpreter/preprocess/loader.ml" 155 4926 4943 "src/interpreter/preprocess/loader.ml" 156 4989 5053
+call(
+  stack
+)
+type(
+  Support.heapobj list
+)
+"src/interpreter/preprocess/loader.ml" 157 5057 5068 "src/interpreter/preprocess/loader.ml" 157 5057 5072
+type(
+  Support.memref list
+)
+ident(
+  def mems "src/interpreter/preprocess/loader.ml" 158 5112 5118 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+)
+"src/interpreter/preprocess/loader.ml" 157 5057 5074 "src/interpreter/preprocess/loader.ml" 157 5057 5079
+type(
+  Support.heap
+)
+ident(
+  def heap2 "src/interpreter/preprocess/loader.ml" 158 5112 5118 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+)
+"src/interpreter/preprocess/loader.ml" 157 5057 5067 "src/interpreter/preprocess/loader.ml" 157 5057 5080
+type(
+  Support.memref list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 157 5057 5083 "src/interpreter/preprocess/loader.ml" 157 5057 5098
+type(
+  Support.heapobj list -> Support.heap -> Support.memref list * Support.heap
+)
+ident(
+  ext_ref Support.heap_alloc_list
+)
+"src/interpreter/preprocess/loader.ml" 157 5057 5099 "src/interpreter/preprocess/loader.ml" 157 5057 5103
+type(
+  Support.heapobj list
+)
+ident(
+  int_ref envs "src/interpreter/preprocess/loader.ml" 155 4926 4936 "src/interpreter/preprocess/loader.ml" 155 4926 4940
+)
+"src/interpreter/preprocess/loader.ml" 157 5057 5104 "src/interpreter/preprocess/loader.ml" 157 5057 5108
+type(
+  Support.heap
+)
+ident(
+  int_ref heap "src/interpreter/preprocess/loader.ml" 151 4839 4863 "src/interpreter/preprocess/loader.ml" 151 4839 4867
+)
+"src/interpreter/preprocess/loader.ml" 157 5057 5083 "src/interpreter/preprocess/loader.ml" 157 5057 5108
+call(
+  stack
+)
+type(
+  Support.memref list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 158 5112 5122 "src/interpreter/preprocess/loader.ml" 158 5112 5131
+type(
+  Support.memref list
+)
+ident(
+  def pred_mems "src/interpreter/preprocess/loader.ml" 159 5157 5163 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+)
+"src/interpreter/preprocess/loader.ml" 158 5112 5134 "src/interpreter/preprocess/loader.ml" 158 5112 5145
+type(
+  Support.memref
+)
+ident(
+  int_ref sup_env_mem "src/interpreter/preprocess/loader.ml" 151 4839 4851 "src/interpreter/preprocess/loader.ml" 151 4839 4862
+)
+"src/interpreter/preprocess/loader.ml" 158 5112 5149 "src/interpreter/preprocess/loader.ml" 158 5112 5153
+type(
+  Support.memref list
+)
+ident(
+  int_ref mems "src/interpreter/preprocess/loader.ml" 157 5057 5068 "src/interpreter/preprocess/loader.ml" 157 5057 5072
+)
+"src/interpreter/preprocess/loader.ml" 158 5112 5134 "src/interpreter/preprocess/loader.ml" 158 5112 5153
+type(
+  Support.memref list
+)
+"src/interpreter/preprocess/loader.ml" 159 5157 5167 "src/interpreter/preprocess/loader.ml" 159 5157 5172
+type(
+  (Support.memref * Support.memref) list
+)
+ident(
+  def pairs "src/interpreter/preprocess/loader.ml" 160 5218 5224 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+)
+"src/interpreter/preprocess/loader.ml" 159 5157 5175 "src/interpreter/preprocess/loader.ml" 159 5157 5182
+type(
+  Support.memref list ->
+  Support.memref list -> (Support.memref * Support.memref) list
+)
+ident(
+  ext_ref List.combine
+)
+"src/interpreter/preprocess/loader.ml" 159 5157 5183 "src/interpreter/preprocess/loader.ml" 159 5157 5187
+type(
+  Support.memref list
+)
+ident(
+  int_ref mems "src/interpreter/preprocess/loader.ml" 157 5057 5068 "src/interpreter/preprocess/loader.ml" 157 5057 5072
+)
+"src/interpreter/preprocess/loader.ml" 159 5157 5189 "src/interpreter/preprocess/loader.ml" 159 5157 5192
+type(
+  Support.memref list -> Support.memref list
+)
+ident(
+  ext_ref List.rev
+)
+"src/interpreter/preprocess/loader.ml" 159 5157 5194 "src/interpreter/preprocess/loader.ml" 159 5157 5196
+type(
+  Support.memref list -> Support.memref list
+)
+ident(
+  ext_ref List.tl
+)
+"src/interpreter/preprocess/loader.ml" 159 5157 5198 "src/interpreter/preprocess/loader.ml" 159 5157 5201
+type(
+  Support.memref list -> Support.memref list
+)
+ident(
+  ext_ref List.rev
+)
+"src/interpreter/preprocess/loader.ml" 159 5157 5202 "src/interpreter/preprocess/loader.ml" 159 5157 5211
+type(
+  Support.memref list
+)
+ident(
+  int_ref pred_mems "src/interpreter/preprocess/loader.ml" 158 5112 5122 "src/interpreter/preprocess/loader.ml" 158 5112 5131
+)
+"src/interpreter/preprocess/loader.ml" 159 5157 5197 "src/interpreter/preprocess/loader.ml" 159 5157 5212
+call(
+  stack
+)
+type(
+  Support.memref list
+)
+"src/interpreter/preprocess/loader.ml" 159 5157 5193 "src/interpreter/preprocess/loader.ml" 159 5157 5213
+call(
+  stack
+)
+type(
+  Support.memref list
+)
+"src/interpreter/preprocess/loader.ml" 159 5157 5188 "src/interpreter/preprocess/loader.ml" 159 5157 5214
+call(
+  stack
+)
+type(
+  Support.memref list
+)
+"src/interpreter/preprocess/loader.ml" 159 5157 5175 "src/interpreter/preprocess/loader.ml" 159 5157 5214
+call(
+  stack
+)
+type(
+  (Support.memref * Support.memref) list
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5228 "src/interpreter/preprocess/loader.ml" 160 5218 5233
+type(
+  Support.heap
+)
+ident(
+  def heap3 "src/interpreter/preprocess/loader.ml" 168 5729 5737 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5236 "src/interpreter/preprocess/loader.ml" 160 5218 5245
+type(
+  (Support.heap -> Support.memref * Support.memref -> Support.heap) ->
+  Support.heap -> (Support.memref * Support.memref) list -> Support.heap
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5251 "src/interpreter/preprocess/loader.ml" 160 5218 5252
+type(
+  Support.heap
+)
+ident(
+  def h "src/interpreter/preprocess/loader.ml" 160 5218 5253 "src/interpreter/preprocess/loader.ml" 165 5573 5637
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5254 "src/interpreter/preprocess/loader.ml" 160 5218 5255
+type(
+  Support.memref
+)
+ident(
+  def e "src/interpreter/preprocess/loader.ml" 160 5218 5263 "src/interpreter/preprocess/loader.ml" 165 5573 5637
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5257 "src/interpreter/preprocess/loader.ml" 160 5218 5258
+type(
+  Support.memref
+)
+ident(
+  def s "src/interpreter/preprocess/loader.ml" 160 5218 5263 "src/interpreter/preprocess/loader.ml" 165 5573 5637
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5253 "src/interpreter/preprocess/loader.ml" 160 5218 5259
+type(
+  Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5269 "src/interpreter/preprocess/loader.ml" 160 5218 5278
+type(
+  Support.memref -> Support.heap -> Support.heapobj option
+)
+ident(
+  ext_ref Support.heap_find
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5279 "src/interpreter/preprocess/loader.ml" 160 5218 5280
+type(
+  Support.memref
+)
+ident(
+  int_ref e "src/interpreter/preprocess/loader.ml" 160 5218 5254 "src/interpreter/preprocess/loader.ml" 160 5218 5255
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5281 "src/interpreter/preprocess/loader.ml" 160 5218 5282
+type(
+  Support.heap
+)
+ident(
+  int_ref h "src/interpreter/preprocess/loader.ml" 160 5218 5251 "src/interpreter/preprocess/loader.ml" 160 5218 5252
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5269 "src/interpreter/preprocess/loader.ml" 160 5218 5282
+call(
+  stack
+)
+type(
+  Support.heapobj option
+)
+"src/interpreter/preprocess/loader.ml" 161 5288 5340 "src/interpreter/preprocess/loader.ml" 161 5288 5343
+type(
+  Support.env
+)
+ident(
+  def env "src/interpreter/preprocess/loader.ml" 162 5356 5388 "src/interpreter/preprocess/loader.ml" 163 5428 5505
+)
+"src/interpreter/preprocess/loader.ml" 161 5288 5333 "src/interpreter/preprocess/loader.ml" 161 5288 5343
+type(
+  Support.value
+)
+"src/interpreter/preprocess/loader.ml" 161 5288 5345 "src/interpreter/preprocess/loader.ml" 161 5288 5350
+type(
+  Support.attributes
+)
+ident(
+  def attrs "src/interpreter/preprocess/loader.ml" 162 5356 5388 "src/interpreter/preprocess/loader.ml" 163 5428 5505
+)
+"src/interpreter/preprocess/loader.ml" 161 5288 5323 "src/interpreter/preprocess/loader.ml" 161 5288 5352
+type(
+  Support.heapobj
+)
+"src/interpreter/preprocess/loader.ml" 161 5288 5318 "src/interpreter/preprocess/loader.ml" 161 5288 5352
+type(
+  Support.heapobj option
+)
+"src/interpreter/preprocess/loader.ml" 162 5356 5392 "src/interpreter/preprocess/loader.ml" 162 5356 5396
+type(
+  Support.env
+)
+ident(
+  def env2 "src/interpreter/preprocess/loader.ml" 163 5428 5462 "src/interpreter/preprocess/loader.ml" 163 5428 5505
+)
+"src/interpreter/preprocess/loader.ml" 162 5356 5401 "src/interpreter/preprocess/loader.ml" 162 5356 5404
+type(
+  Support.env
+)
+ident(
+  int_ref env "src/interpreter/preprocess/loader.ml" 161 5288 5340 "src/interpreter/preprocess/loader.ml" 161 5288 5343
+)
+"src/interpreter/preprocess/loader.ml" 162 5356 5421 "src/interpreter/preprocess/loader.ml" 162 5356 5422
+type(
+  Support.memref
+)
+ident(
+  int_ref s "src/interpreter/preprocess/loader.ml" 160 5218 5257 "src/interpreter/preprocess/loader.ml" 160 5218 5258
+)
+"src/interpreter/preprocess/loader.ml" 162 5356 5399 "src/interpreter/preprocess/loader.ml" 162 5356 5424
+type(
+  Support.env
+)
+"src/interpreter/preprocess/loader.ml" 163 5428 5462 "src/interpreter/preprocess/loader.ml" 163 5428 5470
+type(
+  Support.memref -> Support.heapobj -> Support.heap -> Support.heap
+)
+ident(
+  ext_ref Support.heap_add
+)
+"src/interpreter/preprocess/loader.ml" 163 5428 5471 "src/interpreter/preprocess/loader.ml" 163 5428 5472
+type(
+  Support.memref
+)
+ident(
+  int_ref e "src/interpreter/preprocess/loader.ml" 160 5218 5254 "src/interpreter/preprocess/loader.ml" 160 5218 5255
+)
+"src/interpreter/preprocess/loader.ml" 163 5428 5490 "src/interpreter/preprocess/loader.ml" 163 5428 5494
+type(
+  Support.env
+)
+ident(
+  int_ref env2 "src/interpreter/preprocess/loader.ml" 162 5356 5392 "src/interpreter/preprocess/loader.ml" 162 5356 5396
+)
+"src/interpreter/preprocess/loader.ml" 163 5428 5483 "src/interpreter/preprocess/loader.ml" 163 5428 5494
+type(
+  Support.value
+)
+"src/interpreter/preprocess/loader.ml" 163 5428 5496 "src/interpreter/preprocess/loader.ml" 163 5428 5501
+type(
+  Support.attributes
+)
+ident(
+  int_ref attrs "src/interpreter/preprocess/loader.ml" 161 5288 5345 "src/interpreter/preprocess/loader.ml" 161 5288 5350
+)
+"src/interpreter/preprocess/loader.ml" 163 5428 5473 "src/interpreter/preprocess/loader.ml" 163 5428 5503
+type(
+  Support.heapobj
+)
+"src/interpreter/preprocess/loader.ml" 163 5428 5504 "src/interpreter/preprocess/loader.ml" 163 5428 5505
+type(
+  Support.heap
+)
+ident(
+  int_ref h "src/interpreter/preprocess/loader.ml" 160 5218 5251 "src/interpreter/preprocess/loader.ml" 160 5218 5252
+)
+"src/interpreter/preprocess/loader.ml" 163 5428 5462 "src/interpreter/preprocess/loader.ml" 163 5428 5505
+call(
+  tail
+)
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 162 5356 5388 "src/interpreter/preprocess/loader.ml" 163 5428 5505
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 164 5506 5536 "src/interpreter/preprocess/loader.ml" 164 5506 5537
+type(
+  Support.heapobj option
+)
+"src/interpreter/preprocess/loader.ml" 164 5506 5541 "src/interpreter/preprocess/loader.ml" 164 5506 5549
+type(
+  string -> Support.heap
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/interpreter/preprocess/loader.ml" 164 5506 5551 "src/interpreter/preprocess/loader.ml" 164 5506 5570
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 164 5506 5571 "src/interpreter/preprocess/loader.ml" 164 5506 5572
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/interpreter/preprocess/loader.ml" 165 5573 5621 "src/interpreter/preprocess/loader.ml" 165 5573 5634
+type(
+  Support.memref -> string
+)
+ident(
+  ext_ref Langutils.string_of_mem
+)
+"src/interpreter/preprocess/loader.ml" 165 5573 5635 "src/interpreter/preprocess/loader.ml" 165 5573 5636
+type(
+  Support.memref
+)
+ident(
+  int_ref e "src/interpreter/preprocess/loader.ml" 160 5218 5254 "src/interpreter/preprocess/loader.ml" 160 5218 5255
+)
+"src/interpreter/preprocess/loader.ml" 165 5573 5621 "src/interpreter/preprocess/loader.ml" 165 5573 5636
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 164 5506 5550 "src/interpreter/preprocess/loader.ml" 165 5573 5637
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 164 5506 5541 "src/interpreter/preprocess/loader.ml" 165 5573 5637
+call(
+  tail
+)
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5263 "src/interpreter/preprocess/loader.ml" 165 5573 5637
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5246 "src/interpreter/preprocess/loader.ml" 166 5638 5665
+type(
+  Support.heap -> Support.memref * Support.memref -> Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 166 5638 5666 "src/interpreter/preprocess/loader.ml" 166 5638 5671
+type(
+  Support.heap
+)
+ident(
+  int_ref heap2 "src/interpreter/preprocess/loader.ml" 157 5057 5074 "src/interpreter/preprocess/loader.ml" 157 5057 5079
+)
+"src/interpreter/preprocess/loader.ml" 166 5638 5672 "src/interpreter/preprocess/loader.ml" 166 5638 5677
+type(
+  (Support.memref * Support.memref) list
+)
+ident(
+  int_ref pairs "src/interpreter/preprocess/loader.ml" 159 5157 5167 "src/interpreter/preprocess/loader.ml" 159 5157 5172
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5236 "src/interpreter/preprocess/loader.ml" 166 5638 5677
+call(
+  stack
+)
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 168 5729 5738 "src/interpreter/preprocess/loader.ml" 168 5729 5745
+type(
+  string list -> Support.memref list -> (string * Support.memref) list
+)
+ident(
+  ext_ref List.combine
+)
+"src/interpreter/preprocess/loader.ml" 168 5729 5746 "src/interpreter/preprocess/loader.ml" 168 5729 5751
+type(
+  string list
+)
+ident(
+  int_ref files "src/interpreter/preprocess/loader.ml" 151 4839 4845 "src/interpreter/preprocess/loader.ml" 151 4839 4850
+)
+"src/interpreter/preprocess/loader.ml" 168 5729 5752 "src/interpreter/preprocess/loader.ml" 168 5729 5756
+type(
+  Support.memref list
+)
+ident(
+  int_ref mems "src/interpreter/preprocess/loader.ml" 157 5057 5068 "src/interpreter/preprocess/loader.ml" 157 5057 5072
+)
+"src/interpreter/preprocess/loader.ml" 168 5729 5738 "src/interpreter/preprocess/loader.ml" 168 5729 5756
+call(
+  stack
+)
+type(
+  (string * Support.memref) list
+)
+"src/interpreter/preprocess/loader.ml" 168 5729 5758 "src/interpreter/preprocess/loader.ml" 168 5729 5763
+type(
+  Support.heap
+)
+ident(
+  int_ref heap3 "src/interpreter/preprocess/loader.ml" 160 5218 5228 "src/interpreter/preprocess/loader.ml" 160 5218 5233
+)
+"src/interpreter/preprocess/loader.ml" 168 5729 5737 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+type(
+  (string * Support.memref) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 160 5218 5224 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+type(
+  (string * Support.memref) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 159 5157 5163 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+type(
+  (string * Support.memref) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 158 5112 5118 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+type(
+  (string * Support.memref) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 157 5057 5063 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+type(
+  (string * Support.memref) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 155 4926 4932 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+type(
+  (string * Support.memref) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 152 4871 4875 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+type(
+  (string * Support.memref) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 151 4839 4841 "src/interpreter/preprocess/loader.ml" 168 5729 5764
+type(
+  string list ->
+  Support.memref ->
+  Support.heap -> (string * Support.memref) list * Support.heap
+)
+type(
+  string list ->
+  Support.memref ->
+  Support.heap -> (string * Support.memref) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 170 5766 5770 "src/interpreter/preprocess/loader.ml" 170 5766 5787
+type(
+  (string * 'a) list -> 'a StringMap.t
+)
+ident(
+  def stringmap_of_list "src/interpreter/preprocess/loader.ml" 174 5915 5915 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 171 5829 5835 "src/interpreter/preprocess/loader.ml" 171 5829 5838
+type(
+  (StringMap.key * 'a) list
+)
+ident(
+  def lst "src/interpreter/preprocess/loader.ml" 172 5842 5846 "src/interpreter/preprocess/loader.ml" 172 5842 5913
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5846 "src/interpreter/preprocess/loader.ml" 172 5842 5855
+type(
+  ('a StringMap.t -> StringMap.key * 'a -> 'a StringMap.t) ->
+  'a StringMap.t -> (StringMap.key * 'a) list -> 'a StringMap.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5861 "src/interpreter/preprocess/loader.ml" 172 5842 5862
+type(
+  'a StringMap.t
+)
+ident(
+  def m "src/interpreter/preprocess/loader.ml" 172 5842 5863 "src/interpreter/preprocess/loader.ml" 172 5842 5892
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5864 "src/interpreter/preprocess/loader.ml" 172 5842 5865
+type(
+  StringMap.key
+)
+ident(
+  def k "src/interpreter/preprocess/loader.ml" 172 5842 5873 "src/interpreter/preprocess/loader.ml" 172 5842 5892
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5867 "src/interpreter/preprocess/loader.ml" 172 5842 5868
+type(
+  'a
+)
+ident(
+  def v "src/interpreter/preprocess/loader.ml" 172 5842 5873 "src/interpreter/preprocess/loader.ml" 172 5842 5892
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5863 "src/interpreter/preprocess/loader.ml" 172 5842 5869
+type(
+  StringMap.key * 'a
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5873 "src/interpreter/preprocess/loader.ml" 172 5842 5886
+type(
+  StringMap.key -> 'a -> 'a StringMap.t -> 'a StringMap.t
+)
+ident(
+  ext_ref StringMap.add
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5887 "src/interpreter/preprocess/loader.ml" 172 5842 5888
+type(
+  StringMap.key
+)
+ident(
+  int_ref k "src/interpreter/preprocess/loader.ml" 172 5842 5864 "src/interpreter/preprocess/loader.ml" 172 5842 5865
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5889 "src/interpreter/preprocess/loader.ml" 172 5842 5890
+type(
+  'a
+)
+ident(
+  int_ref v "src/interpreter/preprocess/loader.ml" 172 5842 5867 "src/interpreter/preprocess/loader.ml" 172 5842 5868
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5891 "src/interpreter/preprocess/loader.ml" 172 5842 5892
+type(
+  'a StringMap.t
+)
+ident(
+  int_ref m "src/interpreter/preprocess/loader.ml" 172 5842 5861 "src/interpreter/preprocess/loader.ml" 172 5842 5862
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5873 "src/interpreter/preprocess/loader.ml" 172 5842 5892
+call(
+  tail
+)
+type(
+  'a StringMap.t
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5856 "src/interpreter/preprocess/loader.ml" 172 5842 5893
+type(
+  'a StringMap.t -> StringMap.key * 'a -> 'a StringMap.t
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5894 "src/interpreter/preprocess/loader.ml" 172 5842 5909
+type(
+  'a StringMap.t
+)
+ident(
+  ext_ref StringMap.empty
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5910 "src/interpreter/preprocess/loader.ml" 172 5842 5913
+type(
+  (StringMap.key * 'a) list
+)
+ident(
+  int_ref lst "src/interpreter/preprocess/loader.ml" 171 5829 5835 "src/interpreter/preprocess/loader.ml" 171 5829 5838
+)
+"src/interpreter/preprocess/loader.ml" 172 5842 5846 "src/interpreter/preprocess/loader.ml" 172 5842 5913
+call(
+  tail
+)
+type(
+  'a StringMap.t
+)
+"src/interpreter/preprocess/loader.ml" 171 5829 5831 "src/interpreter/preprocess/loader.ml" 172 5842 5913
+type(
+  (string * 'a) list -> 'a StringMap.t
+)
+type(
+  (StringMap.key * 'a) list -> 'a StringMap.t
+)
+"src/interpreter/preprocess/loader.ml" 174 5915 5919 "src/interpreter/preprocess/loader.ml" 174 5915 5934
+type(
+  (string * Support.expr) list ->
+  (string * Support.memref) list -> Support.frame list
+)
+ident(
+  def frames_of_binds "src/interpreter/preprocess/loader.ml" 187 6356 6356 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 176 6002 6008 "src/interpreter/preprocess/loader.ml" 176 6002 6013
+type(
+  (StringMap.key * Support.expr) list
+)
+ident(
+  def exprs "src/interpreter/preprocess/loader.ml" 176 6002 6014 "src/interpreter/preprocess/loader.ml" 185 6275 6354
+)
+"src/interpreter/preprocess/loader.ml" 176 6002 6014 "src/interpreter/preprocess/loader.ml" 176 6002 6018
+type(
+  (string * Support.memref) list
+)
+ident(
+  def envs "src/interpreter/preprocess/loader.ml" 177 6022 6026 "src/interpreter/preprocess/loader.ml" 185 6275 6354
+)
+"src/interpreter/preprocess/loader.ml" 177 6022 6030 "src/interpreter/preprocess/loader.ml" 177 6022 6037
+type(
+  Support.memref StringMap.t
+)
+ident(
+  def env_map "src/interpreter/preprocess/loader.ml" 178 6066 6072 "src/interpreter/preprocess/loader.ml" 185 6275 6354
+)
+"src/interpreter/preprocess/loader.ml" 177 6022 6040 "src/interpreter/preprocess/loader.ml" 177 6022 6057
+type(
+  (string * Support.memref) list -> Support.memref StringMap.t
+)
+ident(
+  int_ref stringmap_of_list "src/interpreter/preprocess/loader.ml" 170 5766 5770 "src/interpreter/preprocess/loader.ml" 170 5766 5787
+)
+"src/interpreter/preprocess/loader.ml" 177 6022 6058 "src/interpreter/preprocess/loader.ml" 177 6022 6062
+type(
+  (string * Support.memref) list
+)
+ident(
+  int_ref envs "src/interpreter/preprocess/loader.ml" 176 6002 6014 "src/interpreter/preprocess/loader.ml" 176 6002 6018
+)
+"src/interpreter/preprocess/loader.ml" 177 6022 6040 "src/interpreter/preprocess/loader.ml" 177 6022 6062
+call(
+  stack
+)
+type(
+  Support.memref StringMap.t
+)
+"src/interpreter/preprocess/loader.ml" 179 6076 6084 "src/interpreter/preprocess/loader.ml" 179 6076 6087
+type(
+  (StringMap.key * Support.expr -> Support.frame) ->
+  (StringMap.key * Support.expr) list -> Support.frame list
+)
+ident(
+  ext_ref List.map
+)
+"src/interpreter/preprocess/loader.ml" 179 6076 6094 "src/interpreter/preprocess/loader.ml" 179 6076 6095
+type(
+  StringMap.key
+)
+ident(
+  def f "src/interpreter/preprocess/loader.ml" 180 6103 6119 "src/interpreter/preprocess/loader.ml" 182 6179 6235
+)
+"src/interpreter/preprocess/loader.ml" 179 6076 6097 "src/interpreter/preprocess/loader.ml" 179 6076 6098
+type(
+  Support.expr
+)
+ident(
+  def e "src/interpreter/preprocess/loader.ml" 180 6103 6119 "src/interpreter/preprocess/loader.ml" 182 6179 6235
+)
+"src/interpreter/preprocess/loader.ml" 179 6076 6093 "src/interpreter/preprocess/loader.ml" 179 6076 6099
+type(
+  StringMap.key * Support.expr
+)
+"src/interpreter/preprocess/loader.ml" 180 6103 6121 "src/interpreter/preprocess/loader.ml" 180 6103 6134
+type(
+  unit -> Support.frame
+)
+ident(
+  ext_ref Support.frame_default
+)
+"src/interpreter/preprocess/loader.ml" 181 6140 6176 "src/interpreter/preprocess/loader.ml" 181 6140 6177
+type(
+  Support.expr
+)
+ident(
+  int_ref e "src/interpreter/preprocess/loader.ml" 179 6076 6097 "src/interpreter/preprocess/loader.ml" 179 6076 6098
+)
+"src/interpreter/preprocess/loader.ml" 181 6140 6167 "src/interpreter/preprocess/loader.ml" 181 6140 6177
+type(
+  Support.slot
+)
+"src/interpreter/preprocess/loader.ml" 182 6179 6209 "src/interpreter/preprocess/loader.ml" 182 6179 6223
+type(
+  StringMap.key -> Support.memref StringMap.t -> Support.memref
+)
+ident(
+  ext_ref StringMap.find
+)
+"src/interpreter/preprocess/loader.ml" 182 6179 6224 "src/interpreter/preprocess/loader.ml" 182 6179 6225
+type(
+  StringMap.key
+)
+ident(
+  int_ref f "src/interpreter/preprocess/loader.ml" 179 6076 6094 "src/interpreter/preprocess/loader.ml" 179 6076 6095
+)
+"src/interpreter/preprocess/loader.ml" 182 6179 6226 "src/interpreter/preprocess/loader.ml" 182 6179 6233
+type(
+  Support.memref StringMap.t
+)
+ident(
+  int_ref env_map "src/interpreter/preprocess/loader.ml" 177 6022 6030 "src/interpreter/preprocess/loader.ml" 177 6022 6037
+)
+"src/interpreter/preprocess/loader.ml" 182 6179 6209 "src/interpreter/preprocess/loader.ml" 182 6179 6233
+call(
+  stack
+)
+type(
+  Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 180 6103 6119 "src/interpreter/preprocess/loader.ml" 182 6179 6235
+type(
+  Support.frame
+)
+"src/interpreter/preprocess/loader.ml" 179 6076 6088 "src/interpreter/preprocess/loader.ml" 182 6179 6236
+type(
+  StringMap.key * Support.expr -> Support.frame
+)
+"src/interpreter/preprocess/loader.ml" 182 6179 6237 "src/interpreter/preprocess/loader.ml" 182 6179 6242
+type(
+  (StringMap.key * Support.expr) list
+)
+ident(
+  int_ref exprs "src/interpreter/preprocess/loader.ml" 176 6002 6008 "src/interpreter/preprocess/loader.ml" 176 6002 6013
+)
+"src/interpreter/preprocess/loader.ml" 179 6076 6084 "src/interpreter/preprocess/loader.ml" 182 6179 6242
+call(
+  stack
+)
+type(
+  Support.frame list
+)
+"src/interpreter/preprocess/loader.ml" 184 6254 6262 "src/interpreter/preprocess/loader.ml" 184 6254 6271
+type(
+  exn
+)
+"src/interpreter/preprocess/loader.ml" 185 6275 6285 "src/interpreter/preprocess/loader.ml" 185 6275 6293
+type(
+  string -> Support.frame list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/interpreter/preprocess/loader.ml" 185 6275 6294 "src/interpreter/preprocess/loader.ml" 185 6275 6354
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 185 6275 6285 "src/interpreter/preprocess/loader.ml" 185 6275 6354
+call(
+  tail
+)
+type(
+  Support.frame list
+)
+"src/interpreter/preprocess/loader.ml" 178 6066 6072 "src/interpreter/preprocess/loader.ml" 185 6275 6354
+type(
+  Support.frame list
+)
+"src/interpreter/preprocess/loader.ml" 177 6022 6026 "src/interpreter/preprocess/loader.ml" 185 6275 6354
+type(
+  Support.frame list
+)
+"src/interpreter/preprocess/loader.ml" 176 6002 6004 "src/interpreter/preprocess/loader.ml" 185 6275 6354
+type(
+  (string * Support.expr) list ->
+  (string * Support.memref) list -> Support.frame list
+)
+type(
+  (StringMap.key * Support.expr) list ->
+  (string * Support.memref) list -> Support.frame list
+)
+"src/interpreter/preprocess/loader.ml" 187 6356 6360 "src/interpreter/preprocess/loader.ml" 187 6356 6377
+type(
+  string ->
+  string -> Support.stack * Support.heap * Support.memref * Support.memref
+)
+ident(
+  def raw_inits_of_file "src/interpreter/preprocess/loader.ml" 205 7383 7383 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 188 6433 6439 "src/interpreter/preprocess/loader.ml" 188 6433 6442
+type(
+  string
+)
+ident(
+  def dir "src/interpreter/preprocess/loader.ml" 188 6433 6443 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+)
+"src/interpreter/preprocess/loader.ml" 188 6433 6443 "src/interpreter/preprocess/loader.ml" 188 6433 6447
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 189 6451 6455 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+)
+"src/interpreter/preprocess/loader.ml" 189 6451 6459 "src/interpreter/preprocess/loader.ml" 189 6451 6464
+type(
+  Support.heap
+)
+ident(
+  def heap1 "src/interpreter/preprocess/loader.ml" 190 6490 6494 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+)
+"src/interpreter/preprocess/loader.ml" 189 6451 6467 "src/interpreter/preprocess/loader.ml" 189 6451 6484
+type(
+  int -> Support.heap
+)
+ident(
+  ext_ref Support.heap_empty_offset
+)
+"src/interpreter/preprocess/loader.ml" 189 6451 6485 "src/interpreter/preprocess/loader.ml" 189 6451 6486
+type(
+  int
+)
+"src/interpreter/preprocess/loader.ml" 189 6451 6467 "src/interpreter/preprocess/loader.ml" 189 6451 6486
+call(
+  stack
+)
+type(
+  Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 190 6490 6498 "src/interpreter/preprocess/loader.ml" 190 6490 6510
+type(
+  Support.memref
+)
+ident(
+  def null_env_mem "src/interpreter/preprocess/loader.ml" 192 6598 6602 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+)
+"src/interpreter/preprocess/loader.ml" 190 6490 6513 "src/interpreter/preprocess/loader.ml" 190 6490 6521
+type(
+  unit -> Support.memref
+)
+ident(
+  ext_ref Support.mem_null
+)
+"src/interpreter/preprocess/loader.ml" 190 6490 6522 "src/interpreter/preprocess/loader.ml" 190 6490 6524
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 190 6490 6513 "src/interpreter/preprocess/loader.ml" 190 6490 6524
+call(
+  stack
+)
+type(
+  Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 192 6598 6607 "src/interpreter/preprocess/loader.ml" 192 6598 6612
+type(
+  string list
+)
+ident(
+  def files "src/interpreter/preprocess/loader.ml" 194 6735 6739 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+)
+"src/interpreter/preprocess/loader.ml" 192 6598 6614 "src/interpreter/preprocess/loader.ml" 192 6598 6629
+type(
+  (string * Support.expr) list
+)
+ident(
+  def file_expr_binds "src/interpreter/preprocess/loader.ml" 194 6735 6739 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+)
+"src/interpreter/preprocess/loader.ml" 192 6598 6606 "src/interpreter/preprocess/loader.ml" 192 6598 6630
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 192 6598 6633 "src/interpreter/preprocess/loader.ml" 192 6598 6659
+type(
+  string -> string -> string list * (string * Support.expr) list
+)
+ident(
+  int_ref linearize_source_with_base "src/interpreter/preprocess/loader.ml" 95 2410 2414 "src/interpreter/preprocess/loader.ml" 95 2410 2440
+)
+"src/interpreter/preprocess/loader.ml" 192 6598 6660 "src/interpreter/preprocess/loader.ml" 192 6598 6663
+type(
+  string
+)
+ident(
+  int_ref dir "src/interpreter/preprocess/loader.ml" 188 6433 6439 "src/interpreter/preprocess/loader.ml" 188 6433 6442
+)
+"src/interpreter/preprocess/loader.ml" 192 6598 6664 "src/interpreter/preprocess/loader.ml" 192 6598 6668
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 188 6433 6443 "src/interpreter/preprocess/loader.ml" 188 6433 6447
+)
+"src/interpreter/preprocess/loader.ml" 192 6598 6633 "src/interpreter/preprocess/loader.ml" 192 6598 6668
+call(
+  stack
+)
+type(
+  string list * (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 194 6735 6743 "src/interpreter/preprocess/loader.ml" 194 6735 6749
+type(
+  string list
+)
+ident(
+  def files2 "src/interpreter/preprocess/loader.ml" 195 6779 6783 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+)
+"src/interpreter/preprocess/loader.ml" 194 6735 6752 "src/interpreter/preprocess/loader.ml" 194 6735 6766
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 194 6735 6770 "src/interpreter/preprocess/loader.ml" 194 6735 6775
+type(
+  string list
+)
+ident(
+  int_ref files "src/interpreter/preprocess/loader.ml" 192 6598 6607 "src/interpreter/preprocess/loader.ml" 192 6598 6612
+)
+"src/interpreter/preprocess/loader.ml" 194 6735 6752 "src/interpreter/preprocess/loader.ml" 194 6735 6775
+type(
+  string list
+)
+"src/interpreter/preprocess/loader.ml" 195 6779 6787 "src/interpreter/preprocess/loader.ml" 195 6779 6803
+type(
+  (string * Support.expr) list
+)
+ident(
+  def file_expr_binds2 "src/interpreter/preprocess/loader.ml" 197 6910 6914 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+)
+"src/interpreter/preprocess/loader.ml" 195 6779 6807 "src/interpreter/preprocess/loader.ml" 195 6779 6821
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 195 6779 6829 "src/interpreter/preprocess/loader.ml" 195 6779 6832
+type(
+  Syntax.const
+)
+"src/interpreter/preprocess/loader.ml" 195 6779 6823 "src/interpreter/preprocess/loader.ml" 195 6779 6832
+type(
+  Support.expr
+)
+"src/interpreter/preprocess/loader.ml" 195 6779 6806 "src/interpreter/preprocess/loader.ml" 195 6779 6833
+type(
+  string * Support.expr
+)
+"src/interpreter/preprocess/loader.ml" 195 6779 6837 "src/interpreter/preprocess/loader.ml" 195 6779 6852
+type(
+  (string * Support.expr) list
+)
+ident(
+  int_ref file_expr_binds "src/interpreter/preprocess/loader.ml" 192 6598 6614 "src/interpreter/preprocess/loader.ml" 192 6598 6629
+)
+"src/interpreter/preprocess/loader.ml" 195 6779 6806 "src/interpreter/preprocess/loader.ml" 195 6779 6852
+type(
+  (string * Support.expr) list
+)
+"src/interpreter/preprocess/loader.ml" 197 6910 6919 "src/interpreter/preprocess/loader.ml" 197 6910 6933
+type(
+  (string * Support.memref) list
+)
+ident(
+  def file_env_binds "src/interpreter/preprocess/loader.ml" 198 6989 6993 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+)
+"src/interpreter/preprocess/loader.ml" 197 6910 6935 "src/interpreter/preprocess/loader.ml" 197 6910 6940
+type(
+  Support.heap
+)
+ident(
+  def heap2 "src/interpreter/preprocess/loader.ml" 198 6989 6993 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+)
+"src/interpreter/preprocess/loader.ml" 197 6910 6918 "src/interpreter/preprocess/loader.ml" 197 6910 6941
+type(
+  (string * Support.memref) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 197 6910 6944 "src/interpreter/preprocess/loader.ml" 197 6910 6959
+type(
+  string list ->
+  Support.memref ->
+  Support.heap -> (string * Support.memref) list * Support.heap
+)
+ident(
+  int_ref alloc_file_envs "src/interpreter/preprocess/loader.ml" 149 4750 4754 "src/interpreter/preprocess/loader.ml" 149 4750 4769
+)
+"src/interpreter/preprocess/loader.ml" 197 6910 6960 "src/interpreter/preprocess/loader.ml" 197 6910 6966
+type(
+  string list
+)
+ident(
+  int_ref files2 "src/interpreter/preprocess/loader.ml" 194 6735 6743 "src/interpreter/preprocess/loader.ml" 194 6735 6749
+)
+"src/interpreter/preprocess/loader.ml" 197 6910 6967 "src/interpreter/preprocess/loader.ml" 197 6910 6979
+type(
+  Support.memref
+)
+ident(
+  int_ref null_env_mem "src/interpreter/preprocess/loader.ml" 190 6490 6498 "src/interpreter/preprocess/loader.ml" 190 6490 6510
+)
+"src/interpreter/preprocess/loader.ml" 197 6910 6980 "src/interpreter/preprocess/loader.ml" 197 6910 6985
+type(
+  Support.heap
+)
+ident(
+  int_ref heap1 "src/interpreter/preprocess/loader.ml" 189 6451 6459 "src/interpreter/preprocess/loader.ml" 189 6451 6464
+)
+"src/interpreter/preprocess/loader.ml" 197 6910 6944 "src/interpreter/preprocess/loader.ml" 197 6910 6985
+call(
+  stack
+)
+type(
+  (string * Support.memref) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 198 6989 6997 "src/interpreter/preprocess/loader.ml" 198 6989 7003
+type(
+  Support.frame list
+)
+ident(
+  def frames "src/interpreter/preprocess/loader.ml" 200 7120 7126 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+)
+"src/interpreter/preprocess/loader.ml" 198 6989 7006 "src/interpreter/preprocess/loader.ml" 198 6989 7021
+type(
+  (string * Support.expr) list ->
+  (string * Support.memref) list -> Support.frame list
+)
+ident(
+  int_ref frames_of_binds "src/interpreter/preprocess/loader.ml" 174 5915 5919 "src/interpreter/preprocess/loader.ml" 174 5915 5934
+)
+"src/interpreter/preprocess/loader.ml" 198 6989 7022 "src/interpreter/preprocess/loader.ml" 198 6989 7038
+type(
+  (string * Support.expr) list
+)
+ident(
+  int_ref file_expr_binds2 "src/interpreter/preprocess/loader.ml" 195 6779 6787 "src/interpreter/preprocess/loader.ml" 195 6779 6803
+)
+"src/interpreter/preprocess/loader.ml" 198 6989 7039 "src/interpreter/preprocess/loader.ml" 198 6989 7053
+type(
+  (string * Support.memref) list
+)
+ident(
+  int_ref file_env_binds "src/interpreter/preprocess/loader.ml" 197 6910 6919 "src/interpreter/preprocess/loader.ml" 197 6910 6933
+)
+"src/interpreter/preprocess/loader.ml" 198 6989 7006 "src/interpreter/preprocess/loader.ml" 198 6989 7053
+call(
+  stack
+)
+type(
+  Support.frame list
+)
+"src/interpreter/preprocess/loader.ml" 200 7120 7133 "src/interpreter/preprocess/loader.ml" 200 7120 7147
+type(
+  (string * Support.memref) list
+)
+ident(
+  int_ref file_env_binds "src/interpreter/preprocess/loader.ml" 197 6910 6919 "src/interpreter/preprocess/loader.ml" 197 6910 6933
+)
+"src/interpreter/preprocess/loader.ml" 200 7120 7149 "src/interpreter/preprocess/loader.ml" 200 7120 7152
+type(
+  (string * Support.memref) list -> (string * Support.memref) list
+)
+ident(
+  ext_ref List.rev
+)
+"src/interpreter/preprocess/loader.ml" 200 7120 7153 "src/interpreter/preprocess/loader.ml" 200 7120 7167
+type(
+  (string * Support.memref) list
+)
+ident(
+  int_ref file_env_binds "src/interpreter/preprocess/loader.ml" 197 6910 6919 "src/interpreter/preprocess/loader.ml" 197 6910 6933
+)
+"src/interpreter/preprocess/loader.ml" 200 7120 7149 "src/interpreter/preprocess/loader.ml" 200 7120 7167
+call(
+  stack
+)
+type(
+  (string * Support.memref) list
+)
+"src/interpreter/preprocess/loader.ml" 200 7120 7132 "src/interpreter/preprocess/loader.ml" 200 7120 7168
+type(
+  (string * Support.memref) list * (string * Support.memref) list
+)
+"src/interpreter/preprocess/loader.ml" 201 7174 7184 "src/interpreter/preprocess/loader.ml" 201 7174 7185
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 201 7174 7187 "src/interpreter/preprocess/loader.ml" 201 7174 7194
+type(
+  Support.memref
+)
+ident(
+  def nat_mem "src/interpreter/preprocess/loader.ml" 202 7225 7235 "src/interpreter/preprocess/loader.ml" 202 7225 7302
+)
+"src/interpreter/preprocess/loader.ml" 201 7174 7183 "src/interpreter/preprocess/loader.ml" 201 7174 7195
+type(
+  string * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 201 7174 7199 "src/interpreter/preprocess/loader.ml" 201 7174 7200
+type(
+  (string * Support.memref) list
+)
+"src/interpreter/preprocess/loader.ml" 201 7174 7183 "src/interpreter/preprocess/loader.ml" 201 7174 7200
+type(
+  (string * Support.memref) list
+)
+"src/interpreter/preprocess/loader.ml" 201 7174 7203 "src/interpreter/preprocess/loader.ml" 201 7174 7204
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 201 7174 7206 "src/interpreter/preprocess/loader.ml" 201 7174 7214
+type(
+  Support.memref
+)
+ident(
+  def glbl_mem "src/interpreter/preprocess/loader.ml" 202 7225 7235 "src/interpreter/preprocess/loader.ml" 202 7225 7302
+)
+"src/interpreter/preprocess/loader.ml" 201 7174 7202 "src/interpreter/preprocess/loader.ml" 201 7174 7215
+type(
+  string * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 201 7174 7219 "src/interpreter/preprocess/loader.ml" 201 7174 7220
+type(
+  (string * Support.memref) list
+)
+"src/interpreter/preprocess/loader.ml" 201 7174 7202 "src/interpreter/preprocess/loader.ml" 201 7174 7220
+type(
+  (string * Support.memref) list
+)
+"src/interpreter/preprocess/loader.ml" 201 7174 7182 "src/interpreter/preprocess/loader.ml" 201 7174 7221
+type(
+  (string * Support.memref) list * (string * Support.memref) list
+)
+"src/interpreter/preprocess/loader.ml" 202 7225 7236 "src/interpreter/preprocess/loader.ml" 202 7225 7251
+type(
+  Support.frame list -> Support.stack -> Support.stack
+)
+ident(
+  ext_ref Support.stack_push_list
+)
+"src/interpreter/preprocess/loader.ml" 202 7225 7252 "src/interpreter/preprocess/loader.ml" 202 7225 7258
+type(
+  Support.frame list
+)
+ident(
+  int_ref frames "src/interpreter/preprocess/loader.ml" 198 6989 6997 "src/interpreter/preprocess/loader.ml" 198 6989 7003
+)
+"src/interpreter/preprocess/loader.ml" 202 7225 7260 "src/interpreter/preprocess/loader.ml" 202 7225 7271
+type(
+  unit -> Support.stack
+)
+ident(
+  ext_ref Support.stack_empty
+)
+"src/interpreter/preprocess/loader.ml" 202 7225 7272 "src/interpreter/preprocess/loader.ml" 202 7225 7274
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 202 7225 7259 "src/interpreter/preprocess/loader.ml" 202 7225 7275
+call(
+  stack
+)
+type(
+  Support.stack
+)
+"src/interpreter/preprocess/loader.ml" 202 7225 7236 "src/interpreter/preprocess/loader.ml" 202 7225 7275
+call(
+  stack
+)
+type(
+  Support.stack
+)
+"src/interpreter/preprocess/loader.ml" 202 7225 7277 "src/interpreter/preprocess/loader.ml" 202 7225 7282
+type(
+  Support.heap
+)
+ident(
+  int_ref heap2 "src/interpreter/preprocess/loader.ml" 197 6910 6935 "src/interpreter/preprocess/loader.ml" 197 6910 6940
+)
+"src/interpreter/preprocess/loader.ml" 202 7225 7284 "src/interpreter/preprocess/loader.ml" 202 7225 7292
+type(
+  Support.memref
+)
+ident(
+  int_ref glbl_mem "src/interpreter/preprocess/loader.ml" 201 7174 7206 "src/interpreter/preprocess/loader.ml" 201 7174 7214
+)
+"src/interpreter/preprocess/loader.ml" 202 7225 7294 "src/interpreter/preprocess/loader.ml" 202 7225 7301
+type(
+  Support.memref
+)
+ident(
+  int_ref nat_mem "src/interpreter/preprocess/loader.ml" 201 7174 7187 "src/interpreter/preprocess/loader.ml" 201 7174 7194
+)
+"src/interpreter/preprocess/loader.ml" 202 7225 7235 "src/interpreter/preprocess/loader.ml" 202 7225 7302
+type(
+  Support.stack * Support.heap * Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 203 7303 7311 "src/interpreter/preprocess/loader.ml" 203 7303 7312
+type(
+  (string * Support.memref) list * (string * Support.memref) list
+)
+"src/interpreter/preprocess/loader.ml" 203 7303 7316 "src/interpreter/preprocess/loader.ml" 203 7303 7324
+type(
+  string -> Support.stack * Support.heap * Support.memref * Support.memref
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/interpreter/preprocess/loader.ml" 203 7303 7325 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 203 7303 7316 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+call(
+  tail
+)
+type(
+  Support.stack * Support.heap * Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 200 7120 7126 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+type(
+  Support.stack * Support.heap * Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 198 6989 6993 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+type(
+  Support.stack * Support.heap * Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 197 6910 6914 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+type(
+  Support.stack * Support.heap * Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 195 6779 6783 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+type(
+  Support.stack * Support.heap * Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 194 6735 6739 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+type(
+  Support.stack * Support.heap * Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 192 6598 6602 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+type(
+  Support.stack * Support.heap * Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 190 6490 6494 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+type(
+  Support.stack * Support.heap * Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 189 6451 6455 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+type(
+  Support.stack * Support.heap * Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 188 6433 6435 "src/interpreter/preprocess/loader.ml" 203 7303 7381
+type(
+  string ->
+  string -> Support.stack * Support.heap * Support.memref * Support.memref
+)
+type(
+  string ->
+  string -> Support.stack * Support.heap * Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 205 7383 7387 "src/interpreter/preprocess/loader.ml" 205 7383 7404
+type(
+  Support.memref ->
+  Support.heap -> (Support.ident * Support.heapobj) list * Support.heap
+)
+ident(
+  def make_native_binds "src/interpreter/preprocess/loader.ml" 217 7929 7929 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 206 7457 7463 "src/interpreter/preprocess/loader.ml" 206 7457 7475
+type(
+  Support.memref
+)
+ident(
+  def glbl_env_mem "src/interpreter/preprocess/loader.ml" 206 7457 7476 "src/interpreter/preprocess/loader.ml" 215 7888 7927
+)
+"src/interpreter/preprocess/loader.ml" 206 7457 7476 "src/interpreter/preprocess/loader.ml" 206 7457 7480
+type(
+  Support.heap
+)
+ident(
+  def heap "src/interpreter/preprocess/loader.ml" 207 7484 7488 "src/interpreter/preprocess/loader.ml" 215 7888 7927
+)
+"src/interpreter/preprocess/loader.ml" 207 7484 7488 "src/interpreter/preprocess/loader.ml" 207 7484 7497
+type(
+  ((Support.ident * Support.heapobj) list * Support.heap ->
+   Support.ident * (Support.param list * Support.expr) ->
+   (Support.ident * Support.heapobj) list * Support.heap) ->
+  (Support.ident * Support.heapobj) list * Support.heap ->
+  (Support.ident * (Support.param list * Support.expr)) list ->
+  (Support.ident * Support.heapobj) list * Support.heap
+)
+ident(
+  ext_ref List.fold_left
+)
+"src/interpreter/preprocess/loader.ml" 208 7498 7510 "src/interpreter/preprocess/loader.ml" 208 7498 7514
+type(
+  (Support.ident * Support.heapobj) list
+)
+ident(
+  def accs "src/interpreter/preprocess/loader.ml" 208 7498 7520 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+)
+"src/interpreter/preprocess/loader.ml" 208 7498 7516 "src/interpreter/preprocess/loader.ml" 208 7498 7518
+type(
+  Support.heap
+)
+ident(
+  def hp "src/interpreter/preprocess/loader.ml" 208 7498 7520 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+)
+"src/interpreter/preprocess/loader.ml" 208 7498 7509 "src/interpreter/preprocess/loader.ml" 208 7498 7519
+type(
+  (Support.ident * Support.heapobj) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 208 7498 7521 "src/interpreter/preprocess/loader.ml" 208 7498 7523
+type(
+  Support.ident
+)
+ident(
+  def id "src/interpreter/preprocess/loader.ml" 209 7544 7552 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+)
+"src/interpreter/preprocess/loader.ml" 208 7498 7526 "src/interpreter/preprocess/loader.ml" 208 7498 7532
+type(
+  Support.param list
+)
+ident(
+  def params "src/interpreter/preprocess/loader.ml" 209 7544 7552 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+)
+"src/interpreter/preprocess/loader.ml" 208 7498 7534 "src/interpreter/preprocess/loader.ml" 208 7498 7538
+type(
+  Support.expr
+)
+ident(
+  def body "src/interpreter/preprocess/loader.ml" 209 7544 7552 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+)
+"src/interpreter/preprocess/loader.ml" 208 7498 7525 "src/interpreter/preprocess/loader.ml" 208 7498 7539
+type(
+  Support.param list * Support.expr
+)
+"src/interpreter/preprocess/loader.ml" 208 7498 7520 "src/interpreter/preprocess/loader.ml" 208 7498 7540
+type(
+  Support.ident * (Support.param list * Support.expr)
+)
+"src/interpreter/preprocess/loader.ml" 209 7544 7556 "src/interpreter/preprocess/loader.ml" 209 7544 7561
+type(
+  Support.env
+)
+ident(
+  def f_env "src/interpreter/preprocess/loader.ml" 210 7615 7623 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+)
+"src/interpreter/preprocess/loader.ml" 209 7544 7567 "src/interpreter/preprocess/loader.ml" 209 7544 7576
+type(
+  unit -> Support.env
+)
+ident(
+  ext_ref Support.env_empty
+)
+"src/interpreter/preprocess/loader.ml" 209 7544 7577 "src/interpreter/preprocess/loader.ml" 209 7544 7579
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 209 7544 7566 "src/interpreter/preprocess/loader.ml" 209 7544 7580
+call(
+  stack
+)
+type(
+  Support.env
+)
+"src/interpreter/preprocess/loader.ml" 209 7544 7597 "src/interpreter/preprocess/loader.ml" 209 7544 7609
+type(
+  Support.memref
+)
+ident(
+  int_ref glbl_env_mem "src/interpreter/preprocess/loader.ml" 206 7457 7463 "src/interpreter/preprocess/loader.ml" 206 7457 7475
+)
+"src/interpreter/preprocess/loader.ml" 209 7544 7564 "src/interpreter/preprocess/loader.ml" 209 7544 7611
+type(
+  Support.env
+)
+"src/interpreter/preprocess/loader.ml" 210 7615 7627 "src/interpreter/preprocess/loader.ml" 210 7615 7636
+type(
+  Support.heapobj
+)
+ident(
+  def f_env_obj "src/interpreter/preprocess/loader.ml" 211 7681 7689 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+)
+"src/interpreter/preprocess/loader.ml" 210 7615 7655 "src/interpreter/preprocess/loader.ml" 210 7615 7660
+type(
+  Support.env
+)
+ident(
+  int_ref f_env "src/interpreter/preprocess/loader.ml" 209 7544 7556 "src/interpreter/preprocess/loader.ml" 209 7544 7561
+)
+"src/interpreter/preprocess/loader.ml" 210 7615 7648 "src/interpreter/preprocess/loader.ml" 210 7615 7660
+type(
+  Support.value
+)
+"src/interpreter/preprocess/loader.ml" 210 7615 7662 "src/interpreter/preprocess/loader.ml" 210 7615 7673
+type(
+  unit -> Support.attributes
+)
+ident(
+  ext_ref Support.attrs_empty
+)
+"src/interpreter/preprocess/loader.ml" 210 7615 7674 "src/interpreter/preprocess/loader.ml" 210 7615 7676
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 210 7615 7662 "src/interpreter/preprocess/loader.ml" 210 7615 7676
+call(
+  stack
+)
+type(
+  Support.attributes
+)
+"src/interpreter/preprocess/loader.ml" 210 7615 7639 "src/interpreter/preprocess/loader.ml" 210 7615 7677
+type(
+  Support.heapobj
+)
+"src/interpreter/preprocess/loader.ml" 211 7681 7694 "src/interpreter/preprocess/loader.ml" 211 7681 7703
+type(
+  Support.memref
+)
+ident(
+  def f_env_mem "src/interpreter/preprocess/loader.ml" 212 7739 7747 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+)
+"src/interpreter/preprocess/loader.ml" 211 7681 7705 "src/interpreter/preprocess/loader.ml" 211 7681 7708
+type(
+  Support.heap
+)
+ident(
+  def hp2 "src/interpreter/preprocess/loader.ml" 212 7739 7747 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+)
+"src/interpreter/preprocess/loader.ml" 211 7681 7693 "src/interpreter/preprocess/loader.ml" 211 7681 7709
+type(
+  Support.memref * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 211 7681 7712 "src/interpreter/preprocess/loader.ml" 211 7681 7722
+type(
+  Support.heapobj -> Support.heap -> Support.memref * Support.heap
+)
+ident(
+  ext_ref Support.heap_alloc
+)
+"src/interpreter/preprocess/loader.ml" 211 7681 7723 "src/interpreter/preprocess/loader.ml" 211 7681 7732
+type(
+  Support.heapobj
+)
+ident(
+  int_ref f_env_obj "src/interpreter/preprocess/loader.ml" 210 7615 7627 "src/interpreter/preprocess/loader.ml" 210 7615 7636
+)
+"src/interpreter/preprocess/loader.ml" 211 7681 7733 "src/interpreter/preprocess/loader.ml" 211 7681 7735
+type(
+  Support.heap
+)
+ident(
+  int_ref hp "src/interpreter/preprocess/loader.ml" 208 7498 7516 "src/interpreter/preprocess/loader.ml" 208 7498 7518
+)
+"src/interpreter/preprocess/loader.ml" 211 7681 7712 "src/interpreter/preprocess/loader.ml" 211 7681 7735
+call(
+  stack
+)
+type(
+  Support.memref * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 212 7739 7751 "src/interpreter/preprocess/loader.ml" 212 7739 7755
+type(
+  Support.value
+)
+ident(
+  def func "src/interpreter/preprocess/loader.ml" 213 7795 7803 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+)
+"src/interpreter/preprocess/loader.ml" 212 7739 7767 "src/interpreter/preprocess/loader.ml" 212 7739 7773
+type(
+  Support.param list
+)
+ident(
+  int_ref params "src/interpreter/preprocess/loader.ml" 208 7498 7526 "src/interpreter/preprocess/loader.ml" 208 7498 7532
+)
+"src/interpreter/preprocess/loader.ml" 212 7739 7775 "src/interpreter/preprocess/loader.ml" 212 7739 7779
+type(
+  Support.expr
+)
+ident(
+  int_ref body "src/interpreter/preprocess/loader.ml" 208 7498 7534 "src/interpreter/preprocess/loader.ml" 208 7498 7538
+)
+"src/interpreter/preprocess/loader.ml" 212 7739 7781 "src/interpreter/preprocess/loader.ml" 212 7739 7790
+type(
+  Support.memref
+)
+ident(
+  int_ref f_env_mem "src/interpreter/preprocess/loader.ml" 211 7681 7694 "src/interpreter/preprocess/loader.ml" 211 7681 7703
+)
+"src/interpreter/preprocess/loader.ml" 212 7739 7758 "src/interpreter/preprocess/loader.ml" 212 7739 7791
+type(
+  Support.value
+)
+"src/interpreter/preprocess/loader.ml" 213 7795 7807 "src/interpreter/preprocess/loader.ml" 213 7795 7812
+type(
+  Support.heapobj
+)
+ident(
+  def f_obj "src/interpreter/preprocess/loader.ml" 214 7849 7859 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+)
+"src/interpreter/preprocess/loader.ml" 213 7795 7824 "src/interpreter/preprocess/loader.ml" 213 7795 7828
+type(
+  Support.value
+)
+ident(
+  int_ref func "src/interpreter/preprocess/loader.ml" 212 7739 7751 "src/interpreter/preprocess/loader.ml" 212 7739 7755
+)
+"src/interpreter/preprocess/loader.ml" 213 7795 7830 "src/interpreter/preprocess/loader.ml" 213 7795 7841
+type(
+  unit -> Support.attributes
+)
+ident(
+  ext_ref Support.attrs_empty
+)
+"src/interpreter/preprocess/loader.ml" 213 7795 7842 "src/interpreter/preprocess/loader.ml" 213 7795 7844
+type(
+  unit
+)
+"src/interpreter/preprocess/loader.ml" 213 7795 7830 "src/interpreter/preprocess/loader.ml" 213 7795 7844
+call(
+  stack
+)
+type(
+  Support.attributes
+)
+"src/interpreter/preprocess/loader.ml" 213 7795 7815 "src/interpreter/preprocess/loader.ml" 213 7795 7845
+type(
+  Support.heapobj
+)
+"src/interpreter/preprocess/loader.ml" 214 7849 7860 "src/interpreter/preprocess/loader.ml" 214 7849 7864
+type(
+  (Support.ident * Support.heapobj) list
+)
+ident(
+  int_ref accs "src/interpreter/preprocess/loader.ml" 208 7498 7510 "src/interpreter/preprocess/loader.ml" 208 7498 7514
+)
+"src/interpreter/preprocess/loader.ml" 214 7849 7865 "src/interpreter/preprocess/loader.ml" 214 7849 7866
+type(
+  (Support.ident * Support.heapobj) list ->
+  (Support.ident * Support.heapobj) list ->
+  (Support.ident * Support.heapobj) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"src/interpreter/preprocess/loader.ml" 214 7849 7869 "src/interpreter/preprocess/loader.ml" 214 7849 7871
+type(
+  Support.ident
+)
+ident(
+  int_ref id "src/interpreter/preprocess/loader.ml" 208 7498 7521 "src/interpreter/preprocess/loader.ml" 208 7498 7523
+)
+"src/interpreter/preprocess/loader.ml" 214 7849 7873 "src/interpreter/preprocess/loader.ml" 214 7849 7878
+type(
+  Support.heapobj
+)
+ident(
+  int_ref f_obj "src/interpreter/preprocess/loader.ml" 213 7795 7807 "src/interpreter/preprocess/loader.ml" 213 7795 7812
+)
+"src/interpreter/preprocess/loader.ml" 214 7849 7868 "src/interpreter/preprocess/loader.ml" 214 7849 7879
+type(
+  Support.ident * Support.heapobj
+)
+"src/interpreter/preprocess/loader.ml" 214 7849 7867 "src/interpreter/preprocess/loader.ml" 214 7849 7880
+type(
+  (Support.ident * Support.heapobj) list
+)
+"src/interpreter/preprocess/loader.ml" 214 7849 7860 "src/interpreter/preprocess/loader.ml" 214 7849 7880
+call(
+  stack
+)
+type(
+  (Support.ident * Support.heapobj) list
+)
+"src/interpreter/preprocess/loader.ml" 214 7849 7882 "src/interpreter/preprocess/loader.ml" 214 7849 7885
+type(
+  Support.heap
+)
+ident(
+  int_ref hp2 "src/interpreter/preprocess/loader.ml" 211 7681 7705 "src/interpreter/preprocess/loader.ml" 211 7681 7708
+)
+"src/interpreter/preprocess/loader.ml" 214 7849 7859 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+type(
+  (Support.ident * Support.heapobj) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 213 7795 7803 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+type(
+  (Support.ident * Support.heapobj) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 212 7739 7747 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+type(
+  (Support.ident * Support.heapobj) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 211 7681 7689 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+type(
+  (Support.ident * Support.heapobj) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 210 7615 7623 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+type(
+  (Support.ident * Support.heapobj) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 209 7544 7552 "src/interpreter/preprocess/loader.ml" 214 7849 7886
+type(
+  (Support.ident * Support.heapobj) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 208 7498 7504 "src/interpreter/preprocess/loader.ml" 214 7849 7887
+type(
+  (Support.ident * Support.heapobj) list * Support.heap ->
+  Support.ident * (Support.param list * Support.expr) ->
+  (Support.ident * Support.heapobj) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 215 7888 7895 "src/interpreter/preprocess/loader.ml" 215 7888 7897
+type(
+  (Support.ident * Support.heapobj) list
+)
+"src/interpreter/preprocess/loader.ml" 215 7888 7899 "src/interpreter/preprocess/loader.ml" 215 7888 7903
+type(
+  Support.heap
+)
+ident(
+  int_ref heap "src/interpreter/preprocess/loader.ml" 206 7457 7476 "src/interpreter/preprocess/loader.ml" 206 7457 7480
+)
+"src/interpreter/preprocess/loader.ml" 215 7888 7894 "src/interpreter/preprocess/loader.ml" 215 7888 7904
+type(
+  (Support.ident * Support.heapobj) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 215 7888 7905 "src/interpreter/preprocess/loader.ml" 215 7888 7927
+type(
+  (Support.ident * (Support.param list * Support.expr)) list
+)
+ident(
+  ext_ref Natives.native_injection_pairs
+)
+"src/interpreter/preprocess/loader.ml" 207 7484 7488 "src/interpreter/preprocess/loader.ml" 215 7888 7927
+call(
+  tail
+)
+type(
+  (Support.ident * Support.heapobj) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 206 7457 7459 "src/interpreter/preprocess/loader.ml" 215 7888 7927
+type(
+  Support.memref ->
+  Support.heap -> (Support.ident * Support.heapobj) list * Support.heap
+)
+type(
+  Support.memref ->
+  Support.heap -> (Support.ident * Support.heapobj) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 217 7929 7933 "src/interpreter/preprocess/loader.ml" 217 7929 7947
+type(
+  string -> string -> Support.state
+)
+ident(
+  def raw_init_state "src/interpreter/preprocess/loader.ml" 230 8453 8453 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 218 7978 7984 "src/interpreter/preprocess/loader.ml" 218 7978 7987
+type(
+  string
+)
+ident(
+  def dir "src/interpreter/preprocess/loader.ml" 218 7978 7988 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+)
+"src/interpreter/preprocess/loader.ml" 218 7978 7988 "src/interpreter/preprocess/loader.ml" 218 7978 7992
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 219 7996 8000 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+)
+"src/interpreter/preprocess/loader.ml" 219 7996 8005 "src/interpreter/preprocess/loader.ml" 219 7996 8010
+type(
+  Support.stack
+)
+ident(
+  def stack "src/interpreter/preprocess/loader.ml" 220 8077 8081 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+)
+"src/interpreter/preprocess/loader.ml" 219 7996 8012 "src/interpreter/preprocess/loader.ml" 219 7996 8016
+type(
+  Support.heap
+)
+ident(
+  def heap "src/interpreter/preprocess/loader.ml" 220 8077 8081 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+)
+"src/interpreter/preprocess/loader.ml" 219 7996 8018 "src/interpreter/preprocess/loader.ml" 219 7996 8030
+type(
+  Support.memref
+)
+ident(
+  def glbl_env_mem "src/interpreter/preprocess/loader.ml" 220 8077 8081 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+)
+"src/interpreter/preprocess/loader.ml" 219 7996 8032 "src/interpreter/preprocess/loader.ml" 219 7996 8043
+type(
+  Support.memref
+)
+ident(
+  def nat_env_mem "src/interpreter/preprocess/loader.ml" 220 8077 8081 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+)
+"src/interpreter/preprocess/loader.ml" 219 7996 8004 "src/interpreter/preprocess/loader.ml" 219 7996 8044
+type(
+  Support.stack * Support.heap * Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 219 7996 8047 "src/interpreter/preprocess/loader.ml" 219 7996 8064
+type(
+  string ->
+  string -> Support.stack * Support.heap * Support.memref * Support.memref
+)
+ident(
+  int_ref raw_inits_of_file "src/interpreter/preprocess/loader.ml" 187 6356 6360 "src/interpreter/preprocess/loader.ml" 187 6356 6377
+)
+"src/interpreter/preprocess/loader.ml" 219 7996 8065 "src/interpreter/preprocess/loader.ml" 219 7996 8068
+type(
+  string
+)
+ident(
+  int_ref dir "src/interpreter/preprocess/loader.ml" 218 7978 7984 "src/interpreter/preprocess/loader.ml" 218 7978 7987
+)
+"src/interpreter/preprocess/loader.ml" 219 7996 8069 "src/interpreter/preprocess/loader.ml" 219 7996 8073
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 218 7978 7988 "src/interpreter/preprocess/loader.ml" 218 7978 7992
+)
+"src/interpreter/preprocess/loader.ml" 219 7996 8047 "src/interpreter/preprocess/loader.ml" 219 7996 8073
+call(
+  stack
+)
+type(
+  Support.stack * Support.heap * Support.memref * Support.memref
+)
+"src/interpreter/preprocess/loader.ml" 220 8077 8086 "src/interpreter/preprocess/loader.ml" 220 8077 8098
+type(
+  (Support.ident * Support.heapobj) list
+)
+ident(
+  def native_binds "src/interpreter/preprocess/loader.ml" 221 8147 8153 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+)
+"src/interpreter/preprocess/loader.ml" 220 8077 8100 "src/interpreter/preprocess/loader.ml" 220 8077 8105
+type(
+  Support.heap
+)
+ident(
+  def heap2 "src/interpreter/preprocess/loader.ml" 221 8147 8153 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+)
+"src/interpreter/preprocess/loader.ml" 220 8077 8085 "src/interpreter/preprocess/loader.ml" 220 8077 8106
+type(
+  (Support.ident * Support.heapobj) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 220 8077 8109 "src/interpreter/preprocess/loader.ml" 220 8077 8126
+type(
+  Support.memref ->
+  Support.heap -> (Support.ident * Support.heapobj) list * Support.heap
+)
+ident(
+  int_ref make_native_binds "src/interpreter/preprocess/loader.ml" 205 7383 7387 "src/interpreter/preprocess/loader.ml" 205 7383 7404
+)
+"src/interpreter/preprocess/loader.ml" 220 8077 8127 "src/interpreter/preprocess/loader.ml" 220 8077 8138
+type(
+  Support.memref
+)
+ident(
+  int_ref nat_env_mem "src/interpreter/preprocess/loader.ml" 219 7996 8032 "src/interpreter/preprocess/loader.ml" 219 7996 8043
+)
+"src/interpreter/preprocess/loader.ml" 220 8077 8139 "src/interpreter/preprocess/loader.ml" 220 8077 8143
+type(
+  Support.heap
+)
+ident(
+  int_ref heap "src/interpreter/preprocess/loader.ml" 219 7996 8012 "src/interpreter/preprocess/loader.ml" 219 7996 8016
+)
+"src/interpreter/preprocess/loader.ml" 220 8077 8109 "src/interpreter/preprocess/loader.ml" 220 8077 8143
+call(
+  stack
+)
+type(
+  (Support.ident * Support.heapobj) list * Support.heap
+)
+"src/interpreter/preprocess/loader.ml" 221 8147 8159 "src/interpreter/preprocess/loader.ml" 221 8147 8176
+type(
+  (Support.ident * Support.heapobj) list ->
+  Support.memref -> Support.heap -> Support.heap option
+)
+ident(
+  ext_ref Support.env_mem_bind_list
+)
+"src/interpreter/preprocess/loader.ml" 221 8147 8177 "src/interpreter/preprocess/loader.ml" 221 8147 8189
+type(
+  (Support.ident * Support.heapobj) list
+)
+ident(
+  int_ref native_binds "src/interpreter/preprocess/loader.ml" 220 8077 8086 "src/interpreter/preprocess/loader.ml" 220 8077 8098
+)
+"src/interpreter/preprocess/loader.ml" 221 8147 8190 "src/interpreter/preprocess/loader.ml" 221 8147 8201
+type(
+  Support.memref
+)
+ident(
+  int_ref nat_env_mem "src/interpreter/preprocess/loader.ml" 219 7996 8032 "src/interpreter/preprocess/loader.ml" 219 7996 8043
+)
+"src/interpreter/preprocess/loader.ml" 221 8147 8202 "src/interpreter/preprocess/loader.ml" 221 8147 8207
+type(
+  Support.heap
+)
+ident(
+  int_ref heap2 "src/interpreter/preprocess/loader.ml" 220 8077 8100 "src/interpreter/preprocess/loader.ml" 220 8077 8105
+)
+"src/interpreter/preprocess/loader.ml" 221 8147 8159 "src/interpreter/preprocess/loader.ml" 221 8147 8207
+call(
+  stack
+)
+type(
+  Support.heap option
+)
+"src/interpreter/preprocess/loader.ml" 222 8213 8226 "src/interpreter/preprocess/loader.ml" 222 8213 8231
+type(
+  Support.heap
+)
+ident(
+  def heap3 "src/interpreter/preprocess/loader.ml" 223 8235 8245 "src/interpreter/preprocess/loader.ml" 226 8323 8368
+)
+"src/interpreter/preprocess/loader.ml" 222 8213 8221 "src/interpreter/preprocess/loader.ml" 222 8213 8231
+type(
+  Support.heap option
+)
+"src/interpreter/preprocess/loader.ml" 223 8235 8247 "src/interpreter/preprocess/loader.ml" 223 8235 8260
+type(
+  Support.state
+)
+ident(
+  ext_ref Support.state_default
+)
+"src/interpreter/preprocess/loader.ml" 224 8266 8288 "src/interpreter/preprocess/loader.ml" 224 8266 8293
+type(
+  Support.stack
+)
+ident(
+  int_ref stack "src/interpreter/preprocess/loader.ml" 219 7996 8005 "src/interpreter/preprocess/loader.ml" 219 7996 8010
+)
+"src/interpreter/preprocess/loader.ml" 225 8295 8316 "src/interpreter/preprocess/loader.ml" 225 8295 8321
+type(
+  Support.heap
+)
+ident(
+  int_ref heap3 "src/interpreter/preprocess/loader.ml" 222 8213 8226 "src/interpreter/preprocess/loader.ml" 222 8213 8231
+)
+"src/interpreter/preprocess/loader.ml" 226 8323 8354 "src/interpreter/preprocess/loader.ml" 226 8323 8366
+type(
+  Support.memref
+)
+ident(
+  int_ref glbl_env_mem "src/interpreter/preprocess/loader.ml" 219 7996 8018 "src/interpreter/preprocess/loader.ml" 219 7996 8030
+)
+"src/interpreter/preprocess/loader.ml" 223 8235 8245 "src/interpreter/preprocess/loader.ml" 226 8323 8368
+type(
+  Support.state
+)
+"src/interpreter/preprocess/loader.ml" 227 8369 8377 "src/interpreter/preprocess/loader.ml" 227 8369 8381
+type(
+  Support.heap option
+)
+"src/interpreter/preprocess/loader.ml" 228 8385 8395 "src/interpreter/preprocess/loader.ml" 228 8385 8403
+type(
+  string -> Support.state
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"src/interpreter/preprocess/loader.ml" 228 8385 8404 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 228 8385 8395 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+call(
+  tail
+)
+type(
+  Support.state
+)
+"src/interpreter/preprocess/loader.ml" 221 8147 8153 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+type(
+  Support.state
+)
+"src/interpreter/preprocess/loader.ml" 220 8077 8081 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+type(
+  Support.state
+)
+"src/interpreter/preprocess/loader.ml" 219 7996 8000 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+type(
+  Support.state
+)
+"src/interpreter/preprocess/loader.ml" 218 7978 7980 "src/interpreter/preprocess/loader.ml" 228 8385 8451
+type(
+  string -> string -> Support.state
+)
+type(
+  string -> string -> Support.state
+)
+"src/interpreter/preprocess/loader.ml" 230 8453 8457 "src/interpreter/preprocess/loader.ml" 230 8453 8473
+type(
+  string -> string * string
+)
+ident(
+  def guess_entry_info "src/interpreter/preprocess/loader.ml" 233 8553 8553 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 231 8504 8510 "src/interpreter/preprocess/loader.ml" 231 8504 8514
+type(
+  string
+)
+ident(
+  def path "src/interpreter/preprocess/loader.ml" 231 8504 8518 "src/interpreter/preprocess/loader.ml" 231 8504 8551
+)
+"src/interpreter/preprocess/loader.ml" 231 8504 8519 "src/interpreter/preprocess/loader.ml" 231 8504 8528
+type(
+  string -> string
+)
+ident(
+  ext_ref F.dirname
+)
+"src/interpreter/preprocess/loader.ml" 231 8504 8529 "src/interpreter/preprocess/loader.ml" 231 8504 8533
+type(
+  string
+)
+ident(
+  int_ref path "src/interpreter/preprocess/loader.ml" 231 8504 8510 "src/interpreter/preprocess/loader.ml" 231 8504 8514
+)
+"src/interpreter/preprocess/loader.ml" 231 8504 8519 "src/interpreter/preprocess/loader.ml" 231 8504 8533
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 231 8504 8535 "src/interpreter/preprocess/loader.ml" 231 8504 8545
+type(
+  string -> string
+)
+ident(
+  ext_ref F.basename
+)
+"src/interpreter/preprocess/loader.ml" 231 8504 8546 "src/interpreter/preprocess/loader.ml" 231 8504 8550
+type(
+  string
+)
+ident(
+  int_ref path "src/interpreter/preprocess/loader.ml" 231 8504 8510 "src/interpreter/preprocess/loader.ml" 231 8504 8514
+)
+"src/interpreter/preprocess/loader.ml" 231 8504 8535 "src/interpreter/preprocess/loader.ml" 231 8504 8550
+call(
+  stack
+)
+type(
+  string
+)
+"src/interpreter/preprocess/loader.ml" 231 8504 8518 "src/interpreter/preprocess/loader.ml" 231 8504 8551
+type(
+  string * string
+)
+"src/interpreter/preprocess/loader.ml" 231 8504 8506 "src/interpreter/preprocess/loader.ml" 231 8504 8551
+type(
+  string -> string * string
+)
+type(
+  string -> string * string
+)
+"src/interpreter/preprocess/loader.ml" 233 8553 8557 "src/interpreter/preprocess/loader.ml" 233 8553 8566
+type(
+  string -> string -> Support.state
+)
+ident(
+  def load_file "src/interpreter/preprocess/loader.ml" 237 8644 8644 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 234 8597 8603 "src/interpreter/preprocess/loader.ml" 234 8597 8606
+type(
+  string
+)
+ident(
+  def dir "src/interpreter/preprocess/loader.ml" 234 8597 8607 "src/interpreter/preprocess/loader.ml" 235 8615 8642
+)
+"src/interpreter/preprocess/loader.ml" 234 8597 8607 "src/interpreter/preprocess/loader.ml" 234 8597 8611
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 235 8615 8619 "src/interpreter/preprocess/loader.ml" 235 8615 8642
+)
+"src/interpreter/preprocess/loader.ml" 235 8615 8619 "src/interpreter/preprocess/loader.ml" 235 8615 8633
+type(
+  string -> string -> Support.state
+)
+ident(
+  int_ref raw_init_state "src/interpreter/preprocess/loader.ml" 217 7929 7933 "src/interpreter/preprocess/loader.ml" 217 7929 7947
+)
+"src/interpreter/preprocess/loader.ml" 235 8615 8634 "src/interpreter/preprocess/loader.ml" 235 8615 8637
+type(
+  string
+)
+ident(
+  int_ref dir "src/interpreter/preprocess/loader.ml" 234 8597 8603 "src/interpreter/preprocess/loader.ml" 234 8597 8606
+)
+"src/interpreter/preprocess/loader.ml" 235 8615 8638 "src/interpreter/preprocess/loader.ml" 235 8615 8642
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 234 8597 8607 "src/interpreter/preprocess/loader.ml" 234 8597 8611
+)
+"src/interpreter/preprocess/loader.ml" 235 8615 8619 "src/interpreter/preprocess/loader.ml" 235 8615 8642
+call(
+  tail
+)
+type(
+  Support.state
+)
+"src/interpreter/preprocess/loader.ml" 234 8597 8599 "src/interpreter/preprocess/loader.ml" 235 8615 8642
+type(
+  string -> string -> Support.state
+)
+type(
+  string -> string -> Support.state
+)
+"src/interpreter/preprocess/loader.ml" 237 8644 8648 "src/interpreter/preprocess/loader.ml" 237 8644 8663
+type(
+  string -> Support.state
+)
+ident(
+  def load_file_guess "src/interpreter/preprocess/loader.ml" 240 8745 8769 "src/interpreter/preprocess/loader.ml" 1 0 -1
+)
+"src/interpreter/preprocess/loader.ml" 238 8684 8690 "src/interpreter/preprocess/loader.ml" 238 8684 8694
+type(
+  string
+)
+ident(
+  def path "src/interpreter/preprocess/loader.ml" 239 8698 8702 "src/interpreter/preprocess/loader.ml" 240 8745 8769
+)
+"src/interpreter/preprocess/loader.ml" 239 8698 8707 "src/interpreter/preprocess/loader.ml" 239 8698 8710
+type(
+  string
+)
+ident(
+  def dir "src/interpreter/preprocess/loader.ml" 240 8745 8751 "src/interpreter/preprocess/loader.ml" 240 8745 8769
+)
+"src/interpreter/preprocess/loader.ml" 239 8698 8712 "src/interpreter/preprocess/loader.ml" 239 8698 8716
+type(
+  string
+)
+ident(
+  def file "src/interpreter/preprocess/loader.ml" 240 8745 8751 "src/interpreter/preprocess/loader.ml" 240 8745 8769
+)
+"src/interpreter/preprocess/loader.ml" 239 8698 8706 "src/interpreter/preprocess/loader.ml" 239 8698 8717
+type(
+  string * string
+)
+"src/interpreter/preprocess/loader.ml" 239 8698 8720 "src/interpreter/preprocess/loader.ml" 239 8698 8736
+type(
+  string -> string * string
+)
+ident(
+  int_ref guess_entry_info "src/interpreter/preprocess/loader.ml" 230 8453 8457 "src/interpreter/preprocess/loader.ml" 230 8453 8473
+)
+"src/interpreter/preprocess/loader.ml" 239 8698 8737 "src/interpreter/preprocess/loader.ml" 239 8698 8741
+type(
+  string
+)
+ident(
+  int_ref path "src/interpreter/preprocess/loader.ml" 238 8684 8690 "src/interpreter/preprocess/loader.ml" 238 8684 8694
+)
+"src/interpreter/preprocess/loader.ml" 239 8698 8720 "src/interpreter/preprocess/loader.ml" 239 8698 8741
+call(
+  stack
+)
+type(
+  string * string
+)
+"src/interpreter/preprocess/loader.ml" 240 8745 8751 "src/interpreter/preprocess/loader.ml" 240 8745 8760
+type(
+  string -> string -> Support.state
+)
+ident(
+  int_ref load_file "src/interpreter/preprocess/loader.ml" 233 8553 8557 "src/interpreter/preprocess/loader.ml" 233 8553 8566
+)
+"src/interpreter/preprocess/loader.ml" 240 8745 8761 "src/interpreter/preprocess/loader.ml" 240 8745 8764
+type(
+  string
+)
+ident(
+  int_ref dir "src/interpreter/preprocess/loader.ml" 239 8698 8707 "src/interpreter/preprocess/loader.ml" 239 8698 8710
+)
+"src/interpreter/preprocess/loader.ml" 240 8745 8765 "src/interpreter/preprocess/loader.ml" 240 8745 8769
+type(
+  string
+)
+ident(
+  int_ref file "src/interpreter/preprocess/loader.ml" 239 8698 8712 "src/interpreter/preprocess/loader.ml" 239 8698 8716
+)
+"src/interpreter/preprocess/loader.ml" 240 8745 8751 "src/interpreter/preprocess/loader.ml" 240 8745 8769
+call(
+  tail
+)
+type(
+  Support.state
+)
+"src/interpreter/preprocess/loader.ml" 239 8698 8702 "src/interpreter/preprocess/loader.ml" 240 8745 8769
+type(
+  Support.state
+)
+"src/interpreter/preprocess/loader.ml" 238 8684 8686 "src/interpreter/preprocess/loader.ml" 240 8745 8769
+type(
+  string -> Support.state
+)
+type(
+  string -> Support.state
+)

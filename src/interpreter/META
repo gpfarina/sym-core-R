@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: 535bccf9694b87aa3f1d391682cda7d5)
+version = "0.1"
+description = "A library for analyzing the R programming language."
+requires = "interp-commons natives loader stepper"
+archive(byte) = "interpreter.cma"
+archive(byte, plugin) = "interpreter.cma"
+archive(native) = "interpreter.cmxa"
+archive(native, plugin) = "interpreter.cmxs"
+exists_if = "interpreter.cma"
+# OASIS_STOP
+

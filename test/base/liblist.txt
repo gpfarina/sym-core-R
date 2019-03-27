@@ -1,0 +1,160 @@
+# all.equal.R # Potentially okay, but calls functions to check self properties
+# allnames.R # Reflexively gets names and variables
+aperm.R #* Seems to be some array stuff we want to support?
+append.R #* Appending lists? I think we should
+apply.R #* Appears to use some annoying reflection properties that are sketch
+array.R #* Definitely want to support such an important function 
+# as.R # Appears to do some internal coercion magic
+assign.R #* Has an assign() function, and some list2env stuff -- guess needed somehow
+# attach.R # Does some external stuff for searching, not really what we want
+# attr.R # Some attribute modification stuff. Not sure we want this
+# autoload.R # ???
+# backquote.R # Don't want quasiquotation
+backsolve.R #* These are internal calls to linear equality solvers
+Bessel.R #* I guess it doesn' thurt to have custom bessel functions
+# bindenv.R # What the fuck??? environment locks????
+bitwise.R #* Internal calls to bitwise operators
+builtins.R #* Just a delegation call to builtin functions
+# by.R # Does reflexive eval/substitute stuff
+# callCC.R # Would require annoying call continuiation mechanisms. Also has <<-
+cat.R #* We probably want to rewrite cat shit for strings
+character.R #* Some of the stuff are nice, but others not so much.
+chol.R #* Choleski decomposition
+colSums.R #* Matrix column information?
+conditions.R #* Try catch / error blocks?
+# conflicts.R # Reflexive shit
+connections.R #* Jesus fuck. System call time?
+constants.R #* Finally something simple. literally just names for constants
+# contributors.R # Nah, requires file IO shit
+# cut.R # Dangerous cut and pasting reflection
+# dataframe.R # Not yet
+# data.matrix.R # Would require us to support dataframes
+# dates.R # weird string shit needs to happen
+# datetime.R # Inspects system files to find out
+# dcf.R # File zipping shit
+# debug.R # I believe in printf debugging
+# Defunct.R # This appears to be used for calling deprecated functions
+delay.R #* I guess implementing delayedAssign() through native calls isn't too bad
+# Deprecated.R # Just used to call deprecated functions?
+det.R #* Determinant calculations
+diag.R #* Diagonal shit
+diff.R #* Appears to be iterated (consecutive) differences in a vector. Could be handy
+# dput.R # Does file IO
+# dump.R # Also apperas to do file IO
+duplicated.R #* Appears to be some duplication stuff that we can maybe handle.
+# dynload.R # Dynamic loading during analysis can fuck off
+eapply.R #* Applies with respect to some environment. Can totally handle this!
+eigen.R #* Looks like some eigen value stuff
+environment.R #* I guess, what's the harm in providing these?
+# eval.R # HAHA FUCK NO
+# expand.grid.R # Manipulates data frames
+# factor.R # makes a call to force, which is in eval.R
+# files.R # File IO
+findInt.R #* Interval finding mechanism, can probably be done natively.
+# formals.R # Reflexively does environments and shit
+# format.R # This formats R objects for pretty printing, which we don't need
+# frametools.R # Data manipulation frame
+funprog.R #* Functional programming stuff. I love it :)
+getenv.R # System environment variables
+get.R #* Apparently tries to find objects in the environment?
+# gl.R # Generates factors and shit???
+# grep.R # We don't want to deal with regexes just yet
+identical.R #* Object identicality. Implementation goes to native code.
+ifelse.R #* Tutorials actually use this shit and so should we.
+# interaction.R # No, related to factors.
+is.R #* Functions like is.na and is.vector
+jitter.R #* Adds random noise and shit it seems
+kappa.R #* Looks important and also has norms
+kronecker.R #* Kronecker delta matrix multiplication
+# labels.R # Used for data frames
+LAPACK.R #* This does SVD it seems.
+lapply.R #* I guess if we have apply, we may as well have these guys as well.
+# lazyload.R # We don't want to dynamically load stuff
+# library.R # Fuck off dynamic loading
+# license.R # Let's not.
+# load.R # File IO
+# locales.R # System calls
+mapply.R #* Sure
+match.fun.R #* Okay
+match.R #* Fine, fuck, okay >:(
+matrix.R #* A rather important file
+max.col.R #* Maximum of columns
+mean.R #* Find the mean of things
+# merge.R # data frame merging
+# message.R # ??? no
+# methodsSupport.R # No reflexive tracing please
+# mode.R # The fuck you mean different modes?
+# namespace.R # This seems too dynamic and shit
+New-Internal.R #* Appears to have some things like trig functions and shit
+# notyet.R # Just spawns some error messages
+# octhex.R # Formatted printing it seems
+# options.R # What the fuck are options?
+outer.R #* cross product
+pairlist.R #* zippidy pairlist shit
+# parse.R # No
+# paste.R # No
+pmax.R #* Doesn't seem to hut to include?
+pretty.R #* Does'nt seem too bad
+print.R #* Could just null-out these print functions to shut them up
+qr.R #* Matrix stuff
+quit.R #* I would also like to quit R
+range.R #* Matrix range it seems like
+rank.R #* Matrix stuff
+raw.R #* Can totes do this, bro
+replace.R #* I guess?
+replicate.R #* Sure
+rep.R #* Replication function
+rev.R #* Having a reverse function definitely helps
+# rle.R # I guess it can help to do run length encoding? Also does weird calls though
+rm.R #* I guess this is doable
+RNG.R #* RNG functions
+rowsum.R #* Sure
+sample.R #* Sampling stuff
+sapply.R #* More apply function shit
+scale.R #* Scaling shit, I guess
+# scan.R # Fuck file IO
+# Scripts.R # Naaaah
+seq.R #* Sequence generation
+# serialize.R # We don't need this shit
+sets.R #* Set stuff would be helpful
+# sink.R # What the fuck is sink even doing??
+solve.R #* Some matrix solving code
+sort.R #* Definitely need sorting stuff
+# source.R # Implicitly have already implemented these as preprocessing
+# split.R # Uses factor shit
+# srcfile.R # File IO
+# stop.R # Nah
+# structure.R # Data frame black magic
+# strwrap.R # Really don't feel like dealing with this right now
+summary.R #* Summarizes stuff, but we want to black out things.
+svd.R #* Of course
+sweep.R #* I guess people may use htis
+# sys.R # System calls, no
+# table.R # Let's not?
+# tabulate.R # :(
+TAOCP.R #* Knuth RNG
+tapply.R #* Might as well 
+# taskCallback.R # Fuck call backs
+# temp.R # Don't want
+# time.R # Timing functions involve system calls
+toString.R #* I guess some parts of this are actually important
+# traceback.R # Used for debugging
+# unix # Is a directory
+unlist.R #* List flattening
+unname.R #* Remove name attributes
+# userhooks.R # What the fuck
+utilities.R #* So simple????
+# utils.R # Looks like system call stuff
+vector.R #* Why, of course
+# version.R # Really a separate file just for this?!
+# warnings.R # No
+# which.R # Pastes shit
+# windows # a directory
+# withVisible.R # What the hell this do???
+# write.R # Looks like can be abused for file IO
+xor.R #* Just an XOR function
+zapsmall.R #* Rounding stuff?
+# zdatetime.R # No date times
+# zdynvars.R # 
+# zzz.R # Seems to be a bunch of loading things? Maybe actually important?
+

@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: f0dbae8e5942b8f9725cebdbf767e2ea)
+version = "0.1"
+description = "A library for analyzing the R programming language."
+requires = "interp-commons natives"
+archive(byte) = "stepper.cma"
+archive(byte, plugin) = "stepper.cma"
+archive(native) = "stepper.cmxa"
+archive(native, plugin) = "stepper.cmxs"
+exists_if = "stepper.cma"
+# OASIS_STOP
+

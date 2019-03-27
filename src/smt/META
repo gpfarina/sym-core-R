@@ -1,0 +1,12 @@
+# OASIS_START
+# DO NOT EDIT (digest: 9ce9ba0f6ca2dcdcef5ab7bae5792da0)
+version = "0.1"
+description = "A library for analyzing the R programming language."
+requires = "smt-parser"
+archive(byte) = "smt.cma"
+archive(byte, plugin) = "smt.cma"
+archive(native) = "smt.cmxa"
+archive(native, plugin) = "smt.cmxs"
+exists_if = "smt.cma"
+# OASIS_STOP
+

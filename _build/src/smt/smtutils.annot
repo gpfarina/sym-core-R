@@ -1,0 +1,6940 @@
+"src/smt/smtutils.ml" 5 27 31 "src/smt/smtutils.ml" 5 27 45
+type(
+  'a * 'b -> ('a -> string) * ('b -> string) -> string
+)
+ident(
+  def string_of_pair "src/smt/smtutils.ml" 9 167 167 "src/smt/smtutils.ml" 1 0 -1
+)
+"src/smt/smtutils.ml" 6 107 114 "src/smt/smtutils.ml" 6 107 115
+type(
+  'a
+)
+ident(
+  def a "src/smt/smtutils.ml" 6 107 120 "src/smt/smtutils.ml" 7 132 165
+)
+"src/smt/smtutils.ml" 6 107 117 "src/smt/smtutils.ml" 6 107 118
+type(
+  'b
+)
+ident(
+  def b "src/smt/smtutils.ml" 6 107 120 "src/smt/smtutils.ml" 7 132 165
+)
+"src/smt/smtutils.ml" 6 107 113 "src/smt/smtutils.ml" 6 107 119
+type(
+  'a * 'b
+)
+"src/smt/smtutils.ml" 6 107 121 "src/smt/smtutils.ml" 6 107 123
+type(
+  'a -> string
+)
+ident(
+  def fa "src/smt/smtutils.ml" 7 132 136 "src/smt/smtutils.ml" 7 132 165
+)
+"src/smt/smtutils.ml" 6 107 125 "src/smt/smtutils.ml" 6 107 127
+type(
+  'b -> string
+)
+ident(
+  def fb "src/smt/smtutils.ml" 7 132 136 "src/smt/smtutils.ml" 7 132 165
+)
+"src/smt/smtutils.ml" 6 107 120 "src/smt/smtutils.ml" 6 107 128
+type(
+  ('a -> string) * ('b -> string)
+)
+"src/smt/smtutils.ml" 7 132 136 "src/smt/smtutils.ml" 7 132 139
+type(
+  string
+)
+"src/smt/smtutils.ml" 7 132 140 "src/smt/smtutils.ml" 7 132 141
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 7 132 142 "src/smt/smtutils.ml" 7 132 144
+type(
+  'a -> string
+)
+ident(
+  int_ref fa "src/smt/smtutils.ml" 6 107 121 "src/smt/smtutils.ml" 6 107 123
+)
+"src/smt/smtutils.ml" 7 132 145 "src/smt/smtutils.ml" 7 132 146
+type(
+  'a
+)
+ident(
+  int_ref a "src/smt/smtutils.ml" 6 107 114 "src/smt/smtutils.ml" 6 107 115
+)
+"src/smt/smtutils.ml" 7 132 142 "src/smt/smtutils.ml" 7 132 146
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 7 132 147 "src/smt/smtutils.ml" 7 132 148
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 7 132 149 "src/smt/smtutils.ml" 7 132 152
+type(
+  string
+)
+"src/smt/smtutils.ml" 7 132 153 "src/smt/smtutils.ml" 7 132 154
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 7 132 155 "src/smt/smtutils.ml" 7 132 157
+type(
+  'b -> string
+)
+ident(
+  int_ref fb "src/smt/smtutils.ml" 6 107 125 "src/smt/smtutils.ml" 6 107 127
+)
+"src/smt/smtutils.ml" 7 132 158 "src/smt/smtutils.ml" 7 132 159
+type(
+  'b
+)
+ident(
+  int_ref b "src/smt/smtutils.ml" 6 107 117 "src/smt/smtutils.ml" 6 107 118
+)
+"src/smt/smtutils.ml" 7 132 155 "src/smt/smtutils.ml" 7 132 159
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 7 132 160 "src/smt/smtutils.ml" 7 132 161
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 7 132 162 "src/smt/smtutils.ml" 7 132 165
+type(
+  string
+)
+"src/smt/smtutils.ml" 7 132 155 "src/smt/smtutils.ml" 7 132 165
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 7 132 149 "src/smt/smtutils.ml" 7 132 165
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 7 132 142 "src/smt/smtutils.ml" 7 132 165
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 7 132 136 "src/smt/smtutils.ml" 7 132 165
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 6 107 109 "src/smt/smtutils.ml" 7 132 165
+type(
+  'a * 'b -> ('a -> string) * ('b -> string) -> string
+)
+type(
+  'a * 'b -> ('a -> string) * ('b -> string) -> string
+)
+"src/smt/smtutils.ml" 9 167 171 "src/smt/smtutils.ml" 9 167 195
+type(
+  string list -> string
+)
+ident(
+  def string_of_list_semicolon "src/smt/smtutils.ml" 12 260 260 "src/smt/smtutils.ml" 1 0 -1
+)
+"src/smt/smtutils.ml" 10 222 228 "src/smt/smtutils.ml" 10 222 232
+type(
+  string list
+)
+ident(
+  def strs "src/smt/smtutils.ml" 10 222 236 "src/smt/smtutils.ml" 10 222 258
+)
+"src/smt/smtutils.ml" 10 222 236 "src/smt/smtutils.ml" 10 222 249
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smtutils.ml" 10 222 250 "src/smt/smtutils.ml" 10 222 253
+type(
+  string
+)
+"src/smt/smtutils.ml" 10 222 254 "src/smt/smtutils.ml" 10 222 258
+type(
+  string list
+)
+ident(
+  int_ref strs "src/smt/smtutils.ml" 10 222 228 "src/smt/smtutils.ml" 10 222 232
+)
+"src/smt/smtutils.ml" 10 222 236 "src/smt/smtutils.ml" 10 222 258
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 10 222 224 "src/smt/smtutils.ml" 10 222 258
+type(
+  string list -> string
+)
+type(
+  string list -> string
+)
+"src/smt/smtutils.ml" 12 260 264 "src/smt/smtutils.ml" 12 260 284
+type(
+  string list -> string
+)
+ident(
+  def string_of_list_comma "src/smt/smtutils.ml" 15 349 349 "src/smt/smtutils.ml" 1 0 -1
+)
+"src/smt/smtutils.ml" 13 311 317 "src/smt/smtutils.ml" 13 311 321
+type(
+  string list
+)
+ident(
+  def strs "src/smt/smtutils.ml" 13 311 325 "src/smt/smtutils.ml" 13 311 347
+)
+"src/smt/smtutils.ml" 13 311 325 "src/smt/smtutils.ml" 13 311 338
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smtutils.ml" 13 311 339 "src/smt/smtutils.ml" 13 311 342
+type(
+  string
+)
+"src/smt/smtutils.ml" 13 311 343 "src/smt/smtutils.ml" 13 311 347
+type(
+  string list
+)
+ident(
+  int_ref strs "src/smt/smtutils.ml" 13 311 317 "src/smt/smtutils.ml" 13 311 321
+)
+"src/smt/smtutils.ml" 13 311 325 "src/smt/smtutils.ml" 13 311 347
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 13 311 313 "src/smt/smtutils.ml" 13 311 347
+type(
+  string list -> string
+)
+type(
+  string list -> string
+)
+"src/smt/smtutils.ml" 15 349 353 "src/smt/smtutils.ml" 15 349 375
+type(
+  string list -> string
+)
+ident(
+  def string_of_list_newline "src/smt/smtutils.ml" 18 441 441 "src/smt/smtutils.ml" 1 0 -1
+)
+"src/smt/smtutils.ml" 16 402 408 "src/smt/smtutils.ml" 16 402 412
+type(
+  string list
+)
+ident(
+  def strs "src/smt/smtutils.ml" 16 402 416 "src/smt/smtutils.ml" 16 402 439
+)
+"src/smt/smtutils.ml" 16 402 416 "src/smt/smtutils.ml" 16 402 429
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smtutils.ml" 16 402 430 "src/smt/smtutils.ml" 16 402 434
+type(
+  string
+)
+"src/smt/smtutils.ml" 16 402 435 "src/smt/smtutils.ml" 16 402 439
+type(
+  string list
+)
+ident(
+  int_ref strs "src/smt/smtutils.ml" 16 402 408 "src/smt/smtutils.ml" 16 402 412
+)
+"src/smt/smtutils.ml" 16 402 416 "src/smt/smtutils.ml" 16 402 439
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 16 402 404 "src/smt/smtutils.ml" 16 402 439
+type(
+  string list -> string
+)
+type(
+  string list -> string
+)
+"src/smt/smtutils.ml" 18 441 445 "src/smt/smtutils.ml" 18 441 459
+type(
+  ('a -> string) -> 'a list -> string
+)
+ident(
+  def string_of_list "src/smt/smtutils.ml" 22 565 565 "src/smt/smtutils.ml" 1 0 -1
+)
+"src/smt/smtutils.ml" 19 500 506 "src/smt/smtutils.ml" 19 500 507
+type(
+  'a -> string
+)
+ident(
+  def f "src/smt/smtutils.ml" 19 500 508 "src/smt/smtutils.ml" 20 514 563
+)
+"src/smt/smtutils.ml" 19 500 508 "src/smt/smtutils.ml" 19 500 510
+type(
+  'a list
+)
+ident(
+  def xs "src/smt/smtutils.ml" 20 514 518 "src/smt/smtutils.ml" 20 514 563
+)
+"src/smt/smtutils.ml" 20 514 518 "src/smt/smtutils.ml" 20 514 521
+type(
+  string
+)
+"src/smt/smtutils.ml" 20 514 522 "src/smt/smtutils.ml" 20 514 523
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 20 514 524 "src/smt/smtutils.ml" 20 514 537
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smtutils.ml" 20 514 538 "src/smt/smtutils.ml" 20 514 541
+type(
+  string
+)
+"src/smt/smtutils.ml" 20 514 543 "src/smt/smtutils.ml" 20 514 551
+type(
+  ('a -> string) -> 'a list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 20 514 552 "src/smt/smtutils.ml" 20 514 553
+type(
+  'a -> string
+)
+ident(
+  int_ref f "src/smt/smtutils.ml" 19 500 506 "src/smt/smtutils.ml" 19 500 507
+)
+"src/smt/smtutils.ml" 20 514 554 "src/smt/smtutils.ml" 20 514 556
+type(
+  'a list
+)
+ident(
+  int_ref xs "src/smt/smtutils.ml" 19 500 508 "src/smt/smtutils.ml" 19 500 510
+)
+"src/smt/smtutils.ml" 20 514 542 "src/smt/smtutils.ml" 20 514 557
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 20 514 524 "src/smt/smtutils.ml" 20 514 557
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 20 514 558 "src/smt/smtutils.ml" 20 514 559
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 20 514 560 "src/smt/smtutils.ml" 20 514 563
+type(
+  string
+)
+"src/smt/smtutils.ml" 20 514 524 "src/smt/smtutils.ml" 20 514 563
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 20 514 518 "src/smt/smtutils.ml" 20 514 563
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 19 500 502 "src/smt/smtutils.ml" 20 514 563
+type(
+  ('a -> string) -> 'a list -> string
+)
+type(
+  ('a -> string) -> 'a list -> string
+)
+"src/smt/smtutils.ml" 22 565 569 "src/smt/smtutils.ml" 22 565 587
+type(
+  Smtsyntax.smtlogic -> string
+)
+ident(
+  def string_of_smtlogic "src/smt/smtutils.ml" 34 926 926 "src/smt/smtutils.ml" 1 0 -1
+)
+"src/smt/smtutils.ml" 23 611 617 "src/smt/smtutils.ml" 23 611 622
+type(
+  Smtsyntax.smtlogic
+)
+ident(
+  def logic "src/smt/smtutils.ml" 24 626 630 "src/smt/smtutils.ml" 32 888 924
+)
+"src/smt/smtutils.ml" 24 626 636 "src/smt/smtutils.ml" 24 626 641
+type(
+  Smtsyntax.smtlogic
+)
+ident(
+  int_ref logic "src/smt/smtutils.ml" 23 611 617 "src/smt/smtutils.ml" 23 611 622
+)
+"src/smt/smtutils.ml" 25 647 653 "src/smt/smtutils.ml" 25 647 662
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smtutils.ml" 25 647 666 "src/smt/smtutils.ml" 25 647 677
+type(
+  string
+)
+"src/smt/smtutils.ml" 26 678 684 "src/smt/smtutils.ml" 26 678 694
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smtutils.ml" 26 678 698 "src/smt/smtutils.ml" 26 678 710
+type(
+  string
+)
+"src/smt/smtutils.ml" 27 711 717 "src/smt/smtutils.ml" 27 711 728
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smtutils.ml" 27 711 732 "src/smt/smtutils.ml" 27 711 745
+type(
+  string
+)
+"src/smt/smtutils.ml" 28 746 752 "src/smt/smtutils.ml" 28 746 763
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smtutils.ml" 28 746 767 "src/smt/smtutils.ml" 28 746 780
+type(
+  string
+)
+"src/smt/smtutils.ml" 29 781 787 "src/smt/smtutils.ml" 29 781 798
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smtutils.ml" 29 781 802 "src/smt/smtutils.ml" 29 781 815
+type(
+  string
+)
+"src/smt/smtutils.ml" 30 816 822 "src/smt/smtutils.ml" 30 816 833
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smtutils.ml" 30 816 837 "src/smt/smtutils.ml" 30 816 850
+type(
+  string
+)
+"src/smt/smtutils.ml" 31 851 857 "src/smt/smtutils.ml" 31 851 869
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smtutils.ml" 31 851 873 "src/smt/smtutils.ml" 31 851 887
+type(
+  string
+)
+"src/smt/smtutils.ml" 32 888 894 "src/smt/smtutils.ml" 32 888 906
+type(
+  Smtsyntax.smtlogic
+)
+"src/smt/smtutils.ml" 32 888 910 "src/smt/smtutils.ml" 32 888 924
+type(
+  string
+)
+"src/smt/smtutils.ml" 24 626 630 "src/smt/smtutils.ml" 32 888 924
+type(
+  string
+)
+"src/smt/smtutils.ml" 23 611 613 "src/smt/smtutils.ml" 32 888 924
+type(
+  Smtsyntax.smtlogic -> string
+)
+type(
+  Smtsyntax.smtlogic -> string
+)
+"src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  def string_of_smtvar "src/smt/smtutils.ml" 37 986 986 "src/smt/smtutils.ml" 1 0 -1
+)
+"src/smt/smtutils.ml" 35 968 974 "src/smt/smtutils.ml" 35 968 977
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def var "src/smt/smtutils.ml" 35 968 981 "src/smt/smtutils.ml" 35 968 984
+)
+"src/smt/smtutils.ml" 35 968 981 "src/smt/smtutils.ml" 35 968 984
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref var "src/smt/smtutils.ml" 35 968 974 "src/smt/smtutils.ml" 35 968 977
+)
+"src/smt/smtutils.ml" 35 968 970 "src/smt/smtutils.ml" 35 968 984
+type(
+  Smtsyntax.smtvar -> string
+)
+type(
+  Smtsyntax.smtvar -> Smtsyntax.smtvar
+)
+"src/smt/smtutils.ml" 37 986 990 "src/smt/smtutils.ml" 37 986 1008
+type(
+  Smtsyntax.smtconst -> string
+)
+ident(
+  def string_of_smtconst "src/smt/smtutils.ml" 40 1054 1054 "src/smt/smtutils.ml" 1 0 -1
+)
+"src/smt/smtutils.ml" 38 1032 1038 "src/smt/smtutils.ml" 38 1032 1043
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  def const "src/smt/smtutils.ml" 38 1032 1047 "src/smt/smtutils.ml" 38 1032 1052
+)
+"src/smt/smtutils.ml" 38 1032 1047 "src/smt/smtutils.ml" 38 1032 1052
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  int_ref const "src/smt/smtutils.ml" 38 1032 1038 "src/smt/smtutils.ml" 38 1032 1043
+)
+"src/smt/smtutils.ml" 38 1032 1034 "src/smt/smtutils.ml" 38 1032 1052
+type(
+  Smtsyntax.smtconst -> string
+)
+type(
+  Smtsyntax.smtconst -> Smtsyntax.smtconst
+)
+"src/smt/smtutils.ml" 40 1054 1062 "src/smt/smtutils.ml" 40 1054 1079
+type(
+  Smtsyntax.smtsort -> string
+)
+ident(
+  def string_of_smtsort "src/smt/smtutils.ml" 40 1054 1054 "src/smt/smtutils.ml" 1 0 -1
+)
+"src/smt/smtutils.ml" 41 1102 1108 "src/smt/smtutils.ml" 41 1102 1112
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def sort "src/smt/smtutils.ml" 42 1116 1120 "src/smt/smtutils.ml" 54 1557 1620
+)
+"src/smt/smtutils.ml" 42 1116 1126 "src/smt/smtutils.ml" 42 1116 1130
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref sort "src/smt/smtutils.ml" 41 1102 1108 "src/smt/smtutils.ml" 41 1102 1112
+)
+"src/smt/smtutils.ml" 43 1136 1142 "src/smt/smtutils.ml" 43 1136 1152
+type(
+  Smtsyntax.smtsort
+)
+"src/smt/smtutils.ml" 43 1136 1156 "src/smt/smtutils.ml" 43 1136 1168
+type(
+  string
+)
+"src/smt/smtutils.ml" 44 1169 1175 "src/smt/smtutils.ml" 44 1169 1187
+type(
+  Smtsyntax.smtsort
+)
+"src/smt/smtutils.ml" 44 1169 1191 "src/smt/smtutils.ml" 44 1169 1205
+type(
+  string
+)
+"src/smt/smtutils.ml" 45 1206 1212 "src/smt/smtutils.ml" 45 1206 1223
+type(
+  Smtsyntax.smtsort
+)
+"src/smt/smtutils.ml" 45 1206 1227 "src/smt/smtutils.ml" 45 1206 1240
+type(
+  string
+)
+"src/smt/smtutils.ml" 46 1241 1261 "src/smt/smtutils.ml" 46 1241 1262
+type(
+  int
+)
+ident(
+  def i "src/smt/smtutils.ml" 46 1241 1266 "src/smt/smtutils.ml" 46 1241 1307
+)
+"src/smt/smtutils.ml" 46 1241 1247 "src/smt/smtutils.ml" 46 1241 1262
+type(
+  Smtsyntax.smtsort
+)
+"src/smt/smtutils.ml" 46 1241 1266 "src/smt/smtutils.ml" 46 1241 1283
+type(
+  string
+)
+"src/smt/smtutils.ml" 46 1241 1284 "src/smt/smtutils.ml" 46 1241 1285
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 46 1241 1286 "src/smt/smtutils.ml" 46 1241 1299
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/smt/smtutils.ml" 46 1241 1300 "src/smt/smtutils.ml" 46 1241 1301
+type(
+  int
+)
+ident(
+  int_ref i "src/smt/smtutils.ml" 46 1241 1261 "src/smt/smtutils.ml" 46 1241 1262
+)
+"src/smt/smtutils.ml" 46 1241 1286 "src/smt/smtutils.ml" 46 1241 1301
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 46 1241 1302 "src/smt/smtutils.ml" 46 1241 1303
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 46 1241 1304 "src/smt/smtutils.ml" 46 1241 1307
+type(
+  string
+)
+"src/smt/smtutils.ml" 46 1241 1286 "src/smt/smtutils.ml" 46 1241 1307
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 46 1241 1266 "src/smt/smtutils.ml" 46 1241 1307
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 47 1308 1328 "src/smt/smtutils.ml" 47 1308 1330
+type(
+  Smtsyntax.smtsort list
+)
+ident(
+  def is "src/smt/smtutils.ml" 48 1338 1346 "src/smt/smtutils.ml" 50 1431 1466
+)
+"src/smt/smtutils.ml" 47 1308 1332 "src/smt/smtutils.ml" 47 1308 1333
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def o "src/smt/smtutils.ml" 48 1338 1346 "src/smt/smtutils.ml" 50 1431 1466
+)
+"src/smt/smtutils.ml" 47 1308 1314 "src/smt/smtutils.ml" 47 1308 1334
+type(
+  Smtsyntax.smtsort
+)
+"src/smt/smtutils.ml" 48 1338 1346 "src/smt/smtutils.ml" 48 1338 1362
+type(
+  string
+)
+"src/smt/smtutils.ml" 48 1338 1363 "src/smt/smtutils.ml" 48 1338 1364
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 49 1365 1375 "src/smt/smtutils.ml" 49 1365 1395
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list_comma "src/smt/smtutils.ml" 12 260 264 "src/smt/smtutils.ml" 12 260 284
+)
+"src/smt/smtutils.ml" 49 1365 1397 "src/smt/smtutils.ml" 49 1365 1400
+type(
+  (Smtsyntax.smtsort -> string) -> Smtsyntax.smtsort list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 49 1365 1401 "src/smt/smtutils.ml" 49 1365 1418
+type(
+  Smtsyntax.smtsort -> string
+)
+ident(
+  int_ref string_of_smtsort "src/smt/smtutils.ml" 40 1054 1062 "src/smt/smtutils.ml" 40 1054 1079
+)
+"src/smt/smtutils.ml" 49 1365 1419 "src/smt/smtutils.ml" 49 1365 1421
+type(
+  Smtsyntax.smtsort list
+)
+ident(
+  int_ref is "src/smt/smtutils.ml" 47 1308 1328 "src/smt/smtutils.ml" 47 1308 1330
+)
+"src/smt/smtutils.ml" 49 1365 1396 "src/smt/smtutils.ml" 49 1365 1422
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 49 1365 1375 "src/smt/smtutils.ml" 49 1365 1422
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 49 1365 1423 "src/smt/smtutils.ml" 49 1365 1424
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 49 1365 1425 "src/smt/smtutils.ml" 49 1365 1428
+type(
+  string
+)
+"src/smt/smtutils.ml" 49 1365 1429 "src/smt/smtutils.ml" 49 1365 1430
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 50 1431 1441 "src/smt/smtutils.ml" 50 1431 1458
+type(
+  Smtsyntax.smtsort -> string
+)
+ident(
+  int_ref string_of_smtsort "src/smt/smtutils.ml" 40 1054 1062 "src/smt/smtutils.ml" 40 1054 1079
+)
+"src/smt/smtutils.ml" 50 1431 1459 "src/smt/smtutils.ml" 50 1431 1460
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref o "src/smt/smtutils.ml" 47 1308 1332 "src/smt/smtutils.ml" 47 1308 1333
+)
+"src/smt/smtutils.ml" 50 1431 1441 "src/smt/smtutils.ml" 50 1431 1460
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 50 1431 1461 "src/smt/smtutils.ml" 50 1431 1462
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 50 1431 1463 "src/smt/smtutils.ml" 50 1431 1466
+type(
+  string
+)
+"src/smt/smtutils.ml" 50 1431 1441 "src/smt/smtutils.ml" 50 1431 1466
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 49 1365 1425 "src/smt/smtutils.ml" 50 1431 1466
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 49 1365 1375 "src/smt/smtutils.ml" 50 1431 1466
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 48 1338 1346 "src/smt/smtutils.ml" 50 1431 1466
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 51 1467 1485 "src/smt/smtutils.ml" 51 1467 1486
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smtutils.ml" 52 1495 1503 "src/smt/smtutils.ml" 54 1557 1620
+)
+"src/smt/smtutils.ml" 51 1467 1488 "src/smt/smtutils.ml" 51 1467 1490
+type(
+  Smtsyntax.smtsort list
+)
+ident(
+  def ss "src/smt/smtutils.ml" 52 1495 1503 "src/smt/smtutils.ml" 54 1557 1620
+)
+"src/smt/smtutils.ml" 51 1467 1473 "src/smt/smtutils.ml" 51 1467 1491
+type(
+  Smtsyntax.smtsort
+)
+"src/smt/smtutils.ml" 52 1495 1503 "src/smt/smtutils.ml" 52 1495 1517
+type(
+  string
+)
+"src/smt/smtutils.ml" 52 1495 1518 "src/smt/smtutils.ml" 52 1495 1519
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 53 1520 1530 "src/smt/smtutils.ml" 53 1520 1546
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 53 1520 1547 "src/smt/smtutils.ml" 53 1520 1548
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smtutils.ml" 51 1467 1485 "src/smt/smtutils.ml" 51 1467 1486
+)
+"src/smt/smtutils.ml" 53 1520 1530 "src/smt/smtutils.ml" 53 1520 1548
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 53 1520 1549 "src/smt/smtutils.ml" 53 1520 1550
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 53 1520 1551 "src/smt/smtutils.ml" 53 1520 1554
+type(
+  string
+)
+"src/smt/smtutils.ml" 53 1520 1555 "src/smt/smtutils.ml" 53 1520 1556
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 54 1557 1567 "src/smt/smtutils.ml" 54 1557 1587
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list_comma "src/smt/smtutils.ml" 12 260 264 "src/smt/smtutils.ml" 12 260 284
+)
+"src/smt/smtutils.ml" 54 1557 1589 "src/smt/smtutils.ml" 54 1557 1592
+type(
+  (Smtsyntax.smtsort -> string) -> Smtsyntax.smtsort list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 54 1557 1593 "src/smt/smtutils.ml" 54 1557 1610
+type(
+  Smtsyntax.smtsort -> string
+)
+ident(
+  int_ref string_of_smtsort "src/smt/smtutils.ml" 40 1054 1062 "src/smt/smtutils.ml" 40 1054 1079
+)
+"src/smt/smtutils.ml" 54 1557 1611 "src/smt/smtutils.ml" 54 1557 1613
+type(
+  Smtsyntax.smtsort list
+)
+ident(
+  int_ref ss "src/smt/smtutils.ml" 51 1467 1488 "src/smt/smtutils.ml" 51 1467 1490
+)
+"src/smt/smtutils.ml" 54 1557 1588 "src/smt/smtutils.ml" 54 1557 1614
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 54 1557 1567 "src/smt/smtutils.ml" 54 1557 1614
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 54 1557 1615 "src/smt/smtutils.ml" 54 1557 1616
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 54 1557 1617 "src/smt/smtutils.ml" 54 1557 1620
+type(
+  string
+)
+"src/smt/smtutils.ml" 54 1557 1567 "src/smt/smtutils.ml" 54 1557 1620
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 53 1520 1551 "src/smt/smtutils.ml" 54 1557 1620
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 53 1520 1530 "src/smt/smtutils.ml" 54 1557 1620
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 52 1495 1503 "src/smt/smtutils.ml" 54 1557 1620
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 42 1116 1120 "src/smt/smtutils.ml" 54 1557 1620
+type(
+  string
+)
+"src/smt/smtutils.ml" 41 1102 1104 "src/smt/smtutils.ml" 54 1557 1620
+type(
+  Smtsyntax.smtsort -> string
+)
+type(
+  Smtsyntax.smtsort -> string
+)
+"src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  def string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1622 "src/smt/smtutils.ml" 1 0 -1
+)
+"src/smt/smtutils.ml" 57 1670 1676 "src/smt/smtutils.ml" 57 1670 1683
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def smtexpr "src/smt/smtutils.ml" 58 1687 1691 "src/smt/smtutils.ml" 140 5255 5301
+)
+"src/smt/smtutils.ml" 58 1687 1697 "src/smt/smtutils.ml" 58 1687 1704
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref smtexpr "src/smt/smtutils.ml" 57 1670 1676 "src/smt/smtutils.ml" 57 1670 1683
+)
+"src/smt/smtutils.ml" 59 1710 1723 "src/smt/smtutils.ml" 59 1710 1724
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smtutils.ml" 59 1710 1728 "src/smt/smtutils.ml" 59 1710 1762
+)
+"src/smt/smtutils.ml" 59 1710 1716 "src/smt/smtutils.ml" 59 1710 1724
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 59 1710 1728 "src/smt/smtutils.ml" 59 1710 1735
+type(
+  string
+)
+"src/smt/smtutils.ml" 59 1710 1736 "src/smt/smtutils.ml" 59 1710 1737
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 59 1710 1738 "src/smt/smtutils.ml" 59 1710 1754
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 59 1710 1755 "src/smt/smtutils.ml" 59 1710 1756
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smtutils.ml" 59 1710 1723 "src/smt/smtutils.ml" 59 1710 1724
+)
+"src/smt/smtutils.ml" 59 1710 1738 "src/smt/smtutils.ml" 59 1710 1756
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 59 1710 1757 "src/smt/smtutils.ml" 59 1710 1758
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 59 1710 1759 "src/smt/smtutils.ml" 59 1710 1762
+type(
+  string
+)
+"src/smt/smtutils.ml" 59 1710 1738 "src/smt/smtutils.ml" 59 1710 1762
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 59 1710 1728 "src/smt/smtutils.ml" 59 1710 1762
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 60 1763 1783 "src/smt/smtutils.ml" 60 1763 1785
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v1 "src/smt/smtutils.ml" 61 1794 1802 "src/smt/smtutils.ml" 61 1794 1871
+)
+"src/smt/smtutils.ml" 60 1763 1787 "src/smt/smtutils.ml" 60 1763 1789
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v2 "src/smt/smtutils.ml" 61 1794 1802 "src/smt/smtutils.ml" 61 1794 1871
+)
+"src/smt/smtutils.ml" 60 1763 1769 "src/smt/smtutils.ml" 60 1763 1790
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 61 1794 1802 "src/smt/smtutils.ml" 61 1794 1815
+type(
+  string
+)
+"src/smt/smtutils.ml" 61 1794 1816 "src/smt/smtutils.ml" 61 1794 1817
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 61 1794 1818 "src/smt/smtutils.ml" 61 1794 1834
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 61 1794 1835 "src/smt/smtutils.ml" 61 1794 1837
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v1 "src/smt/smtutils.ml" 60 1763 1783 "src/smt/smtutils.ml" 60 1763 1785
+)
+"src/smt/smtutils.ml" 61 1794 1818 "src/smt/smtutils.ml" 61 1794 1837
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 61 1794 1838 "src/smt/smtutils.ml" 61 1794 1839
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 61 1794 1840 "src/smt/smtutils.ml" 61 1794 1843
+type(
+  string
+)
+"src/smt/smtutils.ml" 61 1794 1844 "src/smt/smtutils.ml" 61 1794 1845
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 61 1794 1846 "src/smt/smtutils.ml" 61 1794 1862
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 61 1794 1863 "src/smt/smtutils.ml" 61 1794 1865
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v2 "src/smt/smtutils.ml" 60 1763 1787 "src/smt/smtutils.ml" 60 1763 1789
+)
+"src/smt/smtutils.ml" 61 1794 1846 "src/smt/smtutils.ml" 61 1794 1865
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 61 1794 1866 "src/smt/smtutils.ml" 61 1794 1867
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 61 1794 1868 "src/smt/smtutils.ml" 61 1794 1871
+type(
+  string
+)
+"src/smt/smtutils.ml" 61 1794 1846 "src/smt/smtutils.ml" 61 1794 1871
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 61 1794 1840 "src/smt/smtutils.ml" 61 1794 1871
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 61 1794 1818 "src/smt/smtutils.ml" 61 1794 1871
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 61 1794 1802 "src/smt/smtutils.ml" 61 1794 1871
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 62 1872 1892 "src/smt/smtutils.ml" 62 1872 1893
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smtutils.ml" 63 1902 1910 "src/smt/smtutils.ml" 64 1953 2014
+)
+"src/smt/smtutils.ml" 62 1872 1895 "src/smt/smtutils.ml" 62 1872 1897
+type(
+  int list
+)
+ident(
+  def is "src/smt/smtutils.ml" 63 1902 1910 "src/smt/smtutils.ml" 64 1953 2014
+)
+"src/smt/smtutils.ml" 62 1872 1878 "src/smt/smtutils.ml" 62 1872 1898
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 63 1902 1910 "src/smt/smtutils.ml" 63 1902 1923
+type(
+  string
+)
+"src/smt/smtutils.ml" 63 1902 1924 "src/smt/smtutils.ml" 63 1902 1925
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 63 1902 1926 "src/smt/smtutils.ml" 63 1902 1942
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 63 1902 1943 "src/smt/smtutils.ml" 63 1902 1944
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smtutils.ml" 62 1872 1892 "src/smt/smtutils.ml" 62 1872 1893
+)
+"src/smt/smtutils.ml" 63 1902 1926 "src/smt/smtutils.ml" 63 1902 1944
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 63 1902 1945 "src/smt/smtutils.ml" 63 1902 1946
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 63 1902 1947 "src/smt/smtutils.ml" 63 1902 1950
+type(
+  string
+)
+"src/smt/smtutils.ml" 63 1902 1951 "src/smt/smtutils.ml" 63 1902 1952
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 64 1953 1965 "src/smt/smtutils.ml" 64 1953 1985
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list_comma "src/smt/smtutils.ml" 12 260 264 "src/smt/smtutils.ml" 12 260 284
+)
+"src/smt/smtutils.ml" 64 1953 1987 "src/smt/smtutils.ml" 64 1953 1990
+type(
+  (int -> string) -> int list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 64 1953 1991 "src/smt/smtutils.ml" 64 1953 2004
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/smt/smtutils.ml" 64 1953 2005 "src/smt/smtutils.ml" 64 1953 2007
+type(
+  int list
+)
+ident(
+  int_ref is "src/smt/smtutils.ml" 62 1872 1895 "src/smt/smtutils.ml" 62 1872 1897
+)
+"src/smt/smtutils.ml" 64 1953 1986 "src/smt/smtutils.ml" 64 1953 2008
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 64 1953 1965 "src/smt/smtutils.ml" 64 1953 2008
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 64 1953 2009 "src/smt/smtutils.ml" 64 1953 2010
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 64 1953 2011 "src/smt/smtutils.ml" 64 1953 2014
+type(
+  string
+)
+"src/smt/smtutils.ml" 64 1953 1965 "src/smt/smtutils.ml" 64 1953 2014
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 63 1902 1947 "src/smt/smtutils.ml" 64 1953 2014
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 63 1902 1926 "src/smt/smtutils.ml" 64 1953 2014
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 63 1902 1910 "src/smt/smtutils.ml" 64 1953 2014
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 65 2015 2037 "src/smt/smtutils.ml" 65 2015 2038
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smtutils.ml" 66 2046 2054 "src/smt/smtutils.ml" 66 2046 2124
+)
+"src/smt/smtutils.ml" 65 2015 2040 "src/smt/smtutils.ml" 65 2015 2041
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def s "src/smt/smtutils.ml" 66 2046 2054 "src/smt/smtutils.ml" 66 2046 2124
+)
+"src/smt/smtutils.ml" 65 2015 2021 "src/smt/smtutils.ml" 65 2015 2042
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 66 2046 2054 "src/smt/smtutils.ml" 66 2046 2069
+type(
+  string
+)
+"src/smt/smtutils.ml" 66 2046 2070 "src/smt/smtutils.ml" 66 2046 2071
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 66 2046 2072 "src/smt/smtutils.ml" 66 2046 2088
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 66 2046 2089 "src/smt/smtutils.ml" 66 2046 2090
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smtutils.ml" 65 2015 2037 "src/smt/smtutils.ml" 65 2015 2038
+)
+"src/smt/smtutils.ml" 66 2046 2072 "src/smt/smtutils.ml" 66 2046 2090
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 66 2046 2091 "src/smt/smtutils.ml" 66 2046 2092
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 66 2046 2093 "src/smt/smtutils.ml" 66 2046 2096
+type(
+  string
+)
+"src/smt/smtutils.ml" 66 2046 2097 "src/smt/smtutils.ml" 66 2046 2098
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 66 2046 2099 "src/smt/smtutils.ml" 66 2046 2116
+type(
+  Smtsyntax.smtsort -> string
+)
+ident(
+  int_ref string_of_smtsort "src/smt/smtutils.ml" 40 1054 1062 "src/smt/smtutils.ml" 40 1054 1079
+)
+"src/smt/smtutils.ml" 66 2046 2117 "src/smt/smtutils.ml" 66 2046 2118
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref s "src/smt/smtutils.ml" 65 2015 2040 "src/smt/smtutils.ml" 65 2015 2041
+)
+"src/smt/smtutils.ml" 66 2046 2099 "src/smt/smtutils.ml" 66 2046 2118
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 66 2046 2119 "src/smt/smtutils.ml" 66 2046 2120
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 66 2046 2121 "src/smt/smtutils.ml" 66 2046 2124
+type(
+  string
+)
+"src/smt/smtutils.ml" 66 2046 2099 "src/smt/smtutils.ml" 66 2046 2124
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 66 2046 2093 "src/smt/smtutils.ml" 66 2046 2124
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 66 2046 2072 "src/smt/smtutils.ml" 66 2046 2124
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 66 2046 2054 "src/smt/smtutils.ml" 66 2046 2124
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 67 2125 2146 "src/smt/smtutils.ml" 67 2125 2148
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v1 "src/smt/smtutils.ml" 68 2157 2165 "src/smt/smtutils.ml" 68 2157 2235
+)
+"src/smt/smtutils.ml" 67 2125 2150 "src/smt/smtutils.ml" 67 2125 2152
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v2 "src/smt/smtutils.ml" 68 2157 2165 "src/smt/smtutils.ml" 68 2157 2235
+)
+"src/smt/smtutils.ml" 67 2125 2131 "src/smt/smtutils.ml" 67 2125 2153
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 68 2157 2165 "src/smt/smtutils.ml" 68 2157 2179
+type(
+  string
+)
+"src/smt/smtutils.ml" 68 2157 2180 "src/smt/smtutils.ml" 68 2157 2181
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 68 2157 2182 "src/smt/smtutils.ml" 68 2157 2198
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 68 2157 2199 "src/smt/smtutils.ml" 68 2157 2201
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v1 "src/smt/smtutils.ml" 67 2125 2146 "src/smt/smtutils.ml" 67 2125 2148
+)
+"src/smt/smtutils.ml" 68 2157 2182 "src/smt/smtutils.ml" 68 2157 2201
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 68 2157 2202 "src/smt/smtutils.ml" 68 2157 2203
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 68 2157 2204 "src/smt/smtutils.ml" 68 2157 2207
+type(
+  string
+)
+"src/smt/smtutils.ml" 68 2157 2208 "src/smt/smtutils.ml" 68 2157 2209
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 68 2157 2210 "src/smt/smtutils.ml" 68 2157 2226
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 68 2157 2227 "src/smt/smtutils.ml" 68 2157 2229
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v2 "src/smt/smtutils.ml" 67 2125 2150 "src/smt/smtutils.ml" 67 2125 2152
+)
+"src/smt/smtutils.ml" 68 2157 2210 "src/smt/smtutils.ml" 68 2157 2229
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 68 2157 2230 "src/smt/smtutils.ml" 68 2157 2231
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 68 2157 2232 "src/smt/smtutils.ml" 68 2157 2235
+type(
+  string
+)
+"src/smt/smtutils.ml" 68 2157 2210 "src/smt/smtutils.ml" 68 2157 2235
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 68 2157 2204 "src/smt/smtutils.ml" 68 2157 2235
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 68 2157 2182 "src/smt/smtutils.ml" 68 2157 2235
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 68 2157 2165 "src/smt/smtutils.ml" 68 2157 2235
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 69 2236 2251 "src/smt/smtutils.ml" 69 2236 2252
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  def c "src/smt/smtutils.ml" 69 2236 2256 "src/smt/smtutils.ml" 69 2236 2294
+)
+"src/smt/smtutils.ml" 69 2236 2242 "src/smt/smtutils.ml" 69 2236 2252
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 69 2236 2256 "src/smt/smtutils.ml" 69 2236 2265
+type(
+  string
+)
+"src/smt/smtutils.ml" 69 2236 2266 "src/smt/smtutils.ml" 69 2236 2267
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 69 2236 2268 "src/smt/smtutils.ml" 69 2236 2286
+type(
+  Smtsyntax.smtconst -> string
+)
+ident(
+  int_ref string_of_smtconst "src/smt/smtutils.ml" 37 986 990 "src/smt/smtutils.ml" 37 986 1008
+)
+"src/smt/smtutils.ml" 69 2236 2287 "src/smt/smtutils.ml" 69 2236 2288
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  int_ref c "src/smt/smtutils.ml" 69 2236 2251 "src/smt/smtutils.ml" 69 2236 2252
+)
+"src/smt/smtutils.ml" 69 2236 2268 "src/smt/smtutils.ml" 69 2236 2288
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 69 2236 2289 "src/smt/smtutils.ml" 69 2236 2290
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 69 2236 2291 "src/smt/smtutils.ml" 69 2236 2294
+type(
+  string
+)
+"src/smt/smtutils.ml" 69 2236 2268 "src/smt/smtutils.ml" 69 2236 2294
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 69 2236 2256 "src/smt/smtutils.ml" 69 2236 2294
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 71 2296 2309 "src/smt/smtutils.ml" 71 2296 2311
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 72 2320 2328 "src/smt/smtutils.ml" 72 2320 2392
+)
+"src/smt/smtutils.ml" 71 2296 2313 "src/smt/smtutils.ml" 71 2296 2315
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 72 2320 2328 "src/smt/smtutils.ml" 72 2320 2392
+)
+"src/smt/smtutils.ml" 71 2296 2302 "src/smt/smtutils.ml" 71 2296 2316
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 72 2320 2328 "src/smt/smtutils.ml" 72 2320 2334
+type(
+  string
+)
+"src/smt/smtutils.ml" 72 2320 2335 "src/smt/smtutils.ml" 72 2320 2336
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 72 2320 2337 "src/smt/smtutils.ml" 72 2320 2354
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 72 2320 2355 "src/smt/smtutils.ml" 72 2320 2357
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 71 2296 2309 "src/smt/smtutils.ml" 71 2296 2311
+)
+"src/smt/smtutils.ml" 72 2320 2337 "src/smt/smtutils.ml" 72 2320 2357
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 72 2320 2358 "src/smt/smtutils.ml" 72 2320 2359
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 72 2320 2360 "src/smt/smtutils.ml" 72 2320 2363
+type(
+  string
+)
+"src/smt/smtutils.ml" 72 2320 2364 "src/smt/smtutils.ml" 72 2320 2365
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 72 2320 2366 "src/smt/smtutils.ml" 72 2320 2383
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 72 2320 2384 "src/smt/smtutils.ml" 72 2320 2386
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 71 2296 2313 "src/smt/smtutils.ml" 71 2296 2315
+)
+"src/smt/smtutils.ml" 72 2320 2366 "src/smt/smtutils.ml" 72 2320 2386
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 72 2320 2387 "src/smt/smtutils.ml" 72 2320 2388
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 72 2320 2389 "src/smt/smtutils.ml" 72 2320 2392
+type(
+  string
+)
+"src/smt/smtutils.ml" 72 2320 2366 "src/smt/smtutils.ml" 72 2320 2392
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 72 2320 2360 "src/smt/smtutils.ml" 72 2320 2392
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 72 2320 2337 "src/smt/smtutils.ml" 72 2320 2392
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 72 2320 2328 "src/smt/smtutils.ml" 72 2320 2392
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 74 2394 2407 "src/smt/smtutils.ml" 74 2394 2409
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 75 2418 2426 "src/smt/smtutils.ml" 75 2418 2490
+)
+"src/smt/smtutils.ml" 74 2394 2411 "src/smt/smtutils.ml" 74 2394 2413
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 75 2418 2426 "src/smt/smtutils.ml" 75 2418 2490
+)
+"src/smt/smtutils.ml" 74 2394 2400 "src/smt/smtutils.ml" 74 2394 2414
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 75 2418 2426 "src/smt/smtutils.ml" 75 2418 2432
+type(
+  string
+)
+"src/smt/smtutils.ml" 75 2418 2433 "src/smt/smtutils.ml" 75 2418 2434
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 75 2418 2435 "src/smt/smtutils.ml" 75 2418 2452
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 75 2418 2453 "src/smt/smtutils.ml" 75 2418 2455
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 74 2394 2407 "src/smt/smtutils.ml" 74 2394 2409
+)
+"src/smt/smtutils.ml" 75 2418 2435 "src/smt/smtutils.ml" 75 2418 2455
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 75 2418 2456 "src/smt/smtutils.ml" 75 2418 2457
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 75 2418 2458 "src/smt/smtutils.ml" 75 2418 2461
+type(
+  string
+)
+"src/smt/smtutils.ml" 75 2418 2462 "src/smt/smtutils.ml" 75 2418 2463
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 75 2418 2464 "src/smt/smtutils.ml" 75 2418 2481
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 75 2418 2482 "src/smt/smtutils.ml" 75 2418 2484
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 74 2394 2411 "src/smt/smtutils.ml" 74 2394 2413
+)
+"src/smt/smtutils.ml" 75 2418 2464 "src/smt/smtutils.ml" 75 2418 2484
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 75 2418 2485 "src/smt/smtutils.ml" 75 2418 2486
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 75 2418 2487 "src/smt/smtutils.ml" 75 2418 2490
+type(
+  string
+)
+"src/smt/smtutils.ml" 75 2418 2464 "src/smt/smtutils.ml" 75 2418 2490
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 75 2418 2458 "src/smt/smtutils.ml" 75 2418 2490
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 75 2418 2435 "src/smt/smtutils.ml" 75 2418 2490
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 75 2418 2426 "src/smt/smtutils.ml" 75 2418 2490
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 76 2491 2504 "src/smt/smtutils.ml" 76 2491 2506
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 77 2515 2523 "src/smt/smtutils.ml" 77 2515 2587
+)
+"src/smt/smtutils.ml" 76 2491 2508 "src/smt/smtutils.ml" 76 2491 2510
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 77 2515 2523 "src/smt/smtutils.ml" 77 2515 2587
+)
+"src/smt/smtutils.ml" 76 2491 2497 "src/smt/smtutils.ml" 76 2491 2511
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 77 2515 2523 "src/smt/smtutils.ml" 77 2515 2529
+type(
+  string
+)
+"src/smt/smtutils.ml" 77 2515 2530 "src/smt/smtutils.ml" 77 2515 2531
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 77 2515 2532 "src/smt/smtutils.ml" 77 2515 2549
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 77 2515 2550 "src/smt/smtutils.ml" 77 2515 2552
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 76 2491 2504 "src/smt/smtutils.ml" 76 2491 2506
+)
+"src/smt/smtutils.ml" 77 2515 2532 "src/smt/smtutils.ml" 77 2515 2552
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 77 2515 2553 "src/smt/smtutils.ml" 77 2515 2554
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 77 2515 2555 "src/smt/smtutils.ml" 77 2515 2558
+type(
+  string
+)
+"src/smt/smtutils.ml" 77 2515 2559 "src/smt/smtutils.ml" 77 2515 2560
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 77 2515 2561 "src/smt/smtutils.ml" 77 2515 2578
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 77 2515 2579 "src/smt/smtutils.ml" 77 2515 2581
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 76 2491 2508 "src/smt/smtutils.ml" 76 2491 2510
+)
+"src/smt/smtutils.ml" 77 2515 2561 "src/smt/smtutils.ml" 77 2515 2581
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 77 2515 2582 "src/smt/smtutils.ml" 77 2515 2583
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 77 2515 2584 "src/smt/smtutils.ml" 77 2515 2587
+type(
+  string
+)
+"src/smt/smtutils.ml" 77 2515 2561 "src/smt/smtutils.ml" 77 2515 2587
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 77 2515 2555 "src/smt/smtutils.ml" 77 2515 2587
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 77 2515 2532 "src/smt/smtutils.ml" 77 2515 2587
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 77 2515 2523 "src/smt/smtutils.ml" 77 2515 2587
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 78 2588 2601 "src/smt/smtutils.ml" 78 2588 2603
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 79 2612 2620 "src/smt/smtutils.ml" 79 2612 2684
+)
+"src/smt/smtutils.ml" 78 2588 2605 "src/smt/smtutils.ml" 78 2588 2607
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 79 2612 2620 "src/smt/smtutils.ml" 79 2612 2684
+)
+"src/smt/smtutils.ml" 78 2588 2594 "src/smt/smtutils.ml" 78 2588 2608
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 79 2612 2620 "src/smt/smtutils.ml" 79 2612 2626
+type(
+  string
+)
+"src/smt/smtutils.ml" 79 2612 2627 "src/smt/smtutils.ml" 79 2612 2628
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 79 2612 2629 "src/smt/smtutils.ml" 79 2612 2646
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 79 2612 2647 "src/smt/smtutils.ml" 79 2612 2649
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 78 2588 2601 "src/smt/smtutils.ml" 78 2588 2603
+)
+"src/smt/smtutils.ml" 79 2612 2629 "src/smt/smtutils.ml" 79 2612 2649
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 79 2612 2650 "src/smt/smtutils.ml" 79 2612 2651
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 79 2612 2652 "src/smt/smtutils.ml" 79 2612 2655
+type(
+  string
+)
+"src/smt/smtutils.ml" 79 2612 2656 "src/smt/smtutils.ml" 79 2612 2657
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 79 2612 2658 "src/smt/smtutils.ml" 79 2612 2675
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 79 2612 2676 "src/smt/smtutils.ml" 79 2612 2678
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 78 2588 2605 "src/smt/smtutils.ml" 78 2588 2607
+)
+"src/smt/smtutils.ml" 79 2612 2658 "src/smt/smtutils.ml" 79 2612 2678
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 79 2612 2679 "src/smt/smtutils.ml" 79 2612 2680
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 79 2612 2681 "src/smt/smtutils.ml" 79 2612 2684
+type(
+  string
+)
+"src/smt/smtutils.ml" 79 2612 2658 "src/smt/smtutils.ml" 79 2612 2684
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 79 2612 2652 "src/smt/smtutils.ml" 79 2612 2684
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 79 2612 2629 "src/smt/smtutils.ml" 79 2612 2684
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 79 2612 2620 "src/smt/smtutils.ml" 79 2612 2684
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 80 2685 2698 "src/smt/smtutils.ml" 80 2685 2700
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 81 2709 2717 "src/smt/smtutils.ml" 81 2709 2781
+)
+"src/smt/smtutils.ml" 80 2685 2702 "src/smt/smtutils.ml" 80 2685 2704
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 81 2709 2717 "src/smt/smtutils.ml" 81 2709 2781
+)
+"src/smt/smtutils.ml" 80 2685 2691 "src/smt/smtutils.ml" 80 2685 2705
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 81 2709 2717 "src/smt/smtutils.ml" 81 2709 2723
+type(
+  string
+)
+"src/smt/smtutils.ml" 81 2709 2724 "src/smt/smtutils.ml" 81 2709 2725
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 81 2709 2726 "src/smt/smtutils.ml" 81 2709 2743
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 81 2709 2744 "src/smt/smtutils.ml" 81 2709 2746
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 80 2685 2698 "src/smt/smtutils.ml" 80 2685 2700
+)
+"src/smt/smtutils.ml" 81 2709 2726 "src/smt/smtutils.ml" 81 2709 2746
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 81 2709 2747 "src/smt/smtutils.ml" 81 2709 2748
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 81 2709 2749 "src/smt/smtutils.ml" 81 2709 2752
+type(
+  string
+)
+"src/smt/smtutils.ml" 81 2709 2753 "src/smt/smtutils.ml" 81 2709 2754
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 81 2709 2755 "src/smt/smtutils.ml" 81 2709 2772
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 81 2709 2773 "src/smt/smtutils.ml" 81 2709 2775
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 80 2685 2702 "src/smt/smtutils.ml" 80 2685 2704
+)
+"src/smt/smtutils.ml" 81 2709 2755 "src/smt/smtutils.ml" 81 2709 2775
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 81 2709 2776 "src/smt/smtutils.ml" 81 2709 2777
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 81 2709 2778 "src/smt/smtutils.ml" 81 2709 2781
+type(
+  string
+)
+"src/smt/smtutils.ml" 81 2709 2755 "src/smt/smtutils.ml" 81 2709 2781
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 81 2709 2749 "src/smt/smtutils.ml" 81 2709 2781
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 81 2709 2726 "src/smt/smtutils.ml" 81 2709 2781
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 81 2709 2717 "src/smt/smtutils.ml" 81 2709 2781
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 82 2782 2796 "src/smt/smtutils.ml" 82 2782 2798
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 83 2807 2815 "src/smt/smtutils.ml" 83 2807 2880
+)
+"src/smt/smtutils.ml" 82 2782 2800 "src/smt/smtutils.ml" 82 2782 2802
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 83 2807 2815 "src/smt/smtutils.ml" 83 2807 2880
+)
+"src/smt/smtutils.ml" 82 2782 2788 "src/smt/smtutils.ml" 82 2782 2803
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 83 2807 2815 "src/smt/smtutils.ml" 83 2807 2822
+type(
+  string
+)
+"src/smt/smtutils.ml" 83 2807 2823 "src/smt/smtutils.ml" 83 2807 2824
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 83 2807 2825 "src/smt/smtutils.ml" 83 2807 2842
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 83 2807 2843 "src/smt/smtutils.ml" 83 2807 2845
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 82 2782 2796 "src/smt/smtutils.ml" 82 2782 2798
+)
+"src/smt/smtutils.ml" 83 2807 2825 "src/smt/smtutils.ml" 83 2807 2845
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 83 2807 2846 "src/smt/smtutils.ml" 83 2807 2847
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 83 2807 2848 "src/smt/smtutils.ml" 83 2807 2851
+type(
+  string
+)
+"src/smt/smtutils.ml" 83 2807 2852 "src/smt/smtutils.ml" 83 2807 2853
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 83 2807 2854 "src/smt/smtutils.ml" 83 2807 2871
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 83 2807 2872 "src/smt/smtutils.ml" 83 2807 2874
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 82 2782 2800 "src/smt/smtutils.ml" 82 2782 2802
+)
+"src/smt/smtutils.ml" 83 2807 2854 "src/smt/smtutils.ml" 83 2807 2874
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 83 2807 2875 "src/smt/smtutils.ml" 83 2807 2876
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 83 2807 2877 "src/smt/smtutils.ml" 83 2807 2880
+type(
+  string
+)
+"src/smt/smtutils.ml" 83 2807 2854 "src/smt/smtutils.ml" 83 2807 2880
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 83 2807 2848 "src/smt/smtutils.ml" 83 2807 2880
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 83 2807 2825 "src/smt/smtutils.ml" 83 2807 2880
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 83 2807 2815 "src/smt/smtutils.ml" 83 2807 2880
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 85 2882 2896 "src/smt/smtutils.ml" 85 2882 2898
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 86 2907 2915 "src/smt/smtutils.ml" 86 2907 2980
+)
+"src/smt/smtutils.ml" 85 2882 2900 "src/smt/smtutils.ml" 85 2882 2902
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 86 2907 2915 "src/smt/smtutils.ml" 86 2907 2980
+)
+"src/smt/smtutils.ml" 85 2882 2888 "src/smt/smtutils.ml" 85 2882 2903
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 86 2907 2915 "src/smt/smtutils.ml" 86 2907 2922
+type(
+  string
+)
+"src/smt/smtutils.ml" 86 2907 2923 "src/smt/smtutils.ml" 86 2907 2924
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 86 2907 2925 "src/smt/smtutils.ml" 86 2907 2942
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 86 2907 2943 "src/smt/smtutils.ml" 86 2907 2945
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 85 2882 2896 "src/smt/smtutils.ml" 85 2882 2898
+)
+"src/smt/smtutils.ml" 86 2907 2925 "src/smt/smtutils.ml" 86 2907 2945
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 86 2907 2946 "src/smt/smtutils.ml" 86 2907 2947
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 86 2907 2948 "src/smt/smtutils.ml" 86 2907 2951
+type(
+  string
+)
+"src/smt/smtutils.ml" 86 2907 2952 "src/smt/smtutils.ml" 86 2907 2953
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 86 2907 2954 "src/smt/smtutils.ml" 86 2907 2971
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 86 2907 2972 "src/smt/smtutils.ml" 86 2907 2974
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 85 2882 2900 "src/smt/smtutils.ml" 85 2882 2902
+)
+"src/smt/smtutils.ml" 86 2907 2954 "src/smt/smtutils.ml" 86 2907 2974
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 86 2907 2975 "src/smt/smtutils.ml" 86 2907 2976
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 86 2907 2977 "src/smt/smtutils.ml" 86 2907 2980
+type(
+  string
+)
+"src/smt/smtutils.ml" 86 2907 2954 "src/smt/smtutils.ml" 86 2907 2980
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 86 2907 2948 "src/smt/smtutils.ml" 86 2907 2980
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 86 2907 2925 "src/smt/smtutils.ml" 86 2907 2980
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 86 2907 2915 "src/smt/smtutils.ml" 86 2907 2980
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 87 2981 2994 "src/smt/smtutils.ml" 87 2981 2996
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 88 3005 3013 "src/smt/smtutils.ml" 88 3005 3077
+)
+"src/smt/smtutils.ml" 87 2981 2998 "src/smt/smtutils.ml" 87 2981 3000
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 88 3005 3013 "src/smt/smtutils.ml" 88 3005 3077
+)
+"src/smt/smtutils.ml" 87 2981 2987 "src/smt/smtutils.ml" 87 2981 3001
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 88 3005 3013 "src/smt/smtutils.ml" 88 3005 3019
+type(
+  string
+)
+"src/smt/smtutils.ml" 88 3005 3020 "src/smt/smtutils.ml" 88 3005 3021
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 88 3005 3022 "src/smt/smtutils.ml" 88 3005 3039
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 88 3005 3040 "src/smt/smtutils.ml" 88 3005 3042
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 87 2981 2994 "src/smt/smtutils.ml" 87 2981 2996
+)
+"src/smt/smtutils.ml" 88 3005 3022 "src/smt/smtutils.ml" 88 3005 3042
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 88 3005 3043 "src/smt/smtutils.ml" 88 3005 3044
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 88 3005 3045 "src/smt/smtutils.ml" 88 3005 3048
+type(
+  string
+)
+"src/smt/smtutils.ml" 88 3005 3049 "src/smt/smtutils.ml" 88 3005 3050
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 88 3005 3051 "src/smt/smtutils.ml" 88 3005 3068
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 88 3005 3069 "src/smt/smtutils.ml" 88 3005 3071
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 87 2981 2998 "src/smt/smtutils.ml" 87 2981 3000
+)
+"src/smt/smtutils.ml" 88 3005 3051 "src/smt/smtutils.ml" 88 3005 3071
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 88 3005 3072 "src/smt/smtutils.ml" 88 3005 3073
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 88 3005 3074 "src/smt/smtutils.ml" 88 3005 3077
+type(
+  string
+)
+"src/smt/smtutils.ml" 88 3005 3051 "src/smt/smtutils.ml" 88 3005 3077
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 88 3005 3045 "src/smt/smtutils.ml" 88 3005 3077
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 88 3005 3022 "src/smt/smtutils.ml" 88 3005 3077
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 88 3005 3013 "src/smt/smtutils.ml" 88 3005 3077
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 89 3078 3092 "src/smt/smtutils.ml" 89 3078 3094
+ident(
+  def e1 "src/smt/smtutils.ml" 90 3099 3107 "src/smt/smtutils.ml" 90 3099 3143
+)
+"src/smt/smtutils.ml" 89 3078 3091 "src/smt/smtutils.ml" 89 3078 3095
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 89 3078 3084 "src/smt/smtutils.ml" 89 3078 3095
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 90 3099 3107 "src/smt/smtutils.ml" 90 3099 3114
+type(
+  string
+)
+"src/smt/smtutils.ml" 90 3099 3115 "src/smt/smtutils.ml" 90 3099 3116
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 90 3099 3117 "src/smt/smtutils.ml" 90 3099 3134
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 90 3099 3135 "src/smt/smtutils.ml" 90 3099 3137
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 89 3078 3091 "src/smt/smtutils.ml" 89 3078 3095
+)
+"src/smt/smtutils.ml" 90 3099 3117 "src/smt/smtutils.ml" 90 3099 3137
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 90 3099 3138 "src/smt/smtutils.ml" 90 3099 3139
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 90 3099 3140 "src/smt/smtutils.ml" 90 3099 3143
+type(
+  string
+)
+"src/smt/smtutils.ml" 90 3099 3117 "src/smt/smtutils.ml" 90 3099 3143
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 90 3099 3107 "src/smt/smtutils.ml" 90 3099 3143
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 91 3144 3158 "src/smt/smtutils.ml" 91 3144 3160
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 92 3169 3177 "src/smt/smtutils.ml" 92 3169 3242
+)
+"src/smt/smtutils.ml" 91 3144 3162 "src/smt/smtutils.ml" 91 3144 3164
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 92 3169 3177 "src/smt/smtutils.ml" 92 3169 3242
+)
+"src/smt/smtutils.ml" 91 3144 3150 "src/smt/smtutils.ml" 91 3144 3165
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 92 3169 3177 "src/smt/smtutils.ml" 92 3169 3184
+type(
+  string
+)
+"src/smt/smtutils.ml" 92 3169 3185 "src/smt/smtutils.ml" 92 3169 3186
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 92 3169 3187 "src/smt/smtutils.ml" 92 3169 3204
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 92 3169 3205 "src/smt/smtutils.ml" 92 3169 3207
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 91 3144 3158 "src/smt/smtutils.ml" 91 3144 3160
+)
+"src/smt/smtutils.ml" 92 3169 3187 "src/smt/smtutils.ml" 92 3169 3207
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 92 3169 3208 "src/smt/smtutils.ml" 92 3169 3209
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 92 3169 3210 "src/smt/smtutils.ml" 92 3169 3213
+type(
+  string
+)
+"src/smt/smtutils.ml" 92 3169 3214 "src/smt/smtutils.ml" 92 3169 3215
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 92 3169 3216 "src/smt/smtutils.ml" 92 3169 3233
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 92 3169 3234 "src/smt/smtutils.ml" 92 3169 3236
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 91 3144 3162 "src/smt/smtutils.ml" 91 3144 3164
+)
+"src/smt/smtutils.ml" 92 3169 3216 "src/smt/smtutils.ml" 92 3169 3236
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 92 3169 3237 "src/smt/smtutils.ml" 92 3169 3238
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 92 3169 3239 "src/smt/smtutils.ml" 92 3169 3242
+type(
+  string
+)
+"src/smt/smtutils.ml" 92 3169 3216 "src/smt/smtutils.ml" 92 3169 3242
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 92 3169 3210 "src/smt/smtutils.ml" 92 3169 3242
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 92 3169 3187 "src/smt/smtutils.ml" 92 3169 3242
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 92 3169 3177 "src/smt/smtutils.ml" 92 3169 3242
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 93 3243 3257 "src/smt/smtutils.ml" 93 3243 3259
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 94 3268 3276 "src/smt/smtutils.ml" 94 3268 3344
+)
+"src/smt/smtutils.ml" 93 3243 3261 "src/smt/smtutils.ml" 93 3243 3263
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 94 3268 3276 "src/smt/smtutils.ml" 94 3268 3344
+)
+"src/smt/smtutils.ml" 93 3243 3249 "src/smt/smtutils.ml" 93 3243 3264
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 94 3268 3276 "src/smt/smtutils.ml" 94 3268 3286
+type(
+  string
+)
+"src/smt/smtutils.ml" 94 3268 3287 "src/smt/smtutils.ml" 94 3268 3288
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 94 3268 3289 "src/smt/smtutils.ml" 94 3268 3306
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 94 3268 3307 "src/smt/smtutils.ml" 94 3268 3309
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 93 3243 3257 "src/smt/smtutils.ml" 93 3243 3259
+)
+"src/smt/smtutils.ml" 94 3268 3289 "src/smt/smtutils.ml" 94 3268 3309
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 94 3268 3310 "src/smt/smtutils.ml" 94 3268 3311
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 94 3268 3312 "src/smt/smtutils.ml" 94 3268 3315
+type(
+  string
+)
+"src/smt/smtutils.ml" 94 3268 3316 "src/smt/smtutils.ml" 94 3268 3317
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 94 3268 3318 "src/smt/smtutils.ml" 94 3268 3335
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 94 3268 3336 "src/smt/smtutils.ml" 94 3268 3338
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 93 3243 3261 "src/smt/smtutils.ml" 93 3243 3263
+)
+"src/smt/smtutils.ml" 94 3268 3318 "src/smt/smtutils.ml" 94 3268 3338
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 94 3268 3339 "src/smt/smtutils.ml" 94 3268 3340
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 94 3268 3341 "src/smt/smtutils.ml" 94 3268 3344
+type(
+  string
+)
+"src/smt/smtutils.ml" 94 3268 3318 "src/smt/smtutils.ml" 94 3268 3344
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 94 3268 3312 "src/smt/smtutils.ml" 94 3268 3344
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 94 3268 3289 "src/smt/smtutils.ml" 94 3268 3344
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 94 3268 3276 "src/smt/smtutils.ml" 94 3268 3344
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 96 3346 3361 "src/smt/smtutils.ml" 96 3346 3363
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 97 3372 3380 "src/smt/smtutils.ml" 97 3372 3446
+)
+"src/smt/smtutils.ml" 96 3346 3365 "src/smt/smtutils.ml" 96 3346 3367
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 97 3372 3380 "src/smt/smtutils.ml" 97 3372 3446
+)
+"src/smt/smtutils.ml" 96 3346 3352 "src/smt/smtutils.ml" 96 3346 3368
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 97 3372 3380 "src/smt/smtutils.ml" 97 3372 3388
+type(
+  string
+)
+"src/smt/smtutils.ml" 97 3372 3389 "src/smt/smtutils.ml" 97 3372 3390
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 97 3372 3391 "src/smt/smtutils.ml" 97 3372 3408
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 97 3372 3409 "src/smt/smtutils.ml" 97 3372 3411
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 96 3346 3361 "src/smt/smtutils.ml" 96 3346 3363
+)
+"src/smt/smtutils.ml" 97 3372 3391 "src/smt/smtutils.ml" 97 3372 3411
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 97 3372 3412 "src/smt/smtutils.ml" 97 3372 3413
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 97 3372 3414 "src/smt/smtutils.ml" 97 3372 3417
+type(
+  string
+)
+"src/smt/smtutils.ml" 97 3372 3418 "src/smt/smtutils.ml" 97 3372 3419
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 97 3372 3420 "src/smt/smtutils.ml" 97 3372 3437
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 97 3372 3438 "src/smt/smtutils.ml" 97 3372 3440
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 96 3346 3365 "src/smt/smtutils.ml" 96 3346 3367
+)
+"src/smt/smtutils.ml" 97 3372 3420 "src/smt/smtutils.ml" 97 3372 3440
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 97 3372 3441 "src/smt/smtutils.ml" 97 3372 3442
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 97 3372 3443 "src/smt/smtutils.ml" 97 3372 3446
+type(
+  string
+)
+"src/smt/smtutils.ml" 97 3372 3420 "src/smt/smtutils.ml" 97 3372 3446
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 97 3372 3414 "src/smt/smtutils.ml" 97 3372 3446
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 97 3372 3391 "src/smt/smtutils.ml" 97 3372 3446
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 97 3372 3380 "src/smt/smtutils.ml" 97 3372 3446
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 98 3447 3461 "src/smt/smtutils.ml" 98 3447 3463
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 99 3472 3480 "src/smt/smtutils.ml" 99 3472 3545
+)
+"src/smt/smtutils.ml" 98 3447 3465 "src/smt/smtutils.ml" 98 3447 3467
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 99 3472 3480 "src/smt/smtutils.ml" 99 3472 3545
+)
+"src/smt/smtutils.ml" 98 3447 3453 "src/smt/smtutils.ml" 98 3447 3468
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 99 3472 3480 "src/smt/smtutils.ml" 99 3472 3487
+type(
+  string
+)
+"src/smt/smtutils.ml" 99 3472 3488 "src/smt/smtutils.ml" 99 3472 3489
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 99 3472 3490 "src/smt/smtutils.ml" 99 3472 3507
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 99 3472 3508 "src/smt/smtutils.ml" 99 3472 3510
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 98 3447 3461 "src/smt/smtutils.ml" 98 3447 3463
+)
+"src/smt/smtutils.ml" 99 3472 3490 "src/smt/smtutils.ml" 99 3472 3510
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 99 3472 3511 "src/smt/smtutils.ml" 99 3472 3512
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 99 3472 3513 "src/smt/smtutils.ml" 99 3472 3516
+type(
+  string
+)
+"src/smt/smtutils.ml" 99 3472 3517 "src/smt/smtutils.ml" 99 3472 3518
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 99 3472 3519 "src/smt/smtutils.ml" 99 3472 3536
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 99 3472 3537 "src/smt/smtutils.ml" 99 3472 3539
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 98 3447 3465 "src/smt/smtutils.ml" 98 3447 3467
+)
+"src/smt/smtutils.ml" 99 3472 3519 "src/smt/smtutils.ml" 99 3472 3539
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 99 3472 3540 "src/smt/smtutils.ml" 99 3472 3541
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 99 3472 3542 "src/smt/smtutils.ml" 99 3472 3545
+type(
+  string
+)
+"src/smt/smtutils.ml" 99 3472 3519 "src/smt/smtutils.ml" 99 3472 3545
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 99 3472 3513 "src/smt/smtutils.ml" 99 3472 3545
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 99 3472 3490 "src/smt/smtutils.ml" 99 3472 3545
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 99 3472 3480 "src/smt/smtutils.ml" 99 3472 3545
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 100 3546 3561 "src/smt/smtutils.ml" 100 3546 3563
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 101 3572 3580 "src/smt/smtutils.ml" 101 3572 3646
+)
+"src/smt/smtutils.ml" 100 3546 3565 "src/smt/smtutils.ml" 100 3546 3567
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 101 3572 3580 "src/smt/smtutils.ml" 101 3572 3646
+)
+"src/smt/smtutils.ml" 100 3546 3552 "src/smt/smtutils.ml" 100 3546 3568
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 101 3572 3580 "src/smt/smtutils.ml" 101 3572 3588
+type(
+  string
+)
+"src/smt/smtutils.ml" 101 3572 3589 "src/smt/smtutils.ml" 101 3572 3590
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 101 3572 3591 "src/smt/smtutils.ml" 101 3572 3608
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 101 3572 3609 "src/smt/smtutils.ml" 101 3572 3611
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 100 3546 3561 "src/smt/smtutils.ml" 100 3546 3563
+)
+"src/smt/smtutils.ml" 101 3572 3591 "src/smt/smtutils.ml" 101 3572 3611
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 101 3572 3612 "src/smt/smtutils.ml" 101 3572 3613
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 101 3572 3614 "src/smt/smtutils.ml" 101 3572 3617
+type(
+  string
+)
+"src/smt/smtutils.ml" 101 3572 3618 "src/smt/smtutils.ml" 101 3572 3619
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 101 3572 3620 "src/smt/smtutils.ml" 101 3572 3637
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 101 3572 3638 "src/smt/smtutils.ml" 101 3572 3640
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 100 3546 3565 "src/smt/smtutils.ml" 100 3546 3567
+)
+"src/smt/smtutils.ml" 101 3572 3620 "src/smt/smtutils.ml" 101 3572 3640
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 101 3572 3641 "src/smt/smtutils.ml" 101 3572 3642
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 101 3572 3643 "src/smt/smtutils.ml" 101 3572 3646
+type(
+  string
+)
+"src/smt/smtutils.ml" 101 3572 3620 "src/smt/smtutils.ml" 101 3572 3646
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 101 3572 3614 "src/smt/smtutils.ml" 101 3572 3646
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 101 3572 3591 "src/smt/smtutils.ml" 101 3572 3646
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 101 3572 3580 "src/smt/smtutils.ml" 101 3572 3646
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 102 3647 3661 "src/smt/smtutils.ml" 102 3647 3663
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 103 3672 3680 "src/smt/smtutils.ml" 103 3672 3745
+)
+"src/smt/smtutils.ml" 102 3647 3665 "src/smt/smtutils.ml" 102 3647 3667
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 103 3672 3680 "src/smt/smtutils.ml" 103 3672 3745
+)
+"src/smt/smtutils.ml" 102 3647 3653 "src/smt/smtutils.ml" 102 3647 3668
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 103 3672 3680 "src/smt/smtutils.ml" 103 3672 3687
+type(
+  string
+)
+"src/smt/smtutils.ml" 103 3672 3688 "src/smt/smtutils.ml" 103 3672 3689
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 103 3672 3690 "src/smt/smtutils.ml" 103 3672 3707
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 103 3672 3708 "src/smt/smtutils.ml" 103 3672 3710
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 102 3647 3661 "src/smt/smtutils.ml" 102 3647 3663
+)
+"src/smt/smtutils.ml" 103 3672 3690 "src/smt/smtutils.ml" 103 3672 3710
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 103 3672 3711 "src/smt/smtutils.ml" 103 3672 3712
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 103 3672 3713 "src/smt/smtutils.ml" 103 3672 3716
+type(
+  string
+)
+"src/smt/smtutils.ml" 103 3672 3717 "src/smt/smtutils.ml" 103 3672 3718
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 103 3672 3719 "src/smt/smtutils.ml" 103 3672 3736
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 103 3672 3737 "src/smt/smtutils.ml" 103 3672 3739
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 102 3647 3665 "src/smt/smtutils.ml" 102 3647 3667
+)
+"src/smt/smtutils.ml" 103 3672 3719 "src/smt/smtutils.ml" 103 3672 3739
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 103 3672 3740 "src/smt/smtutils.ml" 103 3672 3741
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 103 3672 3742 "src/smt/smtutils.ml" 103 3672 3745
+type(
+  string
+)
+"src/smt/smtutils.ml" 103 3672 3719 "src/smt/smtutils.ml" 103 3672 3745
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 103 3672 3713 "src/smt/smtutils.ml" 103 3672 3745
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 103 3672 3690 "src/smt/smtutils.ml" 103 3672 3745
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 103 3672 3680 "src/smt/smtutils.ml" 103 3672 3745
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 104 3746 3760 "src/smt/smtutils.ml" 104 3746 3762
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 105 3771 3779 "src/smt/smtutils.ml" 105 3771 3844
+)
+"src/smt/smtutils.ml" 104 3746 3764 "src/smt/smtutils.ml" 104 3746 3766
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 105 3771 3779 "src/smt/smtutils.ml" 105 3771 3844
+)
+"src/smt/smtutils.ml" 104 3746 3752 "src/smt/smtutils.ml" 104 3746 3767
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 105 3771 3779 "src/smt/smtutils.ml" 105 3771 3786
+type(
+  string
+)
+"src/smt/smtutils.ml" 105 3771 3787 "src/smt/smtutils.ml" 105 3771 3788
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 105 3771 3789 "src/smt/smtutils.ml" 105 3771 3806
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 105 3771 3807 "src/smt/smtutils.ml" 105 3771 3809
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 104 3746 3760 "src/smt/smtutils.ml" 104 3746 3762
+)
+"src/smt/smtutils.ml" 105 3771 3789 "src/smt/smtutils.ml" 105 3771 3809
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 105 3771 3810 "src/smt/smtutils.ml" 105 3771 3811
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 105 3771 3812 "src/smt/smtutils.ml" 105 3771 3815
+type(
+  string
+)
+"src/smt/smtutils.ml" 105 3771 3816 "src/smt/smtutils.ml" 105 3771 3817
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 105 3771 3818 "src/smt/smtutils.ml" 105 3771 3835
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 105 3771 3836 "src/smt/smtutils.ml" 105 3771 3838
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 104 3746 3764 "src/smt/smtutils.ml" 104 3746 3766
+)
+"src/smt/smtutils.ml" 105 3771 3818 "src/smt/smtutils.ml" 105 3771 3838
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 105 3771 3839 "src/smt/smtutils.ml" 105 3771 3840
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 105 3771 3841 "src/smt/smtutils.ml" 105 3771 3844
+type(
+  string
+)
+"src/smt/smtutils.ml" 105 3771 3818 "src/smt/smtutils.ml" 105 3771 3844
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 105 3771 3812 "src/smt/smtutils.ml" 105 3771 3844
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 105 3771 3789 "src/smt/smtutils.ml" 105 3771 3844
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 105 3771 3779 "src/smt/smtutils.ml" 105 3771 3844
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 106 3845 3859 "src/smt/smtutils.ml" 106 3845 3861
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 107 3870 3878 "src/smt/smtutils.ml" 107 3870 3943
+)
+"src/smt/smtutils.ml" 106 3845 3863 "src/smt/smtutils.ml" 106 3845 3865
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 107 3870 3878 "src/smt/smtutils.ml" 107 3870 3943
+)
+"src/smt/smtutils.ml" 106 3845 3851 "src/smt/smtutils.ml" 106 3845 3866
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 107 3870 3878 "src/smt/smtutils.ml" 107 3870 3885
+type(
+  string
+)
+"src/smt/smtutils.ml" 107 3870 3886 "src/smt/smtutils.ml" 107 3870 3887
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 107 3870 3888 "src/smt/smtutils.ml" 107 3870 3905
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 107 3870 3906 "src/smt/smtutils.ml" 107 3870 3908
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 106 3845 3859 "src/smt/smtutils.ml" 106 3845 3861
+)
+"src/smt/smtutils.ml" 107 3870 3888 "src/smt/smtutils.ml" 107 3870 3908
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 107 3870 3909 "src/smt/smtutils.ml" 107 3870 3910
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 107 3870 3911 "src/smt/smtutils.ml" 107 3870 3914
+type(
+  string
+)
+"src/smt/smtutils.ml" 107 3870 3915 "src/smt/smtutils.ml" 107 3870 3916
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 107 3870 3917 "src/smt/smtutils.ml" 107 3870 3934
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 107 3870 3935 "src/smt/smtutils.ml" 107 3870 3937
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 106 3845 3863 "src/smt/smtutils.ml" 106 3845 3865
+)
+"src/smt/smtutils.ml" 107 3870 3917 "src/smt/smtutils.ml" 107 3870 3937
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 107 3870 3938 "src/smt/smtutils.ml" 107 3870 3939
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 107 3870 3940 "src/smt/smtutils.ml" 107 3870 3943
+type(
+  string
+)
+"src/smt/smtutils.ml" 107 3870 3917 "src/smt/smtutils.ml" 107 3870 3943
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 107 3870 3911 "src/smt/smtutils.ml" 107 3870 3943
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 107 3870 3888 "src/smt/smtutils.ml" 107 3870 3943
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 107 3870 3878 "src/smt/smtutils.ml" 107 3870 3943
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 108 3944 3958 "src/smt/smtutils.ml" 108 3944 3960
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 109 3969 3977 "src/smt/smtutils.ml" 109 3969 4042
+)
+"src/smt/smtutils.ml" 108 3944 3962 "src/smt/smtutils.ml" 108 3944 3964
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 109 3969 3977 "src/smt/smtutils.ml" 109 3969 4042
+)
+"src/smt/smtutils.ml" 108 3944 3950 "src/smt/smtutils.ml" 108 3944 3965
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 109 3969 3977 "src/smt/smtutils.ml" 109 3969 3984
+type(
+  string
+)
+"src/smt/smtutils.ml" 109 3969 3985 "src/smt/smtutils.ml" 109 3969 3986
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 109 3969 3987 "src/smt/smtutils.ml" 109 3969 4004
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 109 3969 4005 "src/smt/smtutils.ml" 109 3969 4007
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 108 3944 3958 "src/smt/smtutils.ml" 108 3944 3960
+)
+"src/smt/smtutils.ml" 109 3969 3987 "src/smt/smtutils.ml" 109 3969 4007
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 109 3969 4008 "src/smt/smtutils.ml" 109 3969 4009
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 109 3969 4010 "src/smt/smtutils.ml" 109 3969 4013
+type(
+  string
+)
+"src/smt/smtutils.ml" 109 3969 4014 "src/smt/smtutils.ml" 109 3969 4015
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 109 3969 4016 "src/smt/smtutils.ml" 109 3969 4033
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 109 3969 4034 "src/smt/smtutils.ml" 109 3969 4036
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 108 3944 3962 "src/smt/smtutils.ml" 108 3944 3964
+)
+"src/smt/smtutils.ml" 109 3969 4016 "src/smt/smtutils.ml" 109 3969 4036
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 109 3969 4037 "src/smt/smtutils.ml" 109 3969 4038
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 109 3969 4039 "src/smt/smtutils.ml" 109 3969 4042
+type(
+  string
+)
+"src/smt/smtutils.ml" 109 3969 4016 "src/smt/smtutils.ml" 109 3969 4042
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 109 3969 4010 "src/smt/smtutils.ml" 109 3969 4042
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 109 3969 3987 "src/smt/smtutils.ml" 109 3969 4042
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 109 3969 3977 "src/smt/smtutils.ml" 109 3969 4042
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 111 4044 4061 "src/smt/smtutils.ml" 111 4044 4063
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 112 4072 4080 "src/smt/smtutils.ml" 112 4072 4148
+)
+"src/smt/smtutils.ml" 111 4044 4065 "src/smt/smtutils.ml" 111 4044 4067
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 112 4072 4080 "src/smt/smtutils.ml" 112 4072 4148
+)
+"src/smt/smtutils.ml" 111 4044 4050 "src/smt/smtutils.ml" 111 4044 4068
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 112 4072 4080 "src/smt/smtutils.ml" 112 4072 4090
+type(
+  string
+)
+"src/smt/smtutils.ml" 112 4072 4091 "src/smt/smtutils.ml" 112 4072 4092
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 112 4072 4093 "src/smt/smtutils.ml" 112 4072 4110
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 112 4072 4111 "src/smt/smtutils.ml" 112 4072 4113
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 111 4044 4061 "src/smt/smtutils.ml" 111 4044 4063
+)
+"src/smt/smtutils.ml" 112 4072 4093 "src/smt/smtutils.ml" 112 4072 4113
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 112 4072 4114 "src/smt/smtutils.ml" 112 4072 4115
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 112 4072 4116 "src/smt/smtutils.ml" 112 4072 4119
+type(
+  string
+)
+"src/smt/smtutils.ml" 112 4072 4120 "src/smt/smtutils.ml" 112 4072 4121
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 112 4072 4122 "src/smt/smtutils.ml" 112 4072 4139
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 112 4072 4140 "src/smt/smtutils.ml" 112 4072 4142
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 111 4044 4065 "src/smt/smtutils.ml" 111 4044 4067
+)
+"src/smt/smtutils.ml" 112 4072 4122 "src/smt/smtutils.ml" 112 4072 4142
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 112 4072 4143 "src/smt/smtutils.ml" 112 4072 4144
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 112 4072 4145 "src/smt/smtutils.ml" 112 4072 4148
+type(
+  string
+)
+"src/smt/smtutils.ml" 112 4072 4122 "src/smt/smtutils.ml" 112 4072 4148
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 112 4072 4116 "src/smt/smtutils.ml" 112 4072 4148
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 112 4072 4093 "src/smt/smtutils.ml" 112 4072 4148
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 112 4072 4080 "src/smt/smtutils.ml" 112 4072 4148
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 113 4149 4166 "src/smt/smtutils.ml" 113 4149 4168
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e1 "src/smt/smtutils.ml" 114 4181 4189 "src/smt/smtutils.ml" 116 4281 4328
+)
+"src/smt/smtutils.ml" 113 4149 4170 "src/smt/smtutils.ml" 113 4149 4172
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e2 "src/smt/smtutils.ml" 114 4181 4189 "src/smt/smtutils.ml" 116 4281 4328
+)
+"src/smt/smtutils.ml" 113 4149 4174 "src/smt/smtutils.ml" 113 4149 4176
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e3 "src/smt/smtutils.ml" 114 4181 4189 "src/smt/smtutils.ml" 116 4281 4328
+)
+"src/smt/smtutils.ml" 113 4149 4155 "src/smt/smtutils.ml" 113 4149 4177
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 114 4181 4189 "src/smt/smtutils.ml" 114 4181 4199
+type(
+  string
+)
+"src/smt/smtutils.ml" 114 4181 4200 "src/smt/smtutils.ml" 114 4181 4201
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 114 4181 4202 "src/smt/smtutils.ml" 114 4181 4219
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 114 4181 4220 "src/smt/smtutils.ml" 114 4181 4222
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e1 "src/smt/smtutils.ml" 113 4149 4166 "src/smt/smtutils.ml" 113 4149 4168
+)
+"src/smt/smtutils.ml" 114 4181 4202 "src/smt/smtutils.ml" 114 4181 4222
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 114 4181 4223 "src/smt/smtutils.ml" 114 4181 4224
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 114 4181 4225 "src/smt/smtutils.ml" 114 4181 4228
+type(
+  string
+)
+"src/smt/smtutils.ml" 114 4181 4229 "src/smt/smtutils.ml" 114 4181 4230
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 115 4231 4252 "src/smt/smtutils.ml" 115 4231 4269
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 115 4231 4270 "src/smt/smtutils.ml" 115 4231 4272
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e2 "src/smt/smtutils.ml" 113 4149 4170 "src/smt/smtutils.ml" 113 4149 4172
+)
+"src/smt/smtutils.ml" 115 4231 4252 "src/smt/smtutils.ml" 115 4231 4272
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 115 4231 4273 "src/smt/smtutils.ml" 115 4231 4274
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 115 4231 4275 "src/smt/smtutils.ml" 115 4231 4278
+type(
+  string
+)
+"src/smt/smtutils.ml" 115 4231 4279 "src/smt/smtutils.ml" 115 4231 4280
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 116 4281 4302 "src/smt/smtutils.ml" 116 4281 4319
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 116 4281 4320 "src/smt/smtutils.ml" 116 4281 4322
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e3 "src/smt/smtutils.ml" 113 4149 4174 "src/smt/smtutils.ml" 113 4149 4176
+)
+"src/smt/smtutils.ml" 116 4281 4302 "src/smt/smtutils.ml" 116 4281 4322
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 116 4281 4323 "src/smt/smtutils.ml" 116 4281 4324
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 116 4281 4325 "src/smt/smtutils.ml" 116 4281 4328
+type(
+  string
+)
+"src/smt/smtutils.ml" 116 4281 4302 "src/smt/smtutils.ml" 116 4281 4328
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 115 4231 4275 "src/smt/smtutils.ml" 116 4281 4328
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 115 4231 4252 "src/smt/smtutils.ml" 116 4281 4328
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 114 4181 4225 "src/smt/smtutils.ml" 116 4281 4328
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 114 4181 4202 "src/smt/smtutils.ml" 116 4281 4328
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 114 4181 4189 "src/smt/smtutils.ml" 116 4281 4328
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 118 4330 4347 "src/smt/smtutils.ml" 118 4330 4348
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def f "src/smt/smtutils.ml" 119 4357 4365 "src/smt/smtutils.ml" 120 4405 4479
+)
+"src/smt/smtutils.ml" 118 4330 4350 "src/smt/smtutils.ml" 118 4330 4352
+type(
+  Smtsyntax.smtexpr list
+)
+ident(
+  def es "src/smt/smtutils.ml" 119 4357 4365 "src/smt/smtutils.ml" 120 4405 4479
+)
+"src/smt/smtutils.ml" 118 4330 4336 "src/smt/smtutils.ml" 118 4330 4353
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 119 4357 4365 "src/smt/smtutils.ml" 119 4357 4375
+type(
+  string
+)
+"src/smt/smtutils.ml" 119 4357 4376 "src/smt/smtutils.ml" 119 4357 4377
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 119 4357 4378 "src/smt/smtutils.ml" 119 4357 4394
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 119 4357 4395 "src/smt/smtutils.ml" 119 4357 4396
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref f "src/smt/smtutils.ml" 118 4330 4347 "src/smt/smtutils.ml" 118 4330 4348
+)
+"src/smt/smtutils.ml" 119 4357 4378 "src/smt/smtutils.ml" 119 4357 4396
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 119 4357 4397 "src/smt/smtutils.ml" 119 4357 4398
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 119 4357 4399 "src/smt/smtutils.ml" 119 4357 4402
+type(
+  string
+)
+"src/smt/smtutils.ml" 119 4357 4403 "src/smt/smtutils.ml" 119 4357 4404
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 120 4405 4426 "src/smt/smtutils.ml" 120 4405 4446
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list_comma "src/smt/smtutils.ml" 12 260 264 "src/smt/smtutils.ml" 12 260 284
+)
+"src/smt/smtutils.ml" 120 4405 4448 "src/smt/smtutils.ml" 120 4405 4451
+type(
+  (Smtsyntax.smtexpr -> string) -> Smtsyntax.smtexpr list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 120 4405 4452 "src/smt/smtutils.ml" 120 4405 4469
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 120 4405 4470 "src/smt/smtutils.ml" 120 4405 4472
+type(
+  Smtsyntax.smtexpr list
+)
+ident(
+  int_ref es "src/smt/smtutils.ml" 118 4330 4350 "src/smt/smtutils.ml" 118 4330 4352
+)
+"src/smt/smtutils.ml" 120 4405 4447 "src/smt/smtutils.ml" 120 4405 4473
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 120 4405 4426 "src/smt/smtutils.ml" 120 4405 4473
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 120 4405 4474 "src/smt/smtutils.ml" 120 4405 4475
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 120 4405 4476 "src/smt/smtutils.ml" 120 4405 4479
+type(
+  string
+)
+"src/smt/smtutils.ml" 120 4405 4426 "src/smt/smtutils.ml" 120 4405 4479
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 119 4357 4399 "src/smt/smtutils.ml" 120 4405 4479
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 119 4357 4378 "src/smt/smtutils.ml" 120 4405 4479
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 119 4357 4365 "src/smt/smtutils.ml" 120 4405 4479
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 121 4480 4494 "src/smt/smtutils.ml" 121 4480 4496
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtexpr) list
+)
+ident(
+  def bs "src/smt/smtutils.ml" 122 4504 4512 "src/smt/smtutils.ml" 126 4694 4737
+)
+"src/smt/smtutils.ml" 121 4480 4498 "src/smt/smtutils.ml" 121 4480 4499
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e "src/smt/smtutils.ml" 122 4504 4512 "src/smt/smtutils.ml" 126 4694 4737
+)
+"src/smt/smtutils.ml" 121 4480 4486 "src/smt/smtutils.ml" 121 4480 4500
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 122 4504 4512 "src/smt/smtutils.ml" 122 4504 4519
+type(
+  string
+)
+"src/smt/smtutils.ml" 122 4504 4520 "src/smt/smtutils.ml" 122 4504 4521
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 122 4504 4522 "src/smt/smtutils.ml" 122 4504 4542
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list_comma "src/smt/smtutils.ml" 12 260 264 "src/smt/smtutils.ml" 12 260 284
+)
+"src/smt/smtutils.ml" 123 4543 4562 "src/smt/smtutils.ml" 123 4543 4565
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtexpr -> string) ->
+  (Smtsyntax.smtvar * Smtsyntax.smtexpr) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 123 4543 4572 "src/smt/smtutils.ml" 123 4543 4573
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smtutils.ml" 124 4581 4601 "src/smt/smtutils.ml" 125 4616 4680
+)
+"src/smt/smtutils.ml" 123 4543 4575 "src/smt/smtutils.ml" 123 4543 4576
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e "src/smt/smtutils.ml" 124 4581 4601 "src/smt/smtutils.ml" 125 4616 4680
+)
+"src/smt/smtutils.ml" 123 4543 4571 "src/smt/smtutils.ml" 123 4543 4577
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 124 4581 4601 "src/smt/smtutils.ml" 124 4581 4615
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtexpr ->
+  (Smtsyntax.smtvar -> string) * (Smtsyntax.smtexpr -> string) -> string
+)
+ident(
+  int_ref string_of_pair "src/smt/smtutils.ml" 5 27 31 "src/smt/smtutils.ml" 5 27 45
+)
+"src/smt/smtutils.ml" 125 4616 4637 "src/smt/smtutils.ml" 125 4616 4638
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smtutils.ml" 123 4543 4572 "src/smt/smtutils.ml" 123 4543 4573
+)
+"src/smt/smtutils.ml" 125 4616 4640 "src/smt/smtutils.ml" 125 4616 4641
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e "src/smt/smtutils.ml" 123 4543 4575 "src/smt/smtutils.ml" 123 4543 4576
+)
+"src/smt/smtutils.ml" 125 4616 4636 "src/smt/smtutils.ml" 125 4616 4642
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 125 4616 4644 "src/smt/smtutils.ml" 125 4616 4660
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 125 4616 4662 "src/smt/smtutils.ml" 125 4616 4679
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 125 4616 4643 "src/smt/smtutils.ml" 125 4616 4680
+type(
+  (Smtsyntax.smtvar -> string) * (Smtsyntax.smtexpr -> string)
+)
+"src/smt/smtutils.ml" 124 4581 4601 "src/smt/smtutils.ml" 125 4616 4680
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 123 4543 4566 "src/smt/smtutils.ml" 125 4616 4681
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtexpr -> string
+)
+"src/smt/smtutils.ml" 125 4616 4682 "src/smt/smtutils.ml" 125 4616 4684
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtexpr) list
+)
+ident(
+  int_ref bs "src/smt/smtutils.ml" 121 4480 4494 "src/smt/smtutils.ml" 121 4480 4496
+)
+"src/smt/smtutils.ml" 123 4543 4561 "src/smt/smtutils.ml" 125 4616 4685
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 122 4504 4522 "src/smt/smtutils.ml" 125 4616 4685
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 125 4616 4686 "src/smt/smtutils.ml" 125 4616 4687
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 125 4616 4688 "src/smt/smtutils.ml" 125 4616 4691
+type(
+  string
+)
+"src/smt/smtutils.ml" 125 4616 4692 "src/smt/smtutils.ml" 125 4616 4693
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 126 4694 4712 "src/smt/smtutils.ml" 126 4694 4729
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 126 4694 4730 "src/smt/smtutils.ml" 126 4694 4731
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e "src/smt/smtutils.ml" 121 4480 4498 "src/smt/smtutils.ml" 121 4480 4499
+)
+"src/smt/smtutils.ml" 126 4694 4712 "src/smt/smtutils.ml" 126 4694 4731
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 126 4694 4732 "src/smt/smtutils.ml" 126 4694 4733
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 126 4694 4734 "src/smt/smtutils.ml" 126 4694 4737
+type(
+  string
+)
+"src/smt/smtutils.ml" 126 4694 4712 "src/smt/smtutils.ml" 126 4694 4737
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 125 4616 4688 "src/smt/smtutils.ml" 126 4694 4737
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 122 4504 4522 "src/smt/smtutils.ml" 126 4694 4737
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 122 4504 4512 "src/smt/smtutils.ml" 126 4694 4737
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 128 4739 4756 "src/smt/smtutils.ml" 128 4739 4758
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list
+)
+ident(
+  def bs "src/smt/smtutils.ml" 129 4766 4774 "src/smt/smtutils.ml" 133 4973 5019
+)
+"src/smt/smtutils.ml" 128 4739 4760 "src/smt/smtutils.ml" 128 4739 4761
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e "src/smt/smtutils.ml" 129 4766 4774 "src/smt/smtutils.ml" 133 4973 5019
+)
+"src/smt/smtutils.ml" 128 4739 4745 "src/smt/smtutils.ml" 128 4739 4762
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 129 4766 4774 "src/smt/smtutils.ml" 129 4766 4784
+type(
+  string
+)
+"src/smt/smtutils.ml" 129 4766 4785 "src/smt/smtutils.ml" 129 4766 4786
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 129 4766 4787 "src/smt/smtutils.ml" 129 4766 4807
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list_comma "src/smt/smtutils.ml" 12 260 264 "src/smt/smtutils.ml" 12 260 284
+)
+"src/smt/smtutils.ml" 130 4808 4831 "src/smt/smtutils.ml" 130 4808 4834
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort -> string) ->
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 130 4808 4841 "src/smt/smtutils.ml" 130 4808 4842
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smtutils.ml" 131 4850 4874 "src/smt/smtutils.ml" 132 4896 4959
+)
+"src/smt/smtutils.ml" 130 4808 4844 "src/smt/smtutils.ml" 130 4808 4845
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def s "src/smt/smtutils.ml" 131 4850 4874 "src/smt/smtutils.ml" 132 4896 4959
+)
+"src/smt/smtutils.ml" 130 4808 4840 "src/smt/smtutils.ml" 130 4808 4846
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort
+)
+"src/smt/smtutils.ml" 131 4850 4874 "src/smt/smtutils.ml" 131 4850 4888
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort ->
+  (Smtsyntax.smtvar -> string) * (Smtsyntax.smtsort -> string) -> string
+)
+ident(
+  int_ref string_of_pair "src/smt/smtutils.ml" 5 27 31 "src/smt/smtutils.ml" 5 27 45
+)
+"src/smt/smtutils.ml" 131 4850 4890 "src/smt/smtutils.ml" 131 4850 4891
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smtutils.ml" 130 4808 4841 "src/smt/smtutils.ml" 130 4808 4842
+)
+"src/smt/smtutils.ml" 131 4850 4893 "src/smt/smtutils.ml" 131 4850 4894
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref s "src/smt/smtutils.ml" 130 4808 4844 "src/smt/smtutils.ml" 130 4808 4845
+)
+"src/smt/smtutils.ml" 131 4850 4889 "src/smt/smtutils.ml" 131 4850 4895
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort
+)
+"src/smt/smtutils.ml" 132 4896 4923 "src/smt/smtutils.ml" 132 4896 4939
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 132 4896 4941 "src/smt/smtutils.ml" 132 4896 4958
+type(
+  Smtsyntax.smtsort -> string
+)
+ident(
+  int_ref string_of_smtsort "src/smt/smtutils.ml" 40 1054 1062 "src/smt/smtutils.ml" 40 1054 1079
+)
+"src/smt/smtutils.ml" 132 4896 4922 "src/smt/smtutils.ml" 132 4896 4959
+type(
+  (Smtsyntax.smtvar -> string) * (Smtsyntax.smtsort -> string)
+)
+"src/smt/smtutils.ml" 131 4850 4874 "src/smt/smtutils.ml" 132 4896 4959
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 130 4808 4835 "src/smt/smtutils.ml" 132 4896 4960
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort -> string
+)
+"src/smt/smtutils.ml" 132 4896 4961 "src/smt/smtutils.ml" 132 4896 4963
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list
+)
+ident(
+  int_ref bs "src/smt/smtutils.ml" 128 4739 4756 "src/smt/smtutils.ml" 128 4739 4758
+)
+"src/smt/smtutils.ml" 130 4808 4830 "src/smt/smtutils.ml" 132 4896 4964
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 129 4766 4787 "src/smt/smtutils.ml" 132 4896 4964
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 132 4896 4965 "src/smt/smtutils.ml" 132 4896 4966
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 132 4896 4967 "src/smt/smtutils.ml" 132 4896 4970
+type(
+  string
+)
+"src/smt/smtutils.ml" 132 4896 4971 "src/smt/smtutils.ml" 132 4896 4972
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 133 4973 4994 "src/smt/smtutils.ml" 133 4973 5011
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 133 4973 5012 "src/smt/smtutils.ml" 133 4973 5013
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e "src/smt/smtutils.ml" 128 4739 4760 "src/smt/smtutils.ml" 128 4739 4761
+)
+"src/smt/smtutils.ml" 133 4973 4994 "src/smt/smtutils.ml" 133 4973 5013
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 133 4973 5014 "src/smt/smtutils.ml" 133 4973 5015
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 133 4973 5016 "src/smt/smtutils.ml" 133 4973 5019
+type(
+  string
+)
+"src/smt/smtutils.ml" 133 4973 4994 "src/smt/smtutils.ml" 133 4973 5019
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 132 4896 4967 "src/smt/smtutils.ml" 133 4973 5019
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 129 4766 4787 "src/smt/smtutils.ml" 133 4973 5019
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 129 4766 4774 "src/smt/smtutils.ml" 133 4973 5019
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 135 5021 5038 "src/smt/smtutils.ml" 135 5021 5040
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list
+)
+ident(
+  def bs "src/smt/smtutils.ml" 136 5048 5056 "src/smt/smtutils.ml" 140 5255 5301
+)
+"src/smt/smtutils.ml" 135 5021 5042 "src/smt/smtutils.ml" 135 5021 5043
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e "src/smt/smtutils.ml" 136 5048 5056 "src/smt/smtutils.ml" 140 5255 5301
+)
+"src/smt/smtutils.ml" 135 5021 5027 "src/smt/smtutils.ml" 135 5021 5044
+type(
+  Smtsyntax.smtexpr
+)
+"src/smt/smtutils.ml" 136 5048 5056 "src/smt/smtutils.ml" 136 5048 5066
+type(
+  string
+)
+"src/smt/smtutils.ml" 136 5048 5067 "src/smt/smtutils.ml" 136 5048 5068
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 136 5048 5069 "src/smt/smtutils.ml" 136 5048 5089
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list_comma "src/smt/smtutils.ml" 12 260 264 "src/smt/smtutils.ml" 12 260 284
+)
+"src/smt/smtutils.ml" 137 5090 5113 "src/smt/smtutils.ml" 137 5090 5116
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort -> string) ->
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 137 5090 5123 "src/smt/smtutils.ml" 137 5090 5124
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smtutils.ml" 138 5132 5156 "src/smt/smtutils.ml" 139 5178 5241
+)
+"src/smt/smtutils.ml" 137 5090 5126 "src/smt/smtutils.ml" 137 5090 5127
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def s "src/smt/smtutils.ml" 138 5132 5156 "src/smt/smtutils.ml" 139 5178 5241
+)
+"src/smt/smtutils.ml" 137 5090 5122 "src/smt/smtutils.ml" 137 5090 5128
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort
+)
+"src/smt/smtutils.ml" 138 5132 5156 "src/smt/smtutils.ml" 138 5132 5170
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort ->
+  (Smtsyntax.smtvar -> string) * (Smtsyntax.smtsort -> string) -> string
+)
+ident(
+  int_ref string_of_pair "src/smt/smtutils.ml" 5 27 31 "src/smt/smtutils.ml" 5 27 45
+)
+"src/smt/smtutils.ml" 138 5132 5172 "src/smt/smtutils.ml" 138 5132 5173
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smtutils.ml" 137 5090 5123 "src/smt/smtutils.ml" 137 5090 5124
+)
+"src/smt/smtutils.ml" 138 5132 5175 "src/smt/smtutils.ml" 138 5132 5176
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref s "src/smt/smtutils.ml" 137 5090 5126 "src/smt/smtutils.ml" 137 5090 5127
+)
+"src/smt/smtutils.ml" 138 5132 5171 "src/smt/smtutils.ml" 138 5132 5177
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort
+)
+"src/smt/smtutils.ml" 139 5178 5205 "src/smt/smtutils.ml" 139 5178 5221
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 139 5178 5223 "src/smt/smtutils.ml" 139 5178 5240
+type(
+  Smtsyntax.smtsort -> string
+)
+ident(
+  int_ref string_of_smtsort "src/smt/smtutils.ml" 40 1054 1062 "src/smt/smtutils.ml" 40 1054 1079
+)
+"src/smt/smtutils.ml" 139 5178 5204 "src/smt/smtutils.ml" 139 5178 5241
+type(
+  (Smtsyntax.smtvar -> string) * (Smtsyntax.smtsort -> string)
+)
+"src/smt/smtutils.ml" 138 5132 5156 "src/smt/smtutils.ml" 139 5178 5241
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 137 5090 5117 "src/smt/smtutils.ml" 139 5178 5242
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort -> string
+)
+"src/smt/smtutils.ml" 139 5178 5243 "src/smt/smtutils.ml" 139 5178 5245
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list
+)
+ident(
+  int_ref bs "src/smt/smtutils.ml" 135 5021 5038 "src/smt/smtutils.ml" 135 5021 5040
+)
+"src/smt/smtutils.ml" 137 5090 5112 "src/smt/smtutils.ml" 139 5178 5246
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 136 5048 5069 "src/smt/smtutils.ml" 139 5178 5246
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 139 5178 5247 "src/smt/smtutils.ml" 139 5178 5248
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 139 5178 5249 "src/smt/smtutils.ml" 139 5178 5252
+type(
+  string
+)
+"src/smt/smtutils.ml" 139 5178 5253 "src/smt/smtutils.ml" 139 5178 5254
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 140 5255 5276 "src/smt/smtutils.ml" 140 5255 5293
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 140 5255 5294 "src/smt/smtutils.ml" 140 5255 5295
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e "src/smt/smtutils.ml" 135 5021 5042 "src/smt/smtutils.ml" 135 5021 5043
+)
+"src/smt/smtutils.ml" 140 5255 5276 "src/smt/smtutils.ml" 140 5255 5295
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 140 5255 5296 "src/smt/smtutils.ml" 140 5255 5297
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 140 5255 5298 "src/smt/smtutils.ml" 140 5255 5301
+type(
+  string
+)
+"src/smt/smtutils.ml" 140 5255 5276 "src/smt/smtutils.ml" 140 5255 5301
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 139 5178 5249 "src/smt/smtutils.ml" 140 5255 5301
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 136 5048 5069 "src/smt/smtutils.ml" 140 5255 5301
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 136 5048 5056 "src/smt/smtutils.ml" 140 5255 5301
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 58 1687 1691 "src/smt/smtutils.ml" 140 5255 5301
+type(
+  string
+)
+"src/smt/smtutils.ml" 57 1670 1672 "src/smt/smtutils.ml" 140 5255 5301
+type(
+  Smtsyntax.smtexpr -> string
+)
+type(
+  Smtsyntax.smtexpr -> string
+)
+"src/smt/smtutils.ml" 142 5303 5311 "src/smt/smtutils.ml" 142 5303 5327
+type(
+  Smtsyntax.smtcmd -> string
+)
+ident(
+  def string_of_smtcmd "src/smt/smtutils.ml" 142 5303 5303 "src/smt/smtutils.ml" 1 0 -1
+)
+"src/smt/smtutils.ml" 143 5349 5355 "src/smt/smtutils.ml" 143 5349 5359
+type(
+  Smtsyntax.smtcmd
+)
+ident(
+  def stmt "src/smt/smtutils.ml" 144 5363 5367 "src/smt/smtutils.ml" 203 7351 7425
+)
+"src/smt/smtutils.ml" 144 5363 5373 "src/smt/smtutils.ml" 144 5363 5377
+type(
+  Smtsyntax.smtcmd
+)
+ident(
+  int_ref stmt "src/smt/smtutils.ml" 143 5349 5355 "src/smt/smtutils.ml" 143 5349 5359
+)
+"src/smt/smtutils.ml" 145 5383 5401 "src/smt/smtutils.ml" 145 5383 5402
+type(
+  Smtsyntax.smtlogic
+)
+ident(
+  def l "src/smt/smtutils.ml" 146 5406 5414 "src/smt/smtutils.ml" 146 5406 5458
+)
+"src/smt/smtutils.ml" 145 5383 5389 "src/smt/smtutils.ml" 145 5383 5402
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 146 5406 5414 "src/smt/smtutils.ml" 146 5406 5429
+type(
+  string
+)
+"src/smt/smtutils.ml" 146 5406 5430 "src/smt/smtutils.ml" 146 5406 5431
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 146 5406 5432 "src/smt/smtutils.ml" 146 5406 5450
+type(
+  Smtsyntax.smtlogic -> string
+)
+ident(
+  int_ref string_of_smtlogic "src/smt/smtutils.ml" 22 565 569 "src/smt/smtutils.ml" 22 565 587
+)
+"src/smt/smtutils.ml" 146 5406 5451 "src/smt/smtutils.ml" 146 5406 5452
+type(
+  Smtsyntax.smtlogic
+)
+ident(
+  int_ref l "src/smt/smtutils.ml" 145 5383 5401 "src/smt/smtutils.ml" 145 5383 5402
+)
+"src/smt/smtutils.ml" 146 5406 5432 "src/smt/smtutils.ml" 146 5406 5452
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 146 5406 5453 "src/smt/smtutils.ml" 146 5406 5454
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 146 5406 5455 "src/smt/smtutils.ml" 146 5406 5458
+type(
+  string
+)
+"src/smt/smtutils.ml" 146 5406 5432 "src/smt/smtutils.ml" 146 5406 5458
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 146 5406 5414 "src/smt/smtutils.ml" 146 5406 5458
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 148 5460 5478 "src/smt/smtutils.ml" 148 5460 5479
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def f "src/smt/smtutils.ml" 149 5491 5499 "src/smt/smtutils.ml" 152 5623 5660
+)
+"src/smt/smtutils.ml" 148 5460 5481 "src/smt/smtutils.ml" 148 5460 5483
+type(
+  Smtsyntax.smtsort list
+)
+ident(
+  def ps "src/smt/smtutils.ml" 149 5491 5499 "src/smt/smtutils.ml" 152 5623 5660
+)
+"src/smt/smtutils.ml" 148 5460 5485 "src/smt/smtutils.ml" 148 5460 5486
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def s "src/smt/smtutils.ml" 149 5491 5499 "src/smt/smtutils.ml" 152 5623 5660
+)
+"src/smt/smtutils.ml" 148 5460 5466 "src/smt/smtutils.ml" 148 5460 5487
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 149 5491 5499 "src/smt/smtutils.ml" 149 5491 5513
+type(
+  string
+)
+"src/smt/smtutils.ml" 149 5491 5514 "src/smt/smtutils.ml" 149 5491 5515
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 150 5516 5528 "src/smt/smtutils.ml" 150 5516 5544
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 150 5516 5545 "src/smt/smtutils.ml" 150 5516 5546
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref f "src/smt/smtutils.ml" 148 5460 5478 "src/smt/smtutils.ml" 148 5460 5479
+)
+"src/smt/smtutils.ml" 150 5516 5528 "src/smt/smtutils.ml" 150 5516 5546
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 150 5516 5547 "src/smt/smtutils.ml" 150 5516 5548
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 150 5516 5549 "src/smt/smtutils.ml" 150 5516 5552
+type(
+  string
+)
+"src/smt/smtutils.ml" 150 5516 5553 "src/smt/smtutils.ml" 150 5516 5554
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 151 5555 5567 "src/smt/smtutils.ml" 151 5555 5587
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list_comma "src/smt/smtutils.ml" 12 260 264 "src/smt/smtutils.ml" 12 260 284
+)
+"src/smt/smtutils.ml" 151 5555 5589 "src/smt/smtutils.ml" 151 5555 5592
+type(
+  (Smtsyntax.smtsort -> string) -> Smtsyntax.smtsort list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 151 5555 5593 "src/smt/smtutils.ml" 151 5555 5610
+type(
+  Smtsyntax.smtsort -> string
+)
+ident(
+  int_ref string_of_smtsort "src/smt/smtutils.ml" 40 1054 1062 "src/smt/smtutils.ml" 40 1054 1079
+)
+"src/smt/smtutils.ml" 151 5555 5611 "src/smt/smtutils.ml" 151 5555 5613
+type(
+  Smtsyntax.smtsort list
+)
+ident(
+  int_ref ps "src/smt/smtutils.ml" 148 5460 5481 "src/smt/smtutils.ml" 148 5460 5483
+)
+"src/smt/smtutils.ml" 151 5555 5588 "src/smt/smtutils.ml" 151 5555 5614
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 151 5555 5567 "src/smt/smtutils.ml" 151 5555 5614
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 151 5555 5615 "src/smt/smtutils.ml" 151 5555 5616
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 151 5555 5617 "src/smt/smtutils.ml" 151 5555 5620
+type(
+  string
+)
+"src/smt/smtutils.ml" 151 5555 5621 "src/smt/smtutils.ml" 151 5555 5622
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 152 5623 5635 "src/smt/smtutils.ml" 152 5623 5652
+type(
+  Smtsyntax.smtsort -> string
+)
+ident(
+  int_ref string_of_smtsort "src/smt/smtutils.ml" 40 1054 1062 "src/smt/smtutils.ml" 40 1054 1079
+)
+"src/smt/smtutils.ml" 152 5623 5653 "src/smt/smtutils.ml" 152 5623 5654
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref s "src/smt/smtutils.ml" 148 5460 5485 "src/smt/smtutils.ml" 148 5460 5486
+)
+"src/smt/smtutils.ml" 152 5623 5635 "src/smt/smtutils.ml" 152 5623 5654
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 152 5623 5655 "src/smt/smtutils.ml" 152 5623 5656
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 152 5623 5657 "src/smt/smtutils.ml" 152 5623 5660
+type(
+  string
+)
+"src/smt/smtutils.ml" 152 5623 5635 "src/smt/smtutils.ml" 152 5623 5660
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 151 5555 5617 "src/smt/smtutils.ml" 152 5623 5660
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 151 5555 5567 "src/smt/smtutils.ml" 152 5623 5660
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 150 5516 5549 "src/smt/smtutils.ml" 152 5623 5660
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 150 5516 5528 "src/smt/smtutils.ml" 152 5623 5660
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 149 5491 5499 "src/smt/smtutils.ml" 152 5623 5660
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 153 5661 5678 "src/smt/smtutils.ml" 153 5661 5679
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def f "src/smt/smtutils.ml" 154 5694 5702 "src/smt/smtutils.ml" 161 5971 6008
+)
+"src/smt/smtutils.ml" 153 5661 5681 "src/smt/smtutils.ml" 153 5661 5683
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list
+)
+ident(
+  def ps "src/smt/smtutils.ml" 154 5694 5702 "src/smt/smtutils.ml" 161 5971 6008
+)
+"src/smt/smtutils.ml" 153 5661 5685 "src/smt/smtutils.ml" 153 5661 5686
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def s "src/smt/smtutils.ml" 154 5694 5702 "src/smt/smtutils.ml" 161 5971 6008
+)
+"src/smt/smtutils.ml" 153 5661 5688 "src/smt/smtutils.ml" 153 5661 5689
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e "src/smt/smtutils.ml" 154 5694 5702 "src/smt/smtutils.ml" 161 5971 6008
+)
+"src/smt/smtutils.ml" 153 5661 5667 "src/smt/smtutils.ml" 153 5661 5690
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 154 5694 5702 "src/smt/smtutils.ml" 154 5694 5715
+type(
+  string
+)
+"src/smt/smtutils.ml" 154 5694 5716 "src/smt/smtutils.ml" 154 5694 5717
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 155 5718 5730 "src/smt/smtutils.ml" 155 5718 5746
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 155 5718 5747 "src/smt/smtutils.ml" 155 5718 5748
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref f "src/smt/smtutils.ml" 153 5661 5678 "src/smt/smtutils.ml" 153 5661 5679
+)
+"src/smt/smtutils.ml" 155 5718 5730 "src/smt/smtutils.ml" 155 5718 5748
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 155 5718 5749 "src/smt/smtutils.ml" 155 5718 5750
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 155 5718 5751 "src/smt/smtutils.ml" 155 5718 5754
+type(
+  string
+)
+"src/smt/smtutils.ml" 155 5718 5755 "src/smt/smtutils.ml" 155 5718 5756
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 156 5757 5769 "src/smt/smtutils.ml" 156 5757 5789
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list_comma "src/smt/smtutils.ml" 12 260 264 "src/smt/smtutils.ml" 12 260 284
+)
+"src/smt/smtutils.ml" 157 5790 5805 "src/smt/smtutils.ml" 157 5790 5808
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort -> string) ->
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 157 5790 5815 "src/smt/smtutils.ml" 157 5790 5816
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def p "src/smt/smtutils.ml" 158 5824 5840 "src/smt/smtutils.ml" 159 5862 5917
+)
+"src/smt/smtutils.ml" 157 5790 5818 "src/smt/smtutils.ml" 157 5790 5819
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def t "src/smt/smtutils.ml" 158 5824 5840 "src/smt/smtutils.ml" 159 5862 5917
+)
+"src/smt/smtutils.ml" 157 5790 5814 "src/smt/smtutils.ml" 157 5790 5820
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort
+)
+"src/smt/smtutils.ml" 158 5824 5840 "src/smt/smtutils.ml" 158 5824 5854
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort ->
+  (Smtsyntax.smtvar -> string) * (Smtsyntax.smtsort -> string) -> string
+)
+ident(
+  int_ref string_of_pair "src/smt/smtutils.ml" 5 27 31 "src/smt/smtutils.ml" 5 27 45
+)
+"src/smt/smtutils.ml" 158 5824 5856 "src/smt/smtutils.ml" 158 5824 5857
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref p "src/smt/smtutils.ml" 157 5790 5815 "src/smt/smtutils.ml" 157 5790 5816
+)
+"src/smt/smtutils.ml" 158 5824 5859 "src/smt/smtutils.ml" 158 5824 5860
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref t "src/smt/smtutils.ml" 157 5790 5818 "src/smt/smtutils.ml" 157 5790 5819
+)
+"src/smt/smtutils.ml" 158 5824 5855 "src/smt/smtutils.ml" 158 5824 5861
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort
+)
+"src/smt/smtutils.ml" 159 5862 5881 "src/smt/smtutils.ml" 159 5862 5897
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 159 5862 5899 "src/smt/smtutils.ml" 159 5862 5916
+type(
+  Smtsyntax.smtsort -> string
+)
+ident(
+  int_ref string_of_smtsort "src/smt/smtutils.ml" 40 1054 1062 "src/smt/smtutils.ml" 40 1054 1079
+)
+"src/smt/smtutils.ml" 159 5862 5880 "src/smt/smtutils.ml" 159 5862 5917
+type(
+  (Smtsyntax.smtvar -> string) * (Smtsyntax.smtsort -> string)
+)
+"src/smt/smtutils.ml" 158 5824 5840 "src/smt/smtutils.ml" 159 5862 5917
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 157 5790 5809 "src/smt/smtutils.ml" 159 5862 5918
+type(
+  Smtsyntax.smtvar * Smtsyntax.smtsort -> string
+)
+"src/smt/smtutils.ml" 159 5862 5919 "src/smt/smtutils.ml" 159 5862 5921
+type(
+  (Smtsyntax.smtvar * Smtsyntax.smtsort) list
+)
+ident(
+  int_ref ps "src/smt/smtutils.ml" 153 5661 5681 "src/smt/smtutils.ml" 153 5661 5683
+)
+"src/smt/smtutils.ml" 157 5790 5804 "src/smt/smtutils.ml" 159 5862 5922
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 156 5757 5769 "src/smt/smtutils.ml" 159 5862 5922
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 159 5862 5923 "src/smt/smtutils.ml" 159 5862 5924
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 159 5862 5925 "src/smt/smtutils.ml" 159 5862 5928
+type(
+  string
+)
+"src/smt/smtutils.ml" 159 5862 5929 "src/smt/smtutils.ml" 159 5862 5930
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 160 5931 5943 "src/smt/smtutils.ml" 160 5931 5960
+type(
+  Smtsyntax.smtsort -> string
+)
+ident(
+  int_ref string_of_smtsort "src/smt/smtutils.ml" 40 1054 1062 "src/smt/smtutils.ml" 40 1054 1079
+)
+"src/smt/smtutils.ml" 160 5931 5961 "src/smt/smtutils.ml" 160 5931 5962
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref s "src/smt/smtutils.ml" 153 5661 5685 "src/smt/smtutils.ml" 153 5661 5686
+)
+"src/smt/smtutils.ml" 160 5931 5943 "src/smt/smtutils.ml" 160 5931 5962
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 160 5931 5963 "src/smt/smtutils.ml" 160 5931 5964
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 160 5931 5965 "src/smt/smtutils.ml" 160 5931 5968
+type(
+  string
+)
+"src/smt/smtutils.ml" 160 5931 5969 "src/smt/smtutils.ml" 160 5931 5970
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 161 5971 5983 "src/smt/smtutils.ml" 161 5971 6000
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 161 5971 6001 "src/smt/smtutils.ml" 161 5971 6002
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e "src/smt/smtutils.ml" 153 5661 5688 "src/smt/smtutils.ml" 153 5661 5689
+)
+"src/smt/smtutils.ml" 161 5971 5983 "src/smt/smtutils.ml" 161 5971 6002
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 161 5971 6003 "src/smt/smtutils.ml" 161 5971 6004
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 161 5971 6005 "src/smt/smtutils.ml" 161 5971 6008
+type(
+  string
+)
+"src/smt/smtutils.ml" 161 5971 5983 "src/smt/smtutils.ml" 161 5971 6008
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 160 5931 5965 "src/smt/smtutils.ml" 161 5971 6008
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 160 5931 5943 "src/smt/smtutils.ml" 161 5971 6008
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 159 5862 5925 "src/smt/smtutils.ml" 161 5971 6008
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 156 5757 5769 "src/smt/smtutils.ml" 161 5971 6008
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 155 5718 5751 "src/smt/smtutils.ml" 161 5971 6008
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 155 5718 5730 "src/smt/smtutils.ml" 161 5971 6008
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 154 5694 5702 "src/smt/smtutils.ml" 161 5971 6008
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 162 6009 6028 "src/smt/smtutils.ml" 162 6009 6029
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def s "src/smt/smtutils.ml" 163 6037 6045 "src/smt/smtutils.ml" 163 6037 6111
+)
+"src/smt/smtutils.ml" 162 6009 6031 "src/smt/smtutils.ml" 162 6009 6032
+type(
+  int
+)
+ident(
+  def i "src/smt/smtutils.ml" 163 6037 6045 "src/smt/smtutils.ml" 163 6037 6111
+)
+"src/smt/smtutils.ml" 162 6009 6015 "src/smt/smtutils.ml" 162 6009 6033
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 163 6037 6045 "src/smt/smtutils.ml" 163 6037 6060
+type(
+  string
+)
+"src/smt/smtutils.ml" 163 6037 6061 "src/smt/smtutils.ml" 163 6037 6062
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 163 6037 6063 "src/smt/smtutils.ml" 163 6037 6079
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 163 6037 6080 "src/smt/smtutils.ml" 163 6037 6081
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref s "src/smt/smtutils.ml" 162 6009 6028 "src/smt/smtutils.ml" 162 6009 6029
+)
+"src/smt/smtutils.ml" 163 6037 6063 "src/smt/smtutils.ml" 163 6037 6081
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 163 6037 6082 "src/smt/smtutils.ml" 163 6037 6083
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 163 6037 6084 "src/smt/smtutils.ml" 163 6037 6087
+type(
+  string
+)
+"src/smt/smtutils.ml" 163 6037 6088 "src/smt/smtutils.ml" 163 6037 6089
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 163 6037 6090 "src/smt/smtutils.ml" 163 6037 6103
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/smt/smtutils.ml" 163 6037 6104 "src/smt/smtutils.ml" 163 6037 6105
+type(
+  int
+)
+ident(
+  int_ref i "src/smt/smtutils.ml" 162 6009 6031 "src/smt/smtutils.ml" 162 6009 6032
+)
+"src/smt/smtutils.ml" 163 6037 6090 "src/smt/smtutils.ml" 163 6037 6105
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 163 6037 6106 "src/smt/smtutils.ml" 163 6037 6107
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 163 6037 6108 "src/smt/smtutils.ml" 163 6037 6111
+type(
+  string
+)
+"src/smt/smtutils.ml" 163 6037 6090 "src/smt/smtutils.ml" 163 6037 6111
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 163 6037 6084 "src/smt/smtutils.ml" 163 6037 6111
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 163 6037 6063 "src/smt/smtutils.ml" 163 6037 6111
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 163 6037 6045 "src/smt/smtutils.ml" 163 6037 6111
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 164 6112 6130 "src/smt/smtutils.ml" 164 6112 6131
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def s "src/smt/smtutils.ml" 165 6144 6152 "src/smt/smtutils.ml" 168 6276 6313
+)
+"src/smt/smtutils.ml" 164 6112 6133 "src/smt/smtutils.ml" 164 6112 6135
+type(
+  Smtsyntax.smtvar list
+)
+ident(
+  def vs "src/smt/smtutils.ml" 165 6144 6152 "src/smt/smtutils.ml" 168 6276 6313
+)
+"src/smt/smtutils.ml" 164 6112 6137 "src/smt/smtutils.ml" 164 6112 6139
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  def so "src/smt/smtutils.ml" 165 6144 6152 "src/smt/smtutils.ml" 168 6276 6313
+)
+"src/smt/smtutils.ml" 164 6112 6118 "src/smt/smtutils.ml" 164 6112 6140
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 165 6144 6152 "src/smt/smtutils.ml" 165 6144 6166
+type(
+  string
+)
+"src/smt/smtutils.ml" 165 6144 6167 "src/smt/smtutils.ml" 165 6144 6168
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 166 6169 6181 "src/smt/smtutils.ml" 166 6169 6197
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 166 6169 6198 "src/smt/smtutils.ml" 166 6169 6199
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref s "src/smt/smtutils.ml" 164 6112 6130 "src/smt/smtutils.ml" 164 6112 6131
+)
+"src/smt/smtutils.ml" 166 6169 6181 "src/smt/smtutils.ml" 166 6169 6199
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 166 6169 6200 "src/smt/smtutils.ml" 166 6169 6201
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 166 6169 6202 "src/smt/smtutils.ml" 166 6169 6205
+type(
+  string
+)
+"src/smt/smtutils.ml" 166 6169 6206 "src/smt/smtutils.ml" 166 6169 6207
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 167 6208 6220 "src/smt/smtutils.ml" 167 6208 6240
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list_comma "src/smt/smtutils.ml" 12 260 264 "src/smt/smtutils.ml" 12 260 284
+)
+"src/smt/smtutils.ml" 167 6208 6242 "src/smt/smtutils.ml" 167 6208 6245
+type(
+  (Smtsyntax.smtvar -> string) -> Smtsyntax.smtvar list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 167 6208 6246 "src/smt/smtutils.ml" 167 6208 6262
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 167 6208 6263 "src/smt/smtutils.ml" 167 6208 6265
+type(
+  Smtsyntax.smtvar list
+)
+ident(
+  int_ref vs "src/smt/smtutils.ml" 164 6112 6133 "src/smt/smtutils.ml" 164 6112 6135
+)
+"src/smt/smtutils.ml" 167 6208 6241 "src/smt/smtutils.ml" 167 6208 6266
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 167 6208 6219 "src/smt/smtutils.ml" 167 6208 6267
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 167 6208 6268 "src/smt/smtutils.ml" 167 6208 6269
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 167 6208 6270 "src/smt/smtutils.ml" 167 6208 6273
+type(
+  string
+)
+"src/smt/smtutils.ml" 167 6208 6274 "src/smt/smtutils.ml" 167 6208 6275
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 168 6276 6287 "src/smt/smtutils.ml" 168 6276 6304
+type(
+  Smtsyntax.smtsort -> string
+)
+ident(
+  int_ref string_of_smtsort "src/smt/smtutils.ml" 40 1054 1062 "src/smt/smtutils.ml" 40 1054 1079
+)
+"src/smt/smtutils.ml" 168 6276 6305 "src/smt/smtutils.ml" 168 6276 6307
+type(
+  Smtsyntax.smtsort
+)
+ident(
+  int_ref so "src/smt/smtutils.ml" 164 6112 6137 "src/smt/smtutils.ml" 164 6112 6139
+)
+"src/smt/smtutils.ml" 168 6276 6287 "src/smt/smtutils.ml" 168 6276 6307
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 168 6276 6308 "src/smt/smtutils.ml" 168 6276 6309
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 168 6276 6310 "src/smt/smtutils.ml" 168 6276 6313
+type(
+  string
+)
+"src/smt/smtutils.ml" 168 6276 6287 "src/smt/smtutils.ml" 168 6276 6313
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 167 6208 6270 "src/smt/smtutils.ml" 168 6276 6313
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 167 6208 6219 "src/smt/smtutils.ml" 168 6276 6313
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 166 6169 6202 "src/smt/smtutils.ml" 168 6276 6313
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 166 6169 6181 "src/smt/smtutils.ml" 168 6276 6313
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 165 6144 6152 "src/smt/smtutils.ml" 168 6276 6313
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 170 6315 6331 "src/smt/smtutils.ml" 170 6315 6332
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  def e "src/smt/smtutils.ml" 171 6336 6344 "src/smt/smtutils.ml" 171 6336 6385
+)
+"src/smt/smtutils.ml" 170 6315 6321 "src/smt/smtutils.ml" 170 6315 6332
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 171 6336 6344 "src/smt/smtutils.ml" 171 6336 6357
+type(
+  string
+)
+"src/smt/smtutils.ml" 171 6336 6358 "src/smt/smtutils.ml" 171 6336 6359
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 171 6336 6360 "src/smt/smtutils.ml" 171 6336 6377
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 171 6336 6378 "src/smt/smtutils.ml" 171 6336 6379
+type(
+  Smtsyntax.smtexpr
+)
+ident(
+  int_ref e "src/smt/smtutils.ml" 170 6315 6331 "src/smt/smtutils.ml" 170 6315 6332
+)
+"src/smt/smtutils.ml" 171 6336 6360 "src/smt/smtutils.ml" 171 6336 6379
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 171 6336 6380 "src/smt/smtutils.ml" 171 6336 6381
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 171 6336 6382 "src/smt/smtutils.ml" 171 6336 6385
+type(
+  string
+)
+"src/smt/smtutils.ml" 171 6336 6360 "src/smt/smtutils.ml" 171 6336 6385
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 171 6336 6344 "src/smt/smtutils.ml" 171 6336 6385
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 172 6386 6392 "src/smt/smtutils.ml" 172 6386 6405
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 173 6409 6417 "src/smt/smtutils.ml" 173 6409 6432
+type(
+  string
+)
+"src/smt/smtutils.ml" 175 6434 6440 "src/smt/smtutils.ml" 175 6434 6451
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 175 6434 6455 "src/smt/smtutils.ml" 175 6434 6468
+type(
+  string
+)
+"src/smt/smtutils.ml" 176 6469 6475 "src/smt/smtutils.ml" 176 6469 6486
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 176 6469 6490 "src/smt/smtutils.ml" 176 6469 6503
+type(
+  string
+)
+"src/smt/smtutils.ml" 177 6504 6510 "src/smt/smtutils.ml" 177 6504 6521
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 177 6504 6525 "src/smt/smtutils.ml" 177 6504 6538
+type(
+  string
+)
+"src/smt/smtutils.ml" 178 6539 6545 "src/smt/smtutils.ml" 178 6539 6560
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 178 6539 6564 "src/smt/smtutils.ml" 178 6539 6581
+type(
+  string
+)
+"src/smt/smtutils.ml" 180 6583 6601 "src/smt/smtutils.ml" 180 6583 6603
+type(
+  Smtsyntax.smtexpr list
+)
+ident(
+  def es "src/smt/smtutils.ml" 181 6607 6613 "src/smt/smtutils.ml" 181 6607 6684
+)
+"src/smt/smtutils.ml" 180 6583 6589 "src/smt/smtutils.ml" 180 6583 6603
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 181 6607 6613 "src/smt/smtutils.ml" 181 6607 6628
+type(
+  string
+)
+"src/smt/smtutils.ml" 181 6607 6629 "src/smt/smtutils.ml" 181 6607 6630
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 181 6607 6631 "src/smt/smtutils.ml" 181 6607 6651
+type(
+  string list -> string
+)
+ident(
+  int_ref string_of_list_comma "src/smt/smtutils.ml" 12 260 264 "src/smt/smtutils.ml" 12 260 284
+)
+"src/smt/smtutils.ml" 181 6607 6653 "src/smt/smtutils.ml" 181 6607 6656
+type(
+  (Smtsyntax.smtexpr -> string) -> Smtsyntax.smtexpr list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 181 6607 6657 "src/smt/smtutils.ml" 181 6607 6674
+type(
+  Smtsyntax.smtexpr -> string
+)
+ident(
+  int_ref string_of_smtexpr "src/smt/smtutils.ml" 56 1622 1630 "src/smt/smtutils.ml" 56 1622 1647
+)
+"src/smt/smtutils.ml" 181 6607 6675 "src/smt/smtutils.ml" 181 6607 6677
+type(
+  Smtsyntax.smtexpr list
+)
+ident(
+  int_ref es "src/smt/smtutils.ml" 180 6583 6601 "src/smt/smtutils.ml" 180 6583 6603
+)
+"src/smt/smtutils.ml" 181 6607 6652 "src/smt/smtutils.ml" 181 6607 6678
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 181 6607 6631 "src/smt/smtutils.ml" 181 6607 6678
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 181 6607 6679 "src/smt/smtutils.ml" 181 6607 6680
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 181 6607 6681 "src/smt/smtutils.ml" 181 6607 6684
+type(
+  string
+)
+"src/smt/smtutils.ml" 181 6607 6631 "src/smt/smtutils.ml" 181 6607 6684
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 181 6607 6613 "src/smt/smtutils.ml" 181 6607 6684
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 182 6685 6691 "src/smt/smtutils.ml" 182 6685 6707
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 182 6685 6711 "src/smt/smtutils.ml" 182 6685 6729
+type(
+  string
+)
+"src/smt/smtutils.ml" 184 6731 6745 "src/smt/smtutils.ml" 184 6731 6746
+type(
+  int
+)
+ident(
+  def i "src/smt/smtutils.ml" 184 6731 6750 "src/smt/smtutils.ml" 184 6731 6785
+)
+"src/smt/smtutils.ml" 184 6731 6737 "src/smt/smtutils.ml" 184 6731 6746
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 184 6731 6750 "src/smt/smtutils.ml" 184 6731 6761
+type(
+  string
+)
+"src/smt/smtutils.ml" 184 6731 6762 "src/smt/smtutils.ml" 184 6731 6763
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 184 6731 6764 "src/smt/smtutils.ml" 184 6731 6777
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/smt/smtutils.ml" 184 6731 6778 "src/smt/smtutils.ml" 184 6731 6779
+type(
+  int
+)
+ident(
+  int_ref i "src/smt/smtutils.ml" 184 6731 6745 "src/smt/smtutils.ml" 184 6731 6746
+)
+"src/smt/smtutils.ml" 184 6731 6764 "src/smt/smtutils.ml" 184 6731 6779
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 184 6731 6780 "src/smt/smtutils.ml" 184 6731 6781
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 184 6731 6782 "src/smt/smtutils.ml" 184 6731 6785
+type(
+  string
+)
+"src/smt/smtutils.ml" 184 6731 6764 "src/smt/smtutils.ml" 184 6731 6785
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 184 6731 6750 "src/smt/smtutils.ml" 184 6731 6785
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 185 6786 6799 "src/smt/smtutils.ml" 185 6786 6800
+type(
+  int
+)
+ident(
+  def i "src/smt/smtutils.ml" 185 6786 6804 "src/smt/smtutils.ml" 185 6786 6838
+)
+"src/smt/smtutils.ml" 185 6786 6792 "src/smt/smtutils.ml" 185 6786 6800
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 185 6786 6804 "src/smt/smtutils.ml" 185 6786 6814
+type(
+  string
+)
+"src/smt/smtutils.ml" 185 6786 6815 "src/smt/smtutils.ml" 185 6786 6816
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 185 6786 6817 "src/smt/smtutils.ml" 185 6786 6830
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"src/smt/smtutils.ml" 185 6786 6831 "src/smt/smtutils.ml" 185 6786 6832
+type(
+  int
+)
+ident(
+  int_ref i "src/smt/smtutils.ml" 185 6786 6799 "src/smt/smtutils.ml" 185 6786 6800
+)
+"src/smt/smtutils.ml" 185 6786 6817 "src/smt/smtutils.ml" 185 6786 6832
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 185 6786 6833 "src/smt/smtutils.ml" 185 6786 6834
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 185 6786 6835 "src/smt/smtutils.ml" 185 6786 6838
+type(
+  string
+)
+"src/smt/smtutils.ml" 185 6786 6817 "src/smt/smtutils.ml" 185 6786 6838
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 185 6786 6804 "src/smt/smtutils.ml" 185 6786 6838
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 187 6840 6859 "src/smt/smtutils.ml" 187 6840 6860
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smtutils.ml" 187 6840 6864 "src/smt/smtutils.ml" 187 6840 6907
+)
+"src/smt/smtutils.ml" 187 6840 6846 "src/smt/smtutils.ml" 187 6840 6860
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 187 6840 6864 "src/smt/smtutils.ml" 187 6840 6880
+type(
+  string
+)
+"src/smt/smtutils.ml" 187 6840 6881 "src/smt/smtutils.ml" 187 6840 6882
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 187 6840 6883 "src/smt/smtutils.ml" 187 6840 6899
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 187 6840 6900 "src/smt/smtutils.ml" 187 6840 6901
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smtutils.ml" 187 6840 6859 "src/smt/smtutils.ml" 187 6840 6860
+)
+"src/smt/smtutils.ml" 187 6840 6883 "src/smt/smtutils.ml" 187 6840 6901
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 187 6840 6902 "src/smt/smtutils.ml" 187 6840 6903
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 187 6840 6904 "src/smt/smtutils.ml" 187 6840 6907
+type(
+  string
+)
+"src/smt/smtutils.ml" 187 6840 6883 "src/smt/smtutils.ml" 187 6840 6907
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 187 6840 6864 "src/smt/smtutils.ml" 187 6840 6907
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 188 6908 6928 "src/smt/smtutils.ml" 188 6908 6929
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smtutils.ml" 189 6937 6945 "src/smt/smtutils.ml" 190 6991 7044
+)
+"src/smt/smtutils.ml" 188 6908 6931 "src/smt/smtutils.ml" 188 6908 6932
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  def c "src/smt/smtutils.ml" 189 6937 6945 "src/smt/smtutils.ml" 190 6991 7044
+)
+"src/smt/smtutils.ml" 188 6908 6914 "src/smt/smtutils.ml" 188 6908 6933
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 189 6937 6945 "src/smt/smtutils.ml" 189 6937 6961
+type(
+  string
+)
+"src/smt/smtutils.ml" 189 6937 6962 "src/smt/smtutils.ml" 189 6937 6963
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 189 6937 6964 "src/smt/smtutils.ml" 189 6937 6980
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 189 6937 6981 "src/smt/smtutils.ml" 189 6937 6982
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smtutils.ml" 188 6908 6928 "src/smt/smtutils.ml" 188 6908 6929
+)
+"src/smt/smtutils.ml" 189 6937 6964 "src/smt/smtutils.ml" 189 6937 6982
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 189 6937 6983 "src/smt/smtutils.ml" 189 6937 6984
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 189 6937 6985 "src/smt/smtutils.ml" 189 6937 6988
+type(
+  string
+)
+"src/smt/smtutils.ml" 189 6937 6989 "src/smt/smtutils.ml" 189 6937 6990
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 190 6991 7018 "src/smt/smtutils.ml" 190 6991 7036
+type(
+  Smtsyntax.smtconst -> string
+)
+ident(
+  int_ref string_of_smtconst "src/smt/smtutils.ml" 37 986 990 "src/smt/smtutils.ml" 37 986 1008
+)
+"src/smt/smtutils.ml" 190 6991 7037 "src/smt/smtutils.ml" 190 6991 7038
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  int_ref c "src/smt/smtutils.ml" 188 6908 6931 "src/smt/smtutils.ml" 188 6908 6932
+)
+"src/smt/smtutils.ml" 190 6991 7018 "src/smt/smtutils.ml" 190 6991 7038
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 190 6991 7039 "src/smt/smtutils.ml" 190 6991 7040
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 190 6991 7041 "src/smt/smtutils.ml" 190 6991 7044
+type(
+  string
+)
+"src/smt/smtutils.ml" 190 6991 7018 "src/smt/smtutils.ml" 190 6991 7044
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 189 6937 6985 "src/smt/smtutils.ml" 190 6991 7044
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 189 6937 6964 "src/smt/smtutils.ml" 190 6991 7044
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 189 6937 6945 "src/smt/smtutils.ml" 190 6991 7044
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 192 7046 7063 "src/smt/smtutils.ml" 192 7046 7064
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smtutils.ml" 192 7046 7068 "src/smt/smtutils.ml" 192 7046 7109
+)
+"src/smt/smtutils.ml" 192 7046 7052 "src/smt/smtutils.ml" 192 7046 7064
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 192 7046 7068 "src/smt/smtutils.ml" 192 7046 7082
+type(
+  string
+)
+"src/smt/smtutils.ml" 192 7046 7083 "src/smt/smtutils.ml" 192 7046 7084
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 192 7046 7085 "src/smt/smtutils.ml" 192 7046 7101
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 192 7046 7102 "src/smt/smtutils.ml" 192 7046 7103
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smtutils.ml" 192 7046 7063 "src/smt/smtutils.ml" 192 7046 7064
+)
+"src/smt/smtutils.ml" 192 7046 7085 "src/smt/smtutils.ml" 192 7046 7103
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 192 7046 7104 "src/smt/smtutils.ml" 192 7046 7105
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 192 7046 7106 "src/smt/smtutils.ml" 192 7046 7109
+type(
+  string
+)
+"src/smt/smtutils.ml" 192 7046 7085 "src/smt/smtutils.ml" 192 7046 7109
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 192 7046 7068 "src/smt/smtutils.ml" 192 7046 7109
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 193 7110 7128 "src/smt/smtutils.ml" 193 7110 7129
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  def v "src/smt/smtutils.ml" 194 7137 7145 "src/smt/smtutils.ml" 195 7188 7241
+)
+"src/smt/smtutils.ml" 193 7110 7131 "src/smt/smtutils.ml" 193 7110 7132
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  def c "src/smt/smtutils.ml" 194 7137 7145 "src/smt/smtutils.ml" 195 7188 7241
+)
+"src/smt/smtutils.ml" 193 7110 7116 "src/smt/smtutils.ml" 193 7110 7133
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 194 7137 7145 "src/smt/smtutils.ml" 194 7137 7158
+type(
+  string
+)
+"src/smt/smtutils.ml" 194 7137 7159 "src/smt/smtutils.ml" 194 7137 7160
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 194 7137 7161 "src/smt/smtutils.ml" 194 7137 7177
+type(
+  Smtsyntax.smtvar -> string
+)
+ident(
+  int_ref string_of_smtvar "src/smt/smtutils.ml" 34 926 930 "src/smt/smtutils.ml" 34 926 946
+)
+"src/smt/smtutils.ml" 194 7137 7178 "src/smt/smtutils.ml" 194 7137 7179
+type(
+  Smtsyntax.smtvar
+)
+ident(
+  int_ref v "src/smt/smtutils.ml" 193 7110 7128 "src/smt/smtutils.ml" 193 7110 7129
+)
+"src/smt/smtutils.ml" 194 7137 7161 "src/smt/smtutils.ml" 194 7137 7179
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 194 7137 7180 "src/smt/smtutils.ml" 194 7137 7181
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 194 7137 7182 "src/smt/smtutils.ml" 194 7137 7185
+type(
+  string
+)
+"src/smt/smtutils.ml" 194 7137 7186 "src/smt/smtutils.ml" 194 7137 7187
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 195 7188 7215 "src/smt/smtutils.ml" 195 7188 7233
+type(
+  Smtsyntax.smtconst -> string
+)
+ident(
+  int_ref string_of_smtconst "src/smt/smtutils.ml" 37 986 990 "src/smt/smtutils.ml" 37 986 1008
+)
+"src/smt/smtutils.ml" 195 7188 7234 "src/smt/smtutils.ml" 195 7188 7235
+type(
+  Smtsyntax.smtconst
+)
+ident(
+  int_ref c "src/smt/smtutils.ml" 193 7110 7131 "src/smt/smtutils.ml" 193 7110 7132
+)
+"src/smt/smtutils.ml" 195 7188 7215 "src/smt/smtutils.ml" 195 7188 7235
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 195 7188 7236 "src/smt/smtutils.ml" 195 7188 7237
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 195 7188 7238 "src/smt/smtutils.ml" 195 7188 7241
+type(
+  string
+)
+"src/smt/smtutils.ml" 195 7188 7215 "src/smt/smtutils.ml" 195 7188 7241
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 194 7137 7182 "src/smt/smtutils.ml" 195 7188 7241
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 194 7137 7161 "src/smt/smtutils.ml" 195 7188 7241
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 194 7137 7145 "src/smt/smtutils.ml" 195 7188 7241
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 198 7244 7250 "src/smt/smtutils.ml" 198 7244 7257
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 198 7244 7261 "src/smt/smtutils.ml" 198 7244 7270
+type(
+  string
+)
+"src/smt/smtutils.ml" 199 7271 7277 "src/smt/smtutils.ml" 199 7271 7283
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 199 7271 7287 "src/smt/smtutils.ml" 199 7271 7295
+type(
+  string
+)
+"src/smt/smtutils.ml" 200 7296 7302 "src/smt/smtutils.ml" 200 7296 7310
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 200 7296 7314 "src/smt/smtutils.ml" 200 7296 7324
+type(
+  string
+)
+"src/smt/smtutils.ml" 202 7330 7345 "src/smt/smtutils.ml" 202 7330 7347
+type(
+  Smtsyntax.smtcmd list
+)
+ident(
+  def cs "src/smt/smtutils.ml" 203 7351 7359 "src/smt/smtutils.ml" 203 7351 7425
+)
+"src/smt/smtutils.ml" 202 7330 7336 "src/smt/smtutils.ml" 202 7330 7347
+type(
+  Smtsyntax.smtcmd
+)
+"src/smt/smtutils.ml" 203 7351 7359 "src/smt/smtutils.ml" 203 7351 7371
+type(
+  string
+)
+"src/smt/smtutils.ml" 203 7351 7372 "src/smt/smtutils.ml" 203 7351 7373
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 203 7351 7375 "src/smt/smtutils.ml" 203 7351 7388
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smtutils.ml" 203 7351 7389 "src/smt/smtutils.ml" 203 7351 7392
+type(
+  string
+)
+"src/smt/smtutils.ml" 203 7351 7394 "src/smt/smtutils.ml" 203 7351 7397
+type(
+  (Smtsyntax.smtcmd -> string) -> Smtsyntax.smtcmd list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 203 7351 7398 "src/smt/smtutils.ml" 203 7351 7414
+type(
+  Smtsyntax.smtcmd -> string
+)
+ident(
+  int_ref string_of_smtcmd "src/smt/smtutils.ml" 142 5303 5311 "src/smt/smtutils.ml" 142 5303 5327
+)
+"src/smt/smtutils.ml" 203 7351 7415 "src/smt/smtutils.ml" 203 7351 7417
+type(
+  Smtsyntax.smtcmd list
+)
+ident(
+  int_ref cs "src/smt/smtutils.ml" 202 7330 7345 "src/smt/smtutils.ml" 202 7330 7347
+)
+"src/smt/smtutils.ml" 203 7351 7393 "src/smt/smtutils.ml" 203 7351 7418
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 203 7351 7374 "src/smt/smtutils.ml" 203 7351 7419
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 203 7351 7420 "src/smt/smtutils.ml" 203 7351 7421
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"src/smt/smtutils.ml" 203 7351 7422 "src/smt/smtutils.ml" 203 7351 7425
+type(
+  string
+)
+"src/smt/smtutils.ml" 203 7351 7374 "src/smt/smtutils.ml" 203 7351 7425
+call(
+  stack
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 203 7351 7359 "src/smt/smtutils.ml" 203 7351 7425
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 144 5363 5367 "src/smt/smtutils.ml" 203 7351 7425
+type(
+  string
+)
+"src/smt/smtutils.ml" 143 5349 5351 "src/smt/smtutils.ml" 203 7351 7425
+type(
+  Smtsyntax.smtcmd -> string
+)
+type(
+  Smtsyntax.smtcmd -> string
+)
+"src/smt/smtutils.ml" 205 7427 7431 "src/smt/smtutils.ml" 205 7427 7448
+type(
+  Smtsyntax.smtprog -> string
+)
+ident(
+  def string_of_smtprog "src/smt/smtutils.ml" 207 7485 7535 "src/smt/smtutils.ml" 1 0 -1
+)
+"src/smt/smtutils.ml" 206 7471 7477 "src/smt/smtutils.ml" 206 7471 7481
+type(
+  Smtsyntax.smtprog
+)
+ident(
+  def prog "src/smt/smtutils.ml" 207 7485 7489 "src/smt/smtutils.ml" 207 7485 7535
+)
+"src/smt/smtutils.ml" 207 7485 7489 "src/smt/smtutils.ml" 207 7485 7502
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"src/smt/smtutils.ml" 207 7485 7503 "src/smt/smtutils.ml" 207 7485 7507
+type(
+  string
+)
+"src/smt/smtutils.ml" 207 7485 7509 "src/smt/smtutils.ml" 207 7485 7512
+type(
+  (Smtsyntax.smtcmd -> string) -> Smtsyntax.smtprog -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/smt/smtutils.ml" 207 7485 7513 "src/smt/smtutils.ml" 207 7485 7529
+type(
+  Smtsyntax.smtcmd -> string
+)
+ident(
+  int_ref string_of_smtcmd "src/smt/smtutils.ml" 142 5303 5311 "src/smt/smtutils.ml" 142 5303 5327
+)
+"src/smt/smtutils.ml" 207 7485 7530 "src/smt/smtutils.ml" 207 7485 7534
+type(
+  Smtsyntax.smtprog
+)
+ident(
+  int_ref prog "src/smt/smtutils.ml" 206 7471 7477 "src/smt/smtutils.ml" 206 7471 7481
+)
+"src/smt/smtutils.ml" 207 7485 7508 "src/smt/smtutils.ml" 207 7485 7535
+call(
+  stack
+)
+type(
+  string list
+)
+"src/smt/smtutils.ml" 207 7485 7489 "src/smt/smtutils.ml" 207 7485 7535
+call(
+  tail
+)
+type(
+  string
+)
+"src/smt/smtutils.ml" 206 7471 7473 "src/smt/smtutils.ml" 207 7485 7535
+type(
+  Smtsyntax.smtprog -> string
+)
+type(
+  Smtsyntax.smtprog -> string
+)

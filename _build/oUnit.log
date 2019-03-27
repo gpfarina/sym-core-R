@@ -1,0 +1,10 @@
+base:0:appending.R start
+ERROR
+base:0:appending.R end
+==============================================================================
+Error: base:0:appending.R
+
+Sys_error("/home/gpietro/PhD/core-r/base/base-test/appending.R: No such file or directory")MAYBE_BACKTRACE
+------------------------------------------------------------------------------
+Ran: 1 tests in: 0.00 seconds.
+FAILED: Cases: 1 Tried: 1 Errors: 1 Failures: 0 Skip:0 Todo:0

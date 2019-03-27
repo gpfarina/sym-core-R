@@ -1,0 +1,2273 @@
+"test/ounit/oUnitLogger.ml" 10 166 170 "test/ounit/oUnitLogger.ml" 10 166 182
+type(
+  bool -> event_type -> string
+)
+ident(
+  def format_event "test/ounit/oUnitLogger.ml" 111 3984 3984 "test/ounit/oUnitLogger.ml" 1 0 -1
+)
+"test/ounit/oUnitLogger.ml" 10 166 183 "test/ounit/oUnitLogger.ml" 10 166 190
+type(
+  bool
+)
+ident(
+  def verbose "test/ounit/oUnitLogger.ml" 10 166 191 "test/ounit/oUnitLogger.ml" 109 3971 3982
+)
+"test/ounit/oUnitLogger.ml" 10 166 191 "test/ounit/oUnitLogger.ml" 10 166 201
+type(
+  event_type
+)
+ident(
+  def event_type "test/ounit/oUnitLogger.ml" 11 204 206 "test/ounit/oUnitLogger.ml" 109 3971 3982
+)
+"test/ounit/oUnitLogger.ml" 11 204 212 "test/ounit/oUnitLogger.ml" 11 204 222
+type(
+  event_type
+)
+ident(
+  int_ref event_type "test/ounit/oUnitLogger.ml" 10 166 191 "test/ounit/oUnitLogger.ml" 10 166 201
+)
+"test/ounit/oUnitLogger.ml" 12 228 246 "test/ounit/oUnitLogger.ml" 12 228 247
+type(
+  OUnitTypes.global_event
+)
+ident(
+  def e "test/ounit/oUnitLogger.ml" 13 251 259 "test/ounit/oUnitLogger.ml" 67 2505 2516
+)
+"test/ounit/oUnitLogger.ml" 12 228 234 "test/ounit/oUnitLogger.ml" 12 228 247
+type(
+  event_type
+)
+"test/ounit/oUnitLogger.ml" 14 265 281 "test/ounit/oUnitLogger.ml" 14 265 282
+type(
+  OUnitTypes.global_event
+)
+ident(
+  int_ref e "test/ounit/oUnitLogger.ml" 12 228 246 "test/ounit/oUnitLogger.ml" 12 228 247
+)
+"test/ounit/oUnitLogger.ml" 15 289 303 "test/ounit/oUnitLogger.ml" 15 289 309
+type(
+  OUnitTypes.global_event
+)
+"test/ounit/oUnitLogger.ml" 16 313 329 "test/ounit/oUnitLogger.ml" 16 313 331
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 17 332 346 "test/ounit/oUnitLogger.ml" 17 332 350
+type(
+  OUnitTypes.global_event
+)
+"test/ounit/oUnitLogger.ml" 18 354 370 "test/ounit/oUnitLogger.ml" 18 354 372
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 19 373 397 "test/ounit/oUnitLogger.ml" 19 373 409
+type(
+  float
+)
+ident(
+  def running_time "test/ounit/oUnitLogger.ml" 20 441 457 "test/ounit/oUnitLogger.ml" 66 2467 2504
+)
+"test/ounit/oUnitLogger.ml" 19 373 411 "test/ounit/oUnitLogger.ml" 19 373 418
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  def results "test/ounit/oUnitLogger.ml" 20 441 457 "test/ounit/oUnitLogger.ml" 66 2467 2504
+)
+"test/ounit/oUnitLogger.ml" 19 373 420 "test/ounit/oUnitLogger.ml" 19 373 435
+type(
+  int
+)
+ident(
+  def test_case_count "test/ounit/oUnitLogger.ml" 20 441 457 "test/ounit/oUnitLogger.ml" 66 2467 2504
+)
+"test/ounit/oUnitLogger.ml" 19 373 396 "test/ounit/oUnitLogger.ml" 19 373 436
+type(
+  float * OUnitTypes.test_result list * int
+)
+"test/ounit/oUnitLogger.ml" 19 373 387 "test/ounit/oUnitLogger.ml" 19 373 436
+type(
+  OUnitTypes.global_event
+)
+"test/ounit/oUnitLogger.ml" 20 441 461 "test/ounit/oUnitLogger.ml" 20 441 471
+type(
+  string
+)
+ident(
+  def separator1 "test/ounit/oUnitLogger.ml" 21 516 532 "test/ounit/oUnitLogger.ml" 66 2467 2504
+)
+"test/ounit/oUnitLogger.ml" 20 441 474 "test/ounit/oUnitLogger.ml" 20 441 485
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"test/ounit/oUnitLogger.ml" 20 441 487 "test/ounit/oUnitLogger.ml" 20 441 504
+type(
+  unit -> int
+)
+ident(
+  ext_ref Format.get_margin
+)
+"test/ounit/oUnitLogger.ml" 20 441 505 "test/ounit/oUnitLogger.ml" 20 441 507
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 20 441 486 "test/ounit/oUnitLogger.ml" 20 441 508
+call(
+  stack
+)
+type(
+  int
+)
+"test/ounit/oUnitLogger.ml" 20 441 509 "test/ounit/oUnitLogger.ml" 20 441 512
+type(
+  char
+)
+"test/ounit/oUnitLogger.ml" 20 441 474 "test/ounit/oUnitLogger.ml" 20 441 512
+call(
+  stack
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 21 516 536 "test/ounit/oUnitLogger.ml" 21 516 546
+type(
+  string
+)
+ident(
+  def separator2 "test/ounit/oUnitLogger.ml" 22 591 607 "test/ounit/oUnitLogger.ml" 66 2467 2504
+)
+"test/ounit/oUnitLogger.ml" 21 516 549 "test/ounit/oUnitLogger.ml" 21 516 560
+type(
+  int -> char -> string
+)
+ident(
+  ext_ref String.make
+)
+"test/ounit/oUnitLogger.ml" 21 516 562 "test/ounit/oUnitLogger.ml" 21 516 579
+type(
+  unit -> int
+)
+ident(
+  ext_ref Format.get_margin
+)
+"test/ounit/oUnitLogger.ml" 21 516 580 "test/ounit/oUnitLogger.ml" 21 516 582
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 21 516 561 "test/ounit/oUnitLogger.ml" 21 516 583
+call(
+  stack
+)
+type(
+  int
+)
+"test/ounit/oUnitLogger.ml" 21 516 584 "test/ounit/oUnitLogger.ml" 21 516 587
+type(
+  char
+)
+"test/ounit/oUnitLogger.ml" 21 516 549 "test/ounit/oUnitLogger.ml" 21 516 587
+call(
+  stack
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 22 591 611 "test/ounit/oUnitLogger.ml" 22 591 614
+type(
+  Buffer.t
+)
+ident(
+  def buf "test/ounit/oUnitLogger.ml" 23 639 655 "test/ounit/oUnitLogger.ml" 66 2467 2504
+)
+"test/ounit/oUnitLogger.ml" 22 591 617 "test/ounit/oUnitLogger.ml" 22 591 630
+type(
+  int -> Buffer.t
+)
+ident(
+  ext_ref Buffer.create
+)
+"test/ounit/oUnitLogger.ml" 22 591 631 "test/ounit/oUnitLogger.ml" 22 591 635
+type(
+  int
+)
+"test/ounit/oUnitLogger.ml" 22 591 617 "test/ounit/oUnitLogger.ml" 22 591 635
+call(
+  stack
+)
+type(
+  Buffer.t
+)
+"test/ounit/oUnitLogger.ml" 23 639 659 "test/ounit/oUnitLogger.ml" 23 639 666
+type(
+  ('a, Buffer.t, unit) format -> 'a
+)
+ident(
+  def bprintf "test/ounit/oUnitLogger.ml" 24 699 715 "test/ounit/oUnitLogger.ml" 66 2467 2504
+)
+"test/ounit/oUnitLogger.ml" 23 639 667 "test/ounit/oUnitLogger.ml" 23 639 670
+type(
+  ('a, Buffer.t, unit) format
+)
+ident(
+  def fmt "test/ounit/oUnitLogger.ml" 23 639 673 "test/ounit/oUnitLogger.ml" 23 639 695
+)
+"test/ounit/oUnitLogger.ml" 23 639 673 "test/ounit/oUnitLogger.ml" 23 639 687
+type(
+  Buffer.t -> ('a, Buffer.t, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.bprintf
+)
+"test/ounit/oUnitLogger.ml" 23 639 688 "test/ounit/oUnitLogger.ml" 23 639 691
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "test/ounit/oUnitLogger.ml" 22 591 611 "test/ounit/oUnitLogger.ml" 22 591 614
+)
+"test/ounit/oUnitLogger.ml" 23 639 692 "test/ounit/oUnitLogger.ml" 23 639 695
+type(
+  ('a, Buffer.t, unit) format
+)
+ident(
+  int_ref fmt "test/ounit/oUnitLogger.ml" 23 639 667 "test/ounit/oUnitLogger.ml" 23 639 670
+)
+"test/ounit/oUnitLogger.ml" 23 639 673 "test/ounit/oUnitLogger.ml" 23 639 695
+call(
+  tail
+)
+type(
+  'a
+)
+"test/ounit/oUnitLogger.ml" 24 699 719 "test/ounit/oUnitLogger.ml" 24 699 732
+type(
+  OUnitTypes.test_result list -> unit
+)
+ident(
+  def print_results "test/ounit/oUnitLogger.ml" 34 1111 1127 "test/ounit/oUnitLogger.ml" 66 2467 2504
+)
+"test/ounit/oUnitLogger.ml" 25 736 754 "test/ounit/oUnitLogger.ml" 25 736 763
+type(
+  (OUnitTypes.test_result -> unit) -> OUnitTypes.test_result list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"test/ounit/oUnitLogger.ml" 26 765 790 "test/ounit/oUnitLogger.ml" 26 765 796
+type(
+  OUnitTypes.test_result
+)
+ident(
+  def result "test/ounit/oUnitLogger.ml" 27 801 824 "test/ounit/oUnitLogger.ml" 32 1055 1090
+)
+"test/ounit/oUnitLogger.ml" 27 801 824 "test/ounit/oUnitLogger.ml" 27 801 831
+type(
+  (string -> string -> string -> string -> string -> unit, Buffer.t, unit)
+  format -> string -> string -> string -> string -> string -> unit
+)
+ident(
+  int_ref bprintf "test/ounit/oUnitLogger.ml" 23 639 659 "test/ounit/oUnitLogger.ml" 23 639 666
+)
+"test/ounit/oUnitLogger.ml" 27 801 832 "test/ounit/oUnitLogger.ml" 27 801 856
+type(
+  (string -> string -> string -> string -> string -> unit, Buffer.t, unit)
+  format
+)
+"test/ounit/oUnitLogger.ml" 28 858 883 "test/ounit/oUnitLogger.ml" 28 858 893
+type(
+  string
+)
+ident(
+  int_ref separator1 "test/ounit/oUnitLogger.ml" 20 441 461 "test/ounit/oUnitLogger.ml" 20 441 471
+)
+"test/ounit/oUnitLogger.ml" 29 895 921 "test/ounit/oUnitLogger.ml" 29 895 935
+type(
+  OUnitTypes.test_result -> string
+)
+ident(
+  ext_ref OUnitUtils.result_flavour
+)
+"test/ounit/oUnitLogger.ml" 29 895 936 "test/ounit/oUnitLogger.ml" 29 895 942
+type(
+  OUnitTypes.test_result
+)
+ident(
+  int_ref result "test/ounit/oUnitLogger.ml" 26 765 790 "test/ounit/oUnitLogger.ml" 26 765 796
+)
+"test/ounit/oUnitLogger.ml" 29 895 920 "test/ounit/oUnitLogger.ml" 29 895 943
+call(
+  stack
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 30 945 971 "test/ounit/oUnitLogger.ml" 30 945 985
+type(
+  OUnitTypes.path -> string
+)
+ident(
+  ext_ref OUnitUtils.string_of_path
+)
+"test/ounit/oUnitLogger.ml" 30 945 987 "test/ounit/oUnitLogger.ml" 30 945 998
+type(
+  OUnitTypes.test_result -> OUnitTypes.path
+)
+ident(
+  ext_ref OUnitUtils.result_path
+)
+"test/ounit/oUnitLogger.ml" 30 945 999 "test/ounit/oUnitLogger.ml" 30 945 1005
+type(
+  OUnitTypes.test_result
+)
+ident(
+  int_ref result "test/ounit/oUnitLogger.ml" 26 765 790 "test/ounit/oUnitLogger.ml" 26 765 796
+)
+"test/ounit/oUnitLogger.ml" 30 945 986 "test/ounit/oUnitLogger.ml" 30 945 1006
+call(
+  stack
+)
+type(
+  OUnitTypes.path
+)
+"test/ounit/oUnitLogger.ml" 30 945 970 "test/ounit/oUnitLogger.ml" 30 945 1007
+call(
+  stack
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 31 1009 1035 "test/ounit/oUnitLogger.ml" 31 1009 1045
+type(
+  OUnitTypes.test_result -> string
+)
+ident(
+  ext_ref OUnitUtils.result_msg
+)
+"test/ounit/oUnitLogger.ml" 31 1009 1046 "test/ounit/oUnitLogger.ml" 31 1009 1052
+type(
+  OUnitTypes.test_result
+)
+ident(
+  int_ref result "test/ounit/oUnitLogger.ml" 26 765 790 "test/ounit/oUnitLogger.ml" 26 765 796
+)
+"test/ounit/oUnitLogger.ml" 31 1009 1034 "test/ounit/oUnitLogger.ml" 31 1009 1053
+call(
+  stack
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 32 1055 1080 "test/ounit/oUnitLogger.ml" 32 1055 1090
+type(
+  string
+)
+ident(
+  int_ref separator2 "test/ounit/oUnitLogger.ml" 21 516 536 "test/ounit/oUnitLogger.ml" 21 516 546
+)
+"test/ounit/oUnitLogger.ml" 27 801 824 "test/ounit/oUnitLogger.ml" 32 1055 1090
+call(
+  tail
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 26 765 785 "test/ounit/oUnitLogger.ml" 32 1055 1091
+type(
+  OUnitTypes.test_result -> unit
+)
+"test/ounit/oUnitLogger.ml" 25 736 754 "test/ounit/oUnitLogger.ml" 32 1055 1091
+call(
+  stack
+)
+type(
+  OUnitTypes.test_result list -> unit
+)
+"test/ounit/oUnitLogger.ml" 34 1111 1131 "test/ounit/oUnitLogger.ml" 34 1111 1137
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  def errors "test/ounit/oUnitLogger.ml" 35 1174 1190 "test/ounit/oUnitLogger.ml" 66 2467 2504
+)
+"test/ounit/oUnitLogger.ml" 34 1111 1142 "test/ounit/oUnitLogger.ml" 34 1111 1153
+type(
+  (OUnitTypes.test_result -> bool) ->
+  OUnitTypes.test_result list -> OUnitTypes.test_result list
+)
+ident(
+  ext_ref List.filter
+)
+"test/ounit/oUnitLogger.ml" 34 1111 1154 "test/ounit/oUnitLogger.ml" 34 1111 1162
+type(
+  OUnitTypes.test_result -> bool
+)
+ident(
+  ext_ref OUnitUtils.is_error
+)
+"test/ounit/oUnitLogger.ml" 34 1111 1163 "test/ounit/oUnitLogger.ml" 34 1111 1170
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref results "test/ounit/oUnitLogger.ml" 19 373 411 "test/ounit/oUnitLogger.ml" 19 373 418
+)
+"test/ounit/oUnitLogger.ml" 34 1111 1142 "test/ounit/oUnitLogger.ml" 34 1111 1170
+call(
+  stack
+)
+type(
+  OUnitTypes.test_result list
+)
+"test/ounit/oUnitLogger.ml" 35 1174 1194 "test/ounit/oUnitLogger.ml" 35 1174 1202
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  def failures "test/ounit/oUnitLogger.ml" 36 1239 1255 "test/ounit/oUnitLogger.ml" 66 2467 2504
+)
+"test/ounit/oUnitLogger.ml" 35 1174 1205 "test/ounit/oUnitLogger.ml" 35 1174 1216
+type(
+  (OUnitTypes.test_result -> bool) ->
+  OUnitTypes.test_result list -> OUnitTypes.test_result list
+)
+ident(
+  ext_ref List.filter
+)
+"test/ounit/oUnitLogger.ml" 35 1174 1217 "test/ounit/oUnitLogger.ml" 35 1174 1227
+type(
+  OUnitTypes.test_result -> bool
+)
+ident(
+  ext_ref OUnitUtils.is_failure
+)
+"test/ounit/oUnitLogger.ml" 35 1174 1228 "test/ounit/oUnitLogger.ml" 35 1174 1235
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref results "test/ounit/oUnitLogger.ml" 19 373 411 "test/ounit/oUnitLogger.ml" 19 373 418
+)
+"test/ounit/oUnitLogger.ml" 35 1174 1205 "test/ounit/oUnitLogger.ml" 35 1174 1235
+call(
+  stack
+)
+type(
+  OUnitTypes.test_result list
+)
+"test/ounit/oUnitLogger.ml" 36 1239 1259 "test/ounit/oUnitLogger.ml" 36 1239 1264
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  def skips "test/ounit/oUnitLogger.ml" 37 1301 1317 "test/ounit/oUnitLogger.ml" 66 2467 2504
+)
+"test/ounit/oUnitLogger.ml" 36 1239 1270 "test/ounit/oUnitLogger.ml" 36 1239 1281
+type(
+  (OUnitTypes.test_result -> bool) ->
+  OUnitTypes.test_result list -> OUnitTypes.test_result list
+)
+ident(
+  ext_ref List.filter
+)
+"test/ounit/oUnitLogger.ml" 36 1239 1282 "test/ounit/oUnitLogger.ml" 36 1239 1289
+type(
+  OUnitTypes.test_result -> bool
+)
+ident(
+  ext_ref OUnitUtils.is_skip
+)
+"test/ounit/oUnitLogger.ml" 36 1239 1290 "test/ounit/oUnitLogger.ml" 36 1239 1297
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref results "test/ounit/oUnitLogger.ml" 19 373 411 "test/ounit/oUnitLogger.ml" 19 373 418
+)
+"test/ounit/oUnitLogger.ml" 36 1239 1270 "test/ounit/oUnitLogger.ml" 36 1239 1297
+call(
+  stack
+)
+type(
+  OUnitTypes.test_result list
+)
+"test/ounit/oUnitLogger.ml" 37 1301 1321 "test/ounit/oUnitLogger.ml" 37 1301 1326
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  def todos "test/ounit/oUnitLogger.ml" 39 1364 1382 "test/ounit/oUnitLogger.ml" 66 2467 2504
+)
+"test/ounit/oUnitLogger.ml" 37 1301 1332 "test/ounit/oUnitLogger.ml" 37 1301 1343
+type(
+  (OUnitTypes.test_result -> bool) ->
+  OUnitTypes.test_result list -> OUnitTypes.test_result list
+)
+ident(
+  ext_ref List.filter
+)
+"test/ounit/oUnitLogger.ml" 37 1301 1344 "test/ounit/oUnitLogger.ml" 37 1301 1351
+type(
+  OUnitTypes.test_result -> bool
+)
+ident(
+  ext_ref OUnitUtils.is_todo
+)
+"test/ounit/oUnitLogger.ml" 37 1301 1352 "test/ounit/oUnitLogger.ml" 37 1301 1359
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref results "test/ounit/oUnitLogger.ml" 19 373 411 "test/ounit/oUnitLogger.ml" 19 373 418
+)
+"test/ounit/oUnitLogger.ml" 37 1301 1332 "test/ounit/oUnitLogger.ml" 37 1301 1359
+call(
+  stack
+)
+type(
+  OUnitTypes.test_result list
+)
+"test/ounit/oUnitLogger.ml" 39 1364 1385 "test/ounit/oUnitLogger.ml" 39 1364 1388
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"test/ounit/oUnitLogger.ml" 39 1364 1389 "test/ounit/oUnitLogger.ml" 39 1364 1396
+type(
+  bool
+)
+ident(
+  int_ref verbose "test/ounit/oUnitLogger.ml" 10 166 183 "test/ounit/oUnitLogger.ml" 10 166 190
+)
+"test/ounit/oUnitLogger.ml" 39 1364 1385 "test/ounit/oUnitLogger.ml" 39 1364 1396
+type(
+  bool
+)
+"test/ounit/oUnitLogger.ml" 40 1402 1422 "test/ounit/oUnitLogger.ml" 40 1402 1429
+type(
+  (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  int_ref bprintf "test/ounit/oUnitLogger.ml" 23 639 659 "test/ounit/oUnitLogger.ml" 23 639 666
+)
+"test/ounit/oUnitLogger.ml" 40 1402 1430 "test/ounit/oUnitLogger.ml" 40 1402 1434
+type(
+  (unit, Buffer.t, unit) format
+)
+"test/ounit/oUnitLogger.ml" 40 1402 1422 "test/ounit/oUnitLogger.ml" 40 1402 1434
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 39 1364 1382 "test/ounit/oUnitLogger.ml" 40 1402 1434
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 42 1437 1455 "test/ounit/oUnitLogger.ml" 42 1437 1468
+type(
+  OUnitTypes.test_result list -> unit
+)
+ident(
+  int_ref print_results "test/ounit/oUnitLogger.ml" 24 699 719 "test/ounit/oUnitLogger.ml" 24 699 732
+)
+"test/ounit/oUnitLogger.ml" 42 1437 1469 "test/ounit/oUnitLogger.ml" 42 1437 1475
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref errors "test/ounit/oUnitLogger.ml" 34 1111 1131 "test/ounit/oUnitLogger.ml" 34 1111 1137
+)
+"test/ounit/oUnitLogger.ml" 42 1437 1455 "test/ounit/oUnitLogger.ml" 42 1437 1475
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 43 1477 1495 "test/ounit/oUnitLogger.ml" 43 1477 1508
+type(
+  OUnitTypes.test_result list -> unit
+)
+ident(
+  int_ref print_results "test/ounit/oUnitLogger.ml" 24 699 719 "test/ounit/oUnitLogger.ml" 24 699 732
+)
+"test/ounit/oUnitLogger.ml" 43 1477 1509 "test/ounit/oUnitLogger.ml" 43 1477 1517
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref failures "test/ounit/oUnitLogger.ml" 35 1174 1194 "test/ounit/oUnitLogger.ml" 35 1174 1202
+)
+"test/ounit/oUnitLogger.ml" 43 1477 1495 "test/ounit/oUnitLogger.ml" 43 1477 1517
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 44 1519 1537 "test/ounit/oUnitLogger.ml" 44 1519 1544
+type(
+  (int -> float -> unit, Buffer.t, unit) format -> int -> float -> unit
+)
+ident(
+  int_ref bprintf "test/ounit/oUnitLogger.ml" 23 639 659 "test/ounit/oUnitLogger.ml" 23 639 666
+)
+"test/ounit/oUnitLogger.ml" 44 1519 1545 "test/ounit/oUnitLogger.ml" 44 1519 1580
+type(
+  (int -> float -> unit, Buffer.t, unit) format
+)
+"test/ounit/oUnitLogger.ml" 45 1582 1603 "test/ounit/oUnitLogger.ml" 45 1582 1614
+type(
+  OUnitTypes.test_result list -> int
+)
+ident(
+  ext_ref List.length
+)
+"test/ounit/oUnitLogger.ml" 45 1582 1615 "test/ounit/oUnitLogger.ml" 45 1582 1622
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref results "test/ounit/oUnitLogger.ml" 19 373 411 "test/ounit/oUnitLogger.ml" 19 373 418
+)
+"test/ounit/oUnitLogger.ml" 45 1582 1602 "test/ounit/oUnitLogger.ml" 45 1582 1623
+call(
+  stack
+)
+type(
+  int
+)
+"test/ounit/oUnitLogger.ml" 45 1582 1624 "test/ounit/oUnitLogger.ml" 45 1582 1636
+type(
+  float
+)
+ident(
+  int_ref running_time "test/ounit/oUnitLogger.ml" 19 373 397 "test/ounit/oUnitLogger.ml" 19 373 409
+)
+"test/ounit/oUnitLogger.ml" 44 1519 1537 "test/ounit/oUnitLogger.ml" 45 1582 1636
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 48 1683 1704 "test/ounit/oUnitLogger.ml" 48 1683 1718
+type(
+  OUnitTypes.test_result list -> bool
+)
+ident(
+  ext_ref OUnitUtils.was_successful
+)
+"test/ounit/oUnitLogger.ml" 48 1683 1719 "test/ounit/oUnitLogger.ml" 48 1683 1726
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref results "test/ounit/oUnitLogger.ml" 19 373 411 "test/ounit/oUnitLogger.ml" 19 373 418
+)
+"test/ounit/oUnitLogger.ml" 48 1683 1704 "test/ounit/oUnitLogger.ml" 48 1683 1726
+call(
+  stack
+)
+type(
+  bool
+)
+"test/ounit/oUnitLogger.ml" 50 1759 1784 "test/ounit/oUnitLogger.ml" 50 1759 1789
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref skips "test/ounit/oUnitLogger.ml" 36 1239 1259 "test/ounit/oUnitLogger.ml" 36 1239 1264
+)
+"test/ounit/oUnitLogger.ml" 50 1759 1790 "test/ounit/oUnitLogger.ml" 50 1759 1791
+type(
+  OUnitTypes.test_result list -> OUnitTypes.test_result list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"test/ounit/oUnitLogger.ml" 50 1759 1792 "test/ounit/oUnitLogger.ml" 50 1759 1794
+type(
+  OUnitTypes.test_result list
+)
+"test/ounit/oUnitLogger.ml" 50 1759 1784 "test/ounit/oUnitLogger.ml" 50 1759 1794
+type(
+  bool
+)
+"test/ounit/oUnitLogger.ml" 51 1800 1824 "test/ounit/oUnitLogger.ml" 51 1800 1831
+type(
+  (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  int_ref bprintf "test/ounit/oUnitLogger.ml" 23 639 659 "test/ounit/oUnitLogger.ml" 23 639 666
+)
+"test/ounit/oUnitLogger.ml" 51 1800 1832 "test/ounit/oUnitLogger.ml" 51 1800 1836
+type(
+  (unit, Buffer.t, unit) format
+)
+"test/ounit/oUnitLogger.ml" 51 1800 1824 "test/ounit/oUnitLogger.ml" 51 1800 1836
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 53 1865 1889 "test/ounit/oUnitLogger.ml" 53 1865 1896
+type(
+  (int -> int -> unit, Buffer.t, unit) format -> int -> int -> unit
+)
+ident(
+  int_ref bprintf "test/ounit/oUnitLogger.ml" 23 639 659 "test/ounit/oUnitLogger.ml" 23 639 666
+)
+"test/ounit/oUnitLogger.ml" 53 1865 1897 "test/ounit/oUnitLogger.ml" 53 1865 1921
+type(
+  (int -> int -> unit, Buffer.t, unit) format
+)
+"test/ounit/oUnitLogger.ml" 54 1922 1948 "test/ounit/oUnitLogger.ml" 54 1922 1963
+type(
+  int
+)
+ident(
+  int_ref test_case_count "test/ounit/oUnitLogger.ml" 19 373 420 "test/ounit/oUnitLogger.ml" 19 373 435
+)
+"test/ounit/oUnitLogger.ml" 54 1922 1965 "test/ounit/oUnitLogger.ml" 54 1922 1976
+type(
+  OUnitTypes.test_result list -> int
+)
+ident(
+  ext_ref List.length
+)
+"test/ounit/oUnitLogger.ml" 54 1922 1977 "test/ounit/oUnitLogger.ml" 54 1922 1982
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref skips "test/ounit/oUnitLogger.ml" 36 1239 1259 "test/ounit/oUnitLogger.ml" 36 1239 1264
+)
+"test/ounit/oUnitLogger.ml" 54 1922 1964 "test/ounit/oUnitLogger.ml" 54 1922 1983
+call(
+  stack
+)
+type(
+  int
+)
+"test/ounit/oUnitLogger.ml" 53 1865 1889 "test/ounit/oUnitLogger.ml" 54 1922 1983
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 49 1733 1753 "test/ounit/oUnitLogger.ml" 55 1984 2007
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 58 2057 2079 "test/ounit/oUnitLogger.ml" 58 2057 2086
+type(
+  (int -> int -> int -> int -> int -> int -> unit, Buffer.t, unit) format ->
+  int -> int -> int -> int -> int -> int -> unit
+)
+ident(
+  int_ref bprintf "test/ounit/oUnitLogger.ml" 23 639 659 "test/ounit/oUnitLogger.ml" 23 639 666
+)
+"test/ounit/oUnitLogger.ml" 59 2087 2111 "test/ounit/oUnitLogger.ml" 60 2153 2212
+type(
+  (int -> int -> int -> int -> int -> int -> unit, Buffer.t, unit) format
+)
+"test/ounit/oUnitLogger.ml" 61 2214 2238 "test/ounit/oUnitLogger.ml" 61 2214 2253
+type(
+  int
+)
+ident(
+  int_ref test_case_count "test/ounit/oUnitLogger.ml" 19 373 420 "test/ounit/oUnitLogger.ml" 19 373 435
+)
+"test/ounit/oUnitLogger.ml" 61 2214 2255 "test/ounit/oUnitLogger.ml" 61 2214 2266
+type(
+  OUnitTypes.test_result list -> int
+)
+ident(
+  ext_ref List.length
+)
+"test/ounit/oUnitLogger.ml" 61 2214 2267 "test/ounit/oUnitLogger.ml" 61 2214 2274
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref results "test/ounit/oUnitLogger.ml" 19 373 411 "test/ounit/oUnitLogger.ml" 19 373 418
+)
+"test/ounit/oUnitLogger.ml" 61 2214 2254 "test/ounit/oUnitLogger.ml" 61 2214 2275
+call(
+  stack
+)
+type(
+  int
+)
+"test/ounit/oUnitLogger.ml" 62 2277 2302 "test/ounit/oUnitLogger.ml" 62 2277 2313
+type(
+  OUnitTypes.test_result list -> int
+)
+ident(
+  ext_ref List.length
+)
+"test/ounit/oUnitLogger.ml" 62 2277 2314 "test/ounit/oUnitLogger.ml" 62 2277 2320
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref errors "test/ounit/oUnitLogger.ml" 34 1111 1131 "test/ounit/oUnitLogger.ml" 34 1111 1137
+)
+"test/ounit/oUnitLogger.ml" 62 2277 2301 "test/ounit/oUnitLogger.ml" 62 2277 2321
+call(
+  stack
+)
+type(
+  int
+)
+"test/ounit/oUnitLogger.ml" 62 2277 2323 "test/ounit/oUnitLogger.ml" 62 2277 2334
+type(
+  OUnitTypes.test_result list -> int
+)
+ident(
+  ext_ref List.length
+)
+"test/ounit/oUnitLogger.ml" 62 2277 2335 "test/ounit/oUnitLogger.ml" 62 2277 2343
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref failures "test/ounit/oUnitLogger.ml" 35 1174 1194 "test/ounit/oUnitLogger.ml" 35 1174 1202
+)
+"test/ounit/oUnitLogger.ml" 62 2277 2322 "test/ounit/oUnitLogger.ml" 62 2277 2344
+call(
+  stack
+)
+type(
+  int
+)
+"test/ounit/oUnitLogger.ml" 63 2345 2370 "test/ounit/oUnitLogger.ml" 63 2345 2381
+type(
+  OUnitTypes.test_result list -> int
+)
+ident(
+  ext_ref List.length
+)
+"test/ounit/oUnitLogger.ml" 63 2345 2382 "test/ounit/oUnitLogger.ml" 63 2345 2387
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref skips "test/ounit/oUnitLogger.ml" 36 1239 1259 "test/ounit/oUnitLogger.ml" 36 1239 1264
+)
+"test/ounit/oUnitLogger.ml" 63 2345 2369 "test/ounit/oUnitLogger.ml" 63 2345 2388
+call(
+  stack
+)
+type(
+  int
+)
+"test/ounit/oUnitLogger.ml" 63 2345 2390 "test/ounit/oUnitLogger.ml" 63 2345 2401
+type(
+  OUnitTypes.test_result list -> int
+)
+ident(
+  ext_ref List.length
+)
+"test/ounit/oUnitLogger.ml" 63 2345 2402 "test/ounit/oUnitLogger.ml" 63 2345 2407
+type(
+  OUnitTypes.test_result list
+)
+ident(
+  int_ref todos "test/ounit/oUnitLogger.ml" 37 1301 1321 "test/ounit/oUnitLogger.ml" 37 1301 1326
+)
+"test/ounit/oUnitLogger.ml" 63 2345 2389 "test/ounit/oUnitLogger.ml" 63 2345 2408
+call(
+  stack
+)
+type(
+  int
+)
+"test/ounit/oUnitLogger.ml" 57 2031 2051 "test/ounit/oUnitLogger.ml" 64 2410 2433
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 48 1683 1701 "test/ounit/oUnitLogger.ml" 64 2410 2433
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 65 2435 2453 "test/ounit/oUnitLogger.ml" 65 2435 2460
+type(
+  (unit, Buffer.t, unit) format -> unit
+)
+ident(
+  int_ref bprintf "test/ounit/oUnitLogger.ml" 23 639 659 "test/ounit/oUnitLogger.ml" 23 639 666
+)
+"test/ounit/oUnitLogger.ml" 65 2435 2461 "test/ounit/oUnitLogger.ml" 65 2435 2465
+type(
+  (unit, Buffer.t, unit) format
+)
+"test/ounit/oUnitLogger.ml" 65 2435 2453 "test/ounit/oUnitLogger.ml" 65 2435 2465
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 66 2467 2485 "test/ounit/oUnitLogger.ml" 66 2467 2500
+type(
+  Buffer.t -> string
+)
+ident(
+  ext_ref Buffer.contents
+)
+"test/ounit/oUnitLogger.ml" 66 2467 2501 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  Buffer.t
+)
+ident(
+  int_ref buf "test/ounit/oUnitLogger.ml" 22 591 611 "test/ounit/oUnitLogger.ml" 22 591 614
+)
+"test/ounit/oUnitLogger.ml" 66 2467 2485 "test/ounit/oUnitLogger.ml" 66 2467 2504
+call(
+  tail
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 65 2435 2453 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 48 1683 1701 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 44 1519 1537 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 43 1477 1495 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 42 1437 1455 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 39 1364 1382 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 37 1301 1317 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 36 1239 1255 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 35 1174 1190 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 34 1111 1127 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 24 699 715 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 23 639 655 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 22 591 607 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 21 516 532 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 20 441 457 "test/ounit/oUnitLogger.ml" 66 2467 2504
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 13 251 259 "test/ounit/oUnitLogger.ml" 67 2505 2516
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 69 2518 2534 "test/ounit/oUnitLogger.ml" 69 2518 2535
+type(
+  OUnitTypes.test_event
+)
+ident(
+  def e "test/ounit/oUnitLogger.ml" 70 2539 2547 "test/ounit/oUnitLogger.ml" 109 3971 3982
+)
+"test/ounit/oUnitLogger.ml" 69 2518 2524 "test/ounit/oUnitLogger.ml" 69 2518 2535
+type(
+  event_type
+)
+"test/ounit/oUnitLogger.ml" 71 2553 2567 "test/ounit/oUnitLogger.ml" 71 2553 2583
+type(
+  OUnitTypes.test_result -> string
+)
+ident(
+  def string_of_result "test/ounit/oUnitLogger.ml" 87 3125 3137 "test/ounit/oUnitLogger.ml" 108 3911 3970
+)
+"test/ounit/oUnitLogger.ml" 72 2587 2602 "test/ounit/oUnitLogger.ml" 72 2587 2609
+type(
+  bool
+)
+ident(
+  int_ref verbose "test/ounit/oUnitLogger.ml" 10 166 183 "test/ounit/oUnitLogger.ml" 10 166 190
+)
+"test/ounit/oUnitLogger.ml" 74 2638 2665 "test/ounit/oUnitLogger.ml" 74 2638 2666
+type(
+  OUnitTypes.path
+)
+"test/ounit/oUnitLogger.ml" 74 2638 2656 "test/ounit/oUnitLogger.ml" 74 2638 2666
+type(
+  OUnitTypes.test_result
+)
+"test/ounit/oUnitLogger.ml" 74 2638 2675 "test/ounit/oUnitLogger.ml" 74 2638 2681
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 75 2682 2710 "test/ounit/oUnitLogger.ml" 75 2682 2711
+type(
+  OUnitTypes.path
+)
+"test/ounit/oUnitLogger.ml" 75 2682 2713 "test/ounit/oUnitLogger.ml" 75 2682 2714
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 75 2682 2700 "test/ounit/oUnitLogger.ml" 75 2682 2715
+type(
+  OUnitTypes.test_result
+)
+"test/ounit/oUnitLogger.ml" 75 2682 2719 "test/ounit/oUnitLogger.ml" 75 2682 2727
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 76 2728 2754 "test/ounit/oUnitLogger.ml" 76 2728 2755
+type(
+  OUnitTypes.path
+)
+"test/ounit/oUnitLogger.ml" 76 2728 2757 "test/ounit/oUnitLogger.ml" 76 2728 2758
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 76 2728 2746 "test/ounit/oUnitLogger.ml" 76 2728 2759
+type(
+  OUnitTypes.test_result
+)
+"test/ounit/oUnitLogger.ml" 76 2728 2765 "test/ounit/oUnitLogger.ml" 76 2728 2774
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 77 2775 2800 "test/ounit/oUnitLogger.ml" 77 2775 2801
+type(
+  OUnitTypes.path
+)
+"test/ounit/oUnitLogger.ml" 77 2775 2803 "test/ounit/oUnitLogger.ml" 77 2775 2804
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 77 2775 2793 "test/ounit/oUnitLogger.ml" 77 2775 2805
+type(
+  OUnitTypes.test_result
+)
+"test/ounit/oUnitLogger.ml" 77 2775 2812 "test/ounit/oUnitLogger.ml" 77 2775 2820
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 78 2821 2846 "test/ounit/oUnitLogger.ml" 78 2821 2847
+type(
+  OUnitTypes.path
+)
+"test/ounit/oUnitLogger.ml" 78 2821 2849 "test/ounit/oUnitLogger.ml" 78 2821 2850
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 78 2821 2839 "test/ounit/oUnitLogger.ml" 78 2821 2851
+type(
+  OUnitTypes.test_result
+)
+"test/ounit/oUnitLogger.ml" 78 2821 2858 "test/ounit/oUnitLogger.ml" 78 2821 2866
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 73 2615 2629 "test/ounit/oUnitLogger.ml" 78 2821 2866
+type(
+  OUnitTypes.test_result -> string
+)
+"test/ounit/oUnitLogger.ml" 81 2907 2934 "test/ounit/oUnitLogger.ml" 81 2907 2935
+type(
+  OUnitTypes.path
+)
+"test/ounit/oUnitLogger.ml" 81 2907 2925 "test/ounit/oUnitLogger.ml" 81 2907 2935
+type(
+  OUnitTypes.test_result
+)
+"test/ounit/oUnitLogger.ml" 81 2907 2944 "test/ounit/oUnitLogger.ml" 81 2907 2947
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 82 2948 2976 "test/ounit/oUnitLogger.ml" 82 2948 2977
+type(
+  OUnitTypes.path
+)
+"test/ounit/oUnitLogger.ml" 82 2948 2979 "test/ounit/oUnitLogger.ml" 82 2948 2980
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 82 2948 2966 "test/ounit/oUnitLogger.ml" 82 2948 2981
+type(
+  OUnitTypes.test_result
+)
+"test/ounit/oUnitLogger.ml" 82 2948 2985 "test/ounit/oUnitLogger.ml" 82 2948 2988
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 83 2989 3015 "test/ounit/oUnitLogger.ml" 83 2989 3016
+type(
+  OUnitTypes.path
+)
+"test/ounit/oUnitLogger.ml" 83 2989 3018 "test/ounit/oUnitLogger.ml" 83 2989 3019
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 83 2989 3007 "test/ounit/oUnitLogger.ml" 83 2989 3020
+type(
+  OUnitTypes.test_result
+)
+"test/ounit/oUnitLogger.ml" 83 2989 3026 "test/ounit/oUnitLogger.ml" 83 2989 3029
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 84 3030 3055 "test/ounit/oUnitLogger.ml" 84 3030 3056
+type(
+  OUnitTypes.path
+)
+"test/ounit/oUnitLogger.ml" 84 3030 3058 "test/ounit/oUnitLogger.ml" 84 3030 3059
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 84 3030 3048 "test/ounit/oUnitLogger.ml" 84 3030 3060
+type(
+  OUnitTypes.test_result
+)
+"test/ounit/oUnitLogger.ml" 84 3030 3067 "test/ounit/oUnitLogger.ml" 84 3030 3070
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 85 3071 3096 "test/ounit/oUnitLogger.ml" 85 3071 3097
+type(
+  OUnitTypes.path
+)
+"test/ounit/oUnitLogger.ml" 85 3071 3099 "test/ounit/oUnitLogger.ml" 85 3071 3100
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 85 3071 3089 "test/ounit/oUnitLogger.ml" 85 3071 3101
+type(
+  OUnitTypes.test_result
+)
+"test/ounit/oUnitLogger.ml" 85 3071 3108 "test/ounit/oUnitLogger.ml" 85 3071 3111
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 80 2884 2898 "test/ounit/oUnitLogger.ml" 85 3071 3111
+type(
+  OUnitTypes.test_result -> string
+)
+"test/ounit/oUnitLogger.ml" 72 2587 2599 "test/ounit/oUnitLogger.ml" 85 3071 3111
+type(
+  OUnitTypes.test_result -> string
+)
+"test/ounit/oUnitLogger.ml" 87 3125 3140 "test/ounit/oUnitLogger.ml" 87 3125 3147
+type(
+  bool
+)
+ident(
+  int_ref verbose "test/ounit/oUnitLogger.ml" 10 166 183 "test/ounit/oUnitLogger.ml" 10 166 190
+)
+"test/ounit/oUnitLogger.ml" 88 3153 3173 "test/ounit/oUnitLogger.ml" 88 3153 3174
+type(
+  OUnitTypes.test_event
+)
+ident(
+  int_ref e "test/ounit/oUnitLogger.ml" 69 2518 2534 "test/ounit/oUnitLogger.ml" 69 2518 2535
+)
+"test/ounit/oUnitLogger.ml" 89 3181 3206 "test/ounit/oUnitLogger.ml" 89 3181 3207
+type(
+  OUnitTypes.path
+)
+ident(
+  def p "test/ounit/oUnitLogger.ml" 90 3212 3232 "test/ounit/oUnitLogger.ml" 90 3212 3278
+)
+"test/ounit/oUnitLogger.ml" 89 3181 3199 "test/ounit/oUnitLogger.ml" 89 3181 3207
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 90 3212 3232 "test/ounit/oUnitLogger.ml" 90 3212 3246
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"test/ounit/oUnitLogger.ml" 90 3212 3247 "test/ounit/oUnitLogger.ml" 90 3212 3259
+type(
+  (string -> string, unit, string) format
+)
+"test/ounit/oUnitLogger.ml" 90 3212 3261 "test/ounit/oUnitLogger.ml" 90 3212 3275
+type(
+  OUnitTypes.path -> string
+)
+ident(
+  ext_ref OUnitUtils.string_of_path
+)
+"test/ounit/oUnitLogger.ml" 90 3212 3276 "test/ounit/oUnitLogger.ml" 90 3212 3277
+type(
+  OUnitTypes.path
+)
+ident(
+  int_ref p "test/ounit/oUnitLogger.ml" 89 3181 3206 "test/ounit/oUnitLogger.ml" 89 3181 3207
+)
+"test/ounit/oUnitLogger.ml" 90 3212 3260 "test/ounit/oUnitLogger.ml" 90 3212 3278
+call(
+  stack
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 90 3212 3232 "test/ounit/oUnitLogger.ml" 90 3212 3278
+call(
+  tail
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 91 3279 3302 "test/ounit/oUnitLogger.ml" 91 3279 3303
+type(
+  OUnitTypes.path
+)
+ident(
+  def p "test/ounit/oUnitLogger.ml" 92 3308 3328 "test/ounit/oUnitLogger.ml" 92 3308 3372
+)
+"test/ounit/oUnitLogger.ml" 91 3279 3297 "test/ounit/oUnitLogger.ml" 91 3279 3303
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 92 3308 3328 "test/ounit/oUnitLogger.ml" 92 3308 3342
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"test/ounit/oUnitLogger.ml" 92 3308 3343 "test/ounit/oUnitLogger.ml" 92 3308 3353
+type(
+  (string -> string, unit, string) format
+)
+"test/ounit/oUnitLogger.ml" 92 3308 3355 "test/ounit/oUnitLogger.ml" 92 3308 3369
+type(
+  OUnitTypes.path -> string
+)
+ident(
+  ext_ref OUnitUtils.string_of_path
+)
+"test/ounit/oUnitLogger.ml" 92 3308 3370 "test/ounit/oUnitLogger.ml" 92 3308 3371
+type(
+  OUnitTypes.path
+)
+ident(
+  int_ref p "test/ounit/oUnitLogger.ml" 91 3279 3302 "test/ounit/oUnitLogger.ml" 91 3279 3303
+)
+"test/ounit/oUnitLogger.ml" 92 3308 3354 "test/ounit/oUnitLogger.ml" 92 3308 3372
+call(
+  stack
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 92 3308 3328 "test/ounit/oUnitLogger.ml" 92 3308 3372
+call(
+  tail
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 93 3373 3399 "test/ounit/oUnitLogger.ml" 93 3373 3405
+type(
+  OUnitTypes.test_result
+)
+ident(
+  def result "test/ounit/oUnitLogger.ml" 94 3410 3430 "test/ounit/oUnitLogger.ml" 94 3410 3453
+)
+"test/ounit/oUnitLogger.ml" 93 3373 3391 "test/ounit/oUnitLogger.ml" 93 3373 3405
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 94 3410 3430 "test/ounit/oUnitLogger.ml" 94 3410 3446
+type(
+  OUnitTypes.test_result -> string
+)
+ident(
+  int_ref string_of_result "test/ounit/oUnitLogger.ml" 71 2553 2567 "test/ounit/oUnitLogger.ml" 71 2553 2583
+)
+"test/ounit/oUnitLogger.ml" 94 3410 3447 "test/ounit/oUnitLogger.ml" 94 3410 3453
+type(
+  OUnitTypes.test_result
+)
+ident(
+  int_ref result "test/ounit/oUnitLogger.ml" 93 3373 3399 "test/ounit/oUnitLogger.ml" 93 3373 3405
+)
+"test/ounit/oUnitLogger.ml" 94 3410 3430 "test/ounit/oUnitLogger.ml" 94 3410 3453
+call(
+  tail
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 95 3454 3478 "test/ounit/oUnitLogger.ml" 95 3454 3481
+type(
+  OUnitTypes.log_severity
+)
+ident(
+  def lvl "test/ounit/oUnitLogger.ml" 96 3491 3511 "test/ounit/oUnitLogger.ml" 102 3707 3744
+)
+"test/ounit/oUnitLogger.ml" 95 3454 3483 "test/ounit/oUnitLogger.ml" 95 3454 3486
+type(
+  string
+)
+ident(
+  def str "test/ounit/oUnitLogger.ml" 96 3491 3511 "test/ounit/oUnitLogger.ml" 102 3707 3744
+)
+"test/ounit/oUnitLogger.ml" 95 3454 3472 "test/ounit/oUnitLogger.ml" 95 3454 3487
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 96 3491 3515 "test/ounit/oUnitLogger.ml" 96 3491 3521
+type(
+  string
+)
+ident(
+  def prefix "test/ounit/oUnitLogger.ml" 102 3707 3729 "test/ounit/oUnitLogger.ml" 102 3707 3744
+)
+"test/ounit/oUnitLogger.ml" 97 3525 3553 "test/ounit/oUnitLogger.ml" 97 3525 3556
+type(
+  OUnitTypes.log_severity
+)
+ident(
+  int_ref lvl "test/ounit/oUnitLogger.ml" 95 3454 3478 "test/ounit/oUnitLogger.ml" 95 3454 3481
+)
+"test/ounit/oUnitLogger.ml" 98 3563 3589 "test/ounit/oUnitLogger.ml" 98 3563 3595
+type(
+  OUnitTypes.log_severity
+)
+"test/ounit/oUnitLogger.ml" 98 3563 3599 "test/ounit/oUnitLogger.ml" 98 3563 3602
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 99 3603 3629 "test/ounit/oUnitLogger.ml" 99 3603 3637
+type(
+  OUnitTypes.log_severity
+)
+"test/ounit/oUnitLogger.ml" 99 3603 3641 "test/ounit/oUnitLogger.ml" 99 3603 3644
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 100 3645 3671 "test/ounit/oUnitLogger.ml" 100 3645 3676
+type(
+  OUnitTypes.log_severity
+)
+"test/ounit/oUnitLogger.ml" 100 3645 3680 "test/ounit/oUnitLogger.ml" 100 3645 3683
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 97 3525 3547 "test/ounit/oUnitLogger.ml" 100 3645 3683
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 102 3707 3729 "test/ounit/oUnitLogger.ml" 102 3707 3735
+type(
+  string
+)
+ident(
+  int_ref prefix "test/ounit/oUnitLogger.ml" 96 3491 3515 "test/ounit/oUnitLogger.ml" 96 3491 3521
+)
+"test/ounit/oUnitLogger.ml" 102 3707 3735 "test/ounit/oUnitLogger.ml" 102 3707 3736
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test/ounit/oUnitLogger.ml" 102 3707 3736 "test/ounit/oUnitLogger.ml" 102 3707 3740
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 102 3707 3740 "test/ounit/oUnitLogger.ml" 102 3707 3741
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"test/ounit/oUnitLogger.ml" 102 3707 3741 "test/ounit/oUnitLogger.ml" 102 3707 3744
+type(
+  string
+)
+ident(
+  int_ref str "test/ounit/oUnitLogger.ml" 95 3454 3483 "test/ounit/oUnitLogger.ml" 95 3454 3486
+)
+"test/ounit/oUnitLogger.ml" 102 3707 3736 "test/ounit/oUnitLogger.ml" 102 3707 3744
+call(
+  stack
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 102 3707 3729 "test/ounit/oUnitLogger.ml" 102 3707 3744
+call(
+  tail
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 96 3491 3511 "test/ounit/oUnitLogger.ml" 102 3707 3744
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 103 3745 3771 "test/ounit/oUnitLogger.ml" 103 3745 3774
+type(
+  string
+)
+ident(
+  def str "test/ounit/oUnitLogger.ml" 104 3778 3798 "test/ounit/oUnitLogger.ml" 104 3778 3801
+)
+"test/ounit/oUnitLogger.ml" 103 3745 3763 "test/ounit/oUnitLogger.ml" 103 3745 3774
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 104 3778 3798 "test/ounit/oUnitLogger.ml" 104 3778 3801
+type(
+  string
+)
+ident(
+  int_ref str "test/ounit/oUnitLogger.ml" 103 3745 3771 "test/ounit/oUnitLogger.ml" 103 3745 3774
+)
+"test/ounit/oUnitLogger.ml" 88 3153 3167 "test/ounit/oUnitLogger.ml" 104 3778 3801
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 106 3820 3840 "test/ounit/oUnitLogger.ml" 106 3820 3841
+type(
+  OUnitTypes.test_event
+)
+ident(
+  int_ref e "test/ounit/oUnitLogger.ml" 69 2518 2534 "test/ounit/oUnitLogger.ml" 69 2518 2535
+)
+"test/ounit/oUnitLogger.ml" 107 3848 3873 "test/ounit/oUnitLogger.ml" 107 3848 3874
+type(
+  OUnitTypes.path
+)
+"test/ounit/oUnitLogger.ml" 107 3848 3866 "test/ounit/oUnitLogger.ml" 107 3848 3874
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 107 3848 3882 "test/ounit/oUnitLogger.ml" 107 3848 3883
+type(
+  OUnitTypes.path
+)
+"test/ounit/oUnitLogger.ml" 107 3848 3877 "test/ounit/oUnitLogger.ml" 107 3848 3883
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 107 3848 3866 "test/ounit/oUnitLogger.ml" 107 3848 3883
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 107 3848 3891 "test/ounit/oUnitLogger.ml" 107 3848 3892
+type(
+  string
+)
+type(
+  OUnitTypes.log_severity
+)
+"test/ounit/oUnitLogger.ml" 107 3848 3886 "test/ounit/oUnitLogger.ml" 107 3848 3892
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 107 3848 3866 "test/ounit/oUnitLogger.ml" 107 3848 3892
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 107 3848 3903 "test/ounit/oUnitLogger.ml" 107 3848 3904
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 107 3848 3895 "test/ounit/oUnitLogger.ml" 107 3848 3904
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 107 3848 3866 "test/ounit/oUnitLogger.ml" 107 3848 3904
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 107 3848 3908 "test/ounit/oUnitLogger.ml" 107 3848 3910
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 108 3911 3937 "test/ounit/oUnitLogger.ml" 108 3911 3943
+type(
+  OUnitTypes.test_result
+)
+ident(
+  def result "test/ounit/oUnitLogger.ml" 108 3911 3947 "test/ounit/oUnitLogger.ml" 108 3911 3970
+)
+"test/ounit/oUnitLogger.ml" 108 3911 3929 "test/ounit/oUnitLogger.ml" 108 3911 3943
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 108 3911 3947 "test/ounit/oUnitLogger.ml" 108 3911 3963
+type(
+  OUnitTypes.test_result -> string
+)
+ident(
+  int_ref string_of_result "test/ounit/oUnitLogger.ml" 71 2553 2567 "test/ounit/oUnitLogger.ml" 71 2553 2583
+)
+"test/ounit/oUnitLogger.ml" 108 3911 3964 "test/ounit/oUnitLogger.ml" 108 3911 3970
+type(
+  OUnitTypes.test_result
+)
+ident(
+  int_ref result "test/ounit/oUnitLogger.ml" 108 3911 3937 "test/ounit/oUnitLogger.ml" 108 3911 3943
+)
+"test/ounit/oUnitLogger.ml" 108 3911 3947 "test/ounit/oUnitLogger.ml" 108 3911 3970
+call(
+  tail
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 106 3820 3834 "test/ounit/oUnitLogger.ml" 108 3911 3970
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 87 3125 3137 "test/ounit/oUnitLogger.ml" 108 3911 3970
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 70 2539 2547 "test/ounit/oUnitLogger.ml" 109 3971 3982
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 11 204 206 "test/ounit/oUnitLogger.ml" 109 3971 3982
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 111 3984 3988 "test/ounit/oUnitLogger.ml" 111 3984 3999
+type(
+  string -> (event_type -> unit) * (unit -> unit)
+)
+ident(
+  def file_logger "test/ounit/oUnitLogger.ml" 118 4146 4146 "test/ounit/oUnitLogger.ml" 1 0 -1
+)
+"test/ounit/oUnitLogger.ml" 111 3984 4000 "test/ounit/oUnitLogger.ml" 111 3984 4002
+type(
+  string
+)
+ident(
+  def fn "test/ounit/oUnitLogger.ml" 112 4005 4007 "test/ounit/oUnitLogger.ml" 116 4115 4144
+)
+"test/ounit/oUnitLogger.ml" 112 4005 4011 "test/ounit/oUnitLogger.ml" 112 4005 4014
+type(
+  out_channel
+)
+ident(
+  def chn "test/ounit/oUnitLogger.ml" 113 4032 4036 "test/ounit/oUnitLogger.ml" 116 4115 4144
+)
+"test/ounit/oUnitLogger.ml" 112 4005 4017 "test/ounit/oUnitLogger.ml" 112 4005 4025
+type(
+  string -> out_channel
+)
+ident(
+  ext_ref Pervasives.open_out
+)
+"test/ounit/oUnitLogger.ml" 112 4005 4026 "test/ounit/oUnitLogger.ml" 112 4005 4028
+type(
+  string
+)
+ident(
+  int_ref fn "test/ounit/oUnitLogger.ml" 111 3984 4000 "test/ounit/oUnitLogger.ml" 111 3984 4002
+)
+"test/ounit/oUnitLogger.ml" 112 4005 4017 "test/ounit/oUnitLogger.ml" 112 4005 4028
+call(
+  stack
+)
+type(
+  out_channel
+)
+"test/ounit/oUnitLogger.ml" 113 4032 4041 "test/ounit/oUnitLogger.ml" 113 4032 4043
+type(
+  event_type
+)
+ident(
+  def ev "test/ounit/oUnitLogger.ml" 114 4047 4054 "test/ounit/oUnitLogger.ml" 115 4096 4112
+)
+"test/ounit/oUnitLogger.ml" 114 4047 4054 "test/ounit/oUnitLogger.ml" 114 4047 4067
+type(
+  out_channel -> string -> unit
+)
+ident(
+  ext_ref Pervasives.output_string
+)
+"test/ounit/oUnitLogger.ml" 114 4047 4068 "test/ounit/oUnitLogger.ml" 114 4047 4071
+type(
+  out_channel
+)
+ident(
+  int_ref chn "test/ounit/oUnitLogger.ml" 112 4005 4011 "test/ounit/oUnitLogger.ml" 112 4005 4014
+)
+"test/ounit/oUnitLogger.ml" 114 4047 4073 "test/ounit/oUnitLogger.ml" 114 4047 4085
+type(
+  bool -> event_type -> string
+)
+ident(
+  int_ref format_event "test/ounit/oUnitLogger.ml" 10 166 170 "test/ounit/oUnitLogger.ml" 10 166 182
+)
+"test/ounit/oUnitLogger.ml" 114 4047 4086 "test/ounit/oUnitLogger.ml" 114 4047 4090
+type(
+  bool
+)
+"test/ounit/oUnitLogger.ml" 114 4047 4091 "test/ounit/oUnitLogger.ml" 114 4047 4093
+type(
+  event_type
+)
+ident(
+  int_ref ev "test/ounit/oUnitLogger.ml" 113 4032 4041 "test/ounit/oUnitLogger.ml" 113 4032 4043
+)
+"test/ounit/oUnitLogger.ml" 114 4047 4072 "test/ounit/oUnitLogger.ml" 114 4047 4094
+call(
+  stack
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 114 4047 4054 "test/ounit/oUnitLogger.ml" 114 4047 4094
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 115 4096 4103 "test/ounit/oUnitLogger.ml" 115 4096 4108
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"test/ounit/oUnitLogger.ml" 115 4096 4109 "test/ounit/oUnitLogger.ml" 115 4096 4112
+type(
+  out_channel
+)
+ident(
+  int_ref chn "test/ounit/oUnitLogger.ml" 112 4005 4011 "test/ounit/oUnitLogger.ml" 112 4005 4014
+)
+"test/ounit/oUnitLogger.ml" 115 4096 4103 "test/ounit/oUnitLogger.ml" 115 4096 4112
+call(
+  tail
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 114 4047 4054 "test/ounit/oUnitLogger.ml" 115 4096 4112
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 113 4032 4036 "test/ounit/oUnitLogger.ml" 115 4096 4113
+type(
+  event_type -> unit
+)
+"test/ounit/oUnitLogger.ml" 116 4115 4124 "test/ounit/oUnitLogger.ml" 116 4115 4126
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 116 4115 4130 "test/ounit/oUnitLogger.ml" 116 4115 4139
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.close_out
+)
+"test/ounit/oUnitLogger.ml" 116 4115 4140 "test/ounit/oUnitLogger.ml" 116 4115 4143
+type(
+  out_channel
+)
+ident(
+  int_ref chn "test/ounit/oUnitLogger.ml" 112 4005 4011 "test/ounit/oUnitLogger.ml" 112 4005 4014
+)
+"test/ounit/oUnitLogger.ml" 116 4115 4130 "test/ounit/oUnitLogger.ml" 116 4115 4143
+call(
+  tail
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 116 4115 4119 "test/ounit/oUnitLogger.ml" 116 4115 4144
+type(
+  unit -> unit
+)
+"test/ounit/oUnitLogger.ml" 113 4032 4036 "test/ounit/oUnitLogger.ml" 116 4115 4144
+type(
+  (event_type -> unit) * (unit -> unit)
+)
+"test/ounit/oUnitLogger.ml" 112 4005 4007 "test/ounit/oUnitLogger.ml" 116 4115 4144
+type(
+  (event_type -> unit) * (unit -> unit)
+)
+"test/ounit/oUnitLogger.ml" 118 4146 4150 "test/ounit/oUnitLogger.ml" 118 4146 4160
+type(
+  bool -> (event_type -> unit) * (unit -> unit)
+)
+ident(
+  def std_logger "test/ounit/oUnitLogger.ml" 124 4268 4268 "test/ounit/oUnitLogger.ml" 1 0 -1
+)
+"test/ounit/oUnitLogger.ml" 118 4146 4161 "test/ounit/oUnitLogger.ml" 118 4146 4168
+type(
+  bool
+)
+ident(
+  def verbose "test/ounit/oUnitLogger.ml" 119 4171 4173 "test/ounit/oUnitLogger.ml" 122 4250 4266
+)
+"test/ounit/oUnitLogger.ml" 119 4171 4178 "test/ounit/oUnitLogger.ml" 119 4171 4180
+type(
+  event_type
+)
+ident(
+  def ev "test/ounit/oUnitLogger.ml" 120 4185 4190 "test/ounit/oUnitLogger.ml" 121 4230 4247
+)
+"test/ounit/oUnitLogger.ml" 120 4185 4190 "test/ounit/oUnitLogger.ml" 120 4185 4202
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"test/ounit/oUnitLogger.ml" 120 4185 4204 "test/ounit/oUnitLogger.ml" 120 4185 4216
+type(
+  bool -> event_type -> string
+)
+ident(
+  int_ref format_event "test/ounit/oUnitLogger.ml" 10 166 170 "test/ounit/oUnitLogger.ml" 10 166 182
+)
+"test/ounit/oUnitLogger.ml" 120 4185 4217 "test/ounit/oUnitLogger.ml" 120 4185 4224
+type(
+  bool
+)
+ident(
+  int_ref verbose "test/ounit/oUnitLogger.ml" 118 4146 4161 "test/ounit/oUnitLogger.ml" 118 4146 4168
+)
+"test/ounit/oUnitLogger.ml" 120 4185 4225 "test/ounit/oUnitLogger.ml" 120 4185 4227
+type(
+  event_type
+)
+ident(
+  int_ref ev "test/ounit/oUnitLogger.ml" 119 4171 4178 "test/ounit/oUnitLogger.ml" 119 4171 4180
+)
+"test/ounit/oUnitLogger.ml" 120 4185 4203 "test/ounit/oUnitLogger.ml" 120 4185 4228
+call(
+  stack
+)
+type(
+  string
+)
+"test/ounit/oUnitLogger.ml" 120 4185 4190 "test/ounit/oUnitLogger.ml" 120 4185 4228
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 121 4230 4235 "test/ounit/oUnitLogger.ml" 121 4230 4240
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"test/ounit/oUnitLogger.ml" 121 4230 4241 "test/ounit/oUnitLogger.ml" 121 4230 4247
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"test/ounit/oUnitLogger.ml" 121 4230 4235 "test/ounit/oUnitLogger.ml" 121 4230 4247
+call(
+  tail
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 120 4185 4190 "test/ounit/oUnitLogger.ml" 121 4230 4247
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 119 4171 4173 "test/ounit/oUnitLogger.ml" 121 4230 4248
+type(
+  event_type -> unit
+)
+"test/ounit/oUnitLogger.ml" 122 4250 4257 "test/ounit/oUnitLogger.ml" 122 4250 4259
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 122 4250 4263 "test/ounit/oUnitLogger.ml" 122 4250 4265
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 122 4250 4252 "test/ounit/oUnitLogger.ml" 122 4250 4266
+type(
+  unit -> unit
+)
+"test/ounit/oUnitLogger.ml" 119 4171 4173 "test/ounit/oUnitLogger.ml" 122 4250 4266
+type(
+  (event_type -> unit) * (unit -> unit)
+)
+"test/ounit/oUnitLogger.ml" 124 4268 4272 "test/ounit/oUnitLogger.ml" 124 4268 4283
+type(
+  ('a -> unit) * ('b -> unit)
+)
+ident(
+  def null_logger "test/ounit/oUnitLogger.ml" 127 4304 4304 "test/ounit/oUnitLogger.ml" 1 0 -1
+)
+"test/ounit/oUnitLogger.ml" 125 4286 4288 "test/ounit/oUnitLogger.ml" 125 4286 4294
+type(
+  'a -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"test/ounit/oUnitLogger.ml" 125 4286 4296 "test/ounit/oUnitLogger.ml" 125 4286 4302
+type(
+  'b -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"test/ounit/oUnitLogger.ml" 125 4286 4288 "test/ounit/oUnitLogger.ml" 125 4286 4302
+type(
+  ('a -> unit) * ('b -> unit)
+)
+"test/ounit/oUnitLogger.ml" 127 4304 4308 "test/ounit/oUnitLogger.ml" 127 4304 4314
+type(
+  string option ->
+  bool ->
+  (event_type -> 'a) * (unit -> 'b) -> (event_type -> 'a) * (unit -> 'b)
+)
+ident(
+  def create "test/ounit/oUnitLogger.ml" 141 4669 4669 "test/ounit/oUnitLogger.ml" 1 0 -1
+)
+"test/ounit/oUnitLogger.ml" 127 4304 4315 "test/ounit/oUnitLogger.ml" 127 4304 4330
+type(
+  string option
+)
+ident(
+  def output_file_opt "test/ounit/oUnitLogger.ml" 127 4304 4331 "test/ounit/oUnitLogger.ml" 139 4622 4667
+)
+"test/ounit/oUnitLogger.ml" 127 4304 4331 "test/ounit/oUnitLogger.ml" 127 4304 4338
+type(
+  bool
+)
+ident(
+  def verbose "test/ounit/oUnitLogger.ml" 127 4304 4339 "test/ounit/oUnitLogger.ml" 139 4622 4667
+)
+"test/ounit/oUnitLogger.ml" 127 4304 4340 "test/ounit/oUnitLogger.ml" 127 4304 4343
+type(
+  event_type -> 'a
+)
+ident(
+  def log "test/ounit/oUnitLogger.ml" 128 4353 4355 "test/ounit/oUnitLogger.ml" 139 4622 4667
+)
+"test/ounit/oUnitLogger.ml" 127 4304 4344 "test/ounit/oUnitLogger.ml" 127 4304 4349
+type(
+  unit -> 'b
+)
+ident(
+  def close "test/ounit/oUnitLogger.ml" 128 4353 4355 "test/ounit/oUnitLogger.ml" 139 4622 4667
+)
+"test/ounit/oUnitLogger.ml" 127 4304 4339 "test/ounit/oUnitLogger.ml" 127 4304 4350
+type(
+  (event_type -> 'a) * (unit -> 'b)
+)
+"test/ounit/oUnitLogger.ml" 128 4353 4359 "test/ounit/oUnitLogger.ml" 128 4353 4366
+type(
+  event_type -> unit
+)
+ident(
+  def std_log "test/ounit/oUnitLogger.ml" 129 4402 4404 "test/ounit/oUnitLogger.ml" 139 4622 4667
+)
+"test/ounit/oUnitLogger.ml" 128 4353 4368 "test/ounit/oUnitLogger.ml" 128 4353 4377
+type(
+  unit -> unit
+)
+ident(
+  def std_close "test/ounit/oUnitLogger.ml" 129 4402 4404 "test/ounit/oUnitLogger.ml" 139 4622 4667
+)
+"test/ounit/oUnitLogger.ml" 128 4353 4359 "test/ounit/oUnitLogger.ml" 128 4353 4377
+type(
+  (event_type -> unit) * (unit -> unit)
+)
+"test/ounit/oUnitLogger.ml" 128 4353 4380 "test/ounit/oUnitLogger.ml" 128 4353 4390
+type(
+  bool -> (event_type -> unit) * (unit -> unit)
+)
+ident(
+  int_ref std_logger "test/ounit/oUnitLogger.ml" 118 4146 4150 "test/ounit/oUnitLogger.ml" 118 4146 4160
+)
+"test/ounit/oUnitLogger.ml" 128 4353 4391 "test/ounit/oUnitLogger.ml" 128 4353 4398
+type(
+  bool
+)
+ident(
+  int_ref verbose "test/ounit/oUnitLogger.ml" 127 4304 4331 "test/ounit/oUnitLogger.ml" 127 4304 4338
+)
+"test/ounit/oUnitLogger.ml" 128 4353 4380 "test/ounit/oUnitLogger.ml" 128 4353 4398
+call(
+  stack
+)
+type(
+  (event_type -> unit) * (unit -> unit)
+)
+"test/ounit/oUnitLogger.ml" 129 4402 4408 "test/ounit/oUnitLogger.ml" 129 4402 4416
+type(
+  event_type -> unit
+)
+ident(
+  def file_log "test/ounit/oUnitLogger.ml" 136 4551 4555 "test/ounit/oUnitLogger.ml" 139 4622 4667
+)
+"test/ounit/oUnitLogger.ml" 129 4402 4418 "test/ounit/oUnitLogger.ml" 129 4402 4428
+type(
+  unit -> unit
+)
+ident(
+  def file_close "test/ounit/oUnitLogger.ml" 136 4551 4555 "test/ounit/oUnitLogger.ml" 139 4622 4667
+)
+"test/ounit/oUnitLogger.ml" 129 4402 4408 "test/ounit/oUnitLogger.ml" 129 4402 4428
+type(
+  (event_type -> unit) * (unit -> unit)
+)
+"test/ounit/oUnitLogger.ml" 130 4432 4442 "test/ounit/oUnitLogger.ml" 130 4432 4457
+type(
+  string option
+)
+ident(
+  int_ref output_file_opt "test/ounit/oUnitLogger.ml" 127 4304 4315 "test/ounit/oUnitLogger.ml" 127 4304 4330
+)
+"test/ounit/oUnitLogger.ml" 131 4464 4477 "test/ounit/oUnitLogger.ml" 131 4464 4479
+type(
+  string
+)
+ident(
+  def fn "test/ounit/oUnitLogger.ml" 132 4483 4493 "test/ounit/oUnitLogger.ml" 132 4483 4507
+)
+"test/ounit/oUnitLogger.ml" 131 4464 4472 "test/ounit/oUnitLogger.ml" 131 4464 4479
+type(
+  string option
+)
+"test/ounit/oUnitLogger.ml" 132 4483 4493 "test/ounit/oUnitLogger.ml" 132 4483 4504
+type(
+  string -> (event_type -> unit) * (unit -> unit)
+)
+ident(
+  int_ref file_logger "test/ounit/oUnitLogger.ml" 111 3984 3988 "test/ounit/oUnitLogger.ml" 111 3984 3999
+)
+"test/ounit/oUnitLogger.ml" 132 4483 4505 "test/ounit/oUnitLogger.ml" 132 4483 4507
+type(
+  string
+)
+ident(
+  int_ref fn "test/ounit/oUnitLogger.ml" 131 4464 4477 "test/ounit/oUnitLogger.ml" 131 4464 4479
+)
+"test/ounit/oUnitLogger.ml" 132 4483 4493 "test/ounit/oUnitLogger.ml" 132 4483 4507
+call(
+  stack
+)
+type(
+  (event_type -> unit) * (unit -> unit)
+)
+"test/ounit/oUnitLogger.ml" 133 4508 4516 "test/ounit/oUnitLogger.ml" 133 4508 4520
+type(
+  string option
+)
+"test/ounit/oUnitLogger.ml" 134 4524 4534 "test/ounit/oUnitLogger.ml" 134 4524 4545
+type(
+  (event_type -> unit) * (unit -> unit)
+)
+ident(
+  int_ref null_logger "test/ounit/oUnitLogger.ml" 124 4268 4272 "test/ounit/oUnitLogger.ml" 124 4268 4283
+)
+"test/ounit/oUnitLogger.ml" 130 4432 4436 "test/ounit/oUnitLogger.ml" 134 4524 4545
+type(
+  (event_type -> unit) * (unit -> unit)
+)
+"test/ounit/oUnitLogger.ml" 136 4551 4560 "test/ounit/oUnitLogger.ml" 136 4551 4562
+type(
+  event_type
+)
+ident(
+  def ev "test/ounit/oUnitLogger.ml" 137 4566 4573 "test/ounit/oUnitLogger.ml" 137 4566 4604
+)
+"test/ounit/oUnitLogger.ml" 137 4566 4573 "test/ounit/oUnitLogger.ml" 137 4566 4580
+type(
+  event_type -> unit
+)
+ident(
+  int_ref std_log "test/ounit/oUnitLogger.ml" 128 4353 4359 "test/ounit/oUnitLogger.ml" 128 4353 4366
+)
+"test/ounit/oUnitLogger.ml" 137 4566 4581 "test/ounit/oUnitLogger.ml" 137 4566 4583
+type(
+  event_type
+)
+ident(
+  int_ref ev "test/ounit/oUnitLogger.ml" 136 4551 4560 "test/ounit/oUnitLogger.ml" 136 4551 4562
+)
+"test/ounit/oUnitLogger.ml" 137 4566 4573 "test/ounit/oUnitLogger.ml" 137 4566 4583
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 137 4566 4585 "test/ounit/oUnitLogger.ml" 137 4566 4593
+type(
+  event_type -> unit
+)
+ident(
+  int_ref file_log "test/ounit/oUnitLogger.ml" 129 4402 4408 "test/ounit/oUnitLogger.ml" 129 4402 4416
+)
+"test/ounit/oUnitLogger.ml" 137 4566 4594 "test/ounit/oUnitLogger.ml" 137 4566 4596
+type(
+  event_type
+)
+ident(
+  int_ref ev "test/ounit/oUnitLogger.ml" 136 4551 4560 "test/ounit/oUnitLogger.ml" 136 4551 4562
+)
+"test/ounit/oUnitLogger.ml" 137 4566 4585 "test/ounit/oUnitLogger.ml" 137 4566 4596
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 137 4566 4598 "test/ounit/oUnitLogger.ml" 137 4566 4601
+type(
+  event_type -> 'a
+)
+ident(
+  int_ref log "test/ounit/oUnitLogger.ml" 127 4304 4340 "test/ounit/oUnitLogger.ml" 127 4304 4343
+)
+"test/ounit/oUnitLogger.ml" 137 4566 4602 "test/ounit/oUnitLogger.ml" 137 4566 4604
+type(
+  event_type
+)
+ident(
+  int_ref ev "test/ounit/oUnitLogger.ml" 136 4551 4560 "test/ounit/oUnitLogger.ml" 136 4551 4562
+)
+"test/ounit/oUnitLogger.ml" 137 4566 4598 "test/ounit/oUnitLogger.ml" 137 4566 4604
+call(
+  tail
+)
+type(
+  'a
+)
+"test/ounit/oUnitLogger.ml" 137 4566 4585 "test/ounit/oUnitLogger.ml" 137 4566 4604
+type(
+  'a
+)
+"test/ounit/oUnitLogger.ml" 137 4566 4573 "test/ounit/oUnitLogger.ml" 137 4566 4604
+type(
+  'a
+)
+"test/ounit/oUnitLogger.ml" 136 4551 4555 "test/ounit/oUnitLogger.ml" 137 4566 4605
+type(
+  event_type -> 'a
+)
+"test/ounit/oUnitLogger.ml" 138 4607 4616 "test/ounit/oUnitLogger.ml" 138 4607 4618
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 139 4622 4629 "test/ounit/oUnitLogger.ml" 139 4622 4638
+type(
+  unit -> unit
+)
+ident(
+  int_ref std_close "test/ounit/oUnitLogger.ml" 128 4353 4368 "test/ounit/oUnitLogger.ml" 128 4353 4377
+)
+"test/ounit/oUnitLogger.ml" 139 4622 4639 "test/ounit/oUnitLogger.ml" 139 4622 4641
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 139 4622 4629 "test/ounit/oUnitLogger.ml" 139 4622 4641
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 139 4622 4643 "test/ounit/oUnitLogger.ml" 139 4622 4653
+type(
+  unit -> unit
+)
+ident(
+  int_ref file_close "test/ounit/oUnitLogger.ml" 129 4402 4418 "test/ounit/oUnitLogger.ml" 129 4402 4428
+)
+"test/ounit/oUnitLogger.ml" 139 4622 4654 "test/ounit/oUnitLogger.ml" 139 4622 4656
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 139 4622 4643 "test/ounit/oUnitLogger.ml" 139 4622 4656
+call(
+  stack
+)
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 139 4622 4658 "test/ounit/oUnitLogger.ml" 139 4622 4663
+type(
+  unit -> 'b
+)
+ident(
+  int_ref close "test/ounit/oUnitLogger.ml" 127 4304 4344 "test/ounit/oUnitLogger.ml" 127 4304 4349
+)
+"test/ounit/oUnitLogger.ml" 139 4622 4664 "test/ounit/oUnitLogger.ml" 139 4622 4666
+type(
+  unit
+)
+"test/ounit/oUnitLogger.ml" 139 4622 4658 "test/ounit/oUnitLogger.ml" 139 4622 4666
+call(
+  tail
+)
+type(
+  'b
+)
+"test/ounit/oUnitLogger.ml" 139 4622 4643 "test/ounit/oUnitLogger.ml" 139 4622 4666
+type(
+  'b
+)
+"test/ounit/oUnitLogger.ml" 139 4622 4629 "test/ounit/oUnitLogger.ml" 139 4622 4666
+type(
+  'b
+)
+"test/ounit/oUnitLogger.ml" 138 4607 4611 "test/ounit/oUnitLogger.ml" 139 4622 4667
+type(
+  unit -> 'b
+)
+"test/ounit/oUnitLogger.ml" 136 4551 4555 "test/ounit/oUnitLogger.ml" 139 4622 4667
+type(
+  (event_type -> 'a) * (unit -> 'b)
+)
+"test/ounit/oUnitLogger.ml" 129 4402 4404 "test/ounit/oUnitLogger.ml" 139 4622 4667
+type(
+  (event_type -> 'a) * (unit -> 'b)
+)
+"test/ounit/oUnitLogger.ml" 128 4353 4355 "test/ounit/oUnitLogger.ml" 139 4622 4667
+type(
+  (event_type -> 'a) * (unit -> 'b)
+)
+"test/ounit/oUnitLogger.ml" 141 4669 4673 "test/ounit/oUnitLogger.ml" 141 4669 4679
+type(
+  (event_type -> 'a) -> ('b, unit, string, 'a) format4 -> 'b
+)
+ident(
+  def printf "test/ounit/oUnitLogger.ml" 145 4758 4765 "test/ounit/oUnitLogger.ml" 1 0 -1
+)
+"test/ounit/oUnitLogger.ml" 141 4669 4680 "test/ounit/oUnitLogger.ml" 141 4669 4683
+type(
+  event_type -> 'a
+)
+ident(
+  def log "test/ounit/oUnitLogger.ml" 141 4669 4684 "test/ounit/oUnitLogger.ml" 145 4758 4765
+)
+"test/ounit/oUnitLogger.ml" 141 4669 4684 "test/ounit/oUnitLogger.ml" 141 4669 4687
+type(
+  ('b, unit, string, 'a) format4
+)
+ident(
+  def fmt "test/ounit/oUnitLogger.ml" 142 4690 4692 "test/ounit/oUnitLogger.ml" 145 4758 4765
+)
+"test/ounit/oUnitLogger.ml" 142 4690 4692 "test/ounit/oUnitLogger.ml" 142 4690 4707
+type(
+  (string -> 'a) -> ('b, unit, string, 'a) format4 -> 'b
+)
+ident(
+  ext_ref Printf.ksprintf
+)
+"test/ounit/oUnitLogger.ml" 143 4708 4717 "test/ounit/oUnitLogger.ml" 143 4708 4718
+type(
+  string
+)
+ident(
+  def s "test/ounit/oUnitLogger.ml" 144 4722 4729 "test/ounit/oUnitLogger.ml" 144 4722 4756
+)
+"test/ounit/oUnitLogger.ml" 144 4722 4729 "test/ounit/oUnitLogger.ml" 144 4722 4732
+type(
+  event_type -> 'a
+)
+ident(
+  int_ref log "test/ounit/oUnitLogger.ml" 141 4669 4680 "test/ounit/oUnitLogger.ml" 141 4669 4683
+)
+"test/ounit/oUnitLogger.ml" 144 4722 4753 "test/ounit/oUnitLogger.ml" 144 4722 4754
+type(
+  string
+)
+ident(
+  int_ref s "test/ounit/oUnitLogger.ml" 143 4708 4717 "test/ounit/oUnitLogger.ml" 143 4708 4718
+)
+"test/ounit/oUnitLogger.ml" 144 4722 4744 "test/ounit/oUnitLogger.ml" 144 4722 4755
+type(
+  OUnitTypes.test_event
+)
+"test/ounit/oUnitLogger.ml" 144 4722 4733 "test/ounit/oUnitLogger.ml" 144 4722 4756
+type(
+  event_type
+)
+"test/ounit/oUnitLogger.ml" 144 4722 4729 "test/ounit/oUnitLogger.ml" 144 4722 4756
+call(
+  tail
+)
+type(
+  'a
+)
+"test/ounit/oUnitLogger.ml" 143 4708 4712 "test/ounit/oUnitLogger.ml" 144 4722 4757
+type(
+  string -> 'a
+)
+"test/ounit/oUnitLogger.ml" 145 4758 4762 "test/ounit/oUnitLogger.ml" 145 4758 4765
+type(
+  ('b, unit, string, 'a) format4
+)
+ident(
+  int_ref fmt "test/ounit/oUnitLogger.ml" 141 4669 4684 "test/ounit/oUnitLogger.ml" 141 4669 4687
+)
+"test/ounit/oUnitLogger.ml" 142 4690 4692 "test/ounit/oUnitLogger.ml" 145 4758 4765
+call(
+  tail
+)
+type(
+  'b
+)

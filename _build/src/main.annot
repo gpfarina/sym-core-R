@@ -1,0 +1,403 @@
+"src/main.ml" 12 107 111 "src/main.ml" 12 107 124
+type(
+  int
+)
+ident(
+  def default_steps "src/main.ml" 14 138 138 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 12 107 133 "src/main.ml" 12 107 136
+type(
+  int
+)
+type(
+  int
+)
+"src/main.ml" 14 138 142 "src/main.ml" 14 138 146
+type(
+  unit -> unit
+)
+ident(
+  def main "src/main.ml" 73 1908 1908 "src/main.ml" 1 0 -1
+)
+"src/main.ml" 14 138 147 "src/main.ml" 14 138 149
+type(
+  unit
+)
+"src/main.ml" 15 152 154 "src/main.ml" 15 152 167
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/main.ml" 15 152 168 "src/main.ml" 15 152 188
+type(
+  string
+)
+"src/main.ml" 15 152 154 "src/main.ml" 15 152 188
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 21 456 462 "src/main.ml" 21 456 467
+type(
+  Support.state
+)
+ident(
+  def state "src/main.ml" 22 502 504 "src/main.ml" 68 1864 1897
+)
+"src/main.ml" 21 456 470 "src/main.ml" 21 456 485
+type(
+  string -> Support.state
+)
+ident(
+  ext_ref Loader.load_file_guess
+)
+"src/main.ml" 21 456 486 "src/main.ml" 21 456 494
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"src/main.ml" 21 456 496 "src/main.ml" 21 456 497
+type(
+  int
+)
+"src/main.ml" 21 456 486 "src/main.ml" 21 456 498
+type(
+  string
+)
+"src/main.ml" 21 456 470 "src/main.ml" 21 456 498
+call(
+  stack
+)
+type(
+  Support.state
+)
+"src/main.ml" 22 502 508 "src/main.ml" 22 502 509
+type(
+  int
+)
+ident(
+  def n "src/main.ml" 52 1452 1454 "src/main.ml" 68 1864 1897
+)
+"src/main.ml" 22 502 515 "src/main.ml" 22 502 527
+type(
+  string array -> int
+)
+ident(
+  ext_ref Array.length
+)
+"src/main.ml" 22 502 528 "src/main.ml" 22 502 536
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"src/main.ml" 22 502 515 "src/main.ml" 22 502 536
+type(
+  int
+)
+"src/main.ml" 22 502 537 "src/main.ml" 22 502 538
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/main.ml" 22 502 539 "src/main.ml" 22 502 540
+type(
+  int
+)
+"src/main.ml" 22 502 515 "src/main.ml" 22 502 540
+type(
+  bool
+)
+"src/main.ml" 23 546 558 "src/main.ml" 23 546 571
+type(
+  int
+)
+ident(
+  int_ref default_steps "src/main.ml" 12 107 111 "src/main.ml" 12 107 124
+)
+"src/main.ml" 25 587 599 "src/main.ml" 25 587 612
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"src/main.ml" 25 587 613 "src/main.ml" 25 587 621
+type(
+  string array
+)
+ident(
+  ext_ref Sys.argv
+)
+"src/main.ml" 25 587 623 "src/main.ml" 25 587 624
+type(
+  int
+)
+"src/main.ml" 25 587 613 "src/main.ml" 25 587 625
+type(
+  string
+)
+"src/main.ml" 25 587 599 "src/main.ml" 25 587 625
+type(
+  int
+)
+"src/main.ml" 22 502 512 "src/main.ml" 25 587 625
+type(
+  int
+)
+"src/main.ml" 52 1452 1458 "src/main.ml" 52 1452 1461
+type(
+  Rules.passresult
+)
+ident(
+  def res "src/main.ml" 53 1483 1485 "src/main.ml" 68 1864 1897
+)
+"src/main.ml" 52 1452 1464 "src/main.ml" 52 1452 1469
+type(
+  int -> Support.state list -> Rules.passresult
+)
+ident(
+  ext_ref Engine.run_n
+)
+"src/main.ml" 52 1452 1470 "src/main.ml" 52 1452 1471
+type(
+  int
+)
+ident(
+  int_ref n "src/main.ml" 22 502 508 "src/main.ml" 22 502 509
+)
+"src/main.ml" 52 1452 1473 "src/main.ml" 52 1452 1478
+type(
+  Support.state
+)
+ident(
+  int_ref state "src/main.ml" 21 456 462 "src/main.ml" 21 456 467
+)
+"src/main.ml" 52 1452 1472 "src/main.ml" 52 1452 1479
+type(
+  Support.state list
+)
+"src/main.ml" 52 1452 1464 "src/main.ml" 52 1452 1479
+call(
+  stack
+)
+type(
+  Rules.passresult
+)
+"src/main.ml" 53 1483 1489 "src/main.ml" 53 1483 1490
+type(
+  unit
+)
+"src/main.ml" 53 1483 1493 "src/main.ml" 53 1483 1506
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/main.ml" 53 1483 1508 "src/main.ml" 53 1483 1528
+type(
+  Rules.passresult -> string
+)
+ident(
+  ext_ref Interputils.string_of_passresult
+)
+"src/main.ml" 53 1483 1529 "src/main.ml" 53 1483 1532
+type(
+  Rules.passresult
+)
+ident(
+  int_ref res "src/main.ml" 52 1452 1458 "src/main.ml" 52 1452 1461
+)
+"src/main.ml" 53 1483 1507 "src/main.ml" 53 1483 1533
+call(
+  stack
+)
+type(
+  string
+)
+"src/main.ml" 53 1483 1493 "src/main.ml" 53 1483 1533
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 54 1537 1543 "src/main.ml" 54 1537 1548
+type(
+  string list
+)
+ident(
+  def solns "src/main.ml" 55 1614 1616 "src/main.ml" 68 1864 1897
+)
+"src/main.ml" 54 1537 1551 "src/main.ml" 54 1537 1554
+type(
+  (Rules.rule list * Support.state -> string) ->
+  (Rules.rule list * Support.state) list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"src/main.ml" 54 1537 1561 "src/main.ml" 54 1537 1562
+type(
+  Rules.rule list
+)
+"src/main.ml" 54 1537 1564 "src/main.ml" 54 1537 1565
+type(
+  Support.state
+)
+ident(
+  def s "src/main.ml" 54 1537 1570 "src/main.ml" 54 1537 1594
+)
+"src/main.ml" 54 1537 1560 "src/main.ml" 54 1537 1566
+type(
+  Rules.rule list * Support.state
+)
+"src/main.ml" 54 1537 1570 "src/main.ml" 54 1537 1588
+type(
+  Support.state -> string
+)
+ident(
+  ext_ref Engine.solve_stupid_state
+)
+"src/main.ml" 54 1537 1589 "src/main.ml" 54 1537 1594
+type(
+  Support.state
+)
+ident(
+  int_ref state "src/main.ml" 21 456 462 "src/main.ml" 21 456 467
+)
+"src/main.ml" 54 1537 1570 "src/main.ml" 54 1537 1594
+call(
+  tail
+)
+type(
+  string
+)
+"src/main.ml" 54 1537 1555 "src/main.ml" 54 1537 1595
+type(
+  Rules.rule list * Support.state -> string
+)
+"src/main.ml" 54 1537 1596 "src/main.ml" 54 1537 1599
+type(
+  Rules.passresult
+)
+ident(
+  int_ref res "src/main.ml" 52 1452 1458 "src/main.ml" 52 1452 1461
+)
+"src/main.ml" 54 1537 1596 "src/main.ml" 54 1537 1610
+type(
+  (Rules.rule list * Support.state) list
+)
+"src/main.ml" 54 1537 1551 "src/main.ml" 54 1537 1610
+call(
+  stack
+)
+type(
+  string list
+)
+"src/main.ml" 55 1614 1620 "src/main.ml" 55 1614 1621
+type(
+  unit
+)
+"src/main.ml" 55 1614 1624 "src/main.ml" 55 1614 1633
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"src/main.ml" 55 1614 1634 "src/main.ml" 55 1614 1649
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/main.ml" 55 1614 1650 "src/main.ml" 55 1614 1655
+type(
+  string list
+)
+ident(
+  int_ref solns "src/main.ml" 54 1537 1543 "src/main.ml" 54 1537 1548
+)
+"src/main.ml" 55 1614 1624 "src/main.ml" 55 1614 1655
+call(
+  stack
+)
+type(
+  unit
+)
+"src/main.ml" 68 1864 1866 "src/main.ml" 68 1864 1879
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"src/main.ml" 68 1864 1880 "src/main.ml" 68 1864 1896
+type(
+  string
+)
+"src/main.ml" 68 1864 1866 "src/main.ml" 68 1864 1897
+call(
+  tail
+)
+type(
+  unit
+)
+"src/main.ml" 55 1614 1616 "src/main.ml" 68 1864 1897
+type(
+  unit
+)
+"src/main.ml" 54 1537 1539 "src/main.ml" 68 1864 1897
+type(
+  unit
+)
+"src/main.ml" 53 1483 1485 "src/main.ml" 68 1864 1897
+type(
+  unit
+)
+"src/main.ml" 52 1452 1454 "src/main.ml" 68 1864 1897
+type(
+  unit
+)
+"src/main.ml" 22 502 504 "src/main.ml" 68 1864 1897
+type(
+  unit
+)
+"src/main.ml" 21 456 458 "src/main.ml" 68 1864 1897
+type(
+  unit
+)
+"src/main.ml" 15 152 154 "src/main.ml" 68 1864 1897
+type(
+  unit
+)
+"src/main.ml" 73 1908 1908 "src/main.ml" 73 1908 1912
+type(
+  unit -> unit
+)
+ident(
+  int_ref main "src/main.ml" 14 138 142 "src/main.ml" 14 138 146
+)
+"src/main.ml" 73 1908 1913 "src/main.ml" 73 1908 1915
+type(
+  unit
+)
+"src/main.ml" 73 1908 1908 "src/main.ml" 73 1908 1915
+call(
+  stack
+)
+type(
+  unit
+)

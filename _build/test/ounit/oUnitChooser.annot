@@ -1,0 +1,39 @@
+"test/ounit/oUnitChooser.ml" 12 154 158 "test/ounit/oUnitChooser.ml" 12 154 164
+type(
+  OUnitTypes.state -> OUnitTypes.path * (unit -> unit)
+)
+ident(
+  def simple "test/ounit/oUnitChooser.ml" 13 173 202 "test/ounit/oUnitChooser.ml" 1 0 -1
+)
+"test/ounit/oUnitChooser.ml" 12 154 165 "test/ounit/oUnitChooser.ml" 12 154 170
+type(
+  OUnitTypes.state
+)
+ident(
+  def state "test/ounit/oUnitChooser.ml" 13 173 175 "test/ounit/oUnitChooser.ml" 13 173 202
+)
+"test/ounit/oUnitChooser.ml" 13 173 175 "test/ounit/oUnitChooser.ml" 13 173 182
+type(
+  (OUnitTypes.path * (unit -> unit)) list -> OUnitTypes.path * (unit -> unit)
+)
+ident(
+  ext_ref List.hd
+)
+"test/ounit/oUnitChooser.ml" 13 173 183 "test/ounit/oUnitChooser.ml" 13 173 188
+type(
+  OUnitTypes.state
+)
+ident(
+  int_ref state "test/ounit/oUnitChooser.ml" 12 154 165 "test/ounit/oUnitChooser.ml" 12 154 170
+)
+"test/ounit/oUnitChooser.ml" 13 173 183 "test/ounit/oUnitChooser.ml" 13 173 202
+type(
+  (OUnitTypes.path * (unit -> unit)) list
+)
+"test/ounit/oUnitChooser.ml" 13 173 175 "test/ounit/oUnitChooser.ml" 13 173 202
+call(
+  tail
+)
+type(
+  OUnitTypes.path * (unit -> unit)
+)
